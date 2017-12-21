@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('upload') {
       steps {
-        s3Upload 'arn:aws:s3:::it.bz.geobank'
+        s3Upload(bucket: 'arn:aws:s3:::it.bz.geobank', acl: 'PublicRead', file: './', metadatas: '*')
       }
     }
   }
