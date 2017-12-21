@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('upload') {
       steps {
-        s3Upload(bucket: 'it.bz.geobank', acl: 'PublicRead', metadatas: ['Content-Type:text/html','Description:Website for Geobank project'], includePathPattern: './**')
+        s3Upload(bucket: 'it.bz.geobank', acl: 'PublicRead', file:'./', excludePathPattern: '*/.git/*', metadatas: ['Content-Type:text/html','Description:Website for Geobank project'])
       }
     }
   }
