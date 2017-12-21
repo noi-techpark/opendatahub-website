@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('upload') {
       steps {
-        s3Upload(bucket: 'arn:aws:s3:::it.bz.geobank', acl: 'PublicRead', file: './', metadatas: '*')
+        s3Upload(bucket: 'arn:aws:s3:::it.bz.geobank', acl: 'PublicRead', file: './', metadatas: '[*:*]')
       }
     }
   }
