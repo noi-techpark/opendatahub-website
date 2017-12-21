@@ -8,7 +8,7 @@ pipeline {
     }
   }
   environment {
-    AWS_ACCESS_KEY_ID = '"${env.s3_key}"'
-    AWS_SECRET_ACCESS_KEY = '"env.s3_secret"'
+    AWS_ACCESS_KEY_ID = '${env.s3_key}'
+    AWS_SECRET_ACCESS_KEY = '${env.s3_secret}'
   }
 }
