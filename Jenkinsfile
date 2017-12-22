@@ -2,13 +2,14 @@ pipeline {
   agent any
   stages {
     stage('upload') {
+      withCredentials([usernamePassword(credentialsId: 'amazon',
+                           usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]) {
+          sh 'echo $PASSWORD'
+          echo "${env.USERNAME}"
+      }
       steps {
         s3Upload(bucket: 'it.bz.geobank', acl: 'PublicRead', file: './src')
       }
     }
-  }
-  environment {
-    AWS_ACCESS_KEY_ID = 'AKIAIGVR3ZPGIFGAME3Q'
-    AWS_SECRET_ACCESS_KEY = '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'
   }
 }
