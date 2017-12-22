@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('upload') {
       steps {
-        s3Upload(bucket: 'it.bz.geobank', acl: 'PublicRead', includePathPattern: 'src/**')
+        s3Upload(bucket: 'it.bz.geobank', acl: 'PublicRead', includePathPattern: '**/src/**')
       }
     }
   }
