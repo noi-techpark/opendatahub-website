@@ -21,7 +21,6 @@ header{
 	padding:0;
 }
 header .bar{
-
 	float:left;
 	padding:20px 0;
 	background-color: #a9bf00ff;
@@ -44,24 +43,26 @@ header h1:before{
 	border-bottom: 130px solid white;
 	border-left: 60px solid transparent;
 }
-header .idm-logo{
+header .geobank-logo{
 	display: block;
 	background: white;
-	float:right;
-	width:15vw;
+	float:left;
+	width:100%;
 }
-header .idm-logo img{
-	width:120px;
+header .geobank-logo img{
+	width:240px;
 	text-align: center;
 	vertical-align: middle;
 	padding:18.5px;
-	margin-right:18.5px; 
-	float:right;
+	margin-left:64px; 
+	float:left;
 }
 
 .content{
-		font-size: 3em;
-		width:1200px;
-		margin:auto;
-		padding: 50px;
+	font-size: 3em;
+	color:black;
+	text-shadow: 3px 2px #717171;
+	width:1200px;
+	margin:auto;
+	padding: 50px;
 }
