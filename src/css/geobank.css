@@ -57,8 +57,8 @@ header .geobank-logo{
 	width:100%;
 }
 header .geobank-logo img{
-	width:240px;
 	text-align: center;
+	height: 12vh;
 	vertical-align: middle;
 	padding:18.5px;
 	float:left;
@@ -75,7 +75,7 @@ header .geobank-logo img{
        mix-blend-mode: difference;
 }
 
-@media (max-width:640px) and (orientation:portrait), (max-height:400px) and (orientation:landscape) {
+@media (max-width:640px) and (orientation:portrait), (max-height:440px) and (orientation:landscape) {
 	header	{
 		height:15vh;
 		
