@@ -76,6 +76,9 @@ header .geobank-logo img{
 }
 
 @media (max-width:640px) and (orientation:portrait), (max-height:440px) and (orientation:landscape) {
+	html,body{
+		background-position:center;
+	}
 	header	{
 		height:15vh;
 		
