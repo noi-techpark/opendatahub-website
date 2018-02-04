@@ -6,8 +6,10 @@ html,body{
 	color: #333;
 	background: url('../idm-noi-techpark.jpg') no-repeat;
 	background-size: cover;
-	width:100vw;
+	width: 100vw;
 	height: 100vh;
+	background-color: #000;
+  	background-blend-mode: luminosity;
 }
 main{
 	padding-top:15vh;
@@ -70,9 +72,6 @@ header .geobank-logo img{
 	width:85vw;
 	margin:auto;
 	padding: 50px 0;
-}
-.content p{
-       mix-blend-mode: difference;
 }
 
 @media (max-width:640px) and (orientation:portrait), (max-height:440px) and (orientation:landscape) {
