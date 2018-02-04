@@ -85,4 +85,11 @@ header .geobank-logo img{
 	.content{
 		font-size:1.4em;
 	}
+	.content p{
+		background-color: rgba(255,255,255,0.3);
+		line-height:1.5em;
+		padding:15px;
+		-webkit-box-decoration-break: clone;
+  		box-decoration-break: clone;
+	}
 }
