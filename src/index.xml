@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open Data Hub South Tyrol - Alto Adige</title>
+    <link>http://opendatahub.bz.it/</link>
+    <description>Recent content on Open Data Hub South Tyrol - Alto Adige</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	<atom:link href="http://opendatahub.bz.it/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
