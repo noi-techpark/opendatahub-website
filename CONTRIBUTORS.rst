@@ -22,7 +22,7 @@
  exit;
 **Contributors (sorted by number of commits):**
 
-* bertolla <patrick.bertolla@idm-suedtirol.com>
+* Patrick Bertolla <patrick.bertolla@idm-suedtirol.com>
 * Patrick Ohnewein <patrick.ohnewein@lugbz.org>
 
 *To update the contributors list just run this file with bash. Prefix a name with % in .mailmap to set a contact as preferred*
