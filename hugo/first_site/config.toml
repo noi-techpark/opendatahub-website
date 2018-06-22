@@ -319,7 +319,7 @@ title = "Open Data Hub South Tyrol - Alto Adige"
 [params.contact]
   enable = true
   title = "Get In Touch"
-  message = "If you would like to become e member of the Open Data Hub Community as a Data Provider, Data Consumer or as a Contributer, you can meet us at our events or just get in touch with us through e-mail."
+  message = "If you would like to become a member of the Open Data Hub Community as a Data Provider, Data Consumer or as a Contributer, you can meet us at our events or just get in touch with us through e-mail."
 
 # Footer section
 # Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.

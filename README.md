@@ -5,8 +5,7 @@ Any modification to the master branch gets deployed directly.
 
 ## website lives in src directory
 
-all the html, css, js, ... files in src are the files of the website are stored
-inside the src directory.
+The html, css, js, ... files in src are the files of the website.
 
 ## hugo to generate the static website
 
@@ -14,13 +13,13 @@ To generate the static website we use hugo (https://gohugo.io/). This allows us
 to define and use templates and to be faster and more flexible in the creation
 of a mobile first website.
 
-All configuration files for hugo to generate the website live inside the /hugo/
+All configuration files for hugo to generate the website live inside the repo/hugo/first_site/
 directory.
 
 ## How to change content of the website
 
 You can change configuration and content files using a simple text editor and
-editing the files inside repo/hugo/
+editing the files inside repo/hugo/first_site/
 
 More information about how hugo works is available in the documentation
 
@@ -31,7 +30,18 @@ https://gohugo.io/getting-started/usage/
 Use the `hugo server` command to start a local webserver. Once this webserver is 
 running, you can access your website on `http://localhost:1313/`
 
-This allows you to test all your modification on your local machine, before
+```
+# you have to be inside the hugo configuration directory
+cd repo/hugo/first_site/
+
+# start the local hugo webserver
+hugo server
+
+# visit http://localhost:1313/ in your prefered web browser
+
+```
+
+This allows you to test all your modifications on your local machine, before
 you commit and push your changes to the git repositories.
 
 ## How to publish your changes to the the website?
