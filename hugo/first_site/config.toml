@@ -4,6 +4,7 @@ theme = "hugo-icon"
 baseURL = "."
 languageCode = "en"
 title = "Open Data Hub South Tyrol - Alto Adige"
+featured_image = "img/logo-open-data-hub.png"
 
 # Metadata
 [params]
