@@ -1,6 +1,7 @@
 # Main config file for icon theme.
 theme = "hugo-icon"
-baseURL = "http://opendatahub.bz.it"
+#baseURL = "http://opendatahub.bz.it"
+baseURL = "."
 languageCode = "en"
 title = "Open Data Hub South Tyrol - Alto Adige"
 

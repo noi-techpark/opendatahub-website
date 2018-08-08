@@ -21,6 +21,15 @@ directory.
 You can change configuration and content files using a simple text editor and
 editing the files inside repo/hugo/first_site/
 
+```
+# you have to be inside the hugo configuration directory
+cd repo/hugo/first_site/
+
+# execute the hugo command, this will generate the new website inside the 
+# public subdirectory, which is a symbolic link to ../../src
+hugo
+```
+
 More information about how hugo works is available in the documentation
 
 https://gohugo.io/getting-started/usage/
