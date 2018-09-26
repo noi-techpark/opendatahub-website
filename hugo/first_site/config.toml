@@ -67,7 +67,7 @@ featured_image = "img/logo-open-data-hub.png"
 [params.services]
   enable = true
   video = true
-  vidlink = "https://vimeo.com/244526822"
+  vidlink = "https://vimeo.com/292011350"
   title = "Our Services"
   description = "We support the implementation of an innovation platform, where talents can use data and create innovative solutions for the <i>SMART Green Region South Tyrol</i>."
 
