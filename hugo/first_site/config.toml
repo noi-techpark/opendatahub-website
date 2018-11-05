@@ -72,9 +72,14 @@ featured_image = "img/logo-open-data-hub.png"
   description = "We support the implementation of an innovation platform, where talents can use data and create innovative solutions for the <i>SMART Green Region South Tyrol</i>."
 
   [[params.services.item]]
+    icon = "icon-support"
+    title = "Documentation"
+    description = "The community shares knowledge and experience at events and through <a href='http://opendatahub.readthedocs.io/en/latest/index.html' target='_blank'>online documentation</a>!"
+
+  [[params.services.item]]
     icon = "icon-present"
     title = "Open Data"
-    description = "Data Providers open up their data to gain visibility!"
+    description = "Data Providers open up their <a href='https://opendatahub.readthedocs.io/en/latest/datasets.html' target='_blank'>datasets</a> to gain visibility! "
 
   [[params.services.item]]
     icon = "icon-eye"
@@ -94,12 +99,7 @@ featured_image = "img/logo-open-data-hub.png"
   [[params.services.item]]
     icon = "icon-rocket"
     title = "Promote Prototyping"
-    description = "Start-Ups increase accessibility and value of data, by using them in their apps."
-
-  [[params.services.item]]
-    icon = "icon-support"
-    title = "Documentation"
-    description = "The community shares knowledge and experience at events and through <a href='http://opendatahub.readthedocs.io/en/latest/index.html' target='_blank'>online documentation</a>!"
+    description = "Start-Ups increase accessibility and value of data, by using them in their <a href='https://opendatahub.readthedocs.io/en/latest/applist.html' target='_blank'>apps</a>."
 
 # Work section
 [params.work]
