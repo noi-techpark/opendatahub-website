@@ -84,7 +84,7 @@ featured_image = "img/logo-open-data-hub.png"
   [[params.services.item]]
     icon = "icon-paper-plane"
     title = "Real Time Data"
-    description = "Real time data enables talents to create powerful services, like <a href='https://www.parking.bz.it/' target='_blank'>www.parking.bz.it</a>."
+    description = "Real time data enables talents to create powerful services, like <a href='https://parking.bz.it/' target='_blank'>parking.bz.it</a>."
 
   [[params.services.item]]
     icon = "icon-pencil"
