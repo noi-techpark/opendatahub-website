@@ -1,4 +1,4 @@
-# opendatahub.bz.it
+# Open Data Hub Website
 
 Repository for the [Open Data Hub](https://opendatahub.bz.it/) website created with [Hugo](https://gohugo.io/).
 
