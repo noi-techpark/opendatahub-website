@@ -1,95 +1,108 @@
 # Open Data Hub Website
 
-This site is a static website which gets deployed to amazon s3 service through Jenkins.
-Any modification to the master branch gets deployed directly.
+Repository for the [Open Data Hub](https://opendatahub.bz.it/) website created with [Hugo](https://gohugo.io/).
 
-## website lives in src directory
+## Table of contents
 
-The html, css, js, ... files in src are the files of the website.
+- [Gettings started](#getting-started)
+- [Deployment](#deployment)
+- [Docker environment](#docker-environment)
+- [Information](#information)
 
-## hugo to generate the static website
+## Getting started
 
-To generate the static website we use hugo (https://gohugo.io/). This allows us
-to define and use templates and to be faster and more flexible in the creation
-of a mobile first website.
+These instructions will get you a copy of the project up and running
+on your local machine for development and testing purposes.
 
-All configuration files for hugo to generate the website live inside the repo/hugo/first_site/
-directory.
+### Prerequisites
 
-## How to change content of the website
+To build the project, the following prerequisites must be met:
 
-You can change configuration and content files using a simple text editor and
-editing the files inside repo/hugo/first_site/
+- [Hugo](https://gohugo.io/)
 
-```
-# you have to be inside the hugo configuration directory
-cd repo/hugo/first_site/
+If you don't want to install all prerequisites directly on your machine and instead use a Docker environment with all prerequisites already installed and configured, you can check out the [Docker environment](#docker-environment) section.
 
-# execute the hugo command, this will generate the new website inside the 
-# public subdirectory, which is a symbolic link to ../../src
-hugo
-```
+### Source code
 
-More information about how hugo works is available in the documentation
+Get a copy of the repository:
 
-https://gohugo.io/getting-started/usage/
-
-## How to test the website on your local machine before publishing it?
-
-Use the `hugo server` command to start a local webserver. Once this webserver is 
-running, you can access your website on `http://localhost:1313/`
-
-```
-# you have to be inside the hugo configuration directory
-cd repo/hugo/first_site/
-
-# start the local hugo webserver
-hugo server
-
-# visit http://localhost:1313/ in your prefered web browser
-
+```bash
+git clone git@github.com:idm-suedtirol/geobank-website.git
 ```
 
-This allows you to test all your modifications on your local machine, before
-you commit and push your changes to the git repositories.
+Change directory:
 
-## How to publish your changes to the the website?
-
-Once you are happy with the website and you have tested it on your local machine,
-you can commit it to your local git repo and push the changes to the official repo.
-This will trigger a Jenkins pipeline, which will update the website on S3.
-
-```
-# verify changes you made
-git status
-
-# add files if needed using `git add <file>`
-
-# commit all changes
-git commit -a
-
-# push changes from your local repository to the official repo
-git push
+```bash
+cd geobank-website
 ```
 
-## How to setup your development environment?
+### Development
 
-You need to install hugo on your system and to clone the repository.
+To start a local webserver that serves the project, simply run the following command:
 
-```
-# install hugo
-apt-get install hugo
-
-# clone the repository
-git clone https://github.com/idm-suedtirol/geobank-website
+```bash
+hugo server -s src
 ```
 
+The website will be available at [http://127.0.0.1:1313](http://127.0.0.1:1313). It also recompiles automatically if you make any change to the source code.
 
+## Deployment
 
+To deploy the website, simply run the command `hugo -s src -d ../target` from the root folder of the project. The final version of the website will then be generate inside the `target` folder.
 
+## Docker environment
 
+For the project a Docker environment is already prepared and ready to use with all necessary prerequisites.
 
+These Docker containers are the same as used by the continuous integration servers.
 
+### Installation
 
+Install [Docker](https://docs.docker.com/install/) (with Docker Compose) locally on your machine.
 
+### Start and stop the containers
 
+Before start working you have to start the Docker containers:
+
+```
+docker-compose up --build --detach
+```
+
+The website will be available at [http://127.0.0.1:1313](http://127.0.0.1:1313). It also recompiles automatically if you make any change to the source code.
+
+After finished working you can stop the Docker containers:
+
+```
+docker-compose stop
+```
+
+## Information
+
+### Support
+
+For support, please contact [info@opendatahub.bz.it](mailto:info@opendatahub.bz.it).
+
+### Contributing
+
+If you'd like to contribute, please follow the following instructions:
+
+- Fork the repository.
+
+- Checkout a topic branch from the `master` branch.
+
+- Make sure the tests are passing.
+
+- Create a pull request against the `master` branch.
+
+### Documentation
+
+More documentation can be found at [https://opendatahub.readthedocs.io/en/latest/index.html](https://opendatahub.readthedocs.io/en/latest/index.html).
+
+### Boilerplate
+
+The project uses this boilerplate: [https://github.com/idm-suedtirol/hugo-boilerplate](https://github.com/idm-suedtirol/hugo-boilerplate).
+
+### License
+
+The code in this project is licensed under the Mozilla Public License 2.0 license.
+See the LICENSE.md file for more information.
