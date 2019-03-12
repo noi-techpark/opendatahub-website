@@ -222,6 +222,14 @@ featured_image = "img/logo-open-data-hub.png"
     linkedin = "https://www.linkedin.com/in/petermoser81"
 
   [[params.team.item]]
+    name = "Alex Lanz"
+    position = "Continuous Integration Architect"
+    description = "aboutbits.it"
+    img = "img/AlexLanz.png"
+    twitter = "https://twitter.com/alex__lanz"
+    github = "https://github.com/alexlanz"
+
+  [[params.team.item]]
     name = "Chris Mair"
     position = "Infrastructure & Database Architect"
     description = "1006.org"
