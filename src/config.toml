@@ -228,6 +228,7 @@ featured_image = "img/logo-open-data-hub.png"
     img = "img/AlexLanz.png"
     twitter = "https://twitter.com/alex__lanz"
     github = "https://github.com/alexlanz"
+    url = "https://aboutbits.it"
 
   [[params.team.item]]
     name = "Chris Mair"
@@ -235,6 +236,7 @@ featured_image = "img/logo-open-data-hub.png"
     description = "1006.org"
     img = "img/ChrisMair.jpg"
     github = "https://github.com/chris-mair"
+    url = "https://1006.org"
 
   [[params.team.item]]
     name = "Davide Montesin"
@@ -242,6 +244,7 @@ featured_image = "img/logo-open-data-hub.png"
     description = "www.davide.bz"
     img = "img/DavideMontesin.jpg"
     github = "https://github.com/davidebz"
+    url = "https://www.davide.bz"
 
   [[params.team.item]]
     name = "Stefano David"
@@ -257,6 +260,7 @@ featured_image = "img/logo-open-data-hub.png"
     img = "img/CarloPiana.jpg"
     twitter = "https://twitter.com/carlopiana"
     linkedin = "https://www.linkedin.com/in/carlopiana/"
+    url = "https://array.eu"
 
   [[params.team.item]]
     name = "Igor Falcomatà"
@@ -264,6 +268,7 @@ featured_image = "img/logo-open-data-hub.png"
     description = "www.enforcer.it"
     img = "img/IgorFalcomata.jpg"
     linkedin = "https://www.linkedin.com/in/igor-falcomat%C3%A0-9593446/"
+    url = "https://www.enforcer.it"
 
   [[params.team.item]]
     name = "Emily Louise Simonis"
@@ -289,6 +294,7 @@ featured_image = "img/logo-open-data-hub.png"
     description = "www.puecher.com"
     img = "img/PatrickPuecher.jpg"
     github = "https://github.com/puecher"
+    url = "https://www.puecher.com"
 
   [[params.team.item]]
     name = "Andrea Janes"
@@ -312,6 +318,7 @@ featured_image = "img/logo-open-data-hub.png"
     github = "https://github.com/lanthaler"
     twitter = "https://twitter.com/MarkusLanthaler"
     linkedin = "https://www.linkedin.com/in/MarkusLanthaler/"
+    url = "https://www.markus-lanthaler.com/"
 
 
   # [[params.team.item]]

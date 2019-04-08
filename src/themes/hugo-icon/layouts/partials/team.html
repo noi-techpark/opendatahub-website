@@ -30,7 +30,10 @@
 	  {{ end }}
 	  {{ if isset . "linkedin" }}
 	  <li><a href="{{ .linkedin }}"><i class="icon-linkedin"></i></a></li>
-	  {{ end }}
+		{{ end }}
+		{{ if isset . "url" }}
+		<li><a href="{{ .url }}"><i class="icon-globe"></i></a></li>
+		{{ end }}
 	</ul>
       </div>
     </div>
