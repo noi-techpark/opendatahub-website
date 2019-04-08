@@ -84,7 +84,7 @@ featured_image = "img/logo-open-data-hub.png"
   [[params.services.item]]
     icon = "icon-eye"
     title = "Free Open Source Software"
-    description = "Talents get empowered to run, study, share and improve technology, using the <a href='https://github.com/idm-suedtirol/' target='_blank'>published Source Code</a>."
+    description = "Talents get empowered to run, study, share and improve technology, using the <a href='https://github.com/noi-techpark/' target='_blank'>published Source Code</a>."
 
   [[params.services.item]]
     icon = "icon-paper-plane"
@@ -113,8 +113,8 @@ featured_image = "img/logo-open-data-hub.png"
 
   [[params.work.item]]
     title = "Online Source Code!"
-    subtitle = "github.com/idm-suedtirol/"
-    url = "http://github.com/idm-suedtirol/"
+    subtitle = "github.com/noi-techpark/"
+    url = "http://github.com/noi-techpark/"
     img = "img/bdp-core-source-code.png"
 
   [[params.work.item]]
