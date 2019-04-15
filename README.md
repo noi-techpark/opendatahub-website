@@ -27,13 +27,13 @@ If you don't want to install all prerequisites directly on your machine and inst
 Get a copy of the repository:
 
 ```bash
-git clone git@github.com:idm-suedtirol/geobank-website.git
+git clone git@github.com:noi-techpark/opendatahub-website.git
 ```
 
 Change directory:
 
 ```bash
-cd geobank-website
+cd opendatahub-website
 ```
 
 ### Development
@@ -100,7 +100,7 @@ More documentation can be found at [https://opendatahub.readthedocs.io/en/latest
 
 ### Boilerplate
 
-The project uses this boilerplate: [https://github.com/idm-suedtirol/hugo-boilerplate](https://github.com/idm-suedtirol/hugo-boilerplate).
+The project uses this boilerplate: [https://github.com/noi-techpark/hugo-boilerplate](https://github.com/noi-techpark/hugo-boilerplate).
 
 ### License
 
