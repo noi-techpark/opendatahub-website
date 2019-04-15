@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
@@ -7,7 +6,7 @@
   font-style: normal;
 }
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.8;
@@ -29,7 +28,7 @@ a:hover, a:focus, a:active {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   color: #000;
   margin-bottom: 30px;
 }
@@ -41,7 +40,7 @@ p {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   font-size: 12px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -289,7 +288,7 @@ p {
   text-align: center;
   width: 19.33%;
   font-size: 40px;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   font-weight: 700;
   font-style: italic;
 }
@@ -1180,4 +1179,16 @@ p {
   background: url(../images/Preloader_2.gif) center no-repeat #fff;
 }
 
+@media screen and (min-width: 768px) {
+    .equal {
+	display: flex;
+	flex-wrap: wrap;
+    }
+}
+
+/* .equal { */
+/*   display: flex; */
+/*   display: -webkit-flex; */
+/*   flex-wrap: wrap; */
+/* } */
 /*# sourceMappingURL=style.css.map */

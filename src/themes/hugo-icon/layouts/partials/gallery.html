@@ -1,10 +1,6 @@
 <div id="fh5co-gallery">
   {{ range .Site.Params.work.item }}
-  {{ if isset . "url" }}
-    <a href="{{ .url }}" class="fh5co-item" style="background-image: url({{ .img | absURL }})" target='_blank'>
-  {{ else }}
-    <a href="{{ .img | absURL }}" class="fh5co-item image-popup" style="background-image: url({{ .img | absURL }})">
-  {{ end }}
+  <a href="{{ .img | absURL }}" class="fh5co-item image-popup" style="background-image: url({{ .img | absURL }})">
     <div class="fh5co-overlay"></div>
     <div class="fh5co-copy">
       <div class="fh5co-copy-inner">

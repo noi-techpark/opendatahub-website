@@ -5,6 +5,7 @@ baseURL = "."
 languageCode = "en"
 title = "Open Data Hub Südtirol - Alto Adige"
 featured_image = "img/logo-open-data-hub.png"
+googleAnalytics = "UA-138331709-1"
 
 # Metadata
 [params]
@@ -305,8 +306,8 @@ featured_image = "img/logo-open-data-hub.png"
 
   [[params.team.item]]
     name = "Roberto Confalonieri"
-    position = "Researcher"
-    description = "www.unibz.it - Smart Data Factory"
+    position = "AI Research Scientist"
+    description = "Alpha Health AI Lab"
     img = "img/RobertoConfalonieri.jpg"
     linkedin = "https://www.linkedin.com/in/rconfalonieri/"
 
@@ -326,17 +327,25 @@ featured_image = "img/logo-open-data-hub.png"
   #   position = "Chief haranguer"
   #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
   #   img = "images/person3.jpg"
+  #   email = "#"
+  #   telephone = "#"
   #   facebook = "#"
   #   twitter = "#"
   #   dribbble = "#"
   #   instagram = "#"
   #   github = "#"
+  #   whatsapp = "#"
 
 # Contact section
 [params.contact]
   enable = true
   title = "Get In Touch"
-  message = "If you would like to become a member of the Open Data Hub Community as a Data Provider, Data Consumer or as a Contributer, you can meet us at our events or just get in touch with us through e-mail."
+  message = "If you would like to become a member of the Open Data Hub Community as a Data Provider, Data Consumer or as a Contributer, you can meet us at our events or get in touch with us through e-mail."
+  name_placeholder = "Your name"
+  email_placeholder = "Your email"
+  email_disclaimer = "We'll never share your email with anyone else."
+  message_placeholder = "Please enter a message."
+  button_text = "Submit"
 
 # Footer section
 # Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
