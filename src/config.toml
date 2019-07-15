@@ -321,6 +321,14 @@ googleAnalytics = "UA-138331709-1"
     linkedin = "https://www.linkedin.com/in/MarkusLanthaler/"
     url = "https://www.markus-lanthaler.com/"
 
+  [[params.team.item]]
+    name = "Christian Gapp"
+    position = "Senior Developer"
+    description = "www.gappc.net"
+    img = "img/ChristianGapp.jpg"
+    github = "https://github.com/gappc"
+    linkedin = "https://www.linkedin.com/in/christiangapp/"
+    url = "https://gappc.net"
 
   # [[params.team.item]]
   #   name = "Jason Doe"
