@@ -171,6 +171,16 @@ googleAnalytics = "UA-138331709-1"
     linkedin = "https://www.linkedin.com/in/ohnewein/"
 
   [[params.team.item]]
+    name = "Antonietta De Santis"
+    position = "Product Owner Tourism"
+    description = "IDM Südtirol - Alto Adige"
+    img = "img/AntoniettaDeSantis.jpg"
+    facebook = "https://www.facebook.com/nietta.desantis"
+    twitter = "https://twitter.com/niettwitta"
+    github = "https://github.com/niettadesantis"
+    linkedin = "https://www.linkedin.com/in/antonietta-de-santis"
+
+  [[params.team.item]]
     name = "Stefano Seppi"
     position = "Project Manager - Tourism API"
     description = "NOI Techpark Südtirol - Alto Adige"
