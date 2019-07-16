@@ -182,7 +182,7 @@ googleAnalytics = "UA-138331709-1"
 
   [[params.team.item]]
     name = "Stefano Seppi"
-    position = "Project Manager - Tourism API"
+    position = "Project Manager - Tourism API & Internet of Things"
     description = "NOI Techpark Südtirol - Alto Adige"
     img = "img/StefanoSeppi.jpg"
     github = "https://github.com/sseppi"
@@ -192,7 +192,7 @@ googleAnalytics = "UA-138331709-1"
 
   [[params.team.item]]
     name = "Luca Miotto"
-    position = "Project Manager - Tourism API"
+    position = "Project Manager - Tourism API & Artificial Intelligence/Machine Learning"
     description = "NOI Techpark Südtirol - Alto Adige"
     img = "img/LucaMiotto.jpg"
     github = "https://github.com/LucaMiotto"
@@ -211,7 +211,7 @@ googleAnalytics = "UA-138331709-1"
 
   [[params.team.item]]
     name = "Patrick Bertolla"
-    position = "Core Developer - Mobility"
+    position = "Core Developer - Mobility Core & Tourism Mobile API"
     description = "NOI Techpark Südtirol - Alto Adige"
     img = "img/PatrickBertolla.jpg"
     github = "https://github.com/bertolla"
@@ -219,7 +219,7 @@ googleAnalytics = "UA-138331709-1"
 
   [[params.team.item]]
     name = "Rudi Thöni"
-    position = "Core Developer - Tourism"
+    position = "Core Developer - Tourism Core"
     description = "NOI Techpark Südtirol - Alto Adige"
     img = "img/RudolfThoeni.jpg"
     github = "https://github.com/RudiThoeni"
