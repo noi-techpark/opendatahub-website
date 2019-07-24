@@ -233,6 +233,22 @@ googleAnalytics = "UA-138331709-1"
     linkedin = "https://www.linkedin.com/in/petermoser81"
 
   [[params.team.item]]
+    name = "Martin Rabanser"
+    position = "Community Manager"
+    description = "rmb.bz.it"
+    img = "img/MartinRabanser.jpg"
+    github = "https://github.com/mrabans"
+    facebook = "https://www.facebook.com/martin.rabanser"
+    linkedin = "https://www.linkedin.com/in/martinrabanser"
+
+  [[params.team.item]]
+    name = "Stefano David"
+    position = "Technical Writer"
+    description = ""
+    img = "img/StefanoDavid.jpg"
+    github = "https://github.com/stefanodavid"
+
+  [[params.team.item]]
     name = "Alex Lanz"
     position = "Continuous Integration Architect"
     description = "aboutbits.it"
@@ -256,13 +272,6 @@ googleAnalytics = "UA-138331709-1"
     img = "img/DavideMontesin.jpg"
     github = "https://github.com/davidebz"
     url = "https://www.davide.bz"
-
-  [[params.team.item]]
-    name = "Stefano David"
-    position = "Technical Writer"
-    description = ""
-    img = "img/StefanoDavid.jpg"
-    github = "https://github.com/stefanodavid"
 
   [[params.team.item]]
     name = "Carlo Piana"
