@@ -162,7 +162,7 @@ googleAnalytics = "UA-138331709-1"
   [[params.community.item]]
     img = "img/sasa.png"
     title = "SASA"
-    description = "<a href='https://sasa.bz' target='_blank'>SASA</a> provides data about public transportation."
+    description = "<a href='https://www.sasabz.it/' target='_blank'>SASA</a> provides data about public transportation."
 
   [[params.community.item]]
     img = "img/sta.png"
