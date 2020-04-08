@@ -806,6 +806,7 @@ p {
   transform: scale(1.2);
 }
 #fh5co-community .member {
+  height: 450px;
   text-align: center;
   padding-left: 10px;
   padding-right: 10px;

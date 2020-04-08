@@ -139,11 +139,20 @@ googleAnalytics = "UA-138331709-1"
     title = "Alperia SpA"
     description = "<a href='https://www.alperia.eu/' target='_blank'>Alperia</a> provides data about e-charging stations availabilty and status."
 
+  [[params.community.item]]
+    img = "img/hgv.png"
+    title = "HGV"
+    description = "<a href='https://www.hgv.it/' target='_blank'>HGV - Hoteliers- und Gastwirteverband</a> provides data about tourism."
 
   [[params.community.item]]
     img = "img/IDM.png"
     title = "IDM Südtirol/Alto Adige"
     description = "<a href='http://idm-suedtirol.com' target='_blank'>IDM Südtirol/Alto Adige</a> provides data about tourism."
+
+  [[params.community.item]]
+    img = "img/lts.png"
+    title = "LTS"
+    description = "<a href='https://www.lts.it' target='_blank'>LTS - Landesverband der Tourismusorganisationen Südtirols</a> provides data about tourism."
 
   [[params.community.item]]
     img = "img/pab.png"
