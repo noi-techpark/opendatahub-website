@@ -22,6 +22,8 @@ googleAnalytics = "UA-138331709-1"
 [params.nav]
   mission = "Our Mission"
   services = "Services"
+  datasets = "Datasets"
+  community = "Community"
   team = "The Team"
   contact = "Get In Touch"
   # Include logo instead of HOME:
@@ -67,40 +69,102 @@ googleAnalytics = "UA-138331709-1"
 # Services section
 [params.services]
   enable = true
-  video = true
+  video = false
   vidlink = "https://vimeo.com/292011350"
   title = "Our Services"
   description = "We support the implementation of an innovation platform, where talents can use data and create innovative solutions for the <i>SMART Green Region South Tyrol</i>."
 
   [[params.services.item]]
-    icon = "icon-support"
-    title = "Documentation"
-    description = "The community shares knowledge and experience at events and through <a href='http://opendatahub.readthedocs.io/en/latest/index.html' target='_blank'>online documentation</a>!"
+    icon = "icon-server2"
+    title = "Data Access"
+    description = "For a company that develops software applications we offfer access, through a single machine-readable, documented and stable channel, to updated and real-time data, released with an Open Data license."
 
   [[params.services.item]]
-    icon = "icon-present"
-    title = "Open Data"
-    description = "Data Providers open up their <a href='https://opendatahub.readthedocs.io/en/latest/datasets.html' target='_blank'>datasets</a> to gain visibility! "
+    icon = "icon-wifi"
+    title = "Data Sharing"
+    description = "We help companies to give visibility to their data, identify suitable formats, processing algorithms and licenses and to use technologies known by application developers."
 
   [[params.services.item]]
-    icon = "icon-eye"
-    title = "Free Open Source Software"
-    description = "Talents get empowered to run, study, share and improve technology, using the <a href='https://github.com/noi-techpark/' target='_blank'>published Source Code</a>."
+    icon = "icon-code"
+    title = "Demo App Development"
+    description = "We create, in collaboration with companies that bring concrete needs, under Open Source license, a set of Demo apps that can be used by individual companies as a guideline and inspiration for new digital products."
 
-  [[params.services.item]]
-    icon = "icon-paper-plane"
-    title = "Real Time Data"
-    description = "Real time data enables talents to create powerful services, like <a href='https://parking.bz.it/' target='_blank'>parking.bz.it</a>."
+ # [[params.services.item]]
+  #  icon = "icon-paper-plane"
+  #  title = "Real Time Data"
+  #  description = "Real time data enables talents to create powerful services, like <a href='https://parking.bz.it/' target='_blank'>parking.bz.it</a>."
 
-  [[params.services.item]]
-    icon = "icon-pencil"
-    title = "Data Quality"
-    description = "Data used in real world applications gets improved more often."
+ # [[params.services.item]]
+  #  icon = "icon-pencil"
+  #  title = "Data Quality"
+  #  description = "Data used in real world applications gets improved more often."
 
-  [[params.services.item]]
-    icon = "icon-rocket"
-    title = "Promote Prototyping"
-    description = "Start-Ups increase accessibility and value of data, by using them in their <a href='https://opendatahub.readthedocs.io/en/latest/applist.html' target='_blank'>apps</a>."
+ # [[params.services.item]]
+  #  icon = "icon-rocket"
+  #  title = "Promote Prototyping"
+  #  description = "Start-Ups increase accessibility and value of data, by using them in their <a href='https://opendatahub.readthedocs.io/en/latest/applist.html' target='_blank'>apps</a>."
+
+# Datasets section
+[params.datasets]
+  enable = true
+  title = "Datasets available"
+  description = "Get the whole list of the datasets available in our <a href='https://opendatahub.readthedocs.io/en/latest/datasets.html' target='_blank'>documentation.</a>"
+
+  [[params.datasets.item]]
+    icon = "icon-battery-full"
+    title = "E-Charging Stations"
+    link = "https://opendatahub.readthedocs.io/en/latest/datasets.html#echarging-dataset"
+    description = "This datasets exposes data about the existing e-charging stations in South Tyrol and their status, including historical data and usage. Get more information in the <a href='https://opendatahub.readthedocs.io/en/latest/datasets.html#echarging-dataset' target='_blank'>online documentation.</a>"
+
+  [[params.datasets.item]]
+    icon = "icon-umbrella2"
+    title = "Weather"
+    link = "https://opendatahub.readthedocs.io/en/latest/datasets.html#weather-dataset"
+    description = "This dataset contains meteorological data provided by the hydrographical Department of South Tyrol. Get more information in the <a href='https://opendatahub.readthedocs.io/en/latest/datasets.html#weather-dataset' target='_blank'>online documentation.</a>"
+
+  [[params.datasets.item]]
+    icon = "icon-bus"
+    title = "Public Transportation"
+    link = "https://opendatahub.readthedocs.io/en/latest/datasets.html#public-transportation"
+    description = "This datasets shows the real time position of buses operated by SASA in South Tyrol and, through a few subsets, additional information about lines, station boards, and news. Get more information in the <a href='https://opendatahub.readthedocs.io/en/latest/datasets.html#public-transportation' target='_blank'>online documentation</a>."
+
+# Community section
+[params.community]
+  enable = true
+  title = "Open Data Hub Community"
+  description = "Our community of data providers and technology suppliers."
+
+  [[params.community.item]]
+    img = "img/alperia.png"
+    title = "Alperia SpA"
+    description = "<a href='https://www.alperia.eu/' target='_blank'>Alperia</a> provides data about e-charging stations availabilty and status."
+
+
+  [[params.community.item]]
+    img = "img/IDM.png"
+    title = "IDM Südtirol/Alto Adige"
+    description = "<a href='http://idm-suedtirol.com' target='_blank'>IDM Südtirol/Alto Adige</a> provides data about tourism."
+
+  [[params.community.item]]
+    img = "img/pab.png"
+    title = "Autonomous Province of Bolzano/Bozen"
+    description = "<a href='http://provincia.bz.it' target='_blank'>Autonomous Province of Bolzano/Bozen</a> provides several data in open format, among them data about weather and air quality."
+
+  [[params.community.item]]
+    img = "img/sasa.png"
+    title = "SASA"
+    description = "<a href='https://sasa.bz' target='_blank'>SASA</a> provides data about public transportation."
+
+  [[params.community.item]]
+    img = "img/sta.png"
+    title = "STA"
+    description = "<a href='https://sta.bz.it' target='_blank'>STA</a> provides several data about mobility in South Tyrol."
+  
+  #[[params.community.item]]
+  #  img = "img/Ontopic.png"
+  #  title = "Ontopic"
+  #  description = "<a href='https://ontopic.biz/' target='_blank'>Ontopic</a> provides know-how about Virtual Knowledge Graph."
+
 
 # Work section
 [params.work]

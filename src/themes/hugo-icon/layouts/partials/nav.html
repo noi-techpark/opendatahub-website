@@ -3,7 +3,7 @@
     <div class="container">
       <div class="fh5co-menu-1">
 
-	<a href="#" data-nav-section="home">{{ with .Site.Params.nav }}{{ if isset . "logo" }}<img src={{ .logo | absURL }} height="20" alt="">{{ end }}{{ if (not (isset . "logo")) }}Home{{ end }}{{ end }}</a>
+	<a href="#" data-nav-section="home">{{ with .Site.Params.nav }}{{ if isset . "logo" }}<img src={{ .logo | absURL }} height="40" alt="">{{ end }}{{ if (not (isset . "logo")) }}Home{{ end }}{{ end }}</a>
 
 	{{ if .Site.Params.mission.enable }}
 	<a href="#" data-nav-section="mission">{{ with .Site.Params.nav.mission }}{{ . | markdownify }}{{ end }}</a>
@@ -11,6 +11,14 @@
 
 	{{ if .Site.Params.services.enable }}
 	<a href="#" data-nav-section="services">{{ with .Site.Params.nav.services }}{{ . | markdownify }}{{ end }}</a>
+	{{ end }}
+
+	{{ if .Site.Params.datasets.enable }}
+	<a href="#" data-nav-section="datasets">{{ with .Site.Params.nav.datasets }}{{ . | markdownify }}{{ end }}</a>
+	{{ end }}
+
+	{{ if .Site.Params.community.enable }}
+	<a href="#" data-nav-section="community">{{ with .Site.Params.nav.community }}{{ . | markdownify }}{{ end }}</a>
 	{{ end }}
 
 	{{ if .Site.Params.team.enable }}
