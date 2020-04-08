@@ -25,7 +25,15 @@
 	{{ if .Site.Params.services.enable }}
 	{{ partial "services.html" .}}
 	{{ end }}
+
+	{{ if .Site.Params.datasets.enable }}
+	{{ partial "datasets.html" .}}
+	{{ end }}
 	
+	{{ if .Site.Params.community.enable }}
+	{{ partial "community.html" .}}
+	{{ end }}
+
 	{{ if .Site.Params.work.enable }}
 	{{ partial "gallery.html" .}}
 	{{ end }}
