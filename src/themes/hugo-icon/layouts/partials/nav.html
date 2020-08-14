@@ -21,6 +21,10 @@
 	<a href="#" data-nav-section="community">{{ with .Site.Params.nav.community }}{{ . | markdownify }}{{ end }}</a>
 	{{ end }}
 
+	{{ if .Site.Params.customer.enable }}
+	<a href="#" data-nav-section="customer">{{ with .Site.Params.nav.customer }}{{ . | markdownify }}{{ end }}</a>
+	{{ end }}
+
 	{{ if .Site.Params.team.enable }}
 	<a href="#" data-nav-section="team">{{ with .Site.Params.nav.team }}{{ . | markdownify }}{{ end }}</a>
 	{{ end }}

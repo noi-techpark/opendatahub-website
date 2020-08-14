@@ -7,51 +7,69 @@
       {{ end }}
     </div>
 
-<!-- patch by PO -->
-<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">Write us an e-mail to <a href="mailto:info@opendatahub.bz.it">info@opendatahub.bz.it</a>!</div>
+	<!-- patch by PO -->
+	<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">Write us an e-mail to <a href="mailto:help@opendatahub.bz.it">help@opendatahub.bz.it</a>!</div>
 
-<!--
+	<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
+		{{ with .Site.Params.footer }}
+	  <ul class="fh5co-social">
+		{{ if isset . "github" }}
+		<li><a href="{{ .github }}"><i class="icon-github"></i></a></li>
+		{{ end }}
+		{{ if isset . "twitter" }}
+		<li><a href="{{ .twitter }}"><i class="icon-twitter"></i></a></li>
+		{{ end }}
+		{{ if isset . "facebook" }}
+		<li><a href="{{ .facebook }}"><i class="icon-facebook"></i></a></li>
+		{{ end }}
+		{{ if isset . "vine" }}
+		<li><a href="{{ .vine }}"><i class="icon-vine"></i></a></li>
+		{{ end }}
+		{{ if isset . "linkedin" }}
+		<li><a href="{{ .linkedin }}"><i class="icon-linkedin"></i></a></li>
+		{{ end }}
+		{{ if isset . "instagram" }}
+		<li><a href="{{ .instagram }}"><i class="icon-instagram"></i></a></li>
+		{{ end }}
+		{{ if isset . "telegram" }}
+		<li><a href="{{ .telegram }}"><i class="icon-paper-plane"></i></a></li>
+		{{ end }}
+	  </ul>
+	</div>
+	{{ end }}
+
+
     <form name="contact-form" netlify-honeypot="_gotcha" action="thank-you" netlify>
-      <div class="row">
-	<div class="col-md-6">
-	  <div class="form-group">
--->
-	    <!-- <label for="inputName">First name</label> -->
-<!--
-		  {{ with .Site.Params.contact }}
-	    <input type="text" class="form-control" id="inputName" placeholder="{{ .name_placeholder }}" name="_name">
-		  {{ end }}
-	  </div>
-	</div>
-	<div class="col-md-6">
-	  <div class="form-group">
-			{{ with .Site.Params.contact }}
-	    <input type="email" class="form-control" id="inputEmail" placeholder="{{ .email_placeholder }}" name="_replyto" required>
-	    <small id="emailHelp" class="form-text text-muted">{{ .email_disclaimer }}</small>
-		  {{ end }}
-	  </div>
-	</div>
-	<div class="col-md-12">
-	  <div class="form-group">
-		  {{ with .Site.Params.contact }}
-	    <textarea class="form-control" id="inputBody" cols="30" rows="7" placeholder="{{ .message_placeholder }}" name="message"></textarea>
-		  {{ end }}
-	  </div>
-	</div>
-	<div class="col-md-12">
-	  <div class="form-group">
-	    <input type="hidden" name="_subject" value="New website query">
-	    <input type="text" name="_gotcha" style="display:none">
-	    <button type="submit" class="btn btn-primary btn-outline" value="Send">{{ with .Site.Params.contact }}{{ .button_text }}{{ end }}</button>
--->
-	    <!-- <input type="submit" name="submit" value="Send message" class="btn btn-primary btn-outline"> -->
-<!--
-	  </div>
-	</div>
+    <div class="row">
+		<div class="col-md-6">
+	  		<div class="form-group">
+			<label for="inputName">Newsletter registration</label></br>
+				{{ with .Site.Params.contact }}
+				<small id="newsletter" class="form-text text-muted">{{ .email_disclaimer }}</small>
+				<input type="text" class="form-control" id="inputName" placeholder="{{ .company_placeholder }}" name="_company">
+				<input type="text" class="form-control" id="inputName" placeholder="{{ .name_placeholder }}" name="_name">
+		  		{{ end }}
+	  		<div class="form-group">
+				{{ with .Site.Params.contact }}
+	    		<input type="email" class="form-control" id="inputEmail" placeholder="{{ .email_placeholder }}" name="_replyto" required>
+	    		{{ end }}
+	  		</div>
+			<div class="form-group">
+				{{ with .Site.Params.contact }}
+				<input type="checkbox" id="gdpr" name="gdpr" value="Boat">
+				<small for="vehicle3">I want to receive the Open Data Hub newsletter</small></br>
+				<input type="checkbox" id="gdpr" name="gdpr" value="Boat">
+				<small for="vehicle3">I accept privacy terms</small>
+				{{ end }}
+	  		</div>
+			<div class="form-group">
+	    		<input type="hidden" name="_subject" value="New website query">
+	    		<input type="text" name="_gotcha" style="display:none">
+	    		<button type="submit" class="btn btn-primary btn-outline" value="Send">{{ with .Site.Params.contact }}{{ .button_text }}{{ end }}</button>
+	  		</div>
+		</div>
       </div>
-
     </form>
--->
-</div>
+
+	</div>
   </div>
-</div>

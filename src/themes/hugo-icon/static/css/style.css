@@ -1111,6 +1111,32 @@ p {
   border-bottom: 1px solid #69c2c8;
 }
 
+#fh5co-contact .fh5co-social {
+  text-align: center;
+  padding-left: 0px;
+}
+@media screen and (max-width: 768px) {
+  #fh5co-contact .fh5co-social {
+    text-align: center;
+  }
+}
+#fh5co-contact .fh5co-social li {
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+#fh5co-contact .fh5co-social li a {
+  padding: 0 10px;
+}
+#fh5co-contact .fh5co-social li a i {
+  font-size: 30px;
+}
+#fh5co-contact .fh5co-social li a:hover, #fh5co-footer .fh5co-social li a:focus, #fh5co-footer .fh5co-social li a:active {
+  text-decoration: none;
+  outline: none;
+}
+
 #fh5co-footer {
   padding: 3em 0;
   background: #E8ECF1;

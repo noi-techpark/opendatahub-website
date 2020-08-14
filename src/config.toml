@@ -24,7 +24,8 @@ googleAnalytics = "UA-138331709-1"
   services = "Services"
   datasets = "Datasets"
   community = "Community"
-  team = "The Team"
+  customer = "Documentation"
+  team = "Team"
   contact = "Get In Touch"
   # Include logo instead of HOME:
   logo = "img/logo-open-data-hub.png"
@@ -160,9 +161,9 @@ googleAnalytics = "UA-138331709-1"
     description = "<a href='http://provincia.bz.it' target='_blank'>Autonomous Province of Bolzano/Bozen</a> provides several data in open format, among them data about weather and air quality."
 
   [[params.community.item]]
-    img = "img/sasa.png"
-    title = "SASA"
-    description = "<a href='https://www.sasabz.it/' target='_blank'>SASA</a> provides data about public transportation."
+    img = "img/destination.png"
+    title = "Destination Srl"
+    description = "<a href='http://www.destinationsrl.it/' target='_blank'>Destination</a> utilize data from Open Data Hub."
 
   [[params.community.item]]
     img = "img/sta.png"
@@ -173,6 +174,30 @@ googleAnalytics = "UA-138331709-1"
   #  img = "img/Ontopic.png"
   #  title = "Ontopic"
   #  description = "<a href='https://ontopic.biz/' target='_blank'>Ontopic</a> provides know-how about Virtual Knowledge Graph."
+
+# Customer Care section
+[params.customer]
+  enable = true
+  title = "Customer Care & Documentation"
+  description = "Get the whole list of the datasets available in our <a href='https://opendatahub.readthedocs.io/en/latest/datasets.html' target='_blank'>documentation.</a>"
+
+  [[params.customer.item]]
+    icon = "icon-question"
+    title = "FAQ"
+    link = "https://opendatahub.readthedocs.io/en/latest/faq.html"
+    description = "Frequently Asked Question"
+
+  [[params.customer.item]]
+    icon = "icon-docs"
+    title = "Documentation"
+    link = "https://opendatahub.readthedocs.io/en/latest/index.html"
+    description = "Documentation about Open Data Hub"
+
+  [[params.customer.item]]
+    icon = "icon-envelope-open"
+    title = "Customer Care"
+    link = "mailto:help@opendatahub.bz.it"
+    description = "Write to help@opendatahub.bz.it if you need help"
 
 
 # Work section
@@ -441,9 +466,10 @@ googleAnalytics = "UA-138331709-1"
   enable = true
   title = "Get In Touch"
   message = "If you would like to become a member of the Open Data Hub Community as a Data Provider, Data Consumer or as a Contributer, you can meet us at our events or get in touch with us through e-mail."
-  name_placeholder = "Your name"
-  email_placeholder = "Your email"
-  email_disclaimer = "We'll never share your email with anyone else."
+  company_placeholder = "Company name"
+  name_placeholder = "Contact name"
+  email_placeholder = "Contact email"
+  email_disclaimer = "You'll receive informations on Open Data Hub updates and future development. "
   message_placeholder = "Please enter a message."
   button_text = "Submit"
 
@@ -455,6 +481,7 @@ googleAnalytics = "UA-138331709-1"
   github = "https://github.com/noi-techpark/"
 #  twitter = "#"
   facebook = "https://www.facebook.com/opendatahub/"
+  telegram = "https://t.me/OpenDataHub"
 #  vine = "#"
 #  linkedin = "#"
 #  instagram = "#"
