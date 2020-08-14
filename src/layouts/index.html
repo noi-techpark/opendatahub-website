@@ -37,6 +37,10 @@
 	{{ partial "community.html" .}}
 	{{ end }}
 	
+	{{ if .Site.Params.customer.enable }}
+	{{ partial "customer.html" .}}
+	{{ end }}
+	
 	{{ if .Site.Params.work.enable }}
 	{{ partial "gallery.html" .}}
 	{{ end }}
