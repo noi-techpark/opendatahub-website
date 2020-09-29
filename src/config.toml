@@ -171,7 +171,6 @@ googleAnalytics = "UA-138331709-1"
     title = "Marketing Factory"
     description = "<a href='https://www.marketingfactory.it' target='_blank'>Marketing Factory</a> consumes data from Open Data Hub for their application."
   
-  
   [[params.community.item]]
     img = "img/Ontopic.png"
     title = "Ontopic"
