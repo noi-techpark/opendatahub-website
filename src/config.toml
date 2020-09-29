@@ -170,17 +170,23 @@ googleAnalytics = "UA-138331709-1"
     img = "img/MarketingFactory.png"
     title = "Marketing Factory"
     description = "<a href='https://www.marketingfactory.it' target='_blank'>Marketing Factory</a> consumes data from Open Data Hub for their application."
+  
+  
+  [[params.community.item]]
+    img = "img/Ontopic.png"
+    title = "Ontopic"
+    description = "<a href='https://ontopic.biz/' target='_blank'>Ontopic</a> uses code of one demo application in their products."
+
+  [[params.community.item]]
+    img = "img/peer.png"
+    title = "Peer"
+    description = "<a href='https://www.peer.biz/' target='_blank'>Peer</a>  consumes data from Open Data Hub for their application."
 
   [[params.community.item]]
     img = "img/sta.png"
     title = "STA"
     description = "<a href='https://sta.bz.it' target='_blank'>STA</a> provides several data about mobility in South Tyrol."
   
-  #[[params.community.item]]
-  #  img = "img/Ontopic.png"
-  #  title = "Ontopic"
-  #  description = "<a href='https://ontopic.biz/' target='_blank'>Ontopic</a> provides know-how about Virtual Knowledge Graph."
-
 # Customer Care section
 [params.customer]
   enable = true
