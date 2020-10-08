@@ -145,6 +145,10 @@ googleAnalytics = "UA-138331709-1"
     title = "Autonomous Province of Bolzano/Bozen"
     description = "<a href='http://provincia.bz.it' target='_blank'>Autonomous Province of Bolzano/Bozen</a> provides several data in open format, among them data about weather and air quality."
 
+  [[params.community.item]]
+    img = "img/cisma.png"
+    title = "CISMA Srl"
+    description = "<a href='http://www.cisma.it/' target='_blank'>CISMA</a> utilizes data from Open Data Hub for their services and applications."
 
   [[params.community.item]]
     img = "img/destination.png"
