@@ -192,7 +192,7 @@ googleAnalytics = "UA-138331709-1"
 
 [[params.community.item]]
     img = "img/xlbit.png"
-    title = "Peer"
+    title = "XLbit"
     description = "<a href='https://www.xlbit.com/' target='_blank'>XLbit</a>  consumes data from Open Data Hub for their application."
   
 # Customer Care section
