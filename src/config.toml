@@ -189,6 +189,11 @@ googleAnalytics = "UA-138331709-1"
     img = "img/sta.png"
     title = "STA"
     description = "<a href='https://sta.bz.it' target='_blank'>STA</a> provides several data about mobility in South Tyrol."
+
+[[params.community.item]]
+    img = "img/xlbit.png"
+    title = "Peer"
+    description = "<a href='https://www.xlbit.com/' target='_blank'>XLbit</a>  consumes data from Open Data Hub for their application."
   
 # Customer Care section
 [params.customer]
