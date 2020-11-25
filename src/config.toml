@@ -191,9 +191,14 @@ googleAnalytics = "UA-138331709-1"
     description = "<a href='https://sta.bz.it' target='_blank'>STA</a> provides several data about mobility in South Tyrol."
 
 [[params.community.item]]
+    img = "img/VION.png"
+    title = "VION"
+    description = "<a href='https://www.xlbit.com/' target='_blank'>XLbit</a> provides data about e-charging stations availabilty and status."
+
+[[params.community.item]]
     img = "img/xlbit.png"
     title = "XLbit"
-    description = "<a href='https://www.xlbit.com/' target='_blank'>XLbit</a>  consumes data from Open Data Hub for their application."
+    description = "<a href='https://www.vion.bz.it/' target='_blank'>VION</a> consumes data from Open Data Hub for their application."
   
 # Customer Care section
 [params.customer]
