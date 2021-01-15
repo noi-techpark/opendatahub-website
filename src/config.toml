@@ -181,6 +181,11 @@ googleAnalytics = "UA-138331709-1"
     description = "<a href='https://ontopic.biz/' target='_blank'>Ontopic</a> uses code of one demo application in their products."
 
   [[params.community.item]]
+    img = "img/papinSport.jpg"
+    title = "Papin Sport"
+    description = "<a href='https://www.papinsport.com/' target='_blank'>Papin Sport</a> provides the data about their bike rental stationss."
+
+  [[params.community.item]]
     img = "img/peer.png"
     title = "Peer"
     description = "<a href='https://www.peer.biz/' target='_blank'>Peer</a>  consumes data from Open Data Hub for their application."
