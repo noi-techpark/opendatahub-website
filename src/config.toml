@@ -136,6 +136,11 @@ googleAnalytics = "UA-138331709-1"
   description = "Our community of data providers and technology suppliers."
 
   [[params.community.item]]
+    img = "img/a22.jpeg"
+    title = "Autostrada del Brennero SpA"
+    description = "<a href='https://www.autobrennero.it/' target='_blank'>Autobrennero</a> provides data about traffico condition on the highway."
+
+  [[params.community.item]]
     img = "img/alperia.png"
     title = "Alperia SpA"
     description = "<a href='https://www.alperia.eu/' target='_blank'>Alperia</a> provides data about e-charging stations availabilty and status."
@@ -144,17 +149,47 @@ googleAnalytics = "UA-138331709-1"
     img = "img/pab.png"
     title = "Autonomous Province of Bolzano/Bozen"
     description = "<a href='http://provincia.bz.it' target='_blank'>Autonomous Province of Bolzano/Bozen</a> provides several data in open format, among them data about weather and air quality."
+    
+ [[params.community.item]]
+    img = "img/ProvinciaTrento.png"
+    title = "Autonomous Province of Trento"
+    description = "<a href='http://www.provincia.tn.it/' target='_blank'>Autonomous Province of Trento</a> provides several data in open format, among them data about weather and air quality."
 
+  [[params.community.item]]
+    img = "img/carSharingAA.png"
+    title = "Carsharing S-AA"
+    description = "<a href='https://www.carsharing.bz.it/' target='_blank'>Carsharing Südtirol Alto Adige</a> provides the availability of their cars."
+    
   [[params.community.item]]
     img = "img/cisma.png"
     title = "CISMA Srl"
     description = "<a href='http://www.cisma.it/' target='_blank'>CISMA</a> utilizes data from Open Data Hub for their services and applications."
 
   [[params.community.item]]
+    img = "img/bzbga.png"
+    title = "Comunità Comprensoriale Burgraviato"
+    description = "<a href='https://www.bzgbga.it/it' target='_blank'>Comunità Comprensoriale Burgraviato</a> provides the data about their carpooling service."
+
+  [[params.community.item]]
     img = "img/destination.png"
     title = "Destination Srl"
     description = "<a href='http://www.destinationsrl.it/' target='_blank'>Destination</a> utilizes data from Open Data Hub for their application."
+    
+  [[params.community.item]]
+    img = "img/DRIN.png"
+    title = "DRIN"
+    description = "<a href='http://www.provincia.bz.it/arte-cultura/giovani/drin.asp' target='_blank'>DRIN</a> shares the information about all events he organizes."
 
+  [[params.community.item]]
+    img = "img/driwe.png"
+    title = "Driwe"
+    description = "<a href='https://www.driwe.eu/' target='_blank'>Driwe</a> provides data about e-charging stations availabilty and status."
+
+  [[params.community.item]]
+    img = "img/h2st.png"
+    title = "H2 South Tyrol"
+    description = "<a href='https://www.h2-suedtirol.com/' target='_blank'>H2 South Tyrol</a> provides data about e-charging stations availabilty and status."
+    
   [[params.community.item]]
     img = "img/hgv.png"
     title = "HGV"
@@ -164,6 +199,10 @@ googleAnalytics = "UA-138331709-1"
     img = "img/IDM.png"
     title = "IDM Südtirol/Alto Adige"
     description = "<a href='http://idm-suedtirol.com' target='_blank'>IDM Südtirol/Alto Adige</a> provides data about tourism."
+  [[params.community.item]]
+    img = "img/innovie.png"
+    title = "Inno.vie"
+    description = "<a href='http://www.innovie.it/s' target='_blank'>Inno.vie</a> provides the data about their carpooling service."
 
   [[params.community.item]]
     img = "img/lts.png"
@@ -175,6 +214,31 @@ googleAnalytics = "UA-138331709-1"
     title = "Marketing Factory"
     description = "<a href='https://www.marketingfactory.it' target='_blank'>Marketing Factory</a> consumes data from Open Data Hub for their application."
   
+  [[params.community.item]]
+    img = "img/municipalityBolzano.png"
+    title = "Municipality of Bolzano/Bozen"
+    description = "<a href='https://www.comune.bolzano.it/' target='_blank'>Municipality of Bolzano/Bozen</a> Provides his data about parking lots, air quality traffic and bike sharing."
+
+  [[params.community.item]]
+    img = "img/nevicam.png"
+    title = "Nevicam"
+    description = "<a href='https://mobility.nevicam.it/' target='_blank'>Nevicam</a> provides data about e-charging stations availabilty and status."
+
+  [[params.community.item]]
+    img = "img/municipalityMerano.png"
+    title = "Municipality of Merano/Meran"
+    description = "<a href='https://www.comune.merano.bz.it/' target='_blank'>Municipality of Merano/Meran</a> Provides his data about parking lots and bike sharing."
+
+  [[params.community.item]]
+    img = "img/municipalityRovereto.png"
+    title = "Municipality of Rovereto"
+    description = "<a href='https://www.comune.rovereto.tn.it/' target='_blank'>Municipality of Rovereto</a> Provides his data about parking lots."
+
+  [[params.community.item]]
+    img = "img/municipalityTrento.png"
+    title = "Municipality of Trento"
+    description = "<a href='https://www.comune.trento.it/' target='_blank'>Municipality of trento</a> Provides his data about parking lots."
+      
   [[params.community.item]]
     img = "img/Ontopic.png"
     title = "Ontopic"
@@ -191,10 +255,25 @@ googleAnalytics = "UA-138331709-1"
     description = "<a href='https://www.peer.biz/' target='_blank'>Peer</a>  consumes data from Open Data Hub for their application."
 
   [[params.community.item]]
+    img = "img/route220.png"
+    title = "Route 220"
+    description = "<a href='https://evway.net/' target='_blank'>Route220</a> provides data about e-charging stations availabilty and status."
+
+  [[params.community.item]]
     img = "img/sta.png"
     title = "STA"
     description = "<a href='https://sta.bz.it' target='_blank'>STA</a> provides several data about mobility in South Tyrol."
 
+  [[params.community.item]]
+    img = "img/suedtirolWein.png"
+    title = "Südtirol Wein"
+    description = "<a href='https://www.vinialtoadige.com/' target='_blank'>Südtirol Wein</a> provides data about mobility South Tyrolean wine and wineries."
+
+  [[params.community.item]]
+    img = "img/TreviLab.png"
+    title = "TreviLab"
+    description = "<a href='http://www.provinz.bz.it/arte-cultura/cultura/centro-trevi.asp' target='_blank'>TreviLab</a> shares the information about all events he organizes."
+    
 [[params.community.item]]
     img = "img/VION.png"
     title = "VION"
