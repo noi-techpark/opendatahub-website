@@ -555,6 +555,14 @@ googleAnalytics = "UA-138331709-1"
     github = "https://github.com/gappc"
     linkedin = "https://www.linkedin.com/in/christiangapp/"
     url = "https://gappc.net"
+    
+  [[params.team.item]]
+    name = "Simon Dalvai"
+    description = "Freelancer"
+    position = "Junior Developer - DevOp"
+    img = "img/SimonDalvai.jpeg"
+    github = "hhttps://github.com/dulvui"
+      
 
   # [[params.team.item]]
   #   name = "Jason Doe"
