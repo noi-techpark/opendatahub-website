@@ -6,9 +6,6 @@
 <html>
   <head>
     {{ partial "header.html" . }}
-
-    <!-- PO added Google Analytics support -->
-    {{ template "_internal/google_analytics.html" . }}
   </head>
   <body>
 
@@ -17,9 +14,9 @@
     <div class="fh5co-page">
       <div id="fh5co-container">
 	
-	{{ partial "hero.html" . }}
-	
 	{{ partial "nav.html" . }}
+
+	<!-- {{ partial "hero.html" . }} -->
 
 	{{ if .Site.Params.mission.enable }}
 	{{ partial "mission.html" . }}
@@ -32,15 +29,11 @@
 	{{ if .Site.Params.datasets.enable }}
 	{{ partial "datasets.html" .}}
 	{{ end }}
-
+	
 	{{ if .Site.Params.community.enable }}
 	{{ partial "community.html" .}}
 	{{ end }}
-	
-	{{ if .Site.Params.customer.enable }}
-	{{ partial "customer.html" .}}
-	{{ end }}
-	
+
 	{{ if .Site.Params.work.enable }}
 	{{ partial "gallery.html" .}}
 	{{ end }}

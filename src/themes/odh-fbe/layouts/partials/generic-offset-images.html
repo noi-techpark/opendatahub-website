@@ -1,0 +1,15 @@
+{{" <!-- Offset Images -->" | safeHTML }}
+<section class="generic-offset-images">
+    <div class="container">
+        <div class="col-lg-6 square border-white">
+            <a href="{{ .image_one_link }}">
+                <div class="offset-images-content" style="background: url('{{ .image_one_img }}');">
+                    <h4>{{ .image_one_title | markdownify }}</h4>
+                    <h5>{{ .image_one_subtitle | markdownify }}</h5>
+                    <div class="btn btn-white">{{ .image_one_btn_label | markdownify }}</div>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+{{" <!-- /Offset Images -->" | safeHTML }}
