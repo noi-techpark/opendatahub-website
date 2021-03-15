@@ -1,15 +1,12 @@
-name = "Hugo Icon"
+name = "ODH Theme by FlashBeing"
 license = "MIT"
-licenselink = "https://github.com/SteveLane/hugo-icon/blob/master/LICENSE.md"
-description = "This is the Icon theme; ported to Hugo by Steve Lane"
-homepage = "https://github.com/SteveLane/hugo-icon/"
-tags = ["icon", "responsive", "single page", "hero", "personal", "company", "agency"]
-features = ["mission", "services", "gallery", "team"]
+description = "Theme created by FlashBeing for Open Data Hub Südtirol - Alto Adige"
+homepage = "https://flashbeing.com"
 min_version = "0.25.1"
 
 [author]
-  name = "Steve Lane"
-  homepage = "https://stevelane.github.io/"
+  name = "FlashBeing"
+  homepage = "https://flashbeing.com"
 
 # If porting an existing theme
 [original]

@@ -1,5 +1,5 @@
 # Main config file for icon theme.
-theme = "hugo-icon"
+theme = "odh-fbe"
 #baseURL = "http://opendatahub.bz.it"
 baseURL = "."
 languageCode = "en"
@@ -9,7 +9,7 @@ googleAnalytics = "UA-138331709-1"
 
 # Metadata
 [params]
-  author = "Patrick Ohnewein"
+  author = "Open Data Hub Südtirol - Alto Adige"
   description = "Open Data Hub is your access point to South Tyrol's relevant data. You and your service providers can use Open Data Hub for all channels of digital communication. The data is updated on a regular basis and easily accessible."
 
 # Hero section (from here on is for icon theme)
@@ -20,7 +20,7 @@ googleAnalytics = "UA-138331709-1"
 
 # Navigation section
 [params.nav]
-  mission = "Our Mission"
+  mission = "Project"
   services = "Services"
   datasets = "Datasets"
   community = "Community"
