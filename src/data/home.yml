@@ -12,6 +12,12 @@ offset_images:
   image_one_link: "#"
   image_one_btn_label: Learn more 
 
+  image_two_title: Consume Data
+  image_two_subtitle: Build apps and services using Open Data Hub datasets
+  image_two_img: "/img/GreenMobility.png"
+  image_two_link: "#"
+  image_two_btn_label: See datasets 
+
 use_case:
   title: Example **use case**
   description: Open Data Hub supports the implementation of an **innovative platform**, where talents can **use data and create innovative solutions** for the SMART Green Region South Tyrol.
