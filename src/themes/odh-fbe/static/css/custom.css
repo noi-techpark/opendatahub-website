@@ -16,7 +16,11 @@ section {
 }
 
 .bg-primary {
-    background: #9bc325 !important;
+    background: #9bc325 ;
+}
+
+a.bg-primary:hover {
+    background: #abd216 !important;
 }
 
 .bg-darker {
@@ -129,7 +133,6 @@ a:hover .btn-white {
 }
 
 .generic-offset-images .container {
-    width: 70%;
     margin-top: -5rem;
 }
 
@@ -137,8 +140,15 @@ a:hover .btn-white {
     border: 15px solid white;
     margin-top: -5rem;
     margin-bottom: 5rem;
+    transition: box-shadow .3s ease-in-out;
     -webkit-box-shadow: 0px 0px 9px 1px rgba(150,150,150,0.55); 
     box-shadow: 0px 0px 9px 1px rgba(150,150,150,0.55);
+}
+
+.generic-offset-images .card.hoverable:hover {
+    transition: 1s;
+    -webkit-box-shadow: 0px 0px 9px 1px rgba(111,111,111,0.7); 
+    box-shadow: 0px 0px 9px 1px rgba(111,111,111,0.7);
 }
 
 .generic-offset-images .card a {
@@ -147,12 +157,12 @@ a:hover .btn-white {
 
 .generic-offset-images .card:first-child {
     float: left;
-    margin-left: 5%;
+    margin-left: -30px;
 }
 
 .generic-offset-images .card:last-child {
     float: right;
-    margin-right: 5%;
+    margin-right: -30px;
 }
 
 .generic-offset-images .content {
@@ -189,30 +199,28 @@ a:hover .btn-white {
 
 
 /* COLUMNS IMG-TEXT */
+.col-imgs-text .row,
+.col-text-imgs .row
+{
+    display: flex;
+    align-items: center;
+}
+
 .col-imgs-text .imgs {
     text-align: left;
 }
 
-.col-imgs-text img {
-    width: 60%;
-}
-
-.col-imgs-text img.img-front {
-    margin-top: -30%;
-    margin-left: 10%;
-}
-
-
-/* COLUMNS TEXT-IMG */
 .col-text-imgs .imgs {
     text-align: right;
 }
 
+.col-imgs-text img,
 .col-text-imgs img {
     width: 60%;
 }
 
+.col-imgs-text img.img-front,
 .col-text-imgs img.img-front {
     margin-top: -30%;
-    margin-right: 10%;
+    margin-left: 10%;
 }
