@@ -12,27 +12,96 @@ googleAnalytics = "UA-138331709-1"
   author = "Open Data Hub Südtirol - Alto Adige"
   description = "Open Data Hub is your access point to South Tyrol's relevant data. You and your service providers can use Open Data Hub for all channels of digital communication. The data is updated on a regular basis and easily accessible."
 
-# Hero section (from here on is for icon theme)
-[params.hero]
-  img = "img/IDM-Daniel_Geiger.jpg"
-  title = "Open Data Hub Südtirol - Alto Adige"
-  description = "Open Data Hub is your access point to South Tyrol's relevant data. You and your service providers can use Open Data Hub for all channels of digital communication. The data is updated on a regular basis and easily accessible."
 
+# css plugins
+[[params.plugins.css]]
+URL = "css/animate.css"
+
+[[params.plugins.css]]
+URL = "css/icomoon.css"
+
+[[params.plugins.css]]
+URL = "css/simple-line-icons.css"
+
+[[params.plugins.css]]
+URL = "css/magnific-popup.css"
+
+[[params.plugins.css]]
+URL = "css/bootstrap.css"
+
+[[params.plugins.css]]
+URL = "css/style.css"
+
+[[params.plugins.css]]
+URL = "css/custom.css"
+
+
+# js plugin
+[[params.plugins.js]]
+URL = "js/jquery.min.js"
+
+[[params.plugins.js]]
+URL = "js/jquery.easing.1.3.js"
+
+[[params.plugins.js]]
+URL = "js/bootstrap.min.js"
+
+[[params.plugins.js]]
+URL = "js/jquery.waypoints.min.js"
+
+[[params.plugins.js]]
+URL = "js/jquery.stellar.min.js"
+
+#[[params.plugins.js]]
+#URL = "js/magnific-popup-options.js"
+
+[[params.plugins.js]]
+URL = "js/main.js"
+
+# menu
+[[menu.main]]
+URL = "/"
+name = "Project"
+weight = 1
+
+[[menu.main]]
+URL = "/datasets"
+name = "Datasets"
+weight = 2
+
+[[menu.main]]
+URL = "/services"
+name = "Services"
+weight = 3
+
+[[menu.main]]
+URL = "/events"
+name = "Events"
+weight = 4
+
+[[menu.main]]
+URL = "/community"
+name = "Community"
+weight = 5
+
+
+# OBSOLETE
 # Navigation section
 [params.nav]
-  mission = "Project"
-  services = "Services"
+  logo = "img/logo-open-data-hub.png"
+  home = "Project"
   datasets = "Datasets"
+  services = "Services"
   community = "Community"
   customer = "Documentation"
   team = "Team"
   contact = "Get In Touch"
-  # Include logo instead of HOME:
-  logo = "img/logo-open-data-hub.png"
 
-# Mission section
+# Project section
 [params.mission]
   enable = true
+  title = "Mission"
+  desription = "This is title"
 
   [params.mission.images]
     enable = true

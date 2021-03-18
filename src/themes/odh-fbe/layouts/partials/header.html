@@ -33,18 +33,9 @@
 
 <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 <!-- <link rel="shortcut icon" href="favicon.ico"> -->
-    
-<!-- Animate.css -->
-<link rel="stylesheet" href="css/animate.css">
-<!-- Icomoon Icon Fonts-->
-<link rel="stylesheet" href="css/icomoon.css">
-<!-- Simple Line Icons -->
-<link rel="stylesheet" href="css/simple-line-icons.css">
-<!-- Magnific Popup -->
-<link rel="stylesheet" href="css/magnific-popup.css">
-<!-- Bootstrap  -->
-<link rel="stylesheet" href="css/bootstrap.css">
-<!-- Theme style -->
-<link rel="stylesheet" href="css/style.css">
-<!-- Theme custom style -->
-<link rel="stylesheet" href="css/custom.css">
+
+
+{{ "<!-- plugins -->" | safeHTML }}
+{{ range .Site.Params.plugins.css }}
+<link rel="stylesheet" href="{{ .URL | absURL }} ">
+{{ end }}
