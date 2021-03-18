@@ -7,6 +7,27 @@ h1.primary, h2.primary, h3.primary, h4.primary, h5.primary, h6.primary {
     color: #9bc325;
 }
 
+h1, h2, h3 {
+    margin: 1rem 0;
+}
+
+h1 {
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h2.subtitle {
+    font-size: 1.1rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
 a {
     cursor: pointer;
 }
@@ -187,16 +208,11 @@ a:hover .btn-white {
 }
 
 
-
 /* TITLE CTA */
-.title-cta h2 {
+.title-cta h1 {
     font-size: .8rem;
+    font-weight: normal;
     margin-bottom: 0;
-}
-
-.title-cta h3 {
-    font-size: 1.2rem;
-    margin: 1rem 0;
 }
 
 
