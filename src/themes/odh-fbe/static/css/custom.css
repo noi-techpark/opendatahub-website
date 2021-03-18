@@ -95,11 +95,8 @@ a:hover .btn-white {
 
 
 /* GENERIC BOXES */
-.generic-boxes .container {
-    width: 60%;
-}
-.generic-boxes .container-boxes {
-    width: 100%;
+.generic-boxes .text-center {
+    max-width: 50%;
 }
 
 .generic-boxes .single-box-block {
