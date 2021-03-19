@@ -102,10 +102,16 @@ a:hover .btn-white {
     padding-bottom: 100%;
 }
 
-.square > div, .square > a {
+.square > div,
+.square > a,
+.square > img {
     position: absolute;
     width: 100%;
     height: 100%;
+}
+
+.square > img {
+    object-fit: cover;
 }
 
 .bg-center-cover {
@@ -245,4 +251,9 @@ a:hover .btn-white {
 .col-text-imgs img.img-front {
     margin-top: -30%;
     margin-right: 10%;
+}
+
+/* DATASET */
+.datasets .card {
+    padding: 0 !important;
 }

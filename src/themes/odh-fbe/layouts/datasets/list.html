@@ -1,7 +1,20 @@
 {{ define "main" }}
-	
-	{{ partial "nav.html" . }}
 
-	{{ partial "title.html" .Params }}
-      
+{{ partial "nav.html" . }}
+
+{{ partial "title.html" .Params }}
+
+<div class="datasets container">
+	{{ range .Pages }}
+	<a class="col-lg-4 card">
+		<div class="square">
+			<!-- <img src="{{ .Params.img }}" /> -->
+			<div style="background: yellow"></div>
+		</div>
+		<div class="title">{{ .Title }}</div>
+		<div class="category">{{ .Params.category }}</div>
+	</a>
+	{{ end }}
+</div>
+
 {{ end }}
