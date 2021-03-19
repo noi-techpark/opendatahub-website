@@ -10,8 +10,8 @@
 	<!-- patch by PO -->
 	<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">Write us an e-mail to <a href="mailto:help@opendatahub.bz.it">help@opendatahub.bz.it</a>!</div>
 
+	{{ with .Site.Params.footer }}
 	<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
-		{{ with .Site.Params.footer }}
 	  <ul class="fh5co-social">
 		{{ if isset . "github" }}
 		<li><a href="{{ .github }}"><i class="icon-github"></i></a></li>
