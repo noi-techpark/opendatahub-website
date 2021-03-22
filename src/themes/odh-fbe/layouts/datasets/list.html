@@ -6,13 +6,15 @@
 
 <div class="datasets container">
 	{{ range .Pages }}
-	<a class="col-lg-4 card">
-		<div class="square">
-			<!-- <img src="{{ .Params.img }}" /> -->
-			<div style="background: yellow"></div>
+	<a href="{{ .Permalink }}" class="col-lg-4 card">
+		<div>
+			<div class="square bg-center-cover" style="background: url('{{ .Params.img }}');">
+				<!-- <img src="{{ .Params.img }}" /> -->
+				<!-- <div style="background: yellow"></div> -->
+			</div>
+			<div class="title">{{ .Title }}</div>
+			<div class="category">{{ .Params.category }}</div>
 		</div>
-		<div class="title">{{ .Title }}</div>
-		<div class="category">{{ .Params.category }}</div>
 	</a>
 	{{ end }}
 </div>
