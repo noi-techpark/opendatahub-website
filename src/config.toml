@@ -26,6 +26,9 @@ URL = "css/style.css"
 [[params.plugins.css]]
 URL = "css/custom.css"
 
+[[params.plugins.css]]
+URL = "css/availability.css"
+
 
 # js plugin
 [[params.plugins.js]]

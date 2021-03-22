@@ -384,11 +384,6 @@ table td:first-child {
     font-size: .8rem;
 }
 
-.dataset-content .availability.open {
-    color: white;
-    background-color: #9BC325;
-}
-
 .dataset-content .card .full-width {
     margin-top: 1rem;
     padding: 8px;
