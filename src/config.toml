@@ -18,12 +18,6 @@ googleAnalytics = "UA-138331709-1"
 URL = "css/animate.css"
 
 [[params.plugins.css]]
-URL = "css/icomoon.css"
-
-[[params.plugins.css]]
-URL = "css/simple-line-icons.css"
-
-[[params.plugins.css]]
 URL = "css/magnific-popup.css"
 
 [[params.plugins.css]]

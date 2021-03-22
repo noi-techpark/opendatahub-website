@@ -1,0 +1,49 @@
+{{ define "main" }}
+
+{{ partial "nav.html" . }}
+
+{{ partial "title.html" .Params }}
+
+<div class="bg-darker" style="padding: 3rem 0;">
+	<div class="events container">
+
+		{{ range .Pages }}
+		<a href="{{ .Params.button_link }}"  class="col-lg-6 card">
+			<div>
+				<div class="rectangle-long bg-center-cover">
+					<img src="{{ .Params.img }}" alt="{{ .Params.img_alt }}" />
+				</div>
+
+				<h6 class="title">{{ .Title }}</h6>
+				<div class="content">{{ .Content }}</div>
+				
+				<p>
+					{{ with .Params.day }}
+					<div>
+						<span class="icon icon-calendar"></span>
+						<span>{{.}}</span>
+					</div>
+					{{ end }}
+					{{ with .Params.time }}
+					<div>
+						<span class="icon icon-time"></span>
+						<span>{{.}}</span>
+					</div>
+					{{ end }}
+					{{ with .Params.location }}
+					<div>
+						<span class="icon icon-location"></span>
+						<span>{{.}}</span>
+					</div>
+					{{ end }}
+				</p>
+
+				<div class="btn btn-primary">Book now</div>
+			</div>
+		</a>
+		{{ end }}
+		
+	</div>
+</div>
+
+{{ end }}
