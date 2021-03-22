@@ -76,6 +76,19 @@ a.bg-primary:hover {
     background-color: #9bc325;
 }
 
+.btn-primary:hover {
+    background-color: #abd216 !important;
+}
+
+.btn-lightgrey {
+    color: black;
+    background-color: #eeeeee;
+}
+
+.btn-lightgrey:hover {
+    background-color: #f3f3f3 !important;
+}
+
 .btn-white {
     color: black;
     background-color: rgba(255,255,255,0.8);
@@ -113,6 +126,21 @@ a:hover .btn-white {
     background-position: center !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-top: 3px solid #cccccc;
+}
+
+th, td {
+    padding: 10px 0;
+    border-bottom: 3px solid #cccccc;
+}
+
+table a {
+    color: black;
 }
 
 
@@ -277,6 +305,41 @@ a:hover .btn-white {
     content: " \279E";
 }
 
-.datasets .category {
+section.dataset-title {
+    padding-bottom: 1rem;
+}
+
+.dataset-title h1 {
+    margin-bottom: 0; 
+}
+
+
+.dataset-title .category {
+    font-size: 1.1rem;
+}
+
+.category,
+.category a {
+    color: #555555;
+}
+
+.dataset-content .container-content {
+    padding: 0;
+}
+
+.dataset-content .description {
+    font-size: 1.1.rem;
+}
+
+.dataset-content table {
+    margin-bottom: 4rem;
+}
+
+.dataset-content table th {
+    visibility: hidden;
+}
+
+table td:first-child {
+    width: 35%;
     color: #555555;
 }
