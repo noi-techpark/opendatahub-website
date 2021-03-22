@@ -102,11 +102,16 @@ a:hover .btn-white {
     background: rgba(255,255,255,1);
 }
 
+.full-width {
+    width: 100%;
+}
+
 
 /* GENERIC ELEMENTS */
 
 .square {
     padding: 0;
+    position: relative;
 }
 
 .square::after {
@@ -116,10 +121,12 @@ a:hover .btn-white {
 }
 
 .square > div,
-.square > a {
+.square > a,
+.square > img {
     position: absolute;
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 .bg-center-cover {
@@ -342,4 +349,34 @@ section.dataset-title {
 table td:first-child {
     width: 35%;
     color: #555555;
+}
+
+.dataset-content .card > div {
+    margin-top: -3rem;
+    margin-left: 4rem
+}
+
+.dataset-content .square .availability {
+    top: 25px;
+    right: 25px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.dataset-content .availability.description {
+    margin: 1rem 15%;
+    color: #555555;
+    font-size: .8rem;
+}
+
+.dataset-content .availability.open {
+    color: white;
+    background-color: #9BC325;
+}
+
+.dataset-content .card .full-width {
+    margin-top: 1rem;
+    padding: 8px;
+    text-align: center;
 }

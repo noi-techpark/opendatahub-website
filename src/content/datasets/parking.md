@@ -3,6 +3,10 @@ title: "Parking"
 category: "Mobility"
 img: "/img/sfscon.jpg"
 
+availability: "open"
+availability_label: "Open data"
+availability_description: "This dataset is free and available to everyone"
+
 doc_link: "#"
 example_link: "#"
 ---

@@ -22,6 +22,17 @@
 			{{ with .Params.doc_link}}<a href="{{ . }}" class="btn btn-primary" style="margin-right: 2rem">See documentation</a>{{ end }}
 			{{ with .Params.example_link}}<a href="{{ . }}" class="btn btn-lightgrey">See example</a>{{ end }}
         </div>
+		<div class="card col-lg-5">
+			<div>
+				<div class="square bg-center-cover">
+					<img src="{{ .Params.img }}" />
+					<div class="availability {{ .Params.availability }}"></div>
+				</div>
+				<div class="full-width availability {{ .Params.availability }}">{{ .Params.availability_label }}</div>
+
+				{{ with .Params.availability_description }}<p class="text-center availability description">{{.}}</p>{{ end }}
+			</div>
+		</div>
     </div>
 </div>
 

@@ -8,9 +8,8 @@
 	{{ range .Pages }}
 	<a href="{{ .Permalink }}" class="col-lg-4 card">
 		<div>
-			<div class="square bg-center-cover" style="background: url('{{ .Params.img }}');">
-				<!-- <img src="{{ .Params.img }}" /> -->
-				<!-- <div style="background: yellow"></div> -->
+			<div class="square bg-center-cover">
+				<img src="{{ .Params.img }}" />
 			</div>
 			<div class="title">{{ .Title }}</div>
 			<div class="category">{{ .Params.category }}</div>
