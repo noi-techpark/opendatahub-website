@@ -152,6 +152,11 @@ a:hover .btn-white {
     font-weight: bold;
 }
 
+.fh5co-menu-1.float-right {
+    float: right !important;
+    width: auto;
+}
+
 /* GENERIC ELEMENTS */
 
 .square,
