@@ -260,10 +260,9 @@ p {
 .fh5co-main-nav .fh5co-menu-1 a {
   padding: 35px 0;
   margin-right: 30px;
-  color: #ccc;
-  text-transform: uppercase;
+  color: black;
   letter-spacing: 2px;
-  font-size: 13px;
+  font-size: .8rem;
   font-weight: 400;
   display: -moz-inline-stack;
   display: inline-block;
