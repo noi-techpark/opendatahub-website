@@ -1,0 +1,70 @@
+{{ define "main" }}
+
+
+{{ partial "nav.html" . }}
+
+{{ partial "title.html" .Params }}
+
+<!-- DATA PROVIDERS -->
+<section>
+	{{ partial "title-section.html" site.Data.community.providers }}
+	{{ partial "logos.html" site.Data.community.providers }}
+</section>
+
+<!-- DATA CONSUMERS -->
+<section class="bg-darker">
+	{{ partial "title-section.html" site.Data.community.consumers }}
+	{{ partial "logos.html" site.Data.community.consumers }}
+</section>
+
+<!-- DEVELOPERS -->
+<section>
+	{{ partial "title-section.html" site.Data.community.developers }}
+	{{ partial "logos.html" site.Data.community.developers }}
+</section>
+
+<section id="fh5co-team">
+	  
+	{{ partial "title-section.html" site.Data.community.team }}
+
+	<div class="container equal">
+		{{ with site.Data.community.team }}
+
+		{{ range .item }}
+		<div class="col-md-4 col-xs-12">
+			<div class="person">
+				<img src="{{ .img | absURL }}" alt="{{ .name }}" class="img-responsive">
+				<h3>{{ .name }}</h3>
+				<h4>{{ .position }}</h4>
+				<p>{{ .company | markdownify }}</p>
+				<ul class="social">
+					{{ if isset . "email" }}
+					<li><a href="mailto:{{ .email }}"><span class="icon icon-envelope"></span></a></li>
+					{{ end }}
+					{{ if isset . "facebook" }}
+					<li><a href="{{ .facebook }}"><span class="icon icon-facebook"></span></a></li>
+					{{ end }}
+					{{ if isset . "twitter" }}
+					<li><a href="{{ .twitter }}"><span class="icon icon-twitter"></span></a></li>
+					{{ end }}
+					{{ if isset . "instagram" }}
+					<li><a href="{{ .instagram }}"><span class="icon icon-instagram"></span></a></li>
+					{{ end }}
+					{{ if isset . "github" }}
+					<li><a href="{{ .github }}"><span class="icon icon-github"></span></a></li>
+					{{ end }}
+					{{ if isset . "linkedin" }}
+					<li><a href="{{ .linkedin }}"><span class="icon icon-linkedin"></span></a></li>
+					{{ end }}
+				</ul>
+			</div>
+		</div>
+		{{ end }}
+
+		{{ end }}
+	</div>
+
+</div>
+  
+
+{{ end }}

@@ -120,7 +120,6 @@ a:hover .btn-white {
 }
 
 /* MENU NAVBAR */
-
 .fh5co-main-nav .fh5co-menu-1 .logo-home {
     padding: 0;
     margin-right: 15px;
@@ -147,6 +146,10 @@ a:hover .btn-white {
     transition: all 0.3s ease;
 }
 
+.fh5co-main-nav .fh5co-menu-1 a.logo-home:hover {
+    border-color: transparent !important;
+}
+
 .fh5co-main-nav .fh5co-menu-1 a.current {
     border-color: #9bc325;
     font-weight: bold;
@@ -157,8 +160,8 @@ a:hover .btn-white {
     width: auto;
 }
 
-/* GENERIC ELEMENTS */
 
+/* GENERIC ELEMENTS */
 .square,
 .rectangle-long {
     padding: 0;
@@ -219,6 +222,7 @@ table a {
 .generic-boxes .single-box-block {
     width: calc(100% - 30px);
     height: calc(100% - 30px);
+    margin-left: 15px;
     padding: 20px;
 }
 
@@ -302,11 +306,15 @@ table a {
     margin-bottom: 20px;
 }
 
-/* TITLE CTA */
+/* TITLE */
 .title-cta h1 {
     font-size: 0.8rem;
     font-weight: normal;
     margin-bottom: 0;
+}
+
+.title-section {
+    margin-bottom: 3rem;
 }
 
 /* COLUMNS IMG-TEXT */
@@ -472,4 +480,37 @@ table td:first-child {
     height: 4rem;
     margin-bottom: 0;
     overflow-y: overlay;
+}
+
+/* FOOTER */
+footer {
+    background: #9bc325 !important;
+    margin-top: 3rem;
+}
+
+footer .row img {
+    width: 50%;
+}
+
+footer .row h6 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white !important;
+}
+
+footer .row ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer .row a {
+    color: white !important;
+}
+
+footer .copyright {
+    margin-top: 2.5rem;
+    font-size: .8rem;
+    color: white;
 }
