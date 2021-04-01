@@ -13,6 +13,9 @@ favicon = "img/logo-open-data-hub.png"
 author = "Open Data Hub Südtirol - Alto Adige"
 description = "Open Data Hub is your access point to South Tyrol's relevant data. You and your service providers can use Open Data Hub for all channels of digital communication. The data is updated on a regular basis and easily accessible."
 
+[taxonomies]
+type = "datatype"
+
 
 ######################################## css plugins
 [[params.plugins.css]]

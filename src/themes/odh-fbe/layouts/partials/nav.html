@@ -9,19 +9,19 @@
 
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
-          <a href="{{ .URL }}" {{ if eq $currentPage.Params.Name .Name }}class="current"{{ end }}>{{ .Name }}</a>
+          <a href="{{ .URL }}" {{ if eq $currentPage.Params.Position .Name }}class="current"{{ end }}>{{ .Name }}</a>
         {{end}}
 	
       </div>
 
       <div class="fh5co-menu-1 float-right">
-        <a href="help">
+        <a href="/help">
           <span class="icon icon-heart">Help</span>
         </a>
 
         <div class="vertical-separator"></div>
 	
-        <a href="start">
+        <a href="#">
           <span class="icon icon-start">Start now</span>
         </a>
       </div>

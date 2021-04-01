@@ -1,9 +1,10 @@
 ---
-name: "Datasets"
+position: "Datasets"
+
 title: "Environment"
 img: "/img/sfscon.jpg"
 img_alt: "sfscon"
 
-categories: "Weather"
+datatype: "Weather"
 ---
 

@@ -6,7 +6,7 @@
                 <option value="/datasets/">All datasets</option>
                 
                 {{ $currentPage := . }}
-                {{ range site.Taxonomies.categories }}
+                {{ range site.Taxonomies.datatype }}
                 <option value="/datasets/{{ lower .Page.Title }}" {{ if eq $currentPage.title .Page.Title }}selected{{ end }}>{{ .Page.Title }}</option>
                 {{ end }}
                 

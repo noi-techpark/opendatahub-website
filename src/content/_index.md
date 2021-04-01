@@ -1,5 +1,6 @@
 ---
-name: "Project"
+position: "Project"
+
 title: "Project"
 ---
 
