@@ -1,0 +1,22 @@
+{{" <!-- Title -->" | safeHTML }}
+<section class="title">
+    <div class="container">
+        <div class="category-selector">
+            <select class="form-select" onChange="window.location.href=this.value">
+                <option value="/datasets/">All datasets</option>
+                
+                {{ $currentPage := . }}
+                {{ range site.Taxonomies.categories }}
+                <option value="/datasets/{{ lower .Page.Title }}" {{ if eq $currentPage.title .Page.Title }}selected{{ end }}>{{ .Page.Title }}</option>
+                {{ end }}
+                
+            </select>
+        </div>
+
+        <div class="container-content">
+            <h1 class="primary">{{ .title | markdownify }}</h1>
+            {{ with .subtitle }}<h2 class="subtitle">{{ . | markdownify }}</h2>{{ end }}
+        </div>
+    </div>
+</section>
+{{" <!-- /Title -->" | safeHTML }}

@@ -2,17 +2,17 @@
 
 {{ partial "nav.html" . }}
 
-{{ partial "title.html" .Params }}
+{{ partial "title-select.html" .Params }}
 
 <div class="datasets container">
-	{{ range .Pages }}
+	{{ range .Pages.ByTitle }}
 	<a href="{{ .Permalink }}" class="col-lg-4 card">
 		<div>
 			<div class="square bg-center-cover">
 				<img src="{{ .Params.img }}" alt="{{ .Params.img_alt }}" />
 			</div>
 			<div class="title">{{ .Title }}</div>
-			<div class="category">{{ .Params.category }}</div>
+			<div class="category">{{ .Params.categories }}</div>
 		</div>
 	</a>
 	{{ end }}

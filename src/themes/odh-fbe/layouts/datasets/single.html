@@ -8,7 +8,7 @@
             <h1>{{ .Title | markdownify }}</h1>
             <span class="category">
 				<a href="/datasets">Datasets</a> >
-				<a href="#">{{ .Params.category }}</a>
+				<a href="/datasets/{{ lower .Params.categories }}">{{ .Params.categories }}</a>
 			</span>
         </div>
     </div>

@@ -7,9 +7,3 @@ min_version = "0.25.1"
 [author]
   name = "FlashBeing"
   homepage = "https://flashbeing.com"
-
-# If porting an existing theme
-[original]
-  name = "hugo-icon"
-  author = "Steve Lane"
-  homepage = "https://stevelane.github.io/"
