@@ -33,6 +33,9 @@ URL = "css/custom.css"
 [[params.plugins.css]]
 URL = "css/availability.css"
 
+[[params.plugins.css]]
+URL = "css/contact-form.css"
+
 
 ######################################## js plugins
 [[params.plugins.js]]

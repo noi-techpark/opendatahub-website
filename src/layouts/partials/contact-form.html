@@ -1,76 +1,36 @@
-<div id="fh5co-contact" data-section="contact">
-  <div class="container">
-    <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
-      {{ with .Site.Params.contact }}
-      <h2>{{ .title }}</h2>
-      <p>{{ .message | markdownify }}</p>
-      {{ end }}
-    </div>
 
-	<!-- patch by PO -->
-	<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">Write us an e-mail to <a href="mailto:help@opendatahub.bz.it">help@opendatahub.bz.it</a>!</div>
 
-	{{ with .Site.Params.footer }}
-	<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
-	  <ul class="fh5co-social">
-		{{ if isset . "github" }}
-		<li><a href="{{ .github }}"><i class="icon-github"></i></a></li>
-		{{ end }}
-		{{ if isset . "twitter" }}
-		<li><a href="{{ .twitter }}"><i class="icon-twitter"></i></a></li>
-		{{ end }}
-		{{ if isset . "facebook" }}
-		<li><a href="{{ .facebook }}"><i class="icon-facebook"></i></a></li>
-		{{ end }}
-		{{ if isset . "vine" }}
-		<li><a href="{{ .vine }}"><i class="icon-vine"></i></a></li>
-		{{ end }}
-		{{ if isset . "linkedin" }}
-		<li><a href="{{ .linkedin }}"><i class="icon-linkedin"></i></a></li>
-		{{ end }}
-		{{ if isset . "instagram" }}
-		<li><a href="{{ .instagram }}"><i class="icon-instagram"></i></a></li>
-		{{ end }}
-		{{ if isset . "telegram" }}
-		<li><a href="{{ .telegram }}"><i class="icon-paper-plane"></i></a></li>
-		{{ end }}
-	  </ul>
+<script>
+	function setReason(value) {
+		document.getElementById('contact-form').className = value
+	}
+</script>
+
+<form id="contact-form" action="">
+	<label for="contact-reason">Contact reason</label>
+	<select id="contact-reason" onLoad="setReason(this.value)" onChange="setReason(this.value)">
+		<option value="reason-generic">Generic reason</option>
+		<option value="reason-specific">Specific reason</option>
+	</select>
+
+	<label for="name">Name</label>
+	<input id="name" name="name" placeholer="" type="text" required>
+
+	<label for="surname">Surname</label>
+	<input id="surname" name="surname" placeholer="" type="text" required>
+
+	<div class="specific" style="display: none">
+		<label for="specific">Specific field</label>
+		<input id="specific" name="specific" placeholer="" type="text" required>
 	</div>
-	{{ end }}
 
-<!--
-    <form name="contact-form" netlify-honeypot="_gotcha" action="thank-you" netlify>
-    <div class="row">
-		<div class="col-md-6">
-	  		<div class="form-group">
-			<label for="inputName">Newsletter registration</label></br>
-				{{ with .Site.Params.contact }}
-				<small id="newsletter" class="form-text text-muted">{{ .email_disclaimer }}</small>
-				<input type="text" class="form-control" id="inputName" placeholder="{{ .company_placeholder }}" name="_company">
-				<input type="text" class="form-control" id="inputName" placeholder="{{ .name_placeholder }}" name="_name">
-		  		{{ end }}
-	  		<div class="form-group">
-				{{ with .Site.Params.contact }}
-	    		<input type="email" class="form-control" id="inputEmail" placeholder="{{ .email_placeholder }}" name="_replyto" required>
-	    		{{ end }}
-	  		</div>
-			<div class="form-group">
-				{{ with .Site.Params.contact }}
-				<input type="checkbox" id="gdpr" name="gdpr" value="Boat">
-				<small for="vehicle3">I want to receive the Open Data Hub newsletter</small></br>
-				<input type="checkbox" id="gdpr" name="gdpr" value="Boat">
-				<small for="vehicle3">I accept privacy terms</small>
-				{{ end }}
-	  		</div>
-			<div class="form-group">
-	    		<input type="hidden" name="_subject" value="New website query">
-	    		<input type="text" name="_gotcha" style="display:none">
-	    		<button type="submit" class="btn btn-primary btn-outline" value="Send">{{ with .Site.Params.contact }}{{ .button_text }}{{ end }}</button>
-	  		</div>
-		</div>
-      </div>
-	</form>
-	-->
+	<label for="message">Message</label>
+	<textarea id="message" name="message" placeholer="" required ></textarea>
 
+	<div>
+		<input id="terms-agree" name="agree" type="checkbox" class="display-inline-block" required>
+		<label for="terms-agree" class="display-inline-block">I agree to the <a href="{{ site.Params.PrivacyUrl }}">Privacy Terms</a></label>
 	</div>
-  </div>
+
+	<button class="btn btn-primary">Send message</button>
+</form>

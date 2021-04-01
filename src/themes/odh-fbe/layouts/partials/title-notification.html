@@ -1,0 +1,21 @@
+{{" <!-- Title -->" | safeHTML }}
+<section class="title">
+    <div class="container">
+        <div class="notification-box bg-primary col-lg-4">
+            <h3 class="bold">You can also</h3>
+            Send us an email
+
+            {{ with .contact_email }}
+                <div>
+                    <a href="mailto:{{.}}" class="bold bigger">{{ . }}</a>
+                </div>
+            {{ end }}
+        </div>
+
+        <div class="container-content">
+            <h1 class="primary">{{ .title | markdownify }}</h1>
+            {{ with .subtitle }}<h2 class="subtitle">{{ . | markdownify }}</h2>{{ end }}
+        </div>
+    </div>
+</section>
+{{" <!-- /Title -->" | safeHTML }}
