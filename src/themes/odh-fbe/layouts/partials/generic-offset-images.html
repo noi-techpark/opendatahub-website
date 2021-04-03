@@ -1,7 +1,7 @@
 {{" <!-- Offset Images -->" | safeHTML }}
 <section class="generic-offset-images bg-primary">
     <div class="container">
-        <div class="col-lg-6 square card hoverable">
+        <div class="col-12 col-lg-6 square card hoverable">
             <a href="{{ .image_one_link }}" class="bg-center-cover" style="background: url('{{ .image_one_img }}');">
                 <div class="content">
                     <h4>{{ .image_one_title | markdownify }}</h4>
@@ -10,7 +10,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-lg-6 square card hoverable">
+        <div class="col-12 col-lg-6 square card hoverable">
             <a href="{{ .image_two_link }}" class="bg-center-cover" style="background: url('{{ .image_two_img }}');">
                 <div class="content">
                     <h4>{{ .image_two_title | markdownify }}</h4>

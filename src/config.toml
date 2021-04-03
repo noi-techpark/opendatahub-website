@@ -31,10 +31,16 @@ URL = "css/style.css"
 URL = "css/custom.css"
 
 [[params.plugins.css]]
+URL = "css/responsive.css"
+
+[[params.plugins.css]]
 URL = "css/availability.css"
 
 [[params.plugins.css]]
 URL = "css/contact-form.css"
+
+[[params.plugins.css]]
+URL =  "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
 
 
 ######################################## js plugins
@@ -116,7 +122,7 @@ name = "Demo Dev"
 
 ######################################## FOOTER
 [params.footer]
-logo = "/img/logo-open-data-hub.png"
+logo = "/img/logo-open-data-hub_white.png"
 
 menu_title_1 = "Data"
 menu_title_2 = "Community"

@@ -1,0 +1,94 @@
+.sm-only {
+    display: none;
+}
+
+/* NAVBAR */
+#fh5co-offcanvas {
+    background: #f5f5f5;
+}
+
+#fh5co-offcanvas a.logo-home {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#fh5co-offcanvas a {
+    color: #555555;
+}
+
+#fh5co-offcanvas a:hover {
+    color: black;
+}
+
+#fh5co-offcanvas a.current {
+    color: black;
+}
+
+#fh5co-offcanvas a.menu-item-extra {
+    margin-top: 1.5rem;
+    font-weight: bold;
+}
+
+.fh5co-nav-toggle {
+    background: #555555 !important;
+}
+
+@media(max-width: 768px) {
+
+    .lg-only {
+        display: none;
+    }
+
+    .sm-only {
+        display: block;
+    }
+
+    /* OFFSET BOXES */
+    .generic-offset-images .card {
+        width: 100% !important;
+        float: none !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .generic-offset-images .card:last-child {
+        margin-top: auto !important;
+    }
+
+    /* GENERIC BOXES */
+    .generic-boxes .single-box-icon img {
+        width: 35% !important;
+    }
+
+    /* DATASETS */
+    .datasets .card > div {
+        margin-bottom: 3rem !important;
+    }
+
+    .dataset-content .card > div {
+        margin: 0 !important;
+        margin-top: 5rem !important;
+    }
+
+}
+
+@media(max-width: 1199px) {
+
+    .js-sticky {
+      display: none !important;
+    }
+
+    .fh5co-nav-toggle {
+      display: block !important;
+    }
+
+    /* FOOTER */
+    footer ul.social{
+        display: flex;
+    }
+
+    footer ul.social li {
+        margin-right: 1rem;
+    }
+}
+

@@ -1288,7 +1288,7 @@ p {
 .js-sticky {
   display: block;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1199px) {
   .js-sticky {
     display: none;
   }
@@ -1387,7 +1387,7 @@ p {
   -ms-border-radius: 4px;
   border-radius: 4px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1199px) {
   .fh5co-nav-toggle {
     display: block;
   }

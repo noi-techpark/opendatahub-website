@@ -1,3 +1,8 @@
+:root {
+    --primary: #9bc325;
+    --primary-hover: #abd216;
+}
+
 html,
 body,
 p {
@@ -11,7 +16,7 @@ h3.primary,
 h4.primary,
 h5.primary,
 h6.primary {
-    color: #9bc325;
+    color: var(--primary);
 }
 
 h1,
@@ -44,10 +49,15 @@ h6.title {
 
 a {
     cursor: pointer;
+    color: var(--primary);
+}
+
+a:hover {
+    color: var(--primary-hover)
 }
 
 .bold {
-    font-weight: bold;
+    font-weight: bold !important;
 }
 
 .bigger {
@@ -59,7 +69,7 @@ section {
 }
 
 .bg-primary {
-    background: #9bc325;
+    background: var(--primary);
     color: white;
 }
 
@@ -70,11 +80,15 @@ section {
 }
 
 a.bg-primary:hover {
-    background: #abd216 !important;
+    background: var(--primary-hover) !important;
 }
 
 .bg-darker {
     background: #f5f5f5;
+}
+
+.darker {
+    color: #777777 !important;
 }
 
 .container {
@@ -94,7 +108,8 @@ a.bg-primary:hover {
     padding: 10px;
 }
 
-.btn::after {
+.btn::after
+{
     content: " \279E";
     font-size: 0.8rem;
     font-weight: bold;
@@ -102,12 +117,12 @@ a.bg-primary:hover {
 
 .btn-primary {
     color: white;
-    background-color: #9bc325;
+    background-color: var(--primary);
 }
 
 .btn-primary:hover,
 a:hover .btn-primary {
-    background-color: #abd216 !important;
+    background-color: var(--primary-hover) !important;
 }
 
 .btn-lightgrey {
@@ -154,7 +169,7 @@ a:hover .btn-white {
     height: 35px;
     width: 1px;
     background-color: #cccccc;
-    margin: 0 15px;
+    margin: 0 5px;
 }
 
 .fh5co-main-nav .fh5co-menu-1 a {
@@ -165,7 +180,7 @@ a:hover .btn-white {
 }
 
 .fh5co-main-nav .fh5co-menu-1 a:hover {
-    border-color: #abd216;
+    border-color: var(--primary-hover);
     transition: all 0.3s ease;
 }
 
@@ -174,7 +189,7 @@ a:hover .btn-white {
 }
 
 .fh5co-main-nav .fh5co-menu-1 a.current {
-    border-color: #9bc325;
+    border-color: var(--primary);
     font-weight: bold;
 }
 
@@ -185,6 +200,10 @@ a:hover .btn-white {
 
 
 /* GENERIC ELEMENTS */
+.fa {
+    min-width: 1rem;
+}
+
 .square,
 .rectangle-long {
     padding: 0;
@@ -224,7 +243,7 @@ a:hover .btn-white {
 table {
     width: 100%;
     border-collapse: collapse;
-    border-top: 3px solid #cccccc;
+    /* border-top: 3px solid #cccccc; */
 }
 
 th,
@@ -252,7 +271,7 @@ select:focus, input:focus {
 
 /* GENERIC BOXES */
 .generic-boxes .text-center {
-    max-width: 50%;
+    max-width: 600px;
 }
 
 .generic-boxes .single-box-block {
@@ -275,6 +294,12 @@ select:focus, input:focus {
 .generic-boxes .single-box-icon,
 .generic-boxes .single-box-text {
     height: 50%;
+}
+
+.generic-boxes .single-box-icon img {
+    height: 100%;
+    width: 50%;
+    vertical-align: middle;
 }
 
 .generic-boxes .single-box-block h4 {
@@ -523,14 +548,32 @@ table td:first-child {
     overflow-y: overlay;
 }
 
+
+/* COMMUNITY */
+#fh5co-team .person {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#fh5co-team .person .card-footer p {
+    margin-bottom: 10px;
+}
+
+#fh5co-team .person a:hover h3 {
+    text-decoration: none !important;
+}
+
+
 /* FOOTER */
 footer {
-    background: #9bc325 !important;
+    background: var(--primary) !important;
     margin-top: 3rem;
 }
 
 footer .row img {
     width: 50%;
+    max-width: 200px;
 }
 
 footer .row h6 {
@@ -550,6 +593,10 @@ footer .row a {
     color: white !important;
 }
 
+footer .col {
+    margin-bottom: 2rem;
+}
+
 footer .copyright {
     margin-top: 2.5rem;
     font-size: .8rem;
@@ -557,12 +604,15 @@ footer .copyright {
 }
 
 
-/* CUSTOM */
+/* CONTACT */
 .notification-box {
-    float: right;
     margin-top: 1.2rem;
     padding: 1.5rem;
     padding-bottom: 2.5rem;
+}
+
+.notification-box.col-lg-4 {
+    float: right;
 }
 
 #contact-form .col-lg-5 {
@@ -602,4 +652,34 @@ footer .copyright {
 
 #contact-form button {
     margin-top: 1.5rem;
+}
+
+
+/* SOCIAL */
+.card-footer .social i.fa {
+    font-size: 1.2rem !important;
+}
+
+.card-footer .social {
+    height: 1.4rem;
+    margin-bottom: 1.5rem !important;
+}
+
+footer ul.social li {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 25px;
+}
+
+footer ul.social li img{
+    width: 100% !important;
+    height: 100%;
+    vertical-align: middle;
+}
+
+
+/* ICONS */
+.icon {
+    width: 1rem;
+    height: 1rem;
 }

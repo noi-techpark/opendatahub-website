@@ -7,7 +7,7 @@
                 
                 {{ $currentPage := . }}
                 {{ range site.Taxonomies.datatype }}
-                <option value="/datasets/{{ lower .Page.Title }}" {{ if eq $currentPage.title .Page.Title }}selected{{ end }}>{{ .Page.Title }}</option>
+                <option value="/datatype/{{ lower .Page.Title }}" {{ if eq $currentPage.title .Page.Title }}selected{{ end }}>{{ .Page.Title }}</option>
                 {{ end }}
                 
             </select>

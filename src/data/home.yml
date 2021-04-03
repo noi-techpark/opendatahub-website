@@ -44,11 +44,11 @@ services:
       btn_label: Learn more
 
     - name: Data access
-      icon: "/icon/box.svg"
+      icon: "/icon/upload.svg"
       box_link: "#ye"
       btn_label: Learn more
 
     - name: Data access
-      icon: "/icon/box.svg"
+      icon: "/icon/download.svg"
       box_link: "#ye"
       btn_label: Learn more

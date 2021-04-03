@@ -8,7 +8,7 @@
             <h1>{{ .Title | markdownify }}</h1>
             <span class="category">
 				<a href="/datasets">Datasets</a> >
-				<a href="/datasets/{{ lower .Params.datatype }}">{{ .Params.datatype }}</a>
+				<a href="/datatype/{{ lower .Params.datatype }}">{{ .Params.datatype }}</a>
 			</span>
         </div>
     </div>
@@ -16,13 +16,13 @@
 
 <div class="dataset-content">
 	<div class="container">
-        <div class="container-content col-lg-7">
+        <div class="container-content col col-12 col-lg-7">
             <p class="description">{{ .Content }}</p>
 
 			{{ with .Params.doc_link}}<a href="{{ . }}" class="btn btn-primary" style="margin-right: 2rem">See documentation</a>{{ end }}
 			{{ with .Params.example_link}}<a href="{{ . }}" class="btn btn-lightgrey">See example</a>{{ end }}
         </div>
-		<div class="card col-lg-5">
+		<div class="card col col-12 col-lg-5">
 			<div>
 				<div class="square bg-center-cover">
 					<img src="{{ .Params.img }}" alt="{{ .Params.img_alt }}" />

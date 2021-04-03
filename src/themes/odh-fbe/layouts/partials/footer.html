@@ -2,10 +2,10 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col col-lg-4">
                     <img src="{{ .Site.Params.footer.logo }}" />
                 </div>
-                <div class="col-lg-2">
+                <div class="col col-lg-2 col-sm-4">
                     <h6>{{ .Site.Params.footer.menu_title_1 }}</h6>
                     <ul>
                     {{ range .Site.Menus.footer1 }}
@@ -13,7 +13,7 @@
                     {{end}}
                     </ul>
                 </div>
-                <div class="col-lg-2">
+                <div class="col col-lg-2 col-sm-4">
                     <h6>{{ .Site.Params.footer.menu_title_2 }}</h6>
                     <ul>
                     {{ range .Site.Menus.footer2 }}
@@ -21,7 +21,7 @@
                     {{end}}
                     </ul>
                 </div>
-                <div class="col-lg-2">
+                <div class="col col-lg-2 col-sm-4">
                     <h6>{{ .Site.Params.footer.menu_title_3 }}</h6>
                     <ul>
                     {{ range .Site.Menus.footer3 }}
@@ -29,26 +29,38 @@
                     {{end}}
                     </ul>
                 </div>
-                <div class="col-lg-2">
+                <div class="col col-lg-2 col-sm-4">
                     {{ with .Site.Params.footer }}
-                    <ul class="fh5co-social">
-                        {{ if isset . "github" }}
-                        <li><a href="{{ .github }}"><i class="icon icon-github"></i></a></li>
-                        {{ end }}
+                    <ul class="social">
                         {{ if isset . "twitter" }}
-                        <li><a href="{{ .twitter }}"><i class="icon icon-twitter"></i></a></li>
+                        <li>
+                            <a href="{{ .twitter }}"><img src="/icon/twitter_white.svg" /></a>
+                        </li>
                         {{ end }}
                         {{ if isset . "facebook" }}
-                        <li><a href="{{ .facebook }}"><i class="icon icon-facebook"></i></a></li>
+                        <li>
+                            <a href="{{ .facebook }}"><img src="/icon/facebook_white.svg" /></a>
+                        </li>
                         {{ end }}
                         {{ if isset . "linkedin" }}
-                        <li><a href="{{ .linkedin }}"><i class="icon icon-linkedin"></i></a></li>
+                        <li>
+                            <a href="{{ .linkedin }}"><img src="/icon/linkedin_white.svg" /></a>
+                        </li>
                         {{ end }}
                         {{ if isset . "instagram" }}
-                        <li><a href="{{ .instagram }}"><i class="icon icon-instagram"></i></a></li>
+                        <li>
+                            <a href="{{ .instagram }}"><img src="/icon/instagram_white.svg" /></a>
+                        </li>
+                        {{ end }}
+                        {{ if isset . "github" }}
+                        <li>
+                            <a href="{{ .github }}"><img src="/icon/github_white.svg" /></a>
+                        </li>
                         {{ end }}
                         {{ if isset . "telegram" }}
-                        <li><a href="{{ .telegram }}"><i class="icon icon-telegram  "></i></a></li>
+                        <li>
+                            <a href="{{ .telegram }}"><img src="/icon/telegram_white.svg" /></a>
+                        </li>
                         {{ end }}
                     </ul>
                     {{ end }}

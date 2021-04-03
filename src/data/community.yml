@@ -72,9 +72,11 @@ team:
       position: Team Leader
       img: "img/PatrickOhnewein.jpg"
       company: NOI Techpark Südtirol - Alto Adige
+      email: "https://www.facebook.com/patrick.ohnewein"
       facebook: "https://www.facebook.com/patrick.ohnewein"
       twitter: "https://twitter.com/ohnewein"
       github: "https://github.com/ohnewein"
+      instagram: "https://www.facebook.com/patrick.ohnewein"
       linkedin: "https://www.linkedin.com/in/ohnewein/"
 
     - name: Patrick Ohnewein
@@ -90,7 +92,3 @@ team:
       position: Team Leader
       img: "img/PatrickOhnewein.jpg"
       company: NOI Techpark Südtirol - Alto Adige
-      facebook: "https://www.facebook.com/patrick.ohnewein"
-      twitter: "https://twitter.com/ohnewein"
-      github: "https://github.com/ohnewein"
-      linkedin: "https://www.linkedin.com/in/ohnewein/"
