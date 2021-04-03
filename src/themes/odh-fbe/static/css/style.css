@@ -1268,7 +1268,7 @@ p {
   transition: 0.5s;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1199px) {
   #fh5co-container, #fh5co-footer, .fh5co-nav-toggle {
     -moz-transform: translateX(0px);
     -webkit-transform: translateX(0px);
