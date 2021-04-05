@@ -1,17 +1,8 @@
-{{ define "main" }}
-
-
-{{ partial "nav.html" . }}
-
-{{ partial "title-notification.html" .Params }}
+{{ define "main" }} {{ partial "nav.html" . }} {{ partial
+"title-notification.html" .Params }}
 
 <div class="container">
-	<div class="col-lg-5 no-padding">
-
-		
-
-		{{ partial "contact-form.html"}}
-	</div>
+  <div class="contact-form-ct col-lg-5">{{ partial "contact-form.html"}}</div>
 </div>
 
 {{ end }}

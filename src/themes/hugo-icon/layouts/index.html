@@ -8,52 +8,29 @@
     {{ partial "header.html" . }}
   </head>
   <body>
-
     <!-- Loader -->
     <div class="fh5co-loader"></div>
     <div class="fh5co-page">
+      <header class="sm-header">
+        <a href="/" class="logo"
+          ><img src={{ .Site.Params.logo | absURL }} height="40" alt=""
+        /></a>
+        <span id="nav-hamburger-ct"><span>
+      </header>
       <div id="fh5co-container">
-	
-	{{ partial "hero.html" . }}
-	
-	{{ partial "nav.html" . }}
-
-	{{ if .Site.Params.mission.enable }}
-	{{ partial "mission.html" . }}
-	{{ end }}
-	
-	{{ if .Site.Params.services.enable }}
-	{{ partial "services.html" .}}
-	{{ end }}
-
-	{{ if .Site.Params.datasets.enable }}
-	{{ partial "datasets.html" .}}
-	{{ end }}
-	
-	{{ if .Site.Params.community.enable }}
-	{{ partial "community.html" .}}
-	{{ end }}
-
-	{{ if .Site.Params.work.enable }}
-	{{ partial "gallery.html" .}}
-	{{ end }}
-	
-	{{ if .Site.Params.team.enable }}
-	{{ partial "team.html" .}}
-	{{ end }}
-
-	{{ if .Site.Params.contact.enable }}
-	{{ partial "contact-form.html" .}}
-	{{ end }}
-	
-	{{ if .Site.Params.footer.enable }}
-	{{ partial "footer.html" .}}
-	{{ end }}
-      
+        {{ partial "hero.html" . }} {{ partial "nav.html" . }} {{ if
+        .Site.Params.mission.enable }} {{ partial "mission.html" . }} {{ end }}
+        {{ if .Site.Params.services.enable }} {{ partial "services.html" .}} {{
+        end }} {{ if .Site.Params.datasets.enable }} {{ partial "datasets.html"
+        .}} {{ end }} {{ if .Site.Params.community.enable }} {{ partial
+        "community.html" .}} {{ end }} {{ if .Site.Params.work.enable }} {{
+        partial "gallery.html" .}} {{ end }} {{ if .Site.Params.team.enable }}
+        {{ partial "team.html" .}} {{ end }} {{ if .Site.Params.contact.enable
+        }} {{ partial "contact-form.html" .}} {{ end }} {{ if
+        .Site.Params.footer.enable }} {{ partial "footer.html" .}} {{ end }}
       </div>
     </div>
-    
+
     {{ partial "js.html" .}}
-    
   </body>
 </html>
