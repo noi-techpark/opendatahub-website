@@ -59,9 +59,6 @@ URL = "js/jquery.waypoints.min.js"
 [[params.plugins.js]]
 URL = "js/jquery.stellar.min.js"
 
-#[[params.plugins.js]]
-#URL = "js/magnific-popup-options.js"
-
 [[params.plugins.js]]
 URL = "js/main.js"
 
