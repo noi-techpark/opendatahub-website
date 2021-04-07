@@ -1,0 +1,19 @@
+{{ define "main" }}
+	
+	{{ partial "nav.html" . }}
+	
+	{{ partial "title-cta.html" site.Data.home.mission }}
+	
+	{{ partial "generic-offset-images.html" site.Data.home.offset_images }}
+
+	<div class="bg-darker">
+	{{ partial "col-imgs-text.html" site.Data.home.use_case }}
+	</div>
+
+	{{ partial "col-text-imgs.html" site.Data.home.dataset_example }}
+
+	<div class="bg-darker">
+	{{ partial "generic-boxes.html" site.Data.home.services }}
+	</div>
+
+{{ end }}

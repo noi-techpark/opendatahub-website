@@ -1,0 +1,19 @@
+{{ define "main" }}
+	
+	{{ partial "nav.html" . }}
+
+	{{ partial "title.html" .Params }}
+
+
+	<div class="bg-darker">
+		{{ partial "col-imgs-text.html" site.Data.home.use_case }}
+		</div>
+		
+	{{ partial "col-text-imgs.html" site.Data.home.dataset_example }}
+	<div class="bg-darker">
+	{{ partial "col-imgs-text.html" site.Data.home.use_case }}
+	</div>
+	
+	{{ partial "col-text-imgs.html" site.Data.home.dataset_example }}
+      
+{{ end }}

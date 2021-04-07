@@ -1,0 +1,83 @@
+{{ define "main" }}
+
+
+{{ partial "nav.html" . }}
+
+{{ partial "title.html" .Params }}
+
+<!-- DATA PROVIDERS -->
+<section>
+	{{ partial "title-section.html" site.Data.community.providers }}
+	{{ partial "logos.html" site.Data.community.providers }}
+</section>
+
+<!-- DATA CONSUMERS -->
+<section class="bg-darker">
+	{{ partial "title-section.html" site.Data.community.consumers }}
+	{{ partial "logos.html" site.Data.community.consumers }}
+</section>
+
+<!-- DEVELOPERS -->
+<section>
+	{{ partial "title-section.html" site.Data.community.developers }}
+	{{ partial "logos.html" site.Data.community.developers }}
+</section>
+
+<section id="fh5co-team">
+	  
+	{{ partial "title-section.html" site.Data.community.team }}
+
+	<div class="container equal">
+		{{ with site.Data.community.team }}
+
+		{{ range .item }}
+		<div class="col-md-4 col-xs-12">
+			<div class="person">
+				<div class="card-header">
+					<img src="{{ .img | absURL }}" alt="{{ .name }}" class="img-responsive">
+					<h3>{{ .name }}</h3>
+					<h4 class="darker">{{ .position }}</h4>
+				</div>
+				<div class="card-footer">
+					<p class="small darker">{{ .company | markdownify }}</p>
+					<ul class="social">
+						{{ if isset . "email" }}
+						<li><a href="mailto:{{ .email }}"><i class="fa fa-envelope"></i></a></li>
+						{{ end }}
+						{{ if isset . "facebook" }}
+						<li><a href="{{ .facebook }}"><i class="fa fa-facebook-square"></i></a></li>
+						{{ end }}
+						{{ if isset . "twitter" }}
+						<li><a href="{{ .twitter }}"><i class="fa fa-twitter-square"></i></a></li>
+						{{ end }}
+						{{ if isset . "instagram" }}
+						<li><a href="{{ .instagram }}"><i class="fa fa-instagram"></i></a></li>
+						{{ end }}
+						{{ if isset . "github" }}
+						<li><a href="{{ .github }}"><i class="fa fa-github"></i></a></li>
+						{{ end }}
+						{{ if isset . "linkedin" }}
+						<li><a href="{{ .linkedin }}"><i class="fa fa-linkedin-square"></i></a></li>
+						{{ end }}
+					</ul>
+				</div>
+			</div>
+		</div>
+		{{ end }}
+		<div class="col-md-4 col-xs-12">
+			<a href="{{ site.Params.footer.github }}" class="person">
+				<div class="card-header">
+					<img src="/icon/github_primary.svg" alt="Join us on Github" class="img-responsive">
+					<h3>Join Us &#10142;</h3>
+					<h4 class="darker">On Github</h4>
+				</div>
+			</a>
+		</div>
+
+		{{ end }}
+	</div>
+
+</div>
+  
+
+{{ end }}
