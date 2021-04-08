@@ -5,8 +5,8 @@ title: "Accommodation(3)"
 img: "/img/sfscon.jpg"
 
 availability: "closed"
-availability_label: "availability_partial"
-availability_description: "availability_partial_description"
+availability_label: "availability_closed_label"
+availability_description: "availability_closed_description"
 
 doc_link: "#"
 example_link: "#"

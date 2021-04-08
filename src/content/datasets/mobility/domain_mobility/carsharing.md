@@ -5,8 +5,8 @@ title: "Carsharing"
 img: "/img/Carsharing-3-1.jpg"
 
 availability: "open"
-availability_label: "availability_partial"
-availability_description: "availability_partial_description"
+availability_label: "availability_open_label"
+availability_description: "availability_open_description"
 
 doc_link: "#"
 example_link: "#"

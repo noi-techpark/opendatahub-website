@@ -5,8 +5,8 @@ title: "Link station"
 img: "/img/matthew-brodeur-eJ9mX6yEbAw-unsplash.jpg"
 
 availability: "partially-closed"
-availability_label: "availability_partial"
-availability_description: "availability_partial_description"
+availability_label: "availability_partially_closed_label"
+availability_description: "availability_partially_closed_description"
 
 doc_link: "#"
 example_link: "#"
