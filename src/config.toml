@@ -1,7 +1,7 @@
 ######################################## BASIC CONFIG
 theme = "odh-fbe"
-baseURL = "https://opendatahub.bz.it"
-#baseURL = "."
+#baseURL = "https://opendatahub.bz.it"
+baseURL = "."
 languageCode = "en"
 title = "Open Data Hub Südtirol - Alto Adige"
 googleAnalytics = "UA-138331709-1"
