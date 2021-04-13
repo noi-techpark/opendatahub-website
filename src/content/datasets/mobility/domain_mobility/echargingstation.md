@@ -5,8 +5,8 @@ title: "Echarging station"
 img: "/img/andrew-roberts-2JvEjF0tf50-unsplash.jpg"
 
 availability: "open"
-availability_label: "availability_partial"
-availability_description: "availability_partial_description"
+availability_label: "availability_open_label"
+availability_description: "availability_open_description"
 
 doc_link: "#"
 example_link: "#"

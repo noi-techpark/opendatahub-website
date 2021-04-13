@@ -5,8 +5,8 @@ title: "Venue"
 img: "/img/sfscon.jpg"
 
 availability: "tobe-opened"
-availability_label: "availability_partial"
-availability_description: "availability_partial_description"
+availability_label: "availability_tobe_opened_label"
+availability_description: "availability_tobe_opened_description"
 
 doc_link: "#"
 example_link: "#"

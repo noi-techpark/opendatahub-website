@@ -5,8 +5,8 @@ title: "Carpooling"
 img: "/img/andrew-slifkin-2lp_2jtZAsg-unsplash.jpg"
 
 availability: "open"
-availability_label: "availability_partial"
-availability_description: "availability_partial_description"
+availability_label: "availability_open_label"
+availability_description: "availability_open_description"
 
 doc_link: "#"
 example_link: "#"
