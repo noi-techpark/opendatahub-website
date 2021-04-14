@@ -1,9 +1,8 @@
 ---
 position: "Datasets"
 
-title: "Environment"
+title: "Rwis station"
 img: "/img/sfscon.jpg"
-img_alt: "sfscon"
 
 availability: "partially-closed"
 availability_label: "availability_partially_closed_label"
@@ -12,7 +11,7 @@ availability_description: "availability_partially_closed_description"
 doc_link: "#"
 example_link: "#"
 
-datatype: "Weather"
+datatype: "Traffic"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
