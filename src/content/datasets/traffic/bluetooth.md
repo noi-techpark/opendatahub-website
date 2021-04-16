@@ -8,13 +8,13 @@ availability: "partially-closed"
 availability_label: "availability_partially_closed_label"
 availability_description: "availability_partially_closed_description"
 
-doc_link: "#"
-example_link: "#"
+doc_link: "it.bz.opendatahub.bluetooth"
+example_link: "analytics.opendatahub.bz.it"
 
 datatype: "Traffic"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Experimental Bluetooth-based sensors and detectors. Currently located in Bolzano and Merano (soon in other locations of South Tyrol, such as Merano) and A22. Gathered data are then processed to obtain useful information about the traffic, such as total number of vehicles detected and an estimation of heavy and light vehicles.
 
 |             |                        |
 | :---------- | ---------------------- |

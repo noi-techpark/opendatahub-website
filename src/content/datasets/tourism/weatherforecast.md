@@ -8,13 +8,13 @@ availability: "open"
 availability_label: "availability_open_label"
 availability_description: "availability_open_description"
 
-doc_link: "#"
-example_link: "#"
+doc_link: "it.bz.opendatahub.weather-forecast"
+example_link: "databrowser.opendatahub.bz.it, suedtirol.info"
 
 datatype: "Tourism"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+South Tyrolean Weather Information general. Updated at 07:00 and 11:00. South Tyrolean Weather Details for today, tomorrow, Mountain weather today, tomorrow, Station weather today, tomorrow and 5 days evolution. All data is requested live through the Weather service of the province BZ. Data available in languages de, it, en.
 
 |             |                        |
 | :---------- | ---------------------- |

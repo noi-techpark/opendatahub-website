@@ -8,13 +8,13 @@ availability: "tobe-opened"
 availability_label: "availability_tobe_opened_label"
 availability_description: "availability_tobe_opened_description"
 
-doc_link: "#"
-example_link: "#"
+doc_link: "it.bz.opendatahub.venue"
+example_link: "databrowser.opendatahub.bz.it"
 
 datatype: "Tourism"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This dataset contains events location provided by LTS such as info about a location (e.g. number of seats, number of seats for disabled people, venue, etc.) or info to book an event location (e.g. prices, room configuration, etc.). Data are accessible in AlpineBits DestinationData format.
 
 |             |                        |
 | :---------- | ---------------------- |

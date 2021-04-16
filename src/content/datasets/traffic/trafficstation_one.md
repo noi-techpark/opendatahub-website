@@ -8,8 +8,8 @@ availability: "tobe-opened"
 availability_label: "availability_tobe_opened_label"
 availability_description: "availability_tobe_opened_description"
 
-doc_link: "#"
-example_link: "#"
+doc_link: "it.bz.opendatahub.trafficstation"
+example_link: "analytics.opendatahub.bz.it "
 
 datatype: "Traffic"
 ---
