@@ -1,0 +1,18 @@
+{{ define "main" }}
+	
+	{{ partial "nav.html" . }}
+
+	{{ partial "title.html" .Params }}
+
+
+	<div class="bg-darker">
+		{{ partial "col-imgs-text.html" site.Data.services.row_one }}
+		</div>
+		
+	{{ partial "col-text-imgs.html" site.Data.services.row_two }}
+	<div class="bg-darker">
+	{{ partial "col-imgs-text.html" site.Data.services.row_three }}
+	</div>
+	
+      
+{{ end }}
