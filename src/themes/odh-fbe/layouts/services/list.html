@@ -14,6 +14,9 @@
 	{{ partial "col-imgs-text.html" site.Data.services.row_three }}
 	</div>
 	
-	{{ partial "col-text-imgs.html" site.Data.services.row_four }}
+	<section>
+		{{ partial "title.html" site.Data.services.pricing }}
+		{{ partial "table-comparison.html" site.Data.services.pricing}}
+	</section>
       
 {{ end }}

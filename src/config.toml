@@ -28,6 +28,9 @@ URL = "/css/bootstrap.css"
 URL = "/css/style.css"
 
 [[params.plugins.css]]
+URL = "/css/table-comparison.css"
+
+[[params.plugins.css]]
 URL = "/css/custom.css"
 
 [[params.plugins.css]]

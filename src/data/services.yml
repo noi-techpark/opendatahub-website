@@ -30,3 +30,57 @@ row_four:
   btn_label: See dataset
   img_back: "/img/mobility.meran.eu.png"
   img_front: "/img/GreenMobility.png"
+
+pricing:
+  title: Pricing
+  header:
+    - title: UNREGISTERED
+      price: (free)
+      color_class: bg-basic
+    - title: BASIC**
+      price: (free)
+      color_class: bg-pro
+    - title: ADVANCED**
+      price: (for a fee)
+      color_class: bg-pro
+    - title: PREMIUM**
+      price: (for a fee)
+      color_class: bg-pro
+  row:
+    - cols:
+      - content: access to all Open Data provided
+      - content: "&#10004;"
+      - content: "&#10004;"
+      - content: "&#10004;"
+      - content: "&#10004;"
+    - cols:
+      - content: notification about API and dataset changes
+      - content: ""
+      - content: "&#10004;"
+      - content: "&#10004;"
+      - content: "&#10004;"
+    - cols:
+      - content: intermediation with data providers
+      - content: ""
+      - content: "&#10004;"
+      - content: "&#10004;"
+      - content: "&#10004;"
+    - cols:
+      - content: <b>basic support*</b> in the implementation of APIs
+      - content: ""
+      - content: "&#10004;"
+      - content: "&#10004;"
+      - content: "&#10004;"
+    - cols:
+      - content: <b>advances support*</b> in the implementation of APIs
+      - content: ""
+      - content: ""
+      - content: "&#10004;"
+      - content: "&#10004;"
+    - cols:
+      - content: <b>premium service</b> specific SLA requirements
+      - content: ""
+      - content: ""
+      - content: ""
+      - content: "&#10004;"
+
