@@ -65,6 +65,9 @@ URL = "/js/jquery.stellar.min.js"
 [[params.plugins.js]]
 URL = "/js/main.js"
 
+[[params.plugins.js]]
+URL = "/js/table-comparison.js"
+
 ######################################## MENU
 [[menu.main]]
 URL = "/"
