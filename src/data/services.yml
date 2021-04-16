@@ -1,0 +1,32 @@
+################################# Services #########################
+row_one:
+  title: Example **use case**
+  description: Open Data Hub supports the implementation of an **innovative platform**, where talents can **use data and create innovative solutions** for the SMART Green Region South Tyrol.
+  btn_link: "#"
+  btn_label: See all datasets
+  img_back: "/img/mobility.meran.eu.png"
+  img_front: "/img/GreenMobility.png"
+
+row_two:
+  title: Example **dataset** one
+  description: Open Data Hub supports the implementation of an **innovative platform**, where talents can **use data and create innovative solutions** for the SMART Green Region South Tyrol.
+  btn_link: "#"
+  btn_label: See dataset
+  img_back: "/img/mobility.meran.eu.png"
+  img_front: "/img/GreenMobility.png"
+
+row_three:
+  title: Example **use case**
+  description: Open Data Hub supports the implementation of an **innovative platform**, where talents can **use data and create innovative solutions** for the SMART Green Region South Tyrol.
+  btn_link: "#"
+  btn_label: See all datasets
+  img_back: "/img/mobility.meran.eu.png"
+  img_front: "/img/GreenMobility.png"
+
+row_four:
+  title: Example **dataset** one
+  description: Open Data Hub supports the implementation of an **innovative platform**, where talents can **use data and create innovative solutions** for the SMART Green Region South Tyrol.
+  btn_link: "#"
+  btn_label: See dataset
+  img_back: "/img/mobility.meran.eu.png"
+  img_front: "/img/GreenMobility.png"
