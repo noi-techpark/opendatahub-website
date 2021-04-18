@@ -19,25 +19,28 @@ type = "datatype"
 
 ######################################## css plugins
 [[params.plugins.css]]
-URL = "css/animate.css"
+URL = "/css/animate.css"
 
 [[params.plugins.css]]
-URL = "css/bootstrap.css"
+URL = "/css/bootstrap.css"
 
 [[params.plugins.css]]
-URL = "css/style.css"
+URL = "/css/style.css"
 
 [[params.plugins.css]]
-URL = "css/custom.css"
+URL = "/css/table-comparison.css"
 
 [[params.plugins.css]]
-URL = "css/responsive.css"
+URL = "/css/custom.css"
 
 [[params.plugins.css]]
-URL = "css/availability.css"
+URL = "/css/responsive.css"
 
 [[params.plugins.css]]
-URL = "css/contact-form.css"
+URL = "/css/availability.css"
+
+[[params.plugins.css]]
+URL = "/css/contact-form.css"
 
 [[params.plugins.css]]
 URL =  "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -45,25 +48,25 @@ URL =  "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-aweso
 
 ######################################## js plugins
 [[params.plugins.js]]
-URL = "js/jquery.min.js"
+URL = "/js/jquery.min.js"
 
 [[params.plugins.js]]
-URL = "js/jquery.easing.1.3.js"
+URL = "/js/jquery.easing.1.3.js"
 
 [[params.plugins.js]]
-URL = "js/bootstrap.min.js"
+URL = "/js/bootstrap.min.js"
 
 [[params.plugins.js]]
-URL = "js/jquery.waypoints.min.js"
+URL = "/js/jquery.waypoints.min.js"
 
 [[params.plugins.js]]
-URL = "js/jquery.stellar.min.js"
-
-#[[params.plugins.js]]
-#URL = "js/magnific-popup-options.js"
+URL = "/js/jquery.stellar.min.js"
 
 [[params.plugins.js]]
-URL = "js/main.js"
+URL = "/js/main.js"
+
+[[params.plugins.js]]
+URL = "/js/table-comparison.js"
 
 ######################################## MENU
 [[menu.main]]
