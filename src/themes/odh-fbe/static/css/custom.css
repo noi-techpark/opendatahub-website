@@ -281,6 +281,10 @@ input:focus {
 }
 
 /* GENERIC BOXES */
+.generic-boxes p {
+  line-height: 1.4;
+}
+
 .generic-boxes .text-center {
   max-width: 600px;
 }
@@ -379,6 +383,7 @@ input:focus {
   font-size: 1.1rem;
   font-weight: bold;
   margin-bottom: 20px;
+  line-height: 1.2;
 }
 
 /* TITLE */

@@ -8,20 +8,20 @@ mission:
 offset_images:
   image_one_title: Provide Data
   image_one_subtitle: Discover how to and the benefits of sharing your data.
-  image_one_img: "/img/GreenMobility.png"
-  image_one_link: "#"
+  image_one_img: "/img/home-data-provider.jpg"
+  image_one_link: "/data-sharing"
   image_one_btn_label: Learn more
 
   image_two_title: Consume Data
   image_two_subtitle: Build apps and services using Open Data Hub datasets
-  image_two_img: "/img/GreenMobility.png"
-  image_two_link: "#"
+  image_two_img: "/img/home-data-consumer.jpg"
+  image_two_link: "/data-access"
   image_two_btn_label: See datasets
 
 use_case:
-  title: Example **use case**
-  description: Open Data Hub supports the implementation of an **innovative platform**, where talents can **use data and create innovative solutions** for the SMART Green Region South Tyrol.
-  btn_link: "#"
+  title: Build the next **traffic application**
+  description: Thanks to our **traffic datasets** you can start today to build your service using real time data of South Tyrol's traffic.
+  btn_link: "/datasets"
   btn_label: See all datasets
   img_back: "/img/mobility.meran.eu.png"
   img_front: "/img/GreenMobility.png"
@@ -29,26 +29,26 @@ use_case:
 dataset_example:
   title: Example **dataset** one
   description: Open Data Hub supports the implementation of an **innovative platform**, where talents can **use data and create innovative solutions** for the SMART Green Region South Tyrol.
-  btn_link: "#"
+  btn_link: "/datasets"
   btn_label: See dataset
   img_back: "/img/mobility.meran.eu.png"
   img_front: "/img/GreenMobility.png"
 
 services:
   title: Get ready with **our services**
-  description: We offer way more than datasets, discover our tools we offer to start your next project.
+  description: We offer way more than datasets, we're here to help you to share your data or access other datasets, even if you're not a tech expert.
   box_item:
     - name: Data access
       icon: "/icon/download.svg"
-      box_link: "#ye"
+      box_link: "/services#data-access"
       btn_label: Learn more
 
     - name: Data sharing
       icon: "/icon/upload.svg"
-      box_link: "#ye"
+      box_link: "/services#data-sharing"
       btn_label: Learn more
 
     - name: Demo app development
       icon: "/icon/box.svg"
-      box_link: "#ye"
+      box_link: "/services#demo-dev"
       btn_label: Learn more

@@ -1,10 +1,12 @@
 <div id="table-comparison">
+  <div class="container">
 
     <ul>
       {{ range .header }}
       <li class="{{.color_class}}"><button>{{.title}} {{.price}}</button></th>
       {{ end }}
     </ul>  
+    
     
     <table>
       <thead>
@@ -30,5 +32,6 @@
         {{ end }}
       </tbody>
     </table>
-      
+  </div>
+  
 </div>

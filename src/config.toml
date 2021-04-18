@@ -99,7 +99,7 @@ URL = "/datasets"
 name = "Datasets"
 
 [[menu.footer1]]
-URL = "/#"
+URL = "https://webcomponents.opendatahub.bz.it"
 name = "Web components"
 
 [[menu.footer2]]
@@ -111,15 +111,15 @@ URL = "/events"
 name = "Events"
 
 [[menu.footer3]]
-URL = "/#"
+URL = "/data-sharing/"
 name = "Share data"
 
 [[menu.footer3]]
-URL = "/#"
+URL = "/data-access/"
 name = "Access data"
 
 [[menu.footer3]]
-URL = "/#"
+URL = "/services#demo-dev"
 name = "Demo Dev"
 
 

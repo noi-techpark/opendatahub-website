@@ -1,35 +1,27 @@
 ################################# Services #########################
 row_one:
-  title: Example **use case**
-  description: Open Data Hub supports the implementation of an **innovative platform**, where talents can **use data and create innovative solutions** for the SMART Green Region South Tyrol.
-  btn_link: "#"
-  btn_label: See all datasets
-  img_back: "/img/mobility.meran.eu.png"
-  img_front: "/img/GreenMobility.png"
+  title: "**Data sharing**: we help to share you data online."
+  description: We help companies to give **visibility** to their data, **identify suitable formats**, processing algorithms and **licenses** and to use technologies known by application developers.
+  btn_link: "/"
+  btn_label: Contact us
+  img_back: "/img/services-1.jpg"
+  img_front: "/img/services-2.jpg"
 
 row_two:
-  title: Example **dataset** one
-  description: Open Data Hub supports the implementation of an **innovative platform**, where talents can **use data and create innovative solutions** for the SMART Green Region South Tyrol.
-  btn_link: "#"
-  btn_label: See dataset
-  img_back: "/img/mobility.meran.eu.png"
-  img_front: "/img/GreenMobility.png"
+  title: "**Data access**: understand now how to build on open data."
+  description: For a company that develops software applications we offer access, through a **single machine-readable**, documented and **stable channel**, to updated and **real-time data**, released with an Open Data license.
+  btn_link: "/help"
+  btn_label: Contact us
+  img_back: "/img/services-3.jpg"
+  img_front: "/img/services-4.jpg"
 
 row_three:
-  title: Example **use case**
-  description: Open Data Hub supports the implementation of an **innovative platform**, where talents can **use data and create innovative solutions** for the SMART Green Region South Tyrol.
-  btn_link: "#"
-  btn_label: See all datasets
-  img_back: "/img/mobility.meran.eu.png"
-  img_front: "/img/GreenMobility.png"
-
-row_four:
-  title: Example **dataset** one
-  description: Open Data Hub supports the implementation of an **innovative platform**, where talents can **use data and create innovative solutions** for the SMART Green Region South Tyrol.
-  btn_link: "#"
-  btn_label: See dataset
-  img_back: "/img/mobility.meran.eu.png"
-  img_front: "/img/GreenMobility.png"
+  title: "**Demo app development**: together, to create your first demo app."
+  description: We create, in collaboration with companies that bring concrete needs, under **Open Source license**, a set of Demo apps that can be used by individual companies as a **guideline** and **inspiration** for new digital products.
+  btn_link: "/help"
+  btn_label: Contact us
+  img_back: "/img/services-5.jpg"
+  img_front: "/img/services-6.jpg"
 
 pricing:
   title: Pricing
@@ -48,39 +40,38 @@ pricing:
       color_class: bg-pro
   row:
     - cols:
-      - content: access to all Open Data provided
-      - content: "&#10004;"
-      - content: "&#10004;"
-      - content: "&#10004;"
-      - content: "&#10004;"
+        - content: Access to all Open Data provided
+        - content: "&#10004;"
+        - content: "&#10004;"
+        - content: "&#10004;"
+        - content: "&#10004;"
     - cols:
-      - content: notification about API and dataset changes
-      - content: ""
-      - content: "&#10004;"
-      - content: "&#10004;"
-      - content: "&#10004;"
+        - content: Notification about API and dataset changes
+        - content: ""
+        - content: "&#10004;"
+        - content: "&#10004;"
+        - content: "&#10004;"
     - cols:
-      - content: intermediation with data providers
-      - content: ""
-      - content: "&#10004;"
-      - content: "&#10004;"
-      - content: "&#10004;"
+        - content: Intermediation with data providers
+        - content: ""
+        - content: "&#10004;"
+        - content: "&#10004;"
+        - content: "&#10004;"
     - cols:
-      - content: <b>basic support*</b> in the implementation of APIs
-      - content: ""
-      - content: "&#10004;"
-      - content: "&#10004;"
-      - content: "&#10004;"
+        - content: <b>Basic support*</b> in the implementation of APIs
+        - content: ""
+        - content: "&#10004;"
+        - content: "&#10004;"
+        - content: "&#10004;"
     - cols:
-      - content: <b>advances support*</b> in the implementation of APIs
-      - content: ""
-      - content: ""
-      - content: "&#10004;"
-      - content: "&#10004;"
+        - content: <b>Advances support*</b> in the implementation of APIs
+        - content: ""
+        - content: ""
+        - content: "&#10004;"
+        - content: "&#10004;"
     - cols:
-      - content: <b>premium service</b> specific SLA requirements
-      - content: ""
-      - content: ""
-      - content: ""
-      - content: "&#10004;"
-
+        - content: <b>Premium service</b> specific SLA requirements
+        - content: ""
+        - content: ""
+        - content: ""
+        - content: "&#10004;"
