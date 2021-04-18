@@ -16,8 +16,12 @@ datatype: "Traffic"
 
 This dataset originates from data collected in the DAVINCI project, whose aim is to increase local businesses by improving innovation and digitalisation of services. The data consists of a list of actors who operate in the creativity sector in South Tyrol and is used as data source to generate a map for a dedicated Web Component, available in Open Data Hub’s Web Component Store.
 
-|             |                        |
-| :---------- | ---------------------- |
-| Output      | JSON                   |
-| Contact     | help@opendatahub.bz.it |
-| API version | v2                     |
+|                |                                         |
+| :------------- | --------------------------------------- |
+| Output         | JSON, mime-type application/json        |
+| E-mail contact | help@opendatahub.bz.it                  |
+| API version    | v2                                      |
+| Swagger URL    | https://mobility.api.opendatahub.bz.it/ |
+| StationType    | CreativeIndustry                        |
+| Sources        | IDM                                     |
+| OpenData       | Open Data.                              |

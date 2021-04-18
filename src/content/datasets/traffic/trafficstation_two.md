@@ -16,8 +16,12 @@ datatype: "Traffic"
 
 The VMS (Variable Message Sign) sensors collect data about the electronic road signs on the A22 motorway. Project restricted data, candidate to be opened in future
 
-|             |                        |
-| :---------- | ---------------------- |
-| Output      | JSON                   |
-| Contact     | help@opendatahub.bz.it |
-| API version | v2                     |
+|                |                                                  |
+| :------------- | ------------------------------------------------ |
+| Output         | JSON, mime-type application/json                 |
+| E-mail contact | help@opendatahub.bz.it                           |
+| API version    | v2                                               |
+| Swagger URL    | https://mobility.api.opendatahub.bz.it/          |
+| StationType    | VMS (data)                                       |
+| Sources        | A22                                              |
+| OpenData       | Restricted to a project (candidate to be opened) |

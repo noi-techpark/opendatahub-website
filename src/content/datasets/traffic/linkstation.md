@@ -16,8 +16,12 @@ datatype: "Traffic"
 
 Data processing of experimental Bluetooth-based sensors and detectors and (A22 data based on Telepass).Gathered data are processed to obtain the estimated travel time and speed of the vehicles.
 
-|             |                        |
-| :---------- | ---------------------- |
-| Output      | JSON                   |
-| Contact     | help@opendatahub.bz.it |
-| API version | v2                     |
+|                |                                         |
+| :------------- | --------------------------------------- |
+| Output         | JSON, mime-type application/json        |
+| E-mail contact | help@opendatahub.bz.it                  |
+| API version    | v2                                      |
+| Swagger URL    | https://mobility.api.opendatahub.bz.it/ |
+| StationType    | LinkStation (Data)                      |
+| Sources        | A22                                     |
+| OpenData       | Restricted to a project                 |

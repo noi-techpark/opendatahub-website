@@ -19,8 +19,12 @@ i. slot availability and predictions
 Parking sensors - on street parking data (Bolzano, soon Merano)
 i. Single parking slots on streets, can be within a virtual area
 
-|             |                        |
-| :---------- | ---------------------- |
-| Output      | JSON                   |
-| Contact     | help@opendatahub.bz.it |
-| API version | v2                     |
+|                |                                                      |
+| :------------- | ---------------------------------------------------- |
+| Output         | JSON, mime-type application/json                     |
+| E-mail contact | help@opendatahub.bz.it                               |
+| API version    | v2                                                   |
+| Swagger URL    | https://mobility.api.opendatahub.bz.it/              |
+| StationType    | ParkingStation (Data), ParkingSensor (Data)          |
+| Sources        | Municipality of Bolzano, Merano, Trento and Rovereto |
+| OpenData       | Open                                                 |

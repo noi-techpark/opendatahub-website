@@ -16,8 +16,12 @@ datatype: "Traffic"
 
 This dataset contains all places, offices, meeting rooms, and in general all points of interest located in the various buildings that compose the NOI Techpark in Bolzano, Italy. This dataset is used to create the interactive map of the NOI Techpark.
 
-|             |                        |
-| :---------- | ---------------------- |
-| Output      | JSON                   |
-| Contact     | help@opendatahub.bz.it |
-| API version | v2                     |
+|                |                                         |
+| :------------- | --------------------------------------- |
+| Output         | JSON, mime-type application/json        |
+| E-mail contact | help@opendatahub.bz.it                  |
+| API version    | v2                                      |
+| Swagger URL    | https://mobility.api.opendatahub.bz.it/ |
+| StationType    | NOI-Place                               |
+| Sources        | NOI Techpark                            |
+| OpenData       | Open Data.                              |

@@ -14,10 +14,13 @@ example_link: "databrowser.opendatahub.bz.it, suedtirol.info"
 datatype: "Tourism"
 ---
 
-In particular, these datasets contain Districts, Municipalities which are provided by LTS. And, in addition Areas are a LTS Categorization (custom LTS cluster). Areas, for example, are used on LTS Activities.
+In particular, these datasets contain Regions Data, Tourism Associations, Meta Regions, Ski Regions, Ski Areas, Experience Areas are the IDM clusters for South Tyrol Tourism Regions.
 
-|             |                        |
-| :---------- | ---------------------- |
-| Output      | JSON                   |
-| Contact     | help@opendatahub.bz.it |
-| API version | v2                     |
+|                |                                                                                                                       |
+| :------------- | --------------------------------------------------------------------------------------------------------------------- |
+| Output         | JSON, mime-type application/json                                                                                      |
+| E-mail contact | help@opendatahub.bz.it                                                                                                |
+| API version    | v1                                                                                                                    |
+| Swagger URL    | http://tourism.opendatahub.bz.it/swagger/ui/index#/Common http://tourism.opendatahub.bz.it/swagger/ui/index#/Location |
+| Sources        | IDM                                                                                                                   |
+| OpenData       | Only Images with CC0 License are shown as open data.                                                                  |

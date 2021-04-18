@@ -17,8 +17,11 @@ datatype: "Tourism"
 These datasets contain Location & Commons Data API of Tourism Regions of South Tyrol. ID Lists of Regions, Tourism Associations, Areas, Municipalities, Ski Areas.
 Data provided by IDM and LTS.
 
-|             |                        |
-| :---------- | ---------------------- |
-| Output      | JSON                   |
-| Contact     | help@opendatahub.bz.it |
-| API version | v2                     |
+|                |                                                                                                                       |
+| :------------- | --------------------------------------------------------------------------------------------------------------------- |
+| Output         | JSON, mime-type application/json                                                                                      |
+| E-mail contact | help@opendatahub.bz.it                                                                                                |
+| API version    | v1                                                                                                                    |
+| Swagger URL    | http://tourism.opendatahub.bz.it/swagger/ui/index#/Common http://tourism.opendatahub.bz.it/swagger/ui/index#/Location |
+| Sources        | IDM, LTS                                                                                                              |
+| OpenData       | Only Images with CC0 License are shown as open data.                                                                  |
