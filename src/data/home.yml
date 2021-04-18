@@ -10,13 +10,13 @@ offset_images:
   image_one_subtitle: Discover how to and the benefits of sharing your data.
   image_one_img: "/img/GreenMobility.png"
   image_one_link: "#"
-  image_one_btn_label: Learn more 
+  image_one_btn_label: Learn more
 
   image_two_title: Consume Data
   image_two_subtitle: Build apps and services using Open Data Hub datasets
   image_two_img: "/img/GreenMobility.png"
   image_two_link: "#"
-  image_two_btn_label: See datasets 
+  image_two_btn_label: See datasets
 
 use_case:
   title: Example **use case**
@@ -36,19 +36,19 @@ dataset_example:
 
 services:
   title: Get ready with **our services**
-  description: Open Data Hub supports the implementation of an innovative platform, where talents can use data and create innovative solutions for the SMART Green Region South Tyrol.
+  description: We offer way more than datasets, discover our tools we offer to start your next project.
   box_item:
     - name: Data access
-      icon: "/icon/box.svg"
+      icon: "/icon/download.svg"
       box_link: "#ye"
       btn_label: Learn more
 
-    - name: Data access
+    - name: Data sharing
       icon: "/icon/upload.svg"
       box_link: "#ye"
       btn_label: Learn more
 
-    - name: Data access
-      icon: "/icon/download.svg"
+    - name: Demo app development
+      icon: "/icon/box.svg"
       box_link: "#ye"
       btn_label: Learn more
