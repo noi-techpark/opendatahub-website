@@ -8,8 +8,8 @@ availability: "open"
 availability_label: "availability_open_label"
 availability_description: "availability_open_description"
 
-doc_link: "it.bz.opendatahub.snowreport"
-example_link: "databrowser.opendatahub.bz.it, suedtirol.info"
+doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#it-bz-opendatahub-snowreport"
+example_link: "https://databrowser.opendatahub.bz.it"
 
 datatype: "Tourism"
 ---

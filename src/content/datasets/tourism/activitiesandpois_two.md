@@ -8,8 +8,8 @@ availability: "open"
 availability_label: "availability_open_label"
 availability_description: "availability_open_description"
 
-doc_link: "it.lts.poi, (subset)"
-example_link: "databrowser.opendatahub.bz.it, suedtirol.info"
+doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#it-lts-activity-poi"
+example_link: "https://www.suedtirol.info/"
 
 datatype: "Tourism"
 ---

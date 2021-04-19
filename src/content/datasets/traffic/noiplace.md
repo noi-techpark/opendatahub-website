@@ -8,8 +8,8 @@ availability: "open"
 availability_label: "availability_open_label"
 availability_description: "availability_open_description"
 
-doc_link: "NOI-Place"
-example_link: "maps.noi.bz.it"
+doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#noi-place"
+example_link: "https://maps.noi.bz.it/"
 
 datatype: "Traffic"
 ---

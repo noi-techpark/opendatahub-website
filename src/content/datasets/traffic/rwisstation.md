@@ -8,8 +8,8 @@ availability: "partially-closed"
 availability_label: "availability_partially_closed_label"
 availability_description: "availability_partially_closed_description"
 
-doc_link: "it.bz.opendatahub.rwisstation"
-example_link: "analytics.opendatahub.bz.it, map.clean-roads.eu"
+doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#it-bz-opendatahub-rwisstation"
+example_link: "https://map.clean-roads.eu/"
 
 datatype: "Traffic"
 ---

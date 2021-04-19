@@ -8,8 +8,8 @@ availability: "open"
 availability_label: "availability_open_label"
 availability_description: "availability_open_description"
 
-doc_link: "it.bz.opendatahub.weather-forecast"
-example_link: "databrowser.opendatahub.bz.it, suedtirol.info, Südtirol Guide / Alto Adige Guida (App)"
+doc_link: "http://it.bz.opendatahub.weather-siag"
+example_link: "https://databrowser.opendatahub.bz.it"
 
 datatype: "Tourism"
 ---

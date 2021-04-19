@@ -8,8 +8,8 @@ availability: "open"
 availability_label: "availability_open_label"
 availability_description: "availability_open_description"
 
-doc_link: "it.bz.opendatahub.carsharing"
-example_link: "analytics.opendatahub.bz.it, mobility.meran.eu, mobility.bz.it, #Smart Mobility (web component)"
+doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#it-bz-opendatahub-carsharing"
+example_link: "https://webcomponents.opendatahub.bz.it/webcomponent/7620f04d-ed08-4770-bbda-dfe959ae078e?from=%2Fsearch%2Fany"
 
 datatype: "Mobility"
 ---

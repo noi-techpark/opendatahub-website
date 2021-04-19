@@ -8,8 +8,8 @@ availability: "partially-closed"
 availability_label: "availability_partially_closed_label"
 availability_description: "availability_partially_closed_description"
 
-doc_link: "it.bz.opendatahub.linkstation"
-example_link: "analytics.opendatahub.bz.it"
+doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#it-bz-opendatahub-linkstation"
+example_link: "https://analytics.opendatahub.bz.it/"
 
 datatype: "Traffic"
 ---

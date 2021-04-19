@@ -8,8 +8,8 @@ availability: "tobe-opened"
 availability_label: "availability_tobe_opened_label"
 availability_description: "availability_tobe_opened_description"
 
-doc_link: "it.bz.opendatahub.venue"
-example_link: "databrowser.opendatahub.bz.it"
+doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#it-bz-opendatahub-location"
+example_link: "https://databrowser.opendatahub.bz.it"
 
 datatype: "Tourism"
 ---

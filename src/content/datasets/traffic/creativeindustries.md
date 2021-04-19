@@ -8,8 +8,8 @@ availability: "open"
 availability_label: "availability_open_label"
 availability_description: "availability_open_description"
 
-doc_link: "Creative Industries"
-example_link: "Creative Industries (web component)"
+doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#creative-industries"
+example_link: "https://webcomponents.opendatahub.bz.it/webcomponent/f1321372-6629-4912-a331-77d5d91dd646"
 
 datatype: "Traffic"
 ---

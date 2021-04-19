@@ -8,8 +8,8 @@ availability: "open"
 availability_label: "availability_open_label"
 availability_description: "availability_open_description"
 
-doc_link: "it.bz.opendatahub.carpoolinghub"
-example_link: "carpooling.bz.it, analytics.opendatahub.bz.it, mobility.meran.eu"
+doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#it-bz-opendatahub-carpoolinghub"
+example_link: "http://carpooling.bz.it/"
 
 datatype: "Mobility"
 ---

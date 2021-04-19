@@ -8,8 +8,8 @@ availability: "open"
 availability_label: "availability_open_label"
 availability_description: "availability_open_description"
 
-doc_link: "it.lts.event"
-example_link: "databrowser.opendatahub.bz.it, suedtirol.info, Südtirol Guide / Alto Adige Guida (App)"
+doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#it-lts-event"
+example_link: "https://databrowser.opendatahub.bz.it"
 
 datatype: "Tourism"
 ---

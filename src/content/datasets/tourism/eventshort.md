@@ -8,8 +8,8 @@ availability: "open"
 availability_label: "availability_open_label"
 availability_description: "availability_open_description"
 
-doc_link: "it.bz.opendatahub.eventshort"
-example_link: "today.noi.bz.it, noi.bz.it/it/event-calendar, virtual.noi.bz.it/programma.html"
+doc_link: "https://docs.opendatahub.bz.it/en/latest/datasets.html#eventshort-dataset"
+example_link: "https://webcomponents.opendatahub.bz.it/webcomponent/f594de36-0136-4c27-a0e6-570fa7014129"
 
 datatype: "Tourism"
 ---

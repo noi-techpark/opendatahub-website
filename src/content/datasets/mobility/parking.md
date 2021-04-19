@@ -8,8 +8,8 @@ availability: "open"
 availability_label: "Open data"
 availability_description: "This dataset is free and available to everyone"
 
-doc_link: "it.bz.opendatahub.parking"
-example_link: "parking.bz.it, parking.bz.it, mobility.meran.eu, mobility.bz.it"
+doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#it-bz-opendatahub-parking"
+example_link: "https://parking.bz.it/"
 
 datatype: "Mobility"
 ---

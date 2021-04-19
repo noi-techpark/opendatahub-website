@@ -8,8 +8,8 @@ availability: "open"
 availability_label: "availability_open_label"
 availability_description: "availability_open_description"
 
-doc_link: "it.bz.opendatahub.echargingstation"
-example_link: "analytics.opendatahub.bz.it, mobility.meran.eu, mobility.bz.it, #Smart Mobility, #Mobility E-Charging Map, #Mobility E-Charging Dashboard"
+doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#it-bz-opendatahub-echargingstation"
+example_link: "https://analytics.opendatahub.bz.it/"
 
 datatype: "Mobility"
 ---

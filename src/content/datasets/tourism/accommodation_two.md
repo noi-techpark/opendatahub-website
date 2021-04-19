@@ -8,8 +8,8 @@ availability: "partially-closed"
 availability_label: "availability_partially_closed_label"
 availability_description: "availability_partially_closed_description"
 
-doc_link: "it.bz.opendatahub.accommodation"
-example_link: "databrowser.opendatahub.bz.it, suedtirol.info, Südtirol Guide / Alto Adige Guida (App)"
+doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#id19"
+example_link: "https://databrowser.opendatahub.bz.it"
 
 datatype: "Tourism"
 ---
