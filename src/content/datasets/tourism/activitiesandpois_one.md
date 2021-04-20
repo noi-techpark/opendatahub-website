@@ -8,16 +8,19 @@ availability: "open"
 availability_label: "availability_open_label"
 availability_description: "availability_open_description"
 
-doc_link: "#"
-example_link: "#"
+doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#id22"
+example_link: "https://databrowser.opendatahub.bz.it"
 
 datatype: "Tourism"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This dataset contains a collection of activities and points of interest (PoI) in the South Tyrol region. The available data have been extracted from different sources such as LTS, SIAG South Tyrolean museums, Südtirol Wein, IDM created content. This dataset also offers IDM categorization.
 
-|             |                        |
-| :---------- | ---------------------- |
-| Output      | JSON                   |
-| Contact     | help@opendatahub.bz.it |
-| API version | v2                     |
+|                |                                                                                                                    |
+| :------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Output         | JSON, mime-type application/json                                                                                   |
+| E-mail contact | help@opendatahub.bz.it                                                                                             |
+| API version    | v1                                                                                                                 |
+| Swagger URL    | http://tourism.opendatahub.bz.it/swagger/ui/index#/ODHactivityPoi                                                  |
+| Sources        | LTS ActivityData, LTS PoiData, LTS GastronomicData, SuedtirolWein, SIAG Museum data, IDM Content and other Sources |
+| OpenData       | All data is available as open data                                                                                 |

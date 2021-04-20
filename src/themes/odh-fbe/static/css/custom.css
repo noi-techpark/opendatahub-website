@@ -281,6 +281,10 @@ input:focus {
 }
 
 /* GENERIC BOXES */
+.generic-boxes p {
+  line-height: 1.4;
+}
+
 .generic-boxes .text-center {
   max-width: 600px;
 }
@@ -308,12 +312,12 @@ input:focus {
 }
 
 .generic-boxes .single-box-icon img {
-  height: 110px;
+  height: 50px;
   width: 100%;
   vertical-align: top;
   object-fit: contain;
   object-position: left center;
-  margin: 0 0 15px 0;
+  margin: 0 0 25px 0;
 }
 
 .generic-boxes .single-box-block h4 {
@@ -379,6 +383,7 @@ input:focus {
   font-size: 1.1rem;
   font-weight: bold;
   margin-bottom: 20px;
+  line-height: 1.2;
 }
 
 /* TITLE */

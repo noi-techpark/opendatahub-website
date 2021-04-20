@@ -8,16 +8,23 @@ availability: "open"
 availability_label: "Open data"
 availability_description: "This dataset is free and available to everyone"
 
-doc_link: "#"
-example_link: "#"
+doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#it-bz-opendatahub-parking"
+example_link: "https://parking.bz.it/"
 
 datatype: "Mobility"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Parking stations - off street parking data (Bolzano, Merano, Trento, Rovereto)
+i. slot availability and predictions
+Parking sensors - on street parking data (Bolzano, soon Merano)
+i. Single parking slots on streets, can be within a virtual area
 
-|               | |
-|:-             |-|
-| Output        | JSON | 
-| Contact       | help@opendatahub.bz.it | 
-| API version   | v2   |
+|                |                                                      |
+| :------------- | ---------------------------------------------------- |
+| Output         | JSON, mime-type application/json                     |
+| E-mail contact | help@opendatahub.bz.it                               |
+| API version    | v2                                                   |
+| Swagger URL    | https://mobility.api.opendatahub.bz.it/              |
+| StationType    | ParkingStation (Data), ParkingSensor (Data)          |
+| Sources        | Municipality of Bolzano, Merano, Trento and Rovereto |
+| OpenData       | Open                                                 |

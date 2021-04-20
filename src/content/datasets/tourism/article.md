@@ -8,16 +8,19 @@ availability: "open"
 availability_label: "availability_open_label"
 availability_description: "availability_open_description"
 
-doc_link: "#"
-example_link: "#"
+doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#it-lts-gastronomy"
+example_link: "https://databrowser.opendatahub.bz.it/"
 
 datatype: "Tourism"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This dataset contains articles such as recipes, books, catalogues, guides about South Tyrol. It contains Historical data. Only recipes are still updated.
 
-|             |                        |
-| :---------- | ---------------------- |
-| Output      | JSON                   |
-| Contact     | help@opendatahub.bz.it |
-| API version | v2                     |
+|                |                                                                       |
+| :------------- | --------------------------------------------------------------------- |
+| Output         | JSON, mime-type application/json                                      |
+| E-mail contact | help@opendatahub.bz.it                                                |
+| API version    | v1                                                                    |
+| Swagger URL    | http://tourism.opendatahub.bz.it/swagger/ui/index#/Article            |
+| Sources        | IDM redaction data (data from 2010 to 2016, recipes still up-to-date) |
+| OpenData       | OpenData (no images available)                                        |

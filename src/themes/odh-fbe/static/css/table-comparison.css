@@ -1,0 +1,143 @@
+/* DIRTY Responsive pricing table CSS */
+
+/* 
+- make mobile switch sticky
+*/
+#table-comparison {
+  margin: 0 auto;
+  position: relative;
+}
+#table-comparison ul {
+  display: flex;
+  top: 0px;
+  z-index: 10;
+  padding: 0;
+}
+#table-comparison li {
+  list-style: none;
+  flex: 1;
+}
+#table-comparison li:last-child {
+  border-right: 1px solid #ddd;
+}
+#table-comparison button {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-right: 0;
+  border-top: 0;
+  padding: 10px;
+  background: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  height: 60px;
+  color: #999;
+}
+#table-comparison li.active button {
+  background: #f5f5f5;
+  color: #000;
+}
+#table-comparison table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+}
+#table-comparison thead {
+  display: none;
+}
+#table-comparison th {
+  background: #f5f5f5;
+  display: none;
+}
+#table-comparison td,
+#table-comparison th {
+  height: 53px;
+}
+#table-comparison td,
+#table-comparison th {
+  border: 1px solid #ddd;
+  padding: 10px;
+  empty-cells: show;
+}
+#table-comparison td,
+#table-comparison th {
+  text-align: left;
+}
+#table-comparison td + td,
+#table-comparison th + th {
+  text-align: center;
+  display: none;
+}
+#table-comparison td.default {
+  display: table-cell;
+}
+#table-comparison .bg-basic {
+  border-top: 3px solid #9d9d9d;
+  background-color: #f5f5f5;
+}
+#table-comparison .bg-pro {
+  border-top: 3px solid #9bc325;
+  background-color: #f7fbec;
+}
+#table-comparison .sep {
+  background: #f5f5f5;
+  font-weight: bold;
+}
+#table-comparison .txt-l {
+  font-size: 28px;
+  font-weight: bold;
+}
+#table-comparison .txt-top {
+  position: relative;
+  top: -9px;
+  left: -2px;
+}
+#table-comparison .tick {
+  font-size: 18px;
+  color: #9bc325;
+}
+#table-comparison .hide {
+  border: 0;
+  background: none;
+}
+
+#table-comparison h6 {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 3px;
+}
+
+#table-comparison span.price {
+  font-weight: 100;
+}
+
+@media (max-width: 639px) {
+  #table-comparison button {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 640px) {
+  #table-comparison table {
+    table-layout: auto;
+    border-collapse: inherit;
+    border-spacing: 5px 0;
+  }
+  #table-comparison thead {
+    display: table-header-group;
+  }
+  #table-comparison ul {
+    display: none;
+  }
+  #table-comparison td,
+  #table-comparison th {
+    display: table-cell !important;
+  }
+  #table-comparison td,
+  #table-comparison th {
+    width: 175px;
+  }
+  #table-comparison td:first-child,
+  #table-comparison th:first-child {
+    width: auto !important;
+  }
+}

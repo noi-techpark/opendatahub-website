@@ -8,16 +8,20 @@ availability: "closed"
 availability_label: "availability_closed_label"
 availability_description: "availability_closed_description"
 
-doc_link: "#"
-example_link: "#"
+doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#it-lts-activity"
+example_link: "https://databrowser.opendatahub.bz.it"
 
 datatype: "Tourism"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The Accommodation Endpoint offers the possibility to make an Availability Request.
+It can be done through HGV MSS (Booking Suedtirol Endpoint) or LTS. The Availability Request returns offers with room pricing. Availability requests on both sources are closed data.
 
-|             |                        |
-| :---------- | ---------------------- |
-| Output      | JSON                   |
-| Contact     | help@opendatahub.bz.it |
-| API version | v2                     |
+|                |                                                                                                                   |
+| :------------- | ----------------------------------------------------------------------------------------------------------------- |
+| Output         | JSON, mime-type application/json, XML AlpineBits                                                                  |
+| E-mail contact | help@opendatahub.bz.it                                                                                            |
+| API version    | v1, AlpineBits HotelData 2017-10, 2018-10 (soon 2020-10)                                                          |
+| Swagger URL    | https://tourism.opendatahub.bz.it/swagger/ui/index#/Accommodation https://alpinebits.opendatahub.bz.it/AlpineBits |
+| Sources        | Availability Requests provided by HGV/LTS                                                                         |
+| OpenData       | Closed API                                                                                                        |

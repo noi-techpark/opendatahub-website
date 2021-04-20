@@ -1,0 +1,40 @@
+################################# Data Sharing #########################
+row_one:
+  title: "By sharing your data, **be ready to receive**:"
+  description: |
+    - Visibility of your data
+    - Visibility as a data provider (on website, on events, with web components)
+    - Advanced infrastructure to publish my data
+    - Documentation
+    - Web Component store for demo app
+    - Prepared mailing list for regular communications towards consumers
+      about my data
+    - Statistical overview on data consumption
+    - Ticket queue for handling customer requests and problems
+    - Error monitoring and escalation
+  btn_link: "/start"
+  btn_label: Join us
+  img_back: "/img/share-data-1.jpg"
+  img_front: "/img/share-data-2.jpg"
+
+row_two:
+  title: We’ll help you, **in every single step**.
+  description: Open Data Hub supports the implementation of an **innovative platform**, where talents can **use data and create innovative solutions** for the SMART Green Region South Tyrol.
+  btn_link: "/help"
+  btn_label: Contact us
+  img_back: "/img/share-data-3.jpg"
+  img_front: "/img/share-data-4.jpg"
+
+row_three:
+  title: Ready in **just two months**.
+  description: |
+    The development time of a Data Collector depends on the complexity of the shared data. Typically, the development delivery time is 2 months
+    - **Sprint 1** (weeks 1-2): basic configuration of the Data Collector"
+    - **Sprint 2** (weeks 3-4): development of the adapter part with respect to the customer’s API
+    - **Sprint 3** (weeks 5-6): development of the adapter part of the Open Data Hub API
+    - **Sprint 4** (weeks 7-8): testing and production start of the application
+
+  btn_link: "/datasets"
+  btn_label: Start now
+  img_back: "/img/share-data-5.jpg"
+  img_front: "/img/share-data-6.jpg"

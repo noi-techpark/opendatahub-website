@@ -1,19 +1,24 @@
 {{ define "main" }}
-	
-	{{ partial "nav.html" . }}
 
-	{{ partial "title.html" .Params }}
+  {{ partial "nav.html" . }}
 
+  {{ partial "title.html" .Params }}
 
-	<div class="bg-darker">
-		{{ partial "col-imgs-text.html" site.Data.home.use_case }}
-		</div>
-		
-	{{ partial "col-text-imgs.html" site.Data.home.dataset_example }}
-	<div class="bg-darker">
-	{{ partial "col-imgs-text.html" site.Data.home.use_case }}
-	</div>
-	
-	{{ partial "col-text-imgs.html" site.Data.home.dataset_example }}
-      
+  <section class="bg-darker" id="data-sharing">
+    {{ partial "col-imgs-text.html" site.Data.services.row_one }}
+  </section>
+
+  <section id="data-access">
+    {{ partial "col-text-imgs.html" site.Data.services.row_two }}
+  </section>
+
+  <section class="bg-darker" id="app-dev">
+    {{ partial "col-imgs-text.html" site.Data.services.row_three }}
+  </section>
+
+  <section>
+    {{ partial "title.html" site.Data.services.pricing }}
+    {{ partial "table-comparison.html" site.Data.services.pricing}}
+  </section>
+
 {{ end }}
