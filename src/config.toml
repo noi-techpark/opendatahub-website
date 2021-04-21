@@ -1,10 +1,9 @@
 ######################################## BASIC CONFIG
 theme = "odh-fbe"
 baseURL = "https://opendatahub.testingmachine.eu"
-#baseURL = ""
 languageCode = "en"
 title = "Open Data Hub Südtirol - Alto Adige"
-googleAnalytics = "UA-138331709-1"
+googleAnalytics = ""
 
 ######################################## META
 [params]
