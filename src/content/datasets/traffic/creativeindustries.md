@@ -2,7 +2,7 @@
 position: "Datasets"
 
 title: "Creative Industries"
-img: "/img/sfscon.jpg"
+img: "/img/dataset-creative.jpg"
 
 availability: "open"
 availability_label: "availability_open_label"

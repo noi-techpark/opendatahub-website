@@ -2,7 +2,7 @@
 position: "Datasets"
 
 title: "Accommodation(2)"
-img: "/img/sfscon.jpg"
+img: "/img/dataset-accomodation.jpg"
 
 availability: "partially-closed"
 availability_label: "availability_partially_closed_label"

@@ -2,7 +2,7 @@
 position: "Datasets"
 
 title: "Location & Common (1)"
-img: "/img/sfscon.jpg"
+img: "/img/dataset-location.jpg"
 
 availability: "open"
 availability_label: "availability_open_label"

@@ -1,7 +1,7 @@
 ---
 position: "Datasets"
 
-title: "Trafic station(1)"
+title: "Traffic station(1)"
 img: "/img/aria_02_BrennerLEC_fase2.jpg"
 
 availability: "tobe-opened"

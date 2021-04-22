@@ -2,7 +2,7 @@
 position: "Datasets"
 
 title: "Webcam"
-img: "/img/sfscon.jpg"
+img: "/img/dataset-webcam.jpg"
 
 availability: "open"
 availability_label: "availability_open_label"

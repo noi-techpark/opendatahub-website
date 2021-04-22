@@ -2,7 +2,7 @@
 position: "Datasets"
 
 title: "Bikesharing"
-img: "/img/sfscon.jpg"
+img: "/img/dataset-bikesharing.jpg"
 
 availability: "open"
 availability_label: "availability_open_label"

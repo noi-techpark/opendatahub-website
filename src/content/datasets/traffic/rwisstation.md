@@ -1,8 +1,8 @@
 ---
 position: "Datasets"
 
-title: "Rwis station"
-img: "/img/sfscon.jpg"
+title: "RWIS station"
+img: "/img/dataset-rwis.jpg"
 
 availability: "partially-closed"
 availability_label: "availability_partially_closed_label"

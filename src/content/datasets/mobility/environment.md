@@ -2,7 +2,7 @@
 position: "Datasets"
 
 title: "Environment"
-img: "/img/sfscon.jpg"
+img: "/img/dataset-environment.jpg"
 img_alt: "sfscon"
 
 availability: "partially-closed"

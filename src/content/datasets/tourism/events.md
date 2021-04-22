@@ -2,7 +2,7 @@
 position: "Datasets"
 
 title: "Events"
-img: "/img/sfscon.jpg"
+img: "/img/dataset-events.jpg"
 
 availability: "open"
 availability_label: "availability_open_label"

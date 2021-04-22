@@ -2,7 +2,7 @@
 position: "Datasets"
 
 title: "Bluetooth"
-img: "/img/sfscon.jpg"
+img: "/img/dataset-bluetooth.jpg"
 
 availability: "partially-closed"
 availability_label: "availability_partially_closed_label"

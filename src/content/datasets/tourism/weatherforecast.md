@@ -2,7 +2,7 @@
 position: "Datasets"
 
 title: "Weather forecast"
-img: "/img/sfscon.jpg"
+img: "/img/dataset-environment.jpg"
 
 availability: "open"
 availability_label: "availability_open_label"
