@@ -5,8 +5,8 @@ title: "NOI Place"
 img: "/img/idm-noi-techpark.jpg"
 
 availability: "open"
-availability_label: "availability_open_label"
-availability_description: "availability_open_description"
+availability_label: "Open Data"
+availability_description: "All data is available as Open Data"
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#noi-place"
 example_link: "https://maps.noi.bz.it/"

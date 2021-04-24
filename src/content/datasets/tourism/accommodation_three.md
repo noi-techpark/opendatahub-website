@@ -5,8 +5,8 @@ title: "Accommodation(3)"
 img: "/img/dataset-accomodation.jpg"
 
 availability: "closed"
-availability_label: "availability_closed_label"
-availability_description: "availability_closed_description"
+availability_label: "Closed Data"
+availability_description: "Data is closed or restricted to project collaboration."
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#it-lts-activity"
 example_link: "https://databrowser.opendatahub.bz.it"

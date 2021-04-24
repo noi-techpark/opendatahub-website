@@ -5,8 +5,8 @@ title: "Bluetooth"
 img: "/img/dataset-bluetooth.jpg"
 
 availability: "partially-closed"
-availability_label: "availability_partially_closed_label"
-availability_description: "availability_partially_closed_description"
+availability_label: "Partially Closed Data"
+availability_description: "Some data is available as Open Data. Rest of data is closed or restricted to project collaboration."
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#it-bz-opendatahub-bluetooth"
 example_link: "https://analytics.opendatahub.bz.it/"

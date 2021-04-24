@@ -5,8 +5,8 @@ title: "Creative Industries"
 img: "/img/dataset-creative.jpg"
 
 availability: "open"
-availability_label: "availability_open_label"
-availability_description: "availability_open_description"
+availability_label: "Open Data"
+availability_description: "All data is available as Open Data"
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#creative-industries"
 example_link: "https://webcomponents.opendatahub.bz.it/webcomponent/f1321372-6629-4912-a331-77d5d91dd646"
