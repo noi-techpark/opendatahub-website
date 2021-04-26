@@ -2,11 +2,11 @@
 position: "Datasets"
 
 title: "Accommodation(1)"
-img: "/img/sfscon.jpg"
+img: "/img/dataset-accomodation.jpg"
 
 availability: "open"
-availability_label: "availability_open_label"
-availability_description: "availability_open_description"
+availability_label: "Open Data"
+availability_description: "All data is available as Open Data"
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#id19"
 example_link: "https://databrowser.opendatahub.bz.it"

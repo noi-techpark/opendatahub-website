@@ -1,12 +1,12 @@
 ---
 position: "Datasets"
 
-title: "Trafic station(2)"
+title: "Traffic station(2)"
 img: "/img/aria_02_BrennerLEC_fase2.jpg"
 
 availability: "tobe-opened"
-availability_label: "availability_tobe_opened_label"
-availability_description: "availability_tobe_opened_description"
+availability_label: "Data to be Opened"
+availability_description: "Data will be opened soon"
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#it-bz-opendatahub-trafficstation"
 example_link: "https://analytics.opendatahub.bz.it/"

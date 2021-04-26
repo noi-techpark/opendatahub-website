@@ -5,8 +5,8 @@ title: "Echarging station"
 img: "/img/andrew-roberts-2JvEjF0tf50-unsplash.jpg"
 
 availability: "open"
-availability_label: "availability_open_label"
-availability_description: "availability_open_description"
+availability_label: "Open Data"
+availability_description: "All data is available as Open Data"
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#it-bz-opendatahub-echargingstation"
 example_link: "https://analytics.opendatahub.bz.it/"
