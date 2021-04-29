@@ -1,0 +1,48 @@
+
+
+<script>
+	function setReason(value) {
+		document.getElementById('contact-form').className = value
+	}
+</script>
+
+<form id="contact-form" action="">
+	<label for="contact-reason">Contact reason</label>
+	<select id="contact-reason" onLoad="setReason(this.value)" onChange="setReason(this.value)">
+		<option value="reason-generic">Generic reason</option>
+		<option value="reason-data-access">I want to access data</option>
+		<option value="reason-data-sharing">I want to share data</option>
+	</select>
+
+	<label for="name">Name *</label>
+	<input id="name" name="name" placeholer="" type="text" required>
+
+	<label for="surname">Surname *</label>
+	<input id="surname" name="surname" placeholer="" type="text" required>
+
+	<label for="email">Email *</label>
+	<input id="email" name="email" placeholer="" type="email" required>
+
+	<label for="surname">Company</label>
+	<input id="surname" name="surname" placeholer="" type="text">
+
+	<div class="data-access" style="display: none">
+		<label for="dataset">Datasets you’re interest in</label>
+		<input id="dataset" name="dataset-of-interest" placeholer="" type="text">
+	</div>
+
+	<div class="data-sharing" style="display: none">
+		<label for="data">Type of data you want to share *</label>
+		<input id="data" name="data" placeholer="" type="text" required>
+	</div>
+
+	<label for="message">Message *</label>
+	<textarea id="message" name="message" placeholer="" required ></textarea>
+
+	<div>
+		<input id="terms-agree" name="agree" type="checkbox" class="display-inline-block" required>
+		<label for="terms-agree" class="display-inline-block">I agree to the <a href="{{ site.Params.PrivacyUrl }}">Privacy Terms</a></label>
+	</div>
+
+	<button class="btn btn-primary">Send message</button>
+</form>
