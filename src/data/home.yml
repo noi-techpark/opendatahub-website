@@ -2,7 +2,7 @@
 mission:
   title: Mission
   subtitle: Open Data Hub supports the implementation of an **innovative platform**, where talents can **use data and create innovative solutions** for the SMART Green Region South Tyrol.
-  btn_link: "#"
+  btn_link: "/start"
   btn_label: Start now
 
 offset_images:
@@ -50,5 +50,5 @@ services:
 
     - name: Demo app development
       icon: "/icon/box.svg"
-      box_link: "/services#demo-dev"
+      box_link: "/services#app-dev"
       btn_label: Learn more
