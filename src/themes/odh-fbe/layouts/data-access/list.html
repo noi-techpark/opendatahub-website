@@ -15,5 +15,10 @@
 	</div>
 	
 	{{ partial "col-text-imgs.html" site.Data.data_access.row_four }}
+
+	<section style="padding-top: 0;">
+	  {{ partial "title.html" site.Data.services.pricing }}
+	  {{ partial "table-comparison.html" site.Data.services.pricing}}
+	</section>
       
 {{ end }}
