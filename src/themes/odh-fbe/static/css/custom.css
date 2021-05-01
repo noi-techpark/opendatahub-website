@@ -98,7 +98,7 @@ a.bg-primary:hover {
 }
 
 .container .container-content {
-  max-width: 650px;
+  max-width: 550px;
 }
 
 .btn {
@@ -635,6 +635,11 @@ footer .copyright {
   float: right;
 }
 
+#contact-form {
+  position: relative;
+  top: -60px;
+}
+
 #contact-form .col-lg-5 {
   padding: 0 !important;
 }
@@ -700,4 +705,10 @@ footer ul.social li img {
 .icon {
   width: 1rem;
   height: 1rem;
+}
+
+@media (max-width: 768px) {
+  #contact-form {
+    top: 0;
+  }
 }
