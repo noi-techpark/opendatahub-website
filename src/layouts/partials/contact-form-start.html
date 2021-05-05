@@ -1,18 +1,27 @@
 
 
 <script>
-	function setReason(value) {
+	function setReasonClass(value) {
 		document.getElementById('contact-form').className = value
 	}
 </script>
 
 <form id="contact-form" action="">
 	<label for="contact-reason">Contact reason</label>
-	<select id="contact-reason" onLoad="setReason(this.value)" onChange="setReason(this.value)">
+	<select id="contact-reason" onChange="setReasonClass(this.value)">
 		<option value="reason-generic">Generic reason</option>
 		<option value="reason-data-access">I want to access data</option>
 		<option value="reason-data-sharing">I want to share data</option>
 	</select>
+	<script type="text/javascript">
+		var urlParams = new URLSearchParams(window.location.search)
+		var contactReason = urlParams.get('contact-reason')
+		if (contactReason) {
+			contactReason = 'reason-' + contactReason
+			document.getElementById('contact-reason').value = contactReason
+			setReasonClass(contactReason)
+		}
+	</script>
 
 	<label for="name">Name *</label>
 	<input id="name" name="name" placeholer="" type="text" required>
