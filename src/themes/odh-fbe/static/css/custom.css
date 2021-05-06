@@ -398,15 +398,18 @@ input:focus {
 }
 
 /* COLUMNS IMAGES */
-.col-images img {
-  width: 100%;
+.col-images .row {
+  text-align: center;
+}
+.col-images .row img {
+  max-width: 300px;
+  width: auto;
   padding: 1rem 3rem;
 }
 
 .col-images .btn {
   margin: 1rem;
 }
-
 
 /* COLUMNS IMG-TEXT */
 .col-imgs-text .row,
@@ -721,5 +724,15 @@ footer ul.social li img {
 @media (max-width: 768px) {
   #contact-form {
     top: 0;
+  }
+
+  .generic-offset-images .content h4 {
+    font-size: 2rem;
+  }
+
+  .col-images .row img {
+    max-width: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
