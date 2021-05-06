@@ -18,6 +18,20 @@ offset_images:
   image_two_link: "/data-access"
   image_two_btn_label: See datasets
 
+community:
+  title: They're already **on board**
+  img_one: "img/alperia.png"
+  img_one_name: Alperia SpA
+  img_one_link: https://www.alperia.eu/
+  img_two: "img/pab.png"
+  img_two_name: Autonomous Province of Bolzano/Bozen
+  img_two_link: http://provincia.bz.it
+  img_three: "img/ProvinciaTrento.png" 
+  img_three_name: Autonomous Province of Trento
+  img_three_link: http://www.provincia.tn.it/
+  btn_link: "/community"
+  btn_label: See our community
+
 use_case:
   title: Build the next **traffic application**
   description: Thanks to our **traffic datasets** you can start today to build your service using real time data of South Tyrol's traffic.

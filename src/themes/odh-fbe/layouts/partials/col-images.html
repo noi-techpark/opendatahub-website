@@ -1,0 +1,23 @@
+{{"<!-- Three Imgs Columns -->" | safeHTML }}
+<section class="col-images">
+	<div class="container">
+		<div class="col-12 text-center">
+			<h3>{{ .title | markdownify }}</h3>
+		</div>
+
+		<div class="col-12 col-lg-4">
+			<img src="{{ .img_one }}" alt="{{ .img_one_name }}"/>
+		</div>
+		<div class="col-12 col-lg-4">
+			<img src="{{ .img_two }}" alt="{{ .img_two_name }}"/>
+		</div>
+		<div class="col-12 col-lg-4">
+			<img src="{{ .img_three }}" alt="{{ .img_three_name }}" />
+		</div>
+	</div>
+
+	<div class="col-12 text-center">
+		<a href="{{.btn_link}}" class="btn btn-primary">{{ .btn_label | markdownify }}</a>
+	</div>
+</section>
+{{"<!-- /Three Imgs Columns -->" | safeHTML }}

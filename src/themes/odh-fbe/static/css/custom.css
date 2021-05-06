@@ -397,6 +397,17 @@ input:focus {
   margin-bottom: 3rem;
 }
 
+/* COLUMNS IMAGES */
+.col-images img {
+  width: 100%;
+  padding: 1rem 3rem;
+}
+
+.col-images .btn {
+  margin: 1rem;
+}
+
+
 /* COLUMNS IMG-TEXT */
 .col-imgs-text .row,
 .col-text-imgs .row {
