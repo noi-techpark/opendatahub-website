@@ -2,7 +2,7 @@
 row_one:
   title: "**Data sharing**: we help to share you data online."
   description: We help companies to give **visibility** to their data, **identify suitable formats**, processing algorithms and **licenses** and to use technologies known by application developers.
-  btn_link: "/"
+  btn_link: "/start?contact-reason=data-sharing"
   btn_label: Contact us
   img_back: "/img/services-1.jpg"
   img_front: "/img/services-2.jpg"
@@ -10,7 +10,7 @@ row_one:
 row_two:
   title: "**Data access**: understand now how to build on open data."
   description: For a company that develops software applications we offer access, through a **single machine-readable**, documented and **stable channel**, to updated and **real-time data**, released with an Open Data license.
-  btn_link: "/help"
+  btn_link: "/start?contact-reason=data-access"
   btn_label: Contact us
   img_back: "/img/services-3.jpg"
   img_front: "/img/services-4.jpg"

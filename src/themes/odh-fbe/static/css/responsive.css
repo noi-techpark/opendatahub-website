@@ -42,18 +42,6 @@
     display: block;
   }
 
-  /* OFFSET BOXES */
-  .generic-offset-images .card {
-    width: 100% !important;
-    float: none !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-  }
-
-  .generic-offset-images .card:last-child {
-    margin-top: auto !important;
-  }
-
   /* GENERIC BOXES */
   .generic-boxes .single-box-icon img {
     width: 35% !important;
@@ -149,6 +137,18 @@
   .fh5co-nav-toggle i::before,
   .fh5co-nav-toggle i::after {
     background-color: #000;
+  }
+
+  /* OFFSET BOXES */
+  .generic-offset-images .card {
+    width: 100% !important;
+    float: none !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .generic-offset-images .card:last-child {
+    margin-top: auto !important;
   }
 
   /* FOOTER */
