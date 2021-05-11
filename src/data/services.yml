@@ -1,0 +1,82 @@
+################################# Services #########################
+row_one:
+  title: "**Data sharing**: we help to share you data online."
+  description: We help companies to give **visibility** to their data, **identify suitable formats**, processing algorithms and **licenses** and to use technologies known by application developers.
+  ##btn_link: "/start?contact-reason=data-sharing"
+  ##btn_label: Contact us
+  btn_link: "/data-sharing"
+  btn_label: See details
+  img_back: "/img/services-1.jpg"
+  img_front: "/img/services-2.jpg"
+
+row_two:
+  title: "**Data access**: understand now how to build on open data."
+  description: For a company that develops software applications we offer access, through a **single machine-readable**, documented and **stable channel**, to updated and **real-time data**, released with an Open Data license.
+  ##btn_link: "/start?contact-reason=data-access"
+  ##btn_label: Contact us
+  btn_link: "/data-access"
+  btn_label: See details
+  img_back: "/img/services-3.jpg"
+  img_front: "/img/services-4.jpg"
+
+row_three:
+  title: "**Data Visualization**: together, to create your first demo app."
+  description: We create, in collaboration with companies that bring concrete needs, under **Open Source license**, a set of Demo apps that can be used by individual companies as a **guideline** and **inspiration** for new digital products.
+  #btn_link: "/help"
+  btn_link: "mailto:help@opendatahub.bz.it"
+  btn_label: Contact us
+  img_back: "/img/services-5.jpg"
+  img_front: "/img/services-6.jpg"
+
+pricing:
+  title: Pricing
+  header:
+    - title: UNREGISTERED
+      price: (free)
+      color_class: bg-basic
+    - title: BASIC**
+      price: (free)
+      color_class: bg-pro
+    - title: ADVANCED**
+      price: (for a fee)
+      color_class: bg-pro
+    - title: PREMIUM**
+      price: (for a fee)
+      color_class: bg-pro
+  row:
+    - cols:
+        - content: Access to all Open Data provided
+        - content: "&#10004;"
+        - content: "&#10004;"
+        - content: "&#10004;"
+        - content: "&#10004;"
+    - cols:
+        - content: Notification about API and dataset changes
+        - content: ""
+        - content: "&#10004;"
+        - content: "&#10004;"
+        - content: "&#10004;"
+    - cols:
+        - content: Intermediation with data providers
+        - content: ""
+        - content: "&#10004;"
+        - content: "&#10004;"
+        - content: "&#10004;"
+    - cols:
+        - content: <b>Basic support*</b> in the implementation of APIs
+        - content: ""
+        - content: "&#10004;"
+        - content: "&#10004;"
+        - content: "&#10004;"
+    - cols:
+        - content: <b>Advances support*</b> in the implementation of APIs
+        - content: ""
+        - content: ""
+        - content: "&#10004;"
+        - content: "&#10004;"
+    - cols:
+        - content: <b>Premium service</b> specific SLA requirements
+        - content: ""
+        - content: ""
+        - content: ""
+        - content: "&#10004;"

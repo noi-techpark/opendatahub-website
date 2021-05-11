@@ -1,0 +1,31 @@
+
+
+<script>
+	function setReason(value) {
+		document.getElementById('contact-form').className = value
+	}
+</script>
+
+<form id="contact-form" action="">
+	<label for="name">Name *</label>
+	<input id="name" name="name" placeholer="" type="text" required>
+
+	<label for="surname">Surname *</label>
+	<input id="surname" name="surname" placeholer="" type="text" required>
+
+	<label for="email">Email *</label>
+	<input id="email" name="email" placeholer="" type="email" required>
+
+	<label for="surname">Company</label>
+	<input id="surname" name="surname" placeholer="" type="text">
+
+	<label for="message">Message *</label>
+	<textarea id="message" name="message" placeholer="" required ></textarea>
+
+	<div>
+		<input id="terms-agree" name="agree" type="checkbox" class="display-inline-block" required>
+		<label for="terms-agree" class="display-inline-block">I agree to the <a href="{{ site.Params.PrivacyUrl }}">Privacy Terms</a></label>
+	</div>
+
+	<button class="btn btn-primary">Send message</button>
+</form>

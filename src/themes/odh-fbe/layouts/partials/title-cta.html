@@ -1,0 +1,12 @@
+{{" <!-- Title with Call To Action -->" | safeHTML }}
+<section class="title-cta">
+    <div class="container">
+        <div class="container-content">
+            <h1 class="primary">{{ .title | markdownify }}</h1>
+            <h2 class="subtitle">{{ .subtitle | markdownify }}</h2>
+
+            <a href="{{.btn_link}}" class="btn btn-primary">{{ .btn_label | markdownify }}</a>
+        </div>
+    </div>
+</section>
+{{" <!-- /Title CTA -->" | safeHTML }}

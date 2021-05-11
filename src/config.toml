@@ -1,613 +1,137 @@
-# Main config file for icon theme.
-theme = "hugo-icon"
+######################################## BASIC CONFIG
+theme = "odh-fbe"
 baseURL = "https://opendatahub.testingmachine.eu"
-#baseURL = "."
 languageCode = "en"
 title = "Open Data Hub Südtirol - Alto Adige"
-featured_image = "img/logo-open-data-hub.png"
-googleAnalytics = "UA-138331709-1"
+googleAnalytics = ""
 
-# Metadata
+######################################## META
 [params]
-  author = "Patrick Ohnewein"
-  description = "Open Data Hub is your access point to South Tyrol's relevant data. You and your service providers can use Open Data Hub for all channels of digital communication. The data is updated on a regular basis and easily accessible."
-
-# Hero section (from here on is for icon theme)
-[params.hero]
-  img = "img/IDM-Daniel_Geiger.jpg"
-  title = "Open Data Hub Südtirol - Alto Adige"
-  description = "Open Data Hub is your access point to South Tyrol's relevant data. You and your service providers can use Open Data Hub for all channels of digital communication. The data is updated on a regular basis and easily accessible."
-
-# Navigation section
-[params.nav]
-  mission = "Our Mission"
-  services = "Services"
-  datasets = "Datasets"
-  community = "Community"
-  customer = "Documentation"
-  team = "Team"
-  contact = "Get In Touch"
-  # Include logo instead of HOME:
-  logo = "img/logo-open-data-hub.png"
-
-# Mission section
-[params.mission]
-  enable = true
-
-  [params.mission.images]
-    enable = true
-
-    [[params.mission.images.list]]
-      img = "img/GreenMobility.png"
-    [[params.mission.images.list]]
-      img = "img/hackathon.jpg"
-    [[params.mission.images.list]]
-      img = "img/mobility.meran.eu.png"
-    [[params.mission.images.list]]
-      img = "img/idm-noi-techpark.jpg"
-
-  [[params.mission.item]]
-    weight = 1
-    name = "mission"
-    title = "Mission"
-    subtitle = "Open Data Hub is your access point to South Tyrol's relevant data."
-    description = "<p>You and your service providers can use Open Data Hub for all channels of digital communication. The data is updated on a regular basis and easily accessible.</p><ul class='checked'><li>Open Data</li><li>Open Standards</li><li>Free Open Source Software</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
-
-  [[params.mission.item]]
-    weight = 2
-    name = "community"
-    title = "Community"
-    subtitle = "Open Data Hub Developer Community."
-    description = "<p>The Open Data Hub is developed by a community of talents.</p><ul class='checked'><li>Users of Open Data Hub apps, like <a href='http://mobility.merano.eu/' target='_blank'>mobility.meran.eu</a></li><li>App Developers meeting at <a href='http://hackathon.bz.it' target='_blank'>Hackathons</a></li><li>Core Developers creating extensions to the Open Data Hub</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
-
-  [[params.mission.item]]
-    weight = 3
-    name = "datasets"
-    title = "Datasets"
-    subtitle = "Open Data Hub provides datasets in many domains."
-    description = "<p>Through the Open Data Hub app developers can access datasets of different domains in an easy way.</p><ul class='checked'><li>Tourism</li><li>Mobility</li><li>More to come...</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
-
-# Services section
-[params.services]
-  enable = true
-  video = false
-  vidlink = "https://vimeo.com/292011350"
-  title = "Our Services"
-  description = "We support the implementation of an innovation platform, where talents can use data and create innovative solutions for the <i>SMART Green Region South Tyrol</i>."
-
-  [[params.services.item]]
-    icon = "icon-server2"
-    title = "Data Access"
-    description = "For a company that develops software applications we offfer access, through a single machine-readable, documented and stable channel, to updated and real-time data, released with an Open Data license."
-
-  [[params.services.item]]
-    icon = "icon-wifi"
-    title = "Data Sharing"
-    description = "We help companies to give visibility to their data, identify suitable formats, processing algorithms and licenses and to use technologies known by application developers."
-
-  [[params.services.item]]
-    icon = "icon-code"
-    title = "Demo App Development"
-    description = "We create, in collaboration with companies that bring concrete needs, under Open Source license, a set of Demo apps that can be used by individual companies as a guideline and inspiration for new digital products."
-
- # [[params.services.item]]
-  #  icon = "icon-paper-plane"
-  #  title = "Real Time Data"
-  #  description = "Real time data enables talents to create powerful services, like <a href='https://parking.bz.it/' target='_blank'>parking.bz.it</a>."
-
- # [[params.services.item]]
-  #  icon = "icon-pencil"
-  #  title = "Data Quality"
-  #  description = "Data used in real world applications gets improved more often."
-
- # [[params.services.item]]
-  #  icon = "icon-rocket"
-  #  title = "Promote Prototyping"
-  #  description = "Start-Ups increase accessibility and value of data, by using them in their <a href='https://opendatahub.readthedocs.io/en/latest/applist.html' target='_blank'>apps</a>."
-
-# Datasets section
-[params.datasets]
-  enable = true
-  title = "Datasets available"
-  description = "Get the whole list of the datasets available in our <a href='https://opendatahub.readthedocs.io/en/latest/datasets.html' target='_blank'>documentation.</a>"
-
-  [[params.datasets.item]]
-    icon = "icon-battery-full"
-    title = "E-Charging Stations"
-    link = "https://opendatahub.readthedocs.io/en/latest/datasets.html#echarging-dataset"
-    description = "This datasets exposes data about the existing e-charging stations in South Tyrol and their status, including historical data and usage. Get more information in the <a href='https://opendatahub.readthedocs.io/en/latest/datasets.html#echarging-dataset' target='_blank'>online documentation.</a>"
-
-  [[params.datasets.item]]
-    icon = "icon-umbrella2"
-    title = "Weather"
-    link = "https://opendatahub.readthedocs.io/en/latest/datasets.html#weather-dataset"
-    description = "This dataset contains meteorological data provided by the hydrographical Department of South Tyrol. Get more information in the <a href='https://opendatahub.readthedocs.io/en/latest/datasets.html#weather-dataset' target='_blank'>online documentation.</a>"
-
-  [[params.datasets.item]]
-    icon = "icon-bus"
-    title = "Public Transportation"
-    link = "https://opendatahub.readthedocs.io/en/latest/datasets.html#public-transportation"
-    description = "This datasets shows the real time position of buses operated by SASA in South Tyrol and, through a few subsets, additional information about lines, station boards, and news. Get more information in the <a href='https://opendatahub.readthedocs.io/en/latest/datasets.html#public-transportation' target='_blank'>online documentation</a>."
-
-# Community section
-[params.community]
-  enable = true
-  title = "Open Data Hub Community"
-  description = "Our community of data providers and technology suppliers."
-
-  [[params.community.item]]
-    img = "img/a22.jpeg"
-    title = "Autostrada del Brennero SpA"
-    description = "<a href='https://www.autobrennero.it/' target='_blank'>Autobrennero</a> provides data about traffico condition on the highway."
-
-  [[params.community.item]]
-    img = "img/alperia.png"
-    title = "Alperia SpA"
-    description = "<a href='https://www.alperia.eu/' target='_blank'>Alperia</a> provides data about e-charging stations availabilty and status."
-
- [[params.community.item]]
-    img = "img/pab.png"
-    title = "Autonomous Province of Bolzano/Bozen"
-    description = "<a href='http://provincia.bz.it' target='_blank'>Autonomous Province of Bolzano/Bozen</a> provides several data in open format, among them data about weather and air quality."
-    
- [[params.community.item]]
-    img = "img/ProvinciaTrento.png"
-    title = "Autonomous Province of Trento"
-    description = "<a href='http://www.provincia.tn.it/' target='_blank'>Autonomous Province of Trento</a> provides several data in open format, among them data about weather and air quality."
-
-  [[params.community.item]]
-    img = "img/carSharingAA.png"
-    title = "Carsharing S-AA"
-    description = "<a href='https://www.carsharing.bz.it/' target='_blank'>Carsharing Südtirol Alto Adige</a> provides the availability of their cars."
-    
-  [[params.community.item]]
-    img = "img/cisma.png"
-    title = "CISMA Srl"
-    description = "<a href='http://www.cisma.it/' target='_blank'>CISMA</a> utilizes data from Open Data Hub for their services and applications."
-
-  [[params.community.item]]
-    img = "img/bzbga.png"
-    title = "Comunità Comprensoriale Burgraviato"
-    description = "<a href='https://www.bzgbga.it/it' target='_blank'>Comunità Comprensoriale Burgraviato</a> provides the data about their carpooling service."
-
-  [[params.community.item]]
-    img = "img/destination.png"
-    title = "Destination Srl"
-    description = "<a href='http://www.destinationsrl.it/' target='_blank'>Destination</a> utilizes data from Open Data Hub for their application."
-    
-  [[params.community.item]]
-    img = "img/DRIN.png"
-    title = "DRIN"
-    description = "<a href='http://www.provincia.bz.it/arte-cultura/giovani/drin.asp' target='_blank'>DRIN</a> shares the information about all events he organizes."
-
-  [[params.community.item]]
-    img = "img/driwe.png"
-    title = "Driwe"
-    description = "<a href='https://www.driwe.eu/' target='_blank'>Driwe</a> provides data about e-charging stations availabilty and status."
-
-  [[params.community.item]]
-    img = "img/h2st.png"
-    title = "H2 South Tyrol"
-    description = "<a href='https://www.h2-suedtirol.com/' target='_blank'>H2 South Tyrol</a> provides data about e-charging stations availabilty and status."
-    
-  [[params.community.item]]
-    img = "img/hgv.png"
-    title = "HGV"
-    description = "<a href='https://www.hgv.it/' target='_blank'>HGV - Hoteliers- und Gastwirteverband</a> provides data about tourism."
-
-  [[params.community.item]]
-    img = "img/IDM.png"
-    title = "IDM Südtirol/Alto Adige"
-    description = "<a href='http://idm-suedtirol.com' target='_blank'>IDM Südtirol/Alto Adige</a> provides data about tourism."
-  [[params.community.item]]
-    img = "img/innovie.png"
-    title = "Inno.vie"
-    description = "<a href='http://www.innovie.it/s' target='_blank'>Inno.vie</a> provides the data about their carpooling service."
-
-  [[params.community.item]]
-    img = "img/lts.png"
-    title = "LTS"
-    description = "<a href='https://www.lts.it' target='_blank'>LTS - Landesverband der Tourismusorganisationen Südtirols</a> provides data about tourism."
-
-  [[params.community.item]]
-    img = "img/MarketingFactory.png"
-    title = "Marketing Factory"
-    description = "<a href='https://www.marketingfactory.it' target='_blank'>Marketing Factory</a> consumes data from Open Data Hub for their application."
-  
-  [[params.community.item]]
-    img = "img/municipalityBolzano.png"
-    title = "Municipality of Bolzano/Bozen"
-    description = "<a href='https://www.comune.bolzano.it/' target='_blank'>Municipality of Bolzano/Bozen</a> Provides his data about parking lots, air quality traffic and bike sharing."
-
-  [[params.community.item]]
-    img = "img/nevicam.png"
-    title = "Nevicam"
-    description = "<a href='https://mobility.nevicam.it/' target='_blank'>Nevicam</a> provides data about e-charging stations availabilty and status."
-
-  [[params.community.item]]
-    img = "img/municipalityMerano.png"
-    title = "Municipality of Merano/Meran"
-    description = "<a href='https://www.comune.merano.bz.it/' target='_blank'>Municipality of Merano/Meran</a> Provides his data about parking lots and bike sharing."
-
-  [[params.community.item]]
-    img = "img/municipalityRovereto.png"
-    title = "Municipality of Rovereto"
-    description = "<a href='https://www.comune.rovereto.tn.it/' target='_blank'>Municipality of Rovereto</a> Provides his data about parking lots."
-
-  [[params.community.item]]
-    img = "img/municipalityTrento.png"
-    title = "Municipality of Trento"
-    description = "<a href='https://www.comune.trento.it/' target='_blank'>Municipality of trento</a> Provides his data about parking lots."
-      
-  [[params.community.item]]
-    img = "img/Ontopic.png"
-    title = "Ontopic"
-    description = "<a href='https://ontopic.biz/' target='_blank'>Ontopic</a> uses code of one demo application in their products."
-
-  [[params.community.item]]
-    img = "img/papinSport.jpg"
-    title = "Papin Sport"
-    description = "<a href='https://www.papinsport.com/' target='_blank'>Papin Sport</a> provides the data about their bike rental stationss."
-
-  [[params.community.item]]
-    img = "img/peer.png"
-    title = "Peer"
-    description = "<a href='https://www.peer.biz/' target='_blank'>Peer</a>  consumes data from Open Data Hub for their application."
-
-  [[params.community.item]]
-    img = "img/route220.png"
-    title = "Route 220"
-    description = "<a href='https://evway.net/' target='_blank'>Route220</a> provides data about e-charging stations availabilty and status."
-
-  [[params.community.item]]
-    img = "img/sta.png"
-    title = "STA"
-    description = "<a href='https://sta.bz.it' target='_blank'>STA</a> provides several data about mobility in South Tyrol."
-
-  [[params.community.item]]
-    img = "img/suedtirolWein.png"
-    title = "Südtirol Wein"
-    description = "<a href='https://www.vinialtoadige.com/' target='_blank'>Südtirol Wein</a> provides data about mobility South Tyrolean wine and wineries."
-
-  [[params.community.item]]
-    img = "img/TreviLab.png"
-    title = "TreviLab"
-    description = "<a href='http://www.provinz.bz.it/arte-cultura/cultura/centro-trevi.asp' target='_blank'>TreviLab</a> shares the information about all events he organizes."
-    
-[[params.community.item]]
-    img = "img/VION.png"
-    title = "VION"
-    description = "<a href='https://www.vion.bz.it/' target='_blank'>VION</a> provides data about e-charging stations availabilty and status."
-
-[[params.community.item]]
-    img = "img/xlbit.png"
-    title = "XLbit"
-    description = "<a href='https://www.xlbit.com/' target='_blank'>XLbit</a> consumes data from Open Data Hub for their application."
-  
-# Customer Care section
-[params.customer]
-  enable = true
-  title = "Customer Care & Documentation"
-  description = "Get the whole list of the datasets available in our <a href='https://opendatahub.readthedocs.io/en/latest/datasets.html' target='_blank'>documentation.</a>"
-
-  [[params.customer.item]]
-    icon = "icon-question"
-    title = "FAQ"
-    link = "https://opendatahub.readthedocs.io/en/latest/faq.html"
-    description = "Frequently Asked Question"
-
-  [[params.customer.item]]
-    icon = "icon-docs"
-    title = "Documentation"
-    link = "https://opendatahub.readthedocs.io/en/latest/index.html"
-    description = "Documentation about Open Data Hub"
-
-  [[params.customer.item]]
-    icon = "icon-envelope-open"
-    title = "Customer Care"
-    link = "mailto:help@opendatahub.bz.it"
-    description = "Write to help@opendatahub.bz.it if you need help"
-
-
-# Work section
-[params.work]
-  enable = true
-
-  [[params.work.item]]
-    title = "Online Documentation!"
-    subtitle = "opendatahub.readthedocs.io"
-    url = "http://opendatahub.readthedocs.io/en/latest/index.html"
-    img = "img/documentation.png"
-
-  [[params.work.item]]
-    title = "Online Source Code!"
-    subtitle = "github.com/noi-techpark/"
-    url = "http://github.com/noi-techpark/"
-    img = "img/bdp-core-source-code.png"
-
-  [[params.work.item]]
-    title = "Protopyping at Hackathons"
-    subtitle = "hackathon.bz.it"
-    url = "http://hackathon.bz.it"
-    img = "img/hackathon.jpg"
-
-  [[params.work.item]]
-    title = "Knowledge sharing at Conferences"
-    subtitle = "www.SFScon.it"
-    url = "http://www.SFScon.it"
-    img = "img/sfscon.jpg"
-
-  [[params.work.item]]
-    title = "Developer Meetings"
-    subtitle = "noi.bz.it"
-    url = "http://noi.bz.it"
-    img = "img/JDM.png"
-
-  [[params.work.item]]
-    title = "Open Data Catalog"
-    subtitle = "daten.buergernetz.bz.it"
-    url = "http://daten.buergernetz.bz.it"
-    img = "img/OpenDataSuedtirol.png"
-
-  [[params.work.item]]
-    title = "Mobility Data"
-    subtitle = "mobility.meran.eu"
-    url = "http://mobility.merano.eu/"
-    img = "img/mobility.meran.eu.png"
-
-  [[params.work.item]]
-    title = "Tourism Data"
-    subtitle = "www.suedtirol.info"
-    url = "https://www.suedtirol.info"
-    img = "img/suedtirol.info.png"
-
-# Team section
-[params.team]
-  enable = true
-  title = "Meet The Team"
-  description = "The Open Data Hub Team is a community of talents, who share a strong passion for technology."
-
-  [[params.team.item]]
-    name = "Patrick Ohnewein"
-    position = "Team Leader"
-    description = "NOI Techpark Südtirol - Alto Adige"
-    img = "img/PatrickOhnewein.jpg"
-    facebook = "https://www.facebook.com/patrick.ohnewein"
-    twitter = "https://twitter.com/ohnewein"
-    github = "https://github.com/ohnewein"
-    linkedin = "https://www.linkedin.com/in/ohnewein/"
-
-  [[params.team.item]]
-    name = "Antonietta De Santis"
-    position = "Product Owner Tourism"
-    description = "IDM Südtirol - Alto Adige"
-    img = "img/AntoniettaDeSantis.jpg"
-    facebook = "https://www.facebook.com/nietta.desantis"
-    twitter = "https://twitter.com/niettwitta"
-    github = "https://github.com/niettadesantis"
-    linkedin = "https://www.linkedin.com/in/antonietta-de-santis"
-
-  [[params.team.item]]
-    name = "Stefano Seppi"
-    position = "Project Manager - Tourism API & Internet of Things"
-    description = "NOI Techpark Südtirol - Alto Adige"
-    img = "img/StefanoSeppi.jpg"
-    github = "https://github.com/sseppi"
-    facebook = "https://www.facebook.com/stefano.seppi"
-    twitter = "https://twitter.com/StefanoSeppi"
-    linkedin = "https://www.linkedin.com/in/stefano-seppi-ab96b935/"
-
-  [[params.team.item]]
-    name = "Luca Miotto"
-    position = "Project Manager - Tourism API & Artificial Intelligence/Machine Learning"
-    description = "NOI Techpark Südtirol - Alto Adige"
-    img = "img/LucaMiotto.jpg"
-    github = "https://github.com/LucaMiotto"
-    facebook = "https://www.facebook.com/luca.miotto"
-    linkedin = "https://www.linkedin.com/in/luca-miotto-0a94b98/"
-
-  [[params.team.item]]
-    name = "Roberto Cavaliere"
-    position = "Project Manager - Mobility API"
-    description = "NOI Techpark Südtirol - Alto Adige"
-    img = "img/RobertoCavaliere.jpg"
-    github = "https://github.com/rcavaliere"
-    facebook = "https://www.facebook.com/roberto.cavaliere.505"
-    twitter = "https://twitter.com/RobCavali"
-    linkedin = "https://www.linkedin.com/in/roberto-cavaliere-44a82931/"
-
-  [[params.team.item]]
-    name = "Patrick Bertolla"
-    position = "Core Developer - Mobility Core & Tourism Mobile API"
-    description = "NOI Techpark Südtirol - Alto Adige"
-    img = "img/PatrickBertolla.jpg"
-    github = "https://github.com/bertolla"
-    linkedin = "https://www.linkedin.com/in/patrick-bertolla-17b8a621/"
-
-  [[params.team.item]]
-    name = "Rudi Thöni"
-    position = "Core Developer - Tourism Core"
-    description = "NOI Techpark Südtirol - Alto Adige"
-    img = "img/RudolfThoeni.jpg"
-    github = "https://github.com/RudiThoeni"
-
-  [[params.team.item]]
-    name = "Peter Moser"
-    position = "Core Developer - Database"
-    description = "NOI Techpark Südtirol - Alto Adige"
-    img = "img/PeterMoser.jpg"
-    github = "https://github.com/Piiit"
-    linkedin = "https://www.linkedin.com/in/petermoser81"
-
-  [[params.team.item]]
-    name = "Martin Rabanser"
-    position = "Community Manager"
-    description = "rmb.bz.it"
-    img = "img/MartinRabanser.jpg"
-    github = "https://github.com/mrabans"
-    facebook = "https://www.facebook.com/martin.rabanser"
-    linkedin = "https://www.linkedin.com/in/martinrabanser"
-
-  [[params.team.item]]
-    name = "Stefano David"
-    position = "Technical Writer"
-    description = ""
-    img = "img/StefanoDavid.jpg"
-    github = "https://github.com/stefanodavid"
-
-  [[params.team.item]]
-    name = "Alex Lanz"
-    position = "Continuous Integration Architect"
-    description = "aboutbits.it"
-    img = "img/AlexLanz.png"
-    twitter = "https://twitter.com/alex__lanz"
-    github = "https://github.com/alexlanz"
-    url = "https://aboutbits.it"
-
-  [[params.team.item]]
-    name = "Chris Mair"
-    position = "Infrastructure & Database Architect"
-    description = "1006.org"
-    img = "img/ChrisMair.jpg"
-    github = "https://github.com/chris-mair"
-    url = "https://1006.org"
-
-  [[params.team.item]]
-    name = "Davide Montesin"
-    position = "Senior Developer"
-    description = "www.davide.bz"
-    img = "img/DavideMontesin.jpg"
-    github = "https://github.com/davidebz"
-    url = "https://www.davide.bz"
-
-  [[params.team.item]]
-    name = "Carlo Piana"
-    position = "Lawyer"
-    description = "array.eu"
-    img = "img/CarloPiana.jpg"
-    twitter = "https://twitter.com/carlopiana"
-    linkedin = "https://www.linkedin.com/in/carlopiana/"
-    url = "https://array.eu"
-
-  [[params.team.item]]
-    name = "Igor Falcomatà"
-    position = "Security Expert"
-    description = "www.enforcer.it"
-    img = "img/IgorFalcomata.jpg"
-    linkedin = "https://www.linkedin.com/in/igor-falcomat%C3%A0-9593446/"
-    url = "https://www.enforcer.it"
-
-  [[params.team.item]]
-    name = "Emily Louise Simonis"
-    position = "Project Manager"
-    description = ""
-    img = "img/EmilyLouiseSimonis.jpg"
-    github = "https://github.com/emilylouisesimonis"
-    linkedin = "https://www.linkedin.com/in/emilylouisesimonis/"
-    facebook = "https://www.facebook.com/emilylouisesimonis/"
-    twitter = "https://twitter.com/EmilySimonis"
-    instagram = "https://www.instagram.com/emilou2910/"
-
-  [[params.team.item]]
-    name = "Uli Seppi"
-    position = "Project Management in Big Data and Open Technologies"
-    description = ""
-    img = "img/UliSeppi.jpg"
-    linkedin = "https://www.linkedin.com/in/ulrich-seppi-188090124/"
-
-  [[params.team.item]]
-    name = "Patrick Puecher"
-    position = "Senior Developer"
-    description = "www.puecher.com"
-    img = "img/PatrickPuecher.jpg"
-    github = "https://github.com/puecher"
-    url = "https://www.puecher.com"
-
-  [[params.team.item]]
-    name = "Andrea Janes"
-    position = "Researcher"
-    description = "www.unibz.it - Smart Data Factory"
-    img = "img/AndreaJanes.jpg"
-    linkedin = "https://www.linkedin.com/in/ajanes/"
-
-  [[params.team.item]]
-    name = "Roberto Confalonieri"
-    position = "AI Research Scientist"
-    description = "Alpha Health AI Lab"
-    img = "img/RobertoConfalonieri.jpg"
-    linkedin = "https://www.linkedin.com/in/rconfalonieri/"
-
-  [[params.team.item]]
-    name = "Markus Lanthaler"
-    position = "JSON-LD Lead Developer"
-    description = "www.markus-lanthaler.com"
-    img = "img/MarkusLanthaler.jpg"
-    github = "https://github.com/lanthaler"
-    twitter = "https://twitter.com/MarkusLanthaler"
-    linkedin = "https://www.linkedin.com/in/MarkusLanthaler/"
-    url = "https://www.markus-lanthaler.com/"
-
-  [[params.team.item]]
-    name = "Christian Gapp"
-    position = "Senior Developer"
-    description = "www.gappc.net"
-    img = "img/ChristianGapp.jpg"
-    github = "https://github.com/gappc"
-    linkedin = "https://www.linkedin.com/in/christiangapp/"
-    url = "https://gappc.net"
-    
-  [[params.team.item]]
-    name = "Simon Dalvai"
-    description = "Freelancer"
-    position = "Junior Developer - DevOp"
-    img = "img/SimonDalvai.jpeg"
-    github = "hhttps://github.com/dulvui"
-      
-
-  # [[params.team.item]]
-  #   name = "Jason Doe"
-  #   position = "Chief haranguer"
-  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-  #   img = "images/person3.jpg"
-  #   email = "#"
-  #   telephone = "#"
-  #   facebook = "#"
-  #   twitter = "#"
-  #   dribbble = "#"
-  #   instagram = "#"
-  #   github = "#"
-  #   whatsapp = "#"
-
-# Contact section
-[params.contact]
-  enable = true
-  title = "Get In Touch"
-  message = "If you would like to become a member of the Open Data Hub Community as a Data Provider, Data Consumer or as a Contributer, you can meet us at our events or get in touch with us through e-mail."
-  company_placeholder = "Company name"
-  name_placeholder = "Contact name"
-  email_placeholder = "Contact email"
-  email_disclaimer = "You'll receive informations on Open Data Hub updates and future development. "
-  message_placeholder = "Please enter a message."
-  button_text = "Submit"
-
-# Footer section
-# Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
+logo = "img/logo-open-data-hub.png"
+favicon = "img/logo-open-data-hub.png"
+author = "Open Data Hub Südtirol - Alto Adige"
+description = "Open Data Hub is your access point to South Tyrol's relevant data. You and your service providers can use Open Data Hub for all channels of digital communication. The data is updated on a regular basis and easily accessible."
+
+[taxonomies]
+type = "datatype"
+
+
+######################################## css plugins
+[[params.plugins.css]]
+URL = "/css/animate.css"
+
+[[params.plugins.css]]
+URL = "/css/bootstrap.css"
+
+[[params.plugins.css]]
+URL = "/css/style.css"
+
+[[params.plugins.css]]
+URL = "/css/table-comparison.css"
+
+[[params.plugins.css]]
+URL = "/css/custom.css"
+
+[[params.plugins.css]]
+URL = "/css/responsive.css"
+
+[[params.plugins.css]]
+URL = "/css/availability.css"
+
+[[params.plugins.css]]
+URL = "/css/contact-form.css"
+
+[[params.plugins.css]]
+URL =  "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+
+
+######################################## js plugins
+[[params.plugins.js]]
+URL = "/js/jquery.min.js"
+
+[[params.plugins.js]]
+URL = "/js/jquery.easing.1.3.js"
+
+[[params.plugins.js]]
+URL = "/js/bootstrap.min.js"
+
+[[params.plugins.js]]
+URL = "/js/jquery.waypoints.min.js"
+
+[[params.plugins.js]]
+URL = "/js/jquery.stellar.min.js"
+
+[[params.plugins.js]]
+URL = "/js/main.js"
+
+[[params.plugins.js]]
+URL = "/js/table-comparison.js"
+
+######################################## MENU
+[[menu.main]]
+URL = "/"
+name = "Project"
+weight = 1
+
+[[menu.main]]
+URL = "/datasets"
+name = "Datasets"
+weight = 2
+
+[[menu.main]]
+URL = "/services"
+name = "Services"
+weight = 3
+
+[[menu.main]]
+URL = "/events"
+name = "Events"
+weight = 4
+
+#[[menu.main]]
+#URL = "/community"
+#name = "Community"
+#weight = 5
+
+[[menu.footer1]]
+URL = "/datasets"
+name = "Datasets"
+
+[[menu.footer1]]
+URL = "https://webcomponents.opendatahub.bz.it"
+name = "Web components"
+
+#[[menu.footer2]]
+#URL = "/community"
+#name = "Our community"
+
+[[menu.footer2]]
+URL = "/events"
+name = "Events"
+
+[[menu.footer3]]
+URL = "/data-sharing/"
+name = "Data Sharing"
+
+[[menu.footer3]]
+URL = "/data-access/"
+name = "Data Access"
+
+[[menu.footer3]]
+URL = "/services#app-dev"
+name = "Data Visualization"
+
+
+######################################## FOOTER
 [params.footer]
-  enable = true
-  note = "<div class='address-box' itemscope='' itemtype='http://schema.org/LocalBusiness'><div itemprop='name'>NOI AG</div><div>T <a href='tel:+390471066600 ' class='address-box__phone' itemprop='telephone'>+39 0471 066 600</a></div><a href='mailto:info@noi.bz.it' itemprop='email'>info@noi.bz.it</a> <div itemprop='address' itemscope='' itemtype='http://schema.org/PostalAddress'>Invoice address: <span itemprop='streetAddress'>Via Volta 13/A</span>, I-<span itemprop='postalCode'>39100</span> <span itemprop='addressLocality'>Bolzano</span></div><span class='footer-main__uid'> VAT No.: 02595720216 &nbsp; Endowment capital 110.740.000 €  </span></div>    <div class='footer-main__nav-bottom hidden-print'> <nav class='nav-bottom'> <span class='nav-bottom__level-0'><span class='nav-bottom__level-0'> <a href='https://noi.bz.it/it/info/privacy' class='nav-bottom__menu-0' target='_self'>Privacy</a> </span> </nav></div>       <p><small>Deisgn by <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a> under <a href='https://creativecommons.org/licenses/by/3.0/'  target='_blank'>CC BY 3.0</a> license and port by <a href='https://github.com/SteveLane/' target='_blank'>SteveLane</a></small></p>"
-  github = "https://github.com/noi-techpark/"
-#  twitter = "#"
-  facebook = "https://www.facebook.com/opendatahub/"
-  telegram = "https://t.me/OpenDataHub"
-#  vine = "#"
-#  linkedin = "#"
-#  instagram = "#"
-  
+logo = "/img/logo-open-data-hub_white.png"
 
+menu_title_1 = "Data"
+menu_title_2 = "Community"
+menu_title_3 = "Services"
 
+github = "https://github.com/noi-techpark/"
+facebook = "https://www.facebook.com/opendatahub/"
+telegram = "https://t.me/OpenDataHub"
 
-
-
-
-
-
+copyright = "NOI AG - Via Volta 13/A, I-39100 Bolzano - VAT No.: 02595720216 - Endowment capital 110.740.000 € - [Privacy](#)"

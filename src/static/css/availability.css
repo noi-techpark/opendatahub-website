@@ -1,0 +1,19 @@
+.availability.open {
+  color: white;
+  background-color: #9bc325;
+}
+
+.availability.partially-closed {
+  color: white;
+  background-color: #994040;
+}
+
+.availability.closed {
+  color: white;
+  background-color: red;
+}
+
+.availability.tobe-opened {
+  color: white;
+  background-color: #717171;
+}

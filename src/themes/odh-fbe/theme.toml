@@ -1,0 +1,9 @@
+name = "ODH Theme by FlashBeing"
+license = "MIT"
+description = "Theme created by FlashBeing for Open Data Hub Südtirol - Alto Adige"
+homepage = "https://flashbeing.com"
+min_version = "0.25.1"
+
+[author]
+  name = "FlashBeing"
+  homepage = "https://flashbeing.com"

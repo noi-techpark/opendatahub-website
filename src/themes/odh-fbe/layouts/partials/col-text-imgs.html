@@ -1,0 +1,16 @@
+{{"<!-- Double Column Text - Imgs -->" | safeHTML }}
+<section class="col-text-imgs">
+	<div class="container">
+			<div class="col-12 col-lg-6">
+				<h3>{{ .title | markdownify }}</h3>
+				<p>{{ .description | markdownify }}</p>
+	
+				<a href="{{.btn_link}}" class="btn btn-primary">{{ .btn_label | markdownify }}</a>
+			</div>
+			<div class="col-12 col-lg-6 imgs">
+				<img src="{{ .img_back }}" class="img-back" />
+				<img src="{{ .img_front }}" class="img-front" />
+			</div>
+	</div>
+</section>
+{{"<!-- /Double Column Text - Imgs -->" | safeHTML }}

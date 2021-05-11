@@ -1,0 +1,68 @@
+################################# Project #########################
+mission:
+  title: Mission
+  subtitle: Open Data Hub supports the implementation of an **innovative platform**, where talents can **use data and create innovative solutions** for the SMART Green Region South Tyrol.
+  btn_link: "/services"
+  btn_label: Services
+
+offset_images:
+  image_one_title: Provide Data
+  image_one_subtitle: Discover how to and the benefits of sharing your data.
+  image_one_img: "/img/home-data-provider.jpg"
+  image_one_link: "/data-sharing"
+  image_one_btn_label: Learn more
+
+  image_two_title: Consume Data
+  image_two_subtitle: Build apps and services using Open Data Hub datasets
+  image_two_img: "/img/home-data-consumer.jpg"
+  image_two_link: "/data-access"
+  image_two_btn_label: See datasets
+
+community:
+  title: They're already **on board**
+  img_one: "img/alperia.png"
+  img_one_name: Alperia SpA
+  img_one_link: https://www.alperia.eu/
+  img_two: "img/pab.png"
+  img_two_name: Autonomous Province of Bolzano/Bozen
+  img_two_link: http://provincia.bz.it
+  img_three: "img/ProvinciaTrento.png" 
+  img_three_name: Autonomous Province of Trento
+  img_three_link: http://www.provincia.tn.it/
+  btn_link: "mailo:help@opendatahub.bz.it"
+  btn_label: Become part of the community
+
+use_case:
+  title: Build the next **traffic application**
+  description: Thanks to our **traffic datasets** you can start today to build your service using real time data of South Tyrol's traffic.
+  btn_link: "/datasets"
+  btn_label: See all datasets
+  img_back: "/img/mobility.meran.eu.png"
+  img_front: "/img/GreenMobility.png"
+
+dataset_example:
+  title: Example dataset - **E-charging** stations
+  description: This dataset exposes data about the existing **e-charging stations** and plugs in South Tyrol and their **availability status**, including historical data and usage. Hydrogen station data are included.
+  btn_link: "/datasets/mobility/echargingstation/"
+  btn_label: See dataset
+  img_back: "/img/GreenMobility.png"
+  img_front: "/img/andrew-roberts-2JvEjF0tf50-unsplash.jpg"
+
+services:
+  title: Get ready with **our services**
+  description: We offer way more than datasets, we're here to help you to share your data or access other datasets, even if you're not a tech expert.
+  box_item:
+    - name: Data Access
+      icon: "/icon/download.svg"
+      box_link: "/services#data-access"
+      btn_label: Learn more
+
+    - name: Data Sharing
+      icon: "/icon/upload.svg"
+      box_link: "/services#data-sharing"
+      btn_label: Learn more
+
+    - name: Data Visualization
+      icon: "/icon/box.svg"
+      box_link: "/services#app-dev"
+      btn_label: Learn more

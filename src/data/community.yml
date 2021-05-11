@@ -1,0 +1,98 @@
+########################### Data provider #########################
+providers:
+  title: Data providers
+  subtitle: Open Data Hub supports the implementation of an **innovative platform**, where talents can **use data and create innovative solutions** for the SMART Green Region South Tyrol.
+  item:
+    - name: Autostrada del Brennero SpA
+      img: "img/a22.jpeg"
+      link: https://www.autobrennero.it/
+
+    - name: Alperia SpA
+      img: "img/alperia.png"
+      link: https://www.alperia.eu/
+
+    - name: Autonomous Province of Bolzano/Bozen
+      img: "img/pab.png"
+      link: http://provincia.bz.it
+
+    - name: Autonomous Province of Trento
+      img: "img/ProvinciaTrento.png"
+      link: http://www.provincia.tn.it/
+
+    - name: Car Sharing Südtirol Alto Adige
+      img: "img/carSharingAA.png"
+      link: https://www.carsharing.bz.it/
+
+
+########################### Data consumers #########################
+consumers:
+  title: Data consumers
+  subtitle: Open Data Hub supports the implementation of an **innovative platform**, where talents can **use data and create innovative solutions** for the SMART Green Region South Tyrol.
+  item:
+    - name: Autostrada del Brennero SpA
+      img: "img/a22.jpeg"
+      link: https://www.autobrennero.it/
+
+    - name: Alperia SpA
+      img: "img/alperia.png"
+      link: https://www.alperia.eu/
+
+    - name: Autonomous Province of Bolzano/Bozen
+      img: "img/pab.png"
+      link: http://provincia.bz.it
+
+    - name: Autonomous Province of Trento
+      img: "img/ProvinciaTrento.png"
+      link: http://www.provincia.tn.it/
+
+
+########################### Developers ###########################
+developers:
+  title: Development partners
+  subtitle: Open Data Hub supports the implementation of an **innovative platform**, where talents can **use data and create innovative solutions** for the SMART Green Region South Tyrol.
+  item:
+    - name: Autostrada del Brennero SpA
+      img: "img/a22.jpeg"
+      link: https://www.autobrennero.it/
+
+    - name: Alperia SpA
+      img: "img/alperia.png"
+      link: https://www.alperia.eu/
+
+    - name: Autonomous Province of Bolzano/Bozen
+      img: "img/pab.png"
+      link: http://provincia.bz.it
+
+    - name: Autonomous Province of Trento
+      img: "img/ProvinciaTrento.png"
+      link: http://www.provincia.tn.it/
+
+
+########################### Team #########################
+team:
+  title: Experts
+  item:
+    - name: Patrick Ohnewein
+      position: Team Leader
+      img: "img/PatrickOhnewein.jpg"
+      company: NOI Techpark Südtirol - Alto Adige
+      email: "https://www.facebook.com/patrick.ohnewein"
+      facebook: "https://www.facebook.com/patrick.ohnewein"
+      twitter: "https://twitter.com/ohnewein"
+      github: "https://github.com/ohnewein"
+      instagram: "https://www.facebook.com/patrick.ohnewein"
+      linkedin: "https://www.linkedin.com/in/ohnewein/"
+
+    - name: Patrick Ohnewein
+      position: Team Leader
+      img: "img/PatrickOhnewein.jpg"
+      company: NOI Techpark Südtirol - Alto Adige
+      facebook: "https://www.facebook.com/patrick.ohnewein"
+      twitter: "https://twitter.com/ohnewein"
+      github: "https://github.com/ohnewein"
+      linkedin: "https://www.linkedin.com/in/ohnewein/"
+
+    - name: Patrick Ohnewein
+      position: Team Leader
+      img: "img/PatrickOhnewein.jpg"
+      company: NOI Techpark Südtirol - Alto Adige
