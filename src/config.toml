@@ -88,10 +88,10 @@ URL = "/events"
 name = "Events"
 weight = 4
 
-[[menu.main]]
-URL = "/community"
-name = "Community"
-weight = 5
+#[[menu.main]]
+#URL = "/community"
+#name = "Community"
+#weight = 5
 
 [[menu.footer1]]
 URL = "/datasets"
@@ -101,9 +101,9 @@ name = "Datasets"
 URL = "https://webcomponents.opendatahub.bz.it"
 name = "Web components"
 
-[[menu.footer2]]
-URL = "/community"
-name = "Our community"
+#[[menu.footer2]]
+#URL = "/community"
+#name = "Our community"
 
 [[menu.footer2]]
 URL = "/events"
@@ -111,15 +111,15 @@ name = "Events"
 
 [[menu.footer3]]
 URL = "/data-sharing/"
-name = "Share data"
+name = "Data Sharing"
 
 [[menu.footer3]]
 URL = "/data-access/"
-name = "Access data"
+name = "Data Access"
 
 [[menu.footer3]]
-URL = "/services#demo-dev"
-name = "Demo Dev"
+URL = "/services#app-dev"
+name = "Data Visualization"
 
 
 ######################################## FOOTER

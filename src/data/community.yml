@@ -19,6 +19,10 @@ providers:
       img: "img/ProvinciaTrento.png"
       link: http://www.provincia.tn.it/
 
+    - name: Car Sharing Südtirol Alto Adige
+      img: "img/carSharingAA.png"
+      link: https://www.carsharing.bz.it/
+
 
 ########################### Data consumers #########################
 consumers:
