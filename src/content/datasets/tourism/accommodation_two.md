@@ -22,6 +22,6 @@ Rooms from source LTS are open data, otherwise rooms from Source HGV are closed 
 | Output         | JSON, mime-type application/json, XML AlpineBits                                                                  |
 | E-mail contact | help@opendatahub.bz.it                                                                                            |
 | API version    | v1, AlpineBits HotelData 2017-10, 2018-10 (soon 2020-10)                                                          |
-| Swagger URL    | https://tourism.opendatahub.bz.it/swagger/ui/index#/Accommodation https://alpinebits.opendatahub.bz.it/AlpineBits |
+| Swagger URL    | https://tourism.opendatahub.bz.it/swagger/index.html#/Accommodation https://alpinebits.opendatahub.bz.it/AlpineBits |
 | Sources        | Data provided by LTS / Availability Requests provided by HGV/LTS                                                  |
 | OpenData       | Rooms from source LTS are Open Data, Rooms from Source HGV are closed data                                        |
