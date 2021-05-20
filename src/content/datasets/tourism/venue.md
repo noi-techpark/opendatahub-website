@@ -21,6 +21,6 @@ This dataset contains events location provided by LTS such as info about a locat
 | Output         | JSON, mime-type application/json                         |
 | E-mail contact | help@opendatahub.bz.it                                   |
 | API version    | v1                                                       |
-| Swagger URL    | http://tourism.opendatahub.bz.it/swagger/ui/index#/Venue |
+| Swagger URL    | http://tourism.opendatahub.bz.it/swagger/index.html#/Venue |
 | Sources        | LTS                                                      |
 | OpenData       | Data to be opened                                        |
