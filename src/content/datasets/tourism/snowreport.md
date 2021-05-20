@@ -22,6 +22,6 @@ An aggregation of different Datatypes to get a complete ski area report. Lifts, 
 | Output         | JSON, mime-type application/json                                                      |
 | E-mail contact | help@opendatahub.bz.it                                                                |
 | API version    | v1                                                                                    |
-| Swagger URL    | http://tourism.opendatahub.bz.it/swagger/ui/index#!/Weather/Weather_GetSnowReportBase |
+| Swagger URL    | http://tourism.opendatahub.bz.it/swagger/index.html#/Weather/get_v1_Weather_SnowReport |
 | Sources        | snow data provided by LTS / Ski Areas basic data provided by IDM                      |
 | OpenData       | Open Data                                                                             |

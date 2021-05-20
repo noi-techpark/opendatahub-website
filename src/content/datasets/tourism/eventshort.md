@@ -21,6 +21,6 @@ This dataset contains events provided by NOI Techpark, Eurac and St. Virtual
 | Output         | JSON, mime-type application/json                               |
 | E-mail contact | help@opendatahub.bz.it                                         |
 | API version    | v1                                                             |
-| Swagger URL    | https://tourism.opendatahub.bz.it/swagger/ui/index#/EventShort |
+| Swagger URL    | https://tourism.opendatahub.bz.it/swagger/index.html#/EventShort |
 | Sources        | Data provided by NOI Techpark, Eurac and St. Virtual           |
 | OpenData       | Open Data                                                      |

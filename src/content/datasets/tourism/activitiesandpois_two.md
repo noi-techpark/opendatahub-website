@@ -21,6 +21,6 @@ This dataset contains data about PoIs from LTS API (LTS PoiData), such as beauty
 | Output         | JSON, mime-type application/json                       |
 | E-mail contact | help@opendatahub.bz.it                                 |
 | API version    | v1                                                     |
-| Swagger URL    | http://tourism.opendatahub.bz.it/swagger/ui/index#/Poi |
+| Swagger URL    | http://tourism.opendatahub.bz.it/swagger/index.html#/Poi |
 | Sources        | LTS PoiData                                            |
 | OpenData       | Only Images with CC0 License are shown as open data.   |

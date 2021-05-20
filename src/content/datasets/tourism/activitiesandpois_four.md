@@ -21,6 +21,6 @@ This dataset contains data about gastronomy locations from LTS API (LTS Gastrono
 | Output         | JSON, mime-type application/json                              |
 | E-mail contact | help@opendatahub.bz.it                                        |
 | API version    | v1                                                            |
-| Swagger URL    | http://tourism.opendatahub.bz.it/swagger/ui/index#/Gastronomy |
+| Swagger URL    | http://tourism.opendatahub.bz.it/swagger/index.html#/Gastronomy |
 | Sources        | LTS GastronomyData                                            |
 | OpenData       | Only Images with CC0 License are shown as open data.          |

@@ -21,6 +21,6 @@ In particular, these datasets contain Regions Data, Tourism Associations, Meta R
 | Output         | JSON, mime-type application/json                                                                                      |
 | E-mail contact | help@opendatahub.bz.it                                                                                                |
 | API version    | v1                                                                                                                    |
-| Swagger URL    | http://tourism.opendatahub.bz.it/swagger/ui/index#/Common http://tourism.opendatahub.bz.it/swagger/ui/index#/Location |
+| Swagger URL    | http://tourism.opendatahub.bz.it/swagger/index.html#/Common http://tourism.opendatahub.bz.it/swagger/index.html#/Location |
 | Sources        | IDM                                                                                                                   |
 | OpenData       | Only Images with CC0 License are shown as open data.                                                                  |
