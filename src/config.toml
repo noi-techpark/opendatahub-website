@@ -88,10 +88,10 @@ URL = "/events"
 name = "Events"
 weight = 4
 
-#[[menu.main]]
-#URL = "/community"
-#name = "Community"
-#weight = 5
+[[menu.main]]
+URL = "/community"
+name = "Community"
+weight = 5
 
 [[menu.footer1]]
 URL = "/datasets"
