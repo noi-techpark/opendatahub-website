@@ -23,14 +23,20 @@ community:
   img_one: "img/alperia.png"
   img_one_name: Alperia SpA
   img_one_link: https://www.alperia.eu/
-  img_two: "img/pab.png"
-  img_two_name: Autonomous Province of Bolzano/Bozen
-  img_two_link: http://provincia.bz.it
-  img_three: "img/ProvinciaTrento.png" 
-  img_three_name: Autonomous Province of Trento
-  img_three_link: http://www.provincia.tn.it/
-  btn_link: "mailo:help@opendatahub.bz.it"
-  btn_label: Become part of the community
+  img_two: "img/cisma.png"
+  img_two_name: CISMA Srl
+  img_two_link: http://www.cisma.it
+  img_three: "img/a22.jpeg"
+  img_three_name: Autostrada del Brennero SpA
+  img_three_link: https://www.autobrennero.it/
+  img_four: "img/MarketingFactory.png"
+  img_four_name: Marketing Factory
+  img_four_link: https://www.marketingfactory.it
+  img_five: "img/sta.png"
+  img_five_name: STA
+  img_five_link: https://sta.bz.it
+  btn_link: "/community"
+  btn_label: Our community
 
 use_case:
   title: Build the next **traffic application**
