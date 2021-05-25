@@ -68,6 +68,9 @@ URL = "/js/main.js"
 [[params.plugins.js]]
 URL = "/js/table-comparison.js"
 
+[[params.plugins.js]]
+URL = "/js/cookie.js"
+
 ######################################## MENU
 [[menu.main]]
 URL = "/"
