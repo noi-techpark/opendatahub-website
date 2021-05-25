@@ -693,6 +693,31 @@ footer .copyright {
   margin-top: 1.5rem;
 }
 
+.loader {
+  display: none;
+  height: 20px;
+  width: 20px;
+  margin-bottom: -7px;
+  margin-left: 10px;
+  border: 1px solid lightgray;
+  border-top: 1px solid darkgray;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.loader.is-active {
+  display: inline-block;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 /* SOCIAL */
 .card-footer .social i.fa {
   font-size: 1.2rem !important;
