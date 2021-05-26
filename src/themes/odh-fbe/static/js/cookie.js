@@ -1,4 +1,6 @@
 (function () {
+  const GOOGLE_ANALYTICS_ID = "UA-XXXXXXXX-1";
+
   window.dataLayer = window.dataLayer || [];
   function gtag() {
     dataLayer.push(arguments);
@@ -21,7 +23,7 @@
   function setupga() {
     if (!analytics_activated) {
       // avoid multiple activations!
-      gtag("config", "UA-153698977-1");
+      gtag("config", GOOGLE_ANALYTICS_ID);
       analytics_activated = true;
       document.cookie = "banner=accepted; max-age=" + 60 * 60 * 24 * 365;
     }
