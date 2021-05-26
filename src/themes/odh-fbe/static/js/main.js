@@ -1,4 +1,4 @@
-const contactURL = "https://example.com"; 
+const contactURL = "https://example.com";
 
 var my = null;
 
@@ -314,7 +314,9 @@ var my = null;
 
   my = new ElementSelector();
   var form = document.getElementById("contact-form");
-  form.addEventListener("submit", sendForm);
+  if (form) {
+    form.addEventListener("submit", sendForm);
+  }
 })();
 
 /* CONTACT */
@@ -322,31 +324,31 @@ req = new XMLHttpRequest();
 
 /* Provides shortcuts to manage elements in the document */
 function ElementSelector() {
-  'use strict';
+  "use strict";
 }
 
 /* Returns an element form its id */
-ElementSelector.prototype.get = function(element_id) {
-  'use strict';
+ElementSelector.prototype.get = function (element_id) {
+  "use strict";
 
   return document.getElementById(element_id);
 };
 
-ElementSelector.prototype.getClass = function(classname) {
-  'use strict';
+ElementSelector.prototype.getClass = function (classname) {
+  "use strict";
 
   return document.getElementsByClassName(classname);
 };
 
-ElementSelector.prototype.activate = function(element_id) {
-  return my.get(element_id).classList.toggle('is-active');
-}
+ElementSelector.prototype.activate = function (element_id) {
+  return my.get(element_id).classList.toggle("is-active");
+};
 
 function sendForm(e) {
   e.preventDefault();
 
   my.get("response").innerHTML = "";
-  data = my.get('contact-form')
+  data = my.get("contact-form");
   req.open("POST", contactURL);
   req.send(data);
 
@@ -355,7 +357,8 @@ function sendForm(e) {
     json = JSON.parse(this.responseText);
     my.activate("loading");
     if (json.status === 1) {
-      my.get("response").innerHTML = "&#10004; Your request has been processed.";
+      my.get("response").innerHTML =
+        "&#10004; Your request has been processed.";
     } else {
       my.get("response").innerHTML =
         "Sorry, your request could not be processed. Retry.";
