@@ -21,6 +21,6 @@ This dataset contains data about activities from LTS API (LTS ActivityData) such
 | Output         | JSON, mime-type application/json                            |
 | E-mail contact | help@opendatahub.bz.it                                      |
 | API version    | v1                                                          |
-| Swagger URL    | http://tourism.opendatahub.bz.it/swagger/ui/index#/Activity |
+| Swagger URL    | http://tourism.opendatahub.bz.it/swagger/index.html#/Activity |
 | Sources        | LTS ActivityData                                            |
 | OpenData       | Only Images with CC0 License are shown as open data.        |

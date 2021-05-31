@@ -21,6 +21,6 @@ This dataset contains active events provided by LTS (TIC Web) such as meetings, 
 | Output         | JSON, mime-type application/json                         |
 | E-mail contact | help@opendatahub.bz.it                                   |
 | API version    | v1                                                       |
-| Swagger URL    | http://tourism.opendatahub.bz.it/swagger/ui/index#/Event |
+| Swagger URL    | http://tourism.opendatahub.bz.it/swagger/index.html#/Event |
 | Sources        | Data provided by LTS                                     |
 | OpenData       | Only Images with CC0 License are shown as open data.     |

@@ -4,7 +4,7 @@ providers:
   subtitle: Open Data Hub supports the implementation of an **innovative platform**, where talents can **use data and create innovative solutions** for the SMART Green Region South Tyrol.
   item:
     - name: Autostrada del Brennero SpA
-      img: "img/a22.jpeg"
+      img: "img/a22.png"
       link: https://www.autobrennero.it/
 
     - name: Alperia SpA
@@ -19,27 +19,114 @@ providers:
       img: "img/ProvinciaTrento.png"
       link: http://www.provincia.tn.it/
 
+    - name: Car Sharing Südtirol Alto Adige
+      img: "img/carSharingAA.png"
+      link: https://www.carsharing.bz.it/
+
+    - name: Comunità Comprensoriale Burgraviato
+      img: "img/bzbga.png"
+      link: https://www.bzgbga.it/it
+
+    - name: DRIN
+      img: "img/DRIN.png"
+      link: http://www.provincia.bz.it/arte-cultura/giovani/drin.asp
+
+    - name: Driwe
+      img: "img/driwe.png"
+      link: https://www.driwe.eu/
+
+    - name: H2 South Tyrol
+      img: "img/h2st.png"
+      link: https://www.h2-suedtirol.com/
+
+    - name: HGV
+      img: "img/hgv.png"
+      link: https://www.hgv.it/
+
+    - name: IDM Südtirol/Alto Adige
+      img: "img/IDM.png"
+      link: http://idm-suedtirol.com
+
+    - name: Inno.vie
+      img: "img/innovie.png"
+      link: http://www.innovie.it/s
+
+    - name: LTS
+      img: "img/lts.png"
+      link: https://www.lts.it
+
+    - name: Municipality of Bolzano/Bozen
+      img: "img/municipalityBolzano.png"
+      link: https://www.comune.bolzano.it/
+
+    - name: Nevicam
+      img: "img/nevicam.png"
+      link: https://mobility.nevicam.it/
+
+    - name: Municipality of Merano/Meran
+      img: "img/municipalityMerano.png"
+      link: https://www.comune.merano.bz.it/
+
+    - name: Municipality of Rovereto
+      img: "img/municipalityRovereto.png"
+      link: https://www.comune.rovereto.tn.it/
+
+    - name: Municipality of Trento
+      img: "img/municipalityTrento.png"
+      link: https://www.comune.trento.it/
+
+    - name: Papin Sport
+      img: "img/papinSport.png"
+      link: https://www.papinsport.com/
+
+    - name: Route 220
+      img: "img/route220.png"
+      link: https://evway.net/
+
+    - name: STA
+      img: "img/sta.png"
+      link: https://sta.bz.it
+
+    - name: Südtirol Wein
+      img: "img/suedtirolWein.png"
+      link: https://www.vinialtoadige.com/
+
+    - name: TreviLab
+      img: "img/TreviLab.png"
+      link: http://www.provinz.bz.it/arte-cultura/cultura/centro-trevi.asp
+
+    - name: VION
+      img: "img/VION.png"
+      link: https://www.vion.bz.it/
 
 ########################### Data consumers #########################
 consumers:
   title: Data consumers
   subtitle: Open Data Hub supports the implementation of an **innovative platform**, where talents can **use data and create innovative solutions** for the SMART Green Region South Tyrol.
   item:
-    - name: Autostrada del Brennero SpA
-      img: "img/a22.jpeg"
-      link: https://www.autobrennero.it/
+    - name: CISMA Srl
+      img: "img/cisma.png"
+      link: http://www.cisma.it/
 
-    - name: Alperia SpA
-      img: "img/alperia.png"
-      link: https://www.alperia.eu/
+    - name: Destination Srl
+      img: "img/destination.png"
+      link: http://www.destinationsrl.it/
 
-    - name: Autonomous Province of Bolzano/Bozen
-      img: "img/pab.png"
-      link: http://provincia.bz.it
+    - name: Marketing Factory
+      img: "img/MarketingFactory.png"
+      link: https://www.marketingfactory.it
 
-    - name: Autonomous Province of Trento
-      img: "img/ProvinciaTrento.png"
-      link: http://www.provincia.tn.it/
+    - name: Ontopic
+      img: "img/Ontopic.png"
+      link: https://ontopic.biz/
+
+    - name: Peer
+      img: "img/peer.png"
+      link: https://www.peer.biz/
+
+    - name: XLbit
+      img: "img/xlbit.png"
+      link: https://www.xlbit.com/
 
 
 ########################### Developers ###########################

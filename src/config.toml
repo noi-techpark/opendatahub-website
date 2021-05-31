@@ -1,7 +1,6 @@
 ######################################## BASIC CONFIG
 theme = "odh-fbe"
-#baseURL = "http://opendatahub.bz.it"
-baseURL = "."
+baseURL = "https://opendatahub.testingmachine.eu"
 languageCode = "en"
 title = "Open Data Hub Südtirol - Alto Adige"
 
@@ -104,9 +103,9 @@ name = "Datasets"
 URL = "https://webcomponents.opendatahub.bz.it"
 name = "Web components"
 
-[[menu.footer2]]
-URL = "/community"
-name = "Our community"
+#[[menu.footer2]]
+#URL = "/community"
+#name = "Our community"
 
 [[menu.footer2]]
 URL = "/events"
@@ -114,15 +113,15 @@ name = "Events"
 
 [[menu.footer3]]
 URL = "/data-sharing/"
-name = "Share data"
+name = "Data Sharing"
 
 [[menu.footer3]]
 URL = "/data-access/"
-name = "Access data"
+name = "Data Access"
 
 [[menu.footer3]]
-URL = "/services#demo-dev"
-name = "Demo Dev"
+URL = "/services#app-dev"
+name = "Data Visualization"
 
 
 ######################################## FOOTER
