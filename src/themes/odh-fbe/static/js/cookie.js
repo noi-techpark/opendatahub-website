@@ -1,5 +1,5 @@
 (function () {
-  const GOOGLE_ANALYTICS_ID = "UA-XXXXXXXX-1";
+  const GOOGLE_ANALYTICS_ID = "UA-138331709-1";
 
   window.dataLayer = window.dataLayer || [];
   function gtag() {
