@@ -693,6 +693,31 @@ footer .copyright {
   margin-top: 1.5rem;
 }
 
+.loader {
+  display: none;
+  height: 20px;
+  width: 20px;
+  margin-bottom: -7px;
+  margin-left: 10px;
+  border: 1px solid lightgray;
+  border-top: 1px solid darkgray;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.loader.is-active {
+  display: inline-block;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 /* SOCIAL */
 .card-footer .social i.fa {
   font-size: 1.2rem !important;
@@ -735,4 +760,61 @@ footer ul.social li img {
     padding-left: 10px;
     padding-right: 10px;
   }
+}
+
+/* COOKIE BANNER */
+
+.alert-cookie {
+  position: fixed;
+  border: solid 1px black;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  z-index: 9999;
+  right: 20px;
+}
+@media screen and (max-width: 768px) {
+  .alert-cookie {
+    width: auto !important;
+    left: 20px;
+  }
+}
+
+.alert {
+  color: #2e3131;
+  background-color: white;
+  max-width: 580px;
+  width: 50vw;
+  color: #2e3131 !important;
+  padding: 30px;
+}
+
+.alert-cookie p {
+  margin-bottom: 10px;
+}
+
+.alert-cookie .button {
+  margin-top: 20px;
+  color: white;
+  clear: both;
+  display: block;
+  padding: 10px 20px;
+  border: 1px solid #2e3131;
+  width: fit-content;
+  width: -moz-fit-content;
+  background-color: black;
+}
+
+.alert-cookie:hover {
+  color: #2e3131;
+  cursor: pointer;
+}
+
+.alert-cookie .negative {
+  border: 1px solid var(--color-background);
+  color: var(--color-background);
+}
+.alert-cookie .negative:hover {
+  background: var(--color-background);
+  color: var(--color-primary);
 }
