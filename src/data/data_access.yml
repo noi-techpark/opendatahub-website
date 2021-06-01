@@ -25,7 +25,7 @@ row_three:
 
 row_four:
   title: We’re here **for you**.
-  description: Development can become tricky somethings, this is why we're here to help. **Discover our services** and clarify all your doubts in seconds.
+  description: Development can become tricky sometimes, this is why we're here to help. **Discover our services** and clarify all your doubts in seconds.
   btn_link: "/services"
   btn_label: See our services
   img_back: "/img/access-data-7.jpg"
