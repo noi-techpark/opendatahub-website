@@ -16,7 +16,7 @@ pipeline {
     stages {
         stage('Configure') {
             steps {
-                sh "sed -i 's/https://example.com/${MAIL_CLIENT}/g' src/themes/odh-fbe/static/js/main.js"
+                sh 'sed -i -e "s%https://example.com%${MAIL_CLIENT}%g" src/themes/odh-fbe/static/js/main.js'
             }
         }
         stage('Build') {
