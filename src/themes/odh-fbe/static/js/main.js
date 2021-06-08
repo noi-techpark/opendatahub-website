@@ -348,7 +348,7 @@ function sendForm(e) {
   e.preventDefault();
 
   my.get("response").innerHTML = "";
-  data = my.get("contact-form");
+  data = new FormData(my.get("contact-form"));
   req.open("POST", contactURL);
   req.send(data);
 
