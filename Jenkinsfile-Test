@@ -10,9 +10,15 @@ pipeline {
         AWS_ACCESS_KEY_ID = credentials('AWS_ACCESS_KEY_ID')
         AWS_SECRET_ACCESS_KEY = credentials('AWS_SECRET_ACCESS_KEY')
         HUGO_BASEURL ='https://opendatahub.testingmachine.eu'
+        MAIL_CLIENT = 'https://mailclient.opendatahub.bz.it/contact'
     }
 
     stages {
+        stage('Configure') {
+            steps {
+                sh 'sed -i -e "s%https://example.com%${MAIL_CLIENT}%g" src/themes/odh-fbe/static/js/main.js'
+            }
+        }
         stage('Build') {
             steps {
                 sh 'hugo -s src -d ../target'

@@ -11,9 +11,16 @@ pipeline {
         AWS_SECRET_ACCESS_KEY = credentials('AWS_SECRET_ACCESS_KEY')
         HUGO_BASEURL ='https://opendatahub.bz.it'
         HUGO_GOOGLEANALYTICS = 'UA-138331709-1'
+        MAIL_CLIENT = 'https://mailclient.opendatahub.bz.it/contact'
     }
 
     stages {
+        stage('Configure') {
+            steps {
+                sh 'sed -i -e "s/UA-XXXXXXXX-1/${HUGO_GOOGLEANALYTICS}/g" src/themes/odh-fbe/static/js/cookie.js'
+                sh 'sed -i -e "s%https://example.com/${MAIL_CLIENT}/g" src/themes/odh-fbe/static/js/main.js'
+            }
+        }
         stage('Build') {
             steps {
                 sh 'hugo -s src -d ../target'
