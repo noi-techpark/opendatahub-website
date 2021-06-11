@@ -18,7 +18,7 @@ pipeline {
         stage('Configure') {
             steps {
                 sh 'sed -i -e "s/UA-XXXXXXXX-1/${HUGO_GOOGLEANALYTICS}/g" src/themes/odh-fbe/static/js/cookie.js'
-                sh 'sed -i -e "s%https://example.com/${MAIL_CLIENT}/g" src/themes/odh-fbe/static/js/main.js'
+                sh 'sed -i -e "s%https://example.com%${MAIL_CLIENT}%g" src/themes/odh-fbe/static/js/main.js'
             }
         }
         stage('Build') {
