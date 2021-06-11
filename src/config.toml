@@ -103,9 +103,9 @@ name = "Datasets"
 URL = "https://webcomponents.opendatahub.bz.it"
 name = "Web components"
 
-#[[menu.footer2]]
-#URL = "/community"
-#name = "Our community"
+[[menu.footer2]]
+URL = "/community"
+name = "Community"
 
 [[menu.footer2]]
 URL = "/events"
