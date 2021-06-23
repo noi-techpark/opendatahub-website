@@ -104,6 +104,10 @@ consumers:
   title: Data consumers
   subtitle: Open Data Hub supports the implementation of an **innovative platform**, where talents can **use data and create innovative solutions** for the SMART Green Region South Tyrol.
   item:
+    - name: Brixen Tourismus Gen
+      img: "img/BrixenTourism.png"
+      link: https://www.brixen.org     
+ 
     - name: CISMA Srl
       img: "img/cisma.png"
       link: http://www.cisma.it/
@@ -111,6 +115,10 @@ consumers:
     - name: Destination Srl
       img: "img/destination.png"
       link: http://www.destinationsrl.it/
+
+    - name: IDM Südtirol/Alto Adige
+      img: "img/IDM.png"
+      link: http://idm-suedtirol.com
 
     - name: Marketing Factory
       img: "img/MarketingFactory.png"
@@ -127,6 +135,10 @@ consumers:
     - name: Reactive Software
       img: "img/ReactiveSoftware.png"
       link: https://snowmaps3d.com/snow/index_en.html      
+      
+    - name: STA
+      img: "img/sta.png"
+      link: https://sta.bz.it
 
     - name: XLbit
       img: "img/xlbit.png"
