@@ -1,7 +1,12 @@
 :root {
+  --primary: #50742F;
+  --primary-hover: #50742F;
+}
+
+/*:root {
   --primary: #9bc325;
   --primary-hover: #abd216;
-}
+}*/
 
 html,
 body,

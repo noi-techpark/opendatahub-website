@@ -48,7 +48,7 @@
    fill="#F25D50"
    d="M81.87,41.05v17.08H68.13V41.05c0-3.79,3.07-6.87,6.87-6.87c1.9,0,3.62,0.77,4.86,2.01  C81.1,37.44,81.87,39.16,81.87,41.05z"
    id="path2"
-   style="fill:#abd216;fill-opacity:1">
+   style="fill:#50742F;fill-opacity:1">
 	<animateTransform
    attributeName="transform"
    attributeType="XML"
@@ -61,7 +61,7 @@
    fill="#F25D50"
    d="M81.87,91.87v17.08c0,3.79-3.07,6.87-6.87,6.87c-1.9,0-3.62-0.77-4.86-2.01c-1.24-1.25-2.01-2.97-2.01-4.86  V91.87H81.87z"
    id="path4"
-   style="fill:#abd216;fill-opacity:1">
+   style="fill:#50742F;fill-opacity:1">
 	<animateTransform
    attributeName="transform"
    attributeType="XML"
@@ -74,7 +74,7 @@
    fill="#2D999F"
    d="M58.13,68.13v13.74H41.05c-3.79,0-6.87-3.07-6.87-6.87c0-1.9,0.77-3.62,2.01-4.86  c1.25-1.24,2.97-2.01,4.86-2.01H58.13z"
    id="path6"
-   style="fill:#c4db00;fill-opacity:1">
+   style="fill:#50742F;fill-opacity:1">
 	<animateTransform
    attributeName="transform"
    attributeType="XML"
@@ -87,7 +87,7 @@
    fill="#2D999F"
    d="M115.82,75c0,1.9-0.77,3.62-2.01,4.86c-1.25,1.24-2.97,2.01-4.86,2.01H91.87V68.13h17.08  C112.74,68.13,115.82,71.2,115.82,75z"
    id="path8"
-   style="fill:#c4db00;fill-opacity:1">
+   style="fill:#50742F;fill-opacity:1">
 	<animateTransform
    attributeName="transform"
    attributeType="XML"
