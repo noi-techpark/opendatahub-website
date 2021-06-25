@@ -6,10 +6,13 @@ title = "Open Data Hub Südtirol - Alto Adige"
 
 ######################################## META
 [params]
-logo = "img/logo-open-data-hub.png"
+logo = "img/IDM_OPENDATAHUB_2_BK.png"
+logo_NOI = "img/NOI_1_BK.png"
+web_NOI ="https://noi.bz.it"
 favicon = "img/logo-open-data-hub.png"
 author = "Open Data Hub Südtirol - Alto Adige"
 description = "Open Data Hub is your access point to South Tyrol's relevant data. You and your service providers can use Open Data Hub for all channels of digital communication. The data is updated on a regular basis and easily accessible."
+PrivacyUrl ="https://noi.bz.it/en/privacy-cookie-policy"
 
 [taxonomies]
 type = "datatype"

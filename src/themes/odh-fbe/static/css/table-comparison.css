@@ -75,7 +75,7 @@
   background-color: #f5f5f5;
 }
 #table-comparison .bg-pro {
-  border-top: 3px solid #9bc325;
+  border-top: 3px solid #50742F;
   background-color: #f7fbec;
 }
 #table-comparison .sep {
@@ -93,7 +93,7 @@
 }
 #table-comparison .tick {
   font-size: 18px;
-  color: #9bc325;
+  color: #50742F;
 }
 #table-comparison .hide {
   border: 0;
