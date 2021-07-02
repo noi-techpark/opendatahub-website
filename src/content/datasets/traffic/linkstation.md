@@ -2,7 +2,7 @@
 position: "Datasets"
 
 title: "Link station"
-img: "/img/matthew-brodeur-eJ9mX6yEbAw-unsplash.jpg"
+img: "/img/matthew-brodeur-eJ9mX6yEbAw-unsplash.png"
 
 availability: "partially-closed"
 availability_label: "Partially Closed Data"

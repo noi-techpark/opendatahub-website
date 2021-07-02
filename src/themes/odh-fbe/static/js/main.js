@@ -1,4 +1,4 @@
-const contactURL = "https://example.com";
+//const contactURL = "https://example.com";
 
 var my = null;
 
