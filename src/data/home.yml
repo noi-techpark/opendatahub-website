@@ -52,7 +52,7 @@ dataset_example:
   btn_link: "/datasets/mobility/echargingstation/"
   btn_label: See dataset
   img_back: "/img/GreenMobility.png"
-  img_front: "/img/andrew-roberts-2JvEjF0tf50-unsplash.jpg"
+  img_front: "/img/andrew-roberts-2JvEjF0tf50-unsplash.png"
 
 services:
   title: Get ready with **our services**
