@@ -6,8 +6,8 @@ title = "Open Data Hub Südtirol - Alto Adige"
 
 ######################################## META
 [params]
-logo = "img/IDM_OPENDATAHUB_2_BK.png"
-logo_NOI = "img/NOI_1_BK.png"
+logo = "img/IDM_OPENDATAHUB_2_BK.svg"
+logo_NOI = "img/NOI_1_BK.svg"
 web_NOI ="https://noi.bz.it"
 favicon = "img/logo-open-data-hub.png"
 author = "Open Data Hub Südtirol - Alto Adige"
