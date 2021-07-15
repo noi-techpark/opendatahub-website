@@ -140,9 +140,13 @@ consumers:
       img: "img/sta.png"
       link: https://sta.bz.it
 
+    - name: Taste of Itlay - confesercenti
+      img: "img/confesercenti-TasteOfItaly.png"
+      link: http://www.tasteofitaly.bz.it/
+      
     - name: XLbit
       img: "img/xlbit.png"
-      link: https://www.xlbit.com/
+      link: https://www.xlbit.com/  
 
 
 ########################### Developers ###########################
