@@ -2,6 +2,6 @@
 position: "Events"
 
 title: "Join our official events"
-subtitle: "Open Data Hub supports the implementation of an **innovative platform**, where talents can **use data and create innovative solutions** for the SMART Green Region South Tyrol."
+subtitle: "Take a look at the **events** where you can get insights from the **Open Data Hub**."
 ---
 
