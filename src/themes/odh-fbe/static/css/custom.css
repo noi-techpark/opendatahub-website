@@ -590,6 +590,49 @@ table td:first-child {
   overflow-y: overlay;
 }
 
+/* PAST EVENTS */
+.past_events.container {
+  padding: 0;
+}
+
+.past_events .card {
+  padding: 30px !important;
+}
+
+.past_events .card > div {
+  transition: box-shadow 0.5s ease-in-out;
+  -webkit-box-shadow: 0px 0px 9px 1px rgba(150, 150, 150, 0);
+  box-shadow: 0px 0px 9px 1px rgba(150, 150, 150, 0);
+}
+
+.past_events .card > div:hover {
+  transition: 0.5s;
+  -webkit-box-shadow: 0px 0px 9px 1px rgba(150, 150, 150, 0.7);
+  box-shadow: 0px 0px 9px 1px rgba(150, 150, 150, 0.7);
+}
+
+.past_events a,
+.past_events a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.past_events .card > div {
+  background-color: #f5f5f5;
+  padding: 25px;
+}
+
+.past_events .card .title {
+  margin-bottom: 0.5rem;
+}
+
+.past_events .card .content p {
+  color: #555555;
+  height: 4rem;
+  margin-bottom: 0;
+  overflow-y: overlay;
+}
+
 /* COMMUNITY */
 #fh5co-team .person {
   display: flex;

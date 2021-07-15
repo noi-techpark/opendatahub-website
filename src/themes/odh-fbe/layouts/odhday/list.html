@@ -1,0 +1,52 @@
+{{ define "main" }}
+
+{{ partial "nav.html" . }}
+
+{{ partial "title.html" .Params }}
+
+<section class="bg-darker">
+	{{ partial "title-section.html" site.Data.odhday.program }}
+	<div class="events container">
+
+		{{ range sort .Pages ".Params.day" "asc"}}
+		{{ if ge (time .Params.day).Unix now.Unix }}
+		<a target="_blank" href="{{ .Params.button_link }}" class="col-lg-6 card">
+			<div>
+				<div class="rectangle-long bg-center-cover">
+					<img src="{{ .Params.img }}" alt="{{ .Params.img_alt }}" />
+				</div>
+
+				<h6 class="title">{{ .Title }}</h6>
+				<div class="content">{{ .Content }}</div>
+
+				<p>
+					{{ with .Params.day }}
+				<div>
+					<span class="fa fa-calendar-o"></span>
+					<span>{{ dateFormat "Monday, Jan 2, 2006" . }}</span>
+				</div>
+				{{ end }}
+				{{ with .Params.time }}
+				<div>
+					<span class="fa fa-clock-o"></span>
+					<span>{{.}}</span>
+				</div>
+				{{ end }}
+				{{ with .Params.location }}
+				<div>
+					<span class="fa fa-thumb-tack"></span>
+					<span>{{.}}</span>
+				</div>
+				{{ end }}
+				</p>
+
+				<div class="btn btn-primary">{{ .Params.button_label }}</div>
+			</div>
+		</a>
+		{{ end }}
+		{{ end }}
+
+	</div>
+</section>
+
+{{ end }}
