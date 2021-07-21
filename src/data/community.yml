@@ -139,6 +139,10 @@ consumers:
     - name: STA
       img: "img/sta.png"
       link: https://sta.bz.it
+      
+    - name: Hotel Schwarzenstein
+      img: "img/hotelSchwarzenstein.png"
+      link: https://www.schwarzenstein.com/
 
     - name: Taste of Itlay - confesercenti
       img: "img/confesercenti-TasteOfItaly.png"
