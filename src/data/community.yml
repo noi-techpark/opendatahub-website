@@ -75,6 +75,10 @@ providers:
       img: "img/municipalityTrento.png"
       link: https://www.comune.trento.it/
 
+    - name: NOI S.p.A.
+      img: "img/NOI_1_BK_Com.png"
+      link: https://noi.bz.it
+
     - name: Papin Sport
       img: "img/papinSport.png"
       link: https://www.papinsport.com/
@@ -112,6 +116,10 @@ consumers:
       img: "img/cisma.png"
       link: http://www.cisma.it/
 
+    - name: Consisto GmbH
+      img: "img/consisto-Logo.png"
+      link: https://www.consisto.it/
+      
     - name: Destination Srl
       img: "img/destination.png"
       link: http://www.destinationsrl.it/
@@ -123,6 +131,10 @@ consumers:
     - name: Marketing Factory
       img: "img/MarketingFactory.png"
       link: https://www.marketingfactory.it
+
+    - name: NOI S.p.A.
+      img: "img/NOI_1_BK_Com.png"
+      link: https://noi.bz.it
 
     - name: Ontopic
       img: "img/Ontopic.png"
