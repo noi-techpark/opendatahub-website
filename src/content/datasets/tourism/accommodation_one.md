@@ -14,7 +14,7 @@ example_link: "https://databrowser.opendatahub.bz.it"
 datatype: "Tourism"
 ---
 
-This datasets contains accommodation in South Tyrol. Accessible via REST or the AlpineBits HotelData open standard.
+This dataset contains accommodations in South Tyrol. Accessible via REST or the AlpineBits HotelData open standard.
 
 |                |                                                                                                                   |
 | :------------- | ----------------------------------------------------------------------------------------------------------------- |
