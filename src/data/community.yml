@@ -1,7 +1,7 @@
 ########################### Data provider #########################
 providers:
-  title: Data providers
-  subtitle: Open Data Hub supports the implementation of an **innovative platform**, where talents can **use data and create innovative solutions** for the SMART Green Region South Tyrol.
+  title: Data Providers
+  subtitle: These Companies and Organisations are official Data Providers for the Open Data Hub and share data with others, to enable the implementation of innovative digital solutions.
   item:
     - name: Autostrada del Brennero SpA
       img: "img/a22.png"
@@ -105,8 +105,8 @@ providers:
 
 ########################### Data consumers #########################
 consumers:
-  title: Data consumers
-  subtitle: Open Data Hub supports the implementation of an **innovative platform**, where talents can **use data and create innovative solutions** for the SMART Green Region South Tyrol.
+  title: Data Consumers
+  subtitle: These Companies and Organizations are official Data Consumers of the Open Data Hub and use the data to implement innovative digital solutions for a SMART Green Region.
   item:
     - name: Brixen Tourismus Gen
       img: "img/BrixenTourism.png"
