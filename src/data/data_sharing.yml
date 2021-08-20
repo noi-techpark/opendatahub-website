@@ -3,14 +3,13 @@ row_one:
   title: "By sharing your data, **be ready to receive**"
   description: |
     - Visibility of your data
-    - Visibility as a data provider (on website, on events, with web components)
-    - Advanced infrastructure to publish my data
+    - Visibility as a data provider (on websites, on events, with web components)
+    - Advanced infrastructure to publish your data
     - Documentation
-    - Web Component store for demo app
-    - Prepared mailing list for regular communications towards consumers
-      about my data
+    - Web Component store for demo apps
+    - Regular communication towards data consumers
     - Statistical overview on data consumption
-    - Ticket queue for handling customer requests and problems
+    - Ticket queue for handling requests and problems
     - Error monitoring and escalation
   btn_link: "/start?contact-reason=data-sharing"
   btn_label: Join us
