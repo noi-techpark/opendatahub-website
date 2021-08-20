@@ -8,7 +8,7 @@ time: "09:00 - 18:00"
 location: "NOI Techpark and online"
 
 button_link: "/odhday"
-button_label: "More info"
+button_label: "More info & Registration"
 ---
 
 Open Data Hub day is a hybrid event about best practices to help you understand and get the most out of the world of data.

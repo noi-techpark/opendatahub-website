@@ -1,3 +1,86 @@
-
 program:
-  title: More information coming soon
+  title: "Open Data Hub Day - Programm"
+  subtitle: "The event will be held in English. Participation is free of charge. Please note that you will need a **Green Pass**. "
+
+content:
+  title: Pricing
+  header:
+    - title: 
+      width: 5%
+    - title: Speaker
+      width: 30%
+    - title: Title
+      width: 65%
+  row:
+    - cols:
+        - content: "9.00"
+        - content: "Vincent Mauroit"
+        - content: Opening by NOI
+    - cols:
+        - content: "9.15"
+        - content: "Patrick Ohnewein"
+        - content: The Open Data Hub Project
+    - cols:
+        - content: "9.30"
+        - content: "TBD"
+        - content: TBD
+    - cols:
+        - content: "10.00"
+        - content: "Sandy Kirchlechner"
+        - content: TBD
+    - cols:
+        - content: "10.15"
+        - content: "Brixen TBD"
+        - content: TBD
+    - cols:
+        - content: "10.30"
+        - content: "Christian Landrock"
+        - content: TBD
+    - cols:
+        - content: "11.00"
+        - content: "-"
+        - content: Coffe Break
+    - cols:
+        - content: "11.15"
+        - content: "Patrick Dejaco"
+        - content: TBD
+    - cols:
+        - content: "11.30"
+        - content: "Werner Guttmann"
+        - content: TBD
+    - cols:
+        - content: "11.45"
+        - content: "Tiago Prince Sales"
+        - content: TBD
+    - cols:
+        - content: "12.00"
+        - content: "Danilo Pederiva"
+        - content: TBD
+    - cols:
+        - content: "12.15"
+        - content: "Ontopic TBD"
+        - content: TBD
+    - cols:
+        - content: "12.30"
+        - content: "Mattia Rossi"
+        - content: BolzanoR & OpenDataHub. Potential future collaboration between the BolzanoR community and the OpenDataHub Südtirol
+    - cols:
+        - content: "12.45"
+        - content: "Antonietta De Santis"
+        - content: TBD
+    - cols:
+        - content: "13.00"
+        - content: "Hubert Unterweger"
+        - content: TBD
+    - cols:
+        - content: "13.15"
+        - content: "-"
+        - content: Round Table
+    - cols:
+        - content: "13.45"
+        - content: "-"
+        - content: Lunch
+
+  btn_link: https://registration.noi.bz.it/event/sessions?id=Open_Data_Hub_Day1353828528
+  btn_label: Registration
+  
