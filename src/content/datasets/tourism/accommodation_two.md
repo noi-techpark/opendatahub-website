@@ -1,14 +1,14 @@
 ---
 position: "Datasets"
 
-title: "Accommodation(2)"
-img: "/img/dataset-accomodation.jpg"
+title: "Accommodation (2)"
+img: "/img/dataset-accommodation-2.jpg"
 
 availability: "partially-closed"
 availability_label: "Partially Closed Data"
 availability_description: "Some data is available as Open Data. Rest of data is closed or restricted to project collaboration."
 
-doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#id19"
+doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#accommodation-dataset"
 example_link: "https://databrowser.opendatahub.bz.it"
 
 datatype: "Tourism"

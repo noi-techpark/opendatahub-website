@@ -9,13 +9,15 @@
 	{{ partial "col-images.html" site.Data.home.community }}
 
 	<div class="bg-darker">
-	{{ partial "col-imgs-text.html" site.Data.home.use_case }}
+	{{ partial "col-text-imgs.html" site.Data.home.documentation }}
 	</div>
 
-	{{ partial "col-text-imgs.html" site.Data.home.dataset_example }}
+	{{ partial "col-imgs-text.html" site.Data.home.use_case }}
 
 	<div class="bg-darker">
-	{{ partial "generic-boxes.html" site.Data.home.services }}
+	{{ partial "col-text-imgs.html" site.Data.home.dataset_example }}
 	</div>
+
+	{{ partial "generic-boxes.html" site.Data.home.services }}
 
 {{ end }}

@@ -11,7 +11,7 @@ availability_description: "All data is available as Open Data"
 doc_link: "https://docs.opendatahub.bz.it/en/latest/datasets.html#eventshort-dataset"
 example_link: "https://webcomponents.opendatahub.bz.it/webcomponent/f594de36-0136-4c27-a0e6-570fa7014129"
 
-datatype: "Tourism"
+datatype: "Other Domains"
 ---
 
 This dataset contains events provided by NOI Techpark, Eurac and St. Virtual
