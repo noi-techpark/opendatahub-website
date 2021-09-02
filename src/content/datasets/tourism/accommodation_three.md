@@ -1,14 +1,14 @@
 ---
 position: "Datasets"
 
-title: "Accommodation(3)"
-img: "/img/dataset-accomodation.jpg"
+title: "Accommodation (3)"
+img: "/img/dataset-accommodation-3.jpg"
 
 availability: "closed"
 availability_label: "Closed Data"
 availability_description: "Data is closed or restricted to project collaboration."
 
-doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#it-lts-activity"
+doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#accommodation-dataset"
 example_link: "https://databrowser.opendatahub.bz.it"
 
 datatype: "Tourism"

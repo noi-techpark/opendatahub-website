@@ -1,32 +1,32 @@
 ################################# Data Sharing #########################
 row_one:
-  title: "Access to **dozes of datasets**."
-  description: Mobility, Tourism, Traffic or Weather data? We provide all of them. Do you want to build the next car parking app? Or do you prefer to predict when the hail will impact plantations? Doesn't matter what you want to build, **whe have the data for that**.
+  title: "Access **a growing number of datasets**"
+  description: Mobility, Tourism, Traffic or Weather data? We provide all of them. Do you want to build the next car parking app? Or do you prefer to predict when hail will impact plantations? Doesn't matter what you want to build, **we have data you could use**.
   btn_link: "/datasets"
-  btn_label: See datasets
+  btn_label: "View the datasets list"
   img_back: "/img/access-data-1.jpg"
   img_front: "/img/access-data-2.jpg"
 
 row_two:
-  title: Get the data **analytics**.
-  description: Display various information about **sensors all around South Tyrol**, including their locations, what they measure, and actual data in near-real time.
+  title: "Check out the data in our **analytics tool**"
+  description: "View various information about **sensors**, including their locations, what they measure, and the actual data in near-real time."
   btn_link: "https://analytics.opendatahub.bz.it"
-  btn_label: See analytics
+  btn_label: "Open the Analytics Tool"
   img_back: "/img/access-data-3.jpg"
   img_front: "/img/access-data-4.jpg"
 
 row_three:
-  title: Try our **web components**.
-  description: To help you to create things faster, we already **developed a set of components** using data provided by the Open Data Hub, which are freely shared and ready to be reused on the Open Data Hub’s Web Components Store.
+  title: "Integrate data in your website or app using our **web components**"
+  description: "To help you create data visualizations faster, our community already **developed a set of components** using data provided by the Open Data Hub. You can find a list of web components ready to be used on the Open Data Hub Web Components Store."
   btn_link: "https://webcomponents.opendatahub.bz.it"
-  btn_label: See components
+  btn_label: "View the web components list"
   img_back: "/img/access-data-5.jpg"
   img_front: "/img/access-data-6.jpg"
 
 row_four:
-  title: We’re here **for you**.
-  description: Development can become tricky sometimes, this is why we're here to help. **Discover our services** and clarify all your doubts in seconds.
+  title: "We’re here **to support you**"
+  description: "Development can become tricky sometimes, this is why we're here to help. **Discover our services** and clarify all your doubts in seconds."
   btn_link: "/services"
-  btn_label: See our services
+  btn_label: "Discover our services"
   img_back: "/img/access-data-7.jpg"
   img_front: "/img/access-data-8.jpg"
