@@ -8,7 +8,9 @@ content:
     - title: 
       width: 5%
     - title: Speaker
-      width: 30%
+      width: 15%
+    - title: Company
+      width: 20%
     - title: Title
       width: 65%
   row:
@@ -16,70 +18,87 @@ content:
         - content: "8.30"
         - content: " "
         - content: Registration
+        - content: " "
     - cols:
         - content: "9.00"
         - content: "Vincent Mauroit"
+        - content: "NOI Techpark"
         - content: Opening by NOI
     - cols:
         - content: "9.15"
         - content: "Patrick Ohnewein"
+        - content: "NOI Techpark"
         - content: The Open Data Hub Project
     - cols:
         - content: "9.30"
         - content: "Gartner"
-        - content: 
+        - content: " "
+        - content: " "
     - cols:
         - content: "10.00"
         - content: "Sandy Kirchlechner"
+        - content: "Kurverwaltung Meran"
         - content: "Merano Tourist Office & CC0 - A real case study"
     - cols:
         - content: "10.15"
         - content: "Werner Zanotti"
+        - content: "Brixen Tourism"
         - content: "Brixen - A real case study"
     - cols:
         - content: "10.30"
         - content: "Christian Landrock"
+        - content: "Blick"
         - content: "Vision - The value of an Open Data Hub in the mobility sector"
     - cols:
         - content: "11.00"
         - content: " "
         - content: Coffee Break
+        - content: " "
     - cols:
         - content: "11.15"
         - content: "Patrick Dejaco"
+        - content: "STA"
         - content: "Best Practice -  The new digital infrastructure for public transport"
     - cols:
         - content: "11.30"
         - content: "Werner Guttmann"
+        - content: "Reactive Software"
         - content: "Best Practice - mysnowmaps experience"
     - cols:
         - content: "11.45"
         - content: "Tiago Prince Sales"
+        - content: "unibz"
         - content: "Best Practice - AlpineBits DestinationData strategy"
     - cols:
         - content: "12.00"
         - content: "Danilo Pederiva"
+        - content: "Alperia"
         - content: "Best Practice - Open standards and data exchange for e-mobility"
     - cols:
         - content: "12.15"
         - content: "Peter Hopfgartner"
-        - content: 
+        - content: "Ontopic"
+        - content: " "
     - cols:
         - content: "12.30"
         - content: "Mattia Rossi"
-        - content: BolzanoR & OpenDataHub. Potential future collaboration between the BolzanoR community and the OpenDataHub Südtirol
+        - content: "R Community"
+        - content: "BolzanoR & OpenDataHub. Potential future collaboration between the BolzanoR community and the OpenDataHub Südtirol"
     - cols:
         - content: "12.45"
         - content: "Antonietta De Santis"
-        - content: 
+        - content: "IDM Südtirol - Alto Adige"
+        - content: " "
     - cols:
         - content: "13.00"
+        - content: " "
         - content: " "
         - content: "Discussion round - The future of Open Data Hub"
     - cols:
         - content: "13.30"
         - content: " "
         - content: Lunch
+        - content: " "
 
   btn_link: https://registration.noi.bz.it/event/sessions?id=Open_Data_Hub_Day1353828528
   btn_label: Registration
