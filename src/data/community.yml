@@ -123,7 +123,11 @@ consumers:
     - name: Destination Srl
       img: "img/destination.png"
       link: http://www.destinationsrl.it/
-
+    
+    - name: Eurac Research
+      img: "img/eurac.png"
+      link: https://www.eurac.edu/
+    
     - name: IDM Südtirol/Alto Adige
       img: "img/IDM.png"
       link: http://idm-suedtirol.com
