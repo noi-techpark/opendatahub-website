@@ -13,92 +13,130 @@ content:
       width: 20%
     - title: Title
       width: 65%
+    # - title: " "
+    #   width: 5%
+    # - title: " "
+    #   width: 5%  
   row:
     - cols:
         - content: "8.30"
         - content: " "
         - content: Registration
-        - content: " "
+        - content: https://gohugo.io/
+        # - content:
+        # - content:
     - cols:
         - content: "9.00"
         - content: "Vincent Mauroit"
         - content: "NOI Techpark"
         - content: Opening by NOI
+        # - content: " "
+        # - videoLink: 
     - cols:
         - content: "9.15"
         - content: "Patrick Ohnewein"
         - content: "NOI Techpark"
         - content: The Open Data Hub Project
+        # - slidesLink: 
+        # - videoLink: 
     - cols:
         - content: "9.30"
         - content: " "
         - content: "Gartner"
         - content: " "
+        # - slidesLink: 
+        # - videoLink: 
     - cols:
         - content: "10.00"
         - content: "Sandy Kirchlechner"
         - content: "Kurverwaltung Meran"
         - content: "Merano Tourist Office & CC0 - A real case study"
+        # - slidesLink: 
+        # - videoLink: 
     - cols:
         - content: "10.15"
         - content: "Werner Zanotti"
         - content: "Brixen Tourism"
         - content: "Brixen - A real case study"
+        # - slidesLink: 
+        # - videoLink: 
     - cols:
         - content: "10.30"
         - content: "Christian Landrock"
         - content: "Blick"
         - content: "Vision - The value of an Open Data Hub in the mobility sector"
+        # - slidesLink: 
+        # - videoLink: 
     - cols:
         - content: "11.00"
         - content: " "
         - content: Coffee Break
         - content: " "
+        # - content: " "
+        # - content: " "
     - cols:
         - content: "11.15"
         - content: "Patrick Dejaco"
         - content: "STA"
         - content: "Best Practice -  The new digital infrastructure for public transport"
+        # - slidesLink: 
+        # - videoLink: 
     - cols:
         - content: "11.30"
         - content: "Werner Guttmann"
         - content: "Reactive Software"
         - content: "Best Practice - mysnowmaps experience"
+        # - slidesLink: 
+        # - videoLink: 
     - cols:
         - content: "11.45"
         - content: "Tiago Prince Sales"
         - content: "unibz"
         - content: "Best Practice - AlpineBits DestinationData strategy"
+        # - slidesLink: 
+        # - videoLink: 
     - cols:
         - content: "12.00"
         - content: "Danilo Pederiva"
         - content: "Alperia"
         - content: "Best Practice - Open standards and data exchange for e-mobility"
+        # - slidesLink: 
+        # - videoLink:
     - cols:
         - content: "12.15"
         - content: "Peter Hopfgartner"
         - content: "Ontopic"
         - content: " "
+        # - slidesLink: 
+        # - videoLink: 
     - cols:
         - content: "12.30"
         - content: "Mattia Rossi"
         - content: "R Community"
-        - content: "BolzanoR & OpenDataHub. Potential future collaboration between the BolzanoR community and the OpenDataHub Südtirol"
+        - content: "BolzanoR & OpenDataHub. A Potential future collaboration between the BolzanoR community and the OpenDataHub Südtirol"
+        # - slidesLink: 
+        # - videoLink: 
     - cols:
         - content: "12.45"
         - content: "Antonietta De Santis"
         - content: "IDM Südtirol - Alto Adige"
         - content: " "
+        # - slidesLink: 
+        # - videoLink: 
     - cols:
         - content: "13.00"
         - content: " "
         - content: " "
         - content: "Discussion round - The future of Open Data Hub"
+        # - content: " "
+        # - videoLink: 
     - cols:
         - content: "13.30"
         - content: " "
         - content: Lunch
         - content: " "
+        # - content: " "
+        # - content: " "
 
   btn_link: https://registration.noi.bz.it/event/sessions?id=Open_Data_Hub_Day1353828528
   btn_label: Registration
