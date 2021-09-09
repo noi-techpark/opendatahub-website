@@ -35,6 +35,10 @@ providers:
       img: "img/driwe.png"
       link: https://www.driwe.eu/
 
+    - name: Ecospazio
+      img: "img/ecospazio.png"
+      link: https://www.ecospazio.it
+
     - name: H2 South Tyrol
       img: "img/h2st.png"
       link: https://www.h2-suedtirol.com/
