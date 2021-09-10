@@ -22,7 +22,7 @@ content:
         - content: "8.30"
         - content: " "
         - content: Registration
-        - content: https://gohugo.io/
+        - content: 
         # - content:
         # - content:
     - cols:
@@ -43,7 +43,7 @@ content:
         - content: "9.30"
         - content: "Bettina Tratz-Ryan"
         - content: "Gartner"
-        - content: "Using Data for Sustainable Touris"
+        - content: "Using Data for Sustainable To"
         # - slidesLink: 
         # - videoLink: 
     - cols:
@@ -78,14 +78,14 @@ content:
         - content: "11.15"
         - content: "Patrick Dejaco"
         - content: "STA"
-        - content: "Best Practice -  The new digital infrastructure for public transport"
+        - content: "The new digital infrastructure for public transport"
         # - slidesLink: 
         # - videoLink: 
     - cols:
         - content: "11.30"
         - content: "Werner Guttmann"
         - content: "Reactive Software"
-        - content: "Best Practice - mysnowmaps experience"
+        - content: "mysnowmaps experience"
         # - slidesLink: 
         # - videoLink: 
     - cols:
@@ -99,7 +99,7 @@ content:
         - content: "12.00"
         - content: "Danilo Pederiva"
         - content: "Alperia"
-        - content: "Best Practice - Open standards and data exchange for e-mobility"
+        - content: "Open standards and data exchange for e-mobility"
         # - slidesLink: 
         # - videoLink:
     - cols:
