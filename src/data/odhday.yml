@@ -22,7 +22,7 @@ content:
         - content: "8.30"
         - content: " "
         - content: Registration
-        - content: https://gohugo.io/
+        - content: 
         # - content:
         # - content:
     - cols:
@@ -41,9 +41,9 @@ content:
         # - videoLink: 
     - cols:
         - content: "9.30"
-        - content: " "
+        - content: "Bettina Tratz-Ryan"
         - content: "Gartner"
-        - content: " "
+        - content: "Using Data for Sustainable To"
         # - slidesLink: 
         # - videoLink: 
     - cols:
@@ -63,8 +63,8 @@ content:
     - cols:
         - content: "10.30"
         - content: "Christian Landrock"
-        - content: "Blick"
-        - content: "Vision - The value of an Open Data Hub in the mobility sector"
+        - content: "BLIC"
+        - content: "A Vision - The value of an Open Data Hub in the mobility sector"
         # - slidesLink: 
         # - videoLink: 
     - cols:
@@ -78,42 +78,42 @@ content:
         - content: "11.15"
         - content: "Patrick Dejaco"
         - content: "STA"
-        - content: "Best Practice -  The new digital infrastructure for public transport"
+        - content: "The new digital infrastructure for public transport"
         # - slidesLink: 
         # - videoLink: 
     - cols:
         - content: "11.30"
         - content: "Werner Guttmann"
         - content: "Reactive Software"
-        - content: "Best Practice - mysnowmaps experience"
+        - content: "mysnowmaps experience"
         # - slidesLink: 
         # - videoLink: 
     - cols:
         - content: "11.45"
         - content: "Tiago Prince Sales"
-        - content: "unibz"
-        - content: "Best Practice - AlpineBits DestinationData strategy"
+        - content: "Free University of Bozen-Bolzano"
+        - content: "AlpineBits DestinationData - An ontology-based data exchange standard for toursim"
         # - slidesLink: 
         # - videoLink: 
     - cols:
         - content: "12.00"
         - content: "Danilo Pederiva"
         - content: "Alperia"
-        - content: "Best Practice - Open standards and data exchange for e-mobility"
+        - content: "Open standards and data exchange for e-mobility"
         # - slidesLink: 
         # - videoLink:
     - cols:
         - content: "12.15"
         - content: "Peter Hopfgartner"
         - content: "Ontopic"
-        - content: " "
+        - content: "Data Quality of the Open Data Hub and why it is everybody's business"
         # - slidesLink: 
         # - videoLink: 
     - cols:
         - content: "12.30"
         - content: "Mattia Rossi"
         - content: "R Community"
-        - content: "BolzanoR & OpenDataHub. A Potential future collaboration between the BolzanoR community and the OpenDataHub Südtirol"
+        - content: "BolzanoR & OpenDataHub. Potential future collaboration between the BolzanoR community and the OpenDataHub Südtirol"
         # - slidesLink: 
         # - videoLink: 
     - cols:
@@ -125,14 +125,14 @@ content:
         # - videoLink: 
     - cols:
         - content: "13.00"
-        - content: " "
-        - content: " "
+        - content: 
+        - content: 
         - content: "Discussion round - The future of Open Data Hub"
         # - content: " "
         # - videoLink: 
     - cols:
         - content: "13.30"
-        - content: " "
+        - content: ""
         - content: Lunch
         - content: " "
         # - content: " "
