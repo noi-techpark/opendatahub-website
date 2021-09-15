@@ -78,14 +78,14 @@ content:
         - content: "11.15"
         - content: "Patrick Dejaco"
         - content: "STA"
-        - content: "The new digital infrastructure for public transport"
+        - content: "Using Open Data Hub to enhance passenger and mobility information"
         # - slidesLink: 
         # - videoLink: 
     - cols:
         - content: "11.30"
         - content: "Werner Guttmann"
         - content: "Reactive Software"
-        - content: "mysnowmaps experience"
+        - content: "The complexity of integrating open data into a 3D scenery"
         # - slidesLink: 
         # - videoLink: 
     - cols:
