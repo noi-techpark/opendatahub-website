@@ -4,7 +4,7 @@ img: "/img/odhday.jpg"
 img_alt: "event"
 
 day: "2021-10-01"
-time: "09:00 - 18:00"
+time: "09:00 - 13:30"
 location: "NOI Techpark and online"
 
 button_link: "/odhday"
