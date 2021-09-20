@@ -21,8 +21,8 @@ content:
     - cols:
         - content: "8.30"
         - content: " "
-        - content: Registration
-        - content: 
+        - content: " "
+        - content: "Check-in starting at 8.30"
         # - content:
         # - content:
     - cols:
@@ -70,8 +70,8 @@ content:
     - cols:
         - content: "11.00"
         - content: " "
-        - content: Coffee Break
         - content: " "
+        - content: "Coffee Break"
         # - content: " "
         # - content: " "
     - cols:
@@ -132,9 +132,9 @@ content:
         # - videoLink: 
     - cols:
         - content: "13.30"
-        - content: ""
-        - content: Lunch
         - content: " "
+        - content: " "
+        - content: "Lunch"
         # - content: " "
         # - content: " "
 
