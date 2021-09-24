@@ -8,7 +8,7 @@ availability: "open"
 availability_label: "Open Data"
 availability_description: "All data is available as Open Data"
 
-doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#it-lts-event"
+doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#event-dataset"
 example_link: "https://databrowser.opendatahub.bz.it"
 
 datatype: "Tourism"

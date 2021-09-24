@@ -8,7 +8,7 @@ availability: "open"
 availability_label: "Open Data"
 availability_description: "All data is available as Open Data"
 
-doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#it-bz-opendatahub-webcam"
+doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#webcam-dataset"
 example_link: "https://databrowser.opendatahub.bz.it"
 
 datatype: "Tourism"
