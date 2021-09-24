@@ -8,7 +8,7 @@ availability: "open"
 availability_label: "Open Data"
 availability_description: "All data is available as Open Data"
 
-doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#it-lts-activity-poi"
+doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#poi-dataset"
 example_link: "https://www.suedtirol.info/"
 
 datatype: "Tourism"
