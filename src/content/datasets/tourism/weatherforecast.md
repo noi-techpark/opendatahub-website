@@ -8,7 +8,7 @@ availability: "open"
 availability_label: "Open Data"
 availability_description: "All data is available as Open Data"
 
-doc_link: "http://it.bz.opendatahub.weather-siag"
+doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#weather-forecast-dataset"
 example_link: "https://databrowser.opendatahub.bz.it"
 
 datatype: "Tourism"

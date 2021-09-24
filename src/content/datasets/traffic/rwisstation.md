@@ -8,7 +8,7 @@ availability: "partially-closed"
 availability_label: "Partially Closed Data"
 availability_description: "Some data is available as Open Data. Rest of data is closed or restricted to project collaboration."
 
-doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#it-bz-opendatahub-rwisstation"
+doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#rwisstation-dataset"
 example_link: "https://map.clean-roads.eu/"
 
 datatype: "Traffic"
@@ -23,6 +23,6 @@ A22 (Modena - Brennero): restricted to a project
 | E-mail contact | help@opendatahub.bz.it                                      |
 | API version    | v2                                                          |
 | Swagger URL    | https://mobility.api.opendatahub.bz.it/                     |
-| StationType    | RWISstation (Data)                                          |
+| StationType    | [RWISstation](https://mobility.api.opendatahub.bz.it/v2/flat/RWISstation)                                          |
 | Sources        | A22                                                         |
 | OpenData       | Open (CLEAN-ROADS) + Restricted (expert knowledge required) |

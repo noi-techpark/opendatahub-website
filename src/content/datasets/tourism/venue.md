@@ -8,7 +8,7 @@ availability: "tobe-opened"
 availability_label: "Data to be Opened"
 availability_description: "Data will be opened soon"
 
-doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#it-bz-opendatahub-location"
+doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#venue-dataset"
 example_link: "https://databrowser.opendatahub.bz.it"
 
 datatype: "Tourism"
