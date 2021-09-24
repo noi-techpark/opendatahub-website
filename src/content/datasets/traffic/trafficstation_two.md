@@ -8,7 +8,7 @@ availability: "tobe-opened"
 availability_label: "Data to be Opened"
 availability_description: "Data will be opened soon"
 
-doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#it-bz-opendatahub-trafficstation"
+doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#trafficstation-vms-dataset"
 example_link: "https://analytics.opendatahub.bz.it/"
 
 datatype: "Traffic"
@@ -22,6 +22,6 @@ The VMS (Variable Message Sign) sensors collect data about the electronic road s
 | E-mail contact | help@opendatahub.bz.it                           |
 | API version    | v2                                               |
 | Swagger URL    | https://mobility.api.opendatahub.bz.it/          |
-| StationType    | VMS (data)                                       |
+| StationType    | [VMS](https://mobility.api.opendatahub.bz.it/v2/flat/VMS)                                       |
 | Sources        | A22                                              |
 | OpenData       | Restricted to a project (candidate to be opened) |

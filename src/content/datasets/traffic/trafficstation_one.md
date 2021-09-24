@@ -8,13 +8,13 @@ availability: "tobe-opened"
 availability_label: "Data to be Opened"
 availability_description: "Data will be opened soon"
 
-doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#it-bz-opendatahub-trafficstation"
+doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#trafficstation-dataset"
 example_link: "https://analytics.opendatahub.bz.it/"
 
 datatype: "Traffic"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This dataset contains data collected by sensors along the Italian A22 motorway and municipality of Bolzano, such as, real time (A22) and aggregated data recorded by sensors drowned in asphalt, cameras, radar, other sensors.
 
 |                |                                                             |
 | :------------- | ----------------------------------------------------------- |
@@ -22,6 +22,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 | E-mail contact | help@opendatahub.bz.it                                      |
 | API version    | v2                                                          |
 | Swagger URL    | https://mobility.api.opendatahub.bz.it/                     |
-| StationType    | traffic (data), TrafficSensor (data), Trafficstation (data) |
+| StationType    | [traffic](https://mobility.api.opendatahub.bz.it/v2/flat/traffic), [TrafficSensor](https://mobility.api.opendatahub.bz.it/v2/flat/TrafficSensor), [Trafficstation](https://mobility.api.opendatahub.bz.it/v2/flat/Trafficstation), [TrafficStreetFactor](https://mobility.api.opendatahub.bz.it/v2/flat/TrafficStreetFactor)|
 | Sources        | Municipality of Bolzano, A22                                |
 | OpenData       | Restricted to a project (candidate to be opened)            |
