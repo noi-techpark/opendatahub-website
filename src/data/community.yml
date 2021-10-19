@@ -116,6 +116,10 @@ consumers:
       img: "img/BrixenTourism.png"
       link: https://www.brixen.org     
  
+    - name: Catch Solve Srl
+      img: "img/CatchSolve.png"
+      link: https://www.catch-solve.tech/
+      
     - name: CISMA Srl
       img: "img/cisma.png"
       link: http://www.cisma.it/
