@@ -174,7 +174,11 @@ consumers:
       
     - name: XLbit
       img: "img/xlbit.png"
-      link: https://www.xlbit.com/  
+      link: https://www.xlbit.com/
+
+    - name: Yanovis
+      img: "img/yanovis.png"
+      link: https://www.yanovis.com/
 
 
 ########################### Developers ###########################
