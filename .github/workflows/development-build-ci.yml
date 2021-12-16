@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: setup docker
-        run: sh 'docker-compose -f docker/docker-hugo build'
+        run: sh 'docker-compose -f docker-compose.yml build'
 
       - name: setup hugo
         run: sh 'hugo -s src -d ../target'
