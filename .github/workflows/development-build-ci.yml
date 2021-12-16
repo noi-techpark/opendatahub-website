@@ -1,4 +1,4 @@
-name: development testing
+name: CI
 
 on: 
   push:
@@ -15,14 +15,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: clone into repo
-        uses: actions/checkout@v2
-
-      - name: install hugo
-        run: sudo apt-get install hugo
-
-      - name: setup hugo
-        run: hugo -s src -d ../target
-
-    
-
+      - uses: actions/checkout@v2
+      - name: Build the Docker image
+         run: docker build . --file docker/dockerfile-hugo --tag hugo:$(date +%s)
