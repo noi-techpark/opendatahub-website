@@ -1,0 +1,28 @@
+name: development testing
+
+on: 
+  push:
+    branches: [development]
+  pull_request:
+    branches: [development]
+
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: clone into repo
+        uses: actions/checkout@v2
+
+      - name: setup docker
+        run: sh 'docker-compose -f docker/docker-hugo build'
+
+      - name: setup hugo
+        run: sh 'hugo -s src -d ../target'
+
+    
+
