@@ -18,11 +18,11 @@ jobs:
       - name: clone into repo
         uses: actions/checkout@v2
 
-      - name: setup docker
-        run: sh 'docker-compose -f docker-compose.yml build'
+      - name: install hugo
+        run: sudo apt-get install hugo
 
       - name: setup hugo
-        run: sh 'hugo -s src -d ../target'
+        run: hugo -s src -d ../target
 
     
 
