@@ -27,6 +27,10 @@ providers:
       img: "img/bzbga.png"
       link: https://www.bzgbga.it/it
 
+    - name: DolomitiSuperski
+      img: "img/dolomitisuperski.png"
+      link: https://www.dolomitisuperski.com/
+
     - name: DRIN
       img: "img/DRIN.png"
       link: http://www.provincia.bz.it/arte-cultura/giovani/drin.asp
@@ -57,7 +61,7 @@ providers:
 
     - name: johnOS
       img: "img/johnos.png"
-      link: https://www.johnosproject.org
+      link: https://www.johnosproject.org/docs/references/jod_dists/jod_aa_odh/
 
     - name: LTS
       img: "img/lts.png"
@@ -187,6 +191,10 @@ consumers:
     - name: Yanovis
       img: "img/yanovis.png"
       link: https://www.yanovis.com/
+
+    - name: Wispers.at
+      img: "img/whispers.png"
+      link: https://www.whispers.at/
 
 
 ########################### Developers ###########################
