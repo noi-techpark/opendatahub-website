@@ -106,10 +106,6 @@ providers:
     - name: Südtirol Wein
       img: "img/suedtirolWein.png"
       link: https://www.vinialtoadige.com/
-
-    - name: Trentino Holidays
-      img: "img/trentinoHolidays.png"
-      link: https://www.thol.it/
     
     - name: TreviLab
       img: "img/TreviLab.png"
@@ -183,6 +179,10 @@ consumers:
     - name: Taste of Itlay - confesercenti
       img: "img/confesercenti-TasteOfItaly.png"
       link: http://www.tasteofitaly.bz.it/
+
+    - name: Trentino Holidays
+      img: "img/trentinoHolidays.png"
+      link: https://www.thol.it/
       
     - name: XLbit
       img: "img/xlbit.png"
