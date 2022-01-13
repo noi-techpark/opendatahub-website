@@ -27,6 +27,10 @@ providers:
       img: "img/bzbga.png"
       link: https://www.bzgbga.it/it
 
+    - name: DolomitiSuperski
+      img: "img/dolomitisuperski.png"
+      link: https://www.dolomitisuperski.com/
+
     - name: DRIN
       img: "img/DRIN.png"
       link: http://www.provincia.bz.it/arte-cultura/giovani/drin.asp
@@ -57,7 +61,7 @@ providers:
 
     - name: johnOS
       img: "img/johnos.png"
-      link: https://www.johnosproject.org
+      link: https://www.johnosproject.org/docs/references/jod_dists/jod_aa_odh/
 
     - name: LTS
       img: "img/lts.png"
@@ -102,10 +106,6 @@ providers:
     - name: Südtirol Wein
       img: "img/suedtirolWein.png"
       link: https://www.vinialtoadige.com/
-
-    - name: Trentino Holidays
-      img: "img/trentinoHolidays.png"
-      link: https://www.thol.it/
     
     - name: TreviLab
       img: "img/TreviLab.png"
@@ -179,6 +179,10 @@ consumers:
     - name: Taste of Itlay - confesercenti
       img: "img/confesercenti-TasteOfItaly.png"
       link: http://www.tasteofitaly.bz.it/
+
+    - name: Trentino Holidays
+      img: "img/trentinoHolidays.png"
+      link: https://www.thol.it/
       
     - name: XLbit
       img: "img/xlbit.png"
@@ -187,6 +191,10 @@ consumers:
     - name: Yanovis
       img: "img/yanovis.png"
       link: https://www.yanovis.com/
+
+    - name: Wispers.at
+      img: "img/whispers.png"
+      link: https://www.whispers.at/
 
 
 ########################### Developers ###########################
