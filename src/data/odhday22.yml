@@ -1,6 +1,6 @@
 program:
   title: "Open Data Hub Day 2022 - Programm"
-  subtitle: "The event will be held in English. Participation is free of charge. Please note that you will need a **Green Pass**. Please note that the program is subject to change and will be continuously updated until the conference opens."
+  subtitle: "The event will be held in English. Participation is free of charge. Please note that you will need a Green Pass. Please bear in mind that the programme is subject to change and will be continuously updated until the conference opens."
 
 content:
   title: Pricing
@@ -33,105 +33,91 @@ content:
         # - content: " "
         # - videoLink: 
     - cols:
-        - content: "9.15"
+        - content: "9.05"
         - content: "Patrick Ohnewein"
         - content: "NOI Techpark"
-        - content: The Open Data Hub Project
+        - content: Update about the Open Data Hub Project
         # - slidesLink: 
         # - videoLink: 
     - cols:
-        - content: "9.30"
-        - content: "Bettina Tratz-Ryan"
-        - content: "Gartner"
-        - content: "Using Data for Sustainable Tourism"
+        - content: "9.15"
+        - content: "Keynote 1"
+        - content: "Company"
+        - content: "Main talk - Mobility domain"
+        # - slidesLink: 
+        # - videoLink: 
+    - cols:
+        - content: "9.45"
+        - content: "Speaker 1"
+        - content: "Company"
+        - content: "Talk 1"
         # - slidesLink: 
         # - videoLink: 
     - cols:
         - content: "10.00"
-        - content: "Sandy Kirchlechner"
-        - content: "Kurverwaltung Meran"
-        - content: "Merano Tourist Office & CC0 - A real case study"
+        - content: "Speaker 2"
+        - content: "Company"
+        - content: "Talk 2"
         # - slidesLink: 
         # - videoLink: 
     - cols:
         - content: "10.15"
-        - content: "Werner Zanotti"
-        - content: "Brixen Tourism"
-        - content: "Brixen - A real case study"
+        - content: "Speaker 3"
+        - content: "Company"
+        - content: "Talk 3"
         # - slidesLink: 
         # - videoLink: 
     - cols:
         - content: "10.30"
-        - content: "Christian Landrock"
-        - content: "BLIC"
-        - content: "A Vision - The value of an Open Data Hub in the mobility sector"
-        # - slidesLink: 
-        # - videoLink: 
-    - cols:
-        - content: "11.00"
         - content: " "
         - content: " "
         - content: "Coffee Break"
         # - content: " "
         # - content: " "
     - cols:
-        - content: "11.15"
-        - content: "Patrick Dejaco"
-        - content: "STA"
-        - content: "Using Open Data Hub to enhance passenger and mobility information"
+        - content: "11.00"
+        - content: "Keynote 2"
+        - content: "Company"
+        - content: "Main talk - Tourism domain"
         # - slidesLink: 
         # - videoLink: 
     - cols:
         - content: "11.30"
-        - content: "Werner Guttmann"
-        - content: "Reactive Software"
-        - content: "The complexity of integrating open data into a 3D scenery"
+        - content: "Speaker 4"
+        - content: "Company"
+        - content: "Talk 4"
         # - slidesLink: 
         # - videoLink: 
     - cols:
         - content: "11.45"
-        - content: "Tiago Prince Sales"
-        - content: "Free University of Bozen-Bolzano"
-        - content: "AlpineBits DestinationData - An ontology-based data exchange standard for tourism"
+        - content: "Speaker 5"
+        - content: "Company"
+        - content: "Talk 5"
         # - slidesLink: 
         # - videoLink: 
     - cols:
         - content: "12.00"
-        - content: "Danilo Pederiva"
-        - content: "Alperia"
-        - content: "Open standards and data exchange for e-mobility"
+        - content: "Speaker 6"
+        - content: "Company"
+        - content: "Talk 6"
         # - slidesLink: 
         # - videoLink:
     - cols:
         - content: "12.15"
-        - content: "Peter Hopfgartner"
-        - content: "Ontopic"
-        - content: "Data Quality of the Open Data Hub and why it is everybody's business"
+        - content: "Speaker 7"
+        - content: "Company"
+        - content: "Talk 7"
         # - slidesLink: 
         # - videoLink: 
     - cols:
         - content: "12.30"
-        - content: "Mattia Rossi"
-        - content: "R Community"
-        - content: "BolzanoR & Open Data Hub. Potential future collaboration between the BolzanoR community and the Open Data Hub"
+        - content: 
+        - content: 
+        - content: "??Discussion round - The future of Open Data Hub??"
         # - slidesLink: 
-        # - videoLink: 
-    - cols:
-        - content: "12.45"
-        - content: "Antonietta De Santis"
-        - content: "IDM Südtirol - Alto Adige"
-        - content: "IDM - A real case study"
-        # - slidesLink: 
-        # - videoLink: 
+        # - videoLink:  
     - cols:
         - content: "13.00"
-        - content: 
-        - content: 
-        - content: "Discussion round - The future of Open Data Hub"
-        # - content: " "
-        # - videoLink: 
-    - cols:
-        - content: "13.30"
         - content: " "
         - content: " "
         - content: "Lunch"

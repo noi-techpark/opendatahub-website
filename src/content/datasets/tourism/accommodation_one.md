@@ -2,7 +2,7 @@
 position: "Datasets"
 
 title: "Accommodation (1)"
-img: "/img/dataset-accommodation-1.jpg"
+img: "/img/datasets/dataset-accommodation-1.jpg"
 
 availability: "open"
 availability_label: "Open Data"

@@ -2,7 +2,7 @@
 position: "Datasets"
 
 title: "Echarging station"
-img: "/img/andrew-roberts-2JvEjF0tf50-unsplash.png"
+img: "/img/datasets/andrew-roberts-2JvEjF0tf50-unsplash.png"
 
 availability: "open"
 availability_label: "Open Data"

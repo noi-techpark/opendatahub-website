@@ -2,7 +2,7 @@
 position: "Datasets"
 
 title: "Creative Industries"
-img: "/img/dataset-creative.jpg"
+img: "/img/datasets/dataset-creative.jpg"
 
 availability: "open"
 availability_label: "Open Data"

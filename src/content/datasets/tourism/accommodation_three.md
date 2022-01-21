@@ -2,7 +2,7 @@
 position: "Datasets"
 
 title: "Accommodation (3)"
-img: "/img/dataset-accommodation-3.jpg"
+img: "/img/datasets/dataset-accommodation-3.jpg"
 
 availability: "closed"
 availability_label: "Closed Data"

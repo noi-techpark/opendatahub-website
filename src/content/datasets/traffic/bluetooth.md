@@ -2,7 +2,7 @@
 position: "Datasets"
 
 title: "Bluetooth"
-img: "/img/dataset-bluetooth.jpg"
+img: "/img/datasets/dataset-bluetooth.jpg"
 
 availability: "partially-closed"
 availability_label: "Partially Closed Data"

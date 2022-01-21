@@ -2,7 +2,7 @@
 position: "Datasets"
 
 title: "Events"
-img: "/img/dataset-events.jpg"
+img: "/img/datasets/dataset-events.jpg"
 
 availability: "open"
 availability_label: "Open Data"

@@ -2,7 +2,7 @@
 position: "Datasets"
 
 title: "NOI Place"
-img: "/img/idm-noi-techpark.jpg"
+img: "/img/datasets/idm-noi-techpark.jpg"
 
 availability: "open"
 availability_label: "Open Data"

@@ -4,115 +4,115 @@ providers:
   subtitle: These Companies and Organisations are official Data Providers for the Open Data Hub and share data with others, to enable the implementation of innovative digital solutions.
   item:
     - name: Autostrada del Brennero SpA
-      img: "img/a22.png"
+      img: "img/community/a22.png"
       link: https://www.autobrennero.it/
 
     - name: Alperia SpA
-      img: "img/alperia.png"
+      img: "img/community/alperia.png"
       link: https://www.alperia.eu/
 
     - name: Autonomous Province of Bolzano/Bozen
-      img: "img/pab.png"
+      img: "img/community/pab.png"
       link: http://provincia.bz.it
 
     - name: Autonomous Province of Trento
-      img: "img/ProvinciaTrento.png"
+      img: "img/community/ProvinciaTrento.png"
       link: http://www.provincia.tn.it/
 
     - name: Car Sharing Südtirol Alto Adige
-      img: "img/carSharingAA.png"
+      img: "img/community/carSharingAA.png"
       link: https://www.carsharing.bz.it/
 
     - name: Comunità Comprensoriale Burgraviato
-      img: "img/bzbga.png"
+      img: "img/community/bzbga.png"
       link: https://www.bzgbga.it/it
 
     - name: DolomitiSuperski
-      img: "img/dolomitisuperski.png"
+      img: "img/community/dolomitisuperski.png"
       link: https://www.dolomitisuperski.com/
 
     - name: DRIN
-      img: "img/DRIN.png"
+      img: "img/community/DRIN.png"
       link: http://www.provincia.bz.it/arte-cultura/giovani/drin.asp
 
     - name: Driwe
-      img: "img/driwe.png"
+      img: "img/community/driwe.png"
       link: https://www.driwe.eu/
 
     - name: Ecospazio
-      img: "img/ecospazio.png"
+      img: "img/community/ecospazio.png"
       link: https://www.ecospazio.it
 
     - name: H2 South Tyrol
-      img: "img/h2st.png"
+      img: "img/community/h2st.png"
       link: https://www.h2-suedtirol.com/
 
     - name: HGV
-      img: "img/hgv.png"
+      img: "img/community/hgv.png"
       link: https://www.hgv.it/
 
     - name: IDM Südtirol/Alto Adige
-      img: "img/IDM.png"
+      img: "img/community/IDM.png"
       link: http://idm-suedtirol.com
 
     - name: Inno.vie
-      img: "img/innovie.png"
+      img: "img/community/innovie.png"
       link: http://www.innovie.it/s
 
     - name: johnOS
-      img: "img/johnos.png"
+      img: "img/community/johnos.png"
       link: https://www.johnosproject.org/docs/references/jod_dists/jod_aa_odh/
 
     - name: LTS
-      img: "img/lts.png"
+      img: "img/community/lts.png"
       link: https://www.lts.it
 
     - name: Municipality of Bolzano/Bozen
-      img: "img/municipalityBolzano.png"
+      img: "img/community/municipalityBolzano.png"
       link: https://www.comune.bolzano.it/
 
     - name: Nevicam
-      img: "img/nevicam.png"
+      img: "img/community/nevicam.png"
       link: https://mobility.nevicam.it/
 
     - name: Municipality of Merano/Meran
-      img: "img/municipalityMerano.png"
+      img: "img/community/municipalityMerano.png"
       link: https://www.comune.merano.bz.it/
 
     - name: Municipality of Rovereto
-      img: "img/municipalityRovereto.png"
+      img: "img/community/municipalityRovereto.png"
       link: https://www.comune.rovereto.tn.it/
 
     - name: Municipality of Trento
-      img: "img/municipalityTrento.png"
+      img: "img/community/municipalityTrento.png"
       link: https://www.comune.trento.it/
 
     - name: NOI S.p.A.
-      img: "img/NOI_1_BK_Com.png"
+      img: "img/community/NOI_1_BK_Com.png"
       link: https://noi.bz.it
 
     - name: Papin Sport
-      img: "img/papinSport.png"
+      img: "img/community/papinSport.png"
       link: https://www.papinsport.com/
 
     - name: Route 220
-      img: "img/route220.png"
+      img: "img/community/route220.png"
       link: https://evway.net/
 
     - name: STA
-      img: "img/sta.png"
+      img: "img/community/sta.png"
       link: https://sta.bz.it
 
     - name: Südtirol Wein
-      img: "img/suedtirolWein.png"
+      img: "img/community/suedtirolWein.png"
       link: https://www.vinialtoadige.com/
     
     - name: TreviLab
-      img: "img/TreviLab.png"
+      img: "img/community/TreviLab.png"
       link: http://www.provinz.bz.it/arte-cultura/cultura/centro-trevi.asp
 
     - name: VION
-      img: "img/VION.png"
+      img: "img/community/VION.png"
       link: https://www.vion.bz.it/
 
 ########################### Data consumers #########################
@@ -121,79 +121,79 @@ consumers:
   subtitle: These Companies and Organizations are official Data Consumers of the Open Data Hub and use the data to implement innovative digital solutions for a SMART Green Region.
   item:
     - name: Brixen Tourismus Gen
-      img: "img/BrixenTourism.png"
+      img: "img/community/BrixenTourism.png"
       link: https://www.brixen.org     
  
     - name: Catch Solve Srl
-      img: "img/CatchSolve.png"
+      img: "img/community/CatchSolve.png"
       link: https://www.catch-solve.tech/
       
     - name: CISMA Srl
-      img: "img/cisma.png"
+      img: "img/community/cisma.png"
       link: http://www.cisma.it/
 
     - name: Consisto GmbH
-      img: "img/consisto-Logo.png"
+      img: "img/community/consisto-Logo.png"
       link: https://www.consisto.it/
       
     - name: Destination Srl
-      img: "img/destination.png"
+      img: "img/community/destination.png"
       link: http://www.destinationsrl.it/
     
     - name: Eurac Research
-      img: "img/eurac.png"
+      img: "img/community/eurac.png"
       link: https://www.eurac.edu/
     
     - name: IDM Südtirol/Alto Adige
-      img: "img/IDM.png"
+      img: "img/community/IDM.png"
       link: http://idm-suedtirol.com
 
     - name: Marketing Factory
-      img: "img/MarketingFactory.png"
+      img: "img/community/MarketingFactory.png"
       link: https://www.marketingfactory.it
 
     - name: NOI S.p.A.
-      img: "img/NOI_1_BK_Com.png"
+      img: "img/community/NOI_1_BK_Com.png"
       link: https://noi.bz.it
 
     - name: Ontopic
-      img: "img/Ontopic.png"
+      img: "img/community/Ontopic.png"
       link: https://ontopic.biz/
 
     - name: Peer
-      img: "img/peer.png"
+      img: "img/community/peer.png"
       link: https://www.peer.biz/
       
     - name: Reactive Software
-      img: "img/ReactiveSoftware.png"
+      img: "img/community/ReactiveSoftware.png"
       link: https://snowmaps3d.com/snow/index_en.html      
       
     - name: STA
-      img: "img/sta.png"
+      img: "img/community/sta.png"
       link: https://sta.bz.it
       
     - name: Hotel Schwarzenstein
-      img: "img/hotelSchwarzenstein.png"
+      img: "img/community/hotelSchwarzenstein.png"
       link: https://www.schwarzenstein.com/
 
     - name: Taste of Itlay - confesercenti
-      img: "img/confesercenti-TasteOfItaly.png"
+      img: "img/community/confesercenti-TasteOfItaly.png"
       link: http://www.tasteofitaly.bz.it/
 
     - name: Trentino Holidays
-      img: "img/trentinoHolidays.png"
+      img: "img/community/trentinoHolidays.png"
       link: https://www.thol.it/
       
     - name: XLbit
-      img: "img/xlbit.png"
+      img: "img/community/xlbit.png"
       link: https://www.xlbit.com/
 
     - name: Yanovis
-      img: "img/yanovis.png"
+      img: "img/community/yanovis.png"
       link: https://www.yanovis.com/
 
     - name: Wispers.at
-      img: "img/whispers.png"
+      img: "img/community/whispers.png"
       link: https://www.whispers.at/
 
 
@@ -203,19 +203,19 @@ developers:
   subtitle: Open Data Hub supports the implementation of an **innovative platform**, where talents can **use data and create innovative solutions** for a SMART Green Region.
   item:
     - name: Autostrada del Brennero SpA
-      img: "img/a22.jpeg"
+      img: "img/community/a22.jpeg"
       link: https://www.autobrennero.it/
 
     - name: Alperia SpA
-      img: "img/alperia.png"
+      img: "img/community/alperia.png"
       link: https://www.alperia.eu/
 
     - name: Autonomous Province of Bolzano/Bozen
-      img: "img/pab.png"
+      img: "img/community/pab.png"
       link: http://provincia.bz.it
 
     - name: Autonomous Province of Trento
-      img: "img/ProvinciaTrento.png"
+      img: "img/community/ProvinciaTrento.png"
       link: http://www.provincia.tn.it/
 
 
@@ -225,7 +225,7 @@ team:
   item:
     - name: Patrick Ohnewein
       position: Team Leader
-      img: "img/PatrickOhnewein.jpg"
+      img: "img/experts/PatrickOhnewein.jpg"
       company: NOI Techpark Südtirol - Alto Adige
       email: "https://www.facebook.com/patrick.ohnewein"
       facebook: "https://www.facebook.com/patrick.ohnewein"
@@ -236,7 +236,7 @@ team:
 
     - name: Patrick Ohnewein
       position: Team Leader
-      img: "img/PatrickOhnewein.jpg"
+      img: "img/experts/PatrickOhnewein.jpg"
       company: NOI Techpark Südtirol - Alto Adige
       facebook: "https://www.facebook.com/patrick.ohnewein"
       twitter: "https://twitter.com/ohnewein"
@@ -245,5 +245,5 @@ team:
 
     - name: Patrick Ohnewein
       position: Team Leader
-      img: "img/PatrickOhnewein.jpg"
+      img: "img/experts/PatrickOhnewein.jpg"
       company: NOI Techpark Südtirol - Alto Adige

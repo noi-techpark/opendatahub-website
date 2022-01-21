@@ -2,7 +2,7 @@
 position: "Datasets"
 
 title: "Bikesharing"
-img: "/img/dataset-bikesharing.jpg"
+img: "/img/datasets/dataset-bikesharing.jpg"
 
 availability: "open"
 availability_label: "Open Data"

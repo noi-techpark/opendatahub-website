@@ -2,7 +2,7 @@
 position: "Datasets"
 
 title: "Article"
-img: "/img/dataset-article.jpg"
+img: "/img/datasets/dataset-article.jpg"
 
 availability: "open"
 availability_label: "Open Data"

@@ -2,7 +2,7 @@
 position: "Datasets"
 
 title: "Venue"
-img: "/img/dataset-venue.jpg"
+img: "/img/datasets/dataset-venue.jpg"
 
 availability: "tobe-opened"
 availability_label: "Data to be Opened"

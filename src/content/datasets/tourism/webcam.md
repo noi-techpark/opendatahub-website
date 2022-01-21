@@ -2,7 +2,7 @@
 position: "Datasets"
 
 title: "Webcam"
-img: "/img/dataset-webcam.jpg"
+img: "/img/datasets/dataset-webcam.jpg"
 
 availability: "open"
 availability_label: "Open Data"

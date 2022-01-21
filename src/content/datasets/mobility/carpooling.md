@@ -2,7 +2,7 @@
 position: "Datasets"
 
 title: "Carpooling"
-img: "/img/andrew-slifkin-2lp_2jtZAsg-unsplash.png"
+img: "/img/datasets/andrew-slifkin-2lp_2jtZAsg-unsplash.png"
 
 availability: "open"
 availability_label: "Open Data"
