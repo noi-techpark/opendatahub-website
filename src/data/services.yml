@@ -1,6 +1,6 @@
 ################################# Services #########################
 row_one:
-  title: "**Data sharing**: we help to share you data online."
+  title: "**Data sharing**: we help to share your data online."
   description: We help companies to give **visibility** to their data, **identify suitable formats**, processing algorithms and **licenses** and to use technologies known by application developers.
   ##btn_link: "/start?contact-reason=data-sharing"
   ##btn_label: Contact us
