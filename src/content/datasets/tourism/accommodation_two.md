@@ -2,7 +2,7 @@
 position: "Datasets"
 
 title: "Accommodation (2)"
-img: "/img/dataset-accommodation-2.jpg"
+img: "/img/datasets/dataset-accommodation-2.jpg"
 
 availability: "partially-closed"
 availability_label: "Partially Closed Data"

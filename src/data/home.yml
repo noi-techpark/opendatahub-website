@@ -20,19 +20,19 @@ offset_images:
 
 community:
   title: "Who is already **on board**?"
-  img_one: "img/alperia.png"
+  img_one: "img/community/alperia.png"
   img_one_name: Alperia SpA
   img_one_link: https://www.alperia.eu/
-  img_two: "img/cisma.png"
+  img_two: "img/community/cisma.png"
   img_two_name: CISMA Srl
   img_two_link: http://www.cisma.it
-  img_three: "img/a22.jpeg"
+  img_three: "img/community/a22.png"
   img_three_name: Autostrada del Brennero SpA
   img_three_link: https://www.autobrennero.it/
-  img_four: "img/MarketingFactory.png"
+  img_four: "img/community/MarketingFactory.png"
   img_four_name: Marketing Factory
   img_four_link: https://www.marketingfactory.it
-  img_five: "img/sta.png"
+  img_five: "img/community/sta.png"
   img_five_name: STA
   img_five_link: https://sta.bz.it
   btn_link: "/community"

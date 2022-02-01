@@ -2,7 +2,7 @@
 position: "Datasets"
 
 title: "Parking"
-img: "/img/dataset-parking.jpg"
+img: "/img/datasets/dataset-parking.jpg"
 
 availability: "open"
 availability_label: "Open data"

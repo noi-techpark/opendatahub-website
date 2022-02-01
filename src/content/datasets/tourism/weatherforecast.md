@@ -2,7 +2,7 @@
 position: "Datasets"
 
 title: "Weather forecast"
-img: "/img/dataset-environment.jpg"
+img: "/img/datasets/dataset-environment.jpg"
 
 availability: "open"
 availability_label: "Open Data"

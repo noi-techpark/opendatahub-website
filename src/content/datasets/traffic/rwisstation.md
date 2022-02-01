@@ -2,7 +2,7 @@
 position: "Datasets"
 
 title: "RWIS station"
-img: "/img/dataset-rwis.jpg"
+img: "/img/datasets/dataset-rwis.jpg"
 
 availability: "partially-closed"
 availability_label: "Partially Closed Data"

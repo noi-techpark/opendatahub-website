@@ -2,7 +2,7 @@
 position: "Datasets"
 
 title: "Activities & Pois (4)"
-img: "/img/dataset-activities-4.jpg"
+img: "/img/datasets/dataset-activities-4.jpg"
 
 availability: "open"
 availability_label: "Open Data"

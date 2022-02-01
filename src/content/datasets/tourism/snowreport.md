@@ -2,7 +2,7 @@
 position: "Datasets"
 
 title: "Snow report"
-img: "/img/dataset-snow.jpg"
+img: "/img/datasets/dataset-snow.jpg"
 
 availability: "open"
 availability_label: "Open Data"

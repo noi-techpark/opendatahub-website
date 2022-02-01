@@ -2,7 +2,7 @@
 position: "Datasets"
 
 title: "Location & Common (3)"
-img: "/img/dataset-location-3.jpg"
+img: "/img/datasets/dataset-location-3.jpg"
 
 availability: "open"
 availability_label: "Open Data"

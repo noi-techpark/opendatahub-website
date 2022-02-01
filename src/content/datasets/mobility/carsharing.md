@@ -2,7 +2,7 @@
 position: "Datasets"
 
 title: "Carsharing"
-img: "/img/Carsharing-3-1.jpg"
+img: "/img/datasets/Carsharing-3-1.jpg"
 
 availability: "open"
 availability_label: "Open Data"

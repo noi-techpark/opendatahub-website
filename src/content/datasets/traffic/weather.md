@@ -2,7 +2,7 @@
 position: "Datasets"
 
 title: "Weather"
-img: "/img/dataset-environment.jpg"
+img: "/img/datasets/dataset-environment.jpg"
 img_alt: "sfscon"
 
 availability: "open"
