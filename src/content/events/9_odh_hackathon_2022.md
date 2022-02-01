@@ -1,0 +1,14 @@
+---
+title: "NOI Hackathon - Open Data Hub Edition"
+img: "/img/events/webinar3.jpg"
+img_alt: "event"
+
+day: "2022-05-20"
+time: "14:30"
+location: "Online"
+
+button_link: "https://hackathon.bz.it/"
+button_label: "More info & Registration"
+---
+
+2 days, 24 hours, different topics to work on, one jury and amazing prizes.
