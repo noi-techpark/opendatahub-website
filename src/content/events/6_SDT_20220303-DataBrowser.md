@@ -1,5 +1,5 @@
 ---
-title: "Open Data Hub | The new Data Browser"
+title: "Software Developers' Thursday | March"
 img: "/img/events/20220303-sdt-dataBrowser.png"
 img_alt: "event"
 
@@ -11,4 +11,4 @@ button_link: "https://www.eventbrite.it/e/biglietti-open-data-hub-the-new-data-b
 button_label: "More info & Registration"
 ---
 
-Our developer community monthly meet-up is back again.
+Open Data Hub | The new Data Browser
