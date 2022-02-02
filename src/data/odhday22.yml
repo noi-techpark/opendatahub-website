@@ -4,126 +4,128 @@ program:
 
 content:
   title: Pricing
-  header:
-    - title: 
-      width: 5%
-    - title: Speaker
-      width: 15%
-    - title: Company
-      width: 20%
-    - title: Title
-      width: 65%
+  btn_top_link: "https://pretalx.com/open-data-hub-day-2022/cfp"
+  btn_top_label: "Call4Speaker"
+#  header:
+#    - title: 
+#      width: 5%
+#    - title: Speaker
+#      width: 15%
+#   - title: Company
+#      width: 20%
+#    - title: Title
+#      width: 65%
     # - title: " "
     #   width: 5%
     # - title: " "
     #   width: 5%  
-  row:
-    - cols:
-        - content: "8.30"
-        - content: " "
-        - content: " "
-        - content: "Check-in starting at 8.30"
+#  row:
+#    - cols:
+#        - content: "8.30"
+#        - content: " "
+#        - content: " "
+#        - content: "Check-in starting at 8.30"
+#        # - content:
         # - content:
-        # - content:
-    - cols:
-        - content: "9.00"
-        - content: "Vincent Mauroit"
-        - content: "NOI Techpark"
-        - content: Opening by NOI
+#    - cols:
+#        - content: "9.00"
+#        - content: "Vincent Mauroit"
+#        - content: "NOI Techpark"
+#        - content: Opening by NOI
         # - content: " "
         # - videoLink: 
-    - cols:
-        - content: "9.05"
-        - content: "Patrick Ohnewein"
-        - content: "NOI Techpark"
-        - content: Update about the Open Data Hub Project
+#    - cols:
+#        - content: "9.05"
+#        - content: "Patrick Ohnewein"
+#        - content: "NOI Techpark"
+#        - content: Update about the Open Data Hub Project
         # - slidesLink: 
         # - videoLink: 
-    - cols:
-        - content: "9.15"
-        - content: "Keynote 1"
-        - content: "Company"
-        - content: "Main talk - Mobility domain"
+#    - cols:
+#        - content: "9.15"
+#        - content: "Keynote 1"
+#        - content: "Company"
+#        - content: "Main talk - Mobility domain"
         # - slidesLink: 
         # - videoLink: 
-    - cols:
-        - content: "9.45"
-        - content: "Speaker 1"
-        - content: "Company"
-        - content: "Talk 1"
+#    - cols:
+#        - content: "9.45"
+#        - content: "Speaker 1"
+#        - content: "Company"
+#        - content: "Talk 1"
         # - slidesLink: 
         # - videoLink: 
-    - cols:
-        - content: "10.00"
-        - content: "Speaker 2"
-        - content: "Company"
-        - content: "Talk 2"
+#    - cols:
+#        - content: "10.00"
+#        - content: "Speaker 2"
+#        - content: "Company"
+#        - content: "Talk 2"
         # - slidesLink: 
         # - videoLink: 
-    - cols:
-        - content: "10.15"
-        - content: "Speaker 3"
-        - content: "Company"
-        - content: "Talk 3"
+#    - cols:
+#        - content: "10.15"
+#        - content: "Speaker 3"
+#        - content: "Company"
+#        - content: "Talk 3"
         # - slidesLink: 
         # - videoLink: 
-    - cols:
-        - content: "10.30"
-        - content: " "
-        - content: " "
-        - content: "Coffee Break"
+#    - cols:
+#        - content: "10.30"
+#       - content: " "
+#      - content: " "
+#        - content: "Coffee Break"
         # - content: " "
         # - content: " "
-    - cols:
-        - content: "11.00"
-        - content: "Keynote 2"
-        - content: "Company"
-        - content: "Main talk - Tourism domain"
+#    - cols:
+#        - content: "11.00"
+#        - content: "Keynote 2"
+#        - content: "Company"
+#        - content: "Main talk - Tourism domain"
         # - slidesLink: 
         # - videoLink: 
-    - cols:
-        - content: "11.30"
-        - content: "Speaker 4"
-        - content: "Company"
-        - content: "Talk 4"
+#    - cols:
+#        - content: "11.30"
+#       - content: "Speaker 4"
+#      - content: "Company"
+#        - content: "Talk 4"
         # - slidesLink: 
         # - videoLink: 
-    - cols:
-        - content: "11.45"
-        - content: "Speaker 5"
-        - content: "Company"
-        - content: "Talk 5"
+#    - cols:
+#        - content: "11.45"
+#        - content: "Speaker 5"
+#        - content: "Company"
+#        - content: "Talk 5"
         # - slidesLink: 
         # - videoLink: 
-    - cols:
-        - content: "12.00"
-        - content: "Speaker 6"
-        - content: "Company"
-        - content: "Talk 6"
+#    - cols:
+#        - content: "12.00"
+#        - content: "Speaker 6"
+#        - content: "Company"
+#        - content: "Talk 6"
         # - slidesLink: 
         # - videoLink:
-    - cols:
-        - content: "12.15"
-        - content: "Speaker 7"
-        - content: "Company"
-        - content: "Talk 7"
+#    - cols:
+#        - content: "12.15"
+#        - content: "Speaker 7"
+#        - content: "Company"
+#        - content: "Talk 7"
         # - slidesLink: 
         # - videoLink: 
-    - cols:
-        - content: "12.30"
-        - content: 
-        - content: 
-        - content: "??Discussion round - The future of Open Data Hub??"
+#    - cols:
+#        - content: "12.30"
+#        - content: 
+#        - content: 
+#        - content: "??Discussion round - The future of Open Data Hub??"
         # - slidesLink: 
         # - videoLink:  
-    - cols:
-        - content: "13.00"
-        - content: " "
-        - content: " "
-        - content: "Lunch"
+#    - cols:
+#        - content: "13.00"
+#        - content: " "
+#        - content: " "
+#        - content: "Lunch"
         # - content: " "
         # - content: " "
 
-  btn_link: https://registration.noi.bz.it/event/sessions?id=Open_Data_Hub_Day1353828528
-  btn_label: Registration
+  btn_down_link: "https://pretalx.com/open-data-hub-day-2022/cfp"
+  btn_down_label: "Registration"
   
