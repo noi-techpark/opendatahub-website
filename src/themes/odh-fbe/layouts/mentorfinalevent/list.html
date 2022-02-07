@@ -1,0 +1,14 @@
+{{ define "main" }}
+
+{{ partial "nav.html" . }}
+
+{{ partial "title.html" .Params }}
+
+<section class="bg-darker">
+
+	{{ partial "title-section.html" site.Data.mentorfinalevent.program }}
+	{{ partial "table-program" site.Data.mentorfinalevent.content }}
+	
+</section>
+
+{{ end }}

@@ -45,8 +45,47 @@ To start a local webserver that serves the project, simply run the following com
 ```bash
 hugo server -s src
 ```
-
 The website will be available at [http://127.0.0.1:1313](http://127.0.0.1:1313). It also recompiles automatically if you make any change to the source code.
+
+### Add a new event
+
+This section explains how to create a new event in the Open Data Hub website.
+
+#### Simple Event that links outside
+
+To add an event box in the Event section of the website you have to add an .md file in the /src/content/events folder.
+The .md file should contain the following information:
+t
+itle: "Title of the event"
+img: "/img/events/eventImage.jpg"
+img_alt: "event"
+day: "yyyy-mm-dd"
+time: "hh:mm"
+location: "Location name"
+button_link: "link to the event website"
+button_label: "label of the button"
+
+Moreover the .md file should contain also a short description of the event.
+
+#### Complex event with Programm page
+
+To add a new event page that includes more info you have to do the following steps:
+- create a folder with the name of the event in the folder /src/content/ (for the content of the folder yuo can use the odhday and odhday22 as example and change it accordingly to your needs)
+- in the .md file in the folder /src/content/eventname/ put the name of the folder in the "position file"
+- create a folder with the name of the event in the folder /src/themes/odh-fbe/layouts (for the content of the folder yuo can use the odhday and odhday22 as example and change it accordingly to your needs)
+- in lhe list.html file in the folder /src/themes/odh-fbe/layouts/eventname/ put the folder name in the following lines
+
+```
+<section class="bg-darker">
+
+	{{ partial "title-section.html" site.Data.foldername.program }}
+	{{ partial "table-program" site.Data.foldername.content }}
+	
+</section>
+```
+
+- create a file .yml in the folder /src/data. Please note that the file should be named like the two folder you have created in the previous oints (for the content of the folder yuo can use the odhday and odhday22 as example and change it accordingly to your needs)
+**Note** Don't use capitol letter in the naming of files and folders
 
 ## Deployment
 
