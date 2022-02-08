@@ -1,0 +1,85 @@
+name: CI/CD
+
+on:
+  push:
+  pull_request:
+
+env:
+  AWS_REGION : "eu-west-1"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: clone into repo
+        uses: actions/checkout@v2
+
+      - name: install hugo
+        run: sudo apt-get install hugo
+
+      - name: setup hugo
+        run: hugo -s src -d ../target
+    
+  deploy-test:
+    runs-on: ubuntu-20.04
+    if: github.ref == 'refs/heads/main'
+    needs: test
+    concurrency: deploy-test
+    env:
+      AWS_S3_BUCKET_NAME : 'it.bz.opendatahub.test'
+      MAIL_CLIENT: 'https://mailclient.opendatahub.bz.it/contact'
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v2
+
+      - name: Install hugo
+        run: sudo apt-get install hugo
+        
+      - name: Configuration hugo
+        run: sed -i -e "s%https://example.com%${{env.MAIL_CLIENT}}%g" src/themes/odh-fbe/static/js/main.js
+
+      - name: Build hugo
+        run: hugo -s src -d ../target
+
+      - name: Sync to S3 bucket
+        uses: noi-techpark/github-actions/aws-s3-bucket-sync@v2
+        with:
+          access-key-id: ${{ secrets.AWS_S3_ACCESS_KEY_ID }}
+          secret-access-key: ${{ secrets.AWS_S3_SECRET_ACCESS_KEY }}
+          region: ${{ env.AWS_REGION }}
+          s3-bucket-name: ${{ env.AWS_S3_BUCKET_NAME }}
+          folder: ./target
+
+  deploy-prod:
+    runs-on: ubuntu-20.04
+    if: github.ref == 'refs/heads/prod'
+    needs: test
+    concurrency: deploy-prod
+    env:
+      AWS_S3_BUCKET_NAME : 'it.bz.geobank'
+      HUGO_GOOGLEANALYTICS: 'UA-138331709-1'
+      MAIL_CLIENT: 'https://mailclient.opendatahub.bz.it/contact'
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v2
+
+      - name: Install hugo
+        run: sudo apt-get install hugo
+
+      - name: Configuration hugo
+        run: |
+          sed -i -e "s%https://example.com%${{env.MAIL_CLIENT}}%g" src/themes/odh-fbe/static/js/main.js
+          sed -i -e "s/UA-XXXXXXXX-1/${{env.HUGO_GOOGLEANALYTICS}}/g" src/themes/odh-fbe/static/js/cookie.js
+
+      - name: Build hugo
+        run: hugo -s src -d ../target
+
+      - name: Sync to S3 bucket
+        uses: noi-techpark/github-actions/aws-s3-bucket-sync@v2
+        with:
+          access-key-id: ${{ secrets.AWS_S3_ACCESS_KEY_ID }}
+          secret-access-key: ${{ secrets.AWS_S3_SECRET_ACCESS_KEY }}
+          region: ${{ env.AWS_REGION }}
+          s3-bucket-name: ${{ env.AWS_S3_BUCKET_NAME }}
+          folder: ./target
