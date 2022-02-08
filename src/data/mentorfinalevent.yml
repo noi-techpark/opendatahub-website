@@ -1,7 +1,6 @@
 program:
   title: "Towards a Mobility-as-a-Service in rural alpine areas - Programm"
-  subtitle: " At the closing event on January 26, 2022, it has been shared the results of this work. It was a great opportunity to know the pilot projects, to get an idea of our strategies in the Alpine region in terms of
-MaaS and to find out what are the next steps to take! You couldn't attend to the event? Don't worry below you can find the link to the talks and the slides. The event has been held in Italian and German accordingly to the mother language of the speaker."
+  subtitle: "At the closing event on 26th January 26, 2022, we shared the results with all interested parties. It was a great opportunity to learn about the pilot projects, to get an idea of our position in the Alpine region in terms of MaaS and to find out what the next steps are. If you couldn’t attend the event, don’t worry! Below you can find the link to the talks and the slides. The event was held in Italian and in German, according to the mother tongue of the speaker."
 
 content:
   title: Pricing
@@ -34,7 +33,7 @@ content:
         - content: "14.05"
         - content: "Monica Mucci"
         - content: "Interreg IT-CH"
-        - content: Saluto istituzionali
+        - content: Saluti istituzionali
         - content: " "
         - videoLink: "https://www.youtube.com/watch?v=SjLVH-40J0o&t=338s"
     - cols:
