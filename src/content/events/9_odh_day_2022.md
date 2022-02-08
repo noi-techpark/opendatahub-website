@@ -1,6 +1,6 @@
 ---
 title: "Open Data Hub Day - 2022"
-img: "/img/events/sfscon_2019.jpg"
+img: "/img/events/20220520-odhday22.jpg"
 img_alt: "event"
 
 day: "2022-05-20"
