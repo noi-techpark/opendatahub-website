@@ -2,7 +2,7 @@
 
 Repository for the [Open Data Hub](https://opendatahub.bz.it/) website created with [Hugo](https://gohugo.io/).
 
-[![CI](https://github.com/noi-techpark/opendatahub-website/actions/workflows/ci.yml/badge.svg)](https://github.com/noi-techpark/opendatahub-website/actions/workflows/ci.yml)
+[![CI/CD](https://github.com/noi-techpark/opendatahub-website/actions/workflows/main.yml/badge.svg)](https://github.com/noi-techpark/opendatahub-website/actions/workflows/main.yml)
 
 ## Table of contents
 
