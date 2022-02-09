@@ -29,6 +29,7 @@ jobs:
     env:
       AWS_S3_BUCKET_NAME : 'it.bz.opendatahub.test'
       MAIL_CLIENT: 'https://mailclient.opendatahub.bz.it/contact'
+      HUGO_BASEURL: 'https://opendatahub.testingmachine.eu/'
     steps:
       - name: Checkout source code
         uses: actions/checkout@v2
@@ -37,8 +38,10 @@ jobs:
         run: sudo apt-get install hugo
         
       - name: Configuration hugo
-        run: sed -i -e "s%https://example.com%${{env.MAIL_CLIENT}}%g" src/themes/odh-fbe/static/js/main.js
-
+        run: | 
+          sed -i -e "s%https://example.com%${{env.MAIL_CLIENT}}%g" src/themes/odh-fbe/static/js/main.js
+          sed -i -e "s%https://example.com%${{env.HUGO_BASEURL}}%g" src/config.toml
+          
       - name: Build hugo
         run: hugo -s src -d ../target
 
@@ -60,6 +63,7 @@ jobs:
       AWS_S3_BUCKET_NAME : 'it.bz.geobank'
       HUGO_GOOGLEANALYTICS: 'UA-138331709-1'
       MAIL_CLIENT: 'https://mailclient.opendatahub.bz.it/contact'
+      HUGO_BASEURL: 'https://opendatahub.bz.it/'
     steps:
       - name: Checkout source code
         uses: actions/checkout@v2
@@ -71,6 +75,7 @@ jobs:
         run: |
           sed -i -e "s%https://example.com%${{env.MAIL_CLIENT}}%g" src/themes/odh-fbe/static/js/main.js
           sed -i -e "s/UA-XXXXXXXX-1/${{env.HUGO_GOOGLEANALYTICS}}/g" src/themes/odh-fbe/static/js/cookie.js
+          sed -i -e "s%https://example.com%${{env.HUGO_BASEURL}}%g" src/config.toml
 
       - name: Build hugo
         run: hugo -s src -d ../target
