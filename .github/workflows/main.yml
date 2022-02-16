@@ -63,7 +63,7 @@ jobs:
       AWS_S3_BUCKET_NAME : 'it.bz.geobank'
       HUGO_GOOGLEANALYTICS: 'UA-138331709-1'
       MAIL_CLIENT: 'https://mailclient.opendatahub.bz.it/contact'
-      HUGO_BASEURL: 'https://opendatahub.bz.it/'
+      HUGO_BASEURL: 'https://opendatahub.com/'
     steps:
       - name: Checkout source code
         uses: actions/checkout@v2
