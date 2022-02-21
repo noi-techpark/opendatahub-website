@@ -8,7 +8,7 @@ time: "17:00 - 18:30"
 location: "Online"
 
 button_link: "https://youtu.be/i1ZjWzVxCMk"
-button_label: "Video & Slides"
+button_label: "Video"
 ---
 
 What is Open Data Hub? And how could your company benefit from it?
