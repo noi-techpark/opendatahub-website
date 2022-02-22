@@ -8,6 +8,7 @@ Repository for the [Open Data Hub](https://opendatahub.com/) website created wit
 
 - [Gettings started](#getting-started)
 - [Deployment](#deployment)
+- [New event]()
 - [Docker environment](#docker-environment)
 - [Information](#information)
 
