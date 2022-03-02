@@ -59,10 +59,6 @@ providers:
       img: "img/community/innovie.png"
       link: http://www.innovie.it/s
 
-    - name: johnOS
-      img: "img/community/johnos.png"
-      link: https://www.johnosproject.org/docs/references/jod_dists/jod_aa_odh/
-
     - name: LTS
       img: "img/community/lts.png"
       link: https://www.lts.it
@@ -147,6 +143,10 @@ consumers:
     - name: IDM Südtirol/Alto Adige
       img: "img/community/IDM.png"
       link: http://idm-suedtirol.com
+
+    - name: johnOS
+      img: "img/community/johnos.png"
+      link: https://www.johnosproject.org/docs/references/jod_dists/jod_aa_odh/
 
     - name: Marketing Factory
       img: "img/community/MarketingFactory.png"
