@@ -4,125 +4,125 @@ program:
 
 content:
   title: Pricing
-  btn_top_link: "https://pretalx.com/open-data-hub-day-2022/cfp"
-  btn_top_label: "Call4Speaker"
-#  header:
-#    - title: 
-#      width: 5%
-#    - title: Speaker
-#      width: 15%
-#   - title: Company
-#      width: 20%
-#    - title: Title
-#      width: 65%
+  btn_top_link: "https://registration.noi.bz.it/event/sessions?id=Open_Data_Hub_Day728931294"
+  btn_top_label: "Registration"
+  header:
+    - title: 
+      width: 5%
+    - title: Speaker
+      width: 15%
+    - title: Company
+      width: 20%
+    - title: Title
+      width: 65%
     # - title: " "
     #   width: 5%
     # - title: " "
     #   width: 5%  
-#  row:
-#    - cols:
-#        - content: "8.30"
-#        - content: " "
-#        - content: " "
-#        - content: "Check-in starting at 8.30"
-#        # - content:
+  row:
+    - cols:
+        - content: "8.30"
+        - content: " "
+        - content: " "
+        - content: "Check-in starting at 8.30"
         # - content:
-#    - cols:
-#        - content: "9.00"
-#        - content: "Vincent Mauroit"
-#        - content: "NOI Techpark"
-#        - content: Opening by NOI
+        # - content:
+    - cols:
+        - content: "9.00"
+        - content: "Vincent Mauroit"
+        - content: "NOI Techpark"
+        - content: Opening by NOI
         # - content: " "
         # - videoLink: 
-#    - cols:
-#        - content: "9.05"
-#        - content: "Patrick Ohnewein"
-#        - content: "NOI Techpark"
-#        - content: Update about the Open Data Hub Project
+    - cols:
+        - content: "9.15"
+        - content: "Patrick Ohnewein"
+        - content: "NOI Techpark"
+        - content: Update about the Open Data Hub Project
         # - slidesLink: 
         # - videoLink: 
-#    - cols:
-#        - content: "9.15"
-#        - content: "Keynote 1"
-#        - content: "Company"
-#        - content: "Main talk - Mobility domain"
+    - cols:
+        - content: "9.30"
+        - content: "Roberto Monsorno"
+        - content: "Eurac Research - Center for Sensing Solutions"
+        - content: "Environmental Data Platform as a tool for working with heterogeneous Big Data"
         # - slidesLink: 
         # - videoLink: 
-#    - cols:
-#        - content: "9.45"
-#        - content: "Speaker 1"
-#        - content: "Company"
-#        - content: "Talk 1"
+    - cols:
+        - content: "9.45"
+        - content: "Daniel Senoner"
+        - content: "Dolomiti Superski"
+        - content: "Dolomiti Superski"
         # - slidesLink: 
         # - videoLink: 
-#    - cols:
-#        - content: "10.00"
-#        - content: "Speaker 2"
-#        - content: "Company"
-#        - content: "Talk 2"
+    - cols:
+        - content: "10.00"
+        - content: "Davide Montesin & Chiara Masci"
+        - content: "CatchSolve"
+        - content: "Data quality and monitoring for Open Data Hub"
         # - slidesLink: 
         # - videoLink: 
-#    - cols:
-#        - content: "10.15"
-#        - content: "Speaker 3"
-#        - content: "Company"
-#        - content: "Talk 3"
+    - cols:
+        - content: "10.15"
+        - content: "Giovanni Giannotta & Alessandro Pancani "
+        - content: "FOS SpA & Truckscreenia Srl"
+        - content: "Display with innovative technology connected to the Open Data Hub"
         # - slidesLink: 
         # - videoLink: 
-#    - cols:
-#        - content: "10.30"
-#       - content: " "
-#      - content: " "
-#        - content: "Coffee Break"
+    - cols:
+        - content: "10.30"
+        - content: " "
+        - content: " "
+        - content: "Coffee Break"
         # - content: " "
         # - content: " "
-#    - cols:
-#        - content: "11.00"
-#        - content: "Keynote 2"
-#        - content: "Company"
-#        - content: "Main talk - Tourism domain"
+    - cols:
+        - content: "11.15"
+        - content: "Gianluca Antonacci"
+        - content: "CISMA Srl"
+        - content: "Real time data and motorway traffic management"
         # - slidesLink: 
         # - videoLink: 
-#    - cols:
-#        - content: "11.30"
-#       - content: "Speaker 4"
-#      - content: "Company"
-#        - content: "Talk 4"
+    - cols:
+        - content: "11.30"
+        - content: "Igor Falcomatà"
+        - content: "Enforcer Srl"
+        - content: "IoT vs Cybersecurity"
         # - slidesLink: 
         # - videoLink: 
-#    - cols:
-#        - content: "11.45"
-#        - content: "Speaker 5"
-#        - content: "Company"
-#        - content: "Talk 5"
+    - cols:
+        - content: "11.45"
+        - content: "Markus Granitz"
+        - content: "Bayern Tourismus Marketing GmbH"
+        - content: "Bavarian Tourism Cloud Open Source Strategy"
         # - slidesLink: 
         # - videoLink: 
-#    - cols:
-#        - content: "12.00"
-#        - content: "Speaker 6"
-#        - content: "Company"
-#        - content: "Talk 6"
+    - cols:
+        - content: "12.00"
+        - content: "Andrea Vianello"
+        - content: "Eurac Research - Center for Sensing Solutions"
+        - content: "European Climate and Cultural Atlas for Plus Energy Building Design"
         # - slidesLink: 
         # - videoLink:
-#    - cols:
-#        - content: "12.15"
-#        - content: "Speaker 7"
-#        - content: "Company"
-#        - content: "Talk 7"
+    - cols:
+        - content: "12.15"
+        - content: "Johannes Erschbamer"
+        - content: "KONVERTO AG"
+        - content: "Data-driven decision making in apple cultivation"
         # - slidesLink: 
         # - videoLink: 
-#    - cols:
-#        - content: "12.30"
-#        - content: 
-#        - content: 
-#        - content: "??Discussion round - The future of Open Data Hub??"
+    - cols:
+        - content: "12.30"
+        - content: "Natale Vinto"
+        - content: "Red Hat"
+        - content: "OpenDataHub.io: Open Source Data Science for everyone"
         # - slidesLink: 
-        # - videoLink:  
-#    - cols:
-#        - content: "13.00"
-#        - content: " "
-#        - content: " "
-#        - content: "Lunch"
+        # - videoLink: 
+    - cols:
+        - content: "12.45"
+        - content: " "
+        - content: " "
+        - content: "Lunch"
         # - content: " "
         # - content: " "
 
