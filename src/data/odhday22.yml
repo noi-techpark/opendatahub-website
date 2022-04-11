@@ -44,7 +44,7 @@ content:
     - cols:
         - content: "9.30"
         - content: "Roberto Monsorno"
-        - content: "Eurac Research - Center for Sensing Solutions"
+        - content: "Eurac Research"
         - content: "Environmental Data Platform as a tool for working with heterogeneous Big Data"
         # - slidesLink: 
         # - videoLink: 
@@ -100,7 +100,7 @@ content:
     - cols:
         - content: "12.00"
         - content: "Andrea Vianello"
-        - content: "Eurac Research - Center for Sensing Solutions"
+        - content: "Eurac Research"
         - content: "European Climate and Cultural Atlas for Plus Energy Building Design"
         # - slidesLink: 
         # - videoLink:
