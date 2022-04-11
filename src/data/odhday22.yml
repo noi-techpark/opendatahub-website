@@ -65,7 +65,7 @@ content:
     - cols:
         - content: "10.15"
         - content: "Giovanni Giannotta & Alessandro Pancani "
-        - content: "FOS SpA & Truckscreenia Srl"
+        - content: "FOS & Truckscreenia"
         - content: "Display with innovative technology connected to the Open Data Hub"
         # - slidesLink: 
         # - videoLink: 
@@ -73,27 +73,27 @@ content:
         - content: "10.30"
         - content: " "
         - content: " "
-        - content: "Coffee Break"
+        - content: "Community Coffee Break in the NOI Seminar Area Foaier"
         # - content: " "
         # - content: " "
     - cols:
         - content: "11.15"
         - content: "Gianluca Antonacci"
-        - content: "CISMA Srl"
+        - content: "CISMA"
         - content: "Real time data and motorway traffic management"
         # - slidesLink: 
         # - videoLink: 
     - cols:
         - content: "11.30"
         - content: "Igor Falcomatà"
-        - content: "Enforcer Srl"
+        - content: "Enforcer"
         - content: "IoT vs Cybersecurity"
         # - slidesLink: 
         # - videoLink: 
     - cols:
         - content: "11.45"
         - content: "Markus Granitz"
-        - content: "Bayern Tourismus Marketing GmbH"
+        - content: "Bayern Tourismus Marketing"
         - content: "Bavarian Tourism Cloud Open Source Strategy"
         # - slidesLink: 
         # - videoLink: 
@@ -107,7 +107,7 @@ content:
     - cols:
         - content: "12.15"
         - content: "Johannes Erschbamer"
-        - content: "KONVERTO AG"
+        - content: "KONVERTO"
         - content: "Data-driven decision making in apple cultivation"
         # - slidesLink: 
         # - videoLink: 
@@ -122,7 +122,7 @@ content:
         - content: "12.45"
         - content: " "
         - content: " "
-        - content: "Lunch"
+        - content: "Networking Lunch in the NOI Seminar Area Foaier"
         # - content: " "
         # - content: " "
 
