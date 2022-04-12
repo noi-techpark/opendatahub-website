@@ -1,6 +1,6 @@
 <div >
   <div class="container">
-     <a href="{{.btn_top_link}}" class="btn btn-primary" style="margin:20px">{{ .btn_top_label | markdownify }}</a>
+     <a href="{{.btn_top_link}}" class="btn btn-primary" style="margin:20px" onclick="{{.btn_top_on_click}}">{{ .btn_top_label | markdownify }}</a>
  </div>
   <div class="container">
     <table>
@@ -32,6 +32,6 @@
    </table>
  </div>
  <div class="container">  
-    <a href="{{.btn_down_link}}" class="btn btn-primary" style="margin:20px" onclick="_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);">{{ .btn_down_label | markdownify }}</a>
+    <a href="{{.btn_down_link}}" class="btn btn-primary" style="margin:20px" onclick="{{.btn_down_on_click}}">{{ .btn_down_label | markdownify }}</a>
  </div>
 </div>

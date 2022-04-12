@@ -6,6 +6,7 @@ content:
   title: Pricing
   btn_top_link: "https://registration.noi.bz.it/event/sessions?id=Open_Data_Hub_Day728931294"
   btn_top_label: "Registration"
+  btn_top_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
   header:
     - title: 
       width: 5%
@@ -128,4 +129,5 @@ content:
 
   btn_down_link: "https://registration.noi.bz.it/event/sessions?id=Open_Data_Hub_Day728931294"
   btn_down_label: "Registration"
+  btn_down_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
   
