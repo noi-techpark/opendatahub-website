@@ -1,6 +1,6 @@
 ---
 title: "Cybersecurity roundtable"
-img: "/img/events/webinar3.jpg"
+img: "/img/events/20220520-OpenDataHubDay-CybersecurityRoundtable.png"
 img_alt: "event"
 
 day: "2022-05-20"
