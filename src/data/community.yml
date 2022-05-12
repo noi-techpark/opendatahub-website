@@ -144,6 +144,10 @@ consumers:
       img: "img/community/eurac.png"
       link: https://www.eurac.edu/
     
+    - name: Konverto
+      img: "img/community/konverto.png"
+      link: https://konverto.eu/
+
     - name: IDM Südtirol/Alto Adige
       img: "img/community/IDM.png"
       link: http://idm-suedtirol.com
