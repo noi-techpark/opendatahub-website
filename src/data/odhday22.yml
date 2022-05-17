@@ -7,6 +7,7 @@ content:
   btn_top_link: "https://registration.noi.bz.it/event/sessions?id=Open_Data_Hub_Day728931294"
   btn_top_label: "Registration"
   btn_top_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
+
   header:
     - title: 
       width: 5%
@@ -123,4 +124,24 @@ content:
   btn_down_link: "https://registration.noi.bz.it/event/sessions?id=Open_Data_Hub_Day728931294"
   btn_down_label: "Registration"
   btn_down_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
-  
+
+  headerPR:
+    - title: Presse release title
+      width: 75%
+    - title: Language
+      width: 15%
+    - title: Link
+      width: 10% 
+  rowPR:
+    - colsPR:
+        - content: "Dalla mobilità sostenibile al turismo Open Data Hub connette l’Europa grazie ai dati"
+        - content: "Italian"
+        - pressReleaseLink: "https://cloud.opendatahub.bz.it/index.php/s/HNFT7ikkRRaAAEc"
+    - colsPR:
+        - content: "Von der nachhaltigen Mobilität zum Tourismus - Open Data Hub vernetzt Europa durch Daten"
+        - content: "German"
+        - pressReleaseLink: "https://cloud.opendatahub.bz.it/index.php/s/DagnjTjjmT24JDJ"
+    - colsPR:
+        - content: "Imges"
+        - content: ""
+        - pressReleaseLink: "https://cloud.opendatahub.bz.it/index.php/s/Xkc2j4mnLRpsyZW"
