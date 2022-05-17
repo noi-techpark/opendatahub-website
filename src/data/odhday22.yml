@@ -126,7 +126,7 @@ content:
   btn_down_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
   headerPR:
-    - title: Presse release title
+    - title: Open Data Hub Press release 2022
       width: 75%
     - title: Language
       width: 15%
