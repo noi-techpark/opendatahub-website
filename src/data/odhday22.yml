@@ -4,8 +4,8 @@ program:
 
 content:
   title: Pricing
-  btn_top_link: "https://registration.noi.bz.it/event/sessions?id=Open_Data_Hub_Day728931294"
-  btn_top_label: "Registration"
+  btn_top_link: "https://www.youtube.com/watch?v=4lWKCyase3g"
+  btn_top_label: "Full video"
   btn_top_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
   header:
@@ -121,8 +121,8 @@ content:
         # - content: " "
         # - content: " "
 
-  btn_down_link: "https://registration.noi.bz.it/event/sessions?id=Open_Data_Hub_Day728931294"
-  btn_down_label: "Registration"
+  btn_down_link: "https://www.youtube.com/watch?v=4lWKCyase3g"
+  btn_down_label: "Full video"
   btn_down_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
   headerPR:
