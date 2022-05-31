@@ -19,8 +19,8 @@ content:
       width: 65%
     - title: " "
       width: 5%
-    # - title: " "
-    #   width: 5%  
+    - title: " "
+      width: 5%  
   row:
     - cols:
         - content: "8.30"
@@ -28,98 +28,98 @@ content:
         - content: " "
         - content: "Check-in starting at 8.30"
         - content:
-        # - content:
+        - content:
     - cols:
         - content: "9.00"
         - content: "Vincent Mauroit"
         - content: "NOI Techpark"
         - content: Opening by NOI
         - slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/CgCbK2eGZexxiBA"
-        # - videoLink: 
+        - videoLink: "https://vimeo.com/showcase/9563553/video/715097183"
     - cols:
         - content: "9.15"
         - content: "Patrick Ohnewein"
         - content: "NOI Techpark"
         - content: Update about the Open Data Hub Project
         - slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/awHA7adeY7MNRpP"
-        # - videoLink: 
+        - videoLink: "https://vimeo.com/showcase/9563553/video/715100887"
     - cols:
         - content: "9.30"
         - content: "Roberto Monsorno"
         - content: "Eurac Research"
         - content: "Environmental Data Platform as a tool for working with heterogeneous Big Data"
         - slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/GFMoJJat538WZkd"
-        # - videoLink: 
+        - videoLink: "https://vimeo.com/showcase/9563553/video/715097586"
     - cols:
         - content: "9.45"
         - content: "Marco Pappalardo"
         - content: "Dolomiti Superski"
         - content: "Optimize and automate destination communication by sharing data"
         - slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/KC4mQy4S3agGSBf"
-        # - videoLink: 
+        - videoLink: "https://vimeo.com/showcase/9563553/video/715098141"
     - cols:
         - content: "10.00"
         - content: "Davide Montesin & Chiara Masci"
         - content: "CatchSolve"
         - content: "Data quality and monitoring for Open Data Hub"
         - slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/cExYZ5DyW23Fswi"
-        # - videoLink: 
+        - videoLink: "https://vimeo.com/showcase/9563553/video/715098854"
     - cols:
         - content: "10.15"
         - content: "Giovanni Giannotta & Alessandro Pancani "
         - content: "FOS & Truckscreenia"
         - content: "Display with innovative technology connected to the Open Data Hub"
         - slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/fTt3s9DJJmZazAy"
-        # - videoLink: 
+        - videoLink: "https://vimeo.com/showcase/9563553/video/715099775"
     - cols:
         - content: "10.30"
         - content: " "
         - content: " "
         - content: "Community Coffee Break in the foyer of the NOI Seminar Area"
         - content: " "
-        # - content: " "
+        - content: " "
     - cols:
         - content: "11.15"
         - content: "Gianluca Antonacci"
         - content: "CISMA"
         - content: "Real time data and motorway traffic management"
         - slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/p3zgJJDAYn3Zg5s"
-        # - videoLink: 
+        - videoLink: "https://vimeo.com/showcase/9563553/video/715101295"
     - cols:
         - content: "11.30"
         - content: "Igor Falcomatà"
         - content: "Enforcer"
         - content: "IoT vs Cybersecurity"
         - slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/63x3XM23znkx54y"
-        # - videoLink: 
+        - videoLink: "https://vimeo.com/showcase/9563553/video/715102118"
     - cols:
         - content: "11.45"
         - content: "Markus Garnitz"
         - content: "Bayern Tourismus Marketing"
         - content: "Bavarian Tourism Cloud Open Source Strategy"
         - slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/MECTCQB5TKC26Jy"
-        # - videoLink: 
+        - videoLink: "https://vimeo.com/showcase/9563553/video/715103069"
     - cols:
         - content: "12.00"
         - content: "Andrea Vianello"
         - content: "Eurac Research"
         - content: "European Climate and Cultural Atlas for Plus Energy Building Design"
         - slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/N48jf4gGSCGHwAo"
-        # - videoLink:
+        - videoLink: "https://vimeo.com/showcase/9563553/video/715103886"
     - cols:
         - content: "12.15"
         - content: "Johannes Erschbamer"
         - content: "KONVERTO"
         - content: "Data-driven decision making in apple cultivation"
         - slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/aW3dBB9Ska35Mp9"
-        # - videoLink: 
+        - videoLink: "https://vimeo.com/showcase/9563553/video/715104372"
     - cols:
         - content: "12.30"
         - content: " "
         - content: " "
         - content: "Networking lunch in the foyer of the NOI Seminar Area"
         - content: " "
-        # - content: " "
+        - content: " "
 
   btn_down_link: "https://www.youtube.com/watch?v=4lWKCyase3g"
   btn_down_label: "Full video"
