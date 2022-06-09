@@ -11,6 +11,10 @@ providers:
       img: "img/community/alperia.png"
       link: https://www.alperia.eu/
 
+    - name: Alperia srl
+      img: "img/community/arxax.png"
+      link: https://www.arxax.com/
+
     - name: Autonomous Province of Bolzano/Bozen
       img: "img/community/pab.png"
       link: http://provincia.bz.it
