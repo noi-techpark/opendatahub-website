@@ -120,6 +120,10 @@ consumers:
   title: Data Consumers
   subtitle: These Companies and Organizations are official Data Consumers of the Open Data Hub and use the data to implement innovative digital solutions for a SMART Green Region.
   item:
+    - name: Arxax srl
+      img: "img/community/arxax.png"
+      link: https://www.arxax.com/
+      
     - name: Brixen Tourismus Gen
       img: "img/community/BrixenTourism.png"
       link: https://www.brixen.org     
