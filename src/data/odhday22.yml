@@ -120,6 +120,13 @@ content:
         - content: "Networking lunch in the foyer of the NOI Seminar Area"
         - content: " "
         - content: " "
+    - cols:
+        - content: "12.30"
+        - content: " "
+        - content: " "
+        - content: "Networking lunch in the foyer of the NOI Seminar Area"
+        - content: " "
+        - content: " "
 
   btn_down_link: "https://www.youtube.com/watch?v=4lWKCyase3g"
   btn_down_label: "Full video"
