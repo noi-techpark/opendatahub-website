@@ -196,6 +196,10 @@ consumers:
       img: "img/community/trentinoHolidays.png"
       link: https://www.thol.it/
       
+    - name: TT Consulting
+      img: "img/community/ttconsulting.png"
+      link: https://www.tt-consulting.com/
+    
     - name: XLbit
       img: "img/community/xlbit.png"
       link: https://www.xlbit.com/
