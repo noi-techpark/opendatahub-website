@@ -8,7 +8,7 @@ time: "14:00"
 location: "NOI Techpark"
 
 button_link: "https://www.automotive-suedtirol.com/eventsandworkshops/event-five-t2hr2"
-button_label: "More info & Registration"
+button_label: "More info"
 ---
 
 Roundtable about Cybersecurity organized by Automotive Excellence Südtirol.
