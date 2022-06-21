@@ -8,11 +8,11 @@
  -->
 {{ with .Site.Params.author }}<meta name="author" content="{{ . }}" />{{ end }}
 {{ with .Site.Params.description }}<meta
-  name="description"
-  content="{{ . }}"
+    name="description"
+    content="{{ . }}"
 />{{ end }} {{ with .Site.LanguageCode }}<meta
-  http-equiv="content-language"
-  content="{{ . }}"
+    http-equiv="content-language"
+    content="{{ . }}"
 />{{ end }}
 
 <!-- FREE HTML5 TEMPLATE  -->
@@ -30,8 +30,8 @@
 {{ if not .Site.Params.OpenGraph.hide }}
 <meta name="og:site_name" content="{{ .Site.Title }}" />
 <meta
-  name="og:title"
-  content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}"
+    name="og:title"
+    content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}"
 />
 <meta name="og:url" content="{{ .Permalink }}" />
 <meta name="twitter:title" content="{{ .Site.Title }}" />
@@ -44,29 +44,33 @@
 
 <!-- Matomo -->
 <script>
-  var _paq = window._paq = window._paq || [];
-  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="//matomo.testingmachine.eu/";
-    _paq.push(['setTrackerUrl', u+'matomo.php']);
-    _paq.push(['setSiteId', '1']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-  })();
+    var _paq = (window._paq = window._paq || []);
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+    (function () {
+        var u = "https://digital.matomo.cloud/";
+        _paq.push(["setTrackerUrl", u + "matomo.php"]);
+        _paq.push(["setSiteId", "4"]);
+        var d = document,
+            g = d.createElement("script"),
+            s = d.getElementsByTagName("script")[0];
+        g.async = true;
+        g.src = "//cdn.matomo.cloud/digital.matomo.cloud/matomo.js";
+        s.parentNode.insertBefore(g, s);
+    })();
 </script>
 <!-- End Matomo Code -->
 
 <!-- Matomo Tag Manager -->
-<script>
+<!-- <script>
   var _mtm = window._mtm = window._mtm || [];
   _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
   var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
   g.async=true; g.src='https://matomo.testingmachine.eu/js/container_Rk70SZrS.js'; s.parentNode.insertBefore(g,s);
   </script>
   <!-- End Matomo Tag Manager -->
-
+-->
 
 <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 <!-- <link rel="shortcut icon" href="favicon.ico"> -->
