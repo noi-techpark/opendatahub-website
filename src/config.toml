@@ -46,6 +46,9 @@ URL = "/css/contact-form.css"
 [[params.plugins.css]]
 URL =  "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
 
+[[params.plugins.css]]
+URL = "/css/cookieconsent.css"
+
 
 ######################################## js plugins
 [[params.plugins.js]]
@@ -70,7 +73,10 @@ URL = "/js/main.js"
 URL = "/js/table-comparison.js"
 
 [[params.plugins.js]]
-URL = "/js/cookie.js"
+URL = "/js/cookieconsent.js"
+
+[[params.plugins.js]]
+URL = "/js/cookieconsent-init.js"
 
 ######################################## MENU
 [[menu.main]]
