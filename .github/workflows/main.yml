@@ -74,7 +74,6 @@ jobs:
       - name: Configuration hugo
         run: |
           sed -i -e "s%https://example.com%${{env.MAIL_CLIENT}}%g" src/themes/odh-fbe/static/js/main.js
-          sed -i -e "s/UA-XXXXXXXX-1/${{env.HUGO_GOOGLEANALYTICS}}/g" src/themes/odh-fbe/static/js/cookie.js
           sed -i -e "s%https://example.com%${{env.HUGO_BASEURL}}%g" src/config.toml
 
       - name: Build hugo
