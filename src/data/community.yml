@@ -172,6 +172,10 @@ consumers:
       img: "img/community/Ontopic.png"
       link: https://ontopic.biz/
 
+    - name: Openmove
+      img: "img/community/openmove.png"
+      link: https://www.openmove.com/ 
+
     - name: Peer
       img: "img/community/peer.png"
       link: https://www.peer.biz/
