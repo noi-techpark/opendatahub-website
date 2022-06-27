@@ -6,6 +6,7 @@
 	 <meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive, hugo, static site" />
 	 <meta name="author" content="FREEHTML5.CO / Hugo port " />
  -->
+<<<<<<< HEAD
 {{ with .Site.Params.author }}<meta name="author" content="{{ . }}" />{{ end }}
 {{ with .Site.Params.description }}<meta
     name="description"
@@ -14,6 +15,13 @@
     http-equiv="content-language"
     content="{{ . }}"
 />{{ end }}
+=======
+{{ with .Site.Params.author }}
+<meta name="author" content="{{ . }}" />{{ end }}
+{{ with .Site.Params.description }}
+<meta name="description" content="{{ . }}" />{{ end }} {{ with .Site.LanguageCode }}
+<meta http-equiv="content-language" content="{{ . }}" />{{ end }}
+>>>>>>> fix header.html syntax error
 
 <!-- FREE HTML5 TEMPLATE  -->
 <!-- DESIGNED & DEVELOPED by FREEHTML5.CO -->
@@ -29,10 +37,14 @@
 <!-- Facebook and Twitter integration -->
 {{ if not .Site.Params.OpenGraph.hide }}
 <meta name="og:site_name" content="{{ .Site.Title }}" />
+<<<<<<< HEAD
 <meta
     name="og:title"
     content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}"
 />
+=======
+<meta name="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}" />
+>>>>>>> fix header.html syntax error
 <meta name="og:url" content="{{ .Permalink }}" />
 <meta name="twitter:title" content="{{ .Site.Title }}" />
 <meta name="twitter:url" content="{{ .Permalink }}" />
@@ -43,24 +55,30 @@
 <script async src="https://www.googletagmanager.com/gtag/js"></script>
 
 <!-- Matomo -->
-<script type="text/plain" data-cookiecategory="targeting">
-    var _paq = (window._paq = window._paq || []);
-    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-    _paq.push(["trackPageView"]);
-    _paq.push(["enableLinkTracking"]);
-    (function () {
-        var u = "https://digital.matomo.cloud/";
-        _paq.push(["setTrackerUrl", u + "matomo.php"]);
-        _paq.push(["setSiteId", "4"]);
-        var d = document,
-            g = d.createElement("script"),
-            s = d.getElementsByTagName("script")[0];
-        g.async = true;
-        g.src = "//cdn.matomo.cloud/digital.matomo.cloud/matomo.js";
-        s.parentNode.insertBefore(g, s);
-    })();
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function () {
+    var u = "https://digital.matomo.cloud/";
+    _paq.push(['setTrackerUrl', u + 'matomo.php']);
+    _paq.push(['setSiteId', '4']);
+    var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+    g.async = true; g.src = '//cdn.matomo.cloud/digital.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g, s);
+  })();
 </script>
 <!-- End Matomo Code -->
+
+<!-- Matomo Tag Manager -->
+<script>
+  var _mtm = window._mtm = window._mtm || [];
+  _mtm.push({ 'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start' });
+  var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+  g.async = true; g.src = 'https://matomo.testingmachine.eu/js/container_Rk70SZrS.js'; s.parentNode.insertBefore(g, s);
+</script>
+<!-- End Matomo Tag Manager -->
+
 
 <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 <!-- <link rel="shortcut icon" href="favicon.ico"> -->
