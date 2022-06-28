@@ -22,8 +22,16 @@ cc.run({
     onFirstAction: function() {},
 
     onAccept: function (cookie) {
-        // google analytics activation
 
+        /*
+        let _paq = window._paq = window._paq || [];
+        _paq.push(['rememberCookieConsentGiven']);
+        
+        https://matomo.org/faq/new-to-piwik/how-can-i-still-track-a-visitor-without-cookies-even-if-they-decline-the-cookie-consent/
+
+        */
+
+        // google analytics activation
         try {
             if (cookie.categories[1] === "targeting") {
                 
@@ -42,7 +50,6 @@ cc.run({
                       // avoid multiple activations!
                       gtag("config", GOOGLE_ANALYTICS_ID);
                       analytics_activated = true;
-                      document.cookie = "banner=accepted; max-age=" + 60 * 60 * 24 * 365;
                     }
                 }
 
