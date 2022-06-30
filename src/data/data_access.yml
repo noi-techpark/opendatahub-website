@@ -14,6 +14,7 @@ row_two:
   btn_label: "Open the Analytics Tool"
   img_back: "/img/access-data-3.jpg"
   img_front: "/img/access-data-4.jpg"
+  target_blank: true
 
 row_three:
   title: "Integrate data in your website or app using our **web components**"
@@ -22,6 +23,7 @@ row_three:
   btn_label: "View the web components list"
   img_back: "/img/access-data-5.jpg"
   img_front: "/img/access-data-6.jpg"
+  target_blank: true
 
 row_four:
   title: "We’re here **to support you**"

@@ -2,10 +2,23 @@
 <section class="title-cta">
     <div class="container">
         <div class="container-content">
-            <h1 class="primary">{{ .title | markdownify }}</h1>
-            <h2 class="subtitle">{{ .subtitle | markdownify }}</h2>
-
-            <a href="{{.btn_link}}" class="btn btn-primary">{{ .btn_label | markdownify }}</a>
+            <div class="text-content">
+                <h1 class="primary">{{ .title | markdownify }}</h1>
+                <h2 class="subtitle">{{ .subtitle | markdownify }}</h2>
+                <a href="{{.btn_link}}" class="btn btn-primary">{{ .btn_label | markdownify }}</a>
+            </div>
+            <!-- <video class="title-video" width="384" height="216" controls>
+                <source src="{{ .video }}">
+            </video> -->
+            <iframe 
+                class="title-video"
+                src="https://player.vimeo.com/video/731281297?h=97566158a0"
+                width="480"
+                height="270"
+                frameborder="0"
+                allow="autoplay; fullscreen;"
+                allowfullscreen>
+            </iframe>
         </div>
     </div>
 </section>
