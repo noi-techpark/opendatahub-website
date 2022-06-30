@@ -4,16 +4,19 @@
 
   {{ partial "title.html" .Params }}
 
+  <a id="sm-tag-data-access"></a>
   <section class="bg-darker" id="data-sharing">
-    {{ partial "col-imgs-text.html" site.Data.services.row_one }}
+    {{ partial "imgs-icon-text.html" site.Data.services.data_access }}
   </section>
 
+  <a id="sm-tag-data-sharing"></a>
   <section id="data-access">
-    {{ partial "col-text-imgs.html" site.Data.services.row_two }}
+    {{ partial "text-imgs-icon.html" site.Data.services.data_sharing }}
   </section>
 
+  <a id="sm-tag-data-visualization"></a>
   <section class="bg-darker" id="app-dev">
-    {{ partial "col-imgs-text.html" site.Data.services.row_three }}
+    {{ partial "imgs-icon-text.html" site.Data.services.data_visualization }}
   </section>
 
 {{ end }}

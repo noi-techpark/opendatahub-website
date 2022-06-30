@@ -87,10 +87,12 @@ var my = null;
   var offcanvasMenu = function () {
     $("body").prepend('<div id="fh5co-offcanvas" />');
     $("#nav-hamburger-ct").html(
-      '<a href="#" id="nav-hamburger" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>'
+      '<a id="nav-hamburger" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>'
     );
 
-    $(".fh5co-main-nav .fh5co-menu-1 a, .fh5co-main-nav .fh5co-menu-2 a").each(
+    $(` .fh5co-main-nav .fh5co-menu-1 .logo-home,
+        .fh5co-main-nav .fh5co-menu-1 .nav-link,
+        .fh5co-main-nav .fh5co-menu-1.float-right a `).each(
       function () {
         var $this = $(this);
 
@@ -131,7 +133,7 @@ var my = null;
     $(".js-sticky").waypoint(
       function (direction) {
         if (direction === "up") {
-          $section.attr("style", "").removeClass("fh5co-shadow");
+          //$section.attr("style", "").removeClass("fh5co-shadow");
         }
       },
       {
@@ -170,11 +172,12 @@ var my = null;
   var scrolledWindow = function () {
     $(window).scroll(function () {
       var scrollPos = $(this).scrollTop();
-
+      /*
       if ($("body").hasClass("offcanvas-visible")) {
         $("body").removeClass("offcanvas-visible");
         $(".js-fh5co-nav-toggle").removeClass("active");
       }
+      */
     });
 
     $(window).resize(function () {
@@ -279,6 +282,32 @@ var my = null;
     );
   };
 
+  var scrollBehavior = function () {
+    $(".current.nav-link .sub-menu a").each(
+      function () {
+        $(this).on("click", function () {
+          $("html").css("scroll-behavior", "smooth")
+        })
+    });
+    $(".not-current.nav-link .sub-menu a").each(
+      function () {
+        $(this).on("click", function () {
+          $("html").css("scroll-behavior", "auto")
+        })
+    });
+  }
+
+  var mobileOffcanvasBehavior = function () {
+    $("#fh5co-offcanvas .nav-link").each(
+      function () {
+        $(this).on("click", function () {
+          $("#fh5co-offcanvas .nav-link").removeClass("expanded")
+          $(this).addClass("expanded")
+        })
+      }
+    )
+  }
+
   // Document on load.
   $(function () {
     fullHeight();
@@ -310,6 +339,8 @@ var my = null;
     clickMenu();
     navigationSection();
     goToTop();
+    scrollBehavior();
+    mobileOffcanvasBehavior();
   });
 
   my = new ElementSelector();

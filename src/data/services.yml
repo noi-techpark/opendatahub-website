@@ -1,32 +1,27 @@
 ################################# Services #########################
-row_one:
-  title: "**Data Access**: access a **growing number of datasets**."
-  description: Mobility, Tourism, Traffic or Weather data? We provide all of them. Do you want to build the next car parking app? Or do you prefer to predict when hail will impact plantations? Doesn’t matter what you want to build, **we have real data you could use**.
-  ##btn_link: "/start?contact-reason=data-access"
-  ##btn_label: Contact us
-  btn_link: "/data-access"
-  btn_label: See details
-  img_back: "/img/services-3.jpg"
-  img_front: "/img/services-4.jpg"
-
-row_two:
-  title: "**Data Sharing**: by sharing your data, **be ready to receive**."
-  description: We provide a platform, services and tools to allow you to quickly and easily share the data your company generates, **gaining visibility** and helping the development of amazing new applications.
-  ##btn_link: "/start?contact-reason=data-sharing"
-  ##btn_label: Contact us
+data_sharing:
+  title: "**Data Sharing:** by sharing your data, **be ready to receive.**"
+  description: "We provide a platform, services and tools to allow you to quickly and easily share the data your company generates, **gaining visibility** and helping the development of amazing new applications."
   btn_link: "/data-sharing"
   btn_label: See details
-  img_back: "/img/services-1.jpg"
-  img_front: "/img/services-2.jpg"
+  img_back: "/img/data-sharing-use-case.png"
+  img_front: "/icon/upload.svg"
 
-row_three:
-  title: "**Data Visualization**: together, to **visualise data**."
-  description: Do you need to test the potential of your data? Or do you need inspiration for your next digital product? We help you to **see data come alive!**
+data_access:
+  title: "**Data Access:** access a **growing number of datasets.**"
+  description: "Mobility, Tourism, Traffic or Weather data? We provide all of them. Do you want to build the next car parking app? Or do you prefer to predict when hail will impact plantations? Doesn't matter what you want to build, **we have real data you could use.**"
+  btn_link: "/data-access"
+  btn_label: See details
+  img_back: "/img/data-access-use-case.png"
+  img_front: "/icon/download.svg"
+
+data_visualization:
+  title: "**Data Visualization:** together, to **visualise data.**"
+  description: "Do you need to test the potential of your data? Or do you need inspiration for your next digital product? **We help you to see data come alive**"
   btn_link: "/help"
-  #btn_link: "mailto:help@opendatahub.bz.it"
-  btn_label: Contact us
-  img_back: "/img/services-5.jpg"
-  img_front: "/img/services-6.jpg"
+  btn_label: See Details
+  img_back: "/img/data-visualization-use-case.png"
+  img_front: "/icon/box.svg"
 
 pricing:
   title: Pricing

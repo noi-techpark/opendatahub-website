@@ -1,9 +1,9 @@
 :root {
     --cc-bg: #fff;
     --cc-text: #000;
-    --cc-btn-primary-bg: #50742f;
+    --cc-btn-primary-bg: rgb(41, 41, 41);
     --cc-btn-primary-text: var(--cc-bg);
-    --cc-btn-primary-hover-bg: #446228;
+    --cc-btn-primary-hover-bg: rgb(61, 61, 61);
     --cc-btn-secondary-bg: #f5f5f5;
     --cc-btn-secondary-text: var(--cc-text);
     --cc-btn-secondary-hover-bg: #e7e7e7;

@@ -11,7 +11,7 @@ availability_description: "All data is available as Open Data"
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#noiplace-dataset"
 example_link: "https://maps.noi.bz.it/"
 
-datatype: "Other Domains"
+datatype: "Others"
 ---
 
 This dataset contains all places, offices, meeting rooms, and in general all points of interest located in the various buildings that compose the NOI Techpark in Bolzano, Italy. This dataset is used to create the interactive map of the NOI Techpark.

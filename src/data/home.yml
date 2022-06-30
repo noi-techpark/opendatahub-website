@@ -3,6 +3,7 @@ mission:
   subtitle: "Open Data Hub is the cross-border digital platform that helps start-ups, companies and research institutes to develop digital solutions based on real data. It connects data from different data providers and makes this data easily available for data consumer."
   btn_link: "/services"
   btn_label: "Discover our Services"
+  video: "/img/test.mp4"
 
 offset_images:
   image_two_title: "Data Access"
@@ -18,32 +19,62 @@ offset_images:
   image_one_btn_label: "Share Data"
 
 community:
-  title: "Who is already **on board**?"
-  img_one: "img/community/alperia.png"
-  img_one_name: Alperia SpA
-  img_one_link: https://www.alperia.eu/
-  img_two: "img/community/cisma.png"
-  img_two_name: CISMA Srl
-  img_two_link: http://www.cisma.it
-  img_three: "img/community/a22.png"
-  img_three_name: Autostrada del Brennero SpA
-  img_three_link: https://www.autobrennero.it/
-  img_four: "img/community/MarketingFactory.png"
-  img_four_name: Marketing Factory
-  img_four_link: https://www.marketingfactory.it
-  img_five: "img/community/sta.png"
-  img_five_name: STA
-  img_five_link: https://sta.bz.it
+  title: "Join the **community**"
   btn_link: "/community"
-  btn_label: "The whole Community"
+  btn_label: "Join now"
+  # logos:
 
-documentation:
-  title: "Check out our documentation"
-  description: "We publish a full documentation about the Open Data Hub architecture and APIs on the following website"
-  btn_link: "https://docs.opendatahub.bz.it/"
-  btn_label: "Read our documentation"
-  img_back: "/img/documentation-small.png"
-  img_front: "/img/documentation-small.png"
+  #   - img: "img/community/alperia.png"
+  #     name: Alperia SpA
+  #     link: https://www.alperia.eu/
+
+  #   - img: "img/community/cisma.png"
+  #     name: CISMA Srl
+  #     link: http://www.cisma.it
+
+  #   - img: "img/community/a22.png"
+  #     name: Autostrada del Brennero SpA
+  #     link: https://www.autobrennero.it/
+
+  #   - img: "img/community/MarketingFactory.png"
+  #     name: Marketing Factory
+  #     link: https://www.marketingfactory.it
+
+  #   - img: "img/community/sta.png"
+  #     name: STA
+  #     link: https://sta.bz.it
+
+# documentation:
+#   title: "Check out our documentation"
+#   description: "We publish a full documentation about the Open Data Hub architecture and APIs on the following website"
+#   btn_link: "https://docs.opendatahub.bz.it/"
+#   btn_label: "Read our documentation"
+#   img_back: "/img/documentation-small.png"
+#   img_front: "/img/documentation-small.png"
+
+# use_case_data_access:
+#   title: "**Data Access** use case"
+#   description: "Example text for **Data Access** use case. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam ducimus a necessitatibus autem. Atque amet delectus exercitationem, quibusdam illum accusantium hic minima optio neque iure dicta commodi placeat necessitatibus sit a, voluptatum ipsam. Odit tenetur et alias vero at unde ipsam modi molestiae possimus nobis excepturi ab recusandae, distinctio voluptatibus."
+#   btn_link: ""
+#   btn_label: "Learn more"
+#   img_back: "/img/GreenMobility.png"
+#   img_front: "/img/datasets/andrew-roberts-2JvEjF0tf50-unsplash.png"
+
+# use_case_data_sharing:
+#   title: "**Data Sharing** use case"
+#   description: "Example text for **Data Sharing** use case. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam ducimus a necessitatibus autem. Atque amet delectus exercitationem, quibusdam illum accusantium hic minima optio neque iure dicta commodi placeat necessitatibus sit a, voluptatum ipsam. Odit tenetur et alias vero at unde ipsam modi molestiae possimus nobis excepturi ab recusandae, distinctio voluptatibus."
+#   btn_link: ""
+#   btn_label: "Learn more"
+#   img_back: "/img/mobility.meran.eu.png"
+#   img_front: "/img/GreenMobility.png"
+
+# use_case_data_visualization:
+#   title: "**Data Visualization** use case"
+#   description: "Example text for **Data Visualization** use case. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam ducimus a necessitatibus autem. Atque amet delectus exercitationem, quibusdam illum accusantium hic minima optio neque iure dicta commodi placeat necessitatibus sit a, voluptatum ipsam. Odit tenetur et alias vero at unde ipsam modi molestiae possimus nobis excepturi ab recusandae, distinctio voluptatibus."
+#   btn_link: ""
+#   btn_label: "Learn more"
+#   img_back: "/img/GreenMobility.png"
+#   img_front: "/img/datasets/andrew-roberts-2JvEjF0tf50-unsplash.png"
 
 use_case:
   title: "Build the next **traffic application**"
@@ -59,23 +90,26 @@ dataset_example:
   btn_link: "/datasets/mobility/echargingstation/"
   btn_label: "See available datasets"
   img_back: "/img/GreenMobility.png"
-  img_front: "/img/andrew-roberts-2JvEjF0tf50-unsplash.png"
+  img_front: "/img/datasets/andrew-roberts-2JvEjF0tf50-unsplash.png"
 
 services:
   title: "Get ready with **our services**"
   description: "We offer way more than datasets, we're here to help you to share your data or access other datasets, even if you're not a tech expert."
   box_item:
     - name: "Data Access"
+      image: "/img/data-access-use-case.png"
       icon: "/icon/download.svg"
-      box_link: "/services#data-access"
+      box_link: "/data-access/"
       btn_label: "Access data"
 
     - name: "Data Sharing"
+      image: "/img/data-sharing-use-case.png"
       icon: "/icon/upload.svg"
-      box_link: "/services#data-sharing"
+      box_link: "/data-sharing/"
       btn_label: "Share data"
 
     - name: "Data Visualization"
+      image: "/img/data-visualization-use-case.png"
       icon: "/icon/box.svg"
-      box_link: "/services#app-dev"
-      btn_label: "Create data visualizations"
+      box_link: "/services#sm-tag-data-visualization"
+      btn_label: "Create data visualisations"

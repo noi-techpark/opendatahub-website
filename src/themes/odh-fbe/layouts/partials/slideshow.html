@@ -1,0 +1,33 @@
+<section class="logo-slideshow">
+
+  <script defer src="/js/slideshow.js"></script>
+  <div class="hidden-storage">
+    {{ range .dataCommunity.providers.item }}
+    <div class="single-provider">
+      <div class="name">{{ .name }}</div>
+      <div class="img">{{ .img }}</div>
+      <div class="link">{{ .link }}</div>
+    </div>
+    {{ end }}
+    {{ range .dataCommunity.consumers.item }}
+    <div class="single-provider">
+      <div class="name">{{ .name }}</div>
+      <div class="img">{{ .img }}</div>
+      <div class="link">{{ .link }}</div>
+    </div>
+    {{ end }}
+  </div>
+
+  <div class="col-12 text-center">
+    <h3>{{ .dataHome.community.title | markdownify }}</h3>
+  </div>
+
+  <div class="container">
+    <div class="slides-container">
+    </div>
+  </div>
+
+  <div class="col-12 text-center">
+    <a href="{{ .dataHome.community.btn_link }}" class="btn btn-primary">{{ .dataHome.community.btn_label | markdownify }}</a>
+  </div>
+</section>
