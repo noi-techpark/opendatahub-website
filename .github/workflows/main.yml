@@ -61,7 +61,6 @@ jobs:
     concurrency: deploy-prod
     env:
       AWS_S3_BUCKET_NAME : 'it.bz.geobank'
-      HUGO_GOOGLEANALYTICS: 'UA-138331709-1'
       MAIL_CLIENT: 'https://mailclient.opendatahub.bz.it/contact'
       HUGO_BASEURL: 'https://opendatahub.com/'
     steps:
