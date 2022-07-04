@@ -21,44 +21,7 @@ cc.run({
 
     onFirstAction: function() {},
 
-    onAccept: function (cookie) {
-
-        /*
-        let _paq = window._paq = window._paq || [];
-        _paq.push(['rememberCookieConsentGiven']);
-        
-        https://matomo.org/faq/new-to-piwik/how-can-i-still-track-a-visitor-without-cookies-even-if-they-decline-the-cookie-consent/
-
-        */
-
-        // google analytics activation
-        try {
-            if (cookie.categories[1] === "targeting") {
-                
-                const GOOGLE_ANALYTICS_ID = "UA-138331709-1";
-
-                window.dataLayer = window.dataLayer || [];
-                function gtag() {
-                    dataLayer.push(arguments);
-                }
-                gtag("js", new Date());
-
-                var analytics_activated = false;
-
-                function setupga() {
-                    if (!analytics_activated) {
-                      // avoid multiple activations!
-                      gtag("config", GOOGLE_ANALYTICS_ID);
-                      analytics_activated = true;
-                    }
-                }
-
-                setupga();
-            }
-        } catch (e) {
-            console.log(e)
-        }
-    },
+    onAccept: function (cookie) {},
 
     onChange: function (cookie, changed_preferences) {},
 
