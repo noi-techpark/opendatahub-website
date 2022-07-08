@@ -1,17 +1,7 @@
 ################################# Services #########################
 row_one:
-  title: "**Data sharing**: we help to share your data online."
-  description: We help companies to give **visibility** to their data, **identify suitable formats**, processing algorithms and **licenses** and to use technologies known by application developers.
-  ##btn_link: "/start?contact-reason=data-sharing"
-  ##btn_label: Contact us
-  btn_link: "/data-sharing"
-  btn_label: See details
-  img_back: "/img/services-1.jpg"
-  img_front: "/img/services-2.jpg"
-
-row_two:
-  title: "**Data access**: understand now how to build on open data."
-  description: For a company that develops software applications we offer access, through a **single machine-readable**, documented and **stable channel**, to updated and **real-time data**, released with an Open Data license.
+  title: "**Data access**: Access a **growing number of datasets**."
+  description: Mobility, Tourism, Traffic or Weather data? We provide all of them. Do you want to build the next car parking app? Or do you prefer to predict when hail will impact plantations? Doesn’t matter what you want to build, **we have real data you could use**.
   ##btn_link: "/start?contact-reason=data-access"
   ##btn_label: Contact us
   btn_link: "/data-access"
@@ -19,9 +9,19 @@ row_two:
   img_back: "/img/services-3.jpg"
   img_front: "/img/services-4.jpg"
 
+row_two:
+  title: "**Data sharing**: By sharing your data, **be ready to receive**."
+  description: We provide a platform, services and tools to allow you to quickly and easily share the data your company generates, **gaining visibility** and helping the development of amazing new applications.
+  ##btn_link: "/start?contact-reason=data-sharing"
+  ##btn_label: Contact us
+  btn_link: "/data-sharing"
+  btn_label: See details
+  img_back: "/img/services-1.jpg"
+  img_front: "/img/services-2.jpg"
+
 row_three:
-  title: "**Data Visualization**: together, to create your first demo app."
-  description: We create, in collaboration with companies that bring concrete needs, under **Open Source license**, a set of Demo apps that can be used by individual companies as a **guideline** and **inspiration** for new digital products.
+  title: "**Data Visualization**: together, to **visualise data**."
+  description: Do you need to test the potential of your data? Or do you need inspiration for your next digital product? We help you to **see data come alive!**
   btn_link: "/help"
   #btn_link: "mailto:help@opendatahub.bz.it"
   btn_label: Contact us
