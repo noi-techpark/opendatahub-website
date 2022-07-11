@@ -1,22 +1,22 @@
 ################################# Project #########################
 mission:
   title: "Mission"
-  subtitle: "Open Data Hub supports the implementation of an **innovative platform**, where talents can **use data and create innovative solutions** for a SMART Green Region."
+  subtitle: "Open Data Hub is the cross-border digital platform that helps start-ups, companies and research institutes to develop digital solutions based on real data. It connects data from different data providers and makes this data easily available for data consumer."
   btn_link: "/services"
   btn_label: "Discover our Services"
 
 offset_images:
-  image_one_title: "Share Data!"
-  image_one_subtitle: "Discover the benefits of sharing your data and how to become a Data Provider for the Open Data Hub"
-  image_one_img: "/img/home-data-provider.jpg"
-  image_one_link: "/data-sharing"
-  image_one_btn_label: "Data Sharing service"
-
-  image_two_title: "Access Data!"
+  image_two_title: "Data Access"
   image_two_subtitle: "Discover how to access data from the Open Data Hub as a Data Consumer, to build your own apps and services"
   image_two_img: "/img/home-data-consumer.jpg"
   image_two_link: "/data-access"
-  image_two_btn_label: "Data Access service"
+  image_two_btn_label: "Access Data"
+  
+  image_one_title: "Data Sharing"
+  image_one_subtitle: "Discover the benefits of sharing your data and how to become a Data Provider for the Open Data Hub"
+  image_one_img: "/img/home-data-provider.jpg"
+  image_one_link: "/data-sharing"
+  image_one_btn_label: "Share Data"
 
 community:
   title: "Who is already **on board**?"
@@ -69,7 +69,7 @@ services:
     - name: "Data Access"
       icon: "/icon/download.svg"
       box_link: "/services#data-access"
-      btn_label: "Access the data"
+      btn_label: "Access data"
 
     - name: "Data Sharing"
       icon: "/icon/upload.svg"
