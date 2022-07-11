@@ -34,13 +34,13 @@ pricing:
     - title: UNREGISTERED
       price: (free)
       color_class: bg-basic
-    - title: BASIC**
+    - title: BASIC
       price: (free)
       color_class: bg-pro
-    - title: ADVANCED**
+    - title: ADVANCED
       price: (for a fee)
       color_class: bg-pro
-    - title: PREMIUM**
+    - title: PREMIUM
       price: (for a fee)
       color_class: bg-pro
   row:
@@ -63,13 +63,13 @@ pricing:
         - content: "&#10004;"
         - content: "&#10004;"
     - cols:
-        - content: <b>Basic support*</b> in the implementation of APIs
+        - content: <b>Basic support</b> in the implementation of APIs
         - content: ""
         - content: "&#10004;"
         - content: "&#10004;"
         - content: "&#10004;"
     - cols:
-        - content: <b>Advances support*</b> in the implementation of APIs
+        - content: <b>Advances support</b> in the implementation of APIs
         - content: ""
         - content: ""
         - content: "&#10004;"
