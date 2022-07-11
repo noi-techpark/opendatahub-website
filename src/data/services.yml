@@ -1,6 +1,6 @@
 ################################# Services #########################
 row_one:
-  title: "**Data access**: Access a **growing number of datasets**."
+  title: "**Data Access**: access a **growing number of datasets**."
   description: Mobility, Tourism, Traffic or Weather data? We provide all of them. Do you want to build the next car parking app? Or do you prefer to predict when hail will impact plantations? Doesn’t matter what you want to build, **we have real data you could use**.
   ##btn_link: "/start?contact-reason=data-access"
   ##btn_label: Contact us
@@ -10,7 +10,7 @@ row_one:
   img_front: "/img/services-4.jpg"
 
 row_two:
-  title: "**Data sharing**: By sharing your data, **be ready to receive**."
+  title: "**Data Sharing**: by sharing your data, **be ready to receive**."
   description: We provide a platform, services and tools to allow you to quickly and easily share the data your company generates, **gaining visibility** and helping the development of amazing new applications.
   ##btn_link: "/start?contact-reason=data-sharing"
   ##btn_label: Contact us
