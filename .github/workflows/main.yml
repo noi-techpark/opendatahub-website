@@ -40,7 +40,7 @@ jobs:
       - name: Configuration hugo
         run: | 
           sed -i -e "s%https://example.com%${{env.MAIL_CLIENT}}%g" src/themes/odh-fbe/static/js/main.js
-          sed -i -e "s%https://example.com%${{env.HUGO_BASEURL}}%g" src/config.toml
+          sed -i -e "s%https://example.com%${{env.HUGO_BASEURL}}%g" src/config.yml
           
       - name: Build hugo
         run: hugo -s src -d ../target
@@ -73,7 +73,7 @@ jobs:
       - name: Configuration hugo
         run: |
           sed -i -e "s%https://example.com%${{env.MAIL_CLIENT}}%g" src/themes/odh-fbe/static/js/main.js
-          sed -i -e "s%https://example.com%${{env.HUGO_BASEURL}}%g" src/config.toml
+          sed -i -e "s%https://example.com%${{env.HUGO_BASEURL}}%g" src/config.yml
 
       - name: Build hugo
         run: hugo -s src -d ../target
