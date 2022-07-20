@@ -1,4 +1,5 @@
 ---
-title: "The data you need to build your next service."
-subtitle: "Open Data Hub is your access point to South Tyrol’s relevant OPEN data. We provide a free and well documented API platform you can use to create new amazing applications."
+title: "Data Access: understand now how to build on open data."
+subtitle: "If you develop software applications we provide access to open data, through a **single machine-readable**, documented and **stable channel**, to updated and **real-time data**, released with an Open Data licence."
 ---
+
