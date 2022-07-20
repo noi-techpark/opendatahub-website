@@ -24,7 +24,7 @@ row_two:
 
     To help you create data visualisations faster, our community already developed a set of components using data provided by the Open Data Hub. You can find a list of web components ready to be used on the Open Data Hub Web Components Store.
 
-  btn_link: "https://webcomponents.opendatahub.bz.it/"
+  btn_link: "https://webcomponents.opendatahub.com/"
   btn_label: "View the web components list"
   img_back: "/img/share-data-3.jpg"
   img_front: "/img/share-data-4.jpg"
@@ -36,3 +36,4 @@ row_three:
   btn_label: "Contact us"
   img_back: "/img/share-data-3.jpg"
   img_front: "/img/share-data-4.jpg"
+  
