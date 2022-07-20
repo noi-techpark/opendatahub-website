@@ -1,5 +1,4 @@
 ---
-title: "Let your business grow letting
-the others build on top of your data."
-subtitle: "We provide a platform, services and tools to allow you to quickly and easily share the data your company generates, gaining visibility and helping the development of amazing new applications."
+title: "**Data sharing:** share your data online."
+subtitle: "We help you to give visibility to your data, identify suitable formats, processing algorithms and licences and to use technologies known by application developers"
 ---

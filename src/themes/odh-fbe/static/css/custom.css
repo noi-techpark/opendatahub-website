@@ -510,7 +510,7 @@ input:focus {
 
 .col-imgs-text img,
 .col-text-imgs img {
-  width: 50%;
+  width: 65%;
 }
 
 .col-imgs-text img.img-front {
@@ -524,8 +524,8 @@ input:focus {
 }
 
 /* IMGS ICON TEXT */
-.imgs-icon-text .row,
-.text-imgs-icon .row {
+.imgs-icon-text .container,
+.text-imgs-icon .container {
   display: flex;
   align-items: center;
 }
@@ -540,7 +540,7 @@ input:focus {
 
 .imgs-icon-text img,
 .text-imgs-icon img {
-  width: 50%;
+  width: 65%;
 }
 
 .imgs-icon-text img.img-front {

@@ -4,16 +4,20 @@
 
 	{{ partial "title.html" .Params }}
 
-
 	<div class="bg-darker">
-		{{ partial "col-imgs-text.html" site.Data.data_sharing.row_one }}
-		</div>
+	{{ partial "imgs-icon-text.html" site.Data.data_sharing.row_one }}
+	</div>
 		
 	{{ partial "col-text-imgs.html" site.Data.data_sharing.row_two }}
+
 	<div class="bg-darker">
 	{{ partial "col-imgs-text.html" site.Data.data_sharing.row_three }}
 	</div>
 	
 	{{ partial "col-text-imgs.html" site.Data.data_sharing.row_four }}
+
+	<div class="bg-darker">
+	{{ partial "col-imgs-text.html" site.Data.data_sharing.row_five }}
+	</div>
       
 {{ end }}
