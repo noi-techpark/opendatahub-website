@@ -309,7 +309,7 @@ table {
 th,
 td {
   padding: 10px 0;
-  border-bottom: 3px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
 }
 
 table a {
@@ -494,8 +494,8 @@ input:focus {
 }
 
 /* COLUMNS IMG-TEXT */
-.col-imgs-text .row,
-.col-text-imgs .row {
+.col-imgs-text .container,
+.col-text-imgs .container {
   display: flex;
   align-items: center;
 }
@@ -540,19 +540,19 @@ input:focus {
 
 .imgs-icon-text img,
 .text-imgs-icon img {
-  width: 70%;
+  width: 50%;
 }
 
 .imgs-icon-text img.img-front {
-  width: 16%;
-  margin-left: -16%;
+  width: 14%;
+  margin-left: -14%;
   vertical-align: bottom;
   transform: translate(120%, -20%);
 }
 
 .text-imgs-icon img.img-front {
-  width: 16%;
-  margin-right: -16%;
+  width: 14%;
+  margin-right: -14%;
   vertical-align: bottom;
   transform: translate(-120%, -20%);
 }
@@ -984,7 +984,7 @@ footer ul.social li img {
     transform: translateX(7px);
     background-color: var(--primary) !important;
   }
-  
+
 }
 
 /* Slideshow */
