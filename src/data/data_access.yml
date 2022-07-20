@@ -11,7 +11,7 @@ row_one:
     - direct contact to data providers upon request
   btn_link: "/community"
   btn_label: "Join the community"
-  img_back: "/img/violet.png"
+  img_back: "/img/data-access-use-case.png"
   img_front: "/icon/upload.svg"
 
 row_two:
@@ -19,7 +19,7 @@ row_two:
   description: "The data you need to build your next service. We provide a free and well documented API platform you can use to create new amazing applications."
   btn_link: "/datasets"
   btn_label: "Browse the datasets list"
-  img_back: "/img/violet.png"
+  img_back: "/img/data-access-use-case.png"
   img_front: "/img/access-data-4.jpg"
 
 row_three:
@@ -27,7 +27,7 @@ row_three:
   description: "Use the data browser to explore the available Open Data, collected through various Interfaces and updated on a regular basis."
   btn_link: "https://databrowser.opendatahub.com/"
   btn_label: "Open the Data Browser"
-  img_back: "/img/violet.png"
+  img_back: "/img/ODH-data-access-data-browser.jpg"
   img_front: "/img/access-data-6.jpg"
   target_blank: true
 
@@ -36,7 +36,7 @@ row_four:
   description: "View various types of information about sensors, including their locations, what they measure and the actual data in near-real time."
   btn_link: "https://analytics.opendatahub.com/"
   btn_label: "Open the Analytics Tool"
-  img_back: "/img/violet.png"
+  img_back: "/img/ODH-data-access-analytics-tool.jpg"
   img_front: "/img/access-data-8.jpg"
   target_blank: true
 
@@ -45,7 +45,7 @@ row_five:
   description: "To help you create data visualisations faster, our community has already developed a set of components using data provided by the Open Data Hub. You can find a list of ready-to-use web components on the Open Data Hub Web Components Store."
   btn_link: "https://webcomponents.opendatahub.com/"
   btn_label: "View the web components list"
-  img_back: "/img/violet.png"
+  img_back: "/img/ODH-data-access-data-web-components.jpg"
   img_front: "/img/access-data-8.jpg"
   target_blank: true
 
@@ -54,5 +54,5 @@ row_six:
   description: "You will receive mailing with regular communications, early communication in case of breaking changes of the datasets and direct contact to data providers upon request."
   btn_link: "/community"
   btn_label: "Join the community "
-  img_back: "/img/violet.png"
+  img_back: "/img/data-access-use-case.png"
   img_front: "/img/access-data-8.jpg"

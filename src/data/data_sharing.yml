@@ -13,7 +13,7 @@ row_one:
     - Error monitoring and escalation
   btn_link: "/community"
   btn_label: "Join the community"
-  img_back: "/img/data-sharing-use-case.png"
+  img_back: "/img/ODH-data-sharing-top-image.jpg"
   img_front: "/icon/download.svg"
 
 row_two:
@@ -21,7 +21,7 @@ row_two:
   description: "Do you have data in the Tourism, Mobility, Traffic or Weather domains? Or any other data you think may be useful to the Open Data Hub Community?"
   btn_link: "/start?contact-reason=data-sharing"
   btn_label: "Contact us now!"
-  img_back: "/img/share-data-3.jpg"
+  img_back: "/img/ODH-data-sharing-bolzano.jpg"
   img_front: "/img/share-data-4.jpg"
 
 row_three:
@@ -29,7 +29,7 @@ row_three:
   description: "One-off cost for the development of a data collector that automatically queries the source API and returns the data according to the data structure of the Open Data Hub"
   btn_link: "/start?contact-reason=data-sharing"
   btn_label: "Get started"
-  img_back: "/img/share-data-3.jpg"
+  img_back: "/img/ODH-data-sharing-valuable-data.jpg"
   img_front: "/img/share-data-4.jpg"
 
 row_four:
@@ -42,7 +42,7 @@ row_four:
     - Sprint 4 (weeks 7-8): testing and production start of the application"
   btn_link: "/start?contact-reason=data-sharing"
   btn_label: "Start now"
-  img_back: "/img/share-data-5.jpg"
+  img_back: "/img/ODH-data-sharing-sprint-meeting.jpg"
   img_front: "/img/share-data-6.jpg"
 
 row_five:
@@ -50,5 +50,5 @@ row_five:
   description: "Do you need to test the potential of your data? Our experts will help you to test your idea and make it concrete with the Data Visualization service."
   btn_link: "/start?contact-reason=data-sharing"
   btn_label: "Learn more about Data Visualization"
-  img_back: "/img/share-data-5.jpg"
+  img_back: "/img/ODH-data-sharing-data-visualization.jpg"
   img_front: "/img/share-data-6.jpg"
