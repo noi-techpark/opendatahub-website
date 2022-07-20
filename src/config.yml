@@ -47,9 +47,9 @@ params:
   footer:
     logo: /img/NOI_OPENDATAHUB_NEW_WH-02.png
     menu_title_1: <a href="/services">Services</a>
-    menu_title_2: <a href="/services">Quickstart</a>
-    menu_title_3: <a href="/services">Community</a>
-    menu_title_4: <a href="/services">Data</a>
+    menu_title_2: <a href="/quickstart">Quickstart</a>
+    menu_title_3: <a href="/community">Community</a>
+    menu_title_4: <a href="/datasets">Data</a>
     github: 'https://github.com/noi-techpark/'
     facebook: 'https://www.facebook.com/opendatahub/'
     telegram: 'https://t.me/OpenDataHub'
