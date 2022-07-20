@@ -8,7 +8,7 @@
           </a>
         </div>
         <div class="col col-lg-2 col-sm-4">
-          <h6>{{ .Site.Params.footer.menu_title_1 }}</h6>
+          <h6>{{ .Site.Params.footer.menu_title_1 | markdownify }}</h6> 
           <ul>
             {{ range .Site.Menus.footer1 }}
             <li><a href="{{ .URL }}">{{ .Name }}</a></li>
@@ -16,7 +16,7 @@
           </ul>
         </div>
         <div class="col col-lg-2 col-sm-4">
-          <h6>{{ .Site.Params.footer.menu_title_2 }}</h6>
+          <h6>{{ .Site.Params.footer.menu_title_2 | markdownify }}</h6>
           <ul>
             {{ range .Site.Menus.footer2 }}
             <li><a target="_blank" href="{{ .URL }}">{{ .Name }}</a></li>
@@ -24,7 +24,7 @@
           </ul>
         </div>
         <div class="col col-lg-2 col-sm-4">
-          <h6>{{ .Site.Params.footer.menu_title_3 }}</h6>
+          <h6>{{ .Site.Params.footer.menu_title_3 | markdownify }}</h6>
           <ul>
             {{ range .Site.Menus.footer3 }}
             <li><a href="{{ .URL }}">{{ .Name }}</a></li>
@@ -32,7 +32,7 @@
           </ul>
         </div>
         <div class="col col-lg-2 col-sm-4">
-          <h6>{{ .Site.Params.footer.menu_title_4 }}</h6>
+          <h6>{{ .Site.Params.footer.menu_title_4 | markdownify }}</h6>
           <ul>
             {{ range .Site.Menus.footer4 }}
             <li><a href="{{ .URL }}">{{ .Name }}</a></li>

@@ -45,11 +45,11 @@ params:
       - URL: /js/cookieconsent-init.js
 
   footer:
-    logo: /img/logo-open-data-hub_white.png
-    menu_title_1: Services
-    menu_title_2: Quickstart
-    menu_title_3: Community
-    menu_title_4: Data
+    logo: /img/NOI_OPENDATAHUB_NEW_WH-02.png
+    menu_title_1: <a href="/services">Services</a>
+    menu_title_2: <a href="/services">Quickstart</a>
+    menu_title_3: <a href="/services">Community</a>
+    menu_title_4: <a href="/services">Data</a>
     github: 'https://github.com/noi-techpark/'
     facebook: 'https://www.facebook.com/opendatahub/'
     telegram: 'https://t.me/OpenDataHub'
@@ -69,17 +69,17 @@ menu:
 
     - parent: services
       name: Data access
-      URL: /services/#sm-tag-data-access
+      URL: /data-access
       weight: 1
 
     - parent: services
       name: Data sharing
-      URL: /services/#sm-tag-data-sharing
+      URL: /data-sharing
       weight: 2
 
     - parent: services
       name: Data visualization
-      URL: /services/#sm-tag-data-visualization
+      URL: /data-visualization
       weight: 3
 
     # - parent: services
@@ -181,9 +181,9 @@ menu:
       name: Data Visualization
 
   footer2:
-    - URL: 'https://docs.opendatahub.com'
-      name: Documentation
-      weight: 1
+    # - URL: 'https://docs.opendatahub.com'
+    #   name: Documentation
+    #   weight: 1
 
     - URL: 'https://databrowser.opendatahub.com/'
       name: Data browser

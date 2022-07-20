@@ -10,8 +10,8 @@ row_one:
 
   btn_link: "https://freesoftwarelab.noi.bz.it/services/prototype/"
   btn_label: "See details "
-  img_back: "/img/data-sharing-use-case.png"
-  img_front: "/icon/download.svg"
+  img_back: "/img/ODH-data-visualization-top-image.jpg"
+  img_front: "/icon/box.svg"
   target_blank: true
 
 row_two:

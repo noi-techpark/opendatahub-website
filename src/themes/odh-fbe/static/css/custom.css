@@ -347,6 +347,10 @@ input:focus {
   padding: 0px;
 }
 
+.generic-boxes .single-box-block:hover {
+  background-color: var(--primary) !important;
+}
+
 .generic-boxes .single-box-content {
   position: absolute;
   bottom: 0px;
@@ -816,6 +820,7 @@ footer .copyright {
   footer .odh-logo-footer {
     width: 22%;
     margin-bottom: 3rem;
+    margin-top: -2.2rem;
   }
 }
 
