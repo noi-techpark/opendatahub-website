@@ -979,15 +979,12 @@ footer ul.social li img {
 }
 
 @media (min-width: 990px) {
-  .quickstart-boxes .qs-box {  
-    transition: all 0.3s ease-out;
-    box-shadow: 0px 0px 9px 1px rgb(150 150 150 / 0%);
-  }
 
   .quickstart-boxes a:hover .qs-box .btn {
     transform: translateX(7px);
     background-color: var(--primary) !important;
   }
+  
 }
 
 /* Slideshow */
