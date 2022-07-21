@@ -48,7 +48,7 @@ row_four:
 row_five:
   title: "Still in doubt? We help you to see **data come alive!**"
   description: "Do you need to test the potential of your data? Our experts will help you to test your idea and make it concrete with the Data Visualization service."
-  btn_link: "/start?contact-reason=data-sharing"
+  btn_link: "/data-visualization"
   btn_label: "Learn more about Data Visualization"
   img_back: "/img/ODH-data-sharing-data-visualization.jpg"
   img_front: "/img/share-data-6.jpg"

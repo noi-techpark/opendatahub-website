@@ -26,14 +26,14 @@ row_two:
 
   btn_link: "https://webcomponents.opendatahub.com/"
   btn_label: "View the web components list"
-  img_back: "/img/share-data-3.jpg"
+  img_back: "/img/ODH-data-visualization-web-component-store.jpg"
   img_front: "/img/share-data-4.jpg"
 
 row_three:
   title: "**Contribute** as web component developer!"
-  description: "To contribute as a Web Component developer, you can use all the data available in the Open Data to create new Web components. Data is freely accessible and can be used for your own projects. For closer cooperation, do not hesitate to contact us."
+  description: "To contribute as a Web Component developer, you can use all the resources available in the Open Data Hub to create new Web components. Data is freely accessible and can be used for your own projects. For closer cooperation, do not hesitate to contact us."
   btn_link: "/start"
   btn_label: "Contact us"
-  img_back: "/img/share-data-3.jpg"
+  img_back: "/img/ODH-data-visualization-web-component-developer.jpg"
   img_front: "/img/share-data-4.jpg"
   
