@@ -11,7 +11,7 @@ row_one:
     - direct contact to data providers upon request
   btn_link: "/community"
   btn_label: "Join the community"
-  img_back: "/img/data-access-use-case.png"
+  img_back: "/img/ODH-home-data-access.jpg"
   img_front: "/icon/upload.svg"
 
 row_two:

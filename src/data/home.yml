@@ -97,7 +97,7 @@ services:
   description: "We offer way more than datasets, we're here to help you to share your data or access other datasets, even if you're not a tech expert."
   box_item:
     - name: "Data Access"
-      image: "/img/data-access-use-case.png"
+      image: "/img/ODH-home-data-access.jpg"
       icon: "/icon/download.svg"
       box_link: "/data-access/"
       btn_label: "Access data"
