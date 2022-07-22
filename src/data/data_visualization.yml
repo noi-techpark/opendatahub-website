@@ -32,7 +32,7 @@ row_two:
 row_three:
   title: "**Contribute** as web component developer!"
   description: "To contribute as a Web Component developer, you can use all the resources available in the Open Data Hub to create new Web components. Data is freely accessible and can be used for your own projects. For closer cooperation, do not hesitate to contact us."
-  btn_link: "/start"
+  btn_link: "/contact"
   btn_label: "Contact us"
   img_back: "/img/ODH-data-visualization-web-component-developer.jpg"
   img_front: "/img/share-data-4.jpg"
