@@ -28,7 +28,7 @@ jobs:
     concurrency: deploy-test
     env:
       AWS_S3_BUCKET_NAME : 'it.bz.opendatahub.test'
-      MAIL_CLIENT: 'https://mailclient.opendatahub.bz.it/contact'
+      MAIL_CLIENT: 'https://mailclient.opendatahub.bz.it/'
       HUGO_BASEURL: 'https://opendatahub.testingmachine.eu/'
     steps:
       - name: Checkout source code
@@ -61,7 +61,7 @@ jobs:
     concurrency: deploy-prod
     env:
       AWS_S3_BUCKET_NAME : 'it.bz.geobank'
-      MAIL_CLIENT: 'https://mailclient.opendatahub.bz.it/contact'
+      MAIL_CLIENT: 'https://mailclient.opendatahub.bz.it/'
       HUGO_BASEURL: 'https://opendatahub.com/'
     steps:
       - name: Checkout source code
