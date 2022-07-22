@@ -221,4 +221,19 @@
   footer ul.social li {
     margin-right: 1rem;
   }
+
+}
+
+@media (max-width: 1200px) {
+  /* COl-IMGS-TEXT / IMGS-ICON-TEXT */
+
+  .col-imgs-text .container,
+  .col-text-imgs .container {
+    display: initial !important;
+  }
+
+  .imgs-icon-text .container,
+  .text-imgs-icon .container {
+    display: initial !important;
+  }
 }
