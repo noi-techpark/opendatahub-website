@@ -19,7 +19,7 @@ row_one:
 row_two:
   title: "**Let your business grow** by sharing your data."
   description: "Do you have data in the Tourism, Mobility, Traffic or Weather domains? Or any other data you think may be useful to the Open Data Hub Community?"
-  btn_link: "/start?contact-reason=data-sharing"
+  btn_link: "/contact?contact-reason=data-sharing"
   btn_label: "Contact us now!"
   img_back: "/img/ODH-data-sharing-bolzano.jpg"
   img_front: "/img/share-data-4.jpg"
@@ -27,7 +27,7 @@ row_two:
 row_three:
   title: "**Invest now on your valuable data**"
   description: "One-off cost for the development of a data collector that automatically queries the source API and returns the data according to the data structure of the Open Data Hub"
-  btn_link: "/start?contact-reason=data-sharing"
+  btn_link: "/contact?contact-reason=data-sharing"
   btn_label: "Get started"
   img_back: "/img/ODH-data-sharing-valuable-data.jpg"
   img_front: "/img/share-data-4.jpg"
@@ -40,7 +40,7 @@ row_four:
     - Sprint 2 (weeks 3-4): development of the adapter part with respect to the customer’s API
     - Sprint 3 (weeks 5-6): development of the adapter part of the Open Data Hub API
     - Sprint 4 (weeks 7-8): testing and production start of the application"
-  btn_link: "/start?contact-reason=data-sharing"
+  btn_link: "/contact?contact-reason=data-sharing"
   btn_label: "Start now"
   img_back: "/img/ODH-data-sharing-sprint-meeting.jpg"
   img_front: "/img/share-data-6.jpg"
