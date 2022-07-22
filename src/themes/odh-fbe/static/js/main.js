@@ -1,4 +1,4 @@
-const contactURL = "https://example.com";
+const url = "https://example.com";
 
 var my = null;
 
@@ -380,7 +380,7 @@ function sendForm(e) {
 
   my.get("response").innerHTML = "";
   data = new FormData(my.get("contact-form"));
-  req.open("POST", contactURL);
+  req.open("POST", url);
   req.send(data);
 
   my.activate("loading");
