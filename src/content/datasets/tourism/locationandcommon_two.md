@@ -1,12 +1,12 @@
 ---
 position: "Datasets"
 
-title: "Location & Common (2)"
+title: "Tourism Regions"
 img: "/img/datasets/dataset-location-2.jpg"
 
 availability: "open"
 availability_label: "Open Data"
-availability_description: "All data is available as Open Data"
+availability_description: ""
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#common-dataset"
 example_link: "https://databrowser.opendatahub.bz.it"

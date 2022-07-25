@@ -1,7 +1,7 @@
 ---
 position: "Datasets"
 
-title: "Traffic station(2)"
+title: "Electronic Road Signs A22"
 img: "/img/datasets/aria_02_BrennerLEC_fase2.jpg"
 
 availability: "tobe-opened"

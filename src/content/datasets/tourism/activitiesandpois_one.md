@@ -1,12 +1,12 @@
 ---
 position: "Datasets"
 
-title: "Activities & Pois (1)"
+title: "Overall Activities & Pois"
 img: "/img/datasets/dataset-activities.jpg"
 
-availability: "open"
-availability_label: "Open Data"
-availability_description: "All data is available as Open Data"
+availability: "partially-closed"
+availability_label: "Partially Closed Data"
+availability_description: "Some data is available as Open Data. Rest of data is closed or restricted to project collaboration."
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#activity-poi-dataset"
 example_link: "https://databrowser.opendatahub.bz.it"
@@ -21,6 +21,6 @@ This dataset contains a collection of activities and points of interest (PoI) in
 | Output         | JSON, mime-type application/json                                                                                   |
 | E-mail contact | help@opendatahub.bz.it                                                                                             |
 | API version    | v1                                                                                                                 |
-| Swagger URL    | http://tourism.opendatahub.bz.it/swagger/index.html#/ODHActivityPoi                                                |
+| Swagger URL    | http://tourism.opendatahub.bz.it/swagger/index.html#/ODHActivityPoi                                        |
 | Sources        | LTS ActivityData, LTS PoiData, LTS GastronomicData, SuedtirolWein, SIAG Museum data, IDM Content and other Sources |
-| OpenData       | All data is available as open data                                                                                 |
+| OpenData       | Some data is available as Open Data. Rest of data is closed or restricted to project collaboration data.                                                                                 |

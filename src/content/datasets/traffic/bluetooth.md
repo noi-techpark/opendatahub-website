@@ -1,7 +1,7 @@
 ---
 position: "Datasets"
 
-title: "Bluetooth"
+title: "Bluetooth Traffic Sensors"
 img: "/img/datasets/dataset-bluetooth.jpg"
 
 availability: "partially-closed"

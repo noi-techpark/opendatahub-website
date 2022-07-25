@@ -1,12 +1,12 @@
 ---
 position: "Datasets"
 
-title: "Location & Common (3)"
+title: "District & Municipalities"
 img: "/img/datasets/dataset-location-3.jpg"
 
 availability: "open"
 availability_label: "Open Data"
-availability_description: "All data is available as Open Data"
+availability_description: ""
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#common-dataset"
 example_link: "https://databrowser.opendatahub.bz.it"
@@ -21,6 +21,6 @@ In particular, these datasets contain Districts, Municipalities which are provid
 | Output         | JSON, mime-type application/json                                                                                      |
 | E-mail contact | help@opendatahub.bz.it                                                                                                |
 | API version    | v1                                                                                                                    |
-| Swagger URL    | http://tourism.opendatahub.bz.it/swagger/index.html#/Common http://tourism.opendatahub.bz.it/swagger/index.html#/Location |
+| Swagger URL    | https://tourism.opendatahub.bz.it/swagger/index.html#/Common/get_v1_Municipality https://tourism.opendatahub.bz.it/swagger/index.html#/Common/get_v1_District|
 | Sources        | LTS                                                                                                                   |
 | OpenData       | Only Images with CC0 License are shown as open data.                                                                  |

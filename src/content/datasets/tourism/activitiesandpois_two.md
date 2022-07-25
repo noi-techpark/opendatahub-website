@@ -1,12 +1,12 @@
 ---
 position: "Datasets"
 
-title: "Activities & Pois (2)"
+title: "Pois"
 img: "/img/datasets/dataset-activities-2.jpg"
 
-availability: "open"
-availability_label: "Open Data"
-availability_description: "All data is available as Open Data"
+availability: "closed"
+availability_label: "Closed Data"
+availability_description: "Data is closed or restricted to project collaboration."
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#poi-dataset"
 example_link: "https://www.suedtirol.info/"
@@ -21,6 +21,6 @@ This dataset contains data about PoIs from LTS API (LTS PoiData), such as beauty
 | Output         | JSON, mime-type application/json                       |
 | E-mail contact | help@opendatahub.bz.it                                 |
 | API version    | v1                                                     |
-| Swagger URL    | http://tourism.opendatahub.bz.it/swagger/index.html#/Poi |
+| Swagger URL    | https://tourism.opendatahub.bz.it/swagger/index.html#/ODHActivityPoi/get_v1_ODHActivityPoi |
 | Sources        | LTS PoiData                                            |
-| OpenData       | Only Images with CC0 License are shown as open data.   |
+| OpenData       | Data is closed or restricted to project collaboration.   |

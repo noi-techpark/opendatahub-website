@@ -4,9 +4,9 @@ position: "Datasets"
 title: "Events"
 img: "/img/datasets/dataset-events.jpg"
 
-availability: "open"
-availability_label: "Open Data"
-availability_description: "All data is available as Open Data"
+availability: "partially-closed"
+availability_label: "Partially Closed Data"
+availability_description: "Some data is available as Open Data. Rest of data is closed or restricted to project collaboration."
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#event-dataset"
 example_link: "https://databrowser.opendatahub.bz.it"
@@ -22,5 +22,5 @@ This dataset contains active events provided by LTS (TIC Web) such as meetings, 
 | E-mail contact | help@opendatahub.bz.it                                   |
 | API version    | v1                                                       |
 | Swagger URL    | http://tourism.opendatahub.bz.it/swagger/index.html#/Event |
-| Sources        | Data provided by LTS                                     |
-| OpenData       | Only Images with CC0 License are shown as open data.     |
+| Sources        | LTS, DRIN, TREVILAB                                    |
+| OpenData       | Some data is available as Open Data. Rest of data is closed or restricted to project collaboration.    |

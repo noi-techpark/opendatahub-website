@@ -6,7 +6,7 @@ img: "/img/datasets/dataset-bikesharing.jpg"
 
 availability: "open"
 availability_label: "Open Data"
-availability_description: "All data is available as Open Data"
+availability_description: " "
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#bikesharing-dataset"
 example_link: "https://analytics.opendatahub.bz.it/"

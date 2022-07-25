@@ -1,12 +1,12 @@
 ---
 position: "Datasets"
 
-title: "Activities & Pois (3)"
+title: "Activities"
 img: "/img/datasets/dataset-activities-3.jpg"
 
-availability: "open"
-availability_label: "Open Data"
-availability_description: "All data is available as Open Data"
+availability: "partially-closed"
+availability_label: "Partially Closed Data"
+availability_description: "Some data is available as Open Data. Rest of data is closed or restricted to project collaboration."
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#activity-dataset"
 example_link: "https://databrowser.opendatahub.bz.it"
@@ -21,6 +21,6 @@ This dataset contains data about activities from LTS API (LTS ActivityData) such
 | Output         | JSON, mime-type application/json                            |
 | E-mail contact | help@opendatahub.bz.it                                      |
 | API version    | v1                                                          |
-| Swagger URL    | http://tourism.opendatahub.bz.it/swagger/index.html#/Activity |
+| Swagger URL    | https://tourism.opendatahub.bz.it/swagger/index.html#/ODHActivityPoi/get_v1_ODHActivityPoi |
 | Sources        | LTS ActivityData                                            |
-| OpenData       | Only Images with CC0 License are shown as open data.        |
+| OpenData       | Some data is available as Open Data. Rest of data is closed or restricted to project collaboration.      |

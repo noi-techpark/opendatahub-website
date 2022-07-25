@@ -1,12 +1,12 @@
 ---
 position: "Datasets"
 
-title: "Activities & Pois (4)"
+title: "Gastronomy"
 img: "/img/datasets/dataset-activities-4.jpg"
 
-availability: "open"
-availability_label: "Open Data"
-availability_description: "All data is available as Open Data"
+availability: "partially-closed"
+availability_label: "Partially Closed Data"
+availability_description: "Some data is available as Open Data. Rest of data is closed or restricted to project collaboration."
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#gastronomy-dataset"
 example_link: "https://databrowser.opendatahub.bz.it"
@@ -22,5 +22,5 @@ This dataset contains data about gastronomy locations from LTS API (LTS Gastrono
 | E-mail contact | help@opendatahub.bz.it                                        |
 | API version    | v1                                                            |
 | Swagger URL    | http://tourism.opendatahub.bz.it/swagger/index.html#/Gastronomy |
-| Sources        | LTS GastronomyData                                            |
-| OpenData       | Only Images with CC0 License are shown as open data.          |
+| Sources        | IDM, LTS, SuedtirolWein                                          |
+| OpenData       | Some data is available as Open Data. Rest of data is closed or restricted to project collaboration.         |

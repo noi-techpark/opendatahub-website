@@ -6,7 +6,7 @@ img: "/img/datasets/dataset-webcam.jpg"
 
 availability: "open"
 availability_label: "Open Data"
-availability_description: "All data is available as Open Data"
+availability_description: ""
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#webcam-dataset"
 example_link: "https://databrowser.opendatahub.bz.it"
@@ -21,6 +21,6 @@ This dataset contains Webcam Data. All data is synchronized daily from LTS (Webc
 | Output         | JSON, mime-type application/json                              |
 | E-mail contact | help@opendatahub.bz.it                                        |
 | API version    | v1                                                            |
-| Swagger URL    | http://tourism.opendatahub.bz.it/swagger/index.html#/WebcamInfo |
+| Swagger URL    | https://tourism.opendatahub.bz.it/swagger/index.html#/WebcamInfo|
 | Sources        | Webcam links from LTS and IDM                                 |
 | OpenData       | Open Data                                                     |

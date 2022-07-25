@@ -6,7 +6,7 @@ img: "/img/datasets/andrew-roberts-2JvEjF0tf50-unsplash.png"
 
 availability: "open"
 availability_label: "Open Data"
-availability_description: "All data is available as Open Data"
+availability_description: " "
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#echarging-dataset"
 example_link: "https://analytics.opendatahub.bz.it/"

@@ -6,7 +6,7 @@ img: "/img/datasets/andrew-slifkin-2lp_2jtZAsg-unsplash.png"
 
 availability: "open"
 availability_label: "Open Data"
-availability_description: "All data is available as Open Data"
+availability_description: " "
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#carpoolinghub-dataset"
 example_link: "http://carpooling.bz.it/"

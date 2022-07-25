@@ -1,12 +1,12 @@
 ---
 position: "Datasets"
 
-title: "Weather forecast"
+title: "Weather Forecast"
 img: "/img/datasets/dataset-environment.jpg"
 
 availability: "open"
 availability_label: "Open Data"
-availability_description: "All data is available as Open Data"
+availability_description: " "
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#weather-forecast-dataset"
 example_link: "https://databrowser.opendatahub.bz.it"

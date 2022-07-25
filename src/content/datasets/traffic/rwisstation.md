@@ -1,7 +1,7 @@
 ---
 position: "Datasets"
 
-title: "RWIS station"
+title: "RWIS Station"
 img: "/img/datasets/dataset-rwis.jpg"
 
 availability: "partially-closed"
@@ -14,7 +14,7 @@ example_link: "https://map.clean-roads.eu/"
 datatype: "Traffic"
 ---
 
-The Road Weather stations are sensors that measure both the road surface and the weather conditions. Showcase from project CLEAN-ROADS, open data till 2016.
+The Road Weather stations are sensors that measure both the road surface and the weather conditions. 
 A22 (Modena - Brennero): restricted to a project
 
 |                |                                                             |
@@ -25,4 +25,4 @@ A22 (Modena - Brennero): restricted to a project
 | Swagger URL    | https://mobility.api.opendatahub.bz.it/                     |
 | StationType    | [RWISstation](https://mobility.api.opendatahub.bz.it/v2/flat/RWISstation)                                          |
 | Sources        | A22                                                         |
-| OpenData       | Open (CLEAN-ROADS) + Restricted (expert knowledge required) |
+| OpenData       | Restricted (expert knowledge required) |

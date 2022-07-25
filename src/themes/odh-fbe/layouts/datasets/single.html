@@ -1,53 +1,41 @@
 {{ define "main" }} {{ partial "nav.html" . }}
 
 <section class="dataset-title">
-  <div class="container">
-    <div class="container-content">
-      <h1>{{ .Title | markdownify }}</h1>
-      <span class="category">
+    <div class="container">
+        <div class="container-content">
+            <h1>{{ .Title | markdownify }}</h1>
+            <span class="category">
         <a href="/datasets">Datasets</a> >
-        <a href="/datatype/{{ lower .Params.datatype }}"
-          >{{ .Params.datatype }}</a
-        >
+        <a href="/datatype/{{ lower .Params.datatype }}">{{ .Params.datatype }}</a>
       </span>
+        </div>
     </div>
-  </div>
 </section>
 
 <div class="dataset-content">
-  <div class="container">
-    <div class="container-content col col-12 col-lg-7">
-      <p class="description">{{ .Content }}</p>
+    <div class="container">
+        <div class="container-content col col-12 col-lg-7">
+            <p class="description">{{ .Content }}</p>
 
-      {{ with .Params.doc_link}}<a
-        href="{{ . }}"
-        class="btn btn-primary"
-        style="margin-right: 0.5rem"
-        target="_blank"
-        >See documentation</a
-      >{{ end }} {{ with .Params.example_link}}<a
-        href="{{ . }}"
-        class="btn btn-lightgrey"
-        target="_blank"
-        >See example</a
-      >{{ end }}
-    </div>
-    <div class="card col col-12 col-lg-5">
-      <div>
-        <div class="square bg-center-cover">
-          <img src="{{ .Params.img }}" alt="{{ .Params.img_alt }}" />
-          <div class="availability {{ .Params.availability }}"></div>
+            {{ with .Params.doc_link}}<a href="{{ . }}" class="btn btn-primary" style="margin-right: 0.5rem" target="_blank">See documentation</a>{{ end }} {{ with .Params.example_link}}<a href="{{ . }}" class="btn btn-lightgrey" target="_blank">See example</a>{{
+            end }}
         </div>
-        <div class="full-width availability {{ .Params.availability }}">
-          {{ .Params.availability_label }}
-        </div>
+        <div class="card col col-12 col-lg-5">
+            <div>
+                <div class="square bg-center-cover">
+                    <img src="{{ .Params.img }}" alt="{{ .Params.img_alt }}" />
+                    <div class="availability {{ .Params.availability }}"></div>
+                </div>
+                <div class="full-width availability {{ .Params.availability }}">
+                    {{ .Params.availability_label }}
+                </div>
 
-        {{ with .Params.availability_description }}
-        <p class="text-center availability description">{{.}}</p>
-        {{ end }}
-      </div>
+                {{ with .Params.availability_description }}
+                <p class="text-center availability description">{{.}}</p>
+                {{ end }}
+            </div>
+        </div>
     </div>
-  </div>
 </div>
 
 {{ end }}

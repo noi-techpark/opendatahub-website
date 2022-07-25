@@ -1,12 +1,12 @@
 ---
 position: "Datasets"
 
-title: "Article"
+title: "Articles"
 img: "/img/datasets/dataset-article.jpg"
 
 availability: "open"
 availability_label: "Open Data"
-availability_description: "All data is available as Open Data"
+availability_description: ""
 
 doc_link: "http://tourism.opendatahub.bz.it/swagger/index.html#/Article"
 example_link: "https://databrowser.opendatahub.bz.it/"

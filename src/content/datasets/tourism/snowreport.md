@@ -1,12 +1,12 @@
 ---
 position: "Datasets"
 
-title: "Snow report"
+title: "Snow Report"
 img: "/img/datasets/dataset-snow.jpg"
 
 availability: "open"
 availability_label: "Open Data"
-availability_description: "All data is available as Open Data"
+availability_description: " "
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#snowreport-dataset"
 example_link: "https://databrowser.opendatahub.bz.it"
@@ -22,6 +22,6 @@ An aggregation of different Datatypes to get a complete ski area report. Lifts, 
 | Output         | JSON, mime-type application/json                                                      |
 | E-mail contact | help@opendatahub.bz.it                                                                |
 | API version    | v1                                                                                    |
-| Swagger URL    | http://tourism.opendatahub.bz.it/swagger/index.html#/Weather/get_v1_Weather_SnowReport |
+| Swagger URL    | https://tourism.opendatahub.bz.it/swagger/index.html#/Weather/get_v1_Weather_SnowReport|
 | Sources        | snow data provided by LTS / Ski Areas basic data provided by IDM                      |
 | OpenData       | Open Data                                                                             |
