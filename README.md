@@ -56,8 +56,7 @@ This section explains how to create a new event in the Open Data Hub website.
 
 To add an event box in the Event section of the website you have to add an .md file in the /src/content/events folder.
 The .md file should contain the following information:
-t
-itle: "Title of the event"
+title: "Title of the event"
 img: "/img/events/eventImage.jpg"
 img_alt: "event"
 day: "yyyy-mm-dd"
@@ -71,10 +70,10 @@ Moreover the .md file should contain also a short description of the event.
 #### Complex event with Programm page
 
 To add a new event page that includes more info you have to do the following steps:
-- create a folder with the name of the event in the folder /src/content/ (for the content of the folder yuo can use the odhday and odhday22 as example and change it accordingly to your needs)
+- create a folder with the name of the event in the folder /src/content/ (for the content of the folder you can use the odhday and odhday22 as example and change it accordingly to your needs)
 - in the .md file in the folder /src/content/eventname/ put the name of the folder in the "position file"
 - create a folder with the name of the event in the folder /src/themes/odh-fbe/layouts (for the content of the folder yuo can use the odhday and odhday22 as example and change it accordingly to your needs)
-- in lhe list.html file in the folder /src/themes/odh-fbe/layouts/eventname/ put the folder name in the following lines
+- in the list.html file in the folder /src/themes/odh-fbe/layouts/eventname/ put the folder name in the following lines
 
 ```
 <section class="bg-darker">
@@ -85,16 +84,16 @@ To add a new event page that includes more info you have to do the following ste
 </section>
 ```
 
-- create a file .yml in the folder /src/data. Please note that the file should be named like the two folder you have created in the previous oints (for the content of the folder yuo can use the odhday and odhday22 as example and change it accordingly to your needs)
-**Note** Don't use capitol letter in the naming of files and folders
+- create a file .yml in the folder /src/data. Please note that the file should be named like the two folder you have created in the previous points (for the content of the folder yuo can use the odhday and odhday22 as example and change it accordingly to your needs).
+**Note**: Don't use capital letters in the naming of files and folders.
 
 ## Deployment
 
-To deploy the website, simply run the command `hugo -s src -d ../target` from the root folder of the project. The final version of the website will then be generate inside the `target` folder.
+To deploy the website, simply run the command `hugo -s src -d ../target` from the root folder of the project. The final version of the website will then be generated inside the `target` folder.
 
 ## Docker environment
 
-For the project a Docker environment is already prepared and ready to use with all necessary prerequisites.
+For the project, a Docker environment is already prepared and ready to use with all the necessary prerequisites.
 
 These Docker containers are the same as used by the continuous integration servers.
 
@@ -104,15 +103,15 @@ Install [Docker](https://docs.docker.com/install/) (with Docker Compose) locally
 
 ### Start and stop the containers
 
-Before start working you have to start the Docker containers:
+Before you start working, start the Docker containers:
 
 ```
 docker-compose up --build --detach
 ```
 
-The website will be available at [http://127.0.0.1:1313](http://127.0.0.1:1313). It also recompiles automatically if you make any change to the source code.
+The website will be available at [http://127.0.0.1:1313](http://127.0.0.1:1313). It also recompiles automatically if you make any changes to the source code.
 
-After finished working you can stop the Docker containers:
+After finishing work, you can stop the Docker containers:
 
 ```
 docker-compose stop
