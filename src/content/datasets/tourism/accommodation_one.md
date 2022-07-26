@@ -24,4 +24,4 @@ This dataset contains accommodations in South Tyrol. Accessible via REST or the 
 | Swagger URL    | https://tourism.opendatahub.bz.it/swagger/ui/index#/Accommodation  |
 | AlpineBits URL | https://alpinebits.opendatahub.bz.it/AlpineBits |
 | Sources        | Data provided by LTS / Availability Requests provided by HGV/LTS                                                  |
-| OpenData       | Some data is available as Open Data. Rest of data is closed or restricted to project collaboration.                                                           |
+| OpenData       | Accomodations data from LTS and HGV are partially closed data                                                           |

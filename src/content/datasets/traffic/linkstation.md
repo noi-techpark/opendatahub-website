@@ -24,4 +24,4 @@ Data processing of experimental Bluetooth-based sensors and detectors (A22 data 
 | Swagger URL    | https://mobility.api.opendatahub.bz.it/ |
 | StationType    | [LinkStation](https://mobility.api.opendatahub.bz.it/v2/flat/LinkStation)                      |
 | Sources        | A22                                     |
-| OpenData       | Restricted to a project                 |
+| OpenData       | LinkStation data are restricted                 |

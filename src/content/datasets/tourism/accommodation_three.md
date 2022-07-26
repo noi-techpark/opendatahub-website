@@ -24,5 +24,5 @@ It can be done through HGV MSS (Booking Suedtirol Endpoint) or LTS. The Availabi
 | API version    | v1, AlpineBits HotelData 2017-10, 2018-10 (soon 2020-10)                                                          |
 | Swagger URL    | https://tourism.opendatahub.bz.it/swagger/index.html#/Accommodation/post_v1_AccommodationAvailable  |
 | AlpineBits URL | https://alpinebits.opendatahub.bz.it/AlpineBits |
-| Sources        | Availability Requests provided by HGV/LTS                                                                         |
-| OpenData       | Closed API                                                                                                        |
+| Sources        | Data provided by LTS / Availability Requests provided by HGV/LTS                                                      |
+| OpenData       | Data only available to authorized collaborators                                                                                           |

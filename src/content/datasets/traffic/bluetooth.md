@@ -4,9 +4,9 @@ position: "Datasets"
 title: "Bluetooth Traffic Sensors"
 img: "/img/datasets/dataset-bluetooth.jpg"
 
-availability: "partially-closed"
-availability_label: "Partially Closed Data"
-availability_description: "Some data is available as Open Data. Rest of data is closed or restricted to project collaboration."
+availability: "open data"
+availability_label: "Open Data"
+availability_description: ""
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#bluetooth-dataset"
 example_link: "https://analytics.opendatahub.bz.it/"
@@ -24,4 +24,4 @@ Experimental Bluetooth-based sensors and detectors. Currently located in Bolzano
 | Swagger URL    | https://mobility.api.opendatahub.bz.it/ |
 | StationType    | [BluetoothStation](https://mobility.api.opendatahub.bz.it/v2/flat/BluetoothStation)                 |
 | Sources        | CISMA                                   |
-| OpenData       | Restricted to a project                 |
+| OpenData       | Only Images with CC0 License are shown as open data                               |

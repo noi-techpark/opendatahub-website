@@ -14,13 +14,13 @@ example_link: "https://databrowser.opendatahub.bz.it"
 datatype: "Tourism"
 ---
 
-This dataset contains data about gastronomy locations from LTS API (LTS GastronomyData) such as restaurants, bars, bistros, pubs, apres ski, pizzerias, fast food, cafeterias, vinotheques, beer gardens, mountain refuges, alpine huts, ski huts, etc. This dataset offers enhance filtering (cuisine types, ceremony codes, dish codes etc.)
+This dataset contains data about gastronomy locations from LTS API (LTS GastronomyData), SuedtirolWein and IDM such as restaurants, bars, bistros, pubs, apres ski, pizzerias, fast food, cafeterias, vinotheques, beer gardens, mountain refuges, alpine huts, ski huts, etc. This dataset offers enhance filtering (cuisine types, ceremony codes, dish codes etc.)
 
 |                |                                                               |
 | :------------- | ------------------------------------------------------------- |
 | Output         | JSON, mime-type application/json                              |
 | E-mail contact | help@opendatahub.bz.it                                        |
 | API version    | v1                                                            |
-| Swagger URL    | http://tourism.opendatahub.bz.it/swagger/index.html#/Gastronomy |
-| Sources        | IDM, LTS, SuedtirolWein                                          |
-| OpenData       | Some data is available as Open Data. Rest of data is closed or restricted to project collaboration.         |
+| Swagger URL    | https://tourism.opendatahub.bz.it/swagger/index.html#/ODHActivityPoi/get_v1_ODHActivityPoi|
+| Sources        | IDM, SuedtirolWein, LTS                                       |
+| OpenData       | Data from IDM and SuedtirolWein are open data. Data from LTS are partially closed data          |

@@ -24,4 +24,4 @@ Data provided by IDM.
 | API version    | v1                                                                                                                    |
 | Swagger URL    | http://tourism.opendatahub.bz.it/swagger/index.html#/Common http://tourism.opendatahub.bz.it/swagger/index.html#/Location |
 | Sources        | IDM                                                                                                              |
-| OpenData       | Only Images with CC0 License are shown as open data.                                                                  |
+| OpenData       | Only Images with CC0 License are shown as open data                                                                  |

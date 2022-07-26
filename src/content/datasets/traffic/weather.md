@@ -5,9 +5,9 @@ title: "Weather"
 img: "/img/datasets/dataset-environment.jpg"
 img_alt: "sfscon"
 
-availability: "open"
-availability_label: "Open Data"
-availability_description: " "
+availability: "partially-closed"
+availability_label: "Partially Closed Data"
+availability_description: "Some data is available as Open Data. Rest of data is closed or restricted to project collaboration."
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#weather-dataset"
 example_link: "https://analytics.opendatahub.bz.it/"
@@ -25,4 +25,4 @@ This dataset contains meteorological data provided by the hydrographical Departm
 | Swagger URL    | https://mobility.api.opendatahub.bz.it/ |
 | StationType    | [MeteoStation](https://mobility.api.opendatahub.bz.it/v2/flat/MeteoStation)                     |
 | Sources        | Department of South Tyrol and Trentino  |
-| OpenData       | Open                                    |
+| OpenData       | MeteoStation data are restricted                                               |

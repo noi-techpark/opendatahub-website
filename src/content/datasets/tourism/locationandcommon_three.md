@@ -23,4 +23,4 @@ In particular, these datasets contain Districts, Municipalities which are provid
 | API version    | v1                                                                                                                    |
 | Swagger URL    | https://tourism.opendatahub.bz.it/swagger/index.html#/Common/get_v1_Municipality https://tourism.opendatahub.bz.it/swagger/index.html#/Common/get_v1_District|
 | Sources        | LTS                                                                                                                   |
-| OpenData       | Only Images with CC0 License are shown as open data.                                                                  |
+| OpenData       | Only Images with CC0 License are shown as open data                                                                  |

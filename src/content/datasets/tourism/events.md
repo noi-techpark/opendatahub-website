@@ -14,7 +14,7 @@ example_link: "https://databrowser.opendatahub.bz.it"
 datatype: "Tourism"
 ---
 
-This dataset contains active events provided by LTS (TIC Web) such as meetings, fairs, markets, performances, courses, music, festivals, hikes, trips, guided tours, exhibitions, etc. It includes past events.
+This dataset contains active events provided by LTS (TIC Web), DRIN and TREVILAB such as meetings, fairs, markets, performances, courses, music, festivals, hikes, trips, guided tours, exhibitions, etc. It includes past events.
 
 |                |                                                          |
 | :------------- | -------------------------------------------------------- |
@@ -23,4 +23,4 @@ This dataset contains active events provided by LTS (TIC Web) such as meetings, 
 | API version    | v1                                                       |
 | Swagger URL    | http://tourism.opendatahub.bz.it/swagger/index.html#/Event |
 | Sources        | LTS, DRIN, TREVILAB                                    |
-| OpenData       | Some data is available as Open Data. Rest of data is closed or restricted to project collaboration.    |
+| OpenData       | Events from DRIN and TREVILAB are open data. Events from LTS are partially closed data    |

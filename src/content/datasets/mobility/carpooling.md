@@ -24,4 +24,4 @@ This dataset contains all data of the carpooling service of the Burggrafenamt/ B
 | Swagger URL    | https://mobility.api.opendatahub.bz.it/                              |
 | StationType    | [CarpoolingHub](https://mobility.api.opendatahub.bz.it/v2/flat/CarpoolingHub), [CarpoolingService](https://mobility.api.opendatahub.bz.it/v2/flat/CarpoolingService), [CarpoolingUser](https://mobility.api.opendatahub.bz.it/v2/flat/CarpoolingUser) |
 | Sources        | Bezirksgemeinschaft Burggrafenamt/Burgraviato, Inno.vìe              |
-| OpenData       | Open                                                                 |
+| OpenData       | Only Images with CC0 License are shown as open data                                                                               |

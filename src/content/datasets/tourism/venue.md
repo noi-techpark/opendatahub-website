@@ -4,9 +4,9 @@ position: "Datasets"
 title: "Venue"
 img: "/img/datasets/dataset-venue.jpg"
 
-availability: "tobe-opened"
-availability_label: "Data to be Opened"
-availability_description: "Data will be opened soon"
+availability: "closed data"
+availability_label: "Closed Data"
+availability_description: "Data is closed or restricted to project collaboration."
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#venue-dataset"
 example_link: "https://databrowser.opendatahub.bz.it"
@@ -23,4 +23,4 @@ This dataset contains events location provided by LTS such as info about a locat
 | API version    | v1                                                       |
 | Swagger URL    | http://tourism.opendatahub.bz.it/swagger/index.html#/Venue |
 | Sources        | LTS                                                      |
-| OpenData       | Data to be opened                                        |
+| OpenData       | Data only available to authorized collaborators                                        |

@@ -23,4 +23,4 @@ This dataset contains data about PoIs from LTS API (LTS PoiData), such as beauty
 | API version    | v1                                                     |
 | Swagger URL    | https://tourism.opendatahub.bz.it/swagger/index.html#/ODHActivityPoi/get_v1_ODHActivityPoi |
 | Sources        | LTS PoiData                                            |
-| OpenData       | Data is closed or restricted to project collaboration.   |
+| OpenData       | Data only available to authorized collaborators        |

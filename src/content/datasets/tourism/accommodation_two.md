@@ -15,7 +15,7 @@ datatype: "Tourism"
 ---
 
 On the Accommodations Endpoint it is also possible to get Rooms.
-Rooms from source LTS are open data, otherwise rooms from Source HGV are closed data.
+Rooms from sources LTS and HGV are closed data.
 
 |                |                                                                                                                   |
 | :------------- | ----------------------------------------------------------------------------------------------------------------- |
@@ -25,4 +25,4 @@ Rooms from source LTS are open data, otherwise rooms from Source HGV are closed 
 | Swagger URL    | https://tourism.opendatahub.bz.it/swagger/index.html#/Accommodation/AccommodationRoomList |
 | AlpineBits URL | https://alpinebits.opendatahub.bz.it/AlpineBits |
 | Sources        | Data provided by LTS / Availability Requests provided by HGV/LTS                                                  |
-| OpenData       | Rooms from source LTS are Open Data, Rooms from Source HGV are closed data                                        |
+| OpenData       | Data only available to authorized collaborators                                 |

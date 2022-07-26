@@ -4,9 +4,9 @@ position: "Datasets"
 title: "Electronic Road Signs A22"
 img: "/img/datasets/aria_02_BrennerLEC_fase2.jpg"
 
-availability: "tobe-opened"
-availability_label: "Data to be Opened"
-availability_description: "Data will be opened soon"
+availability: "closed"
+availability_label: "Closed Data"
+availability_description: "Data is closed or restricted to project collaboration."
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#trafficstation-vms-dataset"
 example_link: "https://analytics.opendatahub.bz.it/"
@@ -14,7 +14,7 @@ example_link: "https://analytics.opendatahub.bz.it/"
 datatype: "Traffic"
 ---
 
-The VMS (Variable Message Sign) sensors collect data about the electronic road signs on the A22 motorway. Project restricted data, candidate to be opened in future
+The VMS (Variable Message Sign) sensors collect data about the electronic road signs on the A22 motorway. 
 
 |                |                                                  |
 | :------------- | ------------------------------------------------ |
@@ -24,4 +24,4 @@ The VMS (Variable Message Sign) sensors collect data about the electronic road s
 | Swagger URL    | https://mobility.api.opendatahub.bz.it/          |
 | StationType    | [VMS](https://mobility.api.opendatahub.bz.it/v2/flat/VMS)                                       |
 | Sources        | A22                                              |
-| OpenData       | Restricted to a project (candidate to be opened) |
+| OpenData       | Data only available to authorized collaborators       |

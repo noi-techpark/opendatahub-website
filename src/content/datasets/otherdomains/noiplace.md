@@ -24,4 +24,4 @@ This dataset contains all places, offices, meeting rooms, and in general all poi
 | Swagger URL    | https://mobility.api.opendatahub.bz.it/ |
 | StationType    | [NOI-Place](https://mobility.api.opendatahub.bz.it/v2/flat/NOI-Place)                               |
 | Sources        | NOI Techpark                            |
-| OpenData       | Open Data                              |
+| OpenData       | Only Images with CC0 License are shown as open data                                            |

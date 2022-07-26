@@ -24,4 +24,4 @@ This dataset originates from data collected in the DAVINCI project, whose aim is
 | Swagger URL    | https://mobility.api.opendatahub.bz.it/ |
 | StationType    | [CreativeIndustry](https://mobility.api.opendatahub.bz.it/v2/flat/CreativeIndustry)                        |
 | Sources        | IDM                                     |
-| OpenData       | Open Data.                              |
+| OpenData       | Only Images with CC0 License are shown as open data                                             |

@@ -14,7 +14,7 @@ example_link: "https://webcomponents.opendatahub.bz.it/webcomponent/f594de36-013
 datatype: "Tourism"
 ---
 
-This dataset contains events provided by NOI Techpark, Eurac and St. Virtual
+This dataset contains events provided by NOI Techpark and Eurac.
 
 |                |                                                                |
 | :------------- | -------------------------------------------------------------- |
@@ -22,5 +22,5 @@ This dataset contains events provided by NOI Techpark, Eurac and St. Virtual
 | E-mail contact | help@opendatahub.bz.it                                         |
 | API version    | v1                                                             |
 | Swagger URL    | https://tourism.opendatahub.bz.it/swagger/index.html#/EventShort |
-| Sources        | Data provided by NOI Techpark, Eurac and St. Virtual           |
-| OpenData       | Open Data                                                      |
+| Sources        | Data provided by NOI Techpark and Eurac         |
+| OpenData       | Only Images with CC0 License are shown as open data                                                    |
