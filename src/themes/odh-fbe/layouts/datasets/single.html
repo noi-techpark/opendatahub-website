@@ -19,13 +19,7 @@
     <div class="container-content col col-12 col-lg-7">
       <p class="description">{{ .Content }}</p>
 
-      {{ with .Params.doc_link}}<a
-        href="{{ . }}"
-        class="btn btn-primary"
-        style="margin-right: 0.5rem"
-        target="_blank"
-        >See documentation</a
-      >{{ end }} {{ with .Params.example_link}}<a
+       {{ with .Params.example_link}}<a
         href="{{ . }}"
         class="btn btn-lightgrey"
         target="_blank"

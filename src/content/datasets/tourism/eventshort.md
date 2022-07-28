@@ -16,11 +16,10 @@ datatype: "Tourism"
 
 This dataset contains events provided by NOI Techpark and Eurac.
 
-|                |                                                                |
-| :------------- | -------------------------------------------------------------- |
-| Output         | JSON, mime-type application/json                               |
-| E-mail contact | help@opendatahub.bz.it                                         |
-| API version    | v1                                                             |
-| Swagger URL    | https://tourism.opendatahub.bz.it/swagger/index.html#/EventShort |
-| Sources        | Data provided by NOI Techpark and Eurac         |
-| OpenData       | Only Images with CC0 License are shown as open data                                                    |
+|             |                                                                  |
+| :---------- | ---------------------------------------------------------------- |
+| Output      | JSON, mime-type application/json                                 |
+| API version | v1                                                               |
+| Swagger URL | https://tourism.opendatahub.bz.it/swagger/index.html#/EventShort |
+| Sources     | NOI Techpark and Eurac                          |
+| OpenData    | Open Data                                                        |

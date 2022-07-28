@@ -6,7 +6,7 @@ img: "/img/datasets/idm-noi-techpark.jpg"
 
 availability: "open"
 availability_label: "Open Data"
-availability_description: " "
+availability_description: "Only Images with CC0 License are shown as open data"
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#noiplace-dataset"
 example_link: "https://maps.noi.bz.it/"
@@ -16,12 +16,12 @@ datatype: "Others"
 
 This dataset contains all places, offices, meeting rooms, and in general all points of interest located in the various buildings that compose the NOI Techpark in Bolzano, Italy. This dataset is used to create the interactive map of the NOI Techpark.
 
-|                |                                         |
-| :------------- | --------------------------------------- |
-| Output         | JSON, mime-type application/json        |
-| E-mail contact | help@opendatahub.bz.it                  |
-| API version    | v2                                      |
-| Swagger URL    | https://mobility.api.opendatahub.bz.it/ |
-| StationType    | [NOI-Place](https://mobility.api.opendatahub.bz.it/v2/flat/NOI-Place)                               |
-| Sources        | NOI Techpark                            |
-| OpenData       | Only Images with CC0 License are shown as open data                                            |
+
+|             |                                                                       |
+| :---------- | --------------------------------------------------------------------- |
+| Output      | JSON, mime-type application/json                                      |
+| API version | v2                                                                    |
+| Swagger URL | https://mobility.api.opendatahub.bz.it/                               |
+| StationType | [NOI-Place](https://mobility.api.opendatahub.bz.it/v2/flat/NOI-Place) |
+| Sources     | NOI Techpark                                                          |
+| OpenData    | Open Data                 |

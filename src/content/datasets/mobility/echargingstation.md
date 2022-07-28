@@ -16,12 +16,11 @@ datatype: "Mobility"
 
 This dataset exposes data about the existing e-charging stations and plugs in South Tyrol and their availability status, including historical data and usage. Hydrogen station data are included.
 
-|                |                                                                   |
-| :------------- | ----------------------------------------------------------------- |
-| Output         | JSON, mime-type application/json                                  |
-| E-mail contact | help@opendatahub.bz.it                                            |
-| API version    | v2                                                                |
-| Swagger URL    | https://mobility.api.opendatahub.bz.it/                           |
-| StationType    | [EChargingPlug](https://mobility.api.opendatahub.bz.it/v2/flat/EChargingPlug,EChargingStation), [EChargingStation](https://mobility.api.opendatahub.bz.it/v2/flat/EChargingPlug,EChargingStation)                     |
-| Sources        | Alperia (Neogy), Route220, nevicam, Driwe, H2 Südtirol Alto Adige |
-| OpenData       | Only Images with CC0 License are shown as open data                                                                            |
+|             |                                                                                                                                                                                                   |
+| :---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Output      | JSON, mime-type application/json                                                                                                                                                                  |
+| API version | v2                                                                                                                                                                                                |
+| Swagger URL | https://mobility.api.opendatahub.bz.it/                                                                                                                                                           |
+| StationType | [EChargingPlug](https://mobility.api.opendatahub.bz.it/v2/flat/EChargingPlug,EChargingStation), [EChargingStation](https://mobility.api.opendatahub.bz.it/v2/flat/EChargingPlug,EChargingStation) |
+| Sources     | Alperia (Neogy), Route220, nevicam, Driwe, H2 Südtirol Alto Adige                                                                                                                                 |
+| OpenData    | Open Data                                                                                                                                                                                         |
