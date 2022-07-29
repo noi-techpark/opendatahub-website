@@ -1,5 +1,5 @@
 theme: odh-fbe
-baseURL: 'https://example.com'
+baseURL: "https://example.com"
 languageCode: en
 title: Open Data Hub Südtirol - Alto Adige
 markup:
@@ -10,15 +10,14 @@ markup:
 params:
   logo: img/NOI_OPENDATAHUB_NEW_BK_nospace-01.svg
   logo_NOI: img/NOI_1_BK.svg
-  web_NOI: 'https://noi.bz.it'
+  web_NOI: "https://noi.bz.it"
   favicon: img/logo-open-data-hub.png
   author: Open Data Hub Südtirol - Alto Adige
   description: >-
     Open Data Hub is your access point to relevant data. You and your service
     providers can use Open Data Hub for all channels of digital communication.
     The data is updated on a regular basis and easily accessible.
-  PrivacyUrl: 'https://noi.bz.it/en/privacy-cookie-policy'
-
+  PrivacyUrl: "https://noi.bz.it/en/privacy-cookie-policy"
   plugins:
     css:
       - URL: /css/animate.css
@@ -50,9 +49,9 @@ params:
     menu_title_2: <a href="/quickstart">Quickstart</a>
     menu_title_3: <a href="/community">Community</a>
     menu_title_4: <a href="/datasets">Data</a>
-    github: 'https://github.com/noi-techpark/'
-    facebook: 'https://www.facebook.com/opendatahub/'
-    telegram: 'https://t.me/OpenDataHub'
+    github: "https://github.com/noi-techpark/"
+    facebook: "https://www.facebook.com/opendatahub/"
+    telegram: "https://t.me/OpenDataHub"
     copyright: >-
       NOI AG - Via Volta 13/A, I-39100 Bolzano - VAT No.: 02595720216 -
       Endowment capital 110.740.000 € - <a href="https://noi.bz.it/en/privacy-cookie-policy" target="_blank">Privacy</a>
@@ -87,8 +86,6 @@ menu:
     #   URL: /services/#sm-tag-data-visualization
     #   weight: 4
 
-
-
     # - identifier: use-cases
     #   name: Use Cases
     #   URL: /use-cases
@@ -109,22 +106,15 @@ menu:
     #   URL: /use-cases/#sm-tag-data-visualization
     #   weight: 3
 
-
-
     - identifier: datasets
       URL: /datasets
       name: Datasets
       weight: 3
 
-
-
     - identifier: quickstart
       URL: /quickstart
       name: Quickstart
       weight: 4
-
-
-
 
     - identifier: community
       URL: /community
@@ -151,8 +141,6 @@ menu:
     #   URL: /community/#sm-tag-data-consumers
     #   weight: 4
 
-
-
     - identifier: events
       URL: /events
       name: Events
@@ -167,8 +155,6 @@ menu:
       name: Past events
       URL: /events/#sm-tag-past-events
       weight: 2
-
-
 
   footer1:
     - URL: /data-sharing/
@@ -185,15 +171,15 @@ menu:
     #   name: Documentation
     #   weight: 1
 
-    - URL: 'https://databrowser.opendatahub.com/'
+    - URL: "https://databrowser.opendatahub.com/"
       name: Data browser
       weight: 2
 
-    - URL: 'https://analytics.opendatahub.com/'
+    - URL: "https://analytics.opendatahub.com/"
       name: Analytics tool
       weight: 3
 
-    - URL: 'https://webcomponents.opendatahub.com/'
+    - URL: "https://webcomponents.opendatahub.com/"
       name: Web Components
       weight: 4
 
@@ -207,4 +193,8 @@ menu:
   footer4:
     - URL: /datasets
       name: Datasets
-      
+      weight: 2
+
+    - URL: "https://opendatahub.readthedocs.io/en/latest/datasets.html"
+      name: Documentation
+      weight: 3

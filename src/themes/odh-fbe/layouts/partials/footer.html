@@ -1,91 +1,82 @@
 <footer>
-  <section>
-    <div class="container">
-      <div class="row">
-        <div class="col col-lg-4 odh-logo-footer">
-          <a href="/">
-            <img src="{{ .Site.Params.footer.logo }}" />
-          </a>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col col-lg-4 odh-logo-footer">
+                    <a href="/">
+                        <img src="{{ .Site.Params.footer.logo }}" />
+                    </a>
+                </div>
+                <div class="col col-lg-2 col-sm-4">
+                    <h6>{{ .Site.Params.footer.menu_title_1 | markdownify }}</h6>
+                    <ul>
+                        {{ range .Site.Menus.footer1 }}
+                        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                        {{end}}
+                    </ul>
+                </div>
+                <div class="col col-lg-2 col-sm-4">
+                    <h6>{{ .Site.Params.footer.menu_title_2 | markdownify }}</h6>
+                    <ul>
+                        {{ range .Site.Menus.footer2 }}
+                        <li><a target="_blank" href="{{ .URL }}">{{ .Name }}</a></li>
+                        {{end}}
+                    </ul>
+                </div>
+                <div class="col col-lg-2 col-sm-4">
+                    <h6>{{ .Site.Params.footer.menu_title_3 | markdownify }}</h6>
+                    <ul>
+                        {{ range .Site.Menus.footer3 }}
+                        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                        {{end}}
+                    </ul>
+                </div>
+                <div class="col col-lg-2 col-sm-4">
+                    <h6>{{ .Site.Params.footer.menu_title_4 | markdownify }}</h6>
+                    <ul>
+                        {{ range .Site.Menus.footer4 }}
+                        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                        {{end}}
+                    </ul>
+                </div>
+                <div class="col col-lg-2 col-sm-4 social-logos-footer">
+                    {{ with .Site.Params.footer }}
+                    <ul class="social">
+                        {{ if isset . "twitter" }}
+                        <li>
+                            <a target="_blank" href="{{ .twitter }}"><img src="/icon/twitter_white.svg" /></a>
+                        </li>
+                        {{ end }} {{ if isset . "facebook" }}
+                        <li>
+                            <a target="_blank" href="{{ .facebook }}"><img src="/icon/facebook_white.svg" /></a>
+                        </li>
+                        {{ end }} {{ if isset . "linkedin" }}
+                        <li>
+                            <a target="_blank" href="{{ .linkedin }}"><img src="/icon/linkedin_white.svg" /></a>
+                        </li>
+                        {{ end }} {{ if isset . "instagram" }}
+                        <li>
+                            <a target="_blank" href="{{ .instagram }}"><img src="/icon/instagram_white.svg" /></a>
+                        </li>
+                        {{ end }} {{ if isset . "github" }}
+                        <li>
+                            <a target="_blank" href="{{ .github }}"><img src="/icon/github_white.svg" /></a>
+                        </li>
+                        {{ end }} {{ if isset . "telegram" }}
+                        <li>
+                            <a target="_blank" href="{{ .telegram }}"><img src="/icon/telegram_white.svg" /></a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                    {{ end }}
+                </div>
+            </div>
+            <div class="row copyright">
+                {{ with .Site.Params.footer }}
+                <span> {{ .copyright | markdownify }} </span> {{ end }}
+            </div>
         </div>
-        <div class="col col-lg-2 col-sm-4">
-          <h6>{{ .Site.Params.footer.menu_title_1 | markdownify }}</h6> 
-          <ul>
-            {{ range .Site.Menus.footer1 }}
-            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-            {{end}}
-          </ul>
-        </div>
-        <div class="col col-lg-2 col-sm-4">
-          <h6>{{ .Site.Params.footer.menu_title_2 | markdownify }}</h6>
-          <ul>
-            {{ range .Site.Menus.footer2 }}
-            <li><a target="_blank" href="{{ .URL }}">{{ .Name }}</a></li>
-            {{end}}
-          </ul>
-        </div>
-        <div class="col col-lg-2 col-sm-4">
-          <h6>{{ .Site.Params.footer.menu_title_3 | markdownify }}</h6>
-          <ul>
-            {{ range .Site.Menus.footer3 }}
-            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-            {{end}}
-          </ul>
-        </div>
-        <div class="col col-lg-2 col-sm-4">
-          <h6>{{ .Site.Params.footer.menu_title_4 | markdownify }}</h6>
-          <ul>
-            {{ range .Site.Menus.footer4 }}
-            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-            {{end}}
-          </ul>
-        </div>
-        <div class="col col-lg-2 col-sm-4 social-logos-footer">
-          {{ with .Site.Params.footer }}
-          <ul class="social">
-            {{ if isset . "twitter" }}
-            <li>
-              <a target="_blank" href="{{ .twitter }}"><img src="/icon/twitter_white.svg" /></a>
-            </li>
-            {{ end }} {{ if isset . "facebook" }}
-            <li>
-              <a target="_blank" href="{{ .facebook }}"
-                ><img src="/icon/facebook_white.svg"
-              /></a>
-            </li>
-            {{ end }} {{ if isset . "linkedin" }}
-            <li>
-              <a target="_blank" href="{{ .linkedin }}"
-                ><img src="/icon/linkedin_white.svg"
-              /></a>
-            </li>
-            {{ end }} {{ if isset . "instagram" }}
-            <li>
-              <a target="_blank" href="{{ .instagram }}"
-                ><img src="/icon/instagram_white.svg"
-              /></a>
-            </li>
-            {{ end }} {{ if isset . "github" }}
-            <li>
-              <a target="_blank" href="{{ .github }}"><img src="/icon/github_white.svg" /></a>
-            </li>
-            {{ end }} {{ if isset . "telegram" }}
-            <li>
-              <a target="_blank" href="{{ .telegram }}"
-                ><img src="/icon/telegram_white.svg"
-              /></a>
-            </li>
-            {{ end }}
-          </ul>
-          {{ end }}
-        </div>
-      </div>
-      <div class="row copyright">
-        {{ with .Site.Params.footer }}
-        <span> {{ .copyright | markdownify }} </span>
-        {{ end }}
-      </div>
-    </div>
-  </section>
+    </section>
 
-  {{ partial "js.html" .}}
+    {{ partial "js.html" .}}
 </footer>

@@ -1,7 +1,7 @@
 ---
 position: "Datasets"
 
-title: "Bikesharing"
+title: "Bike Counter"
 img: "/img/datasets/dataset-bikesharing.jpg"
 
 availability: "open"
@@ -14,13 +14,14 @@ example_link: "https://analytics.opendatahub.bz.it/"
 datatype: "Mobility"
 ---
 
-This dataset contains data of the bike sharing service in Bolzano and Merano, such as stations (for station based service - Bolzano), areas (for free floating service - Merano), availability, battery state, etc...
+This dataset contains  data of the bike counter service in Bolzano.
+
 
 |             |                                                                                                                                                                                                                                                   |
 | :---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Output      | JSON, mime-type application/json                                                                                                                                                                                                                  |
 | API version | v2                                                                                                                                                                                                                                                |
 | Swagger URL | https://mobility.api.opendatahub.bz.it/                                                                                                                                                                                                           |
-| StationType | [Bicycle](https://mobility.api.opendatahub.bz.it/v2/flat/Bicycle), [Bicyclestationbay](https://mobility.api.opendatahub.bz.it/v2/flat/Bicyclestationbay), [BikesharingStation](https://mobility.api.opendatahub.bz.it/v2/flat/BikesharingStation) |
-| Sources     | Municipality of Bolzano and Merano                                                                                                                                                                                                                |
+| StationType | [VehicleDetetection(count)](https://mobility.api.opendatahub.com/v2/flat%2Cnode/BikeCounter/%2A/latest?limit=200&offset=0&shownull=false&distinct=true&timezone=UTC)  |
+| Sources     | Municipality of Bolzano (FAMAS System)                                                                                                                                                                           |
 | OpenData    | Open Data                                                                                                                                                                                                                                         |
