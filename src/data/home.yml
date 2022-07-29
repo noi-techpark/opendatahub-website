@@ -81,7 +81,7 @@ use_case:
   description: "Using **traffic datasets** from the Open Data Hub you can start today to build your service using real time data."
   btn_link: "/datasets"
   btn_label: "See available datasets"
-  img_back: "/img/mobility.meran.eu.png"
+  img_back: "/img/ODH-home-data-sharing-use-case.jpg"
   img_front: "/img/GreenMobility.png"
 
 dataset_example:
@@ -89,7 +89,7 @@ dataset_example:
   description: "This dataset provides data about existing **e-charging stations**, about their plugs and **availability status**, including historical usage data. It includes hydrogen station data as well."
   btn_link: "/datasets/mobility/echargingstation/"
   btn_label: "See available datasets"
-  img_back: "/img/GreenMobility.png"
+  img_back: "/img/ODH-home-data-access-use-case-e-charging.jpg"
   img_front: "/img/datasets/andrew-roberts-2JvEjF0tf50-unsplash.png"
 
 services:

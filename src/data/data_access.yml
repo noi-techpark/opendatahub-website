@@ -19,7 +19,7 @@ row_two:
   description: "The data you need to build your next service. We provide a free and well documented API platform you can use to create new amazing applications."
   btn_link: "/datasets"
   btn_label: "Browse the datasets list"
-  img_back: "/img/data-access-use-case.png"
+  img_back: "/img/ODH-data-acess-datasets.jpg"
   img_front: "/img/access-data-4.jpg"
 
 row_three:
@@ -54,5 +54,5 @@ row_six:
   description: "You will receive mailing with regular communications, early communication in case of breaking changes of the datasets and direct contact to data providers upon request."
   btn_link: "/community"
   btn_label: "Join the community "
-  img_back: "/img/data-access-use-case.png"
+  img_back: "/img/ODH-data-access-support.jpg"
   img_front: "/img/access-data-8.jpg"
