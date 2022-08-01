@@ -13,6 +13,13 @@
 			</div>
 			<div class="title">{{ .Title }}</div>
 			<div class="category">{{ .Params.datatype }}</div>
+
+			{{ if eq .Params.availability "partially-closed" }}
+			<div class="availability open"></div>
+			<div class="availability second closed"></div>
+			{{ else }}
+			<div class="availability {{ .Params.availability }}"></div>
+			{{ end }}
 		</div>
 	</a>
 	{{ end }}

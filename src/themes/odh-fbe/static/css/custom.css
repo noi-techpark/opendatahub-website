@@ -593,7 +593,8 @@ input:focus {
 
 .datasets .card>div {
     margin: 15px;
-    min-height: 435px;
+    min-height: 440px;
+    position: relative;
 }
 
 .datasets a,
@@ -652,6 +653,10 @@ section.dataset-title {
 
 .dataset-content table th {
     visibility: hidden;
+}
+
+table td a {
+    word-break: break-all;
 }
 
 table td:first-child {
