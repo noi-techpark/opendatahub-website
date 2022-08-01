@@ -36,8 +36,10 @@
           {{ .Params.availability_label }}
         </div>
 
+        <script defer src="/js/mailto.js"></script>
+        {{ $p := .Page }}
         {{ with .Params.availability_description }}
-        <p class="text-center availability description">{{.}}</p>
+        <p class="text-center availability description">{{ $p.RenderString . }}</p>
         {{ end }}
       </div>
     </div>
