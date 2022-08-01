@@ -6,8 +6,10 @@ img: "/img/datasets/dataset-rwis.jpg"
 
 availability: "partially-closed"
 availability_label: "Partially Closed Data"
-availability_description: "A22 data is closed and restricted to a project collaboration due to expert knowledge required. (Contact help@opendatahub.com if you are interested in this data)
-"
+availability_description: >-
+    "A22 data is closed and restricted to a project collaboration due to expert knowledge required
+    (<a class="dataset-mailto">contact&nbsp;us</a>
+    if you are interested in this data.)"
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#rwisstation-dataset"
 example_link: "https://map.clean-roads.eu/"

@@ -7,8 +7,10 @@ img_alt: "sfscon"
 
 availability: "partially-closed"
 availability_label: "Partially Closed Data"
-availability_description: "FAMAS System data is closed and restricted to project collaboration (contact help@opendatahub.com if you are interested in this data)
-"
+availability_description: >-
+    "FAMAS System data is closed and restricted to a project collaboration
+    (<a class="dataset-mailto">contact&nbsp;us</a>
+    if you are interested in this data.)"
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#weather-dataset"
 example_link: "https://analytics.opendatahub.bz.it/"

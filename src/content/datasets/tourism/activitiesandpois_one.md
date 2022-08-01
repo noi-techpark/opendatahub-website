@@ -6,8 +6,10 @@ img: "/img/datasets/dataset-activities.jpg"
 
 availability: "partially-closed"
 availability_label: "Partially Closed Data"
-availability_description: "LTS data only available to authorized collaborators (contact help@opendatahub.com if you are interested in this data)
-"
+availability_description: >-
+    "LTS data only available to authorized collaborators
+    (<a class="dataset-mailto">contact&nbsp;us</a>
+    if you are interested in this data)"
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#activity-poi-dataset"
 example_link: "https://databrowser.opendatahub.bz.it"

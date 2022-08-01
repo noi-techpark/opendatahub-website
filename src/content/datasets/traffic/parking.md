@@ -6,7 +6,10 @@ img: "/img/datasets/dataset-parking.jpg"
 
 availability: "partially-closed"
 availability_label: "Partially Closed Data"
-availability_description: "A22 data is closed and restricted to project collaboration (contact help@opendatahub.com if you are interested in this data)"
+availability_description: >-
+    "A22 data is closed and restricted to a project collaboration due to expert knowledge required
+    (<a class="dataset-mailto">contact&nbsp;us</a>
+    if you are interested in this data.)"
 
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#parking-dataset"

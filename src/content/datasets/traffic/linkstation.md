@@ -6,8 +6,10 @@ img: "/img/datasets/matthew-brodeur-eJ9mX6yEbAw-unsplash.png"
 
 availability: "partially-closed"
 availability_label: "Partially Closed Data"
-availability_description: "A22 data is closed and restricted to a project collaboration (Contact help@opendatahub.com if you are interested in this data)
-"
+availability_description: >-
+    "A22 data is closed and restricted to a project collaboration due to expert knowledge required
+    (<a class="dataset-mailto">contact&nbsp;us</a>
+    if you are interested in this data.)"
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#linkstation-dataset"
 example_link: "https://analytics.opendatahub.bz.it/"

@@ -6,8 +6,10 @@ img: "/img/datasets/dataset-accommodation-2.jpg"
 
 availability: "closed"
 availability_label: "Closed Data"
-availability_description: "Data only available to authorized collaborators (contact help@opendatahub.com if you are interested in this data)
-"
+availability_description: >-
+    "Data only available to authorized collaborators
+    (<a class="dataset-mailto">contact&nbsp;us</a>
+    if you are interested in this data)"
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#accommodation-dataset"
 example_link: "https://databrowser.opendatahub.bz.it"

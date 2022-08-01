@@ -6,7 +6,10 @@ img: "/img/datasets/aria_02_BrennerLEC_fase2.jpg"
 
 availability: "partially-closed"
 availability_label: "Partially Closed Data"
-availability_description: "A22 data is closed and restricted to project collaboration (contact help@opendatahub.com if you are interested in this data)"
+availability_description: >-
+    "A22 data is closed (candidate to be opened) and restricted to a project collaboration
+    (<a class="dataset-mailto">contact&nbsp;us</a>
+    if you are interested in this data.)"
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#trafficstation-dataset"
 example_link: "https://analytics.opendatahub.bz.it/"
