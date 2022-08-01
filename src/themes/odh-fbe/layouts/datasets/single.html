@@ -30,11 +30,30 @@
       <div>
         <div class="square bg-center-cover">
           <img src="{{ .Params.img }}" alt="{{ .Params.img_alt }}" />
+
+          {{ if eq .Params.availability "partially-closed" }}
+          <div class="availability open"></div>
+          <div class="availability second closed"></div>
+          {{ else }}
           <div class="availability {{ .Params.availability }}"></div>
+          {{ end }}
+
         </div>
+
+        {{ if eq .Params.availability "partially-closed" }}
+        <div class="availability-wrapper">
+          <div class="half-width availability open">
+            Open Data
+          </div>
+          <div class="half-width availability closed">
+            Closed Data
+          </div>
+        </div>
+        {{ else }}
         <div class="full-width availability {{ .Params.availability }}">
           {{ .Params.availability_label }}
         </div>
+        {{ end }}
 
         <script defer src="/js/mailto.js"></script>
         {{ $p := .Page }}

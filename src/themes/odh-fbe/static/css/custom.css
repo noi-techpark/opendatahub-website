@@ -676,6 +676,11 @@ table td:first-child {
     border-radius: 50%;
 }
 
+.dataset-content .square .availability.second {
+    transform: translateX(-100%);
+    margin-right: 10px;
+}
+
 .dataset-content .availability.description {
     margin: 1rem 15%;
     color: #555555;
@@ -688,6 +693,18 @@ table td:first-child {
     text-align: center;
 }
 
+.availability-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.availability-wrapper .availability {
+    flex-grow: 1;
+    margin-top: 1rem;
+    padding: 8px;
+    text-align: center;
+}
 
 /* EVENTS */
 
