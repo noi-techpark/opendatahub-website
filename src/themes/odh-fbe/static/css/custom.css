@@ -593,6 +593,7 @@ input:focus {
 
 .datasets .card>div {
     margin: 15px;
+    min-height: 435px;
 }
 
 .datasets a,
@@ -608,7 +609,7 @@ input:focus {
 }
 
 .datasets .title::after {
-    content: " \279E";
+    content: "\00a0 \279E";
 }
 
 section.dataset-title {

@@ -213,6 +213,11 @@
     margin-top: auto !important;
   }
 
+  /* CARD */
+  .datasets .card>div {
+    min-height: 400px;
+  }
+
   /* FOOTER */
   footer ul.social {
     display: flex;
