@@ -43,6 +43,10 @@ providers:
       img: "img/community/ecospazio.png"
       link: https://www.ecospazio.it
 
+    - name: Eurac Research
+      img: "img/community/eurac.png"
+      link: https://www.eurac.edu/
+
     - name: H2 South Tyrol
       img: "img/community/h2st.png"
       link: https://www.h2-suedtirol.com/
