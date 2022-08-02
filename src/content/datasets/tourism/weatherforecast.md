@@ -20,6 +20,8 @@ South Tyrolean Weather Information general. Updated at 07:00 and 11:00. South Ty
 | :---------- | ------------------------------------------------------------ |
 | Output      | JSON, mime-type application/json                             |
 | API version | v1                                                           |
-| Swagger URL | http://tourism.opendatahub.bz.it/swagger/index.html#/Weather |
+| Swagger URL | {{< target-blank-link
+                        url="http://tourism.opendatahub.bz.it/swagger/index.html#/Weather"
+                        text="http://tourism.opendatahub.bz.it/swagger/index.html#/Weather" >}} |
 | Sources     | SIAG                                                         |
 | OpenData    | Open Data         |

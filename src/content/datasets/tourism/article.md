@@ -21,6 +21,8 @@ This dataset contains articles such as recipes, books, catalogues, guides about 
 | :---------- | --------------------------------------------------------------------------- |
 | Output      | JSON, mime-type application/json                                            |
 | API version | v1                                                                          |
-| Swagger URL | http://tourism.opendatahub.bz.it/swagger/index.html#/Article                |
+| Swagger URL | {{< target-blank-link
+                        url="http://tourism.opendatahub.bz.it/swagger/index.html#/Article"
+                        text="http://tourism.opendatahub.bz.it/swagger/index.html#/Article" >}}                |
 | Sources     | IDM Content data (data from 2010 to 2016, recipes still up-to-date) and NOI |
 | OpenData    | Open Data                                     |

@@ -23,6 +23,8 @@ This dataset contains Webcam Data. All data is synchronized daily from LTS and I
 | :---------- | ---------------------------------------------------------------------------------- |
 | Output      | JSON, mime-type application/json                                                   |
 | API version | v1                                                                                 |
-| Swagger URL | https://tourism.opendatahub.bz.it/swagger/index.html#/WebcamInfo                   |
+| Swagger URL | {{< target-blank-link
+                        url="https://tourism.opendatahub.bz.it/swagger/index.html#/WebcamInfo"
+                        text="https://tourism.opendatahub.bz.it/swagger/index.html#/WebcamInfo" >}}                   |
 | Sources     | Webcam links from LTS and IDM                                                      |
 | OpenData    | Webcam links data from IDM is open data. Data from LTS is partially closed data |

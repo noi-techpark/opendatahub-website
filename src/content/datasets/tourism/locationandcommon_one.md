@@ -22,6 +22,8 @@ Data provided by IDM.
 | :---------- | ------------------------------------------------------------------------------------------------------------------------- |
 | Output      | JSON, mime-type application/json                                                                                          |
 | API version | v1                                                                                                                        |
-| Swagger URL | http://tourism.opendatahub.bz.it/swagger/index.html#/Common http://tourism.opendatahub.bz.it/swagger/index.html#/Location |
+| Swagger URL | {{< target-blank-link
+                        url="http://tourism.opendatahub.bz.it/swagger/index.html#/Common http://tourism.opendatahub.bz.it/swagger/index.html#/Location"
+                        text="http://tourism.opendatahub.bz.it/swagger/index.html#/Common http://tourism.opendatahub.bz.it/swagger/index.html#/Location" >}} |
 | Sources     | IDM                                                                                                                       |
 | OpenData    | Open Data                                                      |

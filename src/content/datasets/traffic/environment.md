@@ -25,7 +25,9 @@ Pollution and Air Quality data (such as CO, NO2, PM 2.5, PM10...). Partly manual
 | :---------- | --------------------------------------------------------------------------------------- |
 | Output      | JSON, mime-type application/json                                                        |
 | API version | v2                                                                                      |
-| Swagger URL | https://mobility.api.opendatahub.bz.it/                                                 |
+| Swagger URL | {{< target-blank-link
+                        url="https://mobility.api.opendatahub.bz.it/"
+                        text="https://mobility.api.opendatahub.bz.it/" >}}                                                 |
 | StationType | [EnvironmentStation](https://mobility.api.opendatahub.bz.it/v2/flat/EnvironmentStation) |
 | Sources     | APPA Bolzano, APPA Trento, Municipality of Bolzano, A22                                 |
 | OpenData    | EnvironmentStation data from A22 is partially closed data                                       |

@@ -24,7 +24,9 @@ A22 (Modena - Brennero): restricted to a project
 | :---------- | ------------------------------------------------------------------------- |
 | Output      | JSON, mime-type application/json                                          |
 | API version | v2                                                                        |
-| Swagger URL | https://mobility.api.opendatahub.bz.it/                                   |
+| Swagger URL | {{< target-blank-link
+                        url="https://mobility.api.opendatahub.bz.it/"
+                        text="https://mobility.api.opendatahub.bz.it/" >}}                                   |
 | StationType | [RWISstation](https://mobility.api.opendatahub.bz.it/v2/flat/RWISstation) |
 | Sources     | A22                                                                       |
 | OpenData    | RWISstation data is partially closed data                                |

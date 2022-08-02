@@ -20,6 +20,8 @@ In particular, these datasets contain Districts, Municipalities which are provid
 | :---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Output      | JSON, mime-type application/json                                                                                                                              |
 | API version | v1                                                                                                                                                            |
-| Swagger URL | https://tourism.opendatahub.bz.it/swagger/index.html#/Common/get_v1_Municipality https://tourism.opendatahub.bz.it/swagger/index.html#/Common/get_v1_District |
+| Swagger URL | {{< target-blank-link
+                        url="https://tourism.opendatahub.bz.it/swagger/index.html#/Common/get_v1_Municipality https://tourism.opendatahub.bz.it/swagger/index.html#/Common/get_v1_District"
+                        text="https://tourism.opendatahub.bz.it/swagger/index.html#/Common/get_v1_Municipality https://tourism.opendatahub.bz.it/swagger/index.html#/Common/get_v1_District" >}} |
 | Sources     | LTS                                                                                                                                                           |
 | OpenData    | Open Data                                                                                                                                                     |

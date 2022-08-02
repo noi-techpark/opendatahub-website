@@ -20,6 +20,8 @@ This dataset contains events provided by NOI Techpark and Eurac.
 | :---------- | ---------------------------------------------------------------- |
 | Output      | JSON, mime-type application/json                                 |
 | API version | v1                                                               |
-| Swagger URL | https://tourism.opendatahub.bz.it/swagger/index.html#/EventShort |
+| Swagger URL | {{< target-blank-link
+                        url="https://tourism.opendatahub.bz.it/swagger/index.html#/EventShort"
+                        text="https://tourism.opendatahub.bz.it/swagger/index.html#/EventShort" >}} |
 | Sources     | NOI Techpark and Eurac                          |
 | OpenData    | Open Data                                                        |

@@ -23,7 +23,9 @@ The VMS (Variable Message Sign) sensors collect data about the electronic road s
 | :---------- | --------------------------------------------------------- |
 | Output      | JSON, mime-type application/json                          |
 | API version | v2                                                        |
-| Swagger URL | https://mobility.api.opendatahub.bz.it/                   |
+| Swagger URL | {{< target-blank-link
+                        url="https://mobility.api.opendatahub.bz.it/"
+                        text="https://mobility.api.opendatahub.bz.it/" >}}                   |
 | StationType | [VMS](https://mobility.api.opendatahub.bz.it/v2/flat/VMS) |
 | Sources     | A22                                                       |
 | OpenData    | Data only available to authorized collaborators           |

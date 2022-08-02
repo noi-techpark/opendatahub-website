@@ -23,7 +23,9 @@ This dataset contains data collected by sensors along the Italian A22 motorway a
 | :---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Output      | JSON, mime-type application/json                                                                                                                               |
 | API version | v2                                                                                                                                                             |
-| Swagger URL | https://mobility.api.opendatahub.bz.it/                                                                                                                        |
+| Swagger URL | {{< target-blank-link
+                        url="https://mobility.api.opendatahub.bz.it/"
+                        text="https://mobility.api.opendatahub.bz.it/" >}}                                                                                                                      |
 | StationType | [TrafficSensor](https://mobility.api.opendatahub.bz.it/v2/flat/TrafficSensor), [Trafficstation](https://mobility.api.opendatahub.bz.it/v2/flat/Trafficstation) |
 | Sources     | Municipality of Bolzano, A22                                                                                                                                   |
 | OpenData    | Data is partially closed                                                                                                                                      |

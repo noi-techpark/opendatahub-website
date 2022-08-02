@@ -23,6 +23,8 @@ This dataset contains various Measuring Points with snow conditions provided by 
 | :---------- | ------------------------------------------------------------------------------------------- |
 | Output      | JSON, mime-type application/json                                                            |
 | API version | v1                                                                                          |
-| Swagger URL | https://tourism.opendatahub.bz.it/swagger/index.html#/Weather/get_v1_Weather_Measuringpoint |
+| Swagger URL | {{< target-blank-link
+                        url="https://tourism.opendatahub.bz.it/swagger/index.html#/Weather/get_v1_Weather_Measuringpoint"
+                        text="https://tourism.opendatahub.bz.it/swagger/index.html#/Weather/get_v1_Weather_Measuringpoint" >}} |
 | Sources     | LTS                                                                                         |
 | OpenData    | Measuring Points data is partially closed data                                                      |
