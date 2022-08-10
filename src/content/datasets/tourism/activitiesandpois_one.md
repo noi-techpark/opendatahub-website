@@ -24,6 +24,8 @@ This dataset contains a collection of activities and points of interest (PoI) an
 | :---------- | ---------------------------------------------------------------------------------------------------------------------- |
 | Output      | JSON, mime-type application/json                                                                                       |
 | API version | v1                                                                                                                     |
-| Swagger URL | {{< target-blank-link url="http://tourism.opendatahub.bz.it/swagger/index.html#/ODHActivityPoi" text="http://tourism.opendatahub.bz.it/swagger/index.html#/ODHActivityPoi" >}}                                                    |
+| Swagger URL | {{< target-blank-link
+                        url="http://tourism.opendatahub.bz.it/swagger/index.html#/ODHActivityPoi"
+                        text="http://tourism.opendatahub.bz.it/swagger/index.html#/ODHActivityPoi" >}}                                                    |
 | Sources     | LTS ActivityData, LTS PoiData, LTS GastronomicData, SuedtirolWein, SIAG Museum data, IDM Content and Dolomiti Superski |
 | OpenData    | Data from SuedtirolWein, SIAG, IDM and Dolomiti Superski is Open Data. Data from LTS is partially closed data        |

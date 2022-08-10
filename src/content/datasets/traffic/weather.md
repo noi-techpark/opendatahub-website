@@ -25,7 +25,9 @@ This dataset contains meteorological data provided by the hydrographical Departm
 | :---------- | --------------------------------------------------------------------------- |
 | Output      | JSON, mime-type application/json                                            |
 | API version | v2                                                                          |
-| Swagger URL | {{< target-blank-link url="https://mobility.api.opendatahub.bz.it" text="https://mobility.api.opendatahub.bz.it" >}}/                                     |
+| Swagger URL | {{< target-blank-link
+                        url="https://mobility.api.opendatahub.bz.it/"
+                        text="https://mobility.api.opendatahub.bz.it/" >}}                                      |
 | StationType | [MeteoStation](https://mobility.api.opendatahub.bz.it/v2/flat/MeteoStation) |
 | Sources     | Department of South Tyrol and Trentino                                      |
 | OpenData    | MeteoStation data is partially closed data                                 |

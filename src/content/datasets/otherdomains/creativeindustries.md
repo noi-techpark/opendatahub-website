@@ -21,7 +21,9 @@ This dataset originates from data collected in the DAVINCI project, whose aim is
 | :---------- | ----------------------------------------------------------------------------------- |
 | Output      | JSON, mime-type application/json                                                    |
 | API version | v2                                                                                  |
-| Swagger URL | {{< target-blank-link url="https://mobility.api.opendatahub.bz.it" text="https://mobility.api.opendatahub.bz.it" >}}/                                             |
+| Swagger URL | {{< target-blank-link
+                        url="https://mobility.api.opendatahub.bz.it/"
+                        text="https://mobility.api.opendatahub.bz.it/" >}}                                           |
 | StationType | [CreativeIndustry](https://mobility.api.opendatahub.bz.it/v2/flat/CreativeIndustry) |
 | Sources     | IDM                                                                                 |
 | OpenData    | Open Data                    |

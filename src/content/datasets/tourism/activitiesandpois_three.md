@@ -24,6 +24,8 @@ This dataset contains data about activities from LTS API (LTS ActivityData), IDM
 | :---------- | ----------------------------------------------------------------------------------------------------- |
 | Output      | JSON, mime-type application/json                                                                      |
 | API version | v1                                                                                                    |
-| Swagger URL | {{< target-blank-link url="https://tourism.opendatahub.bz.it/swagger/index.html#/ODHActivityPoi/get_v1_ODHActivityPoi" text="https://tourism.opendatahub.bz.it/swagger/index.html#/ODHActivityPoi/get_v1_ODHActivityPoi" >}}            |
+| Swagger URL | {{< target-blank-link
+                        url="https://tourism.opendatahub.bz.it/swagger/index.html#/ODHActivityPoi/get_v1_ODHActivityPoi"
+                        text="https://tourism.opendatahub.bz.it/swagger/index.html#/ODHActivityPoi/get_v1_ODHActivityPoi" >}}            |
 | Sources     | LTS ActivityData, IDM, Dolomiti Superski                                                              |
 | OpenData    | Activities data from IDM and Dolomiti Superski is open data. Data from LTS is partially closed data |
