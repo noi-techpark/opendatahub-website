@@ -5,11 +5,12 @@ title: "Points Of Interests"
 img: "/img/datasets/dataset-activities-2.jpg"
 
 availability: "partially-closed"
-availability_label: "Partially Closed Data"
+weight: 2
+availability_label: "Open Data | On Request Data"
 availability_description: >-
-    "LTS data only available to authorized collaborators
+    LTS data only available to authorized collaborators
     (<a class="dataset-mailto">contact&nbsp;us</a>
-    if you are interested in this data)"
+    if you are interested in this data)
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#poi-dataset"
 example_link: "https://www.suedtirol.info/"
@@ -23,6 +24,6 @@ This dataset contains data about PoIs from LTS API (LTS PoiData), such as beauty
 | :---------- | ------------------------------------------------------------------------------------------ |
 | Output      | JSON, mime-type application/json                                                           |
 | API version | v1                                                                                         |
-| Swagger URL | https://tourism.opendatahub.bz.it/swagger/index.html#/ODHActivityPoi/get_v1_ODHActivityPoi |
+| Swagger URL | {{< target-blank-link url="https://tourism.opendatahub.bz.it/swagger/index.html#/ODHActivityPoi/get_v1_ODHActivityPoi" text="https://tourism.opendatahub.bz.it/swagger/index.html#/ODHActivityPoi/get_v1_ODHActivityPoi" >}} |
 | Sources     | LTS PoiData                                                                                |
 | OpenData    | Pois data from LTS is partially closed data                                                    |

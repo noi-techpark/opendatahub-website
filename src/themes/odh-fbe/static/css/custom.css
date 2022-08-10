@@ -326,7 +326,7 @@ table a {
 select,
 option,
 input {
-    width: 150px;
+    width: 175px;
     padding: 10px;
     background-color: #f5f5f5;
     color: #555555;
@@ -337,7 +337,6 @@ select:focus,
 input:focus {
     border-color: #555555;
 }
-
 
 /* GENERIC BOXES */
 
@@ -587,6 +586,15 @@ input:focus {
     padding: 0;
 }
 
+.datasets .no-datasets {
+    margin-bottom: 3rem;
+    display: none;
+}
+
+.datasets .no-datasets.show {
+    display: block !important;
+}
+
 .datasets .card {
     padding: 0 !important;
 }
@@ -625,14 +633,17 @@ section.dataset-title {
     font-size: 1.1rem;
 }
 
-.category,
-.category a {
+.tags,
+.tags a {
     color: #555555;
 }
 
 .category-selector {
-    float: right;
-    margin-top: 1.2rem;
+   margin-top: 1.8rem;
+}
+
+.availability-selector {
+    width: fit-content;
 }
 
 .dataset-content>.container {
@@ -641,6 +652,7 @@ section.dataset-title {
 
 .dataset-content .container-content {
     padding: 0;
+    max-width: initial;
 }
 
 .dataset-content .description {
@@ -668,23 +680,15 @@ table td:first-child {
     margin-left: 4rem;
 }
 
-.dataset-content .square .availability {
-    top: 25px;
-    right: 25px;
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-}
-
-.dataset-content .square .availability.second {
-    transform: translateX(-100%);
-    margin-right: 10px;
-}
-
-.dataset-content .availability.description {
-    margin: 1rem 15%;
+.dataset-content .description {
+    padding: 0 2rem;
+    margin-top: 1rem;
     color: #555555;
-    font-size: 0.8rem;
+}
+
+.dataset-content .description a {
+    color: #000;
+    font-weight: bold;
 }
 
 .dataset-content .card .full-width {
@@ -696,11 +700,12 @@ table td:first-child {
 .availability-wrapper {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 1rem;
 }
 
-.availability-wrapper .availability {
-    flex-grow: 1;
+.availability-wrapper .half-width {
+    flex: 1 1 0px;
     margin-top: 1rem;
     padding: 8px;
     text-align: center;

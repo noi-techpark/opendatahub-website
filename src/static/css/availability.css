@@ -14,7 +14,7 @@
 
 .availability.open {
     color: white;
-    background-color: #9bc325;
+    background-color: #000000;
 }
 
 .availability.partially-closed {
@@ -24,7 +24,7 @@
 
 .availability.closed {
     color: white;
-    background-color: #D22B2B;
+    background-color: #000000;
 }
 
 .availability.tobe-opened {

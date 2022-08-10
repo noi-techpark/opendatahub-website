@@ -5,11 +5,12 @@ title: "Activities"
 img: "/img/datasets/dataset-activities-3.jpg"
 
 availability: "partially-closed"
-availability_label: "Partially Closed Data"
+weight: 2
+availability_label: "Open Data | On Request Data"
 availability_description: >-
-    "LTS data only available to authorized collaborators
+    LTS data only available to authorized collaborators
     (<a class="dataset-mailto">contact&nbsp;us</a>
-    if you are interested in this data)"
+    if you are interested in this data)
     
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#activity-dataset"
 example_link: "https://databrowser.opendatahub.bz.it"
@@ -23,6 +24,6 @@ This dataset contains data about activities from LTS API (LTS ActivityData), IDM
 | :---------- | ----------------------------------------------------------------------------------------------------- |
 | Output      | JSON, mime-type application/json                                                                      |
 | API version | v1                                                                                                    |
-| Swagger URL | https://tourism.opendatahub.bz.it/swagger/index.html#/ODHActivityPoi/get_v1_ODHActivityPoi            |
+| Swagger URL | {{< target-blank-link url="https://tourism.opendatahub.bz.it/swagger/index.html#/ODHActivityPoi/get_v1_ODHActivityPoi" text="https://tourism.opendatahub.bz.it/swagger/index.html#/ODHActivityPoi/get_v1_ODHActivityPoi" >}}            |
 | Sources     | LTS ActivityData, IDM, Dolomiti Superski                                                              |
 | OpenData    | Activities data from IDM and Dolomiti Superski is open data. Data from LTS is partially closed data |

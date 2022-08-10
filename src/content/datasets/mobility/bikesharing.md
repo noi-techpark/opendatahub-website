@@ -5,8 +5,9 @@ title: "Bikesharing"
 img: "/img/datasets/dataset-bikesharing.jpg"
 
 availability: "open"
+weight: 1
 availability_label: "Open Data"
-availability_description: " "
+availability_description: 
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#bikesharing-dataset"
 example_link: "https://analytics.opendatahub.bz.it/"
@@ -20,7 +21,7 @@ This dataset contains data of the bike sharing service in Bolzano and Merano, su
 | :---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Output      | JSON, mime-type application/json                                                                                                                                                                                                                  |
 | API version | v2                                                                                                                                                                                                                                                |
-| Swagger URL | https://mobility.api.opendatahub.bz.it/                                                                                                                                                                                                           |
+| Swagger URL | {{< target-blank-link url="https://mobility.api.opendatahub.bz.it" text="https://mobility.api.opendatahub.bz.it" >}}/                                                                                                                                                                                                           |
 | StationType | [Bicycle](https://mobility.api.opendatahub.bz.it/v2/flat/Bicycle), [Bicyclestationbay](https://mobility.api.opendatahub.bz.it/v2/flat/Bicyclestationbay), [BikesharingStation](https://mobility.api.opendatahub.bz.it/v2/flat/BikesharingStation) |
 | Sources     | Municipality of Bolzano and Merano                                                                                                                                                                                                                |
 | OpenData    | Open Data                                                                                                                                                                                                                                         |

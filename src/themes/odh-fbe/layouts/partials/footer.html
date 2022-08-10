@@ -66,6 +66,10 @@
                         <li>
                             <a target="_blank" href="{{ .telegram }}"><img src="/icon/telegram_white.svg" /></a>
                         </li>
+                        {{ end }} {{ if isset . "element" }}
+                        <li>
+                            <a target="_blank" href="{{ .element }}"><img src="/icon/element_white.svg" /></a>
+                        </li>
                         {{ end }}
                     </ul>
                     {{ end }}
