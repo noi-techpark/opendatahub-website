@@ -602,7 +602,6 @@ input:focus {
 .datasets .card>div {
     margin: 15px;
     min-height: 440px;
-    position: relative;
 }
 
 .datasets a,
