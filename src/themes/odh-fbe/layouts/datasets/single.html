@@ -50,6 +50,7 @@
           {{ $p := .Page }}
           {{ with .Params.availability_description }}
           <p class="text-center availability description">{{ . | $p.RenderString }}</p>
+          <script src="/js/mailto.js"></script>
           {{ end }}
           
           <!-- {{ if not ( eq .Weight 1 ) }}
@@ -59,7 +60,6 @@
             If you are interested in {{ if eq .Weight 2 }}the closed sections<br>of{{ end }} this dataset, <a class="dataset-mailto">contact&nbsp;us.</a>
           </p>
           <script src="/js/availability-api.js"></script>
-          <script src="/js/mailto.js"></script>
           {{ else }}
           <p class="text-center description">All data available as open data.</p>
           {{ end }} -->
