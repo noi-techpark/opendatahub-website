@@ -102,42 +102,36 @@ populateContainer(slidesContainer, arr, logosNum, minLogosNum);
 const intervalSpeed = 7000;
 const transformSpeed = 1500;
 
-let firstChild = dqs(".slides-container>:nth-child(1)")
-let secondChild = dqs(".slides-container>:nth-child(2)")
-
+let firstChild;
+let secondChild;
 let intervalID;
+
+function shiftRight() {
+    firstChild = dqs(".slides-container>:nth-child(1)")
+    secondChild = dqs(".slides-container>:nth-child(2)")
+
+    firstChild.classList.add("shift-left-once")
+    secondChild.classList.add("shift-left-once")
+
+    setTimeout(() => {
+        slidesContainer.removeChild(firstChild)
+        firstChild.classList.remove("shift-left-once")
+        secondChild.classList.remove("shift-left-once")
+        slidesContainer.appendChild(firstChild)
+    }, transformSpeed);
+}
 
 function automaticShift() {
     setTimeout(() => {
-
-        firstChild.classList.add("shift-left-once")
-        secondChild.classList.add("shift-left-once")
-    
-        setTimeout(() => {
-            slidesContainer.removeChild(firstChild)
-            firstChild.classList.remove("shift-left-once")
-            secondChild.classList.remove("shift-left-once")
-            slidesContainer.appendChild(firstChild)
-        }, transformSpeed);
-    
-        intervalID = setInterval(() => {
-    
-            firstChild = dqs(".slides-container>:nth-child(1)")
-            secondChild = dqs(".slides-container>:nth-child(2)")
-    
-            firstChild.classList.add("shift-left-once")
-            secondChild.classList.add("shift-left-once")
-    
-            setTimeout(() => {
-                slidesContainer.removeChild(firstChild)
-                firstChild.classList.remove("shift-left-once")
-                secondChild.classList.remove("shift-left-once")
-                slidesContainer.appendChild(firstChild)
-            }, transformSpeed);
-    
-        }, intervalSpeed);
-        
+        shiftRight();
+        intervalID = setInterval(shiftRight, intervalSpeed); 
     }, intervalSpeed);
+}
+
+function manualShiftRight() {
+    clearInterval(intervalID);
+    shiftRight();
+    automaticShift();
 }
 
 automaticShift();

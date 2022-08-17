@@ -5,8 +5,9 @@ title: "Creative Industries"
 img: "/img/datasets/dataset-creative.jpg"
 
 availability: "open"
+weight: 1
 availability_label: "Open Data"
-availability_description: "Only Images with CC0 License are shown as open data"
+availability_description: Only Images with CC0 License are shown as open data
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#creative-industries-dataset"
 example_link: "https://webcomponents.opendatahub.bz.it/webcomponent/f1321372-6629-4912-a331-77d5d91dd646"
@@ -20,7 +21,9 @@ This dataset originates from data collected in the DAVINCI project, whose aim is
 | :---------- | ----------------------------------------------------------------------------------- |
 | Output      | JSON, mime-type application/json                                                    |
 | API version | v2                                                                                  |
-| Swagger URL | https://mobility.api.opendatahub.bz.it/                                             |
+| Swagger URL | {{< target-blank-link
+                        url="https://mobility.api.opendatahub.bz.it/"
+                        text="https://mobility.api.opendatahub.bz.it/" >}}                                           |
 | StationType | [CreativeIndustry](https://mobility.api.opendatahub.bz.it/v2/flat/CreativeIndustry) |
 | Sources     | IDM                                                                                 |
 | OpenData    | Open Data                    |

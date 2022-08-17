@@ -5,8 +5,9 @@ title: "District & Municipalities"
 img: "/img/datasets/dataset-location-3.jpg"
 
 availability: "open"
+weight: 1
 availability_label: "Open Data"
-availability_description: "Only Images with CC0 License are shown as open data"
+availability_description: Only Images with CC0 License are shown as open data
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#common-dataset"
 example_link: "https://databrowser.opendatahub.bz.it"
@@ -20,6 +21,8 @@ In particular, these datasets contain Districts, Municipalities which are provid
 | :---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Output      | JSON, mime-type application/json                                                                                                                              |
 | API version | v1                                                                                                                                                            |
-| Swagger URL | https://tourism.opendatahub.bz.it/swagger/index.html#/Common/get_v1_Municipality https://tourism.opendatahub.bz.it/swagger/index.html#/Common/get_v1_District |
+| Swagger URL | {{< target-blank-link
+                        url="https://tourism.opendatahub.bz.it/swagger/index.html#/Common/get_v1_Municipality https://tourism.opendatahub.bz.it/swagger/index.html#/Common/get_v1_District"
+                        text="https://tourism.opendatahub.bz.it/swagger/index.html#/Common/get_v1_Municipality https://tourism.opendatahub.bz.it/swagger/index.html#/Common/get_v1_District" >}} |
 | Sources     | LTS                                                                                                                                                           |
 | OpenData    | Open Data                                                                                                                                                     |

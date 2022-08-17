@@ -5,8 +5,9 @@ title: "Snow Report"
 img: "/img/datasets/dataset-snow.jpg"
 
 availability: "open"
+weight: 1
 availability_label: "Open Data"
-availability_description: "Only Images with CC0 License are shown as open data "
+availability_description: Only Images with CC0 License are shown as open data
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#snowreport-dataset"
 example_link: "https://databrowser.opendatahub.bz.it"
@@ -20,6 +21,8 @@ Snow Report Data dataset contains detailed report of all South Tyrolean Ski Area
 | :---------- | --------------------------------------------------------------------------------------- |
 | Output      | JSON, mime-type application/json                                                        |
 | API version | v1                                                                                      |
-| Swagger URL | https://tourism.opendatahub.bz.it/swagger/index.html#/Weather/get_v1_Weather_SnowReport |
+| Swagger URL | {{< target-blank-link
+                        url="https://tourism.opendatahub.bz.it/swagger/index.html#/Weather/get_v1_Weather_SnowReport"
+                        text="https://tourism.opendatahub.bz.it/swagger/index.html#/Weather/get_v1_Weather_SnowReport" >}} |
 | Sources     | Snow data provided by LTS / Ski Areas basic data provided by IDM                        |
 | OpenData    | Open Data                        |

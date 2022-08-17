@@ -5,8 +5,9 @@ title: "Tourism Regions"
 img: "/img/datasets/dataset-location-2.jpg"
 
 availability: "open"
+weight: 1
 availability_label: "Open Data"
-availability_description: "Only Images with CC0 License are shown as open data"
+availability_description: Only Images with CC0 License are shown as open data
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#common-dataset"
 example_link: "https://databrowser.opendatahub.bz.it" 
@@ -20,6 +21,8 @@ In particular, these datasets contain Regions Data, Tourism Associations, Meta R
 | :---------- | ------------------------------------------------------------------------------------------------------------------------- |
 | Output      | JSON, mime-type application/json                                                                                          |
 | API version | v1                                                                                                                        |
-| Swagger URL | http://tourism.opendatahub.bz.it/swagger/index.html#/Common http://tourism.opendatahub.bz.it/swagger/index.html#/Location |
+| Swagger URL | {{< target-blank-link
+                        url="http://tourism.opendatahub.bz.it/swagger/index.html#/Common http://tourism.opendatahub.bz.it/swagger/index.html#/Location"
+                        text="http://tourism.opendatahub.bz.it/swagger/index.html#/Common http://tourism.opendatahub.bz.it/swagger/index.html#/Location" >}} |
 | Sources     | IDM                                                                                                                       |
 | OpenData    | Open Data                                                      |

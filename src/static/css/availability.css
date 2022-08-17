@@ -1,6 +1,20 @@
+.datasets.container .card .availability {
+    width: fit-content;
+    padding: .8rem .8rem;
+    border-radius: .8rem;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.datasets.container .card .availability.second {
+    transform: translateX(-100%);
+    margin-right: 10px;
+}
+
 .availability.open {
     color: white;
-    background-color: #9bc325;
+    background-color: #000000;
 }
 
 .availability.partially-closed {
@@ -10,7 +24,7 @@
 
 .availability.closed {
     color: white;
-    background-color: #D22B2B;
+    background-color: #000000;
 }
 
 .availability.tobe-opened {
