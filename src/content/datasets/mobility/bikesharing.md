@@ -10,7 +10,7 @@ availability_label: "Open Data"
 availability_description: 
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#bikesharing-dataset"
-example_link: "https://analytics.opendatahub.bz.it/"
+example_link: "https://mobility.meran.eu/"
 
 datatype: "Mobility"
 ---

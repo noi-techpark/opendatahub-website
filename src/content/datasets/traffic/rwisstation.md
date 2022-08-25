@@ -13,7 +13,7 @@ availability_description: >-
     if you are interested in this data.)
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#rwisstation-dataset"
-example_link: "https://map.clean-roads.eu/"
+example_link: "https://analytics.opendatahub.bz.it/"
 
 datatype: "Traffic"
 ---

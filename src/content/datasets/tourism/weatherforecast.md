@@ -10,7 +10,7 @@ availability_label: "Open Data"
 availability_description: Only Images with CC0 License are shown as open data
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#weather-forecast-dataset"
-example_link: "https://databrowser.opendatahub.bz.it"
+example_link: "https://webcomponents.opendatahub.bz.it/webcomponent/042999d0-de5a-4907-a1e6-fcefd5e53e98?from=%2F%3Ftags%3Dski%257Cmeteo%257Cweather%257Cmountain%257Cactivity"
 
 datatype: "Tourism"
 ---

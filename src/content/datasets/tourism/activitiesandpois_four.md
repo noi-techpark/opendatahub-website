@@ -13,7 +13,7 @@ availability_description: >-
     if you are interested in this data)
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#gastronomy-dataset"
-example_link: "https://databrowser.opendatahub.bz.it"
+example_link: "https://webcomponents.opendatahub.bz.it/webcomponent/f113a6c6-445f-4633-a901-b8004353c903?from=%2F%3Ftags%3Dgastronomy"
 
 datatype: "Tourism"
 ---

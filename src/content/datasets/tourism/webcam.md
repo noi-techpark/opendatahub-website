@@ -13,7 +13,7 @@ availability_description: >-
     if you are interested in this data)
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#webcam-dataset"
-example_link: "https://databrowser.opendatahub.bz.it"
+example_link: "https://databrowser.opendatahub.bz.it/GeoBank/WebCamInfoList"
 
 datatype: "Tourism"
 ---

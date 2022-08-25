@@ -13,7 +13,7 @@ availability_description: >-
     if you are interested in this data)
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#weather-forecast-dataset"
-example_link: "https://databrowser.opendatahub.bz.it"
+example_link: "https://webcomponents.opendatahub.bz.it/webcomponent/430eead9-0bbc-4832-b4c0-78236d77a36b?from=%2F%3Ftags%3Dgastronomy%257Cactivity%257Cpoi%257Cmeteo%257Cweather%257Cski"
 
 datatype: "Tourism"
 ---

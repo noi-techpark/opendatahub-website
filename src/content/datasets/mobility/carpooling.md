@@ -10,7 +10,7 @@ availability_label: "Open Data"
 availability_description: 
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#carpoolinghub-dataset"
-example_link: "http://carpooling.bz.it/"
+example_link: "https://analytics.opendatahub.bz.it/"
 
 datatype: "Mobility"
 ---

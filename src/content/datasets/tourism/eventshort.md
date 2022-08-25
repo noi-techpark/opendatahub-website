@@ -10,7 +10,7 @@ availability_label: "Open Data"
 availability_description: 
 
 doc_link: "https://docs.opendatahub.bz.it/en/latest/datasets.html#eventshort-dataset"
-example_link: "https://webcomponents.opendatahub.bz.it/webcomponent/f594de36-0136-4c27-a0e6-570fa7014129"
+example_link: "https://today.noi.bz.it/"
 
 datatype: "Tourism"
 ---

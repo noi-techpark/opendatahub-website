@@ -10,7 +10,7 @@ availability_label: "Open Data"
 availability_description: 
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#carsharing-dataset"
-example_link: "https://webcomponents.opendatahub.bz.it/webcomponent/7620f04d-ed08-4770-bbda-dfe959ae078e?from=%2Fsearch%2Fany"
+example_link: "https://webcomponents.opendatahub.com/webcomponent/74248fd5-f768-4c77-9acd-2d90d568c2e1?from=%2F%3Ftags%3Dmobility"
 
 datatype: "Mobility"
 ---

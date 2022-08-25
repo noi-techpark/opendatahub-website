@@ -10,7 +10,7 @@ availability_label: "Open Data"
 availability_description: 
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#echarging-dataset"
-example_link: "https://analytics.opendatahub.bz.it/"
+example_link: "https://webcomponents.opendatahub.bz.it/webcomponent/98013c75-f27c-414e-aff9-c58ed760e791"
 
 datatype: "Mobility"
 ---

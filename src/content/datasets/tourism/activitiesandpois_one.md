@@ -13,7 +13,7 @@ availability_description: >-
     if you are interested in this data)
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#activity-poi-dataset"
-example_link: "https://databrowser.opendatahub.bz.it"
+example_link: "https://webcomponents.opendatahub.com/webcomponent/0e5fbede-4a21-4dd3-bf85-7d2be71dfb12?from=%2F"
 
 datatype: "Tourism"
 ---

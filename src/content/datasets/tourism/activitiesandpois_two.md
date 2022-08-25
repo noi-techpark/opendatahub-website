@@ -13,7 +13,7 @@ availability_description: >-
     if you are interested in this data)
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#poi-dataset"
-example_link: "https://www.suedtirol.info/"
+example_link: "https://webcomponents.opendatahub.bz.it/webcomponent/0e5fbede-4a21-4dd3-bf85-7d2be71dfb12?from=%2F%3Ftags%3Dgastronomy%257Cactivity"
 
 datatype: "Tourism"
 ---

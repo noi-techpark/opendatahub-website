@@ -13,7 +13,7 @@ availability_description: >-
     if you are interested in this data)
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#event-dataset"
-example_link: "https://databrowser.opendatahub.bz.it"
+example_link: "https://webcomponents.opendatahub.com/webcomponent/1cba7d30-8331-4b4a-b528-c4e03279365c?from=%2F"
 
 datatype: "Tourism"
 ---

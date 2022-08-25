@@ -10,7 +10,7 @@ availability_label: "Open Data"
 availability_description: Only Images with CC0 License are shown as open data
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#common-dataset"
-example_link: "https://databrowser.opendatahub.bz.it" 
+example_link: "https://webcomponents.opendatahub.com/webcomponent/8282479b-dc13-5012-939f-7a0196348dca?from=%2F" 
 
 datatype: "Tourism"
 ---

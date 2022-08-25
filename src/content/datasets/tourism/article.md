@@ -10,7 +10,7 @@ availability_label: "Open Data"
 availability_description: Only Images with CC0 License are shown
 
 doc_link: "http://tourism.opendatahub.bz.it/swagger/index.html#/Article"
-example_link: "https://databrowser.opendatahub.bz.it/"
+example_link: "https://databrowser.opendatahub.bz.it/GeoBank/RecipeArticleList"
 
 datatype: "Tourism"
 ---

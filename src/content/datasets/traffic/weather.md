@@ -14,7 +14,7 @@ availability_description: >-
     if you are interested in this data.)
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#weather-dataset"
-example_link: "https://analytics.opendatahub.bz.it/"
+example_link: "https://webcomponents.opendatahub.com/webcomponent/991e1fd5-8eaf-4d7b-9ca4-dea7544b6c02?from=%2F%3Ftags%3Dweather"
 
 datatype: "Traffic"
 ---

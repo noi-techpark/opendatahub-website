@@ -14,7 +14,7 @@ availability_description: >-
     if you are interested in this data.)
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#environment-dataset"
-example_link: "https://stodt.davinci.bz.it/"
+example_link: "https://analytics.opendatahub.bz.it/"
 
 datatype: "Traffic"
 ---
