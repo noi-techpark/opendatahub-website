@@ -5,12 +5,15 @@ title: "Venue"
 img: "/img/datasets/dataset-venue.jpg"
 
 availability: "closed"
-availability_label: "Closed Data"
-availability_description: "Data only available to authorized collaborators (contact help@opendatahub.com if you are interested in this data)
-"
+weight: 3
+availability_label: "On Request Data"
+availability_description: >-
+    Data only available to authorized collaborators
+    (<a class="dataset-mailto">contact&nbsp;us</a>
+    if you are interested in this data)
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#venue-dataset"
-example_link: "https://databrowser.opendatahub.bz.it"
+example_link: "https://databrowser.opendatahub.bz.it/ExternalDataSources/VenueList"
 
 datatype: "Tourism"
 ---
@@ -21,6 +24,8 @@ This dataset contains events location provided by LTS such as info about a locat
 | :---------- | ---------------------------------------------------------- |
 | Output      | JSON, mime-type application/json                           |
 | API version | v1                                                         |
-| Swagger URL | http://tourism.opendatahub.bz.it/swagger/index.html#/Venue |
+| Swagger URL | {{< target-blank-link
+                        url="http://tourism.opendatahub.bz.it/swagger/index.html#/Venue"
+                        text="http://tourism.opendatahub.bz.it/swagger/index.html#/Venue" >}} |
 | Sources     | LTS                                                        |
 | OpenData    | Venue data is closed |
