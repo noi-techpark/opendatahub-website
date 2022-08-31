@@ -23,6 +23,7 @@ h4.primary,
 h5.primary,
 h6.primary {
     color: var(--primary);
+   
 }
 
 h1,
@@ -35,6 +36,7 @@ h1 {
     font-size: 2.25rem;
     font-weight: bold;
 }
+
 
 h2 {
     font-size: 2rem;
@@ -469,9 +471,9 @@ input:focus {
 }
 
 .title-cta h1 {
-    font-size: 0.8rem;
+    font-size: 2.5rem;
     font-weight: normal;
-    margin-bottom: 0;
+    margin-bottom: 1;
 }
 
 .title-section {
