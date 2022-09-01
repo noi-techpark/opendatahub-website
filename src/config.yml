@@ -1,7 +1,7 @@
 theme: odh-fbe
 baseURL: "https://example.com"
 languageCode: en
-title: Open Data Hub Südtirol - Alto Adige
+title: Open Data Hub Südtirol - Develop digital solutions based on real data
 markup:
   goldmark:
     renderer:
@@ -12,7 +12,7 @@ params:
   logo_NOI: img/NOI_1_BK.svg
   web_NOI: "https://noi.bz.it"
   favicon: img/logo-open-data-hub.png
-  author: Open Data Hub Südtirol - Alto Adige
+  author: Open Data Hub
   description: >-
     Open Data Hub is your access point to relevant data. You and your service
     providers can use Open Data Hub for all channels of digital communication.
