@@ -21,7 +21,7 @@ This dataset contains data of the bike sharing service in Bolzano and Merano, su
 | :---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Output      | JSON, mime-type application/json                                                                                                                                                                                                                  |
 | API version | v2                                                                                                                                                                                                                                                |
-| Swagger URL | {{{< target-blank-link
+| Swagger URL | {{< target-blank-link
                         url="https://mobility.api.opendatahub.bz.it/"
                         text="https://mobility.api.opendatahub.bz.it/" >}}                                                                                                                                                                                                         |
 | StationType | [Bicycle](https://mobility.api.opendatahub.bz.it/v2/flat/Bicycle), [Bicyclestationbay](https://mobility.api.opendatahub.bz.it/v2/flat/Bicyclestationbay), [BikesharingStation](https://mobility.api.opendatahub.bz.it/v2/flat/BikesharingStation) |
