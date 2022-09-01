@@ -110,5 +110,5 @@ services:
     - name: "Data Visualization"
       image: "/img/ODH-home-services-data-visualization.jpg"
       icon: "/icon/box.svg"
-      box_link: "/services#sm-tag-data-visualization"
+      box_link: "/data-visualization/"
       btn_label: "Create data visualisations"
