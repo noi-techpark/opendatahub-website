@@ -1,7 +1,7 @@
 theme: odh-fbe
 baseURL: "https://example.com"
 languageCode: en
-title: Open Data Hub Südtirol - Develop digital solutions based on real data
+title: Open Data Hub - Develop digital solutions based on real data
 markup:
   goldmark:
     renderer:
