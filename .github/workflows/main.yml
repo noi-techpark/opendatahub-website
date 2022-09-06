@@ -63,6 +63,7 @@ jobs:
       AWS_S3_BUCKET_NAME : 'it.bz.geobank'
       MAIL_CLIENT: 'https://mailclient.opendatahub.bz.it/contact'
       HUGO_BASEURL: 'https://opendatahub.com/'
+      SCRIPTS_HOST: 'https://scripts.opendatahub.com'
     steps:
       - name: Checkout source code
         uses: actions/checkout@v2
@@ -74,6 +75,10 @@ jobs:
         run: |
           sed -i -e "s%https://example.com%${{env.MAIL_CLIENT}}%g" src/themes/odh-fbe/static/js/main.js
           sed -i -e "s%https://example.com%${{env.HUGO_BASEURL}}%g" src/config.yml
+
+      - name: Change scripts host to prod
+        run: sed -i -e "s%https://scripts.opendatahub.testingmachine.eu%${{env.SCRIPTS_HOST}}%g" src/config.yml
+
 
       - name: Build hugo
         run: hugo -s src -d ../target
