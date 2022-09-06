@@ -30,7 +30,7 @@ params:
       - URL: /css/contact-form.css
       - URL: >-
           https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
-      - URL: /css/cookieconsent.css
+      - URL: https://scripts.opendatahub.testingmachine.eu/cookieconsent/opendatahub/cookieconsent.css
 
     js:
       - URL: /js/jquery.min.js
@@ -40,8 +40,8 @@ params:
       - URL: /js/jquery.stellar.min.js
       - URL: /js/main.js
       - URL: /js/table-comparison.js
-      - URL: /js/cookieconsent.js
-      - URL: /js/cookieconsent-init.js
+      - URL: https://scripts.opendatahub.testingmachine.eu/cookieconsent/cookieconsent.js
+      - URL: https://scripts.opendatahub.testingmachine.eu/cookieconsent/cookieconsent-init.js
 
   footer:
     logo: /img/NOI_OPENDATAHUB_NEW_WH-02.png
