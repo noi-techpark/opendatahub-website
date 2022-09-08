@@ -87,15 +87,15 @@ menu:
     #   URL: /services/#sm-tag-data-visualization
     #   weight: 4
 
-    # - identifier: use-cases
-    #   name: Use Cases
-    #   URL: /use-cases
-    #   weight: 2
+    - identifier: use-cases
+      name: Use Cases
+      URL: /use-cases
+      weight: 2
 
-    # - parent: use-cases
-    #   name: UC Data Acess
-    #   URL: /use-cases/#sm-tag-data-visualization
-    #   weight: 1
+    - parent: use-cases
+      name: Kultivas
+      URL: /use-cases/kultivas
+      weight: 1
 
     # - parent: use-cases
     #   name: UC Data Sharing
@@ -106,6 +106,9 @@ menu:
     #   name: UC Data Visualization
     #   URL: /use-cases/#sm-tag-data-visualization
     #   weight: 3
+
+ 
+
 
     - identifier: datasets
       URL: /datasets
