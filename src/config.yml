@@ -112,6 +112,11 @@ menu:
       name: Datasets
       weight: 3
 
+    - identifier: kultivas
+      URL: /kultivas
+      name: Kultivas
+      weight: 3
+
     - identifier: quickstart
       URL: /quickstart
       name: Quickstart

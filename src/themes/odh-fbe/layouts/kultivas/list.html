@@ -1,0 +1,32 @@
+{{ define "main" }}
+
+  {{ partial "nav.html" . }}
+
+  {{ partial "title.html" .Params  }}
+
+  <a id="sm-tag-paragraph-1"></a>
+  <section class="bg-darker" id="data-access">
+    {{ partial "text-imgs-icon.html" site.Data.kultivas.paragraph_1 }}
+  </section>
+
+  <a id="sm-tag-paragraph-2"></a>
+  <section id="app-dev">
+    {{ partial "imgs-icon-text.html" site.Data.kultivas.paragraph_2 }}
+  </section>
+
+  <a id="sm-tag-paragraph-3"></a>
+  <section class="bg-darker" id="data-access">
+    {{ partial "text-imgs-icon.html" site.Data.kultivas.paragraph_3 }}
+  </section>
+
+  <a id="sm-tag-paragraph-4"></a>
+  <section id="app-dev">
+    {{ partial "imgs-icon-text.html" site.Data.kultivas.paragraph_4 }}
+  </section>
+
+  <a id="sm-tag-paragraph-5"></a>
+  <section class="bg-darker" id="data-access">
+    {{ partial "text-imgs-icon.html" site.Data.kultivas.paragraph_5 }}
+  </section>
+
+{{ end }}
