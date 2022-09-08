@@ -2,31 +2,26 @@
 
   {{ partial "nav.html" . }}
 
-  {{ partial "title.html" .Params  }}
+  {{ partial "title-cta.html" site.Data.kultivas.start }}
 
-  <a id="sm-tag-paragraph-1"></a>
-  <section class="bg-darker" id="data-access">
-    {{ partial "text-imgs-icon.html" site.Data.kultivas.paragraph_1 }}
+  <section  id="">
+    {{ partial "imgs-text.html" site.Data.kultivas.paragraph_1 }}
   </section>
 
-  <a id="sm-tag-paragraph-2"></a>
-  <section id="app-dev">
-    {{ partial "imgs-icon-text.html" site.Data.kultivas.paragraph_2 }}
+  <section id="">
+    {{ partial "text-imgs.html" site.Data.kultivas.paragraph_2 }}
   </section>
 
-  <a id="sm-tag-paragraph-3"></a>
-  <section class="bg-darker" id="data-access">
-    {{ partial "text-imgs-icon.html" site.Data.kultivas.paragraph_3 }}
+  <section id="">
+    {{ partial "imgs-text.html" site.Data.kultivas.paragraph_3 }}
   </section>
 
-  <a id="sm-tag-paragraph-4"></a>
-  <section id="app-dev">
-    {{ partial "imgs-icon-text.html" site.Data.kultivas.paragraph_4 }}
+  <section id="">
+    {{ partial "text-imgs.html" site.Data.kultivas.paragraph_4 }}
   </section>
 
-  <a id="sm-tag-paragraph-5"></a>
-  <section class="bg-darker" id="data-access">
-    {{ partial "text-imgs-icon.html" site.Data.kultivas.paragraph_5 }}
+  <section id="">
+    {{ partial "imgs-text.html" site.Data.kultivas.paragraph_5 }}
   </section>
 
 {{ end }}

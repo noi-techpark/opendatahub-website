@@ -1,5 +1,9 @@
 ################################# Kultivas #########################
-video: "https://player.vimeo.com/video/731281297?h=97566158a0"
+
+start:
+  title: "Big data technologies and apples"
+  subtitle: The innovative pilot project KULTIVAS combines the long-standing experience of South Tyrolean agriculture with the latest technologies, to improve the decision making in apple cultivation.
+  video: "https://player.vimeo.com/video/731281297?h=97566158a0"
 
 paragraph_1:
   description: "Due to increasing competition, high demands on the quality of the
@@ -9,50 +13,35 @@ important than ever.
 KULTIVAS is a Big Data platform for storing and visualising data and
 helps to develop complex forecasts in the field of agriculture in order to
 continue to guarantee the quality of South Tyrolean apples."
-  btn_link: "/data-sharing"
-  btn_label: See details
-  img_back: "/img/ODH-services-data-sharing.jpg"
-  img_front: "/icon/upload.svg"
+  img_back: "/img/ODH-services-data-visualization.jpg"
 
 paragraph_2:
-  description: "Variety-location study“ is the pilot project that KULTIVAS started with, 
-asking the not so easy question: Which apple variety is most suitable for 
-a location? „The approach is data driven, based on three different pillars: 
-big data, machine learning and domain experts.“ says solution manager 
-and developer Johannes Erschbaumer of the Konverto AG."
-  btn_link: "/data-visualization"
-  btn_label: See Details
+  description: "„Variety-location study“ is the pilot project that KULTIVAS started with,
+asking the not so easy question: Which apple variety is most suitable for
+a location? „The approach is data driven, based on three different
+pillars: big data, machine learning and domain experts.“ says solution
+manager and developer Johannes Erschbaumer of the Konverto AG."
   img_back: "/img/ODH-services-data-visualization.jpg"
-  img_front: "/icon/box.svg"
 
 paragraph_3:
-  description: "From the various data that KONVERTO was able to collect, including 
-weather data provided by the Open Data Hub, they could develop a 
-variety-location prediction, map based visualisations and they provide a 
+  description: "From the various data that KONVERTO was able to collect, including
+weather data provided by the Open Data Hub, they could develop a
+variety-location prediction, map based visualisations and they provide a
 valuable data interface (API)."
-  btn_link: "/data-visualization"
-  btn_label: See Details
   img_back: "/img/ODH-services-data-visualization.jpg"
-  img_front: "/icon/box.svg"
 
 paragraph_4:
-  description: "The KULTIVAS project is being carried out by Software and cloud 
-experts from the private sector of the IT company KONVERTO AG in 
-cooperation with researchers and agronomists from leading institutes 
-(Laimburg/Eurac) who enrich the project with their agronomic 
-knowledge."
-  btn_link: "/data-visualization"
-  btn_label: See Details
+  description: "The KULTIVAS project is being carried out by Software and cloud
+experts from the private sector of the IT company KONVERTO AG
+(https://konverto.eu) in cooperation with researchers and agronomists
+from leading institutes (Laimburg, Eurac Research) who enrich the
+project with their agronomic knowledge."
   img_back: "/img/ODH-services-data-visualization.jpg"
-  img_front: "/icon/box.svg"
 
 paragraph_5:
-  description: "Important questions of the future can be answered only by pooling 
-knowledge, the results benefit all the partners involved in South Tyrolean 
-agriculture. 
-Peter Werth, member of the steering committee of the project 
-KULTIVAS"
-  btn_link: "/data-visualization"
-  btn_label: See Details
+  description: "„Important questions of the future can be answered only by pooling
+knowledge, the results benefit all the partners involved in South Tyrolean
+agriculture.
+“
+Peter Werth, member of the steering committee of the project KULTIVAS"
   img_back: "/img/ODH-services-data-visualization.jpg"
-  img_front: "/icon/box.svg"
