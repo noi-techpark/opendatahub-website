@@ -94,7 +94,7 @@ menu:
 
     - parent: use-cases
       name: Kultivas
-      URL: /use-cases/kultivas
+      URL: /kultivas
       weight: 1
 
     # - parent: use-cases
@@ -115,10 +115,7 @@ menu:
       name: Datasets
       weight: 3
 
-    - identifier: kultivas
-      URL: /kultivas
-      name: Kultivas
-      weight: 2
+   
 
     - identifier: quickstart
       URL: /quickstart
