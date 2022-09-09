@@ -1111,6 +1111,7 @@ footer ul.social li img {
 .testimonial-quote blockquote p {
     color: #75808a;
     line-height: 1.4 !important;
+    font-size: 19px;
 }
 
 .testimonial-quote blockquote p:first-child:before {
@@ -1158,6 +1159,6 @@ footer ul.social li img {
 }
 
 .testimonial-quote .quote-container {
-    padding-left: 160px;
+   
 }
 
