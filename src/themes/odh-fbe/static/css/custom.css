@@ -76,8 +76,9 @@ a:hover {
 }
 
 section {
-    padding: 5rem 0;
+    padding: 1.3rem 0;
 }
+
 
 .bg-primary {
     background: var(--primary);
@@ -105,6 +106,7 @@ a.bg-primary:hover {
 .container {
     max-width: 90%;
     width: 1440px;
+    margin-top: 4rem;
 }
 
 .container .container-content {
