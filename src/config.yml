@@ -97,6 +97,11 @@ menu:
       URL: /kultivas
       weight: 1
 
+    - parent: use-cases
+      name: Green Mobility
+      URL: /green-mobility
+      weight: 2
+
     # - parent: use-cases
     #   name: UC Data Sharing
     #   URL: /use-cases/#sm-tag-data-visualization

@@ -1,0 +1,27 @@
+################################# Green mobility #########################
+
+start:
+  description: "GREEN MOBILITY"
+  title: "**Real-time e-charging stations**"
+  subtitle: An interactive map that shows a large set of e-charging stations together with important real-time information.
+  video: "https://player.vimeo.com/video/731281297?h=97566158a0"
+
+paragraph_1:
+  description: "Electric cars need juicy juice"
+  img_back: "/img/use-cases/ODH-usecase-Kultivas-01-NEW.jpg"
+
+paragraph_2:
+  description: "Electric cars need juicy juice"
+  img_back: "/img/use-cases/ODH-usecase-Kultivas-02-NEW.jpg"
+
+paragraph_3:
+  description: "Electric cars need juicy juice"
+  img_back: "/img/use-cases/ODH-usecase-Kultivas-03-NEW.jpg"
+
+paragraph_4:
+  description: "Electric cars need juicy juice"
+  img_back: "/img/use-cases/ODH-usecase-Kultivas-04-NEW.jpg"
+
+paragraph_5:
+  description: "Electric cars need juicy juice"
+  
