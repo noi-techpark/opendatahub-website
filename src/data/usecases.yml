@@ -12,11 +12,17 @@ improve the decision making in apple cultivation."
 
 
 use_cases:
+<<<<<<< HEAD
   subtitle: "ALPEN"
   title: "**Alpen**"
   description: "The innovative pilot project KULTIVAS combines the long-standing
 experience of South Tyrolean agriculture with the latest technologies, to
 improve the decision making in apple cultivation."
+=======
+  subtitle: "GREENMOBILITY"
+  title: "**Real-time e-charging stations**"
+  description: "An interactive map that shows a large set of e-charging stations, together with important real-time information."
+>>>>>>> a49d74dbc0b0d8d0905c592a93a519c4a5ddf5c5
   btn_link: "/green-mobility"
   btn_label: Read more
   img_back: "/img/use-cases/ODH-usecase-Kultivas-09.jpg"
