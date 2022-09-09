@@ -80,7 +80,7 @@ menu:
     - parent: services
       name: Data visualization
       URL: /data-visualization
-      weight: 2
+      weight: 3
 
     # - parent: services
     #   name: Use Cases

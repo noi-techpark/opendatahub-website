@@ -1,7 +1,7 @@
 ################################# Use cases #########################
 use_cases_kultivas:
+  subtitle: "KULTIVAS"
   title: "**Big data technologies and apples**"
-  subtitle: "hello"
   description: "The innovative pilot project KULTIVAS combines the long-standing
 experience of South Tyrolean agriculture with the latest technologies, to
 improve the decision making in apple cultivation."
@@ -12,6 +12,7 @@ improve the decision making in apple cultivation."
 
 
 use_cases:
+  subtitle: "ALPEN"
   title: "**Alpen**"
   description: "The innovative pilot project KULTIVAS combines the long-standing
 experience of South Tyrolean agriculture with the latest technologies, to
