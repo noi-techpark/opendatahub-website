@@ -1096,7 +1096,7 @@ footer ul.social li img {
 
     background: none;
     color: gray;
-    font-family: Georgia, serif;
+    font-family: "Open Sans", Arial, sans-serif;
     font-size: 1.5em;
     font-style: italic;
     line-height: 1.4 !important;
@@ -1111,14 +1111,13 @@ footer ul.social li img {
 }
 
 .testimonial-quote blockquote p {
-    color: #75808a;
     line-height: 1.4 !important;
-    font-size: 19px;
+    font-size: 21px;
 }
 
 .testimonial-quote blockquote p:first-child:before {
     content: '\201C';
-    color: #81bedb;
+    color: gray;
     font-size: 7.5em;
     font-weight: 700;
     opacity: .3;
@@ -1151,16 +1150,11 @@ footer ul.social li img {
     font-size: 1em;
     font-style: normal;
     font-weight: 700;
-    letter-spacing: 1px;
     text-transform: uppercase;
     text-shadow: 0 1px white;
 }
 
 .testimonial-quote {
     position: relative;
-}
-
-.testimonial-quote .quote-container {
-   
 }
 
