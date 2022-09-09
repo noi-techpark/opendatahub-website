@@ -92,10 +92,7 @@ menu:
       URL: /use-cases
       weight: 3
 
-    - parent: use-cases
-      name: Kultivas
-      URL: /kultivas
-      weight: 1
+
 
     - parent: use-cases
       name: Green Mobility
