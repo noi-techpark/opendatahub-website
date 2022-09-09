@@ -80,7 +80,7 @@ menu:
     - parent: services
       name: Data visualization
       URL: /data-visualization
-      weight: 3
+      weight: 5
 
     # - parent: services
     #   name: Use Cases
@@ -91,13 +91,6 @@ menu:
       name: Use Cases
       URL: /use-cases
       weight: 3
-
-
-
-    - parent: use-cases
-      name: Green Mobility
-      URL: /green-mobility
-      weight: 2
 
     # - parent: use-cases
     #   name: UC Data Sharing

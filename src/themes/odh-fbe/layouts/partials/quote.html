@@ -1,0 +1,15 @@
+{{"<!-- quote -->" | safeHTML }}
+<section>
+	<div style="width: 960px; margin: 0 auto; padding-top: 80px; padding-bottom: 80px;">
+		<div class="testimonial-quote group">
+			<div class="quote-container">
+				<blockquote>
+					<p>{{ .description | markdownify }}</p>
+				</blockquote>
+				<cite><span>{{ .title | markdownify }}</span><br>
+					{{ .subtitle | markdownify }}<br>
+				</cite>
+			</div>
+		</div>
+</section>
+{{"<!-- quote -->" | safeHTML }}
