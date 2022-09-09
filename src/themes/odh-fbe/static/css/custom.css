@@ -76,7 +76,8 @@ a:hover {
 }
 
 section {
-    padding: 1.3rem 0;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
 }
 
 
@@ -106,7 +107,7 @@ a.bg-primary:hover {
 .container {
     max-width: 90%;
     width: 1440px;
-    margin-top: 4rem;
+  
 }
 
 .container .container-content {
@@ -471,6 +472,7 @@ input:focus {
 
 .title-cta {
     padding-bottom: 0px;
+    margin-top: 4rem;
 }
 
 .title-cta h1 {
