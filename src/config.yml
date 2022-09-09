@@ -90,7 +90,7 @@ menu:
     - identifier: use-cases
       name: Use Cases
       URL: /use-cases
-      weight: 2
+      weight: 3
 
     # - parent: use-cases
     #   name: UC Data Sharing
