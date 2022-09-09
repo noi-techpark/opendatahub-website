@@ -1,0 +1,18 @@
+{{"<!-- Double Column Imgs - Text -->" | safeHTML }}
+<section class="imgs-icon-text">
+	<div class="container">
+			<div class="col-12 col-lg-6 imgs">
+				<iframe class="title-video" src="{{ .video }}" width="480" height="270" frameborder="0" allow="autoplay; fullscreen;"
+					allowfullscreen>
+				</iframe>
+			</div>
+			<div class="col-12 col-lg-6">
+				<p class="upper">{{ .subtitle | markdownify }}</p>
+                <h3>{{ .title | markdownify }}</h3>
+                <p>{{ .description | markdownify }}</p>
+    
+                <a {{ if .target_blank }}target="_blank"{{ end }} href="{{.btn_link}}" class="btn btn-primary">{{ .btn_label | markdownify }}</a>
+			</div>
+	</div>
+</section>
+{{"<!-- /Double Column Imgs - Text -->" | safeHTML }}

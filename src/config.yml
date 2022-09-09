@@ -91,24 +91,11 @@ menu:
       name: Use Cases
       URL: /use-cases
       weight: 3
-
-    # - parent: use-cases
-    #   name: UC Data Sharing
-    #   URL: /use-cases/#sm-tag-data-visualization
-    #   weight: 2
-
-    # - parent: use-cases
-    #   name: UC Data Visualization
-    #   URL: /use-cases/#sm-tag-data-visualization
-    #   weight: 3
-
  
     - identifier: datasets
       URL: /datasets
       name: Datasets
       weight: 3
-
-   
 
     - identifier: quickstart
       URL: /quickstart
@@ -129,16 +116,6 @@ menu:
       name: Data Consumers
       URL: /community/#sm-tag-data-consumers
       weight: 2
-
-    # - parent: community
-    #   name: Contributors
-    #   URL: /community/#sm-tag-data-consumers
-    #   weight: 3
-
-    # - parent: community
-    #   name: Get involved
-    #   URL: /community/#sm-tag-data-consumers
-    #   weight: 4
 
     - identifier: events
       URL: /events
