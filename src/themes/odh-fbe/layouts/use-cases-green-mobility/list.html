@@ -1,0 +1,31 @@
+{{ define "main" }}
+
+  {{ partial "nav.html" . }}
+
+  {{ partial "title-img.html" site.Data.green_mobility.start }}
+
+  <section  id="">
+    {{ partial "imgs-text.html" site.Data.green_mobility.paragraph_1 }}
+  </section>
+
+  <section id="">
+    {{ partial "text-imgs-icon.html" site.Data.green_mobility.paragraph_2 }}
+  </section>
+
+  <section id="">
+    {{ partial "imgs-icon-text.html" site.Data.green_mobility.paragraph_3 }}
+  </section>
+
+  <section id="">
+    {{ partial "text-imgs-icon.html" site.Data.green_mobility.paragraph_4 }}
+  </section>
+
+  <section id="">
+    {{ partial "imgs-icon-text.html" site.Data.green_mobility.paragraph_5 }}
+  </section>
+
+  <section id="">
+    {{ partial "text-imgs.html" site.Data.green_mobility.paragraph_6 }}
+  </section>
+
+{{ end }}

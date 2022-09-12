@@ -1,0 +1,19 @@
+{{ define "main" }}
+
+  {{ partial "nav.html" . }}
+
+  
+  {{ partial "title.html" .Params }}
+
+  <a id="sm-tag-use-cases"></a>
+  <section class="bg-darker" id="use-cases">
+    {{ partial "video-text.html" site.Data.usecases.use_cases_kultivas }}
+  </section>
+
+  <a id="sm-tag-use-cases"></a>
+  <section id="use-cases">
+    {{ partial "text-imgs-icon.html" site.Data.usecases.use_cases }}
+  </section>
+
+
+{{ end }}

@@ -1,0 +1,27 @@
+{{ define "main" }}
+
+  {{ partial "nav.html" . }}
+
+  {{ partial "title-cta.html" site.Data.kultivas.start }}
+
+  <section  id="">
+    {{ partial "imgs-text.html" site.Data.kultivas.paragraph_1 }}
+  </section>
+
+  <section id="">
+    {{ partial "text-imgs.html" site.Data.kultivas.paragraph_2 }}
+  </section>
+
+  <section id="">
+    {{ partial "imgs-text.html" site.Data.kultivas.paragraph_3 }}
+  </section>
+
+  <section id="">
+    {{ partial "text-imgs.html" site.Data.kultivas.paragraph_4 }}
+  </section>
+
+  <section id="">
+    {{ partial "quote.html" site.Data.kultivas.paragraph_5 }}
+  </section>
+
+{{ end }}

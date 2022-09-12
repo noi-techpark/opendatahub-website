@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mobility on Open Data Hub - Develop digital solutions based on real data</title>
+    <link>https://example.com/datatype/mobility/</link>
+    <description>Recent content in Mobility on Open Data Hub - Develop digital solutions based on real data</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://example.com/datatype/mobility/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bike Counter</title>
+      <link>https://example.com/datasets/mobility/bikecounter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/datasets/mobility/bikecounter/</guid>
+      <description>This dataset contains data of the bike counter service in Bolzano.
+Output JSON, mime-type application/json API version v2 s Swagger URL https://mobility.api.opendatahub.bz.it/ StationType VehicleDetetection(count) Sources Municipality of Bolzano (FAMAS System) OpenData Open Data </description>
+    </item>
+    
+    <item>
+      <title>Bikesharing</title>
+      <link>https://example.com/datasets/mobility/bikesharing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/datasets/mobility/bikesharing/</guid>
+      <description>This dataset contains data of the bike sharing service in Bolzano and Merano, such as stations (for station based service - Bolzano), areas (for free floating service - Merano), availability, battery state, etc&amp;hellip;
+Output JSON, mime-type application/json API version v2 Swagger URL {https://mobility.api.opendatahub.bz.it/ StationType Bicycle, Bicyclestationbay, BikesharingStation Sources Municipality of Bolzano and Merano OpenData Open Data </description>
+    </item>
+    
+    <item>
+      <title>Carpooling</title>
+      <link>https://example.com/datasets/mobility/carpooling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/datasets/mobility/carpooling/</guid>
+      <description>This dataset contains all data of the carpooling service of the Burggrafenamt/ Burgraviato, such as carpooling users (users express consent to privacy, no sensitive data is exchanged), locations and available destinations and availability.
+Output JSON, mime-type application/json API version v2 Swagger URL https://mobility.api.opendatahub.bz.it/ StationType CarpoolingHub, CarpoolingService, CarpoolingUser Sources Bezirksgemeinschaft Burggrafenamt/Burgraviato, Inno.vìe OpenData Open Data </description>
+    </item>
+    
+    <item>
+      <title>Carsharing</title>
+      <link>https://example.com/datasets/mobility/carsharing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/datasets/mobility/carsharing/</guid>
+      <description>This dataset contains all data of the carsharing service in South Tyrol, such as stations and availability.
+Output JSON, mime-type application/json API version v2 Swagger URL https://mobility.api.opendatahub.bz.it/ StationType CarsharingStation Sources Car Sharing Südtirol Alto Adige OpenData Open Data </description>
+    </item>
+    
+    <item>
+      <title>Echarging station</title>
+      <link>https://example.com/datasets/mobility/echargingstation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/datasets/mobility/echargingstation/</guid>
+      <description>This dataset exposes data about the existing e-charging stations and plugs in South Tyrol and their availability status, including historical data and usage. Hydrogen station data are included.
+Output JSON, mime-type application/json API version v2 Swagger URL https://mobility.api.opendatahub.bz.it/ StationType EChargingPlug, EChargingStation Sources Alperia (Neogy), Route220, nevicam, Driwe, H2 Südtirol Alto Adige OpenData Open Data </description>
+    </item>
+    
+  </channel>
+</rss>

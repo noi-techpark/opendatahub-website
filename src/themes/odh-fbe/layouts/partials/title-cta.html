@@ -3,6 +3,7 @@
     <div class="container">
         <div class="container-content">
             <div class="text-content">
+                <p class="upper">{{ .description | markdownify }}</p>
                 <h1 class="primary">{{ .title | markdownify }}</h1>
                 <h2 class="subtitle">{{ .subtitle | markdownify }}</h2>
             </div>

@@ -99,6 +99,10 @@ providers:
       img: "img/community/route220.png"
       link: https://evway.net/
 
+    - name: SkyAlps
+      img: "img/community/skyalps.png"
+      link: https://www.skyalps.com/
+
     - name: STA
       img: "img/community/sta.png"
       link: https://sta.bz.it

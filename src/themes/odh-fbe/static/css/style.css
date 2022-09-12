@@ -50,6 +50,11 @@ p {
   margin-bottom: 30px;
 }
 
+p.upper {
+  margin-bottom: -20px;
+  
+}
+
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
