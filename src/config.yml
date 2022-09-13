@@ -52,7 +52,7 @@ params:
     github: "https://github.com/noi-techpark/"
     facebook: "https://www.facebook.com/opendatahub/"
     telegram: "https://t.me/OpenDataHub"
-    element: "https://matrix.to/#/#main-room-odh22:matrix.virtual.software.bz.it"
+    element: "https://app.element.io/#/room/#opendatahub:matrix.org"
     copyright: >-
       NOI AG - Via Volta 13/A, I-39100 Bolzano - VAT No.: 02595720216 -
       Endowment capital 110.740.000 € - <a href="https://noi.bz.it/en/privacy-cookie-policy" target="_blank">Privacy</a>
