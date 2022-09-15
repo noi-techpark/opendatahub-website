@@ -15,13 +15,13 @@ use_cases_greenmobility:
   description: "An interactive map that shows a large set of e-charging stations, together with important real-time information."
   btn_link: "/use-cases-green-mobility"
   btn_label: Read more
-  img_back: "/img/green-mobility/ODH-usecase-GREENMOBILITY-image-01.jpg"
+  img_back: "/img/use-cases/ODH-usecase-GREENMOBILITY-image-01.jpg"
 
 contact_us:
   title: "**CONTACT US**"
   description: "Have you realised an innovative project with data from the Open Data Hub? Send us your project!"
   btn_link: "/contact"
-  btn_label: Contact us
+  btn_label: Contact Us
   img_back: "/img/use-cases/ODH-website-usecases-contact-us.jpg"
 
 
