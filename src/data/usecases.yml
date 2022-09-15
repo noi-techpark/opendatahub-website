@@ -9,12 +9,27 @@ improve the decision making in apple cultivation."
   btn_label: Read more
   video: "https://player.vimeo.com/video/715104372?h=28580f7e63"
   
-use_cases:
+use_cases_greenmobility:
   subtitle: "GREENMOBILITY"
   title: "**Real-time e-charging stations**"
   description: "An interactive map that shows a large set of e-charging stations, together with important real-time information."
   btn_link: "/use-cases-green-mobility"
   btn_label: Read more
   img_back: "/img/green-mobility/ODH-usecase-GREENMOBILITY-image-01.jpg"
+
+contact_us:
+  title: "**CONTACT US**"
+  description: "Have you realised an innovative project with data from the Open Data Hub? Send us your project!"
+  btn_link: "/contact"
+  btn_label: Contact us
+  img_back: "/img/use-cases/ODH-website-usecases-contact-us.jpg"
+
+
+
+
+  
+
+
+
  
 
