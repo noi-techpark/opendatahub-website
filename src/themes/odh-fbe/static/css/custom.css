@@ -1058,7 +1058,7 @@ footer ul.social li img {
 
 /* Slideshow */
 
-.logo-slideshow>.container {
+.logo-slideshow > .container {
     position: relative;
 }
 
@@ -1067,15 +1067,27 @@ footer ul.social li img {
 }
 
 .slides-container {
-    display: flex;
     min-height: 100%;
     max-width: 100%;
     overflow: hidden;
     background-color: #fff;
+    display: flex;
 }
 
-.slides-container .slide {
+.slide.container {
     min-width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: max-content max-content max-content;
+}
+
+.slide.container > div {
+    min-width: 100%;
+}
+
+.slide.container::before,
+.slide.container::after {
+    content: none;
 }
 
 .shift-left-once {
