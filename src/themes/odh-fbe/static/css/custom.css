@@ -16,7 +16,6 @@ p {
     font-size: 16px;
 }
 
-
 h1.primary,
 h2.primary,
 h3.primary,
@@ -24,7 +23,6 @@ h4.primary,
 h5.primary,
 h6.primary {
     color: var(--primary);
-   
 }
 
 h1,
@@ -37,7 +35,6 @@ h1 {
     font-size: 2.25rem;
     font-weight: bold;
 }
-
 
 h2 {
     font-size: 2rem;
@@ -80,7 +77,6 @@ section {
     margin-top: 2rem;
 }
 
-
 .bg-primary {
     background: var(--primary);
     color: white;
@@ -107,7 +103,6 @@ a.bg-primary:hover {
 .container {
     max-width: 90%;
     width: 1440px;
-  
 }
 
 .container .container-content {
@@ -344,6 +339,7 @@ input:focus {
     border-color: #555555;
 }
 
+
 /* GENERIC BOXES */
 
 .generic-boxes p {
@@ -570,6 +566,7 @@ input:focus {
 .imgs-icon-text img,
 .text-imgs-icon img {
     width: 65%;
+    padding-bottom: 20px;
 }
 
 .imgs-icon-text img.img-front {
@@ -645,7 +642,7 @@ section.dataset-title {
 }
 
 .category-selector {
-   margin-top: 1.8rem;
+    margin-top: 1.8rem;
 }
 
 .availability-selector {
@@ -716,6 +713,7 @@ table td:first-child {
     padding: 8px;
     text-align: center;
 }
+
 
 /* EVENTS */
 
@@ -844,7 +842,6 @@ footer .social-logos-footer ul {
 }
 
 footer .row img {
-
     max-width: 200px;
 }
 
@@ -1095,12 +1092,14 @@ footer ul.social li img {
     transform: translateX(-100%);
 }
 
+
 /* Quote */
+
 .testimonial-quote {
     font-size: 16px;
     width: 60%;
     margin: 0 auto;
-    padding-top: 40px ;
+    padding-top: 40px;
     padding-bottom: 80px;
 }
 
@@ -1109,7 +1108,6 @@ footer ul.social li img {
     border: 0;
     margin: 0;
     padding: 0;
-
     background: none;
     color: gray;
     font-family: "Open Sans", Arial, sans-serif;
@@ -1173,4 +1171,3 @@ footer ul.social li img {
 .testimonial-quote {
     position: relative;
 }
-
