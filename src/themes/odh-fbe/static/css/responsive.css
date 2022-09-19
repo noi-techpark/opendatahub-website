@@ -147,6 +147,18 @@
         padding-top: 80px ;
         padding-bottom: 80px;
     }
+
+    /* SLIDESHOW */
+
+    .slides-container {
+        padding: 2rem 0;
+    }
+
+    .slide.container {
+        grid-template-columns: auto auto auto;
+        grid-template-rows: max-content max-content max-content max-content;
+        row-gap: 10px;
+    }
 }
 
 @media (max-width: 1390px) {
