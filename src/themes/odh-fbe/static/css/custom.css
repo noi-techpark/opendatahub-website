@@ -1171,3 +1171,8 @@ footer ul.social li img {
 .testimonial-quote {
     position: relative;
 }
+
+#page-not-found {
+    margin-top: 2vh;
+    height: 56vh;
+}
