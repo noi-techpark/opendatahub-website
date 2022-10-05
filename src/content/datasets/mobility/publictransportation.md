@@ -10,7 +10,7 @@ availability_label: "Open Data"
 availability_description: 
 
 doc_link: "http://dev.opentripplanner.org/apidoc/1.0.0/index.html"
-example_link: "https://otp.opendatahub.bz.it/otp/"
+example_link: "https://otp.opendatahub.bz.it/otp/routers/openmove/index/stops?clusters=false&minLat=46.672593878984955&maxLat=46.678998236494806&minLon=11.165606975555422&maxLon=11.174876689910889 "
 
 datatype: "Mobility"
 ---
@@ -24,6 +24,9 @@ The Open Data Hub mobility data can be accessed with the OpenTripPlanner (OTP) A
 | Endpoint | {{< target-blank-link
                         url="https://otp.opendatahub.bz.it/otp/"
                         text="https://otp.opendatahub.bz.it/otp/" >}}                                                                                                                                                                                                              |
+| Example | {{< target-blank-link
+                        url="https://otp.opendatahub.bz.it/otp/routers/openmove/index/stops?clusters=false&minLat=46.672593878984955&maxLat=46.678998236494806&minLon=11.165606975555422&maxLon=11.174876689910889"
+                        text="OpenTripPlanner API Request" >}}                          |
 | Documentation | {{< target-blank-link
                         url="http://dev.opentripplanner.org/apidoc/1.0.0/index.html"
                         text="http://dev.opentripplanner.org/apidoc/1.0.0/index.html" >}}  |

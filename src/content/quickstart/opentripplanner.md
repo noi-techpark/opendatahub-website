@@ -1,7 +1,7 @@
 ---
 Title: "OpenTripPlanner (OTP) API"
 
-button_link: "https://otp.opendatahub.bz.it/otp/"
+button_link: "http://dev.opentripplanner.org/apidoc/1.0.0/index.html"
 button_label: "Learn more"
 
 weight: 6
