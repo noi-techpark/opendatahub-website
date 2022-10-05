@@ -18,10 +18,10 @@ use_cases_greenmobility:
   img_back: "/img/use-cases/ODH-usecase-GREENMOBILITY-image-01.jpg"
 
 contact_us:
-  title: "**CONTACT US**"
-  description: "Have you realised an innovative project with data from the Open Data Hub? Send us your project!"
+  title: "**Share your use case!**"
+  description: "Have you realised an innovative project with data from the Open Data Hub? <br> Send us your project! </br>"
   btn_link: "/contact"
-  btn_label: Contact Us
+  btn_label: Contact us
   img_back: "/img/use-cases/ODH-website-usecases-contact-us.jpg"
 
 
