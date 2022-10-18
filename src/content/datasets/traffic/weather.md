@@ -5,13 +5,9 @@ title: "Weather"
 img: "/img/datasets/dataset-environment.jpg"
 img_alt: "sfscon"
 
-availability: "partially-closed"
+availability: "open"
 weight: 2
-availability_label: "Open Data | On Request Data"
-availability_description: >-
-    FAMAS System data is closed and restricted to a project collaboration
-    (<a class="dataset-mailto">contact&nbsp;us</a>
-    if you are interested in this data.)
+availability_label: "Open Data"
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#weather-dataset"
 example_link: "https://webcomponents.opendatahub.com/webcomponent/991e1fd5-8eaf-4d7b-9ca4-dea7544b6c02?from=%2F%3Ftags%3Dweather"
@@ -19,7 +15,7 @@ example_link: "https://webcomponents.opendatahub.com/webcomponent/991e1fd5-8eaf-
 datatype: "Traffic"
 ---
 
-This dataset contains meteorological data provided by the hydrographical Department of South Tyrol and Trentino, such as Precipitation and Air temperature. Here are the measurements of the weather data, not the forecast.
+This dataset contains meteorological data provided by the hydrographical Department of South Tyrol and Trentino, EURAC Research, such as Precipitation and Air temperature. Here are the measurements of the weather data, not the forecast.
 
 |             |                                                                             |
 | :---------- | --------------------------------------------------------------------------- |
@@ -29,5 +25,5 @@ This dataset contains meteorological data provided by the hydrographical Departm
                         url="https://mobility.api.opendatahub.bz.it/"
                         text="https://mobility.api.opendatahub.bz.it/" >}}                                      |
 | StationType | [MeteoStation](https://mobility.api.opendatahub.bz.it/v2/flat/MeteoStation) |
-| Sources     | Department of South Tyrol and Trentino                                      |
-| OpenData    | MeteoStation data is partially closed data                                 |
+| Sources     | Department of South Tyrol and Trentino, Eurac Research                                    |
+| OpenData    | Open Data                              |
