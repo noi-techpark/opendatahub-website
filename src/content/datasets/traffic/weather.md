@@ -6,7 +6,7 @@ img: "/img/datasets/dataset-environment.jpg"
 img_alt: "sfscon"
 
 availability: "open"
-weight: 2
+weight: 1
 availability_label: "Open Data"
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#weather-dataset"
