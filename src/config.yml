@@ -92,16 +92,22 @@ menu:
       URL: /use-cases
       weight: 3
  
+    - identifier: web-components
+      name: Web Components
+      URL: https://webcomponents.opendatahub.com/
+      weight: 3
+
     - identifier: datasets
       URL: /datasets
       name: Datasets
       weight: 3
-
+   
     - identifier: quickstart
       URL: /quickstart
       name: Quickstart
       weight: 4
 
+    
     - identifier: community
       URL: /community
       name: Community
