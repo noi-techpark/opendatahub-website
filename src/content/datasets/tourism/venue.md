@@ -25,7 +25,7 @@ This dataset contains events location provided by LTS such as info about a locat
 | Output      | JSON, mime-type application/json                           |
 | API version | v1                                                         |
 | Swagger URL | {{< target-blank-link
-                        url="http://tourism.opendatahub.bz.it/swagger/index.html#/Venue"
-                        text="http://tourism.opendatahub.bz.it/swagger/index.html#/Venue" >}} |
+                        url="https://tourism.opendatahub.bz.it/swagger/index.html#/Venue"
+                        text="https://tourism.opendatahub.bz.it/swagger/index.html#/Venue" >}} |
 | Sources     | LTS                                                        |
 | OpenData    | Venue data is closed |
