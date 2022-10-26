@@ -131,7 +131,11 @@ consumers:
     - name: Arxax srl
       img: "img/community/arxax.png"
       link: https://www.arxax.com/
-      
+
+    - name: Brandnamic
+      img: "img/community/brandnamic.png"
+      link: https://www.brandnamic.com/
+
     - name: Brixen Tourismus Gen
       img: "img/community/BrixenTourism.png"
       link: https://www.brixen.org     
