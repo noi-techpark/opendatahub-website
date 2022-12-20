@@ -128,6 +128,10 @@ consumers:
   title: Data Consumers
   subtitle: These Companies and Organizations are official Data Consumers of the Open Data Hub and use the data to implement innovative digital solutions for a SMART Green Region.
   item:
+    - name: ACS srl
+      img: "img/community/acs.png"
+      link: https://www.acs.it/
+      
     - name: Arxax srl
       img: "img/community/arxax.png"
       link: https://www.arxax.com/
