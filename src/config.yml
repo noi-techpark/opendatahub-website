@@ -138,6 +138,11 @@ menu:
       URL: /events/#sm-tag-past-events
       weight: 2
 
+    - parent: events
+      name: Video Library
+      URL: /video-library
+      weight: 7
+
   footer1:
     - URL: /data-sharing/
       name: Data Sharing
