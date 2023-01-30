@@ -260,7 +260,6 @@ a:hover .btn-white {
 }
 
 .fh5co-menu-1.float-right a {
-    padding: 35px 15px;
     margin: 0;
     border-top: 2px solid transparent;
 }
@@ -904,7 +903,7 @@ footer .copyright {
 
 #contact-form {
     position: relative;
-    top: -60px;
+    top: -20px;
 }
 
 #contact-form .col-lg-5 {
@@ -1055,7 +1054,7 @@ footer ul.social li img {
 
 /* Slideshow */
 
-.logo-slideshow > .container {
+.logo-slideshow>.container {
     position: relative;
 }
 
@@ -1078,7 +1077,7 @@ footer ul.social li img {
     grid-template-rows: max-content max-content max-content;
 }
 
-.slide.container > div {
+.slide.container>div {
     min-width: 100%;
 }
 

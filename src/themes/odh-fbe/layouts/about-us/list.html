@@ -1,0 +1,12 @@
+{{ define "main" }} {{ partial "nav.html" . }} {{ partial "title-cta.html" site.Data.about_us.start }}
+
+
+<section id="">
+    {{ partial "text-imgs.html" site.Data.about_us.paragraph_2 }}
+</section>
+
+<section id="">
+    {{ partial "quote.html" site.Data.about_us.paragraph_5 }}
+</section>
+
+{{ end }}
