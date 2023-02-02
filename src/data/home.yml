@@ -102,7 +102,7 @@ services:
       btn_label: "Access data"
 
     - name: "Data Sharing"
-      image: "/img/ODH-home-services-data-sharing.jpg"
+      image: "/img/ODH-home-services-data-sharing-luisa.jpg"
       icon: "/icon/upload.svg"
       box_link: "/data-sharing/"
       btn_label: "Share data"

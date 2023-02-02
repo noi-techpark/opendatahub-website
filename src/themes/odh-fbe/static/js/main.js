@@ -91,8 +91,7 @@ var my = null;
     );
 
     $(` .fh5co-main-nav .fh5co-menu-1 .logo-home,
-        .fh5co-main-nav .fh5co-menu-1 .nav-link,
-        .fh5co-main-nav .fh5co-menu-1.float-right a `).each(
+        .fh5co-main-nav .fh5co-menu-1 .nav-link`).each(
       function () {
         var $this = $(this);
 

@@ -7,8 +7,8 @@ day: "2022-07-07"
 time: "18:30 - 20:00"
 location: "NOI Techpark and online"
 
-button_link: "https://www.eventbrite.it/e/254404660187"
-button_label: "More info & Registration"
+button_link: "https://www.youtube.com/watch?v=_QOr7Wv-jZ4"
+button_label: "Video"
 ---
 
 Open Data Hub | Accessing Web APIs as "Virtual" Relational Databases or Knowledge Graphs
