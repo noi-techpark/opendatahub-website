@@ -22,33 +22,17 @@
                 </div>
 
                 <div class="fh5co-menu-1 float-right">
-                    <!-- <a href="/help" class="menu-item-extra" style="height: 0;"  {{ if eq $currentPage.Params.Position "Help" }}class="current"{{ end }}>
-            <span class="fa fa-heart-o bold" style="color: var(--primary); margin-top: -1rem;" aria-hidden="true"></span>
-            <span>Help</span>
-          </a> -->
-
-                    <!--<div class="vertical-separator"></div>-->
-
                     <div class="nav-links">
-                        <div class="expanded nav-link">
-                            <span class="fa fa-chevron-right" style="color: var(--primary); margin-top: -1rem;" aria-hidden="true"></span>
-                            <a class="nav-link-name none-float" href="/about-us">About us</a>
-
+                        <div {{ if or (eq $currentPage.Params.Position "contact") (eq $currentPage.Params.Position "about-us") }} class="expanded current nav-link" {{ else }} class="not-current nav-link" {{ end }}>
+                            <a class="nav-link-name none-float" href="/about-us">
+                            <span class="fa fa-chevron-right" aria-hidden="true"></span>
+                            <span>About us</span></a>
                             <div class="sub-menu">
-
                                 <a href="/about-us">About us</a>
-
                                 <a href="/contact">Contact us</a>
                             </div>
                         </div>
                     </div>
-                    <!-- 
-                    <a href="/contact" class="menu-item-extra sub-menu" style="height: 0;" {{ if eq $currentPage.Params.Position .Name }}class="expanded current nav-link" {{ else }}class="not-current nav-link" {{ end }}>
-                        <span class="fa fa-chevron-right" style="color: var(--primary); margin-top: -1rem;" aria-hidden="true"></span>
-                        <span class="icon icon-start">About us</span>
-
-                    </a> -->
-
                     <div class="vertical-separator"></div>
                     <a href={{ .Site.Params.web_NOI | absURL }} target="_blank" class="logo-home" style="margin-left: 15px;"><img src={{ .Site.Params.logo_NOI | absURL }} height="40" alt=""></a>
 
