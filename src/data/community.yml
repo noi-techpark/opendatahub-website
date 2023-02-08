@@ -180,6 +180,10 @@ consumers:
       img: "img/community/MarketingFactory.png"
       link: https://www.marketingfactory.it
 
+    - name: Merano Tourist Office
+      img: "img/community/merano.png"
+      link: https://www.merano-suedtirol.it/
+
     - name: NOI S.p.A.
       img: "img/community/NOI_1_BK_Com.png"
       link: https://noi.bz.it
