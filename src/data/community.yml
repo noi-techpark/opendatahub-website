@@ -172,6 +172,10 @@ consumers:
       img: "img/community/IDM.png"
       link: http://idm-suedtirol.com
 
+    - name: ITHEL
+      img: "img/community/ithel.png"
+      link: https://www.ithel.it/
+
     - name: johnOS
       img: "img/community/johnos.png"
       link: https://www.johnosproject.org/docs/references/jod_dists/jod_aa_odh/
