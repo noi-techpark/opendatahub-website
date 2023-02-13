@@ -94,7 +94,7 @@ menu:
  
     - identifier: web-components
       name: Web Components
-      URL: https://webcomponents.opendatahub.com/
+      URL:  "https://webcomponents.opendatahub.com/"
       weight: 3
 
     - identifier: datasets
