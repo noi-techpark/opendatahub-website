@@ -1,9 +1,9 @@
 program:
   title: "Open Data Hub Day 2023 - Programme"
-  subtitle: "The event was held in English. The slides and video recordings of the Open Data Hub Day are online:"
+  subtitle: "The event will be held in English."
 
 content:
-  title: Pricing
+  title: Registration
   btn_top_link: "https://registration.noi.bz.it/event/speakers?id=Open_Data_Hub_Day181316674"
   btn_top_label: "Register now"
   btn_top_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
@@ -40,84 +40,84 @@ content:
         - content: "9.15"
         - content: "Patrick Ohnewein"
         - content: "NOI Techpark"
-        - content: Update about the Open Data Hub Project
+        - content: Update about the Open Data Hub project
         #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/awHA7adeY7MNRpP"
         #- videoLink: "https://vimeo.com/showcase/9563553/video/715100887"
     - cols:
         - content: "9.30"
-        - content: "Roberto Monsorno"
-        - content: "Eurac Research"
-        - content: "Environmental Data Platform as a tool for working with heterogeneous Big Data"
-        - slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/GFMoJJat538WZkd"
-        - videoLink: "https://vimeo.com/showcase/9563553/video/715097586"
+        - content: "Roberto Cavaliere"
+        - content: "NOI Techpark"
+        - content: "Open Data Hub: Mobility Data Space"
+        #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/GFMoJJat538WZkd"
+        #- videoLink: "https://vimeo.com/showcase/9563553/video/715097586"
     - cols:
         - content: "9.45"
-        - content: "Marco Pappalardo"
-        - content: "Dolomiti Superski"
-        - content: "Optimize and automate destination communication by sharing data"
-        - slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/KC4mQy4S3agGSBf"
-        - videoLink: "https://vimeo.com/showcase/9563553/video/715098141"
+        - content: "TBD"
+        - content: "TBD"
+        - content: "TBD"
+        #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/KC4mQy4S3agGSBf"
+        #- videoLink: "https://vimeo.com/showcase/9563553/video/715098141"
     - cols:
         - content: "10.00"
-        - content: "Davide Montesin & Chiara Masci"
-        - content: "CatchSolve"
-        - content: "Data quality and monitoring for Open Data Hub"
-        - slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/cExYZ5DyW23Fswi"
-        - videoLink: "https://vimeo.com/showcase/9563553/video/715098854"
+        - content: "TBD"
+        - content: "TBD"
+        - content: "TBD"
+        #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/cExYZ5DyW23Fswi"
+        #- videoLink: "https://vimeo.com/showcase/9563553/video/715098854"
     - cols:
         - content: "10.15"
-        - content: "Giovanni Giannotta & Alessandro Pancani "
-        - content: "FOS & Truckscreenia"
-        - content: "Display with innovative technology connected to the Open Data Hub"
-        - slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/fTt3s9DJJmZazAy"
-        - videoLink: "https://vimeo.com/showcase/9563553/video/715099775"
+        - content: "TBD"
+        - content: "TBD"
+        - content: "TBD"
+        #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/fTt3s9DJJmZazAy"
+        #- videoLink: "https://vimeo.com/showcase/9563553/video/715099775"
     - cols:
         - content: "10.30"
         - content: " "
         - content: " "
-        - content: "Community Coffee Break in the foyer of the NOI Seminar Area"
+        - content: "Community Coffee Break - foyer NOI Seminar Area"
         - content: " "
         - content: " "
     - cols:
         - content: "11.15"
-        - content: "Gianluca Antonacci"
-        - content: "CISMA"
-        - content: "Real time data and motorway traffic management"
-        - slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/p3zgJJDAYn3Zg5s"
-        - videoLink: "https://vimeo.com/showcase/9563553/video/715101295"
+        - content: "TBD"
+        - content: "TBD"
+        - content: "TBD"
+        #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/p3zgJJDAYn3Zg5s"
+        #- videoLink: "https://vimeo.com/showcase/9563553/video/715101295"
     - cols:
         - content: "11.30"
-        - content: "Igor Falcomatà"
-        - content: "Enforcer"
-        - content: "IoT vs Cybersecurity"
-        - slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/63x3XM23znkx54y"
-        - videoLink: "https://vimeo.com/showcase/9563553/video/715102118"
+        - content: "TBD"
+        - content: "TBD"
+        - content: "TBD"
+        #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/63x3XM23znkx54y"
+        #- videoLink: "https://vimeo.com/showcase/9563553/video/715102118"
     - cols:
         - content: "11.45"
-        - content: "Markus Garnitz"
-        - content: "Bayern Tourismus Marketing"
-        - content: "Bavarian Tourism Cloud Open Source Strategy"
-        - slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/MECTCQB5TKC26Jy"
-        - videoLink: "https://vimeo.com/showcase/9563553/video/715103069"
+        - content: "TBD"
+        - content: "TBD"
+        - content: "TBD"
+        #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/MECTCQB5TKC26Jy"
+        #- videoLink: "https://vimeo.com/showcase/9563553/video/715103069"
     - cols:
         - content: "12.00"
-        - content: "Andrea Vianello"
-        - content: "Eurac Research"
-        - content: "European Climate and Cultural Atlas for Plus Energy Building Design"
-        - slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/N48jf4gGSCGHwAo"
-        - videoLink: "https://vimeo.com/showcase/9563553/video/715103886"
+        - content: "TBD"
+        - content: "TBD"
+        - content: "TBD"
+        #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/N48jf4gGSCGHwAo"
+        #- videoLink: "https://vimeo.com/showcase/9563553/video/715103886"
     - cols:
         - content: "12.15"
-        - content: "Johannes Erschbamer"
-        - content: "KONVERTO"
-        - content: "Data-driven decision making in apple cultivation"
-        - slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/aW3dBB9Ska35Mp9"
-        - videoLink: "https://vimeo.com/showcase/9563553/video/715104372"
+        - content: "TBD"
+        - content: "TBD"
+        - content: "TBD"
+        #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/aW3dBB9Ska35Mp9"
+        #- videoLink: "https://vimeo.com/showcase/9563553/video/715104372"
     - cols:
         - content: "12.30"
         - content: " "
         - content: " "
-        - content: "Networking lunch in the foyer of the NOI Seminar Area"
+        - content: "Networking lunch - foyer NOI Seminar Area"
         - content: " "
         - content: " "
 
@@ -125,27 +125,12 @@ content:
   btn_down_label: "Full video"
   btn_down_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
-  headerPR:
-    - title: Open Data Hub Press release 2022
-      width: 75%
-    - title: Language
-      width: 15%
-    - title: Link
-      width: 10% 
-  rowPR:
-    - colsPR:
-        - content: "Dalla mobilità sostenibile al turismo Open Data Hub connette l’Europa grazie ai dati"
-        - content: "Italian"
-        - pressReleaseLink: "https://cloud.opendatahub.bz.it/index.php/s/HNFT7ikkRRaAAEc"
-    - colsPR:
-        - content: "Von der nachhaltigen Mobilität zum Tourismus - Open Data Hub vernetzt Europa durch Daten"
-        - content: "German"
-        - pressReleaseLink: "https://cloud.opendatahub.bz.it/index.php/s/DagnjTjjmT24JDJ"
-    - colsPR:
-        - content: "Images"
-        - content: ""
-        - pressReleaseLink: "https://cloud.opendatahub.bz.it/index.php/s/Xkc2j4mnLRpsyZW"
-    - colsPR:
-        - content: "Fotogallery of the event"
-        - content: ""
-        - pressReleaseLink: "https://www.flickr.com/photos/free-software-center/sets/72177720299438198/with/52114183183/"
+program:
+  title: "Open Data Hub Day 2023 - Call4Speakers"
+  subtitle: "The Call4Speakers for the Open Data Hub Day 2023 is open until March 20th. Submit your proposal for a lightning talk of 15 minutes including Q&A’s."
+
+content:
+  title: Call4Speakers
+  btn_top_link: "https://pretalx.com/open-data-hub-day-2023/cfp"
+  btn_top_label: "More info & Submission"
+  btn_top_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
