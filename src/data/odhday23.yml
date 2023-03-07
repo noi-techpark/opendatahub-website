@@ -3,9 +3,9 @@ program:
   subtitle: "The Call4Speakers for the Open Data Hub Day 2023 is open until March 20th. The event will be held in English. Participation is free of charge. The programme is subject to change and will be continuously updated until the conference opens."
 
 content:
-  btn_down_link: "https://pretalx.com/open-data-hub-day-2023/cfp"
-  btn_down_label: "Call4Speakers info & Submission"
-  btn_down_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
+  btn_top_link: "https://pretalx.com/open-data-hub-day-2023/cfp"
+  btn_top_label: "Call4Speakers info & Submission"
+  btn_top_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
   header:
     - title: 
@@ -120,6 +120,7 @@ content:
         - content: " "
         - content: " "
  
-  btn_top_link: "https://registration.noi.bz.it/event/speakers?id=Open_Data_Hub_Day181316674"
-  btn_top_label: "Register now"
-  btn_top_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
+    
+  btn_down_link: "https://registration.noi.bz.it/event/speakers?id=Open_Data_Hub_Day181316674"
+  btn_down_label: "Register now"
+  btn_down_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
