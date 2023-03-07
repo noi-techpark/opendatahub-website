@@ -124,13 +124,3 @@ content:
   btn_down_link: "https://www.youtube.com/watch?v=4lWKCyase3g"
   btn_down_label: "Full video"
   btn_down_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
-
-program:
-  title: "Open Data Hub Day 2023 - Call4Speakers"
-  subtitle: "The Call4Speakers for the Open Data Hub Day 2023 is open until March 20th. Submit your proposal for a lightning talk of 15 minutes including Q&A’s."
-
-content:
-  title: Call4Speakers
-  btn_top_link: "https://pretalx.com/open-data-hub-day-2023/cfp"
-  btn_top_label: "More info & Submission"
-  btn_top_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
