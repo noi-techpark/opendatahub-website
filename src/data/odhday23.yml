@@ -1,12 +1,12 @@
 program:
-  title: "Open Data Hub Day 2023 - Programme"
-  subtitle: "The Call4Speakers for the Open Data Hub Day 2023 is still open until March 20th. The event will be held in English. Participation is free of charge. The program is subject to change and will be continuously updated until the conference opens."
+  title: "Open Data Hub Day 2023 - Call4Speakers & Programme"
+  subtitle: "The Call4Speakers for the Open Data Hub Day 2023 is open until March 20th. The event will be held in English. Participation is free of charge. The program is subject to change and will be continuously updated until the conference opens."
 
 content:
-  title: Registration
-  btn_top_link: "https://registration.noi.bz.it/event/speakers?id=Open_Data_Hub_Day181316674"
-  btn_top_label: "Register now"
-  btn_top_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
+  title: Call4Speakers
+  btn_down_link: "https://pretalx.com/open-data-hub-day-2023/cfp"
+  btn_down_label: "Call4Speakers info & Submission"
+  btn_down_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
   header:
     - title: 
@@ -120,7 +120,7 @@ content:
         - content: "Networking lunch (foyer NOI Seminar Area)"
         - content: " "
         - content: " "
-
-  btn_down_link: "https://pretalx.com/open-data-hub-day-2023/cfp"
-  btn_down_label: "Call4Speakers info & Submission"
-  btn_down_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
+ 
+  btn_top_link: "https://registration.noi.bz.it/event/speakers?id=Open_Data_Hub_Day181316674"
+  btn_top_label: "Register now"
+  btn_top_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
