@@ -75,7 +75,7 @@ content:
         - content: "10.30"
         - content: " "
         - content: " "
-        - content: "Community Coffee Break - foyer NOI Seminar Area"
+        - content: "Community Coffee Break (foyer NOI Seminar Area)"
         - content: " "
         - content: " "
     - cols:
@@ -117,10 +117,13 @@ content:
         - content: "12.30"
         - content: " "
         - content: " "
-        - content: "Networking lunch - foyer NOI Seminar Area"
+        - content: "Networking lunch (foyer NOI Seminar Area)"
         - content: " "
         - content: " "
 
-  btn_down_link: "https://www.youtube.com/watch?v=4lWKCyase3g"
-  btn_down_label: "Full video"
+content:
+  title: Call4Speakers
+  subtitle: "The Call4Speakers for the Open Data Hub Day 2023 is open until March 20th. Submit your proposal for a lightning talk of 15 minutes including Q&A’s."
+  btn_down_link: "https://pretalx.com/open-data-hub-day-2023/cfp"
+  btn_down_label: "Call4Speakers info & Submission"
   btn_down_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
