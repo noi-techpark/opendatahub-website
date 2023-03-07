@@ -1,0 +1,14 @@
+{{ define "main" }}
+
+{{ partial "nav.html" . }}
+
+{{ partial "title.html" .Params }}
+
+<section class="bg-darker">
+
+	{{ partial "title-section.html" site.Data.odhday23.program }}
+	{{ partial "table-program-press-release" site.Data.odhday23.content }}
+	
+</section>
+
+{{ end }}

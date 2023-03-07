@@ -1,0 +1,127 @@
+program:
+  title: "Open Data Hub Day - Call4Speakers & Programme"
+  subtitle: "The Call4Speakers for the Open Data Hub Day 2023 is open until March 20th. The event will be held in English. Participation is free of charge. The programme is subject to change and will be continuously updated until the conference opens."
+
+content:
+  title: Call4Speakers
+  btn_top_link: "https://pretalx.com/open-data-hub-day-2023/cfp"
+  btn_top_label: "Call4Speakers info & Submission"
+  btn_top_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
+
+  header:
+    - title: 
+      width: 5%
+    - title: Speaker
+      width: 15%
+    - title: Company
+      width: 20%
+    - title: Title
+      width: 65%
+    - title: " "
+      width: 5%
+    - title: " "
+      width: 5%  
+  row:
+    - cols:
+        - content: "8.30"
+        - content: " "
+        - content: " "
+        - content: "Check-in starting at 8.30"
+        - content:
+        - content:
+    - cols:
+        - content: "9.00"
+        - content: "Vincent Mauroit"
+        - content: "NOI Techpark"
+        - content: Opening by NOI
+        - #slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/CgCbK2eGZexxiBA"
+        - #videoLink: "https://vimeo.com/showcase/9563553/video/715097183"
+    - cols:
+        - content: "9.15"
+        - content: "Patrick Ohnewein"
+        - content: "NOI Techpark"
+        - content: Update about the Open Data Hub project
+        #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/awHA7adeY7MNRpP"
+        #- videoLink: "https://vimeo.com/showcase/9563553/video/715100887"
+    - cols:
+        - content: "9.30"
+        - content: "Roberto Cavaliere"
+        - content: "NOI Techpark"
+        - content: "Open Data Hub: Mobility Data Space"
+        #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/GFMoJJat538WZkd"
+        #- videoLink: "https://vimeo.com/showcase/9563553/video/715097586"
+    - cols:
+        - content: "9.45"
+        - content: "-"
+        - content: "-"
+        - content: "TBD"
+        #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/KC4mQy4S3agGSBf"
+        #- videoLink: "https://vimeo.com/showcase/9563553/video/715098141"
+    - cols:
+        - content: "10.00"
+        - content: "-"
+        - content: "-"
+        - content: "TBD"
+        #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/cExYZ5DyW23Fswi"
+        #- videoLink: "https://vimeo.com/showcase/9563553/video/715098854"
+    - cols:
+        - content: "10.15"
+        - content: "-"
+        - content: "-"
+        - content: "TBD"
+        #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/fTt3s9DJJmZazAy"
+        #- videoLink: "https://vimeo.com/showcase/9563553/video/715099775"
+    - cols:
+        - content: "10.30"
+        - content: " "
+        - content: " "
+        - content: "Community Coffee Break (foyer NOI Seminar Area)"
+        - content: " "
+        - content: " "
+    - cols:
+        - content: "11.15"
+        - content: "Stefano Seppi"
+        - content: "NOI Techpark"
+        - content: "Open Data Hub: Data Browser 2.0"
+        #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/p3zgJJDAYn3Zg5s"
+        #- videoLink: "https://vimeo.com/showcase/9563553/video/715101295"
+    - cols:
+        - content: "11.30"
+        - content: "-"
+        - content: "-"
+        - content: "TBD"
+        #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/63x3XM23znkx54y"
+        #- videoLink: "https://vimeo.com/showcase/9563553/video/715102118"
+    - cols:
+        - content: "11.45"
+        - content: "-"
+        - content: "-"
+        - content: "TBD"
+        #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/MECTCQB5TKC26Jy"
+        #- videoLink: "https://vimeo.com/showcase/9563553/video/715103069"
+    - cols:
+        - content: "12.00"
+        - content: "-"
+        - content: "-"
+        - content: "TBD"
+        #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/N48jf4gGSCGHwAo"
+        #- videoLink: "https://vimeo.com/showcase/9563553/video/715103886"
+    - cols:
+        - content: "12.15"
+        - content: "-"
+        - content: "-"
+        - content: "TBD"
+        #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/aW3dBB9Ska35Mp9"
+        #- videoLink: "https://vimeo.com/showcase/9563553/video/715104372"
+    - cols:
+        - content: "12.30"
+        - content: " "
+        - content: " "
+        - content: "Networking lunch (foyer NOI Seminar Area)"
+        - content: " "
+        - content: " "
+ 
+    
+  btn_down_link: "https://registration.noi.bz.it/event/speakers?id=Open_Data_Hub_Day181316674"
+  btn_down_label: "Register now"
+  btn_down_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
