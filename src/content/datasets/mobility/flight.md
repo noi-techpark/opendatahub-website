@@ -22,8 +22,8 @@ This dataset contains information on real-time data and scheduled flights. Throu
 | Output      | JSON, mime-type application/json                                                                                                                                                                  |
 | API version | v2                                                                                                                                                                                                |
 | Swagger URL | {{< target-blank-link
-                        url="https://mobility.api.opendatahub.bz.it/"
-                        text="https://mobility.api.opendatahub.bz.it/" >}}                                                                                                                                                          |
+                        url="https://mobility.api.opendatahub.com/"
+                        text="https://mobility.api.opendatahub.com/" >}}                                                                                                                                                          |
 | StationType | [Flight](https://mobility.api.opendatahub.com/v2/flat/Flight) |
 | Wiki | [Flight Data API Wiki](https://github.com/noi-techpark/odh-docs/wiki/Flightdata-API) |
 | Sources     | SkyAlps                                                                                                                 |

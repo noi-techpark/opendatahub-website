@@ -26,8 +26,8 @@ Parking stations - off street parking data (Bolzano, Merano, Trento, Rovereto). 
 | Output      | JSON, mime-type application/json                                                                                                                               |
 | API version | v2                                                                                                                                                             |
 | Swagger URL | {{< target-blank-link
-                        url="https://mobility.api.opendatahub.bz.it/"
-                        text="https://mobility.api.opendatahub.bz.it/" >}}                                                                                                                        |
-| StationType | [ParkingStation](https://mobility.api.opendatahub.bz.it/v2/flat/ParkingStation), [ParkingSensor](https://mobility.api.opendatahub.bz.it/v2/flat/ParkingSensor) |
+                        url="https://mobility.api.opendatahub.com/"
+                        text="https://mobility.api.opendatahub.com/" >}}                                                                                                                        |
+| StationType | [ParkingStation](https://mobility.api.opendatahub.com/v2/flat/ParkingStation), [ParkingSensor](https://mobility.api.opendatahub.com/v2/flat/ParkingSensor) |
 | Sources     | Municipality of Bolzano, Merano, Trento and Rovereto, A22                                                                                                      |
 | OpenData    | ParkingSensor data is open data. ParkingStation data is partially closed data                                                                                |

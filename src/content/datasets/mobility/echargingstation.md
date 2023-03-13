@@ -10,7 +10,7 @@ availability_label: "Open Data"
 availability_description: 
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#echarging-dataset"
-example_link: "https://webcomponents.opendatahub.bz.it/webcomponent/98013c75-f27c-414e-aff9-c58ed760e791"
+example_link: "https://webcomponents.opendatahub.com/webcomponent/98013c75-f27c-414e-aff9-c58ed760e791"
 
 datatype: "Mobility"
 ---
@@ -22,8 +22,8 @@ This dataset exposes data about the existing e-charging stations and plugs in So
 | Output      | JSON, mime-type application/json                                                                                                                                                                  |
 | API version | v2                                                                                                                                                                                                |
 | Swagger URL | {{< target-blank-link
-                        url="https://mobility.api.opendatahub.bz.it/"
-                        text="https://mobility.api.opendatahub.bz.it/" >}}                                                                                                                                                          |
-| StationType | [EChargingPlug](https://mobility.api.opendatahub.bz.it/v2/flat/EChargingPlug,EChargingStation), [EChargingStation](https://mobility.api.opendatahub.bz.it/v2/flat/EChargingPlug,EChargingStation) |
+                        url="https://mobility.api.opendatahub.com/"
+                        text="https://mobility.api.opendatahub.com/" >}}                                                                                                                                                          |
+| StationType | [EChargingPlug](https://mobility.api.opendatahub.com/v2/flat/EChargingPlug,EChargingStation), [EChargingStation](https://mobility.api.opendatahub.com/v2/flat/EChargingPlug,EChargingStation) |
 | Sources     | Alperia (Neogy), Route220, nevicam, Driwe, H2 Südtirol Alto Adige                                                                                                                                 |
 | OpenData    | Open Data                                                                                                                                                                                         |

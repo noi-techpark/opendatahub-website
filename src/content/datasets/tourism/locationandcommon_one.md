@@ -10,7 +10,7 @@ availability_label: "Open Data"
 availability_description: Only Images with CC0 License are shown as open data.
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#common-dataset"
-example_link: "https://databrowser.opendatahub.bz.it/GeoBank/RegionList"
+example_link: "https://databrowser.opendatahub.com/GeoBank/RegionList"
 
 datatype: "Tourism"
 ---
@@ -22,6 +22,6 @@ Data provided by IDM.
 | :---------- | ------------------------------------------------------------------------------------------------------------------------- |
 | Output      | JSON, mime-type application/json                                                                                          |
 | API version | v1                                                                                                                        |
-| Swagger URL | [https://tourism.opendatahub.bz.it/swagger/index.html#/Common](https://tourism.opendatahub.bz.it/swagger/index.html#/Common)<br>[https://tourism.opendatahub.bz.it/swagger/index.html#/Location](https://tourism.opendatahub.bz.it/swagger/index.html#/Location)|
+| Swagger URL | [https://tourism.opendatahub.com/swagger/index.html#/Common](https://tourism.opendatahub.com/swagger/index.html#/Common)<br>[https://tourism.opendatahub.com/swagger/index.html#/Location](https://tourism.opendatahub.com/swagger/index.html#/Location)|
 | Sources     | IDM                                                                                                                       |
 | OpenData    | Open Data                                                      |

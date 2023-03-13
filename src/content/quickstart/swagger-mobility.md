@@ -1,7 +1,7 @@
 ---
 Title: "Mobility API"
 
-button_link: "https://swagger.opendatahub.bz.it/?url=https://mobility.api.opendatahub.bz.it/v2/apispec"
+button_link: "https://swagger.opendatahub.com/?url=https://mobility.api.opendatahub.com/v2/apispec"
 button_label: "Learn more"
 
 weight: 4

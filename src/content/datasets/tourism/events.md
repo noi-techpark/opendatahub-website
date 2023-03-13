@@ -25,7 +25,7 @@ This dataset contains active events provided by LTS (TIC Web), DRIN and TreviLab
 | Output      | JSON, mime-type application/json                                                       |
 | API version | v1                                                                                     |
 | Swagger URL | {{< target-blank-link
-                        url="https://tourism.opendatahub.bz.it/swagger/index.html#/Event"
-                        text="https://tourism.opendatahub.bz.it/swagger/index.html#/Event" >}}                             |
+                        url="https://tourism.opendatahub.com/swagger/index.html#/Event"
+                        text="https://tourism.opendatahub.com/swagger/index.html#/Event" >}}                             |
 | Sources     | LTS, DRIN, TreviLab                                                                   |
 | OpenData    | Events data from LTS is partially closed data. Data from DRIN and TreviLab is open data|

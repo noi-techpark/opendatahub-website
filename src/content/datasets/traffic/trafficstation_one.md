@@ -13,7 +13,7 @@ availability_description: >-
     if you are interested in this data.)
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#trafficstation-dataset"
-example_link: "https://analytics.opendatahub.bz.it/"
+example_link: "https://analytics.opendatahub.com/"
 
 datatype: "Traffic"
 ---
@@ -25,8 +25,8 @@ This dataset contains data collected by sensors along the Italian A22 motorway a
 | Output      | JSON, mime-type application/json                                                                                                                               |
 | API version | v2                                                                                                                                                             |
 | Swagger URL | {{< target-blank-link
-                        url="https://mobility.api.opendatahub.bz.it/"
-                        text="https://mobility.api.opendatahub.bz.it/" >}}                                                                                                                      |
-| StationType | [TrafficSensor](https://mobility.api.opendatahub.bz.it/v2/flat/TrafficSensor), [Trafficstation](https://mobility.api.opendatahub.bz.it/v2/flat/Trafficstation) |
+                        url="https://mobility.api.opendatahub.com/"
+                        text="https://mobility.api.opendatahub.com/" >}}                                                                                                                      |
+| StationType | [TrafficSensor](https://mobility.api.opendatahub.com/v2/flat/TrafficSensor), [Trafficstation](https://mobility.api.opendatahub.com/v2/flat/Trafficstation) |
 | Sources     | Municipality of Bolzano, A22                                                                                                                                   |
 | OpenData    | Data is partially closed                                                                                                                                      |
