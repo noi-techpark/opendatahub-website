@@ -39,6 +39,10 @@ providers:
       img: "img/community/driwe.png"
       link: https://www.driwe.eu/
 
+    - name: Ecogy
+      img: "img/community/ecogy.png"
+      link: https://ecogy.it/
+
     - name: Ecospazio
       img: "img/community/ecospazio.png"
       link: https://www.ecospazio.it
