@@ -23,8 +23,8 @@ This dataset contains all places, offices, meeting rooms, and in general all poi
 | Output      | JSON, mime-type application/json                                      |
 | API version | v2                                                                    |
 | Swagger URL | {{< target-blank-link
-                        url="https://mobility.api.opendatahub.bz.it/"
-                        text="https://mobility.api.opendatahub.bz.it/" >}}                            |
-| StationType | [NOI-Place](https://mobility.api.opendatahub.bz.it/v2/flat/NOI-Place) |
+                        url="https://mobility.api.opendatahub.com/"
+                        text="https://mobility.api.opendatahub.com/" >}}                            |
+| StationType | [NOI-Place](https://mobility.api.opendatahub.com/v2/flat/NOI-Place) |
 | Sources     | NOI Techpark                                                          |
 | OpenData    | Open Data                 |

@@ -23,8 +23,8 @@ This dataset contains  data of the bike charger service in Bolzano.
 | Output      | JSON, mime-type application/json                                                                                                                                                                                                                  |
 | API version | v2                                                                                                                                                                                                                                               |
 | Swagger URL | {{< target-blank-link
-                        url="https://mobility.api.opendatahub.bz.it/"
-                        text="https://mobility.api.opendatahub.bz.it/" >}}                                                                                                                                                                                                           |
+                        url="https://mobility.api.opendatahub.com/"
+                        text="https://mobility.api.opendatahub.com/" >}}                                                                                                                                                                                                           |
 | StationType | [BikeCharger](https://mobility.api.opendatahub.com/v2/flat,node/BIKE_CHARGER/*/latest)  |
 | Sources     | Ecospazio                                                                                                                                                                 |
 | OpenData    | Open Data                                                                                                                                                                                                                                         |

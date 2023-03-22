@@ -13,7 +13,7 @@ availability_description: >-
     if you are interested in this data.)
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#trafficstation-vms-dataset"
-example_link: "https://analytics.opendatahub.bz.it/"
+example_link: "https://analytics.opendatahub.com/"
 
 datatype: "Traffic"
 ---
@@ -25,8 +25,8 @@ The VMS (Variable Message Sign) sensors collect data about the electronic road s
 | Output      | JSON, mime-type application/json                          |
 | API version | v2                                                        |
 | Swagger URL | {{< target-blank-link
-                        url="https://mobility.api.opendatahub.bz.it/"
-                        text="https://mobility.api.opendatahub.bz.it/" >}}                   |
-| StationType | [VMS](https://mobility.api.opendatahub.bz.it/v2/flat/VMS) |
+                        url="https://mobility.api.opendatahub.com/"
+                        text="https://mobility.api.opendatahub.com/" >}}                   |
+| StationType | [VMS](https://mobility.api.opendatahub.com/v2/flat/VMS) |
 | Sources     | A22                                                       |
 | OpenData    | Data only available to authorized collaborators           |

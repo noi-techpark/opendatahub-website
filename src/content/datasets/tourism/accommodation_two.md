@@ -13,7 +13,7 @@ availability_description: >-
     if you are interested in this data)
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#accommodation-dataset"
-example_link: "https://databrowser.opendatahub.bz.it/ExternalDataSources/AccommodationSimpleList"
+example_link: "https://databrowser.opendatahub.com/ExternalDataSources/AccommodationSimpleList"
 
 datatype: "Tourism"
 ---
@@ -26,8 +26,8 @@ On the Accommodations Endpoint it is also possible to get Rooms.
 | Output         | JSON, mime-type application/json, XML AlpineBits                                          |
 | API version    | v1, AlpineBits HotelData 2017-10, 2018-10 (soon 2020-10)                                  |
 | Swagger URL    | {{< target-blank-link
-                        url="https://tourism.opendatahub.bz.it/swagger/index.html#/Accommodation/AccommodationRoomList"
-                        text="https://tourism.opendatahub.bz.it/swagger/index.html#/Accommodation/AccommodationRoomList" >}} |
+                        url="https://tourism.opendatahub.com/swagger/index.html#/Accommodation/AccommodationRoomList"
+                        text="https://tourism.opendatahub.com/swagger/index.html#/Accommodation/AccommodationRoomList" >}} |
 | AlpineBits URL | {{< target-blank-link
                         url="https://alpinebits.opendatahub.bz.it/AlpineBits"
                         text="https://alpinebits.opendatahub.bz.it/AlpineBits" >}}                                            |

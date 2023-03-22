@@ -20,13 +20,13 @@ paragraph_3:
   description: "Do you want to integrate the interactive map directly into your website with minimal effort? 
 We have already created a web component for you!"
   img_back: "/img/use-cases/ODH-usecase-GREENMOBILITY-image-04.jpg"
-  btn_link: "https://webcomponents.opendatahub.bz.it/webcomponent/98013c75-f27c-414e-aff9-c58ed760e791?from=%2F"
+  btn_link: "https://webcomponents.opendatahub.com/webcomponent/98013c75-f27c-414e-aff9-c58ed760e791?from=%2F"
   btn_label: DISCOVER THE WEBCOMPONENT
 
 paragraph_4:
   description: "Do you want to develop a new application with this data?"
   img_back: "/img/use-cases/ODH-usecase-GREENMOBILITY-image-05.jpg"
-  btn_link: "https://swagger.opendatahub.bz.it/?url=https://mobility.api.opendatahub.bz.it/v2/apispec"
+  btn_link: "https://swagger.opendatahub.com/?url=https://mobility.api.opendatahub.com/v2/apispec"
   btn_label: ACCESS THE API DIRECTLY
 
 paragraph_5:

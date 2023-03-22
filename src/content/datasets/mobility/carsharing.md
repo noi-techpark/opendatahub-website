@@ -22,8 +22,8 @@ This dataset contains all data of the carsharing service in South Tyrol, such as
 | Output      | JSON, mime-type application/json                                                      |
 | API version | v2                                                                                    |
 | Swagger URL | {{< target-blank-link
-                        url="https://mobility.api.opendatahub.bz.it/"
-                        text="https://mobility.api.opendatahub.bz.it/" >}}                                              |
-| StationType | [CarsharingStation](https://mobility.api.opendatahub.bz.it/v2/flat/CarsharingStation) |
+                        url="https://mobility.api.opendatahub.com/"
+                        text="https://mobility.api.opendatahub.com/" >}}                                              |
+| StationType | [CarsharingStation](https://mobility.api.opendatahub.com/v2/flat/CarsharingStation) |
 | Sources     | Car Sharing Südtirol Alto Adige                                                       |
 | OpenData    | Open Data                                                                             |

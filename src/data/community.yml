@@ -39,9 +39,17 @@ providers:
       img: "img/community/driwe.png"
       link: https://www.driwe.eu/
 
+    - name: Ecogy
+      img: "img/community/ecogy.png"
+      link: https://ecogy.it/
+
     - name: Ecospazio
       img: "img/community/ecospazio.png"
       link: https://www.ecospazio.it
+
+    - name: Officina Elettrica San Virgilio di Marebbe
+      img: "img/community/oesv.png"
+      link: https://www.oesv.bz.it/
 
     - name: Eurac Research
       img: "img/community/eurac.png"

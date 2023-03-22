@@ -1,7 +1,7 @@
 ---
 Title: "Tourism API"
 
-button_link: "https://tourism.opendatahub.bz.it/swagger/index.html"
+button_link: "https://tourism.opendatahub.com/swagger/index.html"
 button_label: "Learn more"
 
 weight: 5

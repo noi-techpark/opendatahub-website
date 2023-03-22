@@ -13,7 +13,7 @@ availability_description: >-
     if you are interested in this data)
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#poi-dataset"
-example_link: "https://webcomponents.opendatahub.bz.it/webcomponent/0e5fbede-4a21-4dd3-bf85-7d2be71dfb12?from=%2F%3Ftags%3Dgastronomy%257Cactivity"
+example_link: "https://webcomponents.opendatahub.com/webcomponent/0e5fbede-4a21-4dd3-bf85-7d2be71dfb12?from=%2F%3Ftags%3Dgastronomy%257Cactivity"
 
 datatype: "Tourism"
 ---
@@ -25,7 +25,7 @@ This dataset contains data about PoIs from LTS API (LTS PoiData), such as beauty
 | Output      | JSON, mime-type application/json                                                           |
 | API version | v1                                                                                         |
 | Swagger URL | {{< target-blank-link
-                        url="https://tourism.opendatahub.bz.it/swagger/index.html#/ODHActivityPoi/get_v1_ODHActivityPoi"
-                        text="https://tourism.opendatahub.bz.it/swagger/index.html#/ODHActivityPoi/get_v1_ODHActivityPoi" >}} |
+                        url="https://tourism.opendatahub.com/swagger/index.html#/ODHActivityPoi/get_v1_ODHActivityPoi"
+                        text="https://tourism.opendatahub.com/swagger/index.html#/ODHActivityPoi/get_v1_ODHActivityPoi" >}} |
 | Sources     | LTS PoiData                                                                                |
 | OpenData    | Pois data from LTS is partially closed data                                                    |
