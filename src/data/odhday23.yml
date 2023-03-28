@@ -89,7 +89,7 @@ content:
         - content: "11.00"
         - content: " "
         - content: " "
-        - content: "Community Coffee Break (foyer NOI Seminar Area)"
+        - content: "**Community Coffee Break** (Foyer NOI Seminar Area)"
         - content: " "
         - content: " "
     - cols:
@@ -108,7 +108,7 @@ content:
         #- videoLink: "https://vimeo.com/showcase/9563553/video/715102118"
     - cols:
         - content: "12.00"
-        - content: "João Francisco Lino Daniel, Eduardo Martins Guerra"
+        - content: "João Francisco Lino Daniel & Eduardo Martins Guerra"
         - content: "Free University of Bozen-Bolzano"
         - content: "Supporting Open Data in Large Systems: principles and practices of extensibility in microservices"
         #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/MECTCQB5TKC26Jy"
@@ -131,7 +131,7 @@ content:
         - content: "12.45"
         - content: " "
         - content: " "
-        - content: "Networking lunch (foyer NOI Seminar Area)"
+        - content: "**Networking lunch** (foyer NOI Seminar Area)"
         - content: " "
         - content: " "
  
