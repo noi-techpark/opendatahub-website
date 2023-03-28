@@ -108,7 +108,7 @@ content:
         #- videoLink: "https://vimeo.com/showcase/9563553/video/715102118"
     - cols:
         - content: "12.00"
-        - content: "João Francisco Lino Daniel & Eduardo Martins Guerra"
+        - content: "João Francisco Lino Daniel, Eduardo Martins Guerra"
         - content: "Free University of Bozen-Bolzano"
         - content: "Supporting Open Data in Large Systems: principles and practices of extensibility in microservices"
         #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/MECTCQB5TKC26Jy"
