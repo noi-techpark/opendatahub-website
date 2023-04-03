@@ -59,9 +59,9 @@ content:
         #- videoLink: "https://vimeo.com/showcase/9563553/video/715098141"
     - cols:
         - content: "10.00"
-        - content: "-"
-        - content: "-"
-        - content: "TBD"
+        - content: "Ilaria De Biasi"
+        - content: "Autostrada del Brennero"
+        - content: "ITS and C-ITS projects of the Brenner Motorway"
         #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/cExYZ5DyW23Fswi"
         #- videoLink: "https://vimeo.com/showcase/9563553/video/715098854"
     - cols:
@@ -73,9 +73,9 @@ content:
         #- videoLink: "https://vimeo.com/showcase/9563553/video/715099775"
     - cols:
         - content: "10.30"
-        - content: "-"
-        - content: "-"
-        - content: "TBD"
+        - content: "Elizabeth Mc Namara"
+        - content: "Arxax"
+        - content: "The role of Open Data Hub in decarbonising Brenner Pass"
         #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/fTt3s9DJJmZazAy"
         #- videoLink: "https://vimeo.com/showcase/9563553/video/715099775"
     - cols:
@@ -101,9 +101,9 @@ content:
         #- videoLink: "https://vimeo.com/showcase/9563553/video/715101295"
     - cols:
         - content: "11.45"
-        - content: "-"
-        - content: "-"
-        - content: "TBD"
+        - content: "Matteo Roggia"
+        - content: "Animeshon"
+        - content: "Real-time Open Data Hub"
         #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/63x3XM23znkx54y"
         #- videoLink: "https://vimeo.com/showcase/9563553/video/715102118"
     - cols:
@@ -122,9 +122,9 @@ content:
         #- videoLink: "https://vimeo.com/showcase/9563553/video/715103886"
     - cols:
         - content: "12.30"
-        - content: "-"
-        - content: "-"
-        - content: "TBD"
+        - content: "Chiara Masci"
+        - content: "CatchSolve"
+        - content: "Data Quality Testing at the service of Open Data"
         #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/aW3dBB9Ska35Mp9"
         #- videoLink: "https://vimeo.com/showcase/9563553/video/715104372"
     - cols:
