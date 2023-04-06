@@ -1,0 +1,141 @@
+program:
+  title: "Open Data Hub Bootcamp 2023 - Programme"
+  subtitle: "The event will be held in English. Participation is free of charge. The programme is subject to change and will be continuously updated until the conference opens."
+
+content:
+  title: Call4Speakers
+  btn_top_link: "https://pretalx.com/open-data-hub-day-2023/cfp"
+  btn_top_label: "Call4Speakers info & Submission"
+  btn_top_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
+
+  header:
+    - title: 
+      width: 5%
+    - title: Speaker
+      width: 15%
+    - title: Company
+      width: 20%
+    - title: Title
+      width: 65%
+    - title: " "
+      width: 5%
+    - title: " "
+      width: 5%  
+  row:
+    - cols:
+        - content: "8.30"
+        - content: " "
+        - content: " "
+        - content: "Check-in starting at 8.30"
+        - content:
+        - content:
+    - cols:
+        - content: "9.00"
+        - content: "Vincent Mauroit"
+        - content: "NOI Techpark"
+        - content: Opening
+        - #slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/CgCbK2eGZexxiBA"
+        - #videoLink: "https://vimeo.com/showcase/9563553/video/715097183"
+    - cols:
+        - content: "9.15"
+        - content: "Patrick Ohnewein"
+        - content: "NOI Techpark"
+        - content: Open Data Hub - updates
+        #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/awHA7adeY7MNRpP"
+        #- videoLink: "https://vimeo.com/showcase/9563553/video/715100887"
+    - cols:
+        - content: "9.30"
+        - content: "Roberto Cavaliere"
+        - content: "NOI Techpark"
+        - content: "Open Data Hub: Mobility Data Space"
+        #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/GFMoJJat538WZkd"
+        #- videoLink: "https://vimeo.com/showcase/9563553/video/715097586"
+    - cols:
+        - content: "9.45"
+        - content: "-"
+        - content: "-"
+        - content: "TBD"
+        #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/KC4mQy4S3agGSBf"
+        #- videoLink: "https://vimeo.com/showcase/9563553/video/715098141"
+    - cols:
+        - content: "10.00"
+        - content: "Ilaria De Biasi"
+        - content: "Autostrada del Brennero"
+        - content: "ITS and C-ITS projects of the Brenner Motorway"
+        #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/cExYZ5DyW23Fswi"
+        #- videoLink: "https://vimeo.com/showcase/9563553/video/715098854"
+    - cols:
+        - content: "10.15"
+        - content: "Gianluca Antonacci"
+        - content: "CISMA"
+        - content: "From raw traffic data to air pollutant emission: an open data approach and demonstrator"
+        #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/fTt3s9DJJmZazAy"
+        #- videoLink: "https://vimeo.com/showcase/9563553/video/715099775"
+    - cols:
+        - content: "10.30"
+        - content: "Elizabeth Mc Namara"
+        - content: "Arxax"
+        - content: "The role of Open Data Hub in decarbonising Brenner Pass"
+        #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/fTt3s9DJJmZazAy"
+        #- videoLink: "https://vimeo.com/showcase/9563553/video/715099775"
+    - cols:
+        - content: "10.45"
+        - content: "Maximilian Alber"
+        - content: "SkyAlps"
+        - content: "SkyAlps - a real use case of open data for an airline"
+        #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/fTt3s9DJJmZazAy"
+        #- videoLink: "https://vimeo.com/showcase/9563553/video/715099775"
+    - cols:
+        - content: "11.00"
+        - content: " "
+        - content: " "
+        - content: "Community Coffee Break (Foyer NOI Seminar Area)"
+        - content: " "
+        - content: " "
+    - cols:
+        - content: "11.30"
+        - content: "Stefano Seppi"
+        - content: "NOI Techpark"
+        - content: "Open Data Hub: Data Browser 2.0"
+        #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/p3zgJJDAYn3Zg5s"
+        #- videoLink: "https://vimeo.com/showcase/9563553/video/715101295"
+    - cols:
+        - content: "11.45"
+        - content: "Matteo Roggia"
+        - content: "Animeshon"
+        - content: "Real-time Open Data Hub"
+        #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/63x3XM23znkx54y"
+        #- videoLink: "https://vimeo.com/showcase/9563553/video/715102118"
+    - cols:
+        - content: "12.00"
+        - content: "João Francisco Lino Daniel & Eduardo Martins Guerra"
+        - content: "Free University of Bozen-Bolzano"
+        - content: "Supporting Open Data in Large Systems: principles and practices of extensibility in microservices"
+        #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/MECTCQB5TKC26Jy"
+        #- videoLink: "https://vimeo.com/showcase/9563553/video/715103069"
+    - cols:
+        - content: "12.15"
+        - content: "Daniele Gobbetti"
+        - content: "Freelance"
+        - content: "Towards better data quality through open source data validation tools"
+        #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/N48jf4gGSCGHwAo"
+        #- videoLink: "https://vimeo.com/showcase/9563553/video/715103886"
+    - cols:
+        - content: "12.30"
+        - content: "Chiara Masci"
+        - content: "CatchSolve"
+        - content: "Data Quality Testing at the service of Open Data"
+        #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/aW3dBB9Ska35Mp9"
+        #- videoLink: "https://vimeo.com/showcase/9563553/video/715104372"
+    - cols:
+        - content: "12.45"
+        - content: " "
+        - content: " "
+        - content: "Networking lunch (Foyer NOI Seminar Area)"
+        - content: " "
+        - content: " "
+ 
+    
+  btn_down_link: "https://registration.noi.bz.it/event/speakers?id=Open_Data_Hub_Day181316674"
+  btn_down_label: "Register now"
+  btn_down_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
