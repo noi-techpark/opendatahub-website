@@ -47,5 +47,5 @@ content:
  
     
   btn_down_link: "https://pretix.eu/noi-digital/bootcamp/"
-  btn_down_label: "Register now"
+  btn_down_label: "More info & Registration"
   btn_down_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
