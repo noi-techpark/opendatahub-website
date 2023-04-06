@@ -10,13 +10,13 @@ content:
 
   header:
     - title: 
-      width: 5%
+      width: 10%
     - title: 
       width: 20%
 
   row:
     - cols:
-        - content: "13.00"
+        - content: "13.00 - 13.30"
         - content: "Registration/check-in"
     - cols:
         - content: "13.30"
