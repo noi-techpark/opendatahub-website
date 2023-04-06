@@ -24,43 +24,31 @@ content:
   row:
     - cols:
         - content: "13.00 - 13.30"
-        - content: " "
-        - content: " "
         - content: "Registration/check-in"
         - content:
         - content:
     - cols:
         - content: "13.30 - 13.45"
-        - content: " "
-        - content: " "
         - content: Challenge presentation
         - #slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/CgCbK2eGZexxiBA"
         - #videoLink: "https://vimeo.com/showcase/9563553/video/715097183"
     - cols:
         - content: "13.45 - 14.00"
-        - content: " "
-        - content: " "
         - content: Presentation round & team building
         #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/awHA7adeY7MNRpP"
         #- videoLink: "https://vimeo.com/showcase/9563553/video/715100887"
     - cols:
         - content: "14.00 - 17.30"
-        - content: " "
-        - content: " "
         - content: "Development iterations"
         #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/GFMoJJat538WZkd"
         #- videoLink: "https://vimeo.com/showcase/9563553/video/715097586"
     - cols:
         - content: "17.30 - 18.00"
-        - content: "-"
         - content: "Final presentation round"
-        - content: "TBD"
         #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/KC4mQy4S3agGSBf"
         #- videoLink: "https://vimeo.com/showcase/9563553/video/715098141"
     - cols:
         - content: "18.00 - 18.30"
-        - content: " "
-        - content: " "
         - content: "Aperitivo"
         #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/cExYZ5DyW23Fswi"
         #- videoLink: "https://vimeo.com/showcase/9563553/video/715098854"
