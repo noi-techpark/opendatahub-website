@@ -2,5 +2,5 @@
 position: "bootcamp23"
 
 title: "Open Data Hub Bootcamp 2023"
-subtitle: "It takes place on **May 19th** at NOI Techpark in Bolzano/Bozen, Italy. The first edition of the Open Data Hub Bootcamp is about......"
+subtitle: "An event that allows the community to collaborate and enhance the Open Data Hub through real-world business challenges."
 ---
