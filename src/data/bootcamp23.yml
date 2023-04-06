@@ -5,7 +5,7 @@ program:
 content:
   title: Register now
   btn_top_link: "https://pretix.eu/noi-digital/bootcamp/"
-  btn_top_label: "Register now"
+  btn_top_label: "More info & Registration"
   btn_top_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
   header:
