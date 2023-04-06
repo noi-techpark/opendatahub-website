@@ -3,9 +3,9 @@ program:
   subtitle: "The event will be held in English. Participation is free of charge."
 
 content:
-  title: Call4Speakers
-  btn_top_link: "https://pretalx.com/open-data-hub-day-2023/cfp"
-  btn_top_label: "Call4Speakers info & Submission"
+  title: Register now
+  btn_top_link: "https://pretix.eu/noi-digital/bootcamp/"
+  btn_top_label: "Register now"
   btn_top_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
   header:
@@ -136,6 +136,6 @@ content:
         - content: " "
  
     
-  btn_down_link: "https://registration.noi.bz.it/event/speakers?id=Open_Data_Hub_Day181316674"
+  btn_down_link: "https://pretix.eu/noi-digital/bootcamp/"
   btn_down_label: "Register now"
   btn_down_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
