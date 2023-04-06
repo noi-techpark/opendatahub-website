@@ -11,7 +11,7 @@ content:
   header:
     - title: 
       width: 5%
-    - title: Speaker
+    - title: 
       width: 15%
 
   row:
