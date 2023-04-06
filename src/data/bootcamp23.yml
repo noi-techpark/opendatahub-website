@@ -10,9 +10,9 @@ content:
 
   header:
     - title: 
-      width: 10%
+      width: 5%
     - title: 
-      width: 20%
+      width: 15%
 
   row:
     - cols:
