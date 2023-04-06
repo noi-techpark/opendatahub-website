@@ -13,14 +13,7 @@ content:
       width: 5%
     - title: Speaker
       width: 15%
-    - title: Company
-      width: 20%
-    - title: Title
-      width: 65%
-    - title: " "
-      width: 5%
-    - title: " "
-      width: 5%  
+
   row:
     - cols:
         - content: "13.00"
