@@ -14,4 +14,4 @@ button_link: "/bootcamp23"
 button_label: "More info & Registration"
 ---
 
-A best practice event to help you understand and make the most of the world of data, now in its third edition.
+Explore the unlimited possibilities of Open Data Hub in a cooperative, fun way, sharing knowledge, experience – and inspiration!
