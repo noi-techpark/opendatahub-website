@@ -45,16 +45,16 @@ content:
         #- videoLink: "https://vimeo.com/showcase/9563553/video/715100887"
     - cols:
         - content: "9.30"
-        - content: "Roberto Cavaliere"
-        - content: "NOI Techpark"
-        - content: "Open Data Hub: Mobility Data Space"
+        - content: "Keynote speech"
+        - content: "DSSC Data Spaces Support Centre"
+        - content: "Overview Dataspaces in Europe"
         #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/GFMoJJat538WZkd"
         #- videoLink: "https://vimeo.com/showcase/9563553/video/715097586"
     - cols:
         - content: "9.45"
-        - content: "-"
-        - content: "-"
-        - content: "TBD"
+        - content: "Roberto Cavaliere"
+        - content: "NOI Techpark"
+        - content: "Open Data Hub: Mobility Data Space"
         #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/KC4mQy4S3agGSBf"
         #- videoLink: "https://vimeo.com/showcase/9563553/video/715098141"
     - cols:
