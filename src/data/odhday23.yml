@@ -4,8 +4,8 @@ program:
 
 content:
   title: Call4Speakers
-  btn_top_link: "https://pretalx.com/open-data-hub-day-2023/cfp"
-  btn_top_label: "Call4Speakers info & Submission"
+  btn_top_link: "https://registration.noi.bz.it/event/speakers?id=Open_Data_Hub_Day181316674"
+  btn_top_label: "Register now"
   btn_top_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
   header:
@@ -45,9 +45,9 @@ content:
         #- videoLink: "https://vimeo.com/showcase/9563553/video/715100887"
     - cols:
         - content: "9.30"
-        - content: "Keynote speech"
-        - content: "DSSC Data Spaces Support Centre"
-        - content: "Overview Dataspaces in Europe"
+        - content: "Giulia Giussani"
+        - content: "International Data Spaces Association (IDSA)"
+        - content: "A look into the future of data sharing:​ the new paradigm of Data Spaces"
         #- slidesLink: "https://cloud.opendatahub.bz.it/index.php/s/GFMoJJat538WZkd"
         #- videoLink: "https://vimeo.com/showcase/9563553/video/715097586"
     - cols:
@@ -136,6 +136,6 @@ content:
         - content: " "
  
     
-  btn_down_link: "https://registration.noi.bz.it/event/speakers?id=Open_Data_Hub_Day181316674"
-  btn_down_label: "Register now"
+  btn_down_link: "https://pretalx.com/open-data-hub-day-2023/cfp"
+  btn_down_label: "More info"
   btn_down_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
