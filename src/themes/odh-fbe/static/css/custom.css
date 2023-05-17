@@ -171,6 +171,11 @@ a:hover .btn-white {
     display: inline-block !important;
 }
 
+.text-imgs-long-margin {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 
 /* MENU NAVBAR */
 
@@ -492,8 +497,14 @@ input:focus {
 }
 
 .title-video {
-    margin-left: auto;
+    margin: auto;
     max-width: 100%;
+}
+
+#title-cta-img-margin {
+    margin-left: 80px;
+    margin-top: 60px;
+    width: 50%;
 }
 
 
@@ -554,18 +565,26 @@ input:focus {
     align-items: center;
 }
 
+.imgs-icon-text-padding {
+    padding-left: 0px;
+}
+
 .imgs-icon-text .imgs {
     text-align: left;
 }
 
 .text-imgs-icon .imgs {
-    text-align: right;
+    margin-left: 120px;
 }
 
 .imgs-icon-text img,
 .text-imgs-icon img {
-    width: 65%;
+    width: 80%;
     padding-bottom: 20px;
+}
+
+.imgs-icon-text-margin {
+    margin-left: 65px;
 }
 
 .imgs-icon-text img.img-front {
