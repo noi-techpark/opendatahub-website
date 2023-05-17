@@ -11,4 +11,4 @@ button_link: "https://pretix.eu/noi-digital/sdt/3722667/"
 button_label: "More info & Registration"
 ---
 
-Open Data Hub | What technologies has been used to develop the new Architecture?
+Open Data Hub | What technologies have been used to develop the new Architecture?
