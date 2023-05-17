@@ -15,7 +15,8 @@ example_link: "https://otp.opendatahub.com/otp/routers/openmove/index/stops?clus
 datatype: "Mobility"
 ---
 
-The Open Data Hub mobility data can be accessed with the OpenTripPlanner (OTP) API, an open standard defined by the OTP community, with a well-done online documentation.  OTP is a journey planner that offers through API the possibility to ask a trip combination and get an intermodal route combination. 
+The Open Data Hub mobility data can be accessed with the OpenTripPlanner (OTP) API BETA, an open standard defined by the OTP community, with a well-done online documentation. OTP is a journey planner that offers through API the possibility to ask a trip combination and get an intermodal route combination.
+
 
 |             |                                                                                                                                                                                                                                                       |
 | :---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
