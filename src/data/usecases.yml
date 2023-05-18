@@ -1,4 +1,20 @@
 ################################# Use cases #########################
+use_cases_mentor:
+  subtitle: "MENTOR"
+  title: "**Mobility-as-a-Service: the new mobility of Merano**"
+  description: "A new concept is emerging worldwide: “MaaS - Mobility-as-a-Service”. The idea is to allow people, through a unique APP, to access on demand different mobility services that are integrated with each other and to choose from time to time the most appropriate one."
+  btn_link: "/use-cases-mentor"
+  btn_label: Read more
+  img_back: "/img/use-cases/ODH-usecase-mentor-image-01.jpg"
+
+use_cases_brennerLec:
+  subtitle: "BRENNERLEC"
+  title: "**Brenner Lower Emissions Corridor**"
+  description: "BrennerLEC aims to make transit vehicle traffic on the Brenner axis more respectful of the health of the resident population and more compatible with the characteristics of the area, in order to protect the special Alpine environment it passes through."
+  btn_link: "/use-cases-brennerlec"
+  btn_label: Read more
+  img_back: "/img/use-cases/ODH-usecase-Brennerlec-image-01.jpg"
+
 use_cases_kultivas:
   subtitle: "KULTIVAS"
   title: "**Big data technologies and apples**"
@@ -17,21 +33,8 @@ use_cases_greenmobility:
   btn_label: Read more
   img_back: "/img/use-cases/ODH-usecase-GREENMOBILITY-image-01.jpg"
 
-use_cases_mentor:
-  subtitle: "MENTOR"
-  title: "**Mobility-as-a-Service: the new mobility of Merano**"
-  description: "A new concept is emerging worldwide: “MaaS - Mobility-as-a-Service”. The idea is to allow people, through a unique APP, to access on demand different mobility services that are integrated with each other and to choose from time to time the most appropriate one."
-  btn_link: "/use-cases-mentor"
-  btn_label: Read more
-  img_back: "/img/use-cases/ODH-usecase-mentor-image-01.jpg"
 
-use_cases_brennerLec:
-  subtitle: "BRENNERLEC"
-  title: "**Brenner Lower Emissions Corridor**"
-  description: "BrennerLEC aims to make transit vehicle traffic on the Brenner axis more respectful of the health of the resident population and more compatible with the characteristics of the area, in order to protect the special Alpine environment it passes through."
-  btn_link: "/use-cases-brennerlec"
-  btn_label: Read more
-  img_back: "/img/use-cases/ODH-usecase-Brennerlec-image-01.jpg"
+
 
 contact_us:
   title: "**Share your use case!**"
