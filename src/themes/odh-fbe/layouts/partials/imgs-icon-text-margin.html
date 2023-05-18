@@ -1,11 +1,11 @@
 {{"<!-- Double Column Imgs - Text -->" | safeHTML }}
-<section class="imgs-icon-text" style="margin-top: 0px !important;">
+<section class="imgs-icon-text">
 	<div class="container">
-			<div class="col-12 col-lg-6 imgs" >
+			<div class="imgs-icon-text-margin col-12 col-lg-6 imgs">
 				<img src="{{ .img_front }}" class="img-front" />
 				<img src="{{ .img_back }}" class="img-back" />
 			</div>
-			<div class="col-12 col-lg-6">
+			<div class="col-12 col-lg-6 imgs-icon-text-padding">
 				<p class="upper">{{ .subtitle | markdownify }}</p>
                 <h3>{{ .title | markdownify }}</h3>
                 <p>{{ .description | markdownify }}</p>
