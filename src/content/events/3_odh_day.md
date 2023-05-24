@@ -1,5 +1,6 @@
 ---
 title: "Open Data Hub Day - 2021"
+url: "test"
 img: "/img/events/odhday.jpg"
 img_alt: "event"
 
