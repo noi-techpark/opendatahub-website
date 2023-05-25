@@ -1,6 +1,6 @@
 ---
 position: "bootcamp23"
-url: "/boocamp23"
+url: "/bootcamp23"
 aliases: "/bootcamp"
 
 title: "Open Data Hub Bootcamp 2023"
