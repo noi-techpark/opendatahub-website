@@ -1,6 +1,6 @@
 ---
 position: "Odhday23"
-url: "/odhday23"
+url: "/odhday23/"
 aliases: "/odhday"
 
 title: "Open Data Hub Day 2023"
