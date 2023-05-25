@@ -139,3 +139,33 @@ content:
   btn_down_link: "https://pretalx.com/open-data-hub-day-2023/cfp"
   btn_down_label: "More info"
   btn_down_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
+
+  headerPR:
+    - title: Open Data Hub Press release 2023
+      width: 75%
+    - title: Language
+      width: 15%
+    - title: Link
+      width: 10% 
+  rowPR:
+    - colsPR:
+        - content: "Dalla mobilità sostenibile al turismo Open Data Hub connette l’Europa grazie ai dati"
+        - content: "Italian"
+        - pressReleaseLink: "https://cloud.opendatahub.bz.it/index.php/s/HNFT7ikkRRaAAEc"
+  rowPR:
+    - colsPR:
+        - content: "Scambio di dati tra Alto Adige, Tirolo e Baviera"
+        - content: "Italian"
+        - pressReleaseLink: "https://cloud.opendatahub.com/index.php/s/H4Q5rz6GJBgKtgx"
+    - colsPR:
+        - content: "Datenaustausch zwischen Südtirol, Tirol und Bayern"
+        - content: "German"
+        - pressReleaseLink: "https://cloud.opendatahub.com/index.php/s/oeMdAWx7ZHk7Hxx"
+    - colsPR:
+        - content: "Data sharing between South Tyrol, Tyrol and Bavaria"
+        - content: "English"
+        - pressReleaseLink: "https://cloud.opendatahub.com/index.php/s/Z2FaWqzMmSebA9z"
+    - colsPR:
+        - content: "Fotogallery of the event"
+        - content: ""
+        - pressReleaseLink: "https://www.flickr.com/photos/free-software-center/albums/72177720308554220"

@@ -6,6 +6,139 @@ past:
   title: Past events
   subtitle: Some of the past events realated to **Open Data Hub**. Click the events to obtain **slides, video and all the materials** produced. 
 
+################################# Open Data Hub 2023 interviews #########################
+
+open_data_hub_day_2023_interviews:
+  title: "**Open Data Hub Day 2023 Interviews**"
+
+video_library_39:
+  subtitle: "International Data Spaces Association (IDSA)"
+  title: "**International Data Spaces Association (IDSA) interview**"
+  description: "Giulia Giussani"
+  btn_link: "https://www.slideshare.net/SFScon/open-data-hub-giulia-giussani-a-look-into-the-future-of-data-sharing"
+  btn_label: Open Data Hub Day 2023 - Slides
+  video: "https://player.vimeo.com/video/830169508"
+video_library_38:
+  subtitle: "SkyAlps"
+  title: "**SkyAlps Interview**"
+  description: "Maximilian Alber"
+  btn_link: "https://www.slideshare.net/SFScon/open-data-hub-maximilian-alber-skyalps-a-real-use-case-of-open-data-for-an-airlinepdf"
+  btn_label: Open Data Hub Day 2023 - Slides
+  video: "https://player.vimeo.com/video/830169687"
+video_library_37:
+  subtitle: "Arxax"
+  title: "**Arxax Interview**"
+  description: "Elizabeth Mc Namara"
+  btn_link: "https://www.slideshare.net/SFScon/open-data-hub-elizabeth-mc-namara-arxax-the-role-of-open-data-hub-in-decarbonising-brenner-pass"
+  btn_label: Open Data Hub Day 2023 - Slides
+  video: "https://player.vimeo.com/video/830169397"
+video_library_36:
+  subtitle: "NOI Techpark"
+  title: "**NOI Techpark Interview**"
+  description: "Roberto Cavaliere"
+  btn_link: "https://www.slideshare.net/SFScon/open-data-hub-roberto-cavaliere-open-data-hub-mobility-data-spacepdf"
+  btn_label: Open Data Hub Day 2023 - Slides
+  video: "https://player.vimeo.com/video/830169814"
+
+################################# Open Data Hub 2023 #########################
+
+open_data_hub_day_2023:
+  title: "**Open Data Hub Day 2023**"
+
+video_library_35:
+  subtitle: "NOI Techpark"
+  title: "**Data-driven ecosystems of mobility services & adjacent industries**"
+  description: "Vincent Mauroit"
+  btn_link: "https://www.slideshare.net/SFScon/open-data-hub-vincent-mauroit-datadriven-ecosystems-of-mobility-services-adjacent-industries"
+  btn_label: Slides
+  video: "https://player.vimeo.com/video/829080169"
+video_library_34:
+  subtitle: "NOI Techpark"
+  title: "**Open Data Hub update**"
+  description: "Patrick Ohnewein"
+  btn_link: "https://www.slideshare.net/SFScon/open-data-hub-patrick-ohnewein-open-data-hub-updatepdf"
+  btn_label: Slides
+  video: "https://player.vimeo.com/video/829080830"
+video_library_33:
+  subtitle: "International Data Spaces Association (IDSA)"
+  title: "**A look into the future of data sharing:​ the new paradigm of Data Spaces**"
+  description: "Giulia Giussani"
+  btn_link: "https://www.slideshare.net/SFScon/open-data-hub-giulia-giussani-a-look-into-the-future-of-data-sharing"
+  btn_label: Slides
+  video: "https://player.vimeo.com/video/829081274"
+video_library_32:
+  subtitle: "NOI Techpark"
+  title: "**Open Data Hub: Mobility Data Space**"
+  description: "Roberto cavaliere"
+  btn_link: "https://www.slideshare.net/SFScon/open-data-hub-roberto-cavaliere-open-data-hub-mobility-data-spacepdf"
+  btn_label: Slides
+  video: "https://player.vimeo.com/video/829081937"
+video_library_31:
+  subtitle: "Autostrada del Brennero"
+  title: "**ITS and C-ITS projects of the Brenner Motorway**"
+  description: "Ilaria De Biasi"
+  btn_link: "https://www.slideshare.net/SFScon/open-data-hub-ilaria-de-biasi-autostrada-del-brennero-its-and-cits-projects-of-the-brenner-motorwaypdf"
+  btn_label: Slides
+  video: "https://player.vimeo.com/video/829082553"
+video_library_30:
+  subtitle: "CISMA"
+  title: "**From raw traffic data to air pollutant emission: an open data approach and demonstrator**"
+  description: "Gianluca Antonacci"
+  btn_link: "https://www.slideshare.net/SFScon/open-data-hub-gianluca-antonacci-cisma-from-raw-traffic-data-to-air-pollutant-emission-an-open-data-approach-and-demonstrator"
+  btn_label: Slides
+  video: "https://player.vimeo.com/video/829083213"
+video_library_29:
+  subtitle: "Arxax"
+  title: "**The role of Open Data Hub in decarbonising Brenner Pass**"
+  description: "Elizabeth Mc Namara"
+  btn_link: "https://www.slideshare.net/SFScon/open-data-hub-elizabeth-mc-namara-arxax-the-role-of-open-data-hub-in-decarbonising-brenner-pass"
+  btn_label: Slides
+  video: "https://player.vimeo.com/video/829083888"
+video_library_28:
+  subtitle: "SkyAlps"
+  title: "**SkyAlps - a real use case of open data for an airline**"
+  description: "Maximilian Alber"
+  btn_link: "https://www.slideshare.net/SFScon/open-data-hub-maximilian-alber-skyalps-a-real-use-case-of-open-data-for-an-airlinepdf"
+  btn_label: Slides
+  video: "https://player.vimeo.com/video/829084460"
+video_library_27:
+  subtitle: "NOI Techpark"
+  title: "**Open Data Hub: Data Browser 2.0**"
+  description: "Stefano Seppi"
+  btn_link: "https://www.slideshare.net/SFScon/open-data-hub-stefano-seppi-open-data-hub-data-browser-2pdf"
+  btn_label: Slides
+  video: "https://player.vimeo.com/video/829085174"
+video_library_26:
+  subtitle: "Animeshon"
+  title: "**Real-time Open Data Hub**"
+  description: "Matteo Roggia"
+  btn_link: "https://www.slideshare.net/SFScon/open-data-hub-matteo-roggia-animeshon-realtime-open-data-hubpdf"
+  btn_label: Slides
+  video: "https://player.vimeo.com/video/829085640"
+video_library_25:
+  subtitle: "Free University of Bozen-Bolzano"
+  title: "**Supporting Open Data in Large Systems: principles and practices of extensibility in microservices**"
+  description: "João Francisco Lino Daniel & Eduardo Martins Guerra"
+  btn_link: "https://www.slideshare.net/SFScon/open-data-hub-joo-francisco-lino-daniel-eduardo-martins-guerra-backup-se-non-funziona-html-unibz-supporting-open-data-in-large-systems"
+  btn_label: Slides
+  video: "https://player.vimeo.com/video/829086610"
+video_library_24:
+  subtitle: "Freelance"
+  title: "**Towards better data quality through open source data validation tools**"
+  description: "Daniele Gobbetti"
+  btn_link: "https://www.slideshare.net/SFScon/open-data-hub-daniele-gobbetti-towards-better-data-quality-through-open-source-data-validation-tools"
+  btn_label: Slides
+  video: "https://player.vimeo.com/video/829086047"
+video_library_23:
+  subtitle: "CatchSolve"
+  title: "**Data Quality Testing at the service of Open Data**"
+  description: "Chiara Masci & Davide Montesin"
+  btn_link: "https://www.slideshare.net/SFScon/open-data-hub-chiara-masci-davide-montesin-data-quality-testing-at-the-service-of-open-data"
+  btn_label: Slides
+  video: "https://player.vimeo.com/video/829087175"
+
+################################# Open Data Hub 2022 #########################
+
 open_data_hub_day_2022:
   title: "**Open Data Hub Day 2022**"
 
