@@ -11,28 +11,28 @@ past:
 open_data_hub_day_2023_interviews:
   title: "**Open Data Hub Day 2023 Interviews**"
 
-video_library_39:
+video_library_40:
   subtitle: "International Data Spaces Association (IDSA)"
   title: "**International Data Spaces Association (IDSA) interview**"
   description: "Giulia Giussani"
   btn_link: "https://www.slideshare.net/SFScon/open-data-hub-giulia-giussani-a-look-into-the-future-of-data-sharing"
   btn_label: Open Data Hub Day 2023 - Slides
   video: "https://player.vimeo.com/video/830169508"
-video_library_38:
+video_library_39:
   subtitle: "SkyAlps"
   title: "**SkyAlps Interview**"
   description: "Maximilian Alber"
   btn_link: "https://www.slideshare.net/SFScon/open-data-hub-maximilian-alber-skyalps-a-real-use-case-of-open-data-for-an-airlinepdf"
   btn_label: Open Data Hub Day 2023 - Slides
   video: "https://player.vimeo.com/video/830169687"
-video_library_37:
+video_library_38:
   subtitle: "Arxax"
   title: "**Arxax Interview**"
   description: "Elizabeth Mc Namara"
   btn_link: "https://www.slideshare.net/SFScon/open-data-hub-elizabeth-mc-namara-arxax-the-role-of-open-data-hub-in-decarbonising-brenner-pass"
   btn_label: Open Data Hub Day 2023 - Slides
   video: "https://player.vimeo.com/video/830169397"
-video_library_36:
+video_library_37:
   subtitle: "NOI Techpark"
   title: "**NOI Techpark Interview**"
   description: "Roberto Cavaliere"
@@ -45,6 +45,13 @@ video_library_36:
 open_data_hub_day_2023:
   title: "**Open Data Hub Day 2023**"
 
+video_library_36:
+  subtitle: ""
+  title: "**Open Data Hub Day 2023 - Trailer**"
+  description: ""
+  btn_link: "/odhday23"
+  btn_label: Go to event page
+  video: "https://player.vimeo.com/video/830468551"
 video_library_35:
   subtitle: "NOI Techpark"
   title: "**Data-driven ecosystems of mobility services & adjacent industries**"
