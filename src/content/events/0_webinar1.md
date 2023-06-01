@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+
+SPDX-License-Identifier: CC0-1.0
+-->
+
 ---
 title: "Webinar: Why companies like Alperia and ACS use Open Data Hub"
 img: "/img/events/webinar1.jpg"

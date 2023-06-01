@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+
+SPDX-License-Identifier: CC0-1.0
+-->
+
 ---
 title: "Cybersecurity roundtable"
 img: "/img/events/20220520-OpenDataHubDay-CybersecurityRoundtable.png"

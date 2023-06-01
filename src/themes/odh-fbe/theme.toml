@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+#
+# SPDX-License-Identifier: CC0-1.0
+
 name = "ODH Theme by FlashBeing"
 license = "MIT"
 description = "Theme created by FlashBeing for Open Data Hub Südtirol - Alto Adige"

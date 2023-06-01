@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+
+SPDX-License-Identifier: CC0-1.0
+-->
+
 ---
 title: "NOI Hackathon - Open Data Hub Edition"
 img: "/img/events/2021-hackathon-odh.jpeg"

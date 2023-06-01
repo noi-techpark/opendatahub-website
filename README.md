@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+
+SPDX-License-Identifier: CC0-1.0
+-->
+
 # Open Data Hub Website
 
 Repository for the [Open Data Hub](https://opendatahub.com/) website created with [Hugo](https://gohugo.io/).

@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+
+SPDX-License-Identifier: CC0-1.0
+-->
+
 ---
 title: "Webinar: How to create web components with Open Data Hub"
 img: "/img/events/webinar3.jpg"

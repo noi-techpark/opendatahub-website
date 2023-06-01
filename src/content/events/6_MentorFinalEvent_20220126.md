@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+
+SPDX-License-Identifier: CC0-1.0
+-->
+
 ---
 title: "Mentor Final Event"
 img: "/img/events/20220126-MentorFinalEvent.jpeg"
