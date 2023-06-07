@@ -1,3 +1,9 @@
+/*
+ * SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+ *
+ * SPDX-License-Identifier: AGPL-3.0-or-later
+ */
+
 :root {
     --primary: #000;
     --primary-hover: rgb(41, 41, 41);
@@ -16,7 +22,6 @@ p {
     font-size: 16px;
 }
 
-
 h1.primary,
 h2.primary,
 h3.primary,
@@ -24,7 +29,6 @@ h4.primary,
 h5.primary,
 h6.primary {
     color: var(--primary);
-   
 }
 
 h1,
@@ -37,7 +41,6 @@ h1 {
     font-size: 2.25rem;
     font-weight: bold;
 }
-
 
 h2 {
     font-size: 2rem;
@@ -76,7 +79,8 @@ a:hover {
 }
 
 section {
-    padding: 5rem 0;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
 }
 
 .bg-primary {
@@ -173,6 +177,11 @@ a:hover .btn-white {
     display: inline-block !important;
 }
 
+.text-imgs-long-margin {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 
 /* MENU NAVBAR */
 
@@ -262,7 +271,6 @@ a:hover .btn-white {
 }
 
 .fh5co-menu-1.float-right a {
-    padding: 35px 15px;
     margin: 0;
     border-top: 2px solid transparent;
 }
@@ -340,6 +348,7 @@ select:focus,
 input:focus {
     border-color: #555555;
 }
+
 
 /* GENERIC BOXES */
 
@@ -469,6 +478,7 @@ input:focus {
 
 .title-cta {
     padding-bottom: 0px;
+    margin-top: 4rem;
 }
 
 .title-cta h1 {
@@ -493,8 +503,23 @@ input:focus {
 }
 
 .title-video {
-    margin-left: auto;
+    margin: auto;
     max-width: 100%;
+}
+
+#title-cta-img-margin {
+    margin-left: 80px;
+    margin-top: 60px;
+    width: 50%;
+    padding-left: 0px !important;
+}
+
+@media screen and (min-width: 320px) and (max-width: 812px) {
+    #title-cta-img-margin {
+        margin-left: 0px !important;
+        margin-top: 0px !important;
+        width: 100% !important;
+    }
 }
 
 
@@ -555,17 +580,32 @@ input:focus {
     align-items: center;
 }
 
+.imgs-icon-text-padding {
+    padding-left: 20px;
+}
+
 .imgs-icon-text .imgs {
     text-align: left;
 }
 
 .text-imgs-icon .imgs {
-    text-align: right;
+    margin-left: 120px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 812px) {
+    .text-imgs-icon .imgs {
+        margin-left: 0px !important;
+    }
 }
 
 .imgs-icon-text img,
 .text-imgs-icon img {
-    width: 65%;
+    width: 80%;
+    padding-bottom: 20px;
+}
+
+.imgs-icon-text-margin {
+    margin-left: 65px;
 }
 
 .imgs-icon-text img.img-front {
@@ -641,7 +681,7 @@ section.dataset-title {
 }
 
 .category-selector {
-   margin-top: 1.8rem;
+    margin-top: 1.8rem;
 }
 
 .availability-selector {
@@ -712,6 +752,7 @@ table td:first-child {
     padding: 8px;
     text-align: center;
 }
+
 
 /* EVENTS */
 
@@ -840,7 +881,6 @@ footer .social-logos-footer ul {
 }
 
 footer .row img {
-
     max-width: 200px;
 }
 
@@ -903,7 +943,7 @@ footer .copyright {
 
 #contact-form {
     position: relative;
-    top: -60px;
+    top: -20px;
 }
 
 #contact-form .col-lg-5 {
@@ -1063,18 +1103,115 @@ footer ul.social li img {
 }
 
 .slides-container {
-    display: flex;
     min-height: 100%;
     max-width: 100%;
     overflow: hidden;
     background-color: #fff;
+    display: flex;
 }
 
-.slides-container .slide {
+.slide.container {
     min-width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: max-content max-content max-content;
+}
+
+.slide.container>div {
+    min-width: 100%;
+}
+
+.slide.container::before,
+.slide.container::after {
+    content: none;
 }
 
 .shift-left-once {
     transition: all 1.5s cubic-bezier(.53, 0, .41, 1);
     transform: translateX(-100%);
+}
+
+
+/* Quote */
+
+.testimonial-quote {
+    font-size: 16px;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.testimonial-quote blockquote {
+    /* Negate theme styles */
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background: none;
+    color: gray;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 1.5em;
+    font-style: italic;
+    line-height: 1.4 !important;
+    margin: 0;
+    position: relative;
+    text-shadow: 0 1px white;
+    z-index: 600;
+}
+
+.testimonial-quote blockquote * {
+    box-sizing: border-box;
+}
+
+.testimonial-quote blockquote p {
+    line-height: 1.4 !important;
+    font-size: 21px;
+}
+
+.testimonial-quote blockquote p:first-child:before {
+    content: '\201C';
+    color: gray;
+    font-size: 7.5em;
+    font-weight: 700;
+    opacity: .3;
+    position: absolute;
+    top: -.4em;
+    left: -.2em;
+    text-shadow: none;
+    z-index: -300;
+}
+
+.testimonial-quote img {
+    border: 3px solid #9CC1D3;
+    border-radius: 50%;
+    display: block;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: -.2em;
+    left: 0;
+}
+
+.testimonial-quote cite {
+    color: gray;
+    display: block;
+    font-size: .8em;
+}
+
+.testimonial-quote cite span {
+    color: #5e5e5e;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 0 1px white;
+}
+
+.testimonial-quote {
+    position: relative;
+}
+
+#page-not-found {
+    margin-top: 2vh;
+    height: 56vh;
 }
