@@ -1,8 +1,4 @@
-<!--
-SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
 
-SPDX-License-Identifier: CC0-1.0
--->
 
 ---
 title: "Data Access: understand now how to build on open data."
