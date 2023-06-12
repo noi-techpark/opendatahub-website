@@ -3,7 +3,7 @@ Upstream-Name: opendatahub-website
 Upstream-Contact: NOI Techpark <digital@noi.bz.it>
 Source: https://github.com/noi-techpark/opendatahub-website
 
-Files: .github/* docker/* .gitignore .mailmap CONTRIBUTORS.rst src/static/icon/* src/static/img/* src/themes/odh-fbe/LICENSE.md src/themes/odh-fbe/static/images src/themes/odh-fbe/static/fonts src/themes/odh-fbe/static/favicon.ico src/themes/odh-fbe/images/* .vscode/* .DS_Store src/content/*
+Files: .github/* docker/* .gitignore .pre-commit-config.yaml .mailmap CONTRIBUTORS.rst src/static/icon/* src/static/img/* src/themes/odh-fbe/LICENSE.md src/themes/odh-fbe/static/images src/themes/odh-fbe/static/fonts src/themes/odh-fbe/static/favicon.ico src/themes/odh-fbe/images/* .vscode/* .DS_Store src/content/*
 Copyright: (c) NOI Techpark <digital@noi.bz.it>
 License: CC0-1.0
 
