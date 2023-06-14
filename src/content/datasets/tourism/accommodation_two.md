@@ -31,7 +31,7 @@ On the Accommodations Endpoint it is also possible to get Rooms.
                         url="https://tourism.opendatahub.com/swagger/index.html#/Accommodation/AccommodationRoomList"
                         text="https://tourism.opendatahub.com/swagger/index.html#/Accommodation/AccommodationRoomList" >}} |
 | AlpineBits URL | {{< target-blank-link
-                        url="https://alpinebits.opendatahub.bz.it/AlpineBits"
-                        text="https://alpinebits.opendatahub.bz.it/AlpineBits" >}}                                            |
+                        url="https://alpinebits.opendatahub.com/AlpineBits"
+                        text="https://alpinebits.opendatahub.com/AlpineBits" >}}                                            |
 | Sources        | Data provided by LTS / Availability Requests provided by HGV/LTS                          |
 | OpenData       | Rooms data is closed data                                   |

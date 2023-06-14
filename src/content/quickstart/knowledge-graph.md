@@ -3,7 +3,7 @@
 ---
 Title: "Knowledge Graph"
 
-button_link: "https://kg.opendatahub.bz.it/"
+button_link: "https://kg.opendatahub.com/"
 button_label: "Learn more"
 
 weight: 7
