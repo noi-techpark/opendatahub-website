@@ -9,18 +9,18 @@
   <script defer src="/js/slideshow.js"></script>
   <div class="hidden-storage">
     {{ range .dataCommunity.providers.item }}
-    <div class="single-provider">
-      <div class="name">{{ .name }}</div>
-      <div class="img">{{ .img }}</div>
-      <div class="link">{{ .link }}</div>
-    </div>
+      <div class="single-provider">
+        <div class="name">{{ .name }}</div>
+        <div class="img">{{ .img }}</div>
+        <div class="link">{{ .link }}</div>
+      </div>
     {{ end }}
     {{ range .dataCommunity.consumers.item }}
-    <div class="single-provider">
-      <div class="name">{{ .name }}</div>
-      <div class="img">{{ .img }}</div>
-      <div class="link">{{ .link }}</div>
-    </div>
+      <div class="single-provider">
+        <div class="name">{{ .name }}</div>
+        <div class="img">{{ .img }}</div>
+        <div class="link">{{ .link }}</div>
+      </div>
     {{ end }}
   </div>
 
