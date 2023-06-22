@@ -70,6 +70,7 @@ taxonomies:
 
 menu:
   main:
+    # --- Services ---
     - identifier: services
       URL: /services
       name: Services
@@ -88,38 +89,42 @@ menu:
     - parent: services
       name: Data visualization
       URL: /data-visualization
-      weight: 5
+      weight: 3
 
     # - parent: services
     #   name: Use Cases
     #   URL: /services/#sm-tag-data-visualization
     #   weight: 4
 
+    # --- Datasets ---
+    - identifier: datasets
+      URL: /datasets
+      name: Datasets
+      weight: 2
+
+    # --- Use Cases ---
     - identifier: use-cases
       name: Use Cases
       URL: /use-cases
       weight: 3
- 
+
+    # --- Web Components ---
     - identifier: web-components
       name: Web Components
       URL:  "https://webcomponents.opendatahub.com/"
-      weight: 3
+      weight: 4
 
-    - identifier: datasets
-      URL: /datasets
-      name: Datasets
-      weight: 3
-   
+    # --- Quickstart ---
     - identifier: quickstart
       URL: /quickstart
       name: Quickstart
-      weight: 4
+      weight: 5
 
-    
+    # --- Community ---
     - identifier: community
       URL: /community
       name: Community
-      weight: 5
+      weight: 6
 
     - parent: community
       name: Data Providers
@@ -131,10 +136,11 @@ menu:
       URL: /community/#sm-tag-data-consumers
       weight: 2
 
+    # --- Events ---
     - identifier: events
       URL: /events
       name: Events
-      weight: 6
+      weight: 7
 
     - parent: events
       name: Upcoming events
@@ -149,7 +155,7 @@ menu:
     - parent: events
       name: Video Library
       URL: /video-library
-      weight: 7
+      weight: 3
 
   footer1:
     - URL: /data-sharing/
