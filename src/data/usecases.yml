@@ -37,8 +37,13 @@ use_cases_greenmobility:
   btn_label: Read more
   img_back: "/img/use-cases/ODH-usecase-GREENMOBILITY-image-01.jpg"
 
-
-
+use_cases_knowledge_graph:
+  subtitle: "KNOWLEDGE GRAPH"
+  title: "**AAAAAAAAAAAAAA**"
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius porta commodo. Nulla vitae diam dapibus, ultricies eros eget, sodales odio. Morbi fringilla volutpat lorem. Praesent auctor, metus quis gravida faucibus, metus orci maximus eros, interdum rutrum dolor urna et urna. Sed ullamcorper justo non magna faucibus sollicitudin. Pellentesque ligula libero, hendrerit sed libero sit amet, sollicitudin pharetra nisi. Vivamus et lectus cursus, lacinia mi id, fringilla lacus. Integer non velit fringilla, aliquam augue a, dictum nisi. Cras rutrum enim libero, a blandit mi vehicula nec. Nam scelerisque, lacus vitae dictum pretium, orci mauris vulputate est, eu gravida lacus enim eu sem. Quisque vel magna non sem venenatis viverra in ut felis. Nam vehicula scelerisque egestas. Suspendisse suscipit tempus sagittis. Nullam nec sem efficitur, interdum augue ut, tempor erat. Mauris luctus elit nec urna pellentesque porttitor. "
+  btn_link: "/use-cases-knowledge-graph"
+  btn_label: Read more
+  img_back: "/img/use-cases/ODH-usecase-mentor-image-01.jpg"
 
 contact_us:
   title: "**Share your use case!**"
