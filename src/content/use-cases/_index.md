@@ -1,7 +1,7 @@
 
 
 ---
-position: "use-cases"
+position: "Use Cases"
 
 title: "Use Cases "
 subtitle: "The use cases show examples of how innovative digital solutions were developed with
