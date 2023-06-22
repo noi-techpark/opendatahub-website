@@ -7,9 +7,15 @@
 {{ define "main" }}
 
 {{ partial "nav.html" . }}
-
-
 {{ partial "title.html" .Params }}
+
+{{/*  Example of new rendering of Use Cases to allow filtering  */}}
+{{ range .Pages }}
+  <section {{ if .Params.dark }}class="bg-darker"{{ end }} id="use-cases">
+    {{ partial .Params.partial .Params }}
+  </section>
+{{ end }}
+{{/*  End of example  */}}
 
 <a id="sm-tag-use-cases"></a>
 <section class="bg-darker" id="use-cases">
