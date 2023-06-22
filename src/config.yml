@@ -91,11 +91,6 @@ menu:
       URL: /data-visualization
       weight: 3
 
-    # - parent: services
-    #   name: Use Cases
-    #   URL: /services/#sm-tag-data-visualization
-    #   weight: 4
-
     # --- Datasets ---
     - identifier: datasets
       URL: /datasets
@@ -168,10 +163,6 @@ menu:
       name: Data Visualization
 
   footer2:
-    # - URL: 'https://docs.opendatahub.com'
-    #   name: Documentation
-    #   weight: 1
-
     - URL: "https://databrowser.opendatahub.com/"
       name: Data browser
       weight: 2
