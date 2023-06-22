@@ -45,7 +45,11 @@ params:
       - URL: /js/main.js
       - URL: /js/table-comparison.js
       - URL: https://scripts.opendatahub.testingmachine.eu/cookieconsent/cookieconsent.js
-      - URL: https://scripts.opendatahub.testingmachine.eu/cookieconsent/cookieconsent-init.js
+      # The default cookieconsent-init script is disabled here as we need to specify cusom cookies e.g. for vimeo and yt,
+      # instead we call the custom init script
+      # - URL: https://scripts.opendatahub.testingmachine.eu/cookieconsent/cookieconsent-init.js
+      - URL: /js/cookieconsent-init.js
+
 
   footer:
     logo: /img/NOI_OPENDATAHUB_NEW_WH-02.png
