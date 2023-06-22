@@ -6,32 +6,32 @@
 
 {{ define "main" }}
 	
-	{{ partial "nav.html" . }}
-	
-	{{ partial "title-cta.html" site.Data.home.mission }}
-	
-	<!-- {{ partial "generic-offset-images.html" site.Data.home.offset_images }} -->
+{{ partial "nav.html" . }}
 
-	<a id="sm-tag-services"></a>
-	{{ partial "generic-boxes.html" site.Data.home.services }}
+{{ partial "title-cta.html" site.Data.home.mission }}
 
-	<!-- <div class="bg-darker">
-		<a id="sm-tag-datasets"></a>
-		{{ partial "col-text-imgs.html" site.Data.home.use_case_data_access }}
-	</div>
+<!-- {{ partial "generic-offset-images.html" site.Data.home.offset_images }} -->
 
-	{{ partial "col-imgs-text.html" site.Data.home.use_case_data_sharing }} -->
-	{{ partial "col-imgs-text.html" site.Data.home.use_case }}
+<a id="sm-tag-services"></a>
+{{ partial "generic-boxes.html" site.Data.home.services }}
+
+<!-- <div class="bg-darker">
+	<a id="sm-tag-datasets"></a>
+	{{ partial "col-text-imgs.html" site.Data.home.use_case_data_access }}
+</div>
+
+{{ partial "col-imgs-text.html" site.Data.home.use_case_data_sharing }} -->
+{{ partial "col-imgs-text.html" site.Data.home.use_case }}
 
 
-	<!-- <div class="bg-darker">
-	{{ partial "col-text-imgs.html" site.Data.home.use_case_data_visualization }}
-	</div> -->
-	<div class="bg-darker">
-		{{ partial "col-text-imgs.html" site.Data.home.dataset_example }}
-	</div>
+<!-- <div class="bg-darker">
+{{ partial "col-text-imgs.html" site.Data.home.use_case_data_visualization }}
+</div> -->
+<div class="bg-darker">
+	{{ partial "col-text-imgs.html" site.Data.home.dataset_example }}
+</div>
 
-	<a id="sm-tag-community"></a>
-	{{ partial "slideshow.html" ( dict "dataCommunity" site.Data.community "dataHome" site.Data.home ) }}
+<a id="sm-tag-community"></a>
+{{ partial "slideshow.html" ( dict "dataCommunity" site.Data.community "dataHome" site.Data.home ) }}
 
 {{ end }}

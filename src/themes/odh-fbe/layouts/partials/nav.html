@@ -55,7 +55,13 @@
 
                 <div class="fh5co-menu-1 float-right">
                     <div class="nav-links">
-                        <div {{ if or (eq $currentPage.Params.Position "contact") (eq $currentPage.Params.Position "about-us") }} class="expanded current nav-link" {{ else }} class="not-current nav-link" {{ end }}>
+                        <div
+                            {{ if or (eq $currentPage.Params.Position "contact") (eq $currentPage.Params.Position "about-us") }}
+                                class="expanded current nav-link"
+                            {{ else }}
+                                class="not-current nav-link"
+                            {{ end }}
+                        >
                             <a class="nav-link-name none-float" href="/about-us">
                             <span class="fa fa-chevron-right" aria-hidden="true"></span>
                             <span>About us</span></a>
@@ -66,7 +72,14 @@
                         </div>
                     </div>
                     <div class="vertical-separator"></div>
-                    <a href={{ .Site.Params.web_NOI | absURL }} target="_blank" class="logo-home" style="margin-left: 15px;"><img src={{ .Site.Params.logo_NOI | absURL }} height="40" alt=""></a>
+                    <a
+                        href={{ .Site.Params.web_NOI | absURL }}
+                        target="_blank"
+                        class="logo-home"
+                        style="margin-left: 15px;"
+                    >
+                        <img src={{ .Site.Params.logo_NOI | absURL }} height="40" alt="">
+                    </a>
 
                 </div>
 

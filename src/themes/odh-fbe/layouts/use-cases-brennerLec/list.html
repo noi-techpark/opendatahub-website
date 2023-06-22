@@ -4,7 +4,10 @@
 	SPDX-License-Identifier: AGPL-3.0-or-later
 */}}
 
-{{ define "main" }} {{ partial "nav.html" . }} {{ partial "title-cta.html" site.Data.brennerLec.start }}
+{{ define "main" }}
+
+{{ partial "nav.html" . }}
+{{ partial "title-cta.html" site.Data.brennerLec.start }}
 
 <section id="">
     {{ partial "imgs-text.html" site.Data.brennerLec.paragraph_1 }}

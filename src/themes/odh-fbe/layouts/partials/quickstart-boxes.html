@@ -9,15 +9,15 @@
     <div class="quickstart-boxes container">
 
         {{ range .Pages }}
-        <a target="_blank" href="{{ .Params.button_link }}" class="col-lg-4 col-md-6 col-12">
-            <div class="qs-box">
-                <h6 class="title">{{ .Title }}</h6>
+            <a target="_blank" href="{{ .Params.button_link }}" class="col-lg-4 col-md-6 col-12">
+                <div class="qs-box">
+                    <h6 class="title">{{ .Title }}</h6>
 
-                <div class="content">{{ .Content }}</div>
+                    <div class="content">{{ .Content }}</div>
 
-                <div class="btn btn-primary">{{ .Params.button_label }}</div>
-            </div>
-        </a>
+                    <div class="btn btn-primary">{{ .Params.button_label }}</div>
+                </div>
+            </a>
         {{ end }}
 
     </div>
