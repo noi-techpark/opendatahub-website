@@ -4,140 +4,46 @@
 	SPDX-License-Identifier: AGPL-3.0-or-later
 */}}
 
-{{ define "main" }} {{ partial "nav.html" . }} {{ partial "title.html" .Params }} {{ partial "text-imgs.html" site.Data.events.open_data_hub_day_2023_interviews }}
+{{ define "main" }} 
+{{ partial "nav.html" . }} 
+{{ partial "title.html" .Params }} 
 
-<div class="bg-darker">
-    {{ partial "video-text.html" site.Data.events.video_library_40 }}
-</div>
-<div class="bg-darker">
-    {{ partial "video-text.html" site.Data.events.video_library_39 }}
-</div>
-<div class="bg-darker">
-    {{ partial "video-text.html" site.Data.events.video_library_38 }}
-</div>
-<div class="bg-darker">
-    {{ partial "video-text.html" site.Data.events.video_library_37 }}
-</div>
+{{ partial "text-imgs.html" site.Data.events.open_data_hub_day_2023_interviews }}
+
+{{range site.Data.events.video_library.interviews}}
+    <div class="bg-darker">
+        {{ partial "video-text.html" . }}
+    </div>
+{{end}}
 
 <section>
     {{ partial "text-imgs.html" site.Data.events.open_data_hub_day_2023 }}
 </section>
-<div class="bg-darker">
-    {{ partial "video-text.html" site.Data.events.video_library_36}}
-</div>
-<div class="bg-darker">
-    {{ partial "video-text.html" site.Data.events.video_library_35}}
-</div>
-<div class="bg-darker">
-    {{ partial "video-text.html" site.Data.events.video_library_34 }}
-</div>
-<div class="bg-darker">
-    {{ partial "video-text.html" site.Data.events.video_library_33 }}
-</div>
-<div class="bg-darker">
-    {{ partial "video-text.html" site.Data.events.video_library_32 }}
-</div>
-<div class="bg-darker">
-    {{ partial "video-text.html" site.Data.events.video_library_31}}
-</div>
-<div class="bg-darker">
-    {{ partial "video-text.html" site.Data.events.video_library_30 }}
-</div>
-<div class="bg-darker">
-    {{ partial "video-text.html" site.Data.events.video_library_29 }}
-</div>
-<div class="bg-darker">
-    {{ partial "video-text.html" site.Data.events.video_library_28 }}
-</div>
-<div class="bg-darker">
-    {{ partial "video-text.html" site.Data.events.video_library_27 }}
-</div>
-<div class="bg-darker">
-    {{ partial "video-text.html" site.Data.events.video_library_26 }}
-</div>
-<div class="bg-darker">
-    {{ partial "video-text.html" site.Data.events.video_library_25 }}
-</div>
-<div class="bg-darker">
-    {{ partial "video-text.html" site.Data.events.video_library_24 }}
-</div>
-<div class="bg-darker">
-    {{ partial "video-text.html" site.Data.events.video_library_23 }}
-</div>
 
+{{range site.Data.events.video_library.open_data_hub_day_2023}}
+    <div class="bg-darker">
+        {{ partial "video-text.html" . }}
+    </div>
+{{end}}
 
 <section>
     {{ partial "text-imgs.html" site.Data.events.open_data_hub_day_2022 }}
 </section>
-<div class="bg-darker">
-    {{ partial "video-text.html" site.Data.events.video_library_1 }}
-</div>
-<div class="bg-darker">
-    {{ partial "video-text.html" site.Data.events.video_library_2 }}
-</div>
-<div class="bg-darker">
-    {{ partial "video-text.html" site.Data.events.video_library_3}}
-</div>
-<div class="bg-darker">
-    {{ partial "video-text.html" site.Data.events.video_library_4 }}
-</div>
-<div class="bg-darker">
-    {{ partial "video-text.html" site.Data.events.video_library_5 }}
-</div>
-<div class="bg-darker">
-    {{ partial "video-text.html" site.Data.events.video_library_6 }}
-</div>
-<div class="bg-darker">
-    {{ partial "video-text.html" site.Data.events.video_library_7 }}
-</div>
-<div class="bg-darker">
-    {{ partial "video-text.html" site.Data.events.video_library_8 }}
-</div>
-<div class="bg-darker">
-    {{ partial "video-text.html" site.Data.events.video_library_9 }}
-</div>
-<div class="bg-darker">
-    {{ partial "video-text.html" site.Data.events.video_library_10 }}
-</div>
 
+{{range site.Data.events.video_library.open_data_hub_day_2022}}
+    <div class="bg-darker">
+        {{ partial "video-text.html" . }}
+    </div>
+{{end}}
 
 <section>
     {{ partial "text-imgs.html" site.Data.events.open_data_hub_day_2021 }}
 </section>
-<div class="bg-darker">
-    {{ partial "video-text.html" site.Data.events.video_library_11 }}
-</div>
-<div class="bg-darker">
-    {{ partial "video-text.html" site.Data.events.video_library_12 }}
-</div>
-<div class="bg-darker">
-    {{ partial "video-text.html" site.Data.events.video_library_13 }}
-</div>
-<div class="bg-darker">
-    {{ partial "video-text.html" site.Data.events.video_library_14 }}
-</div>
-<div class="bg-darker">
-    {{ partial "video-text.html" site.Data.events.video_library_15 }}
-</div>
-<div class="bg-darker">
-    {{ partial "video-text.html" site.Data.events.video_library_16 }}
-</div>
-<div class="bg-darker">
-    {{ partial "video-text.html" site.Data.events.video_library_17 }}
-</div>
-<div class="bg-darker">
-    {{ partial "video-text.html" site.Data.events.video_library_18 }}
-</div>
-<div class="bg-darker">
-    {{ partial "video-text.html" site.Data.events.video_library_19 }}
-</div>
-<div class="bg-darker">
-    {{ partial "video-text.html" site.Data.events.video_library_20 }}
-</div>
-<div class="bg-darker">
-    {{ partial "video-text.html" site.Data.events.video_library_21 }}
-</div>
-<div class="bg-darker">
-    {{ partial "video-text.html" site.Data.events.video_library_22 }}
-</div>
+
+{{range site.Data.events.video_library.open_data_hub_day_2021}}
+    <div class="bg-darker">
+        {{ partial "video-text.html" . }}
+    </div>
+{{end}}
+
 {{ end }}
