@@ -3,7 +3,7 @@
 ---
 Title: "Sparql endpoint"
 
-button_link: "https://sparql.opendatahub.com/"
+button_link: "/use-cases-knowledge-graph/"
 button_label: "Learn more"
 
 weight: 6
