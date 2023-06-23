@@ -1,0 +1,24 @@
+{{/*
+	SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+
+	SPDX-License-Identifier: AGPL-3.0-or-later
+*/}}
+
+{{"<!-- Single Column Imgs - Text -->" | safeHTML }}
+<section class="single-col-imgs-text">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <p>{{ .description | markdownify }}</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="text-center">
+                    <img src="{{ .img_back }}" class="img-back" style ="max-width: 80%"/> 
+                </div> 
+            </div>
+        </div>
+    </div>
+</section>
+{{"<!-- /Single Column Imgs - Text -->" | safeHTML }}
