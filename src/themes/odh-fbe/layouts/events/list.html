@@ -14,8 +14,7 @@
 <section class="bg-darker">
 	{{ partial "title-section.html" site.Data.events.upcoming }}
 	<div class="events container">
-
-		{{ range sort .Pages ".Params.day" "asc"}}
+		{{ range sort .RegularPagesRecursive ".Params.day" "asc" }}
 		{{ if ge (time .Params.day).Unix now.Unix }}
 		<a target="_blank" href="{{ .Params.button_link }}" class="col-lg-6 card">
 			<div>
@@ -61,7 +60,7 @@
 	{{ partial "title-section.html" site.Data.events.past }}
 	<div class="past_events container">
 
-		{{ range sort .Pages ".Params.day" "desc"}}
+		{{ range sort .RegularPagesRecursive ".Params.day" "desc"}}
 		{{ if lt (time .Params.day).Unix now.Unix }}
 		<a target="_blank" href="{{ .Params.button_link }}" class="col-lg-6 card">
 			<div>
