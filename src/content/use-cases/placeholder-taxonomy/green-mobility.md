@@ -1,5 +1,6 @@
 ---
-position: "use-cases-green-mobility"
+position: "green-mobility"
+aliases: "/use-cases/green-mobility"
 
 short:
   subtitle: "GREENMOBILITY"
