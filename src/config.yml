@@ -78,17 +78,17 @@ menu:
 
     - parent: services
       name: Data access
-      URL: /data-access
+      URL: /services/data-access
       weight: 1
 
     - parent: services
       name: Data sharing
-      URL: /data-sharing
+      URL: /services/data-sharing
       weight: 2
 
     - parent: services
       name: Data visualization
-      URL: /data-visualization
+      URL: /services/data-visualization
       weight: 3
 
     # --- Datasets ---
@@ -153,13 +153,13 @@ menu:
       weight: 3
 
   footer1:
-    - URL: /data-sharing/
+    - URL: /services/data-sharing
       name: Data Sharing
 
-    - URL: /data-access/
+    - URL: /services/data-access
       name: Data Access
 
-    - URL: /data-visualization
+    - URL: /services/data-visualization
       name: Data Visualization
 
   footer2:
