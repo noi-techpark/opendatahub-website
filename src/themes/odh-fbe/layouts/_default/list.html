@@ -3,30 +3,3 @@
 
 	SPDX-License-Identifier: AGPL-3.0-or-later
 */}}
-
-{{ define "main" }}
-
-{{ partial "nav.html" . }}
-
-{{ partial "title-select.html" .Params }}
-
-<div class="datasets container">
-	{{ range .Pages.ByTitle.ByWeight }}
-	<a href="{{ .Permalink }}" class="col-lg-3 card" data-availability="{{.Params.availability}}">
-		<div>
-			<div class="square bg-center-cover">
-				<img src="{{ .Params.img }}" alt="{{ .Params.img_alt }}" />
-			</div>
-			<div class="title">{{ .Title }}</div>
-			<div class="tags">
-				{{ .Params.datatype }} | {{ .Params.availability_label }}
-			</div>
-		</div>
-	</a>
-	{{ end }}
-	<p class="no-datasets text-center d-flex align-items-center justify-content-center">
-		There are no datasets that match your selection.
-	</p>
-</div>
-
-{{ end }}
