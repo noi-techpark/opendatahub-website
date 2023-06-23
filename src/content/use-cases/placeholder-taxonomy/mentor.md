@@ -1,5 +1,6 @@
 ---
-position: "use-cases-mentor"
+position: "mentor"
+aliases: "/use-cases/mentor"
 
 short:
   subtitle: "MENTOR"

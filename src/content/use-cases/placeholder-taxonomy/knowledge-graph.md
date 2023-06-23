@@ -1,5 +1,6 @@
 ---
-position: "use-cases-knowledge-graph"
+position: "knowledge-graph"
+aliases: "/use-cases/knowledge-graph"
 
 short:
   subtitle: "KNOWLEDGE GRAPH"
