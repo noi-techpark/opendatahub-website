@@ -9,38 +9,11 @@
 {{ partial "nav.html" . }}
 {{ partial "title.html" .Params }}
 
-{{/*  Example of new rendering of Use Cases to allow filtering  */}}
-{{ range .Pages }}
-  <section {{ if .Params.dark }}class="bg-darker"{{ end }} id="use-cases">
-    {{ partial .Params.partial .Params }}
+{{ range sort .Pages "Params.short.weight" "asc" }}
+  <section {{ if .Params.short.bg_darker }}class="bg-darker"{{ end }} id="use-cases">
+    {{ partial .Params.short.partial .Params.short }}
   </section>
 {{ end }}
-{{/*  End of example  */}}
-
-<a id="sm-tag-use-cases"></a>
-<section class="bg-darker" id="use-cases">
-  {{ partial "imgs-icon-text-margin.html" site.Data.usecases.use_cases_mentor }}
-</section>
-
-<a id="sm-tag-use-cases"></a>
-<section id="use-cases">
-  {{ partial "text-imgs-icon.html" site.Data.usecases.use_cases_brennerLec }}
-</section>
-
-<a id="sm-tag-use-cases"></a>
-<section class="bg-darker" id="use-cases">
-  {{ partial "video-text.html" site.Data.usecases.use_cases_kultivas }}
-</section>
-
-<a id="sm-tag-use-cases"></a>
-<section id="use-cases">
-  {{ partial "text-imgs-icon.html" site.Data.usecases.use_cases_greenmobility }}
-</section>
-
-<a id="sm-tag-use-cases"></a>
-<section class="bg-darker" id="use-cases">
-  {{ partial "imgs-icon-text-margin.html" site.Data.usecases.use_cases_knowledge_graph }}
-</section>
 
 <a id="sm-tag-use-cases"></a>
 <section id="use-cases">

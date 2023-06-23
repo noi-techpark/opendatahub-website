@@ -90,7 +90,7 @@ use_case:
 dataset_example:
   title: "Real-time **e-charging** stations"
   description: "This dataset provides data about existing **e-charging stations**, about their plugs and **availability status**, including historical usage data. It includes hydrogen station data as well."
-  btn_link: "/use-cases-green-mobility/"
+  btn_link: "/use-cases/green-mobility/"
   btn_label: "Read more"
   img_back: "/img/ODH-home-data-access-use-case-e-charging.jpg"
   img_front: "/img/datasets/andrew-roberts-2JvEjF0tf50-unsplash.png"
