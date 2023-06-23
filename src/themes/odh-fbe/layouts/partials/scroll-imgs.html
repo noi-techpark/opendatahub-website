@@ -4,12 +4,14 @@
 	SPDX-License-Identifier: AGPL-3.0-or-later
 */}}
 
+<!-- NOT WORKING  -->
+
 {{"<!-- single Column scroll-Imgs  -->" | safeHTML }}
 <section class="scroll-img">
     <div class="container">
         <div class="col-12">
-            <div class="text-center .overflow-scroll" >
-                <img src="{{ .img_back }}" class="img-back"/> 
+            <div class="text-center" style=" overflow-Y: scroll;">
+                <img src="{{ .img_back }}" class="img-back " /> 
             </div> 
         </div>
     </div>
