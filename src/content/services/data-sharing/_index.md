@@ -20,7 +20,7 @@ rows:
     btn_label: "Join the community"
     img_back: "/img/OpenDataHub-Data-Sharing-Luisa-by-Tania-Marcadella-3779.jpg"
     img_front: "/icon/download.svg"
-    bg_dark: true
+    bg_darker: true
     partial: imgs-icon-text.html
   
   
@@ -30,7 +30,7 @@ rows:
     btn_label: "Contact us now!"
     img_back: "/img/ODH-data-sharing-bolzano.jpg"
     img_front: "/img/share-data-4.jpg"
-    bg_dark: false
+    bg_darker: false
     partial: col-text-imgs.html
   
   
@@ -40,7 +40,7 @@ rows:
     btn_label: "Get started"
     img_back: "/img/ODH-data-sharing-valuable-data.jpg"
     img_front: "/img/share-data-4.jpg"
-    bg_dark: true
+    bg_darker: true
     partial: col-imgs-text.html
   
   
@@ -55,7 +55,7 @@ rows:
     btn_label: "Start now"
     img_back: "/img/ODH-data-sharing-sprint-meeting.jpg"
     img_front: "/img/share-data-6.jpg"
-    bg_dark: false
+    bg_darker: false
     partial: col-text-imgs.html
   
   
@@ -65,6 +65,6 @@ rows:
     btn_label: "Learn more about Data Visualization"
     img_back: "/img/ODH-data-sharing-data-visualization.jpg"
     img_front: "/img/share-data-6.jpg"
-    bg_dark: true
+    bg_darker: true
     partial: col-imgs-text.html
 ---
