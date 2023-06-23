@@ -18,7 +18,7 @@ rows:
     btn_label: "Join the community"
     img_back: "/img/ODH-home-data-access.jpg"
     img_front: "/icon/upload.svg"
-    bg_dark: true
+    bg_darker: true
     partial: imgs-icon-text.html
 
   - title: "Access **a growing number of datasets**"
@@ -27,7 +27,7 @@ rows:
     btn_label: "Browse the datasets list"
     img_back: "/img/ODH-data-acess-datasets.jpg"
     img_front: "/img/access-data-4.jpg"
-    bg_dark: false
+    bg_darker: false
     partial: col-text-imgs.html
 
   - title: "Discover the data in our **Data Browser**"
@@ -37,7 +37,7 @@ rows:
     img_back: "/img/ODH-data-access-data-browser.jpg"
     img_front: "/img/access-data-6.jpg"
     target_blank: true
-    bg_dark: true
+    bg_darker: true
     partial: col-imgs-text.html
 
   - title: "Check out the data in our **Analytics Tool**"
@@ -47,7 +47,7 @@ rows:
     img_back: "/img/ODH-data-access-analytics-tool.jpg"
     img_front: "/img/access-data-8.jpg"
     target_blank: true
-    bg_dark: false
+    bg_darker: false
     partial: col-text-imgs.html
 
   - title: "Integrate data in your website or app using our **web components**"
@@ -57,7 +57,7 @@ rows:
     img_back: "/img/ODH-data-access-data-web-components.jpg"
     img_front: "/img/access-data-8.jpg"
     target_blank: true
-    bg_dark: true
+    bg_darker: true
     partial: col-imgs-text.html
 
   - title: "We’re here to **support you, so become a registered data consumer!**"
@@ -66,7 +66,7 @@ rows:
     btn_label: "Join the community "
     img_back: "/img/ODH-data-access-support.jpg"
     img_front: "/img/access-data-8.jpg"
-    bg_dark: false
+    bg_darker: false
     partial: col-text-imgs.html
 ---
 

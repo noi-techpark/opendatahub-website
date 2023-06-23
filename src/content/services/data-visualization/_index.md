@@ -18,7 +18,7 @@ rows:
     img_back: "/img/ODH-data-visualization-top-image.jpg"
     img_front: "/icon/box.svg"
     target_blank: true
-    bg_dark: true
+    bg_darker: true
     partial: imgs-icon-text.html
 
 
@@ -35,7 +35,7 @@ rows:
     btn_label: "View the web components list"
     img_back: "/img/ODH-data-visualization-web-component-store.jpg"
     img_front: "/img/share-data-4.jpg"
-    bg_dark: false
+    bg_darker: false
     partial: col-text-imgs.html
 
 
@@ -45,6 +45,6 @@ rows:
     btn_label: "Contact us"
     img_back: "/img/ODH-data-visualization-web-component-developer.jpg"
     img_front: "/img/share-data-4.jpg"
-    bg_dark: true
+    bg_darker: true
     partial: col-imgs-text.html
 ---
