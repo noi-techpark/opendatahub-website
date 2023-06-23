@@ -9,42 +9,16 @@
 {{ partial "nav.html" . }} 
 {{ partial "title.html" .Params }} 
 
-{{ partial "text-imgs.html" site.Data.events.open_data_hub_day_2023_interviews }}
+{{ range site.Data.events.video_library }}
+    <section>
+        {{ partial "text-imgs.html" . }}
+    </section>
 
-{{range site.Data.events.video_library.interviews}}
-    <div class="bg-darker">
-        {{ partial "video-text.html" . }}
-    </div>
-{{end}}
-
-<section>
-    {{ partial "text-imgs.html" site.Data.events.open_data_hub_day_2023 }}
-</section>
-
-{{range site.Data.events.video_library.open_data_hub_day_2023}}
-    <div class="bg-darker">
-        {{ partial "video-text.html" . }}
-    </div>
-{{end}}
-
-<section>
-    {{ partial "text-imgs.html" site.Data.events.open_data_hub_day_2022 }}
-</section>
-
-{{range site.Data.events.video_library.open_data_hub_day_2022}}
-    <div class="bg-darker">
-        {{ partial "video-text.html" . }}
-    </div>
-{{end}}
-
-<section>
-    {{ partial "text-imgs.html" site.Data.events.open_data_hub_day_2021 }}
-</section>
-
-{{range site.Data.events.video_library.open_data_hub_day_2021}}
-    <div class="bg-darker">
-        {{ partial "video-text.html" . }}
-    </div>
-{{end}}
+    {{range .videos }}
+        <div class="bg-darker">
+            {{ partial "video-text.html" . }}
+        </div>
+    {{end}}
+{{ end }}
 
 {{ end }}
