@@ -1,6 +1,10 @@
-# SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
-#
-# SPDX-License-Identifier: CC0-1.0
+---
+type: events/single
+content_partial: table-program-press-release
+position: "Odhday22"
+
+title: "Open Data Hub Day 2022"
+subtitle: "On 20 May, the Open Data Hub Day was held at NOI. A hybrid event about best practices to help understand and make the most of the world of data. This is an increasingly important topic for those working in business and research and was explored in depth with several **experts** and representatives from **leading companies** and NOI's **scientific partners**."
 
 program:
   title: "Open Data Hub Day 2022 - Programm"
@@ -153,3 +157,4 @@ content:
         - content: "Fotogallery of the event"
         - content: ""
         - pressReleaseLink: "https://www.flickr.com/photos/free-software-center/sets/72177720299438198/with/52114183183/"
+---

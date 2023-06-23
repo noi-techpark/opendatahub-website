@@ -1,6 +1,10 @@
-# SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
-#
-# SPDX-License-Identifier: CC0-1.0
+---
+type: events/single
+content_partial: table-program
+position: "odhday21"
+
+title: "Open Data Hub Day"
+subtitle: "You are invited to the **Open Data Hub Day** at NOI. A **hybrid event** about best practices to help you understand and get the most out of the world of data. This is an increasingly important subject for those working in business and research and we will be delving into it with **several experts and representatives** from leading companies (such as Alperia, Reactive Software, STA, CISMA, and IDM) as well as NOI’s **scientific partners** (Eurac Research and unibz)."
 
 program:
   title: "Open Data Hub Day 2021 - Programm"
@@ -144,4 +148,4 @@ content:
 
   btn_link: https://www.youtube.com/watch?v=-kVVpDLcXOM
   btn_label: Conference video
-  
+---

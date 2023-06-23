@@ -68,7 +68,7 @@ video_library:
     - subtitle: ""
       title: "**Open Data Hub Day 2023 - Trailer**"
       description: ""
-      btn_link: "/odhday23"
+      btn_link: "/events/odhday23"
       btn_label: Go to event page
       video: "https://player.vimeo.com/video/830468551"
 

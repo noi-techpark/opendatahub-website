@@ -1,6 +1,7 @@
 
 
 ---
+type: events/video-library
 position: "video-library"
 
 title: "Video Library"

@@ -149,7 +149,7 @@ menu:
 
     - parent: events
       name: Video Library
-      URL: /video-library
+      URL: /events/video-library
       weight: 3
 
   footer1:

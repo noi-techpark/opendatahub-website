@@ -1,6 +1,10 @@
-# SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
-#
-# SPDX-License-Identifier: CC0-1.0
+---
+type: events/single
+content_partial: table-program
+position: "mentorfinalevent"
+
+title: "Mentor Final Event"
+subtitle: "The final event of the Mentor project took place on 26th January 2022. Mobility-as-a-Service (MaaS) paves the way for new mobility opportunities, proposing an approach that offers a real alternative to individual transport in rural and mountain regions, through tailor-made mobility solutions designed for the needs of single users. How is all this done concretely and what are the business opportunities in this field, both for those involved in mobility and for tech-companies?"
 
 program:
   title: "Towards a Mobility-as-a-Service in rural alpine areas - Programm"
@@ -176,4 +180,4 @@ content:
 
   btn_down_link: "https://www.youtube.com/watch?v=SjLVH-40J0o#msdynttrid=ZVh-3Q2GG5sehR9YBAvw4hEF68W1xlFH79Tf-mhL3HU"
   btn_down_label: "Full video"
-  
+---

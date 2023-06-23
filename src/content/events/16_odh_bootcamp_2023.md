@@ -12,7 +12,7 @@ location: "NOI Techpark"
 #button_link: "https://pretalx.com/open-data-hub-day-2023/cfp"
 #button_label: "Call4Speakers"
 
-button_link: "/bootcamp23"
+button_link: "/events/bootcamp23"
 button_label: "More info & Registration"
 ---
 
