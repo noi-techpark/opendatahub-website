@@ -1,0 +1,23 @@
+{{/*
+	SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+
+	SPDX-License-Identifier: AGPL-3.0-or-later
+*/}}
+
+{{ define "main" }}
+	
+{{ partial "nav.html" . }}
+{{ partial "title.html" .Params }}
+
+{{ range .Params.rows }}
+    <div {{ if .bg_dark }}class="bg-darker"{{ end }}>
+        {{ partial .partial . }}
+    </div>
+{{ end }}
+
+{{ if eq .Params.position "data-access" }}
+    {{ partial "title.html" site.Data.services.pricing }}
+    {{ partial "table-comparison.html" site.Data.services.pricing}}
+{{ end }}
+
+{{ end }}
