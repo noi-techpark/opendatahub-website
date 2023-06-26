@@ -11,16 +11,6 @@ past:
   subtitle: Some of the past events realated to **Open Data Hub**. Click the events to obtain **slides, video and all the materials** produced. 
 
 video_library:
-  - title: "**Open Data Hub at OW2con'23**"
-    videos:
-      - subtitle: "NOI Techpark"
-        title: "**Open Data Hub Presentation**"
-        description: "Simon Dalvai"
-        btn_link: "https://www.ow2con.org/view/2023/Abstract_Community_Day#14061450"
-        btn_label: "Abstract"
-        video: https://www.youtube.com/embed/GncBBBvHeAA
-        target_blank: true
-
   ################################# Open Data Hub 2023 interviews ################  #########
   - title: "**Open Data Hub Day 2023 Interviews**"
     videos:
@@ -55,6 +45,33 @@ video_library:
         btn_label: Open Data Hub Day 2023 - Slides
         video: "https://player.vimeo.com/video/830169814"
         target_blank: true
+
+  ################################# Open Data Presentations #########################
+  - title: "**Open Data Hub Presentations**"
+    videos:
+      - subtitle: "NOI Techpark"
+        title: "**Open Data Hub at OW2con'23**"
+        description: "Simon Dalvai"
+        btn_link: "https://www.ow2con.org/view/2023/Abstract_Community_Day#14061450"
+        btn_label: "Abstract"
+        video: https://www.youtube.com/embed/GncBBBvHeAA
+        target_blank: true
+      - subtitle: "NOI Techpark"
+        title: "**Software Developers Thursday - The new Data Browser**"
+        description: "Christian Gapp"
+        video: https://www.youtube.com/embed/yOc874nOCZs
+      - subtitle: "NOI Techpark"
+        title: "**Software Developers Thursday - MQTT broker and realtime flight data**"
+        description: "Martin Rabanser"
+        video: https://www.youtube.com/embed/tfq7a3kHEJA
+      - subtitle: "NOI Techpark"
+        title: "**Software Developers Thursday - Data Browser 2.0**"
+        description: "Christian Gapp"
+        video: https://www.youtube.com/embed/yng4Zvu_CvI
+      - subtitle: "NOI Techpark"
+        title: "**Software Developers Thursday - AlpineBits DestinationData Endpoint**"
+        description: "Claudenir Fonseca and Tiago Prince Sales"
+        video: https://www.youtube.com/embed/yuNPwC3sxow
   
   ################################# Open Data Hub 2023 #########################
   - title: "**Open Data Hub Day 2023**" 
@@ -318,7 +335,7 @@ video_library:
         description: "Tiago Prince Sales"
         btn_link: "https://cloud.opendatahub.com/index.php/s/Bm9ELFFYKQNGXnF"
         btn_label: Slides
-        video: "" 
+        video: "https://vimeo.com/manage/videos/638401562" 
         target_blank: true
 
       - subtitle: "Alperia"
