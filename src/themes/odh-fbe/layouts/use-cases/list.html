@@ -7,11 +7,11 @@
 {{ define "main" }}
 
 {{ partial "nav.html" . }}
-{{ partial "title.html" .Params }}
+{{ partial "title-use-cases-select.html" . }}
 
-{{ range sort .Pages "Params.short.weight" "asc" }}
-  <section {{ if .Params.short.bg_darker }}class="bg-darker"{{ end }} id="use-cases">
-    {{ partial .Params.short.partial .Params.short }}
+{{ range $index, $page := sort .RegularPagesRecursive "Params.short.weight" "asc" }}
+  <section {{ if eq (mod $index 2) 0 }}class="bg-darker"{{ end }} id="use-cases">
+    {{ partial $page.Params.short.partial $page.Params.short }}
   </section>
 {{ end }}
 
