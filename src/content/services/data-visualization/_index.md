@@ -1,6 +1,7 @@
 ---
 type: services/single
 position: data-visualization
+aliases: /data-visualization
 title: "**Data Visualization:** understand the potential of data"
 subtitle: "We help companies to test, visualise and get inspired by data to make their ideas concrete and valuable."
 

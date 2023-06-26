@@ -1,6 +1,8 @@
 ---
 position: "kultivas"
-aliases: "/use-cases/kultivas"
+aliases:
+  - "/use-cases/kultivas"
+  - "/use-cases-kultivas"
 
 short:
   subtitle: "KULTIVAS"

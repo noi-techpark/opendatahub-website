@@ -1,6 +1,8 @@
 ---
 position: "brennerLec"
-aliases: "/use-cases/brennerlec"
+aliases:
+  - "/use-cases/brennerlec"
+  - "/use-cases-brennerlec"
 
 short:
   subtitle: "BRENNERLEC"
