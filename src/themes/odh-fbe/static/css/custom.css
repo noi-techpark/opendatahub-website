@@ -1215,3 +1215,41 @@ footer ul.social li img {
     margin-top: 2vh;
     height: 56vh;
 }
+
+/* Video TOC */
+
+.toc ul {
+    list-style-type: none;
+}
+
+.toc li {
+    cursor: pointer;
+}
+
+.toc .section {
+    padding-bottom: 1rem;
+    width: fit-content;
+}
+
+.toc .video-links,
+.toc .fa-caret-right,
+.toc .fa-caret-down {
+    display: none;
+}
+
+.toc .section[data-selected="true"] .video-links {
+    display: block;
+}
+
+.toc .section[data-selected="true"] .fa-caret-down {
+    display: inline;
+}
+
+
+.toc .section[data-selected="false"] .fa-caret-right {
+    display: inline;
+}
+
+.toc .video-link > strong {
+    font-weight: normal;
+}
