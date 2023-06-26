@@ -7,13 +7,14 @@
 {{"<!-- Double Column Imgs that can be alarged with a click - Text -->" | safeHTML }}
 <section class="imgs-text-elarged">
     <div class="container">
-        <div class="row upperRow">
-            <img src="{{ .img_back }}" onclick="clickedSmall(biggerImage)" class="biggerImage" id="biggerImage"></img>
-        </div>
+        <div class="row upperRow position-relative" >
+            <div class="text-center">
+                <img src="{{ .img_back }}" onclick="clickedSmall(biggerImage, imgBackMain)" class="biggerImage" id="biggerImage"></img></div>
+            </div>
         <div class="row">
             <div class="col-12 col-lg-6 imgs">
-                <button onclick="clickedBig(biggerImage)" class="buttonBigger" >
-                    <img src="{{ .img_back }}"  class="img-back-main"/> 
+                <button onclick="clickedBig(biggerImage, imgBackMain)" class="buttonBigger" >
+                    <img src="{{ .img_back }}"  class="img-back-main" id="imgBackMain"/> 
                 </button>
             </div>
             <div class="col-12 col-lg-6">

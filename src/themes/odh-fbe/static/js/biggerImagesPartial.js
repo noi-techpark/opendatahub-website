@@ -3,13 +3,16 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
 
-function clickedBig(idOfImage){
-    idOfImage.style.height = "35pc";
-    idOfImage.style.width = "auto";
-    idOfImage.style.transitionDuration = "120s";
+function clickedBig(hiddenImage, viewImage){
+    hiddenImage.style.height = "35pc";
+    hiddenImage.style.width = "auto";
+
+    viewImage.style.opacity = "0";
 }
 
-function clickedSmall(idOfImage){
-    idOfImage.style.height = "0px";
-    idOfImage.style.width = "auto";
+function clickedSmall(hiddenImage, viewImage){
+    hiddenImage.style.height = "0px";
+    hiddenImage.style.width = "auto";
+
+    viewImage.style.opacity = "1";
 }
