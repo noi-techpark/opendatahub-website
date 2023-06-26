@@ -4,7 +4,7 @@
 
 
 function clickedBig(hiddenImage, viewImage){
-    hiddenImage.style.height = "35pc";
+    hiddenImage.style.height = "80vh";
     hiddenImage.style.width = "auto";
 
     viewImage.style.opacity = "0";
