@@ -16,8 +16,10 @@
 				<p class="upper">{{ .subtitle | markdownify }}</p>
                 <h3>{{ .title | markdownify }}</h3>
                 <p>{{ .description | markdownify }}</p>
-    
+								
+								{{ if isset . "btn_link" }}
                 <a {{ if .target_blank }}target="_blank"{{ end }} href="{{.btn_link}}" class="btn btn-primary">{{ .btn_label | markdownify }}</a>
+								{{ end }}
 			</div>
 	</div>
 </section>
