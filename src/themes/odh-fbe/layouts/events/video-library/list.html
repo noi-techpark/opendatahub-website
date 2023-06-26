@@ -7,7 +7,8 @@
 {{ define "main" }}
 
 {{ partial "nav.html" . }} 
-{{ partial "title.html" .Params }} 
+{{ partial "title.html" .Params }}
+{{ partial "video-table-of-contents" site.Data.events.video_library }}
 
 {{ range site.Data.events.video_library }}
     <section>
@@ -15,6 +16,7 @@
     </section>
 
     {{range .videos }}
+        <a id="{{ sha1 .video }}"></a>
         <div class="bg-darker">
             {{ partial "video-text.html" . }}
         </div>
