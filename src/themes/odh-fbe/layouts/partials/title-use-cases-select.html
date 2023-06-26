@@ -1,0 +1,31 @@
+{{/*
+	SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+
+	SPDX-License-Identifier: AGPL-3.0-or-later
+*/}}
+
+{{" <!-- Title -->" | safeHTML }}
+<section class="title">
+    <div class="container">
+        <div class="container-content">
+            <h1 class="primary">{{ .Params.title | markdownify }}</h1>
+            {{ with .Params.subtitle }}<h2 class="subtitle">{{ . | markdownify }}</h2>{{ end }}
+        </div>
+
+        <div class="category-wrapper">
+            <div class="category-selector">
+                <select class="form-select" onChange="window.location.href=this.value">
+                    <option value="/use-cases/">All Types</option>
+
+                    {{ $params := .Params }}
+                    {{ range .FirstSection.Sections }}
+                    <option value="/use-cases/{{ lower .Title }}" {{ if eq $params.title .Title }}selected{{ end }}>{{ .Title }}</option>
+                    {{ end }}
+                    
+                </select>
+            </div>
+        </div>
+        
+    </div>
+</section>
+{{" <!-- /Title -->" | safeHTML }}
