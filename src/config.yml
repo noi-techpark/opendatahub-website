@@ -3,13 +3,14 @@
 # SPDX-License-Identifier: CC0-1.0
 
 theme: odh-fbe
-baseURL: "https://example.com"
+baseURL: "https://opendatahub.com"
 languageCode: en
 title: Open Data Hub - Develop digital solutions based on real data
 markup:
   goldmark:
     renderer:
       unsafe: true
+enableRobotsTXT: true
 
 params:
   logo: img/NOI_OPENDATAHUB_NEW_BK_nospace-01.svg
