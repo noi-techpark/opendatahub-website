@@ -68,7 +68,7 @@ params:
       Endowment capital 110.740.000 € - <a href="https://noi.bz.it/en/privacy-cookie-policy" target="_blank">Privacy</a>
 
 taxonomies:
-  type: datatype
+  datatype: datatype
 
 menu:
   main:
