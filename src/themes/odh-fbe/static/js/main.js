@@ -292,6 +292,13 @@ var my = null;
           $("html").css("scroll-behavior", "smooth")
         })
     });
+    // Would enable smooth scrolling but prevents links from working until full page load
+    // $(".toc .video-link").each(
+    //   function () {
+    //     $(this).on("click", function () {
+    //       $("html").css("scroll-behavior", "smooth")
+    //     })
+    // });
     $(".not-current.nav-link .sub-menu a").each(
       function () {
         $(this).on("click", function () {

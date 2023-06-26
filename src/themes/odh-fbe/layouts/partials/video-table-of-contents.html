@@ -1,0 +1,32 @@
+{{/*
+	SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+
+	SPDX-License-Identifier: AGPL-3.0-or-later
+*/}}
+
+{{" <!-- Video TOC -->" | safeHTML }}
+<section class="toc">
+  <div class="container">
+    <ul>
+      {{ range . }}
+        <div class="section" tabindex="" onclick="this.dataset.selected = this.dataset.selected === 'false'" data-selected="false">
+          <li>
+            <i class="fa fa-caret-right" aria-hidden="true"></i>
+            <i class="fa fa-caret-down" aria-hidden="true"></i>
+            <a class="title-link">{{ .title | markdownify }}</a>
+          </li>
+          <div class="video-links">
+            <ul>
+              {{ range .videos }}
+                <li>
+                  <a href="/events/video-library/#{{ sha1 .video }}" class="video-link">{{ .title | markdownify }}</a>
+                </li>
+              {{ end }}
+            </ul>
+          </div>
+        </div>
+      {{ end }}
+    </ul>
+  </div>
+</section>
+{{" <!-- /Video TOC -->" | safeHTML }}
