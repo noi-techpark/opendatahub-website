@@ -5,24 +5,34 @@
 */}}
 
 {{"<!-- Double Column Imgs that can be alarged with a click - Text -->" | safeHTML }}
-
-<section class="imgs-text-elarged">
+  <section class="imgs-text-elarged">
     <div class="container">
-        <div class="col-12 col-lg-6 imgs">
-            <div class="modal fad" id="mymodal">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal"></button>
-                        </div>
-                    </div>
-                </div>
+      <div class="col-12 col-lg-6 imgs">
+        <button type="button" class="button-img" data-toggle="modal" data-target="#myModal">
+          <img src="{{ .img_back }}" class="main-img">
+        </button>
+        <div class="modal fade" id="myModal">
+          <div class="modal-dialog modal-lg" style="margin-top: 20vh">
+            <div class="modal-content">
+              <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal">
+                  <span aria-hidden="true">&times;</span>
+                  <span class="sr-only"></span>
+                </button>
+                <img src="{{ .img_back }}" class="img-elarged">
+              </div>
             </div>
+          </div>
         </div>
-        <div class="col-12 col-lg-6">
-            <h3>{{ .title | markdownify }}</h3>
-            <p>{{ .description | markdownify }}</p>
-        </div>
+      </div>
+      <div class="col-12 col-lg-6">
+        <h3>{{ .title | markdownify }}</h3>
+        <p>{{ .description | markdownify }}</p>
+      </div>
     </div>
-</section>
+  </section>
+
+  
+
+
 {{"<!-- /Double Column Imgs that can be alarged with a click - Text -->" | safeHTML }}
