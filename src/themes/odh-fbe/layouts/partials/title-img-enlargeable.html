@@ -4,9 +4,14 @@
 	SPDX-License-Identifier: AGPL-3.0-or-later
 */}}
 
-{{"<!-- Double Column Imgs that can be alarged with a click - Text -->" | safeHTML }}
-<section class="imgs-text-elarged">
-    <div class="container">
+{{" <!-- Title -->" | safeHTML }}
+<section class="text-imgs-icon ">
+    <div class="container" style="padding-left: 0px;">
+        <div class="container-content col-6 col-lg-12">
+            <p class="upper">{{ .description | markdownify }}</p>
+            <h1 class="primary">{{ .title | markdownify }}</h1>
+            {{ with .subtitle }}<h2 class="subtitle">{{ . | markdownify }}</h2>{{ end }}
+        </div>
         <div class="col-12 col-lg-6 imgs">
             <button type="button" class="button-img" data-toggle="modal" data-target="#Modal-img-text{{ sha1 .img_back }}">
                 <img src="{{ .img_back }}" class="main-img">
@@ -25,10 +30,6 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-lg-6">
-          <h3>{{ .title | markdownify }}</h3>
-          <p>{{ .description | markdownify }}</p>
-        </div>
     </div>
 </section>
-{{"<!-- /Double Column Imgs that can be alarged with a click - Text -->" | safeHTML }}
+{{" <!-- /Title -->" | safeHTML }}
