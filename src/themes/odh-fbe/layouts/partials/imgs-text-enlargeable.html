@@ -8,10 +8,10 @@
 <section class="imgs-text-elarged">
     <div class="container">
         <div class="col-12 col-lg-6 imgs">
-            <button type="button" class="button-img" data-toggle="modal" data-target="#myModal">
+            <button type="button" class="button-img" data-toggle="modal" data-target="#Modal-img-text{{ sha1 .img_back }}">
                 <img src="{{ .img_back }}" class="main-img">
             </button>
-            <div class="modal fade" id="myModal">
+            <div class="modal fade" id="Modal-img-text{{ sha1 .img_back }}">
                 <div class="modal-dialog modal-lg" style="margin-top: 20vh">
                     <div class="modal-content">
                         <div class="modal-body">
