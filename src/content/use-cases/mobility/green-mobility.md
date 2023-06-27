@@ -25,7 +25,7 @@ start:
 paragraphs:
   - description: "The map, which brings together an extensive network of electric vehicle charging stations from different suppliers, is an important building block in bringing e-mobility closer to the people."
     img_back: "/img/use-cases/ODH-usecase-GREENMOBILITY-image-02.jpg"
-    partial: imgs-text.html
+    partial: imgs-text-enlargeable.html
 
   - description: "The data from the different providers are collected in the Open Data Hub and are available as open data, which means they can be integrated into other platforms and applications without restriction."
     img_back: "/img/use-cases/ODH-usecase-GREENMOBILITY-image-03.jpg"
