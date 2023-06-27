@@ -25,11 +25,11 @@ start:
 paragraphs:
   - description: "The concept of 'Mobility as a Service' (MaaS) has considerable potential for success in highly urbanised areas with a higher concentration of users. However, can it also work in small Alpine communities, and if so, how? These are the questions that the MENTOR project has aimed to address since its launch in late 2018. To evaluate the feasibility of MaaS in the Alpine context, the concept has been put into practice in two Alpine regions: Merano in the Autonomous Province of Bolzano (Italy) and Brig-Glis in the Canton of Valais (Switzerland). For the application of the concept of “mobility as a service” to be possible, the essential requirement, in addition to the digital aspect, is the presence of a set of mobility services strongly integrated around the public transport offer, which is the backbone of the system. Therefore, the MENTOR project's pilot activities concentrated primarily on examining the potential of new services that are strongly integrated with public transportation."
     img_back: "/img/use-cases/ODH-usecase-mentor-image-02.jpg"
-    partial: text-imgs-enlargeable.html
+    partial: imgs-text-enlargeable.html
 
   - description: "All these services have been technologically connected to the Open Data Hub. Through a partnership between NOI Techpark and OpenMove, a cutting-edge digital solution has been developed, enabling the calculation of trip plans by integrating real-time data from all accessible mobility services. This advanced application is available at mobility.meran.eu."
     img_back: "/img/use-cases/ODH-usecase-mentor-image-03.jpg"
-    partial: text-imgs.html
+    partial: text-imgs-enlargeable.html
 
   - description: "The pilot mobility services tested in the MENTOR project are <br><br>
     → **Bike Sharing** (Municipality of Merano): Free rental of traditional pedal bikes <br>
@@ -37,7 +37,7 @@ paragraphs:
     → **Car Pooling** (Municipality of Merano): Shared use of a car by people driving the same route <br>
     → **On-demand** (Municipalities of Merano and Brig-Glis): Demand responsive buses, available in areas and times of day less served by public transport "
     img_back: "/img/use-cases/ODH-usecase-mentor-image-04.jpg"
-    partial: imgs-text.html
+    partial: imgs-text-enlargeable.html
 
   - title: "**Bike Sharing**"
     subtitle: "The bike-sharing system can now be provided in innovative ways through digitization and the utilization of electric bikes. In Merano, a new service has been tested since September 2019, which serves mainly to link the city center with the two train stations. As part of the Mentor project, the city of Merano provides 60 bicycles for short term rental free of charge at seven locations." 
