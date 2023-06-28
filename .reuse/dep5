@@ -7,7 +7,7 @@ Files: .github/* docker/* .gitignore .pre-commit-config.yaml .mailmap CONTRIBUTO
 Copyright: (c) NOI Techpark <digital@noi.bz.it>
 License: CC0-1.0
 
-Files: src/public src/themes/odh-fbe/static/css/style.css.map
+Files: src/public src/themes/odh-fbe/static/css/style.css.old src/themes/odh-fbe/static/css/style.css.map.old
 Copyright: (c) NOI Techpark <digital@noi.bz.it>
 License: AGPL-3.0-or-later
 
@@ -15,11 +15,11 @@ Files: src/themes/odh-fbe/static/js/jquery.min.js
 Copyright: (c) jQuery Foundation
 License: MIT
 
-Files: src/themes/odh-fbe/static/css/animate.css
+Files: src/themes/odh-fbe/static/css/animate.css.old
 Copyright: (c) 2015 Daniel Eden
 License: MIT
 
-Files: src/themes/odh-fbe/static/css/bootstrap.css src/themes/odh-fbe/static/css/bootstrap-v5.css src/themes/odh-fbe/static/css/bootstrap.css.map src/themes/odh-fbe/static/js/bootstrap.min.js src/themes/odh-fbe/static/js/bootstrap-v5.bundle.min.js
+Files: src/themes/odh-fbe/static/css/bootstrap.css.old src/themes/odh-fbe/static/css/bootstrap-v5.css src/themes/odh-fbe/static/css/bootstrap.css.map.old src/themes/odh-fbe/static/js/bootstrap.min.js.old src/themes/odh-fbe/static/js/bootstrap-v5.bundle.min.js
 Copyright: Twitter, Inc.
 License: MIT
 
