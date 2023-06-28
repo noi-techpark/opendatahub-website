@@ -1,7 +1,7 @@
 ---
 type: events/single
 content_partial: table-program
-position: "mentorfinalevent"
+position: "Events"
 aliases: "/mentorfinalevent"
 
 title: "Mentor Final Event"

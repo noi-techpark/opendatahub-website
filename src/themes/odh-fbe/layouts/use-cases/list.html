@@ -6,7 +6,6 @@
 
 {{ define "main" }}
 
-{{ partial "nav.html" . }}
 {{ partial "title-use-cases-select.html" . }}
 
 {{ range $index, $page := sort .RegularPagesRecursive "Params.short.weight" "asc" }}

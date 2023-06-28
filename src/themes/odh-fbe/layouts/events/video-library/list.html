@@ -6,13 +6,12 @@
 
 {{ define "main" }}
 
-{{ partial "nav.html" . }} 
 {{ partial "title.html" .Params }}
 {{ partial "video-table-of-contents" site.Data.events.video_library }}
 
 {{ range site.Data.events.video_library }}
     <section>
-        {{ partial "text-imgs.html" . }}
+        {{ partial "col-text-imgs.html" . }}
     </section>
 
     {{range .videos }}

@@ -5,33 +5,25 @@
 */}}
 
 {{" <!-- Title -->" | safeHTML }}
-<section class="title">
+<section>
     <div class="container">
-        <div class="notification-box bg-primary col-lg-4 lg-only">
-            <h3 class="bold">You can also</h3>
-            Send us an email
-
-            {{ with .contact_email }}
-                <div>
-                    <a href="mailto:{{.}}" class="bold bigger">{{ . }}</a>
+        <div class="row justify-content-between gy-3">
+            <div class="col-12 col-lg-6">
+                <h2>{{ .title | markdownify }}</h2>
+                {{ with .subtitle }}<h2 class="subtitle">{{ . | markdownify }}</h2>{{ end }}
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="bg-black px-4 py-5">
+                    <h3 class="bold">You can also</h3>
+                    <span>Send us an email</span>
+    
+                    {{ with .contact_email }}
+                        <div>
+                            <a class="" href="mailto:{{.}}" class="bold bigger">{{ . }}</a>
+                        </div>
+                    {{ end }}
                 </div>
-            {{ end }}
-        </div>
-
-        <div class="container-content">
-            <h1 class="primary">{{ .title | markdownify }}</h1>
-            {{ with .subtitle }}<h2 class="subtitle">{{ . | markdownify }}</h2>{{ end }}
-        </div>
-
-        <div class="notification-box bg-primary col-12 sm-only">
-            <h3 class="bold">You can also</h3>
-            Send us an email
-
-            {{ with .contact_email }}
-                <div>
-                    <a href="mailto:{{.}}" class="bold bigger">{{ . }}</a>
-                </div>
-            {{ end }}
+            </div>
         </div>
     </div>
 </section>

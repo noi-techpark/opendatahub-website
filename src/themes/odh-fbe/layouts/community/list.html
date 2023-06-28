@@ -6,7 +6,6 @@
 
 {{ define "main" }}
 
-{{ partial "nav.html" . }}
 {{ partial "title.html" .Params }}
 
 <a id="sm-tag-data-providers"></a>
@@ -38,7 +37,7 @@
 	<div class="container equal">
 		{{ with site.Data.community.team }}
 
-		{{ range .item }}
+		{{ range .items }}
 		<div class="col-md-4 col-xs-12">
 			<div class="person">
 				<div class="card-header">

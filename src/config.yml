@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 theme: odh-fbe
-baseURL: "https://opendatahub.com"
+baseURL: "https://example.com"
 languageCode: en
 title: Open Data Hub - Develop digital solutions based on real data
 markup:
@@ -25,14 +25,14 @@ params:
   PrivacyUrl: "https://noi.bz.it/en/privacy-cookie-policy"
   plugins:
     css:
-      - URL: /css/animate.css
-      - URL: /css/bootstrap.css
-      - URL: /css/style.css
+      # - URL: /css/animate.css
+      - URL: /css/bootstrap-v5.css
+      # - URL: /css/style.css
       - URL: /css/table-comparison.css
       - URL: /css/custom.css
-      - URL: /css/responsive.css
-      - URL: /css/availability.css
-      - URL: /css/contact-form.css
+      # - URL: /css/responsive.css
+      # - URL: /css/availability.css
+      # - URL: /css/contact-form.css
       - URL: >-
           https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
       - URL: https://scripts.opendatahub.testingmachine.eu/cookieconsent/opendatahub/cookieconsent.css
@@ -41,7 +41,7 @@ params:
     js:
       - URL: /js/jquery.min.js
       - URL: /js/jquery.easing.1.3.js
-      - URL: /js/bootstrap.min.js
+      - URL: /js/bootstrap-v5.bundle.min.js
       - URL: /js/jquery.waypoints.min.js
       - URL: /js/jquery.stellar.min.js
       - URL: /js/main.js
@@ -55,14 +55,69 @@ params:
 
   footer:
     logo: /img/NOI_OPENDATAHUB_NEW_WH-02.png
-    menu_title_1: <a href="/services">Services</a>
-    menu_title_2: <a href="/quickstart">Quickstart</a>
-    menu_title_3: <a href="/community">Community</a>
-    menu_title_4: <a href="/datasets">Data</a>
-    github: "https://github.com/noi-techpark/"
-    facebook: "https://www.facebook.com/opendatahub/"
-    telegram: "https://t.me/OpenDataHub"
-    element: "https://app.element.io/#/room/#opendatahub:matrix.org"
+    
+    columns:
+      - title: <a href="/services">Services</a>
+        links:
+          - URL: /services/data-sharing
+            name: Data Sharing
+            weight: 1
+
+          - URL: /services/data-access
+            name: Data Access
+            weight: 2
+
+          - URL: /services/data-visualization
+            name: Data Visualization
+            weight: 3
+
+      - title: <a href="/quickstart">Quickstart</a>
+        links:
+          - URL: "https://databrowser.opendatahub.com/"
+            name: Data browser
+            weight: 1
+
+          - URL: "https://analytics.opendatahub.com/"
+            name: Analytics tool
+            weight: 2
+
+          - URL: "https://webcomponents.opendatahub.com/"
+            name: Web Components
+            weight: 3
+
+      - title: <a href="/community">Community</a>
+        links:
+          - URL: /community
+            name: Community
+            weight: 1
+
+          - URL: /events
+            name: Events
+            weight: 2
+
+      - title: <a href="/datasets">Data</a>
+        links:
+          - URL: /datasets
+            name: Datasets
+            weight: 1
+
+          - URL: "https://opendatahub.readthedocs.io/en/latest/datasets.html"
+            name: Documentation
+            weight: 2
+
+    media_logos:
+      - URL: "https://github.com/noi-techpark/"
+        icon: "/icon/github_white.svg"
+
+      - URL: "https://www.facebook.com/opendatahub/"
+        icon: "/icon/facebook_white.svg"
+
+      - URL: "https://t.me/OpenDataHub"
+        icon: "/icon/telegram_white.svg"
+
+      - URL: "https://app.element.io/#/room/#opendatahub:matrix.org"
+        icon: "/icon/element_white.svg"
+
     copyright: >-
       NOI AG - Via Volta 13/A, I-39100 Bolzano - VAT No.: 02595720216 -
       Endowment capital 110.740.000 € - <a href="https://noi.bz.it/en/privacy-cookie-policy" target="_blank">Privacy</a>
@@ -152,43 +207,4 @@ menu:
     - parent: events
       name: Video Library
       URL: /events/video-library
-      weight: 3
-
-  footer1:
-    - URL: /services/data-sharing
-      name: Data Sharing
-
-    - URL: /services/data-access
-      name: Data Access
-
-    - URL: /services/data-visualization
-      name: Data Visualization
-
-  footer2:
-    - URL: "https://databrowser.opendatahub.com/"
-      name: Data browser
-      weight: 2
-
-    - URL: "https://analytics.opendatahub.com/"
-      name: Analytics tool
-      weight: 3
-
-    - URL: "https://webcomponents.opendatahub.com/"
-      name: Web Components
-      weight: 4
-
-  footer3:
-    - URL: /community
-      name: Community
-
-    - URL: /events
-      name: Events
-
-  footer4:
-    - URL: /datasets
-      name: Datasets
-      weight: 2
-
-    - URL: "https://opendatahub.readthedocs.io/en/latest/datasets.html"
-      name: Documentation
       weight: 3

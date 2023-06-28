@@ -2,7 +2,7 @@
 
 ---
 type: events/video-library
-position: "video-library"
+position: "Events"
 aliases: "/video-library"
 
 title: "Video Library"
