@@ -21,6 +21,10 @@ SPDX-License-Identifier: AGPL-3.0-or-later
   font-style: normal;
 }
 
+:root {
+  --border-radius: 4px;
+}
+
 body {
   font-family: "Open Sans", Arial, sans-serif;
 }
@@ -84,7 +88,7 @@ ul.no-bullets {
 /* Buttons */
 .btn {
   border: none !important;
-  border-radius: 4px !important;
+  border-radius: var(--border-radius) !important;
   font-size: 0.8rem;
   font-weight: 600;
   padding: 10px 15px;
@@ -102,7 +106,13 @@ ul.no-bullets {
   font-size: 0.8rem;
   letter-spacing: 2px;
   font-weight: 400;
-  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .nav-link,
+  .dropdown-item {
+    text-align: center;
+  }
 }
 
 .nav-link.active {
@@ -118,6 +128,10 @@ ul.no-bullets {
 
 .horizontal-spacer {
   height: 2rem;
+}
+
+.dropdown-menu {
+  border-radius: var(--border-radius);
 }
 
 /* Dataset single page */
@@ -205,8 +219,14 @@ input {
 
 select:focus,
 input:focus {
-    border-color: #555555;
+  border-color: #555555;
 }
+
+select:focus-visible,
+input:focus-visible {
+  outline: none !important;
+}
+
 
 /* Slideshow */
 #slides-container {
