@@ -5,15 +5,37 @@
 */}}
 
 {{"<!-- Double Column Imgs that can be alarged with a click - Text -->" | safeHTML }}
+
+
+
+<script>
+    function deActiveBiggerImages(){
+        var windowWidth = window.innerWidth;
+        var btn = document.getElementById("btn-img{{ sha1 .img_back }}"); 
+        if (windowWidth < 1200) {
+            console.log("Window width is less than 1200px");
+            btn.style.cursor = "default";
+            btn.setAttribute("data-target", "");
+            closeModal();
+        }else{
+            console.log("Window width is equal or greater than 1200px");
+            btn.style.cursor = "pointer";
+            btn.setAttribute("data-target", "#Modal-img-text{{ sha1 .img_back }}");
+        }
+    }          
+    window.addEventListener('resize', deActiveBiggerImages);
+</script>
+
 <section class="imgs-text-elarged">
     <div class="container">
         <div class="col-12 col-lg-6 imgs">
-            <button type="button" class="button-img" data-toggle="modal" data-target="#Modal-img-text{{ sha1 .img_back }}">
+            <button type="button" class="button-img" data-toggle="modal" data-target="#Modal-img-text{{ sha1 .img_back }}" id="btn-img{{ sha1 .img_back }}">
+                <script>deActiveBiggerImages();</script>
                 <img src="{{ .img_back }}" class="main-img">
             </button>
             <div class="modal fade" id="Modal-img-text{{ sha1 .img_back }}">
                 <div class="modal-dialog modal-lg" style="margin-top: 20vh">
-                    <div class="modal-content">
+                    <div class="modal-content" id="modal-content{{ sha1 .img_back }}">
                         <div class="modal-body text-center">
                             <button type="button" class="close" data-dismiss="modal">
                                 <span aria-hidden="true">&times;</span>
@@ -26,8 +48,8 @@
             </div>
         </div>
         <div class="col-12 col-lg-6">
-          <h3>{{ .title | markdownify }}</h3>
-          <p>{{ .description | markdownify }}</p>
+            <h3>{{ .title | markdownify }}</h3>            
+            <p>{{ .description | markdownify }}</p>
         </div>
     </div>
 </section>
