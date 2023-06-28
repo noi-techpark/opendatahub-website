@@ -5,52 +5,36 @@
 */}}
 
 {{"<!-- Double Column Imgs that can be alarged with a click - Text -->" | safeHTML }}
-
-
-
-<script>
-    function deActiveBiggerImages(){
-        var windowWidth = window.innerWidth;
-        var btn = document.getElementById("btn-img{{ sha1 .img_back }}"); 
-        if (windowWidth < 1200) {
-            console.log("Window width is less than 1200px");
-            btn.style.cursor = "default";
-            btn.setAttribute("data-target", "");
-            closeModal();
-        }else{
-            console.log("Window width is equal or greater than 1200px");
-            btn.style.cursor = "pointer";
-            btn.setAttribute("data-target", "#Modal-img-text{{ sha1 .img_back }}");
-        }
-    }          
-    window.addEventListener('resize', deActiveBiggerImages);
-</script>
-
 <section class="imgs-text-elarged">
     <div class="container">
-        <div class="col-12 col-lg-6 imgs">
-            <button type="button" class="button-img" data-toggle="modal" data-target="#Modal-img-text{{ sha1 .img_back }}" id="btn-img{{ sha1 .img_back }}">
-                <script>deActiveBiggerImages();</script>
-                <img src="{{ .img_back }}" class="main-img">
-            </button>
-            <div class="modal fade" id="Modal-img-text{{ sha1 .img_back }}">
-                <div class="modal-dialog modal-lg" style="margin-top: 20vh">
-                    <div class="modal-content" id="modal-content{{ sha1 .img_back }}">
-                        <div class="modal-body text-center">
-                            <button type="button" class="close" data-dismiss="modal">
-                                <span aria-hidden="true">&times;</span>
-                                <span class="sr-only"></span>
-                            </button>
-                            <img src="{{ .img_back }}" class="img-elarged">
+        <div class="row gy-4 justify-content-between align-items-center py-4">
+			<div class="col-12 col-lg-4 m-lg-0">
+				<button type="button" class="btn btn-primary bg-transparent border-0" data-bs-toggle="modal" data-bs-target="#Modal-text-img{{ sha1 .img_back }}">
+                    <img src="{{ .img_back }}">
+                </button>
+                <div class="modal fade " id="Modal-text-img{{ sha1 .img_back }}" tabindex="-1" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header border-0">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="{{ .img_back }}" class="mw-100">
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="col-12 col-lg-6">
-            <h3>{{ .title | markdownify }}</h3>            
-            <p>{{ .description | markdownify }}</p>
-        </div>
+			</div>
+			<div class="col-12 col-lg-6 m-lg-0">
+				{{ with .subtitle }}<h2 class="subtitle">{{ . | markdownify }}</h2>{{ end }}
+				<h3>{{ .title | markdownify }}</h3>
+				<p>{{ .description | markdownify }}</p>
+
+				{{ if and (isset . "btn_link") (isset . "btn_label") }}
+				<a {{ if .target_blank }}target="_blank"{{ end }} href="{{.btn_link}}" class="btn btn-primary">{{ .btn_label | markdownify }}</a>
+				{{ end }}
+			</div>
+		</div>
     </div>
 </section>
 {{"<!-- /Double Column Imgs that can be alarged with a click - Text -->" | safeHTML }}
