@@ -1,6 +1,14 @@
-/* SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+/*
+SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
 
-SPDX-License-Identifier: AGPL-3.0-or-later */
+SPDX-License-Identifier: AGPL-3.0-or-later
+*/
+
+/*
+  Please add to this file or create new custom stylesheets only if absolutely necessary!
+  Try to work as much as possible with Bootstrap styling directly on elements to keep everything responsive and looking good on mobile
+  If you do make changes or add new styling make sure everything is responsive and looks as good if not better on mobile
+*/
 
 @font-face {
   font-family: "icomoon";
@@ -17,6 +25,7 @@ body {
   font-family: "Open Sans", Arial, sans-serif;
 }
 
+/* General section spacing */
 section:not(.mt-5) {
   margin-top: 5rem;
 }
@@ -25,32 +34,17 @@ section > section:not(.mt-5) {
   margin-top: 0;
 }
 
-.bg-darker {
-  background: #f5f5f5;
-}
-
-a {
-  text-decoration: none !important;
-}
-
-.bg-black,
-.bg-black a {
-  color: white;
-}
-
-ul.no-bullets {
-  list-style-type: none;
-}
-
-footer a {
-  color: white;
-  line-height: 1.8;
-}
-
+/* No media bigger than viewport */
 img, iframe {
   max-width: 100% !important;
 }
 
+/* Dark sections */
+.bg-darker {
+  background: #f5f5f5;
+}
+
+/* Text styling */
 h1 {
   line-height: 1.1;
 }
@@ -70,6 +64,24 @@ h3 {
   font-weight: 500;
 }
 
+a {
+  text-decoration: none !important;
+}
+
+.bg-black,
+.bg-black a {
+  color: white;
+}
+
+footer a {
+  line-height: 1.8;
+}
+
+ul.no-bullets {
+  list-style-type: none;
+}
+
+/* Buttons */
 .btn {
   border: none !important;
   border-radius: 4px !important;
@@ -84,6 +96,7 @@ h3 {
   font-weight: bold;
 }
 
+/* Navbar */
 .nav-link,
 .dropdown-item {
   font-size: 0.8rem;
@@ -107,40 +120,38 @@ h3 {
   height: 2rem;
 }
 
-.dataset-contact-us-text a {
-  font-weight: bold;
+/* Dataset single page */
+.dataset-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 4rem;
 }
 
-.dataset-content table {
-  margin-bottom: 4rem;
+.dataset-content table th,
+.dataset-content table td {
+  padding: 10px 0;
+  border-bottom: 1px solid #cccccc;
+  line-height: 1.8;
 }
 
 .dataset-content table th {
   visibility: hidden;
 }
 
-table td a {
-  word-break: break-all;
-}
-
-table td:first-child {
+.dataset-content table td:first-child {
   color: #555555;
   padding-right: 1rem;
 }
 
-table {
-  width: 100%;
-  border-collapse: collapse;
-  /* border-top: 3px solid #cccccc; */
+.dataset-content table td a {
+  word-break: break-all;
 }
 
-th,
-td {
-  padding: 10px 0;
-  border-bottom: 1px solid #cccccc;
-  line-height: 1.8;
+.dataset-contact-us-text a {
+  font-weight: bold;
 }
 
+/* Quickstart boxes */
 .quickstart-box .btn {
   transition: all 0.3s ease-out;
 }
@@ -149,6 +160,7 @@ td {
   transform: translateX(7px);
 }
 
+/* Event boxes */
 .event-card {
   transition: box-shadow 0.5s ease-in-out;
   -webkit-box-shadow: 0px 0px 9px 1px rgba(150, 150, 150, 0);
@@ -161,11 +173,13 @@ td {
   box-shadow: 0px 0px 9px 1px rgba(150, 150, 150, 0.7);
 }
 
+/* Spinner (Loader) */
 #custom-spinner {
   /* Above navbar */
   z-index: 1040
 }
 
+/* Footer media icons */
 @media (min-width: 768px) {
   .media-icon {
     width: 50% !important;
@@ -178,6 +192,7 @@ td {
   }
 }
 
+/* Form elements */
 select,
 option,
 input {
@@ -254,7 +269,7 @@ input:focus {
   outline: none;
 }
 
-/* Contact Form */
+/* Contact form */
 #contact-form select,
 #contact-form input,
 #contact-form textarea {
