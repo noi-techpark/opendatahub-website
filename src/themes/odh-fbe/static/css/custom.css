@@ -236,7 +236,7 @@ input:focus-visible {
   display: flex;
 }
 
-.slide {
+#slides-container .slide {
   min-width: 100%;
 }
 
