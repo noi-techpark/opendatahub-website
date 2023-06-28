@@ -19,7 +19,7 @@
 
   <div class="row gy-4 my-lg-0">
     <div class="col-12 col-lg-7">
-      <p class="dataset-content py-3">{{ .Content }}</p>
+      <div class="dataset-content py-3">{{ .Content }}</div>
       {{ with .Params.example_link}}
         <a href="{{ . }}" class="btn bg-primary-subtle mt-4" target="_blank">See example</a>
       {{ end }}
