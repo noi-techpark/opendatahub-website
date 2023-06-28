@@ -1,0 +1,41 @@
+{{/*
+	SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+
+	SPDX-License-Identifier: AGPL-3.0-or-later
+*/}}
+<div class="col-lg-6">
+  <a target="_blank" href="{{ .page.Params.button_link }}">
+    <div class="h-100 d-flex flex-column align-items-center {{ if .darker }}bg-darker{{ else }}bg-white{{ end }} event-card">
+      <div class="ratio ratio-21x9 w-100">
+        <img class="p-2 p-md-3 p-lg-4 p-xl-5 object-fit-cover" src="{{ .page.Params.img }}" alt="{{ .page.Params.img_alt }}" />
+      </div>
+      <div class="flex-grow-1 p-4 d-flex flex-column align-items-start">
+        <h4>{{ .page.Title }}</h4>
+        <div class="text-muted">{{ .page.Content }}</div>
+  
+        <div class="mt-lg-5 mt-3 flex-grow-1">
+          {{ with .page.Params.day }}
+          <div>
+            <span class="fa fa-calendar-o"></span>
+            <span>{{ dateFormat "Monday, Jan 2, 2006" . }}</span>
+          </div>
+          {{ end }}
+          {{ with .page.Params.time }}
+          <div>
+            <span class="fa fa-clock-o"></span>
+            <span>{{ . }}</span>
+          </div>
+          {{ end }}
+          {{ with .page.Params.location }}
+          <div>
+            <span class="fa fa-thumb-tack"></span>
+            <span>{{ . }}</span>
+          </div>
+          {{ end }}
+        </div>
+  
+        <div class="mt-5 btn btn-primary">{{ .page.Params.button_label }}</div>
+      </div>
+    </div>
+  </a>
+</div>

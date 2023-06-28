@@ -1,7 +1,7 @@
 ---
 type: events/single
 content_partial: table-program-press-release
-position: "bootcamp23"
+position: "Events"
 url: "/events/bootcamp23"
 aliases:
   - "/events/bootcamp"

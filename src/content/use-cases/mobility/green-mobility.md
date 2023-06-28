@@ -1,5 +1,5 @@
 ---
-position: "green-mobility"
+position: "Use Cases"
 aliases:
   - "/use-cases/green-mobility"
   - "/use-cases-green-mobility"
@@ -20,12 +20,12 @@ start:
   title: "**Real-time e-charging stations**"
   subtitle: An interactive map that shows a large set of e-charging stations together with important real-time information.
   img_back: "/img/use-cases/ODH-usecase-GREENMOBILITY-image-01.jpg"
-  partial: title-img.html
+  partial: title-cta.html
 
 paragraphs:
   - description: "The map, which brings together an extensive network of electric vehicle charging stations from different suppliers, is an important building block in bringing e-mobility closer to the people."
     img_back: "/img/use-cases/ODH-usecase-GREENMOBILITY-image-02.jpg"
-    partial: imgs-text-enlargeable.html
+    partial: col-imgs-text.html
 
   - description: "The data from the different providers are collected in the Open Data Hub and are available as open data, which means they can be integrated into other platforms and applications without restriction."
     img_back: "/img/use-cases/ODH-usecase-GREENMOBILITY-image-03.jpg"
@@ -38,7 +38,7 @@ paragraphs:
     img_back: "/img/use-cases/ODH-usecase-GREENMOBILITY-image-04.jpg"
     btn_link: "https://webcomponents.opendatahub.com/webcomponent/98013c75-f27c-414e-aff9-c58ed760e791?from=%2F"
     btn_label: DISCOVER THE WEBCOMPONENT
-    partial: imgs-icon-text-margin.html
+    partial: imgs-icon-text.html
 
   - description: "Do you want to develop a new application with this data?"
     img_back: "/img/use-cases/ODH-usecase-GREENMOBILITY-image-05.jpg"
@@ -50,9 +50,9 @@ paragraphs:
     img_back: "/img/use-cases/ODH-usecase-GREENMOBILITY-image-06.jpg"
     btn_link: "https://opendatahub.com/services/data-sharing/"
     btn_label: DISCOVER HOW TO SHARE YOUR DATA
-    partial: imgs-icon-text-margin.html
+    partial: imgs-icon-text.html
 
   - description: "The interactive map is provided by STA - Strutture Trasporto Alto Adige SpA in cooperation with Open Data Hub. The operators involved are Alperia Smart Mobility, DRIWE, Nevicam, Route220 and the Institute for Innovative Technologies (IIT)."
     img_back: "/img/use-cases/ODH-usecase-GREENMOBILITY-image-07.jpg"
-    partial: text-imgs.html
+    partial: col-text-imgs.html
 ---

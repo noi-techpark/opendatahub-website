@@ -5,8 +5,7 @@
 */}}
 
 {{ define "main" }}
-	
-{{ partial "nav.html" . }}
+
 {{ partial "title.html" .Params }}
 
 {{ range .Params.rows }}
@@ -15,7 +14,7 @@
     </div>
 {{ end }}
 
-{{ if eq .Params.position "data-access" }}
+{{ if isset .Params "show_table" }}
     {{ partial "title.html" site.Data.services.pricing }}
     {{ partial "table-comparison.html" site.Data.services.pricing}}
 {{ end }}

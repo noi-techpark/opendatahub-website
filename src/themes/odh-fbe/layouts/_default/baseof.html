@@ -10,9 +10,9 @@
     {{ partial "header.html" . }}
   </head>
 
-  <body>
+  <body class="pt-5">
     <!-- Loader -->
-    <div class="fh5co-loader"></div>
+    {{/*  <div class="fh5co-loader"></div>
     <div class="fh5co-page">
       <header class="sm-header">
         <a href="/" class="logo"
@@ -20,9 +20,11 @@
         /></a>
         <span id="nav-hamburger-ct"><span>
       </header>
-      <div id="fh5co-container">{{- block "main" . }}{{- end }}</div>
-    </div>
-
-    {{ partial "js.html" .}} {{partial "footer.html" .}}
+      <div id="fh5co-container"></div>
+    </div>  */}}
+    {{ partial "spinner.html" . }}
+    {{ partial "nav.html" . }}
+    {{- block "main" . }}{{- end }}
+    {{ partial "footer.html" . }}
   </body>
 </html>

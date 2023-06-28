@@ -27,7 +27,7 @@ function setCookie(cname, cvalue, exdays) {
 
 if (getCookie("filterValue")) {
     filterDatasets(getCookie("filterValue"));
-    const selector = document.querySelector(".availability-select");
+    const selector = document.querySelector("#availability-select");
     const options = selector.querySelectorAll("option");
     options.forEach((e) => {
         if (e.value === getCookie("filterValue")) e.selected = true;
@@ -39,9 +39,9 @@ if (getCookie("filterValue")) {
 function filterDatasets(option) {
     setCookie("filterValue", option, 180);
     const noDatasets = document.querySelector(".no-datasets");
-    const cards = document.querySelectorAll(`.card`);
+    const cards = document.querySelectorAll(`.dataset-card`);
 
-    noDatasets.classList.remove("show");
+    noDatasets.classList.add("d-none");
     
     let count = 0;
     cards.forEach(card => {
@@ -53,5 +53,5 @@ function filterDatasets(option) {
         }
     });
 
-    if (count === cards.length) noDatasets.classList.add("show");
+    if (count === cards.length) noDatasets.classList.remove("d-none");
 }

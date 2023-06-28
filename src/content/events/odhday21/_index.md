@@ -1,7 +1,7 @@
 ---
 type: events/single
 content_partial: table-program
-position: "odhday21"
+position: "Events"
 aliases:
   - "/events/odhday21"
   - "/odhday21"

@@ -4,10 +4,6 @@
 	SPDX-License-Identifier: AGPL-3.0-or-later
 */}}
 
-<div class="gototop js-top">
-  <a href="#" class="js-gotop"><i class="fa fa-angle-up"></i></a>
-</div>
-
 {{ range .Site.Params.plugins.js}}
 	<script src="{{ .URL | absURL }}"></script>
 {{ end }}

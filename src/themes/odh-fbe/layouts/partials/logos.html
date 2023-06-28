@@ -6,14 +6,14 @@
 
 {{"<!-- Company logos -->" | safeHTML }}
 <div class="container">
-
-    {{ range .item }}
-      <div class="col-md-3">
+  <div class="row">
+    {{ range .items }}
+      <div class="col-4 col-lg-3 col-xl-2">
         <a href="{{ .link }}" target="_blank">
           <img src="{{ .img | absURL }}" alt="{{.name}}" class="img-responsive">
         </a>
       </div>
     {{ end }}
-    
+  </div>
 </div>
 {{" <!-- / Logos -->" | safeHTML }}

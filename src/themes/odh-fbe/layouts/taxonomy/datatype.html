@@ -6,24 +6,25 @@
 
 {{ define "main" }}
 
-{{ partial "nav.html" . }}
 {{ partial "title-select.html" .Params }}
 
-<div class="datasets container">
-	{{ range .Pages.ByTitle.ByWeight }}
-	<a href="{{ .Permalink }}" class="col-lg-3 card" data-availability="{{.Params.availability}}">
-		<div>
-			<div class="square bg-center-cover">
-				<img src="{{ .Params.img }}" alt="{{ .Params.img_alt }}" />
+<div class="datasets container mt-5">
+	<div class="row gy-5">
+		{{ range .Pages.ByTitle.ByWeight }}
+		<a href="{{ .Permalink }}" class="col-6 col-md-4 col-lg-3 dataset-card" data-availability="{{.Params.availability}}">
+			<div class="ratio ratio-1x1">
+				<img class="object-fit-cover h-100 w-100" src="{{ .Params.img }}" alt="{{ .Params.img_alt }}" />
 			</div>
-			<div class="title">{{ .Title }}</div>
-			<div class="tags">
-				{{ .Params.datatype }} | {{ .Params.availability_label }}
+			<div class="py-4">
+				<h5 class="fw-bold dataset-card-title" >{{ .Title }}</h5>
+				<div class="text-muted">
+					{{ .Params.datatype }} | {{ .Params.availability_label }}
+				</div>
 			</div>
-		</div>
-	</a>
-	{{ end }}
-	<p class="no-datasets text-center d-flex align-items-center justify-content-center">
+		</a>
+		{{ end }}
+	</div>
+	<p class="no-datasets text-center d-none mt-5 pt-3">
 		There are no datasets that match your selection.
 	</p>
 </div>

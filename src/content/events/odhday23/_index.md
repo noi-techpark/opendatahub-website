@@ -1,7 +1,7 @@
 ---
 type: events/single
 content_partial: table-program-press-release
-position: "Odhday23"
+position: "Events"
 url: "/events/odhday23/"
 aliases:
   - "/events/odhday"

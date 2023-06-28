@@ -36,11 +36,11 @@ function removeDuplicates(arr) {
     return arr;
 }
 
-function getLogos(hiddenStorage) {
+function getLogos(data) {
     let logos = [];
 
-    for (let i = 0; i < hiddenStorage.children.length; i++) {
-        const e = hiddenStorage.children[i];
+    for (let i = 0; i < data.children.length; i++) {
+        const e = data.children[i];
         const singleProvider = {};
         singleProvider.name = eqs(e, ".name").innerHTML;
         singleProvider.img = eqs(e, ".img").innerHTML;
@@ -60,7 +60,12 @@ function populateContainer(container, logos, logosNum, minLogosNum) {
     for (let i = 0; i < slidesNum; i++) {
 
         const slide = dce("div");
-        slide.classList.add("slide", "container");
+        slide.classList.add("slide", "px-2");
+
+        const row = dce("div");
+        row.classList.add("row");
+
+        slide.appendChild(row);
 
         for (let j = 0; j < logosNum; j++) {
 
@@ -69,7 +74,7 @@ function populateContainer(container, logos, logosNum, minLogosNum) {
             const {name, img, link} = logos.pop();
 
             const div = dce("div");
-            div.classList.add("col-md-3");
+            div.classList.add("col-4", "col-lg-3");
 
             const anchor = dce("a");
             anchor.href = link;
@@ -82,8 +87,7 @@ function populateContainer(container, logos, logosNum, minLogosNum) {
             
             anchor.appendChild(image);
             div.appendChild(anchor);
-            slide.appendChild(div);
-
+            row.appendChild(div);
         }
 
         container.appendChild(slide);
@@ -94,10 +98,10 @@ function populateContainer(container, logos, logosNum, minLogosNum) {
     return container;
 }
 
-const container = dqs(".hidden-storage");
-const arr = getLogos(container);
+const data = dqs("#community-data");
+const arr = getLogos(data);
 const logLen = arr.length;
-const slidesContainer = dqs(".slides-container");
+const slidesContainer = dqs("#slides-container");
 
 const logosNum = 12;
 const minLogosNum = 6;
@@ -111,8 +115,8 @@ let secondChild;
 let intervalID;
 
 function shiftRight() {
-    firstChild = dqs(".slides-container>:nth-child(1)")
-    secondChild = dqs(".slides-container>:nth-child(2)")
+    firstChild = dqs("#slides-container>:nth-child(1)")
+    secondChild = dqs("#slides-container>:nth-child(2)")
 
     firstChild.classList.add("shift-left-once")
     secondChild.classList.add("shift-left-once")
