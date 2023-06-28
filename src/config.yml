@@ -36,7 +36,6 @@ params:
       - URL: >-
           https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
       - URL: https://scripts.opendatahub.testingmachine.eu/cookieconsent/opendatahub/cookieconsent.css
-      - URL: /css/biggerImagesPartial.css
 
     js:
       - URL: /js/jquery.min.js
