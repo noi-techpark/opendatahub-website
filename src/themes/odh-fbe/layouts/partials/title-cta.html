@@ -19,14 +19,7 @@
             <div class="col-lg-1 m-0"></div>
             <div class="col-12 col-lg d-flex justify-content-center justify-content-lg-end m-lg-0">
                 {{ if isset . "video"}}
-                <div class="ratio ratio-16x9">
-                    <iframe
-                        src="{{ .video }}"
-                        frameborder="0"
-                        allow="autoplay; fullscreen;"
-                        allowfullscreen>
-                    </iframe>
-                </div>
+                {{ partial "video-iframe.html" . }}
                 {{ else }}
                 <img src="{{ .img_back }}" />
                 {{ end }}

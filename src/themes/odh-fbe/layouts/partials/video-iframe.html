@@ -1,0 +1,18 @@
+{{/*
+	SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+
+	SPDX-License-Identifier: AGPL-3.0-or-later
+*/}}
+
+<div class="ratio ratio-16x9">
+  <iframe id="{{ .video }}" frameborder="0" allow="autoplay; fullscreen;" allowfullscreen src="/blocked-iframe.html"></iframe>
+</div>
+<script type="text/plain" data-cookiecategory="other">
+  {
+    let videoURL = "{{ .video }}";
+    let iframe = document.getElementById(videoURL);
+
+    iframe.innerHTML = "";
+    iframe.src = videoURL;
+  }
+</script>
