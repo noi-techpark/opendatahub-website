@@ -96,5 +96,11 @@ function setupContactForm() {
   if (form) {
     form.addEventListener("submit", sendForm);
   }
-
 }
+
+// Enable smooth scrolling on full page load
+document.addEventListener('readystatechange', event => { 
+  if (event.target.readyState === "complete") {
+      document.querySelector("html").style.setProperty("scroll-behavior", "smooth", "important");
+  }
+});
