@@ -18,10 +18,11 @@
 				{{ end }}
 			</div>
 			<div class="col-12 col-lg-4 m-lg-0 m-lg-0">
-				<button type="button" class="btn btn-primary bg-transparent border-0" data-bs-toggle="modal" data-bs-target="#Modal-text-img{{ sha1 .img_back }}">
+				<button type="button" class="btn btn-primary bg-transparent border-0 btn-xl" id="btn-img-open" data-bs-toggle="modal" data-bs-target="#Modal-text-img{{ sha1 .img_back }}">
                     <img src="{{ .img_back }}">
                 </button>
-                <div class="modal fade " id="Modal-text-img{{ sha1 .img_back }}" tabindex="-1" aria-hidden="true">
+
+                <div class="modal fade modalClose" id="Modal-text-img{{ sha1 .img_back }}" tabindex="-1" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header border-0">

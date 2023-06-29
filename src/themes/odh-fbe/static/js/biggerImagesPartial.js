@@ -7,7 +7,6 @@ function closeModal() {
 
   if (modalElements.length > 0) {
     let bootstrapModal = bootstrap.Modal.getInstance(modalElements[0]);
-
     if (bootstrapModal) {
       bootstrapModal.hide();
     }
@@ -16,7 +15,7 @@ function closeModal() {
 
 function deActiveBiggerImages(){
         let windowWidth = window.innerWidth;
-        let btns = document.querySelectorAll("#btn-img-open");       
+        let btns = document.querySelectorAll("#btn-img-open");
 
         if (windowWidth < 992) {
             console.log("Window width is less than 992px");
@@ -39,3 +38,4 @@ window.addEventListener('resize', deActiveBiggerImages)
 document.addEventListener("DOMContentLoaded", deActiveBiggerImages);
 
 window.addEventListener("load", deActiveBiggerImages);
+

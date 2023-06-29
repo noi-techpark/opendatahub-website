@@ -48,7 +48,7 @@ paragraphs:
     
   - description: "The test phase demonstrated that a bike sharing service can be useful even in a small alpine town with a high rate of cycling. However, the service must meet very specific mobility demands, such as linking the city center to the train station, and must be a complementary mode of transport to public transportation. An intriguing challenge for future expansion could be to promote the service in more outlying areas of the city (or even in nearby municipalities) by using electric bikes to make longer trips easier."
     img_back: "/img/use-cases/ODH-usecase-mentor-image-06.jpg"
-    partial: imgs-text-enlargeable.html
+    partial: col-imgs-text.html
 
   - title: "**Bike Boxen**"
     subtitle: "To encourage cycling in the city, one of the issues that needs to be addressed is finding a secure place to park bicycles. To tackle this problem, a group of South Tyrolean companies collaborated to introduce two 'bike boxen' stations that can accommodate up to 24 bicycles each (two bikes in one box). Twelve of these are located at the Maia Bassa railway station, the other 12 on the promenade in front of the thermal baths, near Ponte Teatro. Use is free of charge, but limited to a maximum of 24 hours. The boxes meet high safety requirements and also offer weather protection for bicycles and accessories (helmets, bags, backpacks, etc.). It is recommended that bicycles also be locked in the box with a personal padlock." 
