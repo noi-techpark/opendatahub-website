@@ -50,6 +50,7 @@ params:
       # instead we call the custom init script
       # - URL: https://scripts.opendatahub.testingmachine.eu/cookieconsent/cookieconsent-init.js
       - URL: /js/cookieconsent-init.js
+      - URL: /js/biggerImagesPartial.js
 
 
   footer:
