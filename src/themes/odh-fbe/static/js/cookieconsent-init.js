@@ -31,7 +31,11 @@ cc.run({
 
     onAccept: function (cookie) {},
 
-    onChange: function (cookie, changed_preferences) {},
+    onChange: function (cookie, changed_preferences) {
+        if (!cookie.categories.includes("targeting")) {
+            location.reload();
+        }
+    },
 
     languages: {
         'en': {
@@ -70,40 +74,14 @@ cc.run({
                             readonly: true
                         }
                     }, {
-                        title: 'Advertisement and Targeting cookies',
-                        description: 'These cookies collect information about how you use the website, which pages you visited and which links you clicked on. All of the data is anonymized and cannot be used to identify you',
+                        title: 'Third party cookies',
+                        description: 'These cookies collect information about how you use the website, which pages you visited and which links you clicked on.',
                         toggle: {
                             value: 'targeting',
                             enabled: false,
                             readonly: false
                         }
                     }, {
-                        title: 'Other cookies',
-                        description: 'These cookies allow the website to use extended functionality like playing videos via Vimeo or Youtube',
-                        toggle: {
-                            value: 'other',
-                            enabled: false,
-                            readonly: false
-                        },
-                        // cookie_table: [
-                        //     {
-                        //         col1: '__cf_bm',
-                        //         col2: 'vimeo.com',
-                        //         col3: '',
-                        //     },
-                        //     {
-                        //         col1: 'vuid',
-                        //         col2: 'vimeo.com',
-                        //         col3: '1 Month',
-                        //     },
-                        //     {
-                        //         col1: 'player',
-                        //         col2: 'vimeo.com',
-                        //         col3: '',
-                        //     },
-                        // ]
-                    },
-                    {
                         title: 'More information',
                         description: 'For any questions in relation to our policy on cookies and your choices, please contact us at info@opendatahub.com',
                     }
