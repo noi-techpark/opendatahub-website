@@ -4,6 +4,10 @@
 
 var cc = initCookieConsent();
 
+// Set it as property of window to access it in iframes
+var frame = document.querySelector("iframe");
+frame.contentWindow.cc = cc;
+
 // run plugin with config object
 cc.run({
     current_lang : "en",
@@ -77,27 +81,27 @@ cc.run({
                         title: 'Other cookies',
                         description: 'These cookies allow the website to use extended functionality like playing videos via Vimeo or Youtube',
                         toggle: {
-                            value: 'other',     // there are no default categories => you specify them
+                            value: 'other',
                             enabled: false,
                             readonly: false
                         },
-                        cookie_table: [
-                            {
-                                col1: '__cf_bm',
-                                col2: 'vimeo.com',
-                                col3: '',
-                            },
-                            {
-                                col1: 'vuid',
-                                col2: 'vimeo.com',
-                                col3: '1 Month',
-                            },
-                            {
-                                col1: 'player',
-                                col2: 'vimeo.com',
-                                col3: '',
-                            },
-                        ]
+                        // cookie_table: [
+                        //     {
+                        //         col1: '__cf_bm',
+                        //         col2: 'vimeo.com',
+                        //         col3: '',
+                        //     },
+                        //     {
+                        //         col1: 'vuid',
+                        //         col2: 'vimeo.com',
+                        //         col3: '1 Month',
+                        //     },
+                        //     {
+                        //         col1: 'player',
+                        //         col2: 'vimeo.com',
+                        //         col3: '',
+                        //     },
+                        // ]
                     },
                     {
                         title: 'More information',
