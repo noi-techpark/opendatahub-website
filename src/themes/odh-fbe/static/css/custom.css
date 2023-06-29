@@ -25,6 +25,10 @@ SPDX-License-Identifier: AGPL-3.0-or-later
   --border-radius: 4px;
 }
 
+html {
+  scroll-behavior: auto !important;
+}
+
 body {
   font-family: "Open Sans", Arial, sans-serif;
 }
@@ -68,6 +72,7 @@ h3 {
   font-weight: 500;
 }
 
+/* Links */
 a {
   text-decoration: none !important;
 }
@@ -77,10 +82,12 @@ a {
   color: white;
 }
 
-footer a {
+footer a,
+.toc a {
   line-height: 1.8;
 }
 
+/* Lists */
 ul.no-bullets {
   list-style-type: none;
 }
@@ -331,5 +338,38 @@ input:focus-visible {
 }
 
 #contact-form.reason-data-sharing .data-sharing {
+  display: block !important;
+}
+
+/* Video TOC */
+.toc-section-link a,
+.toc-video-link {
+  transition: color 0.15s ease-in-out;
+}
+
+.toc-section-link:hover a,
+.toc-section-link:hover i:before,
+.toc-section-link[data-selected=true] a,
+.toc-section-link[data-selected=true] i:before {
+  color: black !important;
+}
+
+.toc-video-link:hover {
+  color: black !important;
+}
+
+.toc-video-link strong {
+  font-weight: normal;
+}
+
+.toc-section-link[data-selected=true] .fa-caret-down {
+  display: inline !important;
+}
+
+.toc-section-link[data-selected=false] .fa-caret-right {
+  display: inline !important;
+}
+
+.toc-video-links[data-visible=true] {
   display: block !important;
 }
