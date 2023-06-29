@@ -10,6 +10,7 @@
 {{ partial "video-table-of-contents" site.Data.events.video_library }}
 
 {{ range site.Data.events.video_library }}
+    <a id="{{ .title }}"></a>
     <section>
         {{ partial "col-text-imgs.html" . }}
     </section>

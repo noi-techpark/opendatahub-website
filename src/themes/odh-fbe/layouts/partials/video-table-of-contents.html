@@ -5,28 +5,52 @@
 */}}
 
 {{" <!-- Video TOC -->" | safeHTML }}
-<section class="toc">
+<section class="toc mt-3">
   <div class="container">
-    <ul>
-      {{ range . }}
-        <div class="section" tabindex="" onclick="this.dataset.selected = this.dataset.selected === 'false'" data-selected="false">
-          <li>
-            <i class="fa fa-caret-right" aria-hidden="true"></i>
-            <i class="fa fa-caret-down" aria-hidden="true"></i>
-            <a class="title-link">{{ .title | markdownify }}</a>
-          </li>
-          <div class="video-links">
-            <ul>
-              {{ range .videos }}
-                <li>
-                  <a href="/events/video-library/#{{ sha1 .video }}" class="video-link">{{ .title | markdownify }}</a>
-                </li>
-              {{ end }}
-            </ul>
+    {{ range . }}
+    <div class="d-flex">
+      <ul class="no-bullets">
+        <li class="toc-section-link d-flex align-items-center text-muted" data-selected="false">
+          <a class="text-nowrap text-muted" href="#{{ .title }}" >{{ .title | markdownify }}</a>
+          <div
+          class="px-2 toc-caret-wrapper mx-2"
+          role="button"
+          tabindex=""
+
+          onclick="
+          // Set carets
+          document.querySelectorAll('.toc-section-link').forEach((e) => {
+            if (!e.contains(this)) {
+              e.dataset.selected = false
+            } else {
+              e.dataset.selected = e.dataset.selected === 'false';
+            }
+          });
+          
+          // Set video links
+          document.querySelectorAll('.toc-video-links').forEach((e) => {
+            if (e.id !== {{ sha1 .title }}) {
+              e.dataset.visible = false
+            } else {
+              let subMenu = document.getElementById({{ sha1 .title }});
+              subMenu.dataset.visible = subMenu.dataset.visible === 'false'
+            }
+          });
+          ">
+            <i class="fa fa-caret-down d-none" aria-hidden="true"></i>
+            <i class="fa fa-caret-right d-none" aria-hidden="true"></i>
           </div>
-        </div>
-      {{ end }}
-    </ul>
+        </li>
+      </ul>
+      <ul id="{{ sha1 .title }}" class="no-bullets d-none toc-video-links ps-0 flex-shrink-1" data-visible="false">
+        {{ range .videos }}
+          <li>
+            <a class="toc-video-link text-muted" href="/events/video-library/#{{ sha1 .video }}">{{ .title | markdownify }}</a>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+    {{ end }}
   </div>
 </section>
 {{" <!-- /Video TOC -->" | safeHTML }}
