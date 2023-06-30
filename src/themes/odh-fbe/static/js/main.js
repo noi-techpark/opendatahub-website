@@ -17,20 +17,6 @@ function spinnerFadeOut() {
 }
 
 function setupGototop() {
-  $(".js-gotop").on("click", function (event) {
-    event.preventDefault();
-
-    $("html, body").animate(
-      {
-        scrollTop: $("html").offset().top,
-      },
-      500,
-      "easeInOutExpo"
-    );
-
-    return false;
-  });
-
   $(window).scroll(function () {
     let $win = $(window);
     if ($win.scrollTop() > 200) {
