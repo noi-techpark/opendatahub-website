@@ -21,14 +21,12 @@ function deActiveBiggerImages(){
         let btns = document.querySelectorAll("#btn-img-open");
 
         if (windowWidth < 992) {
-            console.log("Window width is less than 992px");
             btns.forEach((e) => {
                 e.setAttribute("data-bs-toggle", "");
                 e.style.cursor = "default";
             })
             closeModal();
         }else{
-            console.log("Window width is equal or greater than 992px");
             btns.forEach((e) => {
                 e.setAttribute("data-bs-toggle", "modal");
                 e.style.cursor = "pointer";
