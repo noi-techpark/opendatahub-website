@@ -35,7 +35,8 @@ function deActiveBiggerImages(){
             })
         }
 }          
-window.addEventListener('resize', function() {
-    deActiveBiggerImages();
-});
+window.addEventListener('resize', deActiveBiggerImages);
 
+document.addEventListener("DOMContentLoaded", deActiveBiggerImages);
+
+window.addEventListener("load", deActiveBiggerImages);
