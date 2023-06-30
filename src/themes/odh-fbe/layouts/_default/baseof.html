@@ -11,17 +11,6 @@
   </head>
 
   <body class="pt-5">
-    <!-- Loader -->
-    {{/*  <div class="fh5co-loader"></div>
-    <div class="fh5co-page">
-      <header class="sm-header">
-        <a href="/" class="logo"
-          ><img src={{ .Site.Params.logo | absURL }} height="40" alt=""
-        /></a>
-        <span id="nav-hamburger-ct"><span>
-      </header>
-      <div id="fh5co-container"></div>
-    </div>  */}}
     {{ partial "spinner.html" . }}
     {{ partial "nav.html" . }}
     {{- block "main" . }}{{- end }}
