@@ -47,7 +47,6 @@ params:
       - URL: /js/table-comparison.js
       - URL: https://scripts.opendatahub.com/cookieconsent/cookieconsent.js
       - URL: https://scripts.opendatahub.com/cookieconsent/cookieconsent-init.js
-      - URL: /js/cookieconsent-init.js
       - URL: /js/biggerImagesPartial.js
 
 
