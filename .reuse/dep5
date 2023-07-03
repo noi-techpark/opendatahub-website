@@ -19,7 +19,7 @@ Files: src/themes/odh-fbe/static/css/animate.css.old
 Copyright: (c) 2015 Daniel Eden
 License: MIT
 
-Files: src/themes/odh-fbe/static/css/bootstrap.css.old src/themes/odh-fbe/static/css/bootstrap-v5.css src/themes/odh-fbe/static/css/bootstrap.css.map.old src/themes/odh-fbe/static/js/bootstrap.min.js.old src/themes/odh-fbe/static/js/bootstrap-v5.bundle.min.js
+Files: src/themes/odh-fbe/static/css/bootstrap.css.old src/themes/odh-fbe/static/css/bootstrap-v5.css src/themes/odh-fbe/static/css/bootstrap.css.map.old src/themes/odh-fbe/static/js/bootstrap.min.js.old src/themes/odh-fbe/static/js/bootstrap-v5.bundle.min.js src/themes/odh-fbe/static/js/bootstrap-v5.bundle.min.js.map
 Copyright: Twitter, Inc.
 License: MIT
 
