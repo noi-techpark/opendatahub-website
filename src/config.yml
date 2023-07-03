@@ -117,7 +117,7 @@ params:
 
     copyright: >-
       NOI AG - Via Volta 13/A, I-39100 Bolzano - VAT No.: 02595720216 -
-      Endowment capital 110.740.000 € - <a href="https://noi.bz.it/en/privacy-cookie-policy" target="_blank">Privacy</a> <a onclick="window.cc.showSettings()">Cookies</a>
+      Endowment capital 110.740.000 € - <a href="https://noi.bz.it/en/privacy-cookie-policy" target="_blank">Privacy</a> - <a onclick="window.cc.showSettings()">Cookies</a>
 
 taxonomies:
   datatype: datatype
