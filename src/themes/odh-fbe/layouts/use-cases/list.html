@@ -8,8 +8,8 @@
 
 {{ partial "title-use-cases-select.html" . }}
 
-{{ range $index, $page := sort .RegularPagesRecursive "Params.short.weight" "asc" }}
-  <section {{ if eq (mod $index 2) 0 }}class="bg-darker"{{ end }} id="use-cases">
+{{ range $index, $page := sort .Pages "Params.short.weight" "asc" }}
+  <section {{ if eq (mod $index 2) 0 }}class="bg-darker"{{ end }} id="use-case" data-tags="{{ range .Params.use_case_tags }} {{ . }} {{ end }}">
     {{ partial $page.Params.short.partial $page.Params.short }}
   </section>
 {{ end }}

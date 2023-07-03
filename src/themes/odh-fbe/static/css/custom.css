@@ -220,21 +220,29 @@ ul.no-bullets {
 
 /* Form elements */
 select,
+.select,
 option,
 input {
-    width: 175px;
     padding: 10px;
     background-color: #f5f5f5;
     color: #555555;
     border-color: transparent;
 }
 
+select,
+.select,
+option {
+  width: 175px;
+}
+
 select:focus,
+.select:focus,
 input:focus {
   border-color: #555555;
 }
 
 select:focus-visible,
+.select:focus-visible,
 input:focus-visible {
   outline: none !important;
 }

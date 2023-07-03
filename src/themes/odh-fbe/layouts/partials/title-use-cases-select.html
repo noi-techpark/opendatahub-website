@@ -9,14 +9,50 @@
     {{ partial "title.html" .Params }}
 
     <div class="container">
-        <select onChange="window.location.href=this.value">
+        <div class="select" type="button" data-bs-toggle="collapse" data-bs-target="#useCaseTagsSelect" aria-expanded="false" aria-controls="useCaseTagsSelect">
+            Filter by tags
+        </div>
+        <div class="collapse py-3" id="useCaseTagsSelect">
+            <form onchange="filterUseCases(this)">
+                <div>
+                    {{ range $name, $taxonomy := .Site.Taxonomies.use_case_tags }}
+                        <div class="d-flex align-items-center gap-1 p-1">
+                            <input type="checkbox" name="use_case_tag" value="{{ $name }}">{{ $name | humanize }}</form>
+                        </div>
+                    {{ end }}
+                </div>
+            </form>
+        </div>
+        <script>
+            function filterUseCases(form) {
+                const formData = new FormData(form);
+                const selectedTags = new Set(formData.getAll("use_case_tag"));
+
+                document.querySelectorAll("#use-case").forEach((useCase) => {
+                    if (selectedTags.size === 0) {
+                        useCase.classList.remove("d-none");
+                        return;
+                    }
+
+                    const tags = useCase.dataset.tags.trim().split(" ");
+                    const hasSelectedTag = tags.map((tag) => selectedTags.has(tag)).reduce((acc, current) => acc || current, false);
+
+                    if (hasSelectedTag) {
+                        useCase.classList.remove("d-none");
+                    } else {
+                        useCase.classList.add("d-none")
+                    }
+                })
+            }
+        </script>
+        {{/*  <select onChange="window.location.href=this.value">
             <option value="/use-cases/">All Types</option>
 
             {{ $params := .Params }}
             {{ range .FirstSection.Sections }}
             <option value="/use-cases/{{ lower .Title }}" {{ if eq $params.title .Title }}selected{{ end }}>{{ .Title }}</option>
             {{ end }}
-        </select>
+        </select>  */}}
     </div>
 </section>
 {{" <!-- /Title -->" | safeHTML }}

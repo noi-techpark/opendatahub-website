@@ -3,6 +3,8 @@ position: "Use Cases"
 aliases:
   - "/use-cases/knowledge-graph"
   - "/use-cases-knowledge-graph"
+use_case_tags:
+  - "other"
 
 short:
   subtitle: "KNOWLEDGE GRAPH"

@@ -3,6 +3,9 @@ position: "Use Cases"
 aliases:
   - "/use-cases/green-mobility"
   - "/use-cases-green-mobility"
+use_case_tags:
+  - "traffic"
+  - "mobility"
 
 short:
   subtitle: "GREENMOBILITY"
