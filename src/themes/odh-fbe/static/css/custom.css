@@ -355,36 +355,8 @@ input:focus-visible {
 }
 
 /* Video TOC */
-.toc-section-link a,
-.toc-video-link {
-  transition: color 0.15s ease-in-out;
-}
-
-.toc-section-link:hover a,
-.toc-section-link:hover i:before,
-.toc-section-link[data-selected=true] a,
-.toc-section-link[data-selected=true] i:before {
-  color: black !important;
-}
-
-.toc-video-link:hover {
-  color: black !important;
-}
-
-.toc-video-link strong {
-  font-weight: normal;
-}
-
-.toc-section-link[data-selected=true] .fa-caret-down {
-  display: inline !important;
-}
-
-.toc-section-link[data-selected=false] .fa-caret-right {
-  display: inline !important;
-}
-
-.toc-video-links[data-visible=true] {
-  display: block !important;
+.video-section-title[aria-expanded=false] .fa-caret-up {
+  transform: rotate(180deg);
 }
 /*text for the credit on enlargeable images*/
 #textCreditImage a{
