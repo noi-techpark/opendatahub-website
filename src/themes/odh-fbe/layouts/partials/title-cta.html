@@ -7,9 +7,9 @@
 {{" <!-- Title with Call To Action -->" | safeHTML }}
 <section>
     <div class="container">
-        <div class="row align-items-center gy-4 py-4">
+        <div class="row align-items-center gy-4">
             <div class="col-12 col-lg m-lg-0">
-                <p class="upper">{{ .description | markdownify }}</p>
+                <div class="upper">{{ .description | markdownify }}</div>
                 <h1 class="primary">{{ .title | markdownify }}</h1>
                 {{ with .subtitle }}<h2 class="subtitle">{{ . | markdownify }}</h2>{{ end }}
                 {{ if and (isset . "btn_link") (isset . "btn_label") }}
