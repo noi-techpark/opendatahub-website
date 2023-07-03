@@ -31,15 +31,18 @@ html {
 
 body {
   font-family: "Open Sans", Arial, sans-serif;
+
+  padding-top: 5rem;
 }
 
-/* General section spacing */
-section:not(.mt-5) {
-  margin-top: 5rem;
+@media (max-width: 992px) {
+  body {
+    padding-top: 2rem;
+  }
 }
 
-section > section:not(.mt-5) {
-  margin-top: 0;
+section {
+  margin-top: 3rem;
 }
 
 /* No media bigger than viewport */
@@ -54,6 +57,7 @@ img, iframe {
 
 /* Text styling */
 h1 {
+  font-size: 2.5rem;
   line-height: 1.1;
 }
 
