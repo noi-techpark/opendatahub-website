@@ -17,9 +17,16 @@
 				<a {{ if .target_blank }}target="_blank"{{ end }} href="{{.btn_link}}" class="btn btn-primary">{{ .btn_label | markdownify }}</a>
 				{{ end }}
 			</div>
-			<div class="col-12 col-lg-4 m-lg-0 m-lg-0">
+			<div class="col-12 col-lg-5 m-lg-0 m-lg-0">
 				<button type="button" class="btn btn-primary bg-transparent border-0 btn-xl" id="btn-img-open" data-bs-toggle="modal" data-bs-target="#Modal-text-img{{ sha1 .img_back }}">
-                    <img src="{{ .img_back }}">
+					<div class="w-100 h-100 flex-row-reverse position-relative">
+						<img src="{{ .img_back }}" id="main-image">
+						{{with .image_credit}}
+						<div class="d-inline position-absolute bottom-0 end-0 bg-secondary-subtle bg-opacity-75 rounded m-2" id="imageCredit">
+							<div class="m-2">{{.| markdownify}}</div>
+						</div>
+						{{end}}
+					</div> 
                 </button>
 
                 <div class="modal fade modalClose" id="Modal-text-img{{ sha1 .img_back }}" tabindex="-1" aria-hidden="true">
@@ -31,6 +38,11 @@
                             <div class="modal-body">
                                 <img src="{{ .img_back }}" class="mw-100">
                             </div>
+							{{with .image_summary}}
+                            <div class="modal-footer border-0 flex-row-reverse">                               
+                                    <a>{{.| markdownify}}</a>
+                            </div>
+                            {{end}}
                         </div>
                     </div>
                 </div>
