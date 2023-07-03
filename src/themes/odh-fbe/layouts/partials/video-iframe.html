@@ -5,14 +5,5 @@
 */}}
 
 <div class="ratio ratio-16x9">
-  <iframe id="{{ .video }}" frameborder="0" allow="autoplay; fullscreen;" allowfullscreen src="https://scripts.opendatahub.com/cookieconsent/blocked-iframe.html"></iframe>
+  <iframe frameborder="0" allow="autoplay; fullscreen;" allowfullscreen src="https://scripts.opendatahub.com/cookieconsent/blocked-iframe.html?onAcceptSrc={{ .video }}"></iframe>
 </div>
-<script type="text/plain" data-cookiecategory="targeting">
-  {
-    let videoURL = "{{ .video }}";
-    let iframe = document.getElementById(videoURL);
-
-    iframe.innerHTML = "";
-    iframe.src = videoURL;
-  }
-</script>
