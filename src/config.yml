@@ -121,6 +121,7 @@ params:
 
 taxonomies:
   datatype: datatype
+  use_case_tag: use_case_tags
 
 menu:
   main:

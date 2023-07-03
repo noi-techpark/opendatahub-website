@@ -3,6 +3,8 @@ position: "Use Cases"
 aliases:
   - "/use-cases/kultivas"
   - "/use-cases-kultivas"
+use_case_tags:
+  - "agriculture"
 
 short:
   subtitle: "KULTIVAS"
