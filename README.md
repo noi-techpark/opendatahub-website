@@ -165,7 +165,7 @@ Short description of the event with markdown syntax
 #### **Complex events with Programm page:**
 
 To add a new event page that includes more info you have to do the following steps:
-- Create a folder with the name of the event in the folder /src/content/events (you can use existing event pages such as odhday23 or mentorfinalevent as refrence)
+- Create a folder with the name of the event in the folder /src/content/events (you can use existing event pages such as odhday23 or mentorfinalevent as reference)
 - Create a _index.md file within the folder
 - Fill the yaml header of the _index.md file with the necessary information for the event:
 
