@@ -15,7 +15,14 @@ Repository for the [Open Data Hub](https://opendatahub.com/) website created wit
 
 - [Gettings started](#getting-started)
 - [Deployment](#deployment)
-- [New event](#add-a-new-event)
+- [Add content](#add-content)
+  - [Use Cases](#use-cases)
+  - [Events](#events)
+    - [Simple events](#simple-events-that-links-outside)
+    - [Complex events](#complex-events-with-programm-page)
+  - [Videos](#videos)
+    - [Video sections](#add-new-sections)
+    - [Individual videos](#add-new-videos)
 - [Docker environment](#docker-environment)
 - [Information](#information)
 
@@ -133,7 +140,7 @@ paragraphs: # The paragraphs of the individual use-case page
 
 ### **Events:**
 
-#### **Simple Event that links outside:**
+#### **Simple Events that links outside:**
 
 To add an event box in the Event section of the website you have to add an .md file in the /src/content/events folder.
 The .md file should contain the following information:
@@ -153,7 +160,7 @@ button_label: "label of the button"
 Short description of the event with markdown syntax
 ```
 
-#### **Complex event with Programm page:**
+#### **Complex events with Programm page:**
 
 To add a new event page that includes more info you have to do the following steps:
 - Create a folder with the name of the event in the folder /src/content/events (you can use existing event pages such as odhday23 or mentorfinalevent as refrence)
@@ -185,7 +192,7 @@ content: # Data for the table (look at existing events for refrence)
 
 The video library is structured as an array with each entry being one of the sections like "Open Data Hub Interviews" or "Open Data Hub Day 2023", each section entry holds another array with the individual videos for that section.
 
-#### **Add a new section:**
+#### **Add new sections:**
 
 In the [events.yml](src/data/events.yml) file:
 
@@ -197,7 +204,7 @@ video_library:
     videos: # List of the section videos
 ```
 
-#### **Add a new video:**
+#### **Add new videos:**
 
 In the [events.yml](src/data/events.yml) file:
 
