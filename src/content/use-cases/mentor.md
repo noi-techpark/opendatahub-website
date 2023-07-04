@@ -3,6 +3,8 @@ position: "Use Cases"
 aliases:
   - "/use-cases/mentor"
   - "/use-cases-mentor"
+use_case_tags:
+  - "mobility"
 
 short:
   subtitle: "MENTOR"

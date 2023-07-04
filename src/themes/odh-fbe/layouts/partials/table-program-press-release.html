@@ -6,9 +6,7 @@
 
 <div >
   <div class="container">
-     <a href="{{.btn_top_link}}" class="btn btn-primary" style="margin:20px" onclick="{{.btn_top_on_click}}">{{ .btn_top_label | markdownify }}</a>
- </div>
- <div class="container">
+  <a href="{{.btn_top_link}}" class="btn btn-primary mb-4" onclick="{{ .btn_top_on_click }}">{{ .btn_top_label | markdownify }}</a>
     <table>
       <thead>
         <tr>
@@ -27,49 +25,42 @@
               {{ if isset . "content" }}
                 <td>{{ .content | safeHTML}}</td>
               {{end}} {{ if isset . "slidesLink" }}
-                <td><a href="{{.slidesLink}}" class="btn btn-primary" style="margin:20px">Slides</a></td>
+                <td><a href="{{.slidesLink}}" class="btn btn-primary d-flex gap-1 me-3">Slides</a></td>
               {{end}} {{ if isset . "videoLink" }}
-                <td><a href="{{.videoLink}}" class="btn btn-primary" style="margin:20px" target="_blank">Video</a></td>
+                <td><a href="{{.videoLink}}" class="btn btn-primary d-flex gap-1 ms-3" target="_blank">Video</a></td>
               {{end}}
             {{ end }}
           </tr>
         {{ end }}
       </tbody> 
-   </table>
- </div>
- <div class="container">  
-    <a href="{{.btn_down_link}}" class="btn btn-primary" style="margin:20px" onclick="{{.btn_down_on_click}}">{{ .btn_down_label | markdownify }}</a>
- </div>
+    </table>
 
- <div class="container">
-  <table>
-   <thead>
-      <tr>
-        {{ range .headerPR }}
-        <th width= {{.width}}>
-          {{.title}}
-        </th>
-        {{ end }}
-      </tr>
-   </thead>
+    <a href="{{.btn_down_link}}" class="btn btn-primary mb-4" onclick="{{ .btn_down_on_click }}">{{ .btn_down_label | markdownify }}</a>
 
-   <tbody>
-      {{ range .rowPR }}
-      <tr>
-        {{ range .colsPR }}
-          {{ if isset . "content" }}
-            <td>{{ .content | safeHTML}}</td>
-          {{end}} {{ if isset . "slidesLink" }}
-            <td><a href="{{.slidesLink}}" class="btn btn-primary" style="margin:20px">Slides</a></td>
-          {{end}} {{ if isset . "videoLink" }}
-            <td><a href="{{.videoLink}}" class="btn btn-primary" style="margin:20px">Video</a></td>
-          {{end}} {{ if isset . "pressReleaseLink" }}
-            <td><a href="{{.pressReleaseLink}}" class="btn btn-primary" style="margin:20px">Press Release</a></td>
-          {{end}}
+    <table>
+      <thead>
+          <tr>
+            {{ range .headerPR }}
+            <th width= {{.width}}>
+              {{.title}}
+            </th>
+            {{ end }}
+          </tr>
+      </thead>
+
+      <tbody>
+        {{ range .rowPR }}
+        <tr>
+          {{ range .colsPR }}
+            {{ if isset . "content" }}
+              <td>{{ .content | safeHTML}}</td>
+            {{end}} {{ if isset . "pressReleaseLink" }}
+              <td><a href="{{.pressReleaseLink}}" class="btn btn-primary d-flex gap-1">Press Release</a></td>
+            {{end}}
+          {{ end }}
+        </tr>
         {{ end }}
-      </tr>
-      {{ end }}
-   </tbody> 
- </table>
-</div>
+      </tbody> 
+    </table>
+  </div>
 </div>

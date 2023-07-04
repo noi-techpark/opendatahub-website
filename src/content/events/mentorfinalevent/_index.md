@@ -178,7 +178,4 @@ content:
         - content: "Closing "
         - content: " "
         - content: " "
-
-  btn_down_link: "https://www.youtube.com/watch?v=SjLVH-40J0o#msdynttrid=ZVh-3Q2GG5sehR9YBAvw4hEF68W1xlFH79Tf-mhL3HU"
-  btn_down_label: "Full video"
 ---
