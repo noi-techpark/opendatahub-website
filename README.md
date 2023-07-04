@@ -144,7 +144,7 @@ paragraphs: # The paragraphs of the individual use-case page
 
 #### **Simple Events that link outside:**
 
-To add an event box in the Event section of the website you have to add an .md file in the /src/content/events folder.
+To add an event box in the Event section of the website you have to add a .md file with the events name in the /src/content/events folder.
 The .md file should contain the following information:
 
 ```yml
