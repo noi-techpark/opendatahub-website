@@ -37,9 +37,7 @@ paragraphs:
     → **Car Pooling** (Municipality of Merano): Shared use of a car by people driving the same route <br>
     → **On-demand** (Municipalities of Merano and Brig-Glis): Demand responsive buses, available in areas and times of day less served by public transport "
     img_back: "/img/use-cases/ODH-usecase-mentor-image-04.jpg"
-    partial: imgs-text-enlargeable.html
-    image_credit: "https://github.com/orgs/noi-techpark/dashboard"
-    image_summary: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    partial: col-imgs-text.html
 
   - title: "**Bike Sharing**"
     subtitle: "The bike-sharing system can now be provided in innovative ways through digitization and the utilization of electric bikes. In Merano, a new service has been tested since September 2019, which serves mainly to link the city center with the two train stations. As part of the Mentor project, the city of Merano provides 60 bicycles for short term rental free of charge at seven locations." 
