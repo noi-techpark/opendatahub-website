@@ -1,6 +1,6 @@
 ---
 type: events/single
-content_partial: table-program-press-release
+content_partial: table-program
 position: "Events"
 url: "/events/bootcamp23"
 aliases:
@@ -18,7 +18,7 @@ program:
 content:
   title: More info
   btn_top_link: "https://cloud.opendatahub.com/index.php/s/pntKKm4BwN2BjsX"
-  btn_top_label: "challenes overview"
+  btn_top_label: "Challenges overview"
   btn_top_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
   header:
@@ -56,10 +56,4 @@ content:
         - content: "Aperitivo"
         #- slidesLink: "https://cloud.opendatahub.com/index.php/s/cExYZ5DyW23Fswi"
         #- videoLink: "https://vimeo.com/showcase/9563553/video/715098854"
-
- 
-    
-  btn_down_link: "https://cloud.opendatahub.com/index.php/s/pntKKm4BwN2BjsX"
-  btn_down_label: "Challenges overview"
-  btn_down_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 ---
