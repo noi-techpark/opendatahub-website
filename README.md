@@ -15,7 +15,7 @@ Repository for the [Open Data Hub](https://opendatahub.com/) website created wit
 
 - [Gettings started](#getting-started)
 - [Deployment](#deployment)
-- [New event]()
+- [New event](#add-a-new-event)
 - [Docker environment](#docker-environment)
 - [Information](#information)
 
@@ -55,49 +55,6 @@ hugo server -s src
 ```
 The website will be available at [http://127.0.0.1:1313](http://127.0.0.1:1313). It also recompiles automatically if you make any change to the source code.
 
-### Add a new event
-
-This section explains how to create a new event in the Open Data Hub website.
-
-#### Simple Event that links outside
-
-To add an event box in the Event section of the website you have to add an .md file in the /src/content/events folder.
-The .md file should contain the following information:
-title: "Title of the event"
-img: "/img/events/eventImage.jpg"
-img_alt: "event"
-day: "yyyy-mm-dd"
-time: "hh:mm"
-location: "Location name"
-button_link: "link to the event website"
-button_label: "label of the button"
-
-Moreover the .md file should contain also a short description of the event.
-
-#### Complex event with Programm page
-
-To add a new event page that includes more info you have to do the following steps:
-- create a folder with the name of the event in the folder /src/content/ (for the content of the folder you can use the odhday and odhday22 as example and change it accordingly to your needs)
-- in the .md file in the folder /src/content/eventname/ put the name of the folder in the "position file"
-- create a folder with the name of the event in the folder /src/themes/odh-fbe/layouts (for the content of the folder yuo can use the odhday and odhday22 as example and change it accordingly to your needs)
-- in the list.html file in the folder /src/themes/odh-fbe/layouts/eventname/ put the folder name in the following lines
-
-```
-<section class="bg-darker">
-
-	{{ partial "title-section.html" site.Data.foldername.program }}
-	{{ partial "table-program" site.Data.foldername.content }}
-	
-</section>
-```
-
-- create a file .yml in the folder /src/data. Please note that the file should be named like the two folder you have created in the previous points (for the content of the folder yuo can use the odhday and odhday22 as example and change it accordingly to your needs).
-**Note**: Don't use capital letters in the naming of files and folders.
-
-## Deployment
-
-To deploy the website, simply run the command `hugo -s src -d ../target` from the root folder of the project. The final version of the website will then be generated inside the `target` folder.
-
 ## Docker environment
 
 For the project, a Docker environment is already prepared and ready to use with all the necessary prerequisites.
@@ -112,7 +69,7 @@ Install [Docker](https://docs.docker.com/install/) (with Docker Compose) locally
 
 Before you start working, start the Docker containers:
 
-```
+```bash
 docker-compose up --build --detach
 ```
 
@@ -120,8 +77,144 @@ The website will be available at [http://127.0.0.1:1313](http://127.0.0.1:1313).
 
 After finishing work, you can stop the Docker containers:
 
-```
+```bash
 docker-compose stop
+```
+
+## Deployment
+
+To deploy the website, simply run the command `hugo -s src -d ../target` from the root folder of the project. The final version of the website will then be generated inside the `target` folder.
+
+## Add content
+
+### **Use cases:**
+
+To create a new use case listed under /use-cases create a new .md file in the the /src/content/use-cases folder.
+The file needs the following information in its yaml header:
+
+```yml
+---
+position: "Use Cases" # Should always be "Use Cases"
+use_case_tags: # The categories this use case belongs to (for filtering)
+	- "mobility"
+	- "traffic"
+
+short: # Information for the list entry under /use-cases
+	bg_darker: false # If the background for this list entry should be darker
+	weight: 2 # Position of the entry in the list (lower number -> higher on list)
+	partial: text-imgs-icon.html # The partial this entry will be rendered with
+	# Here the necessary fields for the partial like:
+	# title: 
+	# subtitle: 
+	# ...
+
+start: # The title of the individual use-case page
+  partial: title-cta.html # The partial this entry will be rendered with
+  # Here the necessary fields for the partial like:
+  # title: 
+  # subtitle: 
+  # ...
+
+paragraphs: # The paragraphs of the individual use-case page
+		# The first paragraph
+  - partial: col-imgs-text.html # The partial this entry will be rendered with
+		# Here the necessary fields for the partial like:
+		# description:
+    # img_back:
+
+		# The second paragraph
+  - partial: imgs-icon-text.html # The partial this entry will be rendered with
+		# Here the necessary fields for the partial like:
+		# description:
+    # img_front:
+    # img_back:
+---
+```
+
+### **Events:**
+
+#### **Simple Event that links outside:**
+
+To add an event box in the Event section of the website you have to add an .md file in the /src/content/events folder.
+The .md file should contain the following information:
+
+```yml
+---
+title: "Title of the event"
+img: "/img/events/eventImage.jpg"
+img_alt: "event"
+day: "yyyy-mm-dd"
+time: "hh:mm"
+location: "Location name"
+button_link: "link to the event website"
+button_label: "label of the button"
+---
+
+Short description of the event with markdown syntax
+```
+
+#### **Complex event with Programm page:**
+
+To add a new event page that includes more info you have to do the following steps:
+- Create a folder with the name of the event in the folder /src/content/events (you can use existing event pages such as odhday23 or mentorfinalevent as refrence)
+- Create a _index.md file within the folder
+- Fill the yaml header of the _index.md file with the necessary information for the event:
+
+```yml
+---
+type: events/single # This has to be "events/single"
+content_partial: table-program-press-release # The partial which the table will be rendered with
+position: "Events" # This always has to be "Events"
+aliases: # Optional aliases for the url, following are examples for redirects to "/events/odhday23"
+  - "/events/odhday"
+  - "/odhday"
+  - "/odhday23"
+
+title: "Title" # Title of the event
+subtitle: "Subtitle" # Subtitle of the event
+
+program:
+  title: "Title" # Title of the table
+  subtitle: "Subtitle" # Subtitle of the table
+
+content: # Data for the table (look at existing events for refrence)
+---
+```
+
+### **Videos:**
+
+The video library is structured as an array with each entry being one of the sections like "Open Data Hub Interviews" or "Open Data Hub Day 2023", each section entry holds another array with the individual videos for that section.
+
+#### **Add a new section:**
+
+In the [events.yml](src/data/events.yml) file:
+
+```yml
+video_library:
+	# The following is your new section
+  - title: "**Section title**"
+    initially_expanded: false # Control if the section is initially expanded or collapsed
+    videos: # List of the section videos
+```
+
+#### **Add a new video:**
+
+In the [events.yml](src/data/events.yml) file:
+
+```yml
+video_library:
+	# Find the section you want to add the video to
+  - title: "**Section title**"
+    initially_expanded: false
+    videos: # List of the section videos
+		# The following is your new video entry
+      - subtitle: "Institution or company name"
+        title: "**Video title**"
+        description: "Video participant names"
+        btn_link: "Link to video script or slides"
+        btn_label: Label for button to video script or slides
+        video: "Embedded video link"
+        target_blank: true # Whether or not the link to the video script or slides is external or not (almost always true)
 ```
 
 ## Information
