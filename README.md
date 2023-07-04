@@ -96,17 +96,17 @@ The file needs the following information in its yaml header:
 ---
 position: "Use Cases" # Should always be "Use Cases"
 use_case_tags: # The categories this use case belongs to (for filtering)
-	- "mobility"
-	- "traffic"
+  - "mobility"
+  - "traffic"
 
 short: # Information for the list entry under /use-cases
-	bg_darker: false # If the background for this list entry should be darker
-	weight: 2 # Position of the entry in the list (lower number -> higher on list)
-	partial: text-imgs-icon.html # The partial this entry will be rendered with
-	# Here the necessary fields for the partial like:
-	# title: 
-	# subtitle: 
-	# ...
+  bg_darker: false # If the background for this list entry should be darker
+  weight: 2 # Position of the entry in the list (lower number -> higher on list)
+  partial: text-imgs-icon.html # The partial this entry will be rendered with
+  # Here the necessary fields for the partial like:
+  # title: 
+  # subtitle: 
+  # ...
 
 start: # The title of the individual use-case page
   partial: title-cta.html # The partial this entry will be rendered with
@@ -116,16 +116,16 @@ start: # The title of the individual use-case page
   # ...
 
 paragraphs: # The paragraphs of the individual use-case page
-		# The first paragraph
+    # The first paragraph
   - partial: col-imgs-text.html # The partial this entry will be rendered with
-		# Here the necessary fields for the partial like:
-		# description:
+    # Here the necessary fields for the partial like:
+    # description:
     # img_back:
 
-		# The second paragraph
+    # The second paragraph
   - partial: imgs-icon-text.html # The partial this entry will be rendered with
-		# Here the necessary fields for the partial like:
-		# description:
+    # Here the necessary fields for the partial like:
+    # description:
     # img_front:
     # img_back:
 ---
@@ -191,7 +191,7 @@ In the [events.yml](src/data/events.yml) file:
 
 ```yml
 video_library:
-	# The following is your new section
+  # The following is your new section
   - title: "**Section title**"
     initially_expanded: false # Control if the section is initially expanded or collapsed
     videos: # List of the section videos
@@ -203,11 +203,11 @@ In the [events.yml](src/data/events.yml) file:
 
 ```yml
 video_library:
-	# Find the section you want to add the video to
+  # Find the section you want to add the video to
   - title: "**Section title**"
     initially_expanded: false
     videos: # List of the section videos
-		# The following is your new video entry
+      # The following is your new video entry
       - subtitle: "Institution or company name"
         title: "**Video title**"
         description: "Video participant names"
