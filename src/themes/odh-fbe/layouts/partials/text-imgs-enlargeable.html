@@ -19,11 +19,18 @@
 			</div>
 			<div class="col-12 col-lg-5 m-lg-0 m-lg-0">
 				<button type="button" class="btn btn-primary bg-transparent border-0 btn-xl" id="btn-img-open" data-bs-toggle="modal" data-bs-target="#Modal-text-img{{ sha1 .img_back }}">
-					<div class="w-100 h-100 flex-row-reverse position-relative">
+					<div class="w-100 h-100 position-relative"  id="container">
+						<div class="overlay">
+							<div class="content">
+								<i class="fa fa-search fa-2x" aria-hidden="true" id="magnifying-glass"></i>
+								<br><br>
+								<a>Click to make the image bigger</a>
+							</div>                                
+						</div>
 						<img src="{{ .img_back }}" id="main-image">
 						{{with .image_credit}}
 						<div class="d-inline position-absolute bottom-0 end-0 bg-secondary-subtle bg-opacity-75 rounded m-2" id="imageCredit">
-							<div class="m-2">{{.| markdownify}}</div>
+							<div class="m-2" id="textCreditImage">{{.| markdownify}}</div>
 						</div>
 						{{end}}
 					</div> 
