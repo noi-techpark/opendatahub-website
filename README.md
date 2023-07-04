@@ -94,6 +94,8 @@ To deploy the website, simply run the command `hugo -s src -d ../target` from th
 
 ## Add content
 
+**NOTE:** To add new content for the page like new use cases, events or videos **it is not necessary** to edit anything other than the `src/content` and the `src/data` directories. Even new routes like `opendatahub.com/events/some-new-event` are generated automatically when adding to the content directory.
+
 ### **Use cases:**
 
 To create a new use case listed under /use-cases create a new .md file in the the /src/content/use-cases folder.
