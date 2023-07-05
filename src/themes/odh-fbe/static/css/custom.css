@@ -379,6 +379,7 @@ input:focus-visible {
 /*text for the credit on enlargeable images*/
 #textCreditImage a{
   color: white;
+  transition: opacity 0.7s ease-out;
 }
 
 /*hover enlargeable image*/
@@ -388,15 +389,10 @@ input:focus-visible {
   background-color: black;
   opacity: 0;
   position: absolute;
+  transition: opacity 0.7s ease-out;
 }
 
 #container:hover .overlay {
-  transition: 0.5s ease-out;
-  opacity: 0.4;
-}
-
-#container:hover #textCreditImage a{
-  transition: 0.5s ease-out;
   opacity: 0.4;
 }
 
