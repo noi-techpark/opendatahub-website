@@ -35,7 +35,7 @@ paragraphs:
     helps to develop complex forecasts in the field of agriculture in order to
     continue to guarantee the quality of South Tyrolean apples."
     img_back: "/img/use-cases/ODH-usecase-Kultivas-01-NEW.jpg"
-    partial: col-imgs-text.html
+    partial: imgs-text-enlargeable.html
 
   - description: "„Variety-location study“ is the pilot project that KULTIVAS started with,
     asking the not so easy question: Which apple variety is most suitable for
@@ -43,18 +43,18 @@ paragraphs:
     pillars: big data, machine learning and domain experts.“ says solution
     manager and developer Johannes Erschbaumer of the Konverto AG."
     img_back: "/img/use-cases/ODH-usecase-Kultivas-02-NEW.jpg"
-    partial: col-text-imgs.html
+    partial: text-imgs-enlargeable.html
 
   - description: "From the various data that KONVERTO was able to collect, including
     weather data provided by the **Open Data Hub**, they could develop a
     variety-location prediction, map based visualisations and they provide a
     valuable data interface (API)."
     img_back: "/img/use-cases/ODH-usecase-Kultivas-03-NEW.jpg"
-    partial: col-imgs-text.html
+    partial: imgs-text-enlargeable.html
 
   - description: <p> The KULTIVAS project is being carried out by Software and cloud from the private sector of the IT company <a href="https://konverto.eu" target="_blank">KONVERTO AG</a> in cooperation with researchers and agronomists from leading institutes (Laimburg, Eurac Research) who enrich the project with their agronomic knowledge.</p>
     img_back: "/img/use-cases/ODH-usecase-Kultivas-04-NEW.jpg"
-    partial: col-text-imgs.html
+    partial: text-imgs-enlargeable.html
 
   - description: "Important questions of the future can be answered only by pooling
     knowledge, the results benefit all the partners involved in South Tyrolean
