@@ -19,21 +19,27 @@ function closeModal() {
 function deActiveBiggerImages(){
         let windowWidth = window.innerWidth;
         let btns = document.querySelectorAll("#btn-img-open");
-        let container = document.getElementById("container");
 
         if (windowWidth < 992) {
+            let containers = document.querySelectorAll("#container");
             btns.forEach((e) => {
                 e.setAttribute("data-bs-toggle", "");
                 e.style.cursor = "default";
             })
-            container.id = " ";
+            containers.forEach((i) => {                
+            i.id = "containerClosed";
+            })
             closeModal();
         }else{
+            let containers = document.querySelectorAll("#containerClosed");
+            console.log("bigger");
             btns.forEach((e) => {
                 e.setAttribute("data-bs-toggle", "modal");
                 e.style.cursor = "pointer";
             })
-            container.id = "container";
+            containers.forEach((i) => {  
+                i.id = "container";
+            })
         }
 }          
 window.addEventListener('resize', deActiveBiggerImages);
