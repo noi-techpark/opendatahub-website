@@ -19,18 +19,21 @@ function closeModal() {
 function deActiveBiggerImages(){
         let windowWidth = window.innerWidth;
         let btns = document.querySelectorAll("#btn-img-open");
+        let container = document.getElementById("container");
 
         if (windowWidth < 992) {
             btns.forEach((e) => {
                 e.setAttribute("data-bs-toggle", "");
                 e.style.cursor = "default";
             })
+            container.id = " ";
             closeModal();
         }else{
             btns.forEach((e) => {
                 e.setAttribute("data-bs-toggle", "modal");
                 e.style.cursor = "pointer";
             })
+            container.id = "container";
         }
 }          
 window.addEventListener('resize', deActiveBiggerImages);
@@ -38,3 +41,4 @@ window.addEventListener('resize', deActiveBiggerImages);
 document.addEventListener("DOMContentLoaded", deActiveBiggerImages);
 
 window.addEventListener("load", deActiveBiggerImages);
+
