@@ -7,10 +7,13 @@ function closeModal() {
     let modalElements = document.getElementsByClassName("modalClose");
   
     if (modalElements.length > 0) {
-        let bootstrapModal = bootstrap.Modal.getInstance(modalElements[0]);
-    
-        if (bootstrapModal) {
-            bootstrapModal.hide();
+        let bootstrapModalRight = bootstrap.Modal.getInstance(modalElements[0]);
+        let bootstrapModalLeft  = bootstrap.Modal.getInstance(modalElements[1]);
+
+        if (bootstrapModalRight) {
+            bootstrapModalRight.hide();
+        }else if (bootstrapModalLeft) {
+            bootstrapModalLeft.hide();
         }
     }
 }
