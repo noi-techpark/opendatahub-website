@@ -23,6 +23,7 @@ function deActiveBiggerImages(){
         let windowWidth = window.innerWidth;
         let btns = document.querySelectorAll("#btn-img-open");
 
+        //992 is the minimum width of the "lg column" in bootstrap
         if (windowWidth < 992) {
             let containers = document.querySelectorAll("#container");
             btns.forEach((e) => {
