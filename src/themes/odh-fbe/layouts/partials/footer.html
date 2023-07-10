@@ -4,47 +4,54 @@
 	SPDX-License-Identifier: AGPL-3.0-or-later
 */}}
 
-<footer class="bg-black text-white mt-5">
-    <section class="py-3">
-        <div class="container">
-            <div class="row justify-content-center align-items-center gy-2">
-                <div class="col-7 col-lg-2 odh-logo-footer">
-                    <a href="/" class="d-block">
-                        <img src="{{ site.Params.footer.logo }}" />
-                    </a>
-                </div>
-                {{ range site.Params.footer.columns }}
-                <div class="col-lg-2 col-6 mb-4 mb-lg-0 pt-lg-4 align-self-start">
-                    <div class="container-fluid">
-                        <h5 class="fw-bold">{{ .title | markdownify }}</h5>
-                        {{ range .links }}
-                        <div class="col-12">
-                            <a href="{{ .URL }}">{{ .name }}</a>
-                        </div>
-                        {{end}}
-                    </div>
-                </div>
-                {{ end }}
-                <div class="col-lg-2 col">
-                    <div class="row gy-3 justify-content-center">
-                        {{ range site.Params.footer.media_logos }}
-                        <div class="col col-lg-12">
-                            <a class="d-flex justify-content-center justify-content-lg-start media-icon" target="_blank" href="{{ .URL }}"><img class="w-75" src="{{ .icon }}" /></a>
-                        </div>
-                        {{ end }}
-                    </div>
-                </div>
+{{ $f := site.Params.footer }}
+<footer class="mt-5">
+  <div class="bg py-3">
+    <div class="container">
+      <div class="row gy-2 text-black text-semi-bold">
+        {{ range $f.cards }}
+        <div class="col-12 col-xl-6">
+          <a href="{{ .URL }}" {{ if .target_blank }}target="_blank"{{ end }}>
+            <div class="card h-100 p-3 d-flex flex-row align-items-center gap-3">
+              <div class="flex-shrink-1">
+                <img src="{{ .icon }}" alt="NOI Techpark" />
+              </div>
+              <span>{{ markdownify .text }}</span>
             </div>
-            <div class="row copyright pt-5 mt-lg-5 pt-lg-5">
-                {{ with .Site.Params.footer }}
-                <span> {{ .copyright | markdownify }} </span> {{ end }}
-            </div>
+          </a>
         </div>
-    </section>
-
-    <div class="gototop js-top bg-secondary-subtle rounded">
-        <a href="#top"><i class="fa fa-angle-up"></i></a>
+        {{ end }}
+      </div>
+      <div class="hr-bold border-bottom border-black my-3"></div>
+      <div class="row gy-3">
+        {{ range $f.columns }}
+        <div class="col-12 col-lg-3">
+          <div class="d-flex flex-column">
+            <strong class="mb-1">{{ .title }}</strong>
+            {{ range .rows }}
+            <a href="{{ .URL }}" {{ if .target_blank }}target="_blank"{{ end }}>{{ .text }}</a>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+        {{ $sm := $f.social_media }}
+        <div class="col-12 col-lg-3">
+          <div class="d-flex flex-column">
+            <strong class="mb-1">{{ $sm.title }}</strong>
+            {{ range $sm.rows }}
+            <a href="{{ .URL }}" target="_blank" class="d-flex align-items-center gap-2">
+              <img src="{{ .icon }}" alt="{{ .text }}">
+              {{ .text }}
+            </a>
+            {{ end }}
+          </div>
+        </div>
+      </div>
     </div>
-
-    {{ partial "js.html" .}}
+  </div>
+  <div class="py-3 text-center">
+    <span class="text-muted text-small">
+      {{ markdownify $f.copyright }}
+    </span>
+  </div>
 </footer>
