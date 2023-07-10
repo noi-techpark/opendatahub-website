@@ -230,7 +230,7 @@ video_library:
 
 ### Support
 
-For support, please contact [info@opendatahub.com](mailto:info@opendatahub.com).
+For support, please contact [help@opendatahub.com](mailto:help@opendatahub.com).
 
 ### Contributing
 
