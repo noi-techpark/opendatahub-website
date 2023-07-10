@@ -13,8 +13,15 @@
   <body>
     <a id="top"></a>
     {{ partial "spinner.html" . }}
+
     {{ partial "nav.html" . }}
     {{- block "main" . }}{{- end }}
     {{ partial "footer.html" . }}
+
+    <div class="gototop js-top bg-secondary-subtle rounded">
+      <a href="#top"><i class="fa fa-angle-up"></i></a>
+    </div>
+
+    {{ partial "js.html" .}}
   </body>
 </html>

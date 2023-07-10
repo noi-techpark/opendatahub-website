@@ -36,6 +36,7 @@ params:
       - URL: >-
           https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
       - URL: https://scripts.opendatahub.com/cookieconsent/opendatahub/cookieconsent.css
+      - URL: https://fonts.testingmachine.eu/source-sans-pro/style.css
 
     js:
       - URL: /js/jquery.min.js
@@ -49,75 +50,62 @@ params:
       - URL: https://scripts.opendatahub.com/cookieconsent/cookieconsent-init.js
       - URL: /js/biggerImagesPartial.js
 
-
   footer:
-    logo: /img/NOI_OPENDATAHUB_NEW_WH-02.png
-    
+    cards:
+      - icon: /icon/footer/open-data-hub.svg
+        text: Place where data and<br />tech are shared
+        URL: /
+      - icon: /icon/footer/noi.svg
+        text: Innovation hub in<br />Südtirol/ Alto Aldige
+        URL: https://noi.bz.it
+        target_blank: true
+
     columns:
-      - title: <a href="/services">Services</a>
-        links:
-          - URL: /services/data-sharing
-            name: Data Sharing
-            weight: 1
+      - title: Services
+        rows:
+          - text: Data Access
+            URL: /services/data-access
+          - text: Data Sharing
+            URL: /services/data-sharing
+          - text: Data Visualization
+            URL: /services/data-visualization
+      - title: Quickstart
+        rows:
+          - text: Datasets
+            URL: /datasets
+          - text: Data Browser
+            URL: https://databrowser.opendatahub.com
+            target_blank: true
+          - text: Analytics Tool
+            URL: https://analytics.opendatahub.com/
+            target_blank: true
+          - text: Web Components
+            URL: https://webcomponents.opendatahub.com/
+            target_blank: true
+      - title: Community
+        rows:
+          - text: Community
+            URL: /community
+          - text: Events
+            URL: /events
 
-          - URL: /services/data-access
-            name: Data Access
-            weight: 2
+    social_media:
+      title: Social Media
+      rows:
+        - icon: /icon/footer/github.svg
+          text: GitHub
+          URL: https://github.com/noi-techpark
+        - icon: /icon/footer/telegram.svg
+          text: Telegram
+          URL: https://t.me/OpenDataHub
+        - icon: /icon/footer/element.svg
+          text: element.io
+          URL: https://app.element.io/#/room/#opendatahub:matrix.org
+        - icon: /icon/footer/facebook.svg
+          text: Facebook
+          URL: https://www.facebook.com/opendatahub/
 
-          - URL: /services/data-visualization
-            name: Data Visualization
-            weight: 3
-
-      - title: <a href="/quickstart">Quickstart</a>
-        links:
-          - URL: "https://databrowser.opendatahub.com/"
-            name: Data browser
-            weight: 1
-
-          - URL: "https://analytics.opendatahub.com/"
-            name: Analytics tool
-            weight: 2
-
-          - URL: "https://webcomponents.opendatahub.com/"
-            name: Web Components
-            weight: 3
-
-      - title: <a href="/community">Community</a>
-        links:
-          - URL: /community
-            name: Community
-            weight: 1
-
-          - URL: /events
-            name: Events
-            weight: 2
-
-      - title: <a href="/datasets">Data</a>
-        links:
-          - URL: /datasets
-            name: Datasets
-            weight: 1
-
-          - URL: "https://opendatahub.readthedocs.io/en/latest/datasets.html"
-            name: Documentation
-            weight: 2
-
-    media_logos:
-      - URL: "https://github.com/noi-techpark/"
-        icon: "/icon/github_white.svg"
-
-      - URL: "https://www.facebook.com/opendatahub/"
-        icon: "/icon/facebook_white.svg"
-
-      - URL: "https://t.me/OpenDataHub"
-        icon: "/icon/telegram_white.svg"
-
-      - URL: "https://app.element.io/#/room/#opendatahub:matrix.org"
-        icon: "/icon/element_white.svg"
-
-    copyright: >-
-      NOI AG - Via Volta 13/A, I-39100 Bolzano - VAT No.: 02595720216 -
-      Endowment capital 110.740.000 € - <a href="https://noi.bz.it/en/privacy-cookie-policy" target="_blank">Privacy</a> - <a onclick="window.cc.showSettings()">Cookies</a>
+    copyright: '@Open Data Hub | <a class="text-decoration-underline" href="https://noi.bz.it/en/privacy-cookie-policy" target="_blank">Privacy</a> | <a class="text-decoration-underline">Imprint</a> | <a class="text-decoration-underline" onclick="window.cc.showSettings()">Cookies</a>'
 
 taxonomies:
   datatype: datatype
