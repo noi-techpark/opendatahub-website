@@ -104,8 +104,9 @@ params:
         - icon: /icon/footer/facebook.svg
           text: Facebook
           URL: https://www.facebook.com/opendatahub/
-
-    copyright: '@Open Data Hub | <a class="text-decoration-underline" href="https://noi.bz.it/en/privacy-cookie-policy" target="_blank">Privacy</a> | <a class="text-decoration-underline">Imprint</a> | <a class="text-decoration-underline" onclick="window.cc.showSettings()">Cookies</a>'
+          
+    # add to copyright once exists: <a class="text-decoration-underline">Imprint</a>
+    copyright: '@Open Data Hub | <a class="text-decoration-underline" href="https://noi.bz.it/en/privacy-cookie-policy" target="_blank">Privacy</a> | <a class="text-decoration-underline" onclick="window.cc.showSettings()">Cookies</a>'
 
 taxonomies:
   datatype: datatype
