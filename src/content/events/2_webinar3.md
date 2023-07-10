@@ -1,3 +1,5 @@
+
+
 ---
 title: "Webinar: How to create web components with Open Data Hub"
 img: "/img/events/webinar3.jpg"

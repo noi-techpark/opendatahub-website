@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 // const baseUrl = "https://metadata.opendatahub.testingmachine.eu/";
 // const descElement = document.getElementById("availability-desc");
 // const dataset = document.querySelector("h1").textContent.toUpperCase();

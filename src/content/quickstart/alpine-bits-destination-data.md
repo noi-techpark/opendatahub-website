@@ -1,7 +1,9 @@
+
+
 ---
 Title: "AlpineBits DestinationData API"
 
-button_link: "https://destinationdata.alpinebits.opendatahub.bz.it/"
+button_link: "https://destinationdata.alpinebits.opendatahub.com/"
 button_label: "Learn more"
 
 weight: 9

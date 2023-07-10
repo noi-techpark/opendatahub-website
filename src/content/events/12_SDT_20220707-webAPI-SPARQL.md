@@ -1,3 +1,5 @@
+
+
 ---
 title: "Software Developers' Thursday | July"
 img: "/img/events/20220707-sdt-webapiandsparql.png"

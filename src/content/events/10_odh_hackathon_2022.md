@@ -1,3 +1,5 @@
+
+
 ---
 title: "NOI Hackathon - Open Data Hub Edition"
 img: "/img/events/20220520-odhday22-hackathon.jpg"
@@ -8,7 +10,7 @@ time: "14:30"
 location: "Online"
 
 button_link: "https://hackathon.bz.it/"
-button_label: "More info & Registration"
+button_label: "More info"
 ---
 
 2 days, 24 hours, different topics to work on, one jury and amazing prizes.

@@ -1,3 +1,5 @@
+
+
 ---
 position: "Datasets"
 
@@ -30,7 +32,7 @@ This dataset contains accommodations in South Tyrol. Accessible via REST or the 
                         url="https://tourism.opendatahub.com/swagger/ui/index#/Accommodation"
                         text="https://tourism.opendatahub.com/swagger/ui/index#/Accommodation" >}} |
 | AlpineBits URL | {{< target-blank-link
-                        url="https://alpinebits.opendatahub.bz.it/AlpineBits"
-                        text="https://alpinebits.opendatahub.bz.it/AlpineBits" >}}                  |
+                        url="https://alpinebits.opendatahub.com/AlpineBits"
+                        text="https://alpinebits.opendatahub.com/AlpineBits" >}}                  |
 | Sources        | Data provided by LTS                                              |
 | OpenData       | Accommodations data is partially closed data                      |

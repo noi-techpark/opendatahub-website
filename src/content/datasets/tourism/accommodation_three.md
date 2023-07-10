@@ -1,3 +1,5 @@
+
+
 ---
 position: "Datasets"
 
@@ -30,7 +32,7 @@ It can be done through HGV MSS (Booking Suedtirol Endpoint) or LTS. The Availabi
                         url="https://tourism.opendatahub.com/swagger/index.html#/Accommodation/post_v1_AccommodationAvailable"
                         text="https://tourism.opendatahub.com/swagger/index.html#/Accommodation/post_v1_AccommodationAvailable" >}} |
 | AlpineBits URL | {{< target-blank-link
-                        url="https://alpinebits.opendatahub.bz.it/AlpineBits"
-                        text="https://alpinebits.opendatahub.bz.it/AlpineBits" >}}                                                   |
+                        url="https://alpinebits.opendatahub.com/AlpineBits"
+                        text="https://alpinebits.opendatahub.com/AlpineBits" >}}                                                   |
 | Sources        | Availability Requests provided by HGV/LTS                                   |
 | OpenData       | Availability data is closed data  |
