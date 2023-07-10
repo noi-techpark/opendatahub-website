@@ -13,7 +13,7 @@ location: "NOI Techpark"
 #button_label: "Call4Speakers"
 
 button_link: "/bootcamp23"
-button_label: "More info & Registration"
+button_label: "More info"
 ---
 
 Explore the unlimited possibilities of Open Data Hub in a cooperative, fun way, sharing knowledge, experience – and inspiration!
