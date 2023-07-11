@@ -36,7 +36,6 @@ function deActiveBiggerImages(){
             closeModal();
         }else{
             let containers = document.querySelectorAll("#containerClosed");
-            console.log("bigger");
             btns.forEach((e) => {
                 e.setAttribute("data-bs-toggle", "modal");
                 e.style.cursor = "pointer";
