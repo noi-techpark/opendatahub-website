@@ -3,7 +3,7 @@
 
 	SPDX-License-Identifier: AGPL-3.0-or-later
 */}}
-<div class="col-lg-6">
+<div class="col-lg-6 event-box">
   <a target="_blank" href="{{ .page.Params.button_link }}">
     <div class="h-100 d-flex flex-column align-items-center {{ if .darker }}bg-darker{{ else }}bg-white{{ end }} event-card">
       <div class="ratio ratio-21x9 w-100">
@@ -17,7 +17,7 @@
           {{ with .page.Params.day }}
           <div>
             <span class="fa fa-calendar-o"></span>
-            <span>{{ dateFormat "Monday, Jan 2, 2006" . }}</span>
+            <span class="event-date">{{ dateFormat "Monday, Jan 2, 2006" . }}</span>
           </div>
           {{ end }}
           {{ with .page.Params.time }}
