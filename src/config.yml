@@ -25,27 +25,17 @@ params:
   PrivacyUrl: "https://noi.bz.it/en/privacy-cookie-policy"
   plugins:
     css:
-      # - URL: /css/animate.css
       - URL: /css/bootstrap-v5.css
-      # - URL: /css/style.css
       - URL: /css/table-comparison.css
       - URL: /css/custom.css
-      # - URL: /css/responsive.css
-      # - URL: /css/availability.css
-      # - URL: /css/contact-form.css
-      - URL: >-
-          https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
+      - URL: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
       - URL: https://scripts.opendatahub.com/cookieconsent/opendatahub/cookieconsent.css
       - URL: https://fonts.testingmachine.eu/source-sans-pro/style.css
+      # - URL: https://fonts.testingmachine.eu/open-sans/style.css
 
     js:
-      - URL: /js/jquery.min.js
-      - URL: /js/jquery.easing.1.3.js
       - URL: /js/bootstrap-v5.bundle.min.js
-      - URL: /js/jquery.waypoints.min.js
-      - URL: /js/jquery.stellar.min.js
       - URL: /js/main.js
-      - URL: /js/table-comparison.js
       - URL: https://scripts.opendatahub.com/cookieconsent/cookieconsent.js
       - URL: https://scripts.opendatahub.com/cookieconsent/cookieconsent-init.js
       - URL: /js/biggerImagesPartial.js

@@ -2,29 +2,35 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
-$(document).ready(
-  function() {
-    spinnerFadeOut();
-    setupGototop();
-    setupContactForm();
+function ready(fn) {
+  if (document.readyState !== 'loading') {
+    fn();
+    return;
   }
-);
+  document.addEventListener('DOMContentLoaded', fn);
+}
+
+ready(() => {
+  spinnerFadeOut();
+  setupGototop();
+  setupContactForm();
+})
 
 function spinnerFadeOut() {
-  $("#custom-spinner").fadeOut(800, function() {
-    $(this).remove()
-  });
+  const animationTime = 800;
+  const spinner = document.getElementById("custom-spinner");
+  spinner.style.animation = `fade-out ${animationTime}ms forwards`;
+  setTimeout(() => spinner.remove(), animationTime);
 }
 
 function setupGototop() {
-  $(window).scroll(function () {
-    let $win = $(window);
-    if ($win.scrollTop() > 200) {
-      $(".js-top").addClass("active");
+  document.addEventListener("scroll", () => {
+    if (window.scrollY > 200) {
+      document.getElementById("gototop").classList.add("active");
     } else {
-      $(".js-top").removeClass("active");
+      document.getElementById("gototop").classList.remove("active");
     }
-  });
+  })
 };
 
 function setupContactForm() {

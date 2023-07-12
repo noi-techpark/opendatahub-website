@@ -10,17 +10,6 @@ SPDX-License-Identifier: AGPL-3.0-or-later
   If you do make changes or add new styling make sure everything is responsive and looks as good if not better on mobile
 */
 
-@font-face {
-  font-family: "icomoon";
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"),
-    url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"),
-    url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"),
-    url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
 :root {
   --border-radius: 4px;
 }
@@ -255,6 +244,13 @@ table td:first-child {
 #custom-spinner {
   /* Above navbar */
   z-index: 1040
+}
+
+@keyframes fade-out {
+  to {
+    opacity: 0%;
+    display: none;
+  }
 }
 
 /* Form elements */
