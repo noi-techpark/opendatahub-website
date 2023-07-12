@@ -34,9 +34,9 @@
   border-top: 0;
   padding: 10px;
   background: #fff;
+  height: 100%;
   font-size: 14px;
   font-weight: bold;
-  height: 60px;
   color: #999;
 }
 #table-comparison li.active button {
