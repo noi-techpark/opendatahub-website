@@ -46,7 +46,7 @@ params:
         text: Place where data and<br />tech are shared
         URL: /
       - icon: /icon/footer/noi.svg
-        text: Innovation hub in<br />Südtirol/ Alto Aldige
+        text: Innovation hub in<br />Südtirol/ Alto Adige
         URL: https://noi.bz.it
         target_blank: true
 
