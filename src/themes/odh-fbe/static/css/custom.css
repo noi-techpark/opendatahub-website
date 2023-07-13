@@ -377,10 +377,6 @@ input:focus-visible {
   font-weight: bold;
 }
 
-#contact-form button {
-  margin-top: 1.5rem;
-}
-
 #contact-form.reason-data-access .data-access {
   display: block !important;
 }
