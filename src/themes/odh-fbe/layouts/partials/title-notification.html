@@ -12,18 +12,7 @@
                 <h2>{{ .title | markdownify }}</h2>
                 {{ with .subtitle }}<h2 class="subtitle">{{ . | markdownify }}</h2>{{ end }}
             </div>
-            <div class="col-12 col-lg-4">
-                <div class="bg-black px-4 py-5">
-                    <h3 class="bold">You can also</h3>
-                    <span>Send us an email</span>
-    
-                    {{ with .contact_email }}
-                        <div>
-                            <a class="" href="mailto:{{.}}" class="bold bigger">{{ . }}</a>
-                        </div>
-                    {{ end }}
-                </div>
-            </div>
+            {{ partial "contact-mailto.html" . }}
         </div>
     </div>
 </section>
