@@ -4,72 +4,54 @@
 	SPDX-License-Identifier: AGPL-3.0-or-later
 */}}
 
-{{ define "main" }} {{ partial "nav.html" . }}
+{{ define "main" }}
 
-<section class="dataset-title">
-  <div class="container">
-    <div class="container-content">
-      <h1>{{ .Title | markdownify }}</h1>
-      <span class="category">
-        <a href="/datasets">Datasets</a> >
-        <a href="/datatype/{{ lower .Params.datatype }}"
-          >{{ .Params.datatype }}</a
-        >
-      </span>
+<div class="container">
+  <section>
+    <h1 class="fw-bold m-0">{{ .Title | markdownify }}</h1>
+    <span>
+      <a href="/datasets">Datasets</a> >
+      <a href="/datatype/{{ lower .Params.datatype }}"
+        >{{ .Params.datatype }}</a
+      >
+    </span>
+  </section>
+
+  <div class="row gy-4 my-lg-0">
+    <div class="col-12 col-lg-7">
+      <div class="dataset-content py-3">{{ .Content }}</div>
+      {{ with .Params.example_link}}
+        <a href="{{ . }}" class="btn bg-primary-subtle mt-4" target="_blank">See example</a>
+      {{ end }}
     </div>
-  </div>
-</section>
-
-<div class="dataset-content">
-  <div class="container">
-    <div class="container-content col col-12 col-lg-7">
-      <p class="description">{{ .Content }}</p>
-       {{ with .Params.example_link}}<a
-        href="{{ . }}"
-        class="btn btn-lightgrey"
-        target="_blank"
-        >See example</a
-      >{{ end }}
-    </div>
-    <div class="card col col-12 col-lg-5">
-      <div>
-        <div class="square bg-center-cover">
-          <img src="{{ .Params.img }}" alt="{{ .Params.img_alt }}" />
+    <div class="col-lg-1"></div>
+    <div class=" col-12 col-lg-4">
+      <div class="row g-3 px-1">
+        <div class="col-12 ratio ratio-1x1 p-0">
+          <img class="object-fit-cover h-100 w-100" src="{{ .Params.img }}" alt="{{ .Params.img_alt }}" />
         </div>
-        
-        <div class="hover-wrapper">
-          {{ if eq .Params.availability "partially-closed" }}
-          <div class="availability-wrapper">
-            <div class="half-width availability open">
-              Open Data
-            </div>
-            <div class="half-width availability closed">
-              On Request Data
-            </div>
+        {{ if eq .Params.availability "partially-closed" }}
+        <div class="col-6 p-0">
+          <div class="me-2 bg-black p-2 text-center">
+            Open Data
           </div>
-          {{ else }}
-          <div class="full-width availability {{ .Params.availability }}">
-            {{ .Params.availability_label }}
-          </div>
-          {{ end }}
-
-          {{ $p := .Page }}
-          {{ with .Params.availability_description }}
-          <p class="text-center availability description">{{ . | $p.RenderString }}</p>
-          <script src="/js/mailto.js"></script>
-          {{ end }}
-          
-          <!-- {{ if not ( eq .Weight 1 ) }}
-          <p id="availability-desc-open" class="text-center description show">Open Data:<br>Dataset 2 | Dataset 4 | Dataset 5</p>
-          <p id="availability-desc-closed" class="text-center description">Closed Data:<br>Dataset 1 | Dataset 3</p>
-          <p class="text-center description show">
-            If you are interested in {{ if eq .Weight 2 }}the closed sections<br>of{{ end }} this dataset, <a class="dataset-mailto">contact&nbsp;us.</a>
-          </p>
-          <script src="/js/availability-api.js"></script>
-          {{ else }}
-          <p class="text-center description">All data available as open data.</p>
-          {{ end }} -->
         </div>
+        <div class="col-6 p-0">
+          <div class="ms-2 bg-black p-2 text-center">
+            On Request Data
+          </div>
+        </div>
+        {{ else }}
+        <div class="col-12 bg-black p-2 text-center">
+          {{ .Params.availability_label }}
+        </div>
+        {{ end }}
+
+        {{ $p := .Page }}
+        {{ with .Params.availability_description }}
+        <p class="text-center text-muted dataset-contact-us-text">{{ . | $p.RenderString }}</p>
+        <script src="/js/mailto.js"></script>
+        {{ end }}
       </div>
     </div>
   </div>

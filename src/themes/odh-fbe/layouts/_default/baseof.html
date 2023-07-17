@@ -11,18 +11,17 @@
   </head>
 
   <body>
-    <!-- Loader -->
-    <div class="fh5co-loader"></div>
-    <div class="fh5co-page">
-      <header class="sm-header">
-        <a href="/" class="logo"
-          ><img src={{ .Site.Params.logo | absURL }} height="40" alt=""
-        /></a>
-        <span id="nav-hamburger-ct"><span>
-      </header>
-      <div id="fh5co-container">{{- block "main" . }}{{- end }}</div>
+    <a id="top"></a>
+    {{ partial "spinner.html" . }}
+
+    {{ partial "nav.html" . }}
+    {{- block "main" . }}{{- end }}
+    {{ partial "footer.html" . }}
+
+    <div id="gototop" class="gototop bg-secondary-subtle rounded">
+      <a href="#top"><i class="fa fa-angle-up"></i></a>
     </div>
 
-    {{ partial "js.html" .}} {{partial "footer.html" .}}
+    {{ partial "js.html" .}}
   </body>
 </html>

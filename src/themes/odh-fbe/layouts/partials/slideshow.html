@@ -5,35 +5,34 @@
 */}}
 
 <section class="logo-slideshow">
-
-  <script defer src="/js/slideshow.js"></script>
-  <div class="hidden-storage">
-    {{ range .dataCommunity.providers.item }}
-    <div class="single-provider">
-      <div class="name">{{ .name }}</div>
-      <div class="img">{{ .img }}</div>
-      <div class="link">{{ .link }}</div>
-    </div>
-    {{ end }}
-    {{ range .dataCommunity.consumers.item }}
-    <div class="single-provider">
-      <div class="name">{{ .name }}</div>
-      <div class="img">{{ .img }}</div>
-      <div class="link">{{ .link }}</div>
-    </div>
-    {{ end }}
-  </div>
-
-  <div class="col-12 text-center">
-    <h3>{{ .dataHome.community.title | markdownify }}</h3>
-  </div>
-
   <div class="container">
-    <div class="slides-container">
-    </div>
-  </div>
+    <script defer src="/js/slideshow.js"></script>
 
-  <div class="col-12 text-center">
-    <a href="{{ .dataHome.community.btn_link }}" class="btn btn-primary">{{ .dataHome.community.btn_label | markdownify }}</a>
+    <div class="d-none" id="community-data">
+      {{ range .dataCommunity.providers.items }}
+        <div class="single-provider">
+          <div class="name">{{ .name }}</div>
+          <div class="img">{{ .img }}</div>
+          <div class="link">{{ .link }}</div>
+        </div>
+      {{ end }}
+      {{ range .dataCommunity.consumers.items }}
+        <div class="single-provider">
+          <div class="name">{{ .name }}</div>
+          <div class="img">{{ .img }}</div>
+          <div class="link">{{ .link }}</div>
+        </div>
+      {{ end }}
+    </div>
+
+    <div class="col-12 text-center">
+      <h3>{{ .dataHome.community.title | markdownify }}</h3>
+    </div>
+
+    <div id="slides-container" class="my-3"></div>
+
+    <div class="col-12 text-center">
+      <a href="{{ .dataHome.community.btn_link }}" class="btn btn-primary">{{ .dataHome.community.btn_label | markdownify }}</a>
+    </div>
   </div>
 </section>

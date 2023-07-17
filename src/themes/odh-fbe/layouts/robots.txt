@@ -1,0 +1,10 @@
+#	SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+#
+#	SPDX-License-Identifier: CC0-1.0
+
+User-agent: *
+Disallow: /icon
+Disallow: /images
+Disallow: /img
+
+Sitemap: {{ site.BaseURL }}/sitemap.xml

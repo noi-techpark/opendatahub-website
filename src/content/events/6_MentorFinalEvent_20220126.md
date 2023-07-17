@@ -9,7 +9,7 @@ day: "2022-01-26"
 time: "14:00 - 17:30"
 location: "Online"
 
-button_link: "/mentorfinalevent"
+button_link: "/events/mentorfinalevent"
 button_label: "Slides and videos"
 ---
 

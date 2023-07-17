@@ -4,32 +4,33 @@
 
 // Responsive COmparison Table JS
 
-$("#table-comparison").on("click", "li", function () {
-  var pos = $(this).index() + 2;
-  $("tr").find("td:not(:eq(0))").hide();
-  $("td:nth-child(" + pos + ")").css("display", "table-cell");
-  $("tr").find("th:not(:eq(0))").hide();
-  $("li").removeClass("active");
-  $(this).addClass("active");
+const tc = document.getElementById("table-comparison");
+const headers = tc.querySelectorAll("li");
+const tableRows = Array
+  .from(tc.querySelectorAll("tbody tr"))
+  .map((tr) => Array.from(tr.children).filter((td, index) => index !== 0));
+
+headers.forEach((header, hIndex) => {
+  header.addEventListener("click", () => {
+    
+    headers.forEach((header, index) => {
+      if (index === hIndex) {
+        header.classList.add("active");
+      } else {
+        header.classList.remove("active");
+      }
+    })
+
+    tableRows.forEach((tr) => {
+      tr.forEach((td, index) => {
+        if (index === hIndex) {
+          td.style.display = "table-cell";
+        } else {
+          td.style.display = "none";
+        }
+      });
+    });
+  });
 });
 
-// Initialize the media query
-var mediaQuery = window.matchMedia("(min-width: 640px)");
-
-// Add a listen event
-mediaQuery.addListener(doSomething);
-
-// Function to do something with the media query
-function doSomething(mediaQuery) {
-  if (mediaQuery.matches) {
-    $("#table-comparison .sep").attr("colspan", 5);
-  } else {
-    $("#table-comparison .sep").attr("colspan", 2);
-  }
-  if ($("#table-comparison li")[1]) {
-    $("#table-comparison li")[1].click();
-  }
-}
-
-// On load
-doSomething(mediaQuery);
+headers[0].click();

@@ -6,34 +6,17 @@
 
 {{ define "main" }}
 
-  {{ partial "nav.html" . }}
+{{ partial "title-use-cases-select.html" . }}
 
-  
-  {{ partial "title.html" .Params }}
+{{ range $index, $page := sort .Pages "Params.short.weight" "asc" }}
+  <section {{ if eq (mod $index 2) 0 }}class="bg-darker"{{ end }} id="use-case" data-tags="{{ range .Params.use_case_tags }} {{ . }} {{ end }}">
+    {{ partial $page.Params.short.partial $page.Params.short }}
+  </section>
+{{ end }}
 
-  <a id="sm-tag-use-cases"></a>
-  <section class="bg-darker" id="use-cases">
-    {{ partial "imgs-icon-text-margin.html" site.Data.usecases.use_cases_mentor }}
-  </section>
-
-  <a id="sm-tag-use-cases"></a>
-  <section id="use-cases">
-    {{ partial "text-imgs-icon.html" site.Data.usecases.use_cases_brennerLec }}
-  </section>
-  
-  <a id="sm-tag-use-cases"></a>
-  <section class="bg-darker" id="use-cases">
-    {{ partial "video-text.html" site.Data.usecases.use_cases_kultivas }}
-  </section>
-
-  <a id="sm-tag-use-cases"></a>
-  <section id="use-cases">
-    {{ partial "text-imgs-icon.html" site.Data.usecases.use_cases_greenmobility }}
-  </section>
-
-  <a id="sm-tag-use-cases"></a>
-  <section class="bg-darker" id="use-cases">
-    {{ partial "imgs-icon-text-margin.html" site.Data.usecases.contact_us }}
-  </section>
+<a id="sm-tag-use-cases"></a>
+<section id="use-cases">
+  {{ partial "text-imgs-icon.html" site.Data.usecases.contact_us }}
+</section>
 
 {{ end }}

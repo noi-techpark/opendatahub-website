@@ -4,13 +4,10 @@
 	SPDX-License-Identifier: AGPL-3.0-or-later
 */}}
 
-{{ define "main" }} {{ partial "nav.html" . }} {{ partial "title-notification.html" .Params }}
+{{ define "main" }}
 
+{{ partial "title-notification.html" .Params }}
 
-<div class="container hello">
-    <div class="contact-form-ct col-lg-5">
-        {{ partial "contact-form-contact.html" . }}
-    </div>
-</div>
+{{ partial "contact-form-contact.html" . }}
 
 {{ end }}

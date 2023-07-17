@@ -6,7 +6,7 @@
 providers:
   title: Data Providers
   subtitle: These Companies and Organisations are official Data Providers for the Open Data Hub and share data with others, to enable the implementation of innovative digital solutions.
-  item:
+  items:
     - name: Autostrada del Brennero SpA
       img: "img/community/a22.png"
       link: https://www.autobrennero.it/
@@ -139,7 +139,7 @@ providers:
 consumers:
   title: Data Consumers
   subtitle: These Companies and Organizations are the registered Data Consumers of the Open Data Hub and use the data to implement innovative digital solutions for a SMART Green Region.
-  item:
+  items:
     - name: ACS srl
       img: "img/community/acs.png"
       link: https://www.acs.it/
@@ -257,7 +257,7 @@ consumers:
 developers:
   title: Development partners
   subtitle: Open Data Hub supports the implementation of an **innovative platform**, where talents can **use data and create innovative solutions** for a SMART Green Region.
-  item:
+  items:
     - name: Autostrada del Brennero SpA
       img: "img/community/a22.jpeg"
       link: https://www.autobrennero.it/
@@ -278,7 +278,7 @@ developers:
 ########################### Team #########################
 team:
   title: Experts
-  item:
+  items:
     - name: Patrick Ohnewein
       position: Team Leader
       img: "img/experts/PatrickOhnewein.jpg"

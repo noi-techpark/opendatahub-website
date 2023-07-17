@@ -6,38 +6,33 @@
 
 <div >
   <div class="container">
-     <a href="{{.btn_top_link}}" class="btn btn-primary" style="margin:20px" onclick="{{.btn_top_on_click}}">{{ .btn_top_label | markdownify }}</a>
- </div>
-  <div class="container">
+    <a href="{{.btn_top_link}}" class="btn btn-primary" onclick="{{ .btn_top_on_click }}">{{ .btn_top_label | markdownify }}</a>
     <table>
      <thead>
-       <tr>
-         {{ range .header }}
-         <th width= {{.width}}>
-           {{.title}}
-         </th>
-         {{ end }}
-       </tr>
+        <tr>
+          {{ range .header }}
+            <th width= {{.width}}>
+              {{.title}}
+            </th>
+          {{ end }}
+        </tr>
      </thead>
 
      <tbody>
-       {{ range .row }}
-       <tr>
-         {{ range .cols }}
-          {{ if isset . "content" }}
-            <td>{{ .content | safeHTML}}</td>
-          {{end}} {{ if isset . "slidesLink" }}
-          <td><a href="{{.slidesLink}}" class="btn btn-primary" style="margin:20px">Slides</a></td>
-          {{end}} {{ if isset . "videoLink" }}
-          <td><a href="{{.videoLink}}" class="btn btn-primary" style="margin:20px">Video</a></td>
-          {{end}}
-         {{ end }}
-       </tr>
-       {{ end }}
+        {{ range .row }}
+        <tr>
+          {{ range .cols }}
+            {{ if isset . "content" }}
+              <td>{{ .content | safeHTML}}</td>
+            {{end}} {{ if isset . "slidesLink" }}
+              <td><a href="{{.slidesLink}}" class="btn btn-primary d-flex gap-1 me-3">Slides</a></td>
+            {{end}} {{ if isset . "videoLink" }}
+              <td><a href="{{.videoLink}}" class="btn btn-primary d-flex gap-1 ms-3">Video</a></td>
+            {{end}}
+          {{ end }}
+        </tr>
+        {{ end }}
      </tbody> 
-   </table>
- </div>
- <div class="container">  
-    <a href="{{.btn_down_link}}" class="btn btn-primary" style="margin:20px" onclick="{{.btn_down_on_click}}">{{ .btn_down_label | markdownify }}</a>
- </div>
+    </table>
+  </div>
 </div>

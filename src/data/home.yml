@@ -12,13 +12,13 @@ offset_images:
   image_two_title: "Data Access"
   image_two_subtitle: "Discover how to access data from the Open Data Hub as a Data Consumer, to build your own apps and services"
   image_two_img: "/img/home-data-consumer.jpg"
-  image_two_link: "/data-access"
+  image_two_link: "/services/data-access"
   image_two_btn_label: "Access Data"
   
   image_one_title: "Data Sharing"
   image_one_subtitle: "Discover the benefits of sharing your data and how to become a Data Provider for the Open Data Hub"
   image_one_img: "/img/home-data-provider.jpg"
-  image_one_link: "/data-sharing"
+  image_one_link: "/services/data-sharing"
   image_one_btn_label: "Share Data"
 
 community:
@@ -90,7 +90,7 @@ use_case:
 dataset_example:
   title: "Real-time **e-charging** stations"
   description: "This dataset provides data about existing **e-charging stations**, about their plugs and **availability status**, including historical usage data. It includes hydrogen station data as well."
-  btn_link: "/use-cases-green-mobility/"
+  btn_link: "/use-cases/green-mobility/"
   btn_label: "Read more"
   img_back: "/img/ODH-home-data-access-use-case-e-charging.jpg"
   img_front: "/img/datasets/andrew-roberts-2JvEjF0tf50-unsplash.png"
@@ -102,17 +102,17 @@ services:
     - name: "Data Access"
       image: "/img/ODH-home-data-access.jpg"
       icon: "/icon/download.svg"
-      box_link: "/data-access/"
+      box_link: "/services/data-access/"
       btn_label: "Access data"
 
     - name: "Data Sharing"
       image: "/img/ODH-home-services-data-sharing-luisa.jpg"
       icon: "/icon/upload.svg"
-      box_link: "/data-sharing/"
+      box_link: "/services/data-sharing/"
       btn_label: "Share data"
 
     - name: "Data Visualization"
       image: "/img/ODH-home-services-data-visualization.jpg"
       icon: "/icon/box.svg"
-      box_link: "/data-visualization/"
+      box_link: "/services/data-visualization/"
       btn_label: "Create data visualisations"

@@ -1,0 +1,18 @@
+{{/*
+	SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+
+	SPDX-License-Identifier: AGPL-3.0-or-later
+*/}}
+
+{{ define "main" }}
+
+{{ partial "title.html" .Params }}
+
+<section class="bg-darker pb-1">
+
+	{{ partial "title-section.html" .Params.program }}
+	{{ partial .Params.content_partial .Params.content }}
+	
+</section>
+
+{{ end }}

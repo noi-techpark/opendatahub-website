@@ -4,47 +4,85 @@
 	SPDX-License-Identifier: AGPL-3.0-or-later
 */}}
 
-<div class="js-sticky">
-    <div class="fh5co-main-nav">
-        <div class="container">
-            {{ $currentPage := . }}
-            <div class="header-wrap">
-                <div class="fh5co-menu-1">
-                    <a href="/" {{ if eq $currentPage.Params.Position "Project" }}class="logo-home current" {{ else }}class="logo-home" {{ end }}><img src={{ .Site.Params.logo | absURL }} height="40" alt=""></a>
-                    <div class="vertical-separator"></div>
-                    <div class="nav-links">
-                        {{ range .Site.Menus.main }}
-                        <div {{ if eq $currentPage.Params.Position .Name }}class="expanded current nav-link" {{ else }}class="not-current nav-link" {{ end }}>
-                            <a {{ if eq .Identifier "web-components" }} target="_blank" {{ end }} {{ if .HasChildren }}class="nav-link-name" {{ else }}class="nav-link-name no-children" {{ end }} href="{{ .URL | absURL }}">{{ .Name }}</a>{{ if .HasChildren}}
-                            <div class="sub-menu">
-                                {{ range .Children }}
-                                <a href="{{ .URL }}">{{ .Name }}</a> {{ end }}
-                            </div>
+<nav class="navbar navbar-expand-xl fixed-top shadow-sm bg-white">
+    <div class="container">
+        {{ $currentPage := . }}
+        <a href="/" class="navbar-brand" >
+            <img src={{ .Site.Params.logo | absURL }} height="40" alt="">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasXl" aria-controls="navbarOffcanvasXl" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasXl" aria-labelledby="navbarOffcanvasXlLabel">
+            <div class="offcanvas-header">
+                <a href="/" class="offcanvas-title" id="offcanvasNavbarLabel" >
+                    <img src={{ .Site.Params.logo | absURL }} height="40" alt="">
+                </a>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav align-items-center flex-grow-1 pe-3">
+                    <div class="vertical-separator d-none d-xl-inline-block"></div>
+                    {{ range .Site.Menus.main }}
+                        <li class="nav-item {{ if .HasChildren }}dropdown{{ end }}">
+                            <a
+                                class="nav-link {{ if eq $currentPage.Params.Position .Name }}active{{ end }} {{ if .HasChildren }}dropdown-toggle{{end}}"
+
+                                {{ if eq $currentPage.Params.Position .Name }}aria-current="page"{{ end }}
+
+                                {{ if .HasChildren }}role="button" data-bs-toggle="dropdown" aria-expanded="false"{{end}}
+
+                                {{ if eq .Identifier "web-components" }} target="_blank" {{ end }}
+
+                                href="{{ .URL | absURL }}"
+                            >
+                                {{ .Name }}
+                            </a>
+                            {{ if .HasChildren}}
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    {{ range .Children }}
+                                        <li><a class="dropdown-item" href="{{ .URL }}">{{ .Name }}</a></li>
+                                    {{ end }}
+                                </ul>
                             {{ end }}
-                        </div>
-                        {{end}}
-                    </div>
+                        </li>
+                    {{end}}
+                    <div class="flex-xl-fill"></div>
+                    <li class="nav-item dropdown">
+                        <a
+                            class="nav-link dropdown-toggle {{ if or (eq $currentPage.Params.Position "About Us") (eq $currentPage.Params.Position "Contact Us") }}active{{ end }}"
 
-                </div>
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false"
 
-                <div class="fh5co-menu-1 float-right">
-                    <div class="nav-links">
-                        <div {{ if or (eq $currentPage.Params.Position "contact") (eq $currentPage.Params.Position "about-us") }} class="expanded current nav-link" {{ else }} class="not-current nav-link" {{ end }}>
-                            <a class="nav-link-name none-float" href="/about-us">
-                            <span class="fa fa-chevron-right" aria-hidden="true"></span>
-                            <span>About us</span></a>
-                            <div class="sub-menu">
-                                <a href="/about-us">About us</a>
-                                <a href="/contact">Contact us</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="vertical-separator"></div>
-                    <a href={{ .Site.Params.web_NOI | absURL }} target="_blank" class="logo-home" style="margin-left: 15px;"><img src={{ .Site.Params.logo_NOI | absURL }} height="40" alt=""></a>
-
-                </div>
-
+                            {{ if or (eq $currentPage.Params.Position "About Us") (eq $currentPage.Params.Position "Contact Us") }}aria-current="page"{{ end }}
+                            
+                            href="{{ "/about-us" | absURL }}"
+                        >
+                            {{/*  <span class="fa fa-chevron-right me-1" aria-hidden="true"></span>  */}}
+                            About us
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/about-us">About us</a></li>
+                            <li><a class="dropdown-item" href="/contact">Contact us</a></li>
+                        </ul>
+                    </li>
+                    <div class="vertical-separator d-none d-xl-inline-block"></div>
+                    <div class="horizontal-spacer d-xl-none"></div>
+                    <li class="nav-item ms-2">
+                        <a
+                            href={{ .Site.Params.web_NOI | absURL }}
+                            target="_blank"
+                            class="nav-link"
+                        >
+                            <img src={{ .Site.Params.logo_NOI | absURL }} height="40" alt="">
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
-</div>
+</nav>

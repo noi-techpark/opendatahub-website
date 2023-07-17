@@ -10,7 +10,7 @@ day: "2021-10-01"
 time: "09:00 - 13:30"
 location: "NOI Techpark and online"
 
-button_link: "/odhday"
+button_link: "/events/odhday21"
 button_label: "Slides and Videos"
 ---
 

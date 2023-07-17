@@ -4,89 +4,54 @@
 	SPDX-License-Identifier: AGPL-3.0-or-later
 */}}
 
-<footer>
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col col-lg-4 odh-logo-footer">
-                    <a href="/">
-                        <img src="{{ .Site.Params.footer.logo }}" />
-                    </a>
-                </div>
-                <div class="col col-lg-2 col-sm-4">
-                    <h6>{{ .Site.Params.footer.menu_title_1 | markdownify }}</h6>
-                    <ul>
-                        {{ range .Site.Menus.footer1 }}
-                        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-                        {{end}}
-                    </ul>
-                </div>
-                <div class="col col-lg-2 col-sm-4">
-                    <h6>{{ .Site.Params.footer.menu_title_2 | markdownify }}</h6>
-                    <ul>
-                        {{ range .Site.Menus.footer2 }}
-                        <li><a target="_blank" href="{{ .URL }}">{{ .Name }}</a></li>
-                        {{end}}
-                    </ul>
-                </div>
-                <div class="col col-lg-2 col-sm-4">
-                    <h6>{{ .Site.Params.footer.menu_title_3 | markdownify }}</h6>
-                    <ul>
-                        {{ range .Site.Menus.footer3 }}
-                        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-                        {{end}}
-                    </ul>
-                </div>
-                <div class="col col-lg-2 col-sm-4">
-                    <h6>{{ .Site.Params.footer.menu_title_4 | markdownify }}</h6>
-                    <ul>
-                        {{ range .Site.Menus.footer4 }}
-                        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-                        {{end}}
-                    </ul>
-                </div>
-                <div class="col col-lg-2 col-sm-4 social-logos-footer">
-                    {{ with .Site.Params.footer }}
-                    <ul class="social">
-                        {{ if isset . "twitter" }}
-                        <li>
-                            <a target="_blank" href="{{ .twitter }}"><img src="/icon/twitter_white.svg" /></a>
-                        </li>
-                        {{ end }} {{ if isset . "facebook" }}
-                        <li>
-                            <a target="_blank" href="{{ .facebook }}"><img src="/icon/facebook_white.svg" /></a>
-                        </li>
-                        {{ end }} {{ if isset . "linkedin" }}
-                        <li>
-                            <a target="_blank" href="{{ .linkedin }}"><img src="/icon/linkedin_white.svg" /></a>
-                        </li>
-                        {{ end }} {{ if isset . "instagram" }}
-                        <li>
-                            <a target="_blank" href="{{ .instagram }}"><img src="/icon/instagram_white.svg" /></a>
-                        </li>
-                        {{ end }} {{ if isset . "github" }}
-                        <li>
-                            <a target="_blank" href="{{ .github }}"><img src="/icon/github_white.svg" /></a>
-                        </li>
-                        {{ end }} {{ if isset . "telegram" }}
-                        <li>
-                            <a target="_blank" href="{{ .telegram }}"><img src="/icon/telegram_white.svg" /></a>
-                        </li>
-                        {{ end }} {{ if isset . "element" }}
-                        <li>
-                            <a target="_blank" href="{{ .element }}"><img src="/icon/element_white.svg" /></a>
-                        </li>
-                        {{ end }}
-                    </ul>
-                    {{ end }}
-                </div>
+{{ $f := site.Params.footer }}
+<footer class="mt-5">
+  <div class="bg py-3">
+    <div class="container">
+      <div class="row gy-2 text-black text-semi-bold">
+        {{ range $f.cards }}
+        <div class="col-12 col-xl-6">
+          <a href="{{ .URL }}" {{ if .target_blank }}target="_blank"{{ end }}>
+            <div class="card h-100 p-3 d-flex flex-row align-items-center gap-3">
+              <div class="flex-shrink-1">
+                <img src="{{ .icon }}" alt="NOI Techpark" />
+              </div>
+              <span>{{ markdownify .text }}</span>
             </div>
-            <div class="row copyright">
-                {{ with .Site.Params.footer }}
-                <span> {{ .copyright | markdownify }} </span> {{ end }}
-            </div>
+          </a>
         </div>
-    </section>
-
-    {{ partial "js.html" .}}
+        {{ end }}
+      </div>
+      <div class="hr-bold border-bottom border-black my-3"></div>
+      <div class="row gy-3">
+        {{ range $f.columns }}
+        <div class="col-12 col-lg-3">
+          <div class="d-flex flex-column">
+            <strong class="mb-1">{{ .title }}</strong>
+            {{ range .rows }}
+            <a href="{{ .URL }}" {{ if .target_blank }}target="_blank"{{ end }}>{{ .text }}</a>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+        {{ $sm := $f.social_media }}
+        <div class="col-12 col-lg-3">
+          <div class="d-flex flex-column">
+            <strong class="mb-1">{{ $sm.title }}</strong>
+            {{ range $sm.rows }}
+            <a href="{{ .URL }}" target="_blank" class="d-flex align-items-center gap-2">
+              <img src="{{ .icon }}" alt="{{ .text }}">
+              {{ .text }}
+            </a>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-3 text-center">
+    <span class="text-muted text-small">
+      {{ markdownify $f.copyright }}
+    </span>
+  </div>
 </footer>

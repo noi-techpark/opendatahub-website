@@ -4,21 +4,22 @@
 	SPDX-License-Identifier: AGPL-3.0-or-later
 */}}
 
-<section style="padding: 3rem 0;">
-
-    <div class="quickstart-boxes container">
-
-        {{ range .Pages }}
-        <a target="_blank" href="{{ .Params.button_link }}" class="col-lg-4 col-md-6 col-12">
-            <div class="qs-box">
-                <h6 class="title">{{ .Title }}</h6>
-
-                <div class="content">{{ .Content }}</div>
-
-                <div class="btn btn-primary">{{ .Params.button_label }}</div>
+<section>
+    <div class="container">
+        <div class="row gy-4">
+            {{ range .Pages }}
+            <div class="col-lg-4 col-md-6 col-12">
+                <a target="_blank" href="{{ .Params.button_link }}" class="quickstart-box">
+                    <div class="bg-primary-subtle border-bottom border-5 px-4 pt-5 pb-4 h-100 d-flex flex-column align-items-start">
+                        <h5 class="fw-bold">{{ .Title }}</h5>
+        
+                        <div class="flex-grow-1 my-2">{{ .Content }}</div>
+        
+                        <div class="btn btn-primary d-inline">{{ .Params.button_label }}</div>
+                    </div>
+                </a>
             </div>
-        </a>
-        {{ end }}
-
+            {{ end }}
+        </div>
     </div>
 </section>

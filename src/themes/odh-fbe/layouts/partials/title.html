@@ -5,11 +5,13 @@
 */}}
 
 {{" <!-- Title -->" | safeHTML }}
-<section class="title">
+<section>
     <div class="container">
-        <div class="container-content">
-            <h1 class="primary">{{ .title | markdownify }}</h1>
-            {{ with .subtitle }}<h2 class="subtitle">{{ . | markdownify }}</h2>{{ end }}
+        <div class="row gy-4">
+            <div class="col-lg-8">
+                <h2>{{ .title | markdownify }}</h2>
+                {{ with .subtitle }}<h2 class="subtitle">{{ . | markdownify }}</h2>{{ end }}
+            </div>
         </div>
     </div>
 </section>

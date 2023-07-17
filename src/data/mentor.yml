@@ -16,7 +16,8 @@ paragraph_1:
 
 paragraph_2:
   description: "All these services have been technologically connected to the Open Data Hub. Through a partnership between NOI Techpark and OpenMove, a cutting-edge digital solution has been developed, enabling the calculation of trip plans by integrating real-time data from all accessible mobility services. This advanced application is available at mobility.meran.eu."
-  img_back: "/img/use-cases/ODH-usecase-mentor-image-03.jpg"
+  img_back: "/img/use-cases/ODH-usecase-mentor-image-02.jpg"
+  img_hover: "/img/use-cases/ODH-usecase-mentor-image-01.jpg"
 
 paragraph_3:
   description: "The pilot mobility services tested in the MENTOR project are <br><br>

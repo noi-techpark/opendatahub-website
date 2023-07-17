@@ -6,100 +6,36 @@
 
 {{ define "main" }}
 
-{{ partial "nav.html" . }}
-
 {{ partial "title.html" .Params }}
 
 <a id="sm-tag-upcoming-events"></a>
-<section class="bg-darker">
+<section class="bg-darker pb-4">
 	{{ partial "title-section.html" site.Data.events.upcoming }}
-	<div class="events container">
-
-		{{ range sort .Pages ".Params.day" "asc"}}
-		{{ if ge (time .Params.day).Unix now.Unix }}
-		<a target="_blank" href="{{ .Params.button_link }}" class="col-lg-6 card">
-			<div>
-				<div class="rectangle-long bg-center-cover">
-					<img src="{{ .Params.img }}" alt="{{ .Params.img_alt }}" />
-				</div>
-
-				<h6 class="title">{{ .Title }}</h6>
-				<div class="content">{{ .Content }}</div>
-
-				<p>
-					{{ with .Params.day }}
-				<div>
-					<span class="fa fa-calendar-o"></span>
-					<span>{{ dateFormat "Monday, Jan 2, 2006" . }}</span>
-				</div>
+	<div class="container">
+		<div class="row gy-4" id="upcoming-events">
+			{{ range sort .RegularPages ".Params.day" "asc" }}
+				{{ if ge (time .Params.day).Unix now.Unix }}
+					{{ partial "event-box.html" (dict "page" . "darker" false )}}
 				{{ end }}
-				{{ with .Params.time }}
-				<div>
-					<span class="fa fa-clock-o"></span>
-					<span>{{.}}</span>
-				</div>
-				{{ end }}
-				{{ with .Params.location }}
-				<div>
-					<span class="fa fa-thumb-tack"></span>
-					<span>{{.}}</span>
-				</div>
-				{{ end }}
-				</p>
-
-				<div class="btn btn-primary">{{ .Params.button_label }}</div>
-			</div>
-		</a>
-		{{ end }}
-		{{ end }}
-
+			{{ end }}
+		</div>
 	</div>
 </section>
 
 <a id="sm-tag-past-events"></a>
-<section style="padding: 3rem 0;">
+<section class="pb-4">
 	{{ partial "title-section.html" site.Data.events.past }}
-	<div class="past_events container">
-
-		{{ range sort .Pages ".Params.day" "desc"}}
-		{{ if lt (time .Params.day).Unix now.Unix }}
-		<a target="_blank" href="{{ .Params.button_link }}" class="col-lg-6 card">
-			<div>
-				<div class="rectangle-long bg-center-cover">
-					<img src="{{ .Params.img }}" alt="{{ .Params.img_alt }}" />
-				</div>
-
-				<h6 class="title">{{ .Title }}</h6>
-				<div class="content">{{ .Content }}</div>
-
-				<p>
-				{{ with .Params.day }}
-				<div>
-					<span class="fa fa-calendar-o"></span>
-					<span>{{ dateFormat "Monday, Jan 2, 2006" . }}</span>
-				</div>
+	<div class="container">
+		<div class="row gy-4" id="past-events">
+			{{ range sort .RegularPages ".Params.day" "desc"}}
+				{{ if lt (time .Params.day).Unix now.Unix }}
+					{{ partial "event-box.html" (dict "page" . "darker" true )}}
 				{{ end }}
-				{{ with .Params.time }}
-				<div>
-					<span class="fa fa-clock-o"></span>
-					<span>{{.}}</span>
-				</div>
-				{{ end }}
-				{{ with .Params.location }}
-				<div>
-					<span class="fa fa-thumb-tack"></span>
-					<span>{{.}}</span>
-				</div>
-				{{ end }}
-				</p>
-
-				<div class="btn btn-primary">{{ .Params.button_label }}</div>
-			</div>
-		</a>
-		{{ end }}
-		{{ end }}
-
+			{{ end }}
+		</div>
 	</div>
 </section>
+
+<script src="/js/events-sort.js"></script>
 
 {{ end }}
