@@ -4,10 +4,26 @@
 	SPDX-License-Identifier: AGPL-3.0-or-later
 */}}
 
+{{/* 
+	TODO: Once the mail client is fixed:
+	- change title back to title-notification.html partial
+	- remove the section containing the contact-mailto.html partial
+	- uncomment the contact-form-contact.html partial
+	- switch back to the commented text in /src/content/contact/_index.md
+*/}}
+
 {{ define "main" }}
 
-{{ partial "title-notification.html" .Params }}
+{{ partial "title.html" .Params }}
 
-{{ partial "contact-form-contact.html" . }}
+<section>
+	<div class="container">
+		<div class="row">
+			{{ partial "contact-mailto.html" .Params }}
+		</div>
+	</div>
+</section>
+
+{{/*  {{ partial "contact-form-contact.html" . }}  */}}
 
 {{ end }}
