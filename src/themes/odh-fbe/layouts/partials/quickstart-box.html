@@ -5,11 +5,11 @@
 */}}
 
 <div class="col-lg-4 col-md-6 col-12">
-    <a target="_blank" href="{{ .btn_link }}" class="quickstart-box">
+    <a target="_blank" href="{{ .btn_link }}" class="detect-hover">
         <div class="bg-primary-subtle border-bottom border-5 px-4 pt-5 pb-4 h-100 d-flex flex-column align-items-start">
             <h5 class="fw-bold">{{ .title }}</h5>
             <div class="flex-grow-1 my-2">{{ .subtitle }}</div>
-            <div class="btn btn-primary d-inline">
+            <div class="slide-on-hover btn btn-primary d-inline">
                 {{ if isset . "btn_label" }}
                     {{ .btn_label }}
                 {{ else }}
