@@ -8,6 +8,14 @@
 
 {{ partial "title.html" .Params }}
 
-{{ partial "quickstart-boxes.html" .}}
+<section>
+	<div class="container">
+		<div class="row gy-4">
+			{{ range site.Data.quickstart.boxes }}
+				{{ partial "quickstart-box.html" . }}
+			{{ end }}
+		</div>
+	</div>
+</section>
   
 {{ end }}
