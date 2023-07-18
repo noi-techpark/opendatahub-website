@@ -11,7 +11,7 @@ weight: 3
 availability_label: "On Request Data"
 availability_description: >-
     Data only available to authorized collaborators
-    (<a class="dataset-mailto">contact&nbsp;us</a>
+    (<a id="dataset-mailto">contact&nbsp;us</a>
     if you are interested in this data)
 
 

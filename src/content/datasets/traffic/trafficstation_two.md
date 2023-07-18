@@ -11,7 +11,7 @@ weight: 3
 availability_label: "On Request Data"
 availability_description: >-
     A22 data is closed (candidate to be opened) and restricted to a project collaboration
-    (<a class="dataset-mailto">contact&nbsp;us</a>
+    (<a id="dataset-mailto">contact&nbsp;us</a>
     if you are interested in this data.)
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#trafficstation-vms-dataset"
