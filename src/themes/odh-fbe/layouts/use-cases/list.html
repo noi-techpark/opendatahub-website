@@ -6,7 +6,7 @@
 
 {{ define "main" }}
 
-{{ partial "title-use-cases-select.html" . }}
+{{ partial "title-use-cases-select.html" .Params }}
 
 {{ range $index, $page := sort .Pages "Params.short.weight" "asc" }}
   <section {{ if eq (mod $index 2) 0 }}class="bg-darker"{{ end }} id="use-case" data-tags="{{ range .Params.use_case_tags }} {{ . }} {{ end }}">
