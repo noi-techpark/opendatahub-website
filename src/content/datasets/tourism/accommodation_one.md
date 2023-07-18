@@ -11,7 +11,7 @@ weight: 2
 availability_label: "Open Data | On Request Data"
 availability_description: >-
     Data only available to authorized collaborators.
-    <a class="dataset-mailto">Contact&nbsp;us</a>
+    <a id="dataset-mailto">Contact&nbsp;us</a>
     if you are interested in this data.
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#accommodation-dataset"
