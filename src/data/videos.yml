@@ -1,0 +1,368 @@
+# SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+#
+# SPDX-License-Identifier: CC0-1.0
+
+sections:
+  ################################# Open Data Hub 2023 interviews ################  #########
+  - title: "**Open Data Hub Day 2023 Interviews**"
+    initially_expanded: true
+    videos:
+      - subtitle: "International Data Spaces Association (IDSA)"
+        title: "**International Data Spaces Association (IDSA) interview**"
+        description: "Giulia Giussani"
+        btn_link: "https://www.slideshare.net/SFScon/open-data-hub-giulia-giussani-a-look-into-the-future-of-data-sharing"
+        btn_label: Open Data Hub Day 2023 - Slides
+        video: "https://player.vimeo.com/video/830169508"
+        target_blank: true
+      
+      - subtitle: "SkyAlps"
+        title: "**SkyAlps Interview**"
+        description: "Maximilian Alber"
+        btn_link: "https://www.slideshare.net/SFScon/open-data-hub-maximilian-alber-skyalps-a-real-use-case-of-open-data-for-an-airlinepdf"
+        btn_label: Open Data Hub Day 2023 - Slides
+        video: "https://player.vimeo.com/video/830169687"
+        target_blank: true
+
+      - subtitle: "Arxax"
+        title: "**Arxax Interview**"
+        description: "Elizabeth Mc Namara"
+        btn_link: "https://www.slideshare.net/SFScon/open-data-hub-elizabeth-mc-namara-arxax-the-role-of-open-data-hub-in-decarbonising-brenner-pass"
+        btn_label: Open Data Hub Day 2023 - Slides
+        video: "https://player.vimeo.com/video/830169397"
+        target_blank: true
+
+      - subtitle: "NOI Techpark"
+        title: "**NOI Techpark Interview**"
+        description: "Roberto Cavaliere"
+        btn_link: "https://www.slideshare.net/SFScon/open-data-hub-roberto-cavaliere-open-data-hub-mobility-data-spacepdf"
+        btn_label: Open Data Hub Day 2023 - Slides
+        video: "https://player.vimeo.com/video/830169814"
+        target_blank: true
+
+  ################################# Open Data Presentations #########################
+  - title: "**Open Data Hub Presentations**"
+    initially_expanded: false
+    videos:
+      - subtitle: "NOI Techpark"
+        title: "**Open Data Hub at OW2con'23**"
+        description: "Simon Dalvai"
+        btn_link: "https://www.ow2con.org/view/2023/Abstract_Community_Day#14061450"
+        btn_label: "Abstract"
+        video: https://www.youtube.com/embed/GncBBBvHeAA
+        target_blank: true
+      - subtitle: "NOI Techpark"
+        title: "**Software Developers Thursday - The new Data Browser**"
+        description: "Christian Gapp"
+        video: https://www.youtube.com/embed/yOc874nOCZs
+      - subtitle: "NOI Techpark"
+        title: "**Software Developers Thursday - MQTT broker and realtime flight data**"
+        description: "Martin Rabanser"
+        video: https://www.youtube.com/embed/tfq7a3kHEJA
+      - subtitle: "NOI Techpark"
+        title: "**Software Developers Thursday - Data Browser 2.0**"
+        description: "Christian Gapp"
+        video: https://www.youtube.com/embed/yng4Zvu_CvI
+      - subtitle: "NOI Techpark"
+        title: "**Software Developers Thursday - AlpineBits DestinationData Endpoint**"
+        description: "Claudenir Fonseca and Tiago Prince Sales"
+        video: https://www.youtube.com/embed/yuNPwC3sxow
+  
+  ################################# Open Data Hub 2023 #########################
+  - title: "**Open Data Hub Day 2023**" 
+    initially_expanded: false
+    videos:
+      - subtitle: ""
+        title: "**Open Data Hub Day 2023 - Trailer**"
+        description: ""
+        btn_link: "/events/odhday23"
+        btn_label: Go to event page
+        video: "https://player.vimeo.com/video/830468551"
+        target_blank: false
+
+      - subtitle: "NOI Techpark"
+        title: "**Data-driven ecosystems of mobility services & adjacent industries**"
+        description: "Vincent Mauroit"
+        btn_link: "https://www.slideshare.net/SFScon/open-data-hub-vincent-mauroit-datadriven-ecosystems-of-mobility-services-adjacent-industries"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/829080169"
+        target_blank: true
+
+      - subtitle: "NOI Techpark"
+        title: "**Open Data Hub update**"
+        description: "Patrick Ohnewein"
+        btn_link: "https://www.slideshare.net/SFScon/open-data-hub-patrick-ohnewein-open-data-hub-updatepdf"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/829080830"
+        target_blank: true
+      
+      - subtitle: "International Data Spaces Association (IDSA)"
+        title: "**A look into the future of data sharing:​ the new paradigm of Data Spaces**"
+        description: "Giulia Giussani"
+        btn_link: "https://www.slideshare.net/SFScon/open-data-hub-giulia-giussani-a-look-into-the-future-of-data-sharing"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/829081274"
+        target_blank: true
+
+      - subtitle: "NOI Techpark"
+        title: "**Open Data Hub: Mobility Data Space**"
+        description: "Roberto cavaliere"
+        btn_link: "https://www.slideshare.net/SFScon/open-data-hub-roberto-cavaliere-open-data-hub-mobility-data-spacepdf"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/829081937"
+        target_blank: true
+
+      - subtitle: "Autostrada del Brennero"
+        title: "**ITS and C-ITS projects of the Brenner Motorway**"
+        description: "Ilaria De Biasi"
+        btn_link: "https://www.slideshare.net/SFScon/open-data-hub-ilaria-de-biasi-autostrada-del-brennero-its-and-cits-projects-of-the-brenner-motorwaypdf"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/829082553"
+        target_blank: true
+
+      - subtitle: "CISMA"
+        title: "**From raw traffic data to air pollutant emission: an open data approach and demonstrator**"
+        description: "Gianluca Antonacci"
+        btn_link: "https://www.slideshare.net/SFScon/open-data-hub-gianluca-antonacci-cisma-from-raw-traffic-data-to-air-pollutant-emission-an-open-data-approach-and-demonstrator"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/829083213" 
+        target_blank: true
+
+      - subtitle: "Arxax"
+        title: "**The role of Open Data Hub in decarbonising Brenner Pass**"
+        description: "Elizabeth Mc Namara"
+        btn_link: "https://www.slideshare.net/SFScon/open-data-hub-elizabeth-mc-namara-arxax-the-role-of-open-data-hub-in-decarbonising-brenner-pass"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/829083888" 
+        target_blank: true
+
+      - subtitle: "SkyAlps"
+        title: "**SkyAlps - a real use case of open data for an airline**"
+        description: "Maximilian Alber"
+        btn_link: "https://www.slideshare.net/SFScon/open-data-hub-maximilian-alber-skyalps-a-real-use-case-of-open-data-for-an-airlinepdf"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/829084460"
+        target_blank: true
+
+      - subtitle: "NOI Techpark"
+        title: "**Open Data Hub: Data Browser 2.0**"
+        description: "Stefano Seppi"
+        btn_link: "https://www.slideshare.net/SFScon/open-data-hub-stefano-seppi-open-data-hub-data-browser-2pdf"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/829085174"
+        target_blank: true
+
+      - subtitle: "Animeshon"
+        title: "**Real-time Open Data Hub**"
+        description: "Matteo Roggia"
+        btn_link: "https://www.slideshare.net/SFScon/open-data-hub-matteo-roggia-animeshon-realtime-open-data-hubpdf"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/829085640"
+        target_blank: true
+
+      - subtitle: "Free University of Bozen-Bolzano"
+        title: "**Supporting Open Data in Large Systems: principles and practices of extensibility in microservices**"
+        description: "João Francisco Lino Daniel & Eduardo Martins Guerra"
+        btn_link: "https://www.slideshare.net/SFScon/open-data-hub-joo-francisco-lino-daniel-eduardo-martins-guerra-backup-se-non-funziona-html-unibz-supporting-open-data-in-large-systems"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/829086610"
+        target_blank: true
+
+      - subtitle: "Freelance"
+        title: "**Towards better data quality through open source data validation tools**"
+        description: "Daniele Gobbetti"
+        btn_link: "https://www.slideshare.net/SFScon/open-data-hub-daniele-gobbetti-towards-better-data-quality-through-open-source-data-validation-tools"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/829086047"
+        target_blank: true
+
+      - subtitle: "CatchSolve"
+        title: "**Data Quality Testing at the service of Open Data**"
+        description: "Chiara Masci & Davide Montesin"
+        btn_link: "https://www.slideshare.net/SFScon/open-data-hub-chiara-masci-davide-montesin-data-quality-testing-at-the-service-of-open-data"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/829087175"
+        target_blank: true
+
+  ################################# Open Data Hub 2022 #########################
+  - title: "**Open Data Hub Day 2022**"
+    initially_expanded: false
+    videos:
+      - subtitle: "NOI Techpark"
+        title: "**Update about the Open Data Hub Project**"
+        description: "Patrick Ohnewein"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/awHA7adeY7MNRpP"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/715100887"
+        target_blank: true
+
+      - subtitle: "Eurac Research"
+        title: "**Environmental Data Platform as a tool for working with heterogeneous Big Data**"
+        description: "Roberto Monsorno"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/GFMoJJat538WZkd"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/715097586"
+        target_blank: true
+
+      - subtitle: "Dolomiti Superski"
+        title: "**Optimize and automate destination communication by sharing data**"
+        description: "Marco Pappalardo"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/KC4mQy4S3agGSBf"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/715098141"
+        target_blank: true
+
+      - subtitle: "CatchSolve"
+        title: "**Data quality and monitoring for Open Data Hub**"
+        description: "Davide Montesin & Chiara Masci"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/cExYZ5DyW23Fswi"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/715098854"
+        target_blank: true
+
+      - subtitle: "FOS & Truckscreenia"
+        title: "**Display with innovative technology connected to the Open Data Hub**"
+        description: "Giovanni Giannotta & Alessandro Pancani"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/fTt3s9DJJmZazAy"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/715099775"
+        target_blank: true
+
+      - subtitle: "CISMA"
+        title: "**Real time data and motorway traffic management**"
+        description: "Gianluca Antonacci"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/p3zgJJDAYn3Zg5s"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/715101295"
+        target_blank: true
+
+      - subtitle: "Enforcer"
+        title: "**IoT vs Cybersecurity**"
+        description: "Igor Falcomatà"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/63x3XM23znkx54y"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/715102118"
+        target_blank: true
+
+      - subtitle: "Bayern Tourismus Marketing"
+        title: "**Bavarian Tourism Cloud Open Source Strategy**"
+        description: "Markus Garnitz"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/MECTCQB5TKC26Jy"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/715103069"
+        target_blank: true
+
+      - subtitle: "Eurac Research"
+        title: "**European Climate and Cultural Atlas for Plus Energy Building Design**"
+        description: "Andrea Vianello"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/N48jf4gGSCGHwAo"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/715103886"
+        target_blank: true
+
+      - subtitle: "KONVERTO"
+        title: "**Data-driven decision making in apple cultivation**"
+        description: "Johannes Erschbamer"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/aW3dBB9Ska35Mp9"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/715104372"
+        target_blank: true
+
+  ################################# Open Data Hub 2021 #########################
+  - title: "**Open Data Hub Day 2021**"
+    initially_expanded: false
+    videos:
+      - subtitle: "NOI Techpark"
+        title: "**The Open Data Hub Project**"
+        description: "Patrick Ohnewein"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/YriMpsobHdDDkpt"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/638390541"
+        target_blank: true
+
+      - subtitle: "Gartner"
+        title: "**Using Data for Sustainable Tourism**"
+        description: "Bettina Tratz-Ryan"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/XLJZCFzqzgwrGDn"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/638391327"
+        target_blank: true
+
+      - subtitle: "Kurverwaltung Meran"
+        title: "**Merano Tourist Office & CC0 - A real case study**"
+        description: "Sandy Kirchlechner"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/72FzWwgE2J447yD"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/638394232"
+        target_blank: true
+
+      - subtitle: "Brixen Tourism"
+        title: "**New web portal brixen.org and integration of open data hub**"
+        description: "Werner Zanotti"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/7nz553SAxpoLJwb"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/638395623"
+        target_blank: true
+
+      - subtitle: "BLIC"
+        title: "**A Vision - The value of an Open Data Hub in the mobility sector**"
+        description: "Christian Landrock"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/2P8Eoz55ftDC3Cd"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/638396777"
+        target_blank: true
+
+      - subtitle: "STA"
+        title: "**Using Open Data Hub to enhance passenger and mobility information**"
+        description: "Patrick Dejaco"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/ic86srFzJsiRKQN"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/638398715"
+        target_blank: true
+
+      - subtitle: "Reactive Software"
+        title: "**The complexity of integrating open data into a 3D scenery**"
+        description: "Werner Guttmann"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/ydyzZCBDwSeMq7n"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/638400629"
+        target_blank: true
+
+      - subtitle: "Free University of Bozen-Bolzano"
+        title: "**AlpineBits DestinationData - An ontology-based data exchange standard for tourism**"
+        description: "Tiago Prince Sales"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/Bm9ELFFYKQNGXnF"
+        btn_label: Slides
+        video: "https://vimeo.com/manage/videos/638401562" 
+        target_blank: true
+
+      - subtitle: "Alperia"
+        title: "**Open standards and data exchange for e-mobility**"
+        description: "Danilo Pederiva"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/oNC4YAs2PfEffWz"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/638403138"
+        target_blank: true
+
+      - subtitle: "Ontopic"
+        title: "**Data Quality of the Open Data Hub and why it is everybody's business**"
+        description: "Peter Hopfgartner"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/ynPSBRjwmZKPsqB"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/638404443"
+        target_blank: true
+
+      - subtitle: "R Community"
+        title: "**BolzanoR & Open Data Hub. Potential future collaboration between the BolzanoR community and the Open Data Hub**"
+        description: "Mattia Rossi"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/tzbYzB42BDGQX74"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/638405395"
+        target_blank: true
+
+      - subtitle: "IDM Südtirol - Alto Adige"
+        title: "**IDM - A real case study**"
+        description: "Antonietta De Santis"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/7pq9PTBkd4QLMtX"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/638406260"
+        target_blank: true
