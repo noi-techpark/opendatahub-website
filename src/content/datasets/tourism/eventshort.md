@@ -12,7 +12,7 @@ availability_label: "Open Data"
 availability_description: 
 
 doc_link: "https://docs.opendatahub.com/en/latest/datasets.html#eventshort-dataset"
-example_link: "https://today.noi.com/"
+example_link: "https://today.noi.bz.it/"
 
 datatype: "Tourism"
 ---
