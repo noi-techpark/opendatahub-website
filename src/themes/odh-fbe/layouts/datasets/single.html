@@ -8,7 +8,7 @@
 
 <div class="container">
   <section>
-    <h1 class="fw-bold m-0">{{ .Title | markdownify }}</h1>
+    <h1 id="dataset-title" class="fw-bold m-0">{{ .Title | markdownify }}</h1>
     <span>
       <a href="/datasets">Datasets</a> >
       <a href="/datatype/{{ lower .Params.datatype }}"
