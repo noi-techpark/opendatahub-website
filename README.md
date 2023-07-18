@@ -144,19 +144,19 @@ paragraphs: # The paragraphs of the individual use-case page
 
 #### **Simple Events that link outside:**
 
-To add an event box in the Event section of the website you have to add a .md file with the events name in the /src/content/events folder.
-The .md file should contain the following information:
+To add an event box in the Event section of the website you have to add an entry to the `boxes` array in the [events.yml](src/data/events.yml) file.
+The entry contain the following information:
 
 ```yml
 ---
-title: "Title of the event"
-img: "/img/events/eventImage.jpg"
-img_alt: "event"
+title: Title of the event
+subtitle: The description of the event
+img: /img/events/eventImage.jpg
 day: "yyyy-mm-dd"
 time: "hh:mm"
 location: "Location name"
-button_link: "link to the event website"
-button_label: "label of the button"
+btn_link: link to the event website
+btn_label: label of the button
 ---
 
 Short description of the event with markdown syntax
@@ -165,6 +165,7 @@ Short description of the event with markdown syntax
 #### **Complex events with Programm page:**
 
 To add a new event page that includes more info you have to do the following steps:
+- Create the event box as explained in [Simple Events that link outside](#simple-events-that-link-outside)
 - Create a folder with the name of the event in the folder /src/content/events (you can use existing event pages such as odhday23 or mentorfinalevent as reference)
 - Create a _index.md file within the folder
 - Fill the yaml header of the _index.md file with the necessary information for the event:
@@ -196,10 +197,10 @@ The video library is structured as an array with each entry being one of the sec
 
 #### **Add new sections:**
 
-In the [events.yml](src/data/events.yml) file:
+In the [videos.yml](src/data/videos.yml) file:
 
 ```yml
-video_library:
+sections:
   # The following is your new section
   - title: "**Section title**"
     initially_expanded: false # Control if the section is initially expanded or collapsed
@@ -208,10 +209,10 @@ video_library:
 
 #### **Add new videos:**
 
-In the [events.yml](src/data/events.yml) file:
+In the [videos.yml](src/data/videos.yml) file:
 
 ```yml
-video_library:
+sections:
   # Find the section you want to add the video to
   - title: "**Section title**"
     initially_expanded: false
