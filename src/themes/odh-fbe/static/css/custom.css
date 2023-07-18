@@ -227,6 +227,10 @@ table td:first-child {
   transform: translateX(7px);
 }
 
+.detect-hover:hover .underline-on-hover {
+  text-decoration: underline;
+}
+
 /* Event boxes */
 .event-card {
   transition: box-shadow 0.5s ease-in-out;
@@ -493,8 +497,3 @@ input:focus-visible {
 .testimonial-quote {
   position: relative;
 }
-
-/* Contact form mailto */
-/* .mailto-box:hover {
-  text-decoration: underline;
-} */
