@@ -46,7 +46,7 @@ jobs:
           sed -i -e "s%https://example.com%${{env.HUGO_BASEURL}}%g" src/config.yml
           
       - name: Build hugo
-        run: hugo -s src -d ../target
+        run: hugo -s src -d ../target --environment testing
 
       - name: Sync to S3 bucket
         uses: noi-techpark/github-actions/aws-s3-bucket-sync@v2
@@ -84,7 +84,7 @@ jobs:
 
 
       - name: Build hugo
-        run: hugo -s src -d ../target
+        run: hugo -s src -d ../target --environment production
 
       - name: Sync to S3 bucket
         uses: noi-techpark/github-actions/aws-s3-bucket-sync@v2
