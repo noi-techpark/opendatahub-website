@@ -1,0 +1,63 @@
+# SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+#
+# SPDX-License-Identifier: CC0-1.0
+
+boxes:
+  - title: Data Browser
+    subtitle: Browse and discover the available data.
+    btn_link: https://databrowser.opendatahub.com
+
+  - title: Analytics Tool
+    subtitle: Find out information about sensors and their locations and measure (near-real time data).
+    btn_link: https://analytics.opendatahub.com
+
+  - title: Web Component Store
+    subtitle: Discover all the already developed Web Components. Freely available and ready to be reused.
+    btn_link: https://webcomponents.opendatahub.com
+    
+  - title: Data Browser
+    subtitle: Browse and discover the available data.
+    btn_link: https://databrowser.opendatahub.com
+
+  - title: Mobility API
+    subtitle: Access swagger interface to browse data and learn how to use the Open Data Hub Mobility API.
+    btn_link: https://swagger.opendatahub.com/?url=https://mobility.api.opendatahub.com/v2/apispec
+    
+  - title: Tourism API
+    subtitle: Access swagger interface to browse data and learn how to use the Open Data Hub Tourism API.
+    btn_link: https://tourism.opendatahub.com/swagger/index.html
+
+  - title: OpenTripPlanner (OTP) API
+    subtitle: Access the Open Data Hub mobility data through the OTP journey planner API.
+    btn_link: http://dev.opentripplanner.org/apidoc/1.0.0/index.html
+    
+  - title: AlpineBits HotelData API
+    subtitle: Access accommodation inventory data.
+    btn_link: https://alpinebits.opendatahub.com/AlpineBits
+
+  - title: AlpineBits DestinationData API
+    subtitle: Access destination data such as mountain resorts, ski data and events.
+    btn_link: https://destinationdata.alpinebits.opendatahub.com
+    
+  - title: Documentation
+    subtitle: A collection of all technical resources about the Open Data Hub project.
+    btn_link: https://docs.opendatahub.com
+
+  - title: Source code repositories
+    subtitle: Access the NOI Techpark repositories to contribute or reuse code of the Open Data Hub.
+    btn_link: https://github.com/noi-techpark
+    
+  - title: List of HOWTOs
+    subtitle: A list of available howtos.
+    btn_link: https://opendatahub.readthedocs.io/en/latest/howto.html
+
+  # - title: Knowledge Graph
+  #   subtitle: Access the browseable Knowledge Graph: data is presented as Linked Data.
+  #   btn_link: /use-cases/knowledge-graph/
+
+  # - title: Sparql endpoint
+  #   subtitle: Access the rich high quality data by a flexible standards compliant query language. ​
+  #   btn_link: /use-cases/knowledge-graph/
+
+  
+    
