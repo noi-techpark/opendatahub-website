@@ -218,12 +218,12 @@ table td:first-child {
   font-weight: bold;
 }
 
-/* Quickstart boxes */
-.quickstart-box .btn {
+/* Slide on hover */
+.detect-hover .slide-on-hover {
   transition: all 0.3s ease-out;
 }
 
-.quickstart-box:hover .btn {
+.detect-hover:hover .slide-on-hover {
   transform: translateX(7px);
 }
 
@@ -493,3 +493,8 @@ input:focus-visible {
 .testimonial-quote {
   position: relative;
 }
+
+/* Contact form mailto */
+/* .mailto-box:hover {
+  text-decoration: underline;
+} */
