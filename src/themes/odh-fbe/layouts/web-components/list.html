@@ -1,0 +1,17 @@
+{{/*
+	SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+
+	SPDX-License-Identifier: AGPL-3.0-or-later
+*/}}
+
+{{ define "main" }}
+
+{{ partial "title.html" .Params }}
+
+<section>
+  <div class="container">
+    {{ partial "web-component.html" site.Data.web_components.wcs_list_widget }}
+  </div>
+</section>
+
+{{ end }}

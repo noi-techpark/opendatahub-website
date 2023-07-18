@@ -1,0 +1,13 @@
+{{/*
+	SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+
+	SPDX-License-Identifier: AGPL-3.0-or-later
+*/}}
+
+{{ print "<" .tag_name | safeHTML }}
+  {{ range .attributes }}
+    {{ .key }}{{ with .value }}="{{ . }}"{{end}}
+  {{ end }}
+{{ ">" | safeHTML }}
+{{ print "</" .tag_name ">" | safeHTML }}
+<script src="{{ site.Params.wcs_cdn_base }}/dist/{{ .uuid }}/{{ .script_name }}"></script>
