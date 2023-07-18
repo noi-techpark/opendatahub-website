@@ -4,6 +4,7 @@
 title: "Software Developers' Thursday | July"
 img: "/img/events/20220707-sdt-webapiandsparql.png"
 img_alt: "event"
+exclude_from_sitemap: true
 
 day: "2022-07-07"
 time: "18:30 - 20:00"

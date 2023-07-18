@@ -2,6 +2,7 @@
 
 ---
 Title: "Source code repositories"
+exclude_from_sitemap: true
 
 button_link: "https://github.com/noi-techpark"
 button_label: "Learn more"

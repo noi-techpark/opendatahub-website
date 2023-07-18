@@ -4,6 +4,7 @@
 title: "South Tyrol Free Software Conference"
 img: "/img/events/sfscon_2019.jpg"
 img_alt: "event"
+exclude_from_sitemap: true
 
 day: "2021-11-12"
 time: "09:00 - 18:00"

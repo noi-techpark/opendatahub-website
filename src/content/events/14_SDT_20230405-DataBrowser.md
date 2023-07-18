@@ -4,6 +4,7 @@
 title: "Software Developers' Thursday | May"
 img: "/img/events/20230504-sdt-dataBrowser.png"
 img_alt: "event"
+exclude_from_sitemap: true
 
 day: "2023-05-04"
 time: "18:30 - 20:00"

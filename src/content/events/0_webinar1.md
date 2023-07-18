@@ -4,6 +4,7 @@
 title: "Webinar: Why companies like Alperia and ACS use Open Data Hub"
 img: "/img/events/webinar1.jpg"
 img_alt: "event"
+exclude_from_sitemap: true
 
 day: "2021-05-13"
 time: "17:00 - 18:30"

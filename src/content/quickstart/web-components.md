@@ -2,6 +2,7 @@
 
 ---
 Title: "Web Components Store"
+exclude_from_sitemap: true
 
 button_link: "https://webcomponents.opendatahub.com/"
 button_label: "Learn more"

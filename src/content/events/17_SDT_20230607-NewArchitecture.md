@@ -4,6 +4,7 @@
 title: "Software Developers' Thursday | July"
 img: "/img/events/20230706-sdt-newArchitecture.png"
 img_alt: "event"
+exclude_from_sitemap: true
 
 day: "2023-07-06"
 time: "18:30 - 20:00"

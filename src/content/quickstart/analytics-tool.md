@@ -2,6 +2,7 @@
 
 ---
 Title: "Analytics Tool"
+exclude_from_sitemap: true
 
 button_link: "https://analytics.opendatahub.com/"
 button_label: "Learn more"

@@ -4,6 +4,7 @@
 title: "Open Data Hub Bootcamp 2023"
 img: "/img/events/20230519-odhdaybootcamp23.png"
 img_alt: "event"
+exclude_from_sitemap: true
 
 day: "2023-05-19"
 time: "13:00 - 18:30"
