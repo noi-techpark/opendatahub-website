@@ -6,7 +6,7 @@
 
 {{" <!-- Title -->" | safeHTML }}
 <section>
-    {{ partial "title.html" .Params }}
+    {{ partial "title.html" . }}
 
     <div class="container">
         <div class="select" type="button" data-bs-toggle="collapse" data-bs-target="#useCaseTagsSelect" aria-expanded="false" aria-controls="useCaseTagsSelect">
@@ -15,7 +15,7 @@
         <div class="collapse py-3" id="useCaseTagsSelect">
             <form onchange="filterUseCases(this)">
                 <div>
-                    {{ range $name, $taxonomy := .Site.Taxonomies.use_case_tags }}
+                    {{ range $name, $taxonomy := site.Taxonomies.use_case_tags }}
                         <div class="d-flex align-items-center gap-1 p-1">
                             <input type="checkbox" name="use_case_tag" value="{{ $name }}">{{ $name | humanize }}</form>
                         </div>
