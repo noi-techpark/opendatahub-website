@@ -34,8 +34,6 @@
 
                                 {{ if .HasChildren }}role="button" data-bs-toggle="dropdown" aria-expanded="false"{{end}}
 
-                                {{ if eq .Identifier "web-components" }} target="_blank" {{ end }}
-
                                 href="{{ .URL | absURL }}"
                             >
                                 {{ .Name }}
