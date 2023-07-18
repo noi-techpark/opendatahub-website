@@ -4,6 +4,7 @@
 title: "Webinar: How to use Open Data Hub for data analysis"
 img: "/img/events/webinar2.jpg"
 img_alt: "event"
+exclude_from_sitemap: true
 
 day: "2021-06-10"
 time: "17:00 - 18:15"

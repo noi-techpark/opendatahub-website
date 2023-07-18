@@ -2,6 +2,7 @@
 
 ---
 Title: "Data Browser BETA"
+exclude_from_sitemap: true
 
 button_link: "https://v2-beta.databrowser.opendatahub.com/"
 button_label: "Learn more"

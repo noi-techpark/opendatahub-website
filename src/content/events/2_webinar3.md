@@ -4,6 +4,7 @@
 title: "Webinar: How to create web components with Open Data Hub"
 img: "/img/events/webinar3.jpg"
 img_alt: "event"
+exclude_from_sitemap: true
 
 day: "2021-07-07"
 time: "17:00 - 18:00"

@@ -4,6 +4,7 @@
 title: "NOI Hackathon - Open Data Hub Edition"
 img: "/img/events/20220520-odhday22-hackathon.jpg"
 img_alt: "event"
+exclude_from_sitemap: true
 
 day: "2022-05-20"
 time: "14:30"

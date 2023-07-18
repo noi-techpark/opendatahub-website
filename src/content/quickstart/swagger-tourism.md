@@ -2,6 +2,7 @@
 
 ---
 Title: "Tourism API"
+exclude_from_sitemap: true
 
 button_link: "https://tourism.opendatahub.com/swagger/index.html"
 button_label: "Learn more"

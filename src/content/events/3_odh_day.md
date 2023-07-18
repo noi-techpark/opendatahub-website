@@ -5,6 +5,7 @@ title: "Open Data Hub Day - 2021"
 url: "test"
 img: "/img/events/odhday.jpg"
 img_alt: "event"
+exclude_from_sitemap: true
 
 day: "2021-10-01"
 time: "09:00 - 13:30"

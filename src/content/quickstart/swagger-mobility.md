@@ -2,6 +2,7 @@
 
 ---
 Title: "Mobility API"
+exclude_from_sitemap: true
 
 button_link: "https://swagger.opendatahub.com/?url=https://mobility.api.opendatahub.com/v2/apispec"
 button_label: "Learn more"
