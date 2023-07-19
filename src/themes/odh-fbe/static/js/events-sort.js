@@ -7,7 +7,7 @@ const upcomingEvents = upcomingEventsContainer.querySelectorAll(".event-box");
 
 const pastEventsContainer = document.getElementById("past-events");
 
-const currentDate = new Date("May 20, 2025");
+const currentDate = new Date();
 
 Array.from(upcomingEvents)
   .filter((event) => {
