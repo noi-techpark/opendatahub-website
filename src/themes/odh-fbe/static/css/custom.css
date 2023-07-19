@@ -497,3 +497,7 @@ input:focus-visible {
 .testimonial-quote {
   position: relative;
 }
+
+.no-after::after {
+  display: none;
+}
