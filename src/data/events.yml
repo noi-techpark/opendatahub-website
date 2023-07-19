@@ -3,6 +3,16 @@
 # SPDX-License-Identifier: CC0-1.0
 
 events:
+
+  - title: South Tyrol Free Software Conference - 2023
+    subtitle: The SFSCON is one of Europe’s most established annual conferences on Free Software in digital infrastructures as a tool to achieve greater innovation and competitiveness.
+    img: /img/events/NOI_SFScon2023.png
+    day: "2023-11-10"
+    time: "09:00 - 18:00"
+    location: "NOI Techpark and online"
+    btn_link: https://www.sfscon.it/programs/2023
+    btn_label: More info
+
   - title: Software Developers' Thursday | July
     subtitle: Open Data Hub | What technologies have been used to develop the new Architecture?
     img: /img/events/20230706-sdt-newArchitecture.png
