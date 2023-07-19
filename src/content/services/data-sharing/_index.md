@@ -32,7 +32,7 @@ rows:
     img_back: "/img/ODH-data-sharing-bolzano.jpg"
     img_front: "/img/share-data-4.jpg"
     bg_darker: false
-    partial: col-text-imgs.html
+    partial: text-imgs.html
   
   
   - title: "**Invest now on your valuable data**"
@@ -42,7 +42,7 @@ rows:
     img_back: "/img/ODH-data-sharing-valuable-data.jpg"
     img_front: "/img/share-data-4.jpg"
     bg_darker: true
-    partial: col-imgs-text.html
+    partial: imgs-text.html
   
   
   - title: "Up and running in **just two months**"
@@ -57,7 +57,7 @@ rows:
     img_back: "/img/ODH-data-sharing-sprint-meeting.jpg"
     img_front: "/img/share-data-6.jpg"
     bg_darker: false
-    partial: col-text-imgs.html
+    partial: text-imgs.html
   
   
   - title: "Still in doubt? We help you to see **data come alive!**"
@@ -67,5 +67,5 @@ rows:
     img_back: "/img/ODH-data-sharing-data-visualization.jpg"
     img_front: "/img/share-data-6.jpg"
     bg_darker: true
-    partial: col-imgs-text.html
+    partial: imgs-text.html
 ---

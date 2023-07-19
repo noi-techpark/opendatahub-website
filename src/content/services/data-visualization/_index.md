@@ -37,7 +37,7 @@ rows:
     img_back: "/img/ODH-data-visualization-web-component-store.jpg"
     img_front: "/img/share-data-4.jpg"
     bg_darker: false
-    partial: col-text-imgs.html
+    partial: text-imgs.html
 
 
   - title: "**Contribute** as web component developer!"
@@ -47,5 +47,5 @@ rows:
     img_back: "/img/ODH-data-visualization-web-component-developer.jpg"
     img_front: "/img/share-data-4.jpg"
     bg_darker: true
-    partial: col-imgs-text.html
+    partial: imgs-text.html
 ---

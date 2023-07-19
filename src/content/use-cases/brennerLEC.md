@@ -36,7 +36,7 @@ paragraphs:
     3. Traffic flow management near the biggest urban areas by means of “intelligent” onroad information.<br>
     "
     img_back: "/img/use-cases/ODH-usecase-Brennerlec-image-03.jpg"
-    partial: col-text-imgs.html
+    partial: text-imgs.html
 
   - title: "**The technological system implemented**"
     description: "A complex, intelligent traffic system (ITS) was created to let the traffic management centre (TMC) of the A22 dynamically activate the variable speed limits (VSLs).

@@ -34,14 +34,14 @@ paragraphs:
     img_back: "/img/use-cases/ODH-usecase-GREENMOBILITY-image-03.jpg"
     btn_link: "https://opendatahub.com/datasets/mobility/echargingstation/"
     btn_label: DISCOVER MORE ON THIS DATASET
-    partial: text-imgs-icon.html
+    partial: text-imgs.html
 
   - description: "Do you want to integrate the interactive map directly into your website with minimal effort? 
     We have already created a web component for you!"
     img_back: "/img/use-cases/ODH-usecase-GREENMOBILITY-image-04.jpg"
     btn_link: "https://webcomponents.opendatahub.com/webcomponent/98013c75-f27c-414e-aff9-c58ed760e791?from=%2F"
     btn_label: DISCOVER THE WEBCOMPONENT
-    partial: imgs-icon-text-enlargeable.html
+    partial: imgs-text-enlargeable.html
 
   - description: "Do you want to develop a new application with this data?"
     img_back: "/img/use-cases/ODH-usecase-GREENMOBILITY-image-05.jpg"
@@ -57,5 +57,5 @@ paragraphs:
 
   - description: "The interactive map is provided by STA - Strutture Trasporto Alto Adige SpA in cooperation with Open Data Hub. The operators involved are Alperia Smart Mobility, DRIWE, Nevicam, Route220 and the Institute for Innovative Technologies (IIT)."
     img_back: "/img/use-cases/ODH-usecase-GREENMOBILITY-image-07.jpg"
-    partial: col-text-imgs.html
+    partial: text-imgs.html
 ---
