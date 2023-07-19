@@ -11,7 +11,7 @@
 <a id="sm-tag-upcoming-events"></a>
 <section class="bg-darker pb-4">
 	{{ partial "title-section.html" .Params.upcoming }}
-	<div class="container">
+	<div class="container mt-2">
 		<div class="row gy-4" id="upcoming-events">
 			{{ range sort site.Data.events.events ".day" "asc" }}
 				{{ if ge (time .day).Unix now.Unix }}
@@ -25,7 +25,7 @@
 <a id="sm-tag-past-events"></a>
 <section class="pb-4">
 	{{ partial "title-section.html" .Params.past }}
-	<div class="container">
+	<div class="container mt-2">
 		<div class="row gy-4" id="past-events">
 			{{ range sort site.Data.events.events ".day" "desc"}}
 				{{ if lt (time .day).Unix now.Unix }}

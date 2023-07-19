@@ -5,10 +5,14 @@
 */}}
 
 {{" <!-- Section Title -->" | safeHTML }}
-<section class="py-4">
+<section>
     <div class="container">
-        <h3 class="primary">{{ .title | markdownify }}</h3>
-        {{ with .subtitle }}<h2 class="subtitle">{{ . | markdownify }}</h2>{{ end }}
+        <div class="row gy-4">
+            <div class="col-lg-8">
+                <h3>{{ .title | markdownify }}</h3>
+                {{ with .subtitle }}<span class="subtitle">{{ . | markdownify }}</span>{{ end }}
+            </div>
+        </div>
     </div>
 </section>
 {{" <!-- /Section Title -->" | safeHTML }}
