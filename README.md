@@ -126,7 +126,7 @@ start: # The title of the individual use-case page
 
 paragraphs: # The paragraphs of the individual use-case page
     # The first paragraph
-  - partial: col-imgs-text.html # The partial this entry will be rendered with
+  - partial: imgs-text.html # The partial this entry will be rendered with
     # Here the necessary fields for the partial like:
     # description:
     # img_back:

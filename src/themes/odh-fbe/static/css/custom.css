@@ -394,31 +394,20 @@ input:focus-visible {
   transform: rotate(180deg);
 }
 
-/*text for the credit on enlargeable images*/
+/* Enlargeable images */
+.enlarge-overlay {
+  transition: opacity 0.2s ease-in-out;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.enlarge-overlay:hover {
+  opacity: 1;
+}
+
 #textCreditImage a{
   color: white;
   transition: opacity 0.7s ease-out;
-}
-
-/*hover enlargeable image*/
-.overlay{
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  opacity: 0;
-  position: absolute;
-  transition: opacity 0.7s ease-out;
-}
-
-#container:hover .overlay {
-  opacity: 0.4;
-}
-
-.content{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 /* Quote */
