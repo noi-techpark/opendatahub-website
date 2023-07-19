@@ -16,7 +16,7 @@ availability_description: >-
 
 
 doc_link: "https://opendatahub.readthedocs.io/en/latest/datasets.html#parking-dataset"
-example_link: "https://webcomponents.opendatahub.com/webcomponent/543ed85d-8280-4240-8625-4ee5102710ff?from=%2F%3Ftags%3Dmobility"
+example_link: "https://webcomponents.opendatahub.com/webcomponent/parking-app?from=%2F"
 
 datatype: "Traffic"
 ---

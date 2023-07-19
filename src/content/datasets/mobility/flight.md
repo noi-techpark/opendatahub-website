@@ -12,7 +12,7 @@ availability_label: "Open Data"
 availability_description: 
 
 doc_link: "https://github.com/noi-techpark/odh-docs/wiki/Flightdata-API"
-example_link: ""
+example_link: "https://webcomponents.opendatahub.com/webcomponent/flightmap?from=%2F"
 
 datatype: "Mobility"
 ---
