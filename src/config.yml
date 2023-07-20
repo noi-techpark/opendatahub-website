@@ -38,7 +38,6 @@ params:
       - URL: /js/main.js
       - URL: https://scripts.opendatahub.com/cookieconsent/cookieconsent.js
       - URL: https://scripts.opendatahub.com/cookieconsent/cookieconsent-init.js
-      - URL: /js/biggerImagesPartial.js
 
   footer:
     cards:
