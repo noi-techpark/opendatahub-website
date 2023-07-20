@@ -3,9 +3,9 @@
 # SPDX-License-Identifier: CC0-1.0
 
 boxes:
-  - title: Data Browser
+  - title: Data Browser 2.0
     subtitle: Browse and discover the available data.
-    btn_link: https://databrowser.opendatahub.com
+    btn_link: https://v2-beta.databrowser.opendatahub.com
 
   - title: Analytics Tool
     subtitle: Find out information about sensors and their locations and measure (near-real time data).
@@ -14,10 +14,6 @@ boxes:
   - title: Web Component Store
     subtitle: Discover all the already developed Web Components. Freely available and ready to be reused.
     btn_link: https://webcomponents.opendatahub.com
-    
-  - title: Data Browser
-    subtitle: Browse and discover the available data.
-    btn_link: https://databrowser.opendatahub.com
 
   - title: Mobility API
     subtitle: Access swagger interface to browse data and learn how to use the Open Data Hub Mobility API.
