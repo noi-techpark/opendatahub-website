@@ -39,7 +39,6 @@ params:
       - URL: /js/main.js
       - URL: https://scripts.opendatahub.com/cookieconsent/cookieconsent.js
       - URL: https://scripts.opendatahub.com/cookieconsent/cookieconsent-init.js
-      - URL: /js/biggerImagesPartial.js
 
   footer:
     cards:
@@ -65,7 +64,7 @@ params:
           - text: Datasets
             URL: /datasets
           - text: Data Browser
-            URL: https://databrowser.opendatahub.com
+            URL: https://v2-beta.databrowser.opendatahub.com/
             target_blank: true
           - text: Analytics Tool
             URL: https://analytics.opendatahub.com/
@@ -141,7 +140,7 @@ menu:
     # --- Web Components ---
     - identifier: web-components
       name: Web Components
-      URL:  /web-components
+      URL:  "https://webcomponents.opendatahub.com/"
       weight: 4
 
     # --- Quickstart ---
