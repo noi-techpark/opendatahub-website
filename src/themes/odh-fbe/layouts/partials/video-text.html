@@ -12,8 +12,8 @@
 				{{ partial "video-iframe.html" . }}
 			</div>
 			<div class="col-12 col-lg-6 m-lg-0">
-				{{ with .subtitle }}<h2 class="subtitle">{{ . | markdownify }}</h2>{{ end }}
-				<h3>{{ .title | markdownify }}</h3>
+				{{ with .subtitle }}<span class="fw-semibold fs-5">{{ . | markdownify }}</span>{{ end }}
+				<h2 class="mt-2">{{ .title | markdownify }}</h2>
 				<p>{{ .description | markdownify }}</p>
 
 				{{ if and (isset . "btn_link") (isset . "btn_label") }}

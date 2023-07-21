@@ -63,7 +63,7 @@ params:
           - text: Datasets
             URL: /datasets
           - text: Data Browser
-            URL: https://databrowser.opendatahub.com
+            URL: https://v2-beta.databrowser.opendatahub.com/
             target_blank: true
           - text: Analytics Tool
             URL: https://analytics.opendatahub.com/
