@@ -45,24 +45,30 @@ img, iframe {
 }
 
 /* Text styling */
-h1 {
-  font-size: 2.5rem;
-  line-height: 1.1;
-}
 
-h2 {
-  font-size: 2.25rem;
+h1 {
   font-weight: bold;
 }
 
-h3 {
+h2 {
   font-size: 1.5rem;
 }
 
-.subtitle {
-  font-size: 1.1rem;
-  line-height: 1.4;
-  font-weight: 500;
+/* h3 {
+  font-size: 1.5rem;
+} */
+
+/* BOOTSTRAP TEXT UTILITIES OVERRIDE */
+.fw-semibold {
+  font-weight: 500 !important;
+}
+
+.fs-5 {
+  font-size: 1.1rem !important;
+}
+
+.lh-base {
+  line-height: 1.4 !important;
 }
 
 /* Links */
