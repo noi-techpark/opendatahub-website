@@ -167,7 +167,11 @@ consumers:
     - name: Consisto GmbH
       img: "img/community/consisto-Logo.png"
       link: https://www.consisto.it/
-      
+
+    - name: DataVision Italia srl
+      img: "img/community/DigitalVisionItalia.png"
+      link: https://www.datavision.software/
+
     - name: Destination Srl
       img: "img/community/destination.png"
       link: http://www.destinationsrl.it/
