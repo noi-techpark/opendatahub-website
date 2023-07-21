@@ -6,24 +6,39 @@
 
 {{" <!-- Title -->" | safeHTML }}
 <section>
-    {{ partial "title.html" . }}
+  {{ partial "title.html" .Params }}
 
-    <div class="container mt-2">
-        <div class="select" type="button" data-bs-toggle="collapse" data-bs-target="#useCaseTagsSelect" aria-expanded="false" aria-controls="useCaseTagsSelect">
-            Filter by tags
-        </div>
-        <div class="collapse py-3" id="useCaseTagsSelect">
-            <form onchange="filterUseCases(this)">
-                <div>
-                    {{ range $name, $taxonomy := site.Taxonomies.use_case_tags }}
-                        <div class="d-flex align-items-center gap-1 p-1">
-                            <input type="checkbox" name="use_case_tag" value="{{ $name }}">{{ $name | humanize }}</form>
-                        </div>
-                    {{ end }}
-                </div>
-            </form>
-        </div>
-        <script src="/js/use-cases-select.js"></script>
+  <div class="container py-2">
+    <div class="col-12 col-lg-2 position-relative">
+      <div
+        class="dropdown-title select-element w-100 position-relative border-0 form-control dropdown-toggle text-start"
+        onclick="document.getElementById('dropdown').classList.toggle('d-none')"
+      >
+        Filter by tags
+      </div>
+      <div
+        id="dropdown"
+        class="d-none w-100 position-absolute z-1 mt-2 p-2 card shadow"
+      >
+        <form onchange="filterUseCases(this)">
+          {{ range $name, $taxonomy := site.Taxonomies.use_case_tags }}
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value="{{ $name }}"
+              name="use-case-tag"
+              id="{{ $name }}-checkbox"
+            >
+            <label class="form-check-label" for="{{ $name }}-checkbox">
+              {{ $name | humanize }}
+            </label>
+          </div>
+          {{ end }}
+        </form>
+      </div>
     </div>
+    <script src="/js/use-cases-select.js"></script>
+  </div>
 </section>
 {{" <!-- /Title -->" | safeHTML }}
