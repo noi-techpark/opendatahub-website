@@ -43,7 +43,7 @@ jobs:
       - name: Configuration hugo
         run: | 
           sed -i -e "s%https://example.com%${{env.MAIL_CLIENT}}%g" src/themes/odh-fbe/static/js/main.js
-          sed -i -e "s%https://example.com%${{env.HUGO_BASEURL}}%g" src/config.yml
+          sed -i -e "s%https://example.com%${{env.HUGO_BASEURL}}%g" src/config/_default/config.yml
           
       - name: Build hugo
         run: hugo -s src -d ../target --environment testing
@@ -77,11 +77,10 @@ jobs:
       - name: Configuration hugo
         run: |
           sed -i -e "s%https://example.com%${{env.MAIL_CLIENT}}%g" src/themes/odh-fbe/static/js/main.js
-          sed -i -e "s%https://example.com%${{env.HUGO_BASEURL}}%g" src/config.yml
+          sed -i -e "s%https://example.com%${{env.HUGO_BASEURL}}%g" src/config/_default/config.yml
 
       - name: Change scripts host to prod
         run: sed -i -e "s%https://scripts.opendatahub.testingmachine.eu%${{env.SCRIPTS_HOST}}%g" src/config.yml
-
 
       - name: Build hugo
         run: hugo -s src -d ../target --environment production
