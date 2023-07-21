@@ -3,3 +3,14 @@
 # SPDX-License-Identifier: CC0-1.0
 
 wcs_cdn_base: https://cdn.webcomponents.opendatahub.com
+
+web_components:
+  wcs_list_widget:
+    tag_name: wcs-list-widget
+    uuid: 2905f333-cfa5-4798-8d79-c25e157a4664
+    script_name: wcs-list-widget.min.js
+    attributes:
+      - key: font-url
+        value: https://fonts.testingmachine.eu/open-sans/style.css
+      - key: font-name
+        value: Open Sans
