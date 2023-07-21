@@ -12,7 +12,6 @@
                 <span class="fw-semibold fs-5">{{ .description | markdownify }}</span>
                 <h1 class="mt-2">{{ .title | markdownify }}</h1>
                 {{ with .subtitle }}<p class="fw-semibold fs-5 lh-base">{{ . | markdownify }}</p>{{ end }}
-                {{ warnf "%q" . }}
                 {{ if and (isset . "btn_link") (isset . "btn_label") }}
                 <a {{ if .target_blank }}target="_blank"{{ end }} href="{{ .btn_link }}" class="btn btn-primary">{{ .btn_label | markdownify }}</a>
                 {{ end }}
