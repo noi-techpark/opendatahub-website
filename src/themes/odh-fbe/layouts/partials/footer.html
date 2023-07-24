@@ -27,9 +27,9 @@
         {{ range $f.columns }}
         <div class="col-12 col-lg-3">
           <div class="d-flex flex-column">
-            <strong class="mb-1">{{ .title }}</strong>
+            <a {{ with .title_URL }}href="{{ . }}"{{ end }} class="w-fit mb-1 fw-bold">{{ .title }}</a>
             {{ range .rows }}
-            <a href="{{ .URL }}" {{ if .target_blank }}target="_blank"{{ end }}>{{ .text }}</a>
+            <a href="{{ .URL }}" {{ if .target_blank }}target="_blank"{{ end }} class="w-fit">{{ .text }}</a>
             {{ end }}
           </div>
         </div>
@@ -39,7 +39,7 @@
           <div class="d-flex flex-column">
             <strong class="mb-1">{{ $sm.title }}</strong>
             {{ range $sm.rows }}
-            <a href="{{ .URL }}" target="_blank" class="d-flex align-items-center gap-2">
+            <a href="{{ .URL }}" target="_blank" class="d-flex align-items-center gap-2 w-fit">
               <img src="{{ .icon }}" alt="{{ .text }}">
               {{ .text }}
             </a>
