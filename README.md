@@ -18,11 +18,12 @@ Repository for the [Open Data Hub](https://opendatahub.com/) website created wit
 - [Add content](#add-content)
   - [Use Cases](#use-cases)
   - [Events](#events)
-    - [Simple events](#simple-events-that-links-outside)
+    - [Simple events](#simple-events-that-link-outside)
     - [Complex events](#complex-events-with-programm-page)
   - [Videos](#videos)
     - [Video sections](#add-new-sections)
     - [Individual videos](#add-new-videos)
+- [Add Web Components](#add-web-components)
 - [Docker environment](#docker-environment)
 - [Information](#information)
 
@@ -227,9 +228,9 @@ sections:
         target_blank: true # Whether or not the link to the video script or slides is external or not (almost always true)
 ```
 
-## Add a Web Component
+## Add Web Components
 
-Adding a Web Component **from the Web Component store** to the layout of a page is simple. 
+Adding Web Components **from the Web Component store** to the layout of a page is simple. 
 
 1. Add the Web Component data to the project configuration under `/src/config`. The `_default/config.yml` file contians general information about the project. It is used during local development. Locate the `web_components` array and add your Web Component:
 
