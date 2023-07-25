@@ -6,6 +6,21 @@
 
 {{ define "main" }}
 
+{{/*  
+	TODO: When changing this site to use the Datasets List Web Component
+	- Change this title to use only the "title.html" partial
+	- Remove everything from the section below and integrate the Web Component as explained in the dedicated section of the README. You can take src/themes/odh-fbe/layouts/web-components/list.html as reference
+	
+	Cleanup:
+	- Delete src/themes/odh-fbe/static/js/datasets-filter.js
+	- Delete src/themes/odh-fbe/layouts/partials/title-select.html
+	- Delete src/themes/odh-fbe/layouts/taxonomy/datatype.html and the taxonomy folder
+	- Delete src/themes/odh-fbe/layouts/datasets/single.html
+	- Delete everything in src/content/datasets except _index.md
+	- Delete the datatype: datatype entry in the taxonomies array in src/config/_default/config.yml
+
+	That should be it ;)
+*/}}
 {{ partial "title-select.html" .Params }}
 
 <section>
