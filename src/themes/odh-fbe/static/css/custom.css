@@ -180,45 +180,22 @@ footer .w-fit {
   max-width: fit-content;
 }
 
-/* Tables */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 4rem;
-}
-
-table th,
-table td {
-  padding: 12px 0;
-  line-height: 1.8;
-  border-bottom: 1px solid #cccccc;
-}
-
-table td:first-child {
-  color: #555555;
-  padding-right: 1rem;
-}
-
 /* Dataset single page */
-/* .dataset-content table {
+.dataset-content table {
   width: 100%;
   border-collapse: collapse;
   margin-bottom: 4rem;
-} */
+}
 
 .dataset-content table th,
 .dataset-content table td {
   padding: 10px 0;
+  border-bottom: 1px solid #cccccc;
 }
 
 .dataset-content table th {
   visibility: hidden;
 }
-
-/* .dataset-content table td:first-child {
-  color: #555555;
-  padding-right: 1rem;
-} */
 
 .dataset-content table td a {
   word-break: break-all;
@@ -266,36 +243,6 @@ table td:first-child {
     display: none;
   }
 }
-
-/* Form elements */
-/* select,
-.select,
-option,
-input {
-    padding: 10px;
-    background-color: #f5f5f5;
-    color: #555555;
-    border-color: transparent;
-}
-
-select,
-.select,
-option {
-  width: 175px;
-}
-
-select:focus,
-.select:focus,
-input:focus {
-  border-color: #555555;
-}
-
-select:focus-visible,
-.select:focus-visible,
-input:focus-visible {
-  outline: none !important;
-} */
-
 
 /* Slideshow */
 #slides-container {
