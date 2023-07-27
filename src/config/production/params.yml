@@ -14,3 +14,13 @@ web_components:
         value: https://fonts.testingmachine.eu/open-sans/style.css
       - key: font-name
         value: Open Sans
+
+  datasets_list_widget:
+    tag_name: datasets-list-widget
+    uuid: dbdc140b-2c6c-48b7-920b-a73fe9151252
+    script_name: datasets-list-widget.min.js
+    attributes:
+      - key: font-url
+        value: https://fonts.testingmachine.eu/open-sans/style.css
+      - key: font-name
+        value: Open Sans

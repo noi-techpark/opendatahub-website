@@ -15,6 +15,16 @@ enableRobotsTXT: true
 params:
   wcs_cdn_base: https://cdn.webcomponents.opendatahub.testingmachine.eu
   web_components:
+    datasets_list_widget:
+      tag_name: datasets-list-widget
+      uuid: de37075f-4509-45dc-8efe-a85a227a6f1c
+      script_name: datasets-list-widget.min.js
+      attributes:
+        - key: font-url
+          value: https://fonts.testingmachine.eu/open-sans/style.css
+        - key: font-name
+          value: Open Sans
+
     wcs_list_widget:
       tag_name: wcs-list-widget
       uuid: 8c81bdea-17d9-4b0a-8d0b-7c760c53169e
@@ -113,7 +123,6 @@ params:
     copyright: '@Open Data Hub | <a class="text-decoration-underline" href="https://noi.bz.it/en/privacy-cookie-policy" target="_blank">Privacy</a> | <a class="text-decoration-underline" onclick="window.cc.showSettings()">Cookies</a>'
 
 taxonomies:
-  datatype: datatype
   use_case_tag: use_case_tags
 
 menu:
@@ -154,7 +163,11 @@ menu:
     # --- Web Components ---
     - identifier: web-components
       name: Web Components
+<<<<<<< HEAD
       URL: "/web-components"
+=======
+      URL: "/webcomponents"
+>>>>>>> c068c09 (added webcomp and removed old files)
       weight: 4
 
     # --- Quickstart ---

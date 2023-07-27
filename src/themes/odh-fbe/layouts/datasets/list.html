@@ -8,41 +8,25 @@
 
 {{/*  
 	TODO: When changing this site to use the Datasets List Web Component
-	- Change this title to use only the "title.html" partial
-	- Remove everything from the section below and integrate the Web Component as explained in the dedicated section of the README. You can take src/themes/odh-fbe/layouts/web-components/list.html as reference
+	- Change this title to use only the "title.html" partial ok
+	- Remove everything from the section below and integrate the Web Component as explained in the dedicated section of the README. 
+	You can take src/themes/odh-fbe/layouts/web-components/list.html as reference
 	
 	Cleanup:
-	- Delete src/themes/odh-fbe/static/js/datasets-filter.js
-	- Delete src/themes/odh-fbe/layouts/partials/title-select.html
-	- Delete src/themes/odh-fbe/layouts/taxonomy/datatype.html and the taxonomy folder
-	- Delete src/themes/odh-fbe/layouts/datasets/single.html
-	- Delete everything in src/content/datasets except _index.md
-	- Delete the datatype: datatype entry in the taxonomies array in src/config/_default/config.yml
+	- Delete src/themes/odh-fbe/static/js/datasets-filter.js ok
+	- Delete src/themes/odh-fbe/layouts/partials/title-select.html ok
+	- Delete src/themes/odh-fbe/layouts/taxonomy/datatype.html and the taxonomy folder ok
+	- Delete src/themes/odh-fbe/layouts/datasets/single.html ok
+	- Delete everything in src/content/datasets except _index.md ok
+	- Delete the datatype: datatype entry in the taxonomies array in src/config/_default/config.yml ok
 
 	That should be it ;)
 */}}
-{{ partial "title-select.html" .Params }}
+{{ partial "title.html" .Params }}
 
 <section>
-	<div class="datasets container">
-		<div class="row">
-			{{ range .Pages.ByTitle.ByWeight }}
-			<a href="{{ .Permalink }}" class="col-6 col-md-4 col-lg-3 dataset-card" data-availability="{{.Params.availability}}">
-				<div class="ratio ratio-1x1">
-					<img class="object-fit-cover h-100 w-100" src="{{ .Params.img }}" alt="{{ .Params.img_alt }}" />
-				</div>
-				<div class="py-4">
-					<h5 class="fw-bold" >{{ .Title }}&nbsp;&#10142;</h5>
-					<div class="text-muted">
-						{{ .Params.datatype }} | {{ .Params.availability_label }}
-					</div>
-				</div>
-			</a>
-			{{ end }}
-		</div>
-		<p class="no-datasets text-center d-none py-3">
-			There are no datasets that match your selection.
-		</p>
+	<div class="container">
+		{{ partial "web-component.html" site.Params.web_components.datasets_list_widget }}
 	</div>
 </section>
 
