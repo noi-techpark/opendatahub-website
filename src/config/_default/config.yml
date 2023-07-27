@@ -163,7 +163,7 @@ menu:
     # --- Web Components ---
     - identifier: web-components
       name: Web Components
-      URL: "/webcomponents"
+      URL: "/web-components"
       weight: 4
 
     # --- Quickstart ---
