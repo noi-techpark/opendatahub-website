@@ -12,10 +12,10 @@ short:
   description: "Open real-time flight data offers advantages to passengers, airlines, travel industry stakeholders and regulatory authorities alike. It enhances efficiency, improves planning and decision-making, and promotes a more seamless and transparent travel experience for all. It is also a great advantage for Taxi services, Shuttle services, and hotels offering transfers to have access to real-time flight data."
   btn_link: "/use-cases/skyalps"
   btn_label: Read more
-  img_back: "/img/use-cases/ODH-usecase-mentor-image-01.jpg"
+  img_back: "/img/use-cases/ODH-usecase-skyalps-1.jpg"
   bg_darker: true
   partial: imgs-text.html
-  weight: 3
+  weight: 5
 
 start:
   description: "SKYALPS"
@@ -28,28 +28,28 @@ paragraphs:
   - description: "SkyAlps is a small, regional airline of Bolzano
     that connects small and medium-sized cities in Europe with direct flights.
     Discover the actual destination and flight routes at https://www.skyalps.com/en/flights-destinations/all-flights"
-    img_back: "/img/use-cases/ODH-usecase-mentor-image-08.jpg"
-    partial: imgs-text-enlargeable.html
+    img_back: "/img/use-cases/ODH-usecase-skyalps-2.jpg"
+    partial: imgs-text.html
 
   - title: "**Open real-time flight data for stakeholders**"
     description: "Real-time flight data is beneficial for various players in the travel industry. Travel agencies, online travel platforms and booking websites can provide their customers with accurate and up-to-date flight data, guaranteeing a seamless booking process."
-    img_back: "/img/use-cases/ODH-usecase-Kultivas-02-NEW.jpg"
+    img_back: "/img/use-cases/ODH-usecase-skyalps-3.jpg"
     partial: text-imgs-enlargeable.html
 
   - title: "**Open real-time flight data for developers**"
     description: "Developers and innovators can leverage this data to design novel applications, services, and tools that elevate the travel experience for both individuals and businesses."
-    img_back: "/img/use-cases/ODH-usecase-Kultivas-03-NEW.jpg"
+    img_back: "/img/use-cases/ODH-usecase-skyalps-4.jpg"
     partial: imgs-text-enlargeable.html
 
   - description: "The flight data dataset contains information on real-time data and scheduled flights. Through this API you will have an overview of the SkyAlps timetable, with up-to-date information like prices, times, destinations, and more."
     btn_link: "https://opendatahub.com/datasets/mobility/flight/"
     btn_label: GO TO THE DATASET
-    img_back: "/img/use-cases/ODH-usecase-Kultivas-02-NEW.jpg"
+    img_back: "/img/use-cases/ODH-usecase-skyalps-5.jpg"
     partial: text-imgs-enlargeable.html
 
   - description: "Are you seeking a seamless way to incorporate an interactive map into your website? Your search ends here; we've already crafted a web component precisely for this use!"
     btn_link: "https://webcomponents.opendatahub.com/webcomponent/flightmap"
     btn_label: DISCOVER THE WEBCOMPONENT
-    img_back: "/img/use-cases/ODH-usecase-Kultivas-03-NEW.jpg"
+    img_back: "/img/use-cases/ODH-usecase-skyalps-6.jpg"
     partial: imgs-text-enlargeable.html
 ---
