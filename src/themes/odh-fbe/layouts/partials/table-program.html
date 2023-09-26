@@ -4,11 +4,11 @@
 	SPDX-License-Identifier: AGPL-3.0-or-later
 */}}
 
-<div >
-  <div class="container">
-    <a href="{{.btn_top_link}}" class="btn btn-primary" onclick="{{ .btn_top_on_click }}">{{ .btn_top_label | markdownify }}</a>
-    <table>
-     <thead>
+<div class="container">
+  <a href="{{.btn_top_link}}" class="btn btn-primary" onclick="{{ .btn_top_on_click }}">{{ .btn_top_label | markdownify }}</a>
+  <div class="table-responsive">
+    <table class="table">
+      <thead>
         <tr>
           {{ range .header }}
             <th width= {{.width}}>
@@ -16,9 +16,9 @@
             </th>
           {{ end }}
         </tr>
-     </thead>
+      </thead>
 
-     <tbody>
+      <tbody>
         {{ range .row }}
         <tr>
           {{ range .cols }}
@@ -32,7 +32,7 @@
           {{ end }}
         </tr>
         {{ end }}
-     </tbody> 
+      </tbody> 
     </table>
   </div>
 </div>

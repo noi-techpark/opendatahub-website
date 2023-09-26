@@ -79,6 +79,10 @@ providers:
       img: "img/community/lts.png"
       link: https://www.lts.it
 
+    - name: Municipality of Badia
+      img: "img/community/municipalityBadia.png"
+      link: https://www.comune.badia.bz.it/
+
     - name: Municipality of Bolzano/Bozen
       img: "img/community/municipalityBolzano.png"
       link: https://www.comune.bolzano.it/
