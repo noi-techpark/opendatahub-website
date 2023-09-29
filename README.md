@@ -23,6 +23,7 @@ Repository for the [Open Data Hub](https://opendatahub.com/) website created wit
   - [Videos](#videos)
     - [Video sections](#add-new-sections)
     - [Individual videos](#add-new-videos)
+  - [Image Attributions](#image-attributions)
 - [Add Web Components](#add-web-components)
 - [Docker environment](#docker-environment)
 - [Information](#information)
@@ -279,6 +280,27 @@ On local development and on testingmachine deploys this Web Component would rend
 ```
 
 On production deploys the url will point to the production script of the Web Component.
+
+## Image Attributions
+
+Adding an Attribution (copyright information) to an image:
+
+1. Locate the file where the image url is set (usually a markdown file under `/src/content`, rarely a html file under `/src/themes/odh-fbe/layouts/page-name/list.html`). It should look something like this:
+
+```yml
+- img_back: "/path/to/image.png" # The path to the image
+  partial: "imgs-text.html" # The partial used to render these fields
+  # Other optional fields like title, description, ...
+```
+
+2. Add a field `img_credit` with the text of the attribution like this:
+   
+```yml
+- img_back: "/path/to/image.png" # The path to the image
+  img_credit: "© Max Mustermann" # The image attribution
+  partial: "imgs-text.html" # The partial used to render these fields
+  # Other optional fields like title, description, ...
+```
 
 ## Information
 
