@@ -108,7 +108,7 @@ params:
         - icon: /icon/footer/facebook.svg
           text: Facebook
           URL: https://www.facebook.com/opendatahub/
-          
+
     # add to copyright once exists: <a class="text-decoration-underline">Imprint</a>
     copyright: '@Open Data Hub | <a class="text-decoration-underline" href="https://noi.bz.it/en/privacy-cookie-policy" target="_blank">Privacy</a> | <a class="text-decoration-underline" onclick="window.cc.showSettings()">Cookies</a>'
 
@@ -154,7 +154,7 @@ menu:
     # --- Web Components ---
     - identifier: web-components
       name: Web Components
-      URL:  "/web-components"
+      URL: "/web-components"
       weight: 4
 
     # --- Quickstart ---
@@ -178,6 +178,11 @@ menu:
       name: Data Consumers
       URL: /community/#sm-tag-data-consumers
       weight: 2
+
+    - parent: community
+      name: Partneships
+      URL: /community/#sm-tag-partnerships
+      weight: 3
 
     # --- Events ---
     - identifier: events

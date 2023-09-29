@@ -126,7 +126,7 @@ providers:
     - name: Südtirol Wein
       img: "img/community/suedtirolWein.png"
       link: https://www.vinialtoadige.com/
-    
+
     - name: Systems
       img: "img/community/systems.png"
       link: https://www.systems.bz/
@@ -147,7 +147,7 @@ consumers:
     - name: ACS srl
       img: "img/community/acs.png"
       link: https://www.acs.it/
-      
+
     - name: Arxax srl
       img: "img/community/arxax.png"
       link: https://www.arxax.com/
@@ -158,12 +158,12 @@ consumers:
 
     - name: Brixen Tourismus Gen
       img: "img/community/BrixenTourism.png"
-      link: https://www.brixen.org     
- 
+      link: https://www.brixen.org
+
     - name: Catch Solve Srl
       img: "img/community/CatchSolve.png"
       link: https://www.catch-solve.tech/
-      
+
     - name: CISMA Srl
       img: "img/community/cisma.png"
       link: http://www.cisma.it/
@@ -179,11 +179,11 @@ consumers:
     - name: Destination Srl
       img: "img/community/destination.png"
       link: http://www.destinationsrl.it/
-    
+
     - name: Eurac Research
       img: "img/community/eurac.png"
       link: https://www.eurac.edu/
-    
+
     - name: Konverto
       img: "img/community/konverto.png"
       link: https://konverto.eu/
@@ -218,20 +218,20 @@ consumers:
 
     - name: Openmove
       img: "img/community/openmove.png"
-      link: https://www.openmove.com/ 
+      link: https://www.openmove.com/
 
     - name: Peer
       img: "img/community/peer.png"
       link: https://www.peer.biz/
-      
+
     - name: Reactive Software
       img: "img/community/ReactiveSoftware.png"
-      link: https://snowmaps3d.com/snow/index_en.html      
-      
+      link: https://snowmaps3d.com/snow/index_en.html
+
     - name: STA
       img: "img/community/sta.png"
       link: https://sta.bz.it
-      
+
     - name: Hotel Schwarzenstein
       img: "img/community/hotelSchwarzenstein.png"
       link: https://www.schwarzenstein.com/
@@ -243,11 +243,11 @@ consumers:
     - name: Trentino Holidays
       img: "img/community/trentinoHolidays.png"
       link: https://www.thol.it/
-      
+
     - name: TT Consulting
       img: "img/community/ttconsulting.png"
       link: https://www.tt-consulting.com/
-    
+
     - name: XLbit
       img: "img/community/xlbit.png"
       link: https://www.xlbit.com/
@@ -260,6 +260,30 @@ consumers:
       img: "img/community/whispers.png"
       link: https://www.whispers.at/
 
+########################### Partnerships and Alliances #########################
+partnerships:
+  title: Partnerships and Alliances
+  subtitle: Open Data Hub proudly participates in these alliances, collectively striving to propel innovative digital solutions forward.​
+  items:
+    - name: AlpineBits
+      img: "img/community/AlpineBits.png"
+      link: www.alpinebits.org​
+
+    - name: Big Data Alliance
+      img: "img/community/bda.png"
+      link: https://bda.matrycs.eu/​
+
+    - name: IDSA
+      img: "img/community/idsa.png"
+      link: https://internationaldataspaces.org/​
+
+    - name: Mobility Data Space
+      img: "img/community/mds.png"
+      link: https://mobility-dataspace.eu/
+
+    - name: Open data platform mobility Switzerland
+      img: "img/community/otds.png"
+      link: https://opentransportdata.swiss
 
 ########################### Developers ###########################
 developers:
@@ -281,7 +305,6 @@ developers:
     - name: Autonomous Province of Trento
       img: "img/community/ProvinciaTrento.png"
       link: http://www.provincia.tn.it/
-
 
 ########################### Team #########################
 team:
