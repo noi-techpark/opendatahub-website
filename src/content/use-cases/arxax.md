@@ -16,7 +16,7 @@ short:
   img_back: "/img/use-cases/ODH-usecase-Arxax-1.jpg"
   bg_darker: true
   partial: text-imgs.html
-  weight: 6
+  weight: 2
 
 start:
   description: "ARXAX"

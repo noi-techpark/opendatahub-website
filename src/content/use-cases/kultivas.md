@@ -17,7 +17,7 @@ improve the decision making in apple cultivation."
   video: "https://player.vimeo.com/video/715104372?h=28580f7e63"
   bg_darker: true
   partial: video-text.html
-  weight: 3
+  weight: 5
 
 start:
   description: "KULTIVAS"
