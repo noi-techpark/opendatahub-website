@@ -285,7 +285,7 @@ On production deploys the url will point to the production script of the Web Com
 
 Adding an Attribution (copyright information) to an image:
 
-1. Locate the file where the image url is set (usually a markdown file under `/src/content`, rarely a html file under `/src/themes/odh-fbe/layouts/page-name/list.html`). It should look something like this:
+1. Locate the file where the image url is set (usually a markdown file under `/src/content`, sometimes a yml file under `/src/data`). It should look something like this:
 
 ```yml
 - img_back: "/path/to/image.png" # The path to the image
