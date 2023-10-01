@@ -229,6 +229,27 @@ sections:
         target_blank: true # Whether or not the link to the video script or slides is external or not (almost always true)
 ```
 
+### Image Attributions:
+
+Adding an Attribution (copyright information) to an image:
+
+1. Locate the file where the image url is set (usually a markdown file under `/src/content`, sometimes a yml file under `/src/data`). It should look something like this:
+
+```yml
+- img_back: "/path/to/image.png" # The path to the image
+  partial: "imgs-text.html" # The partial used to render these fields
+  # Other optional fields like title, description, ...
+```
+
+2. Add a field `img_credit` with the text of the attribution like this:
+   
+```yml
+- img_back: "/path/to/image.png" # The path to the image
+  img_credit: "© Max Mustermann" # The image attribution
+  partial: "imgs-text.html" # The partial used to render these fields
+  # Other optional fields like title, description, ...
+```
+
 ## Add Web Components
 
 Adding Web Components **from the Web Component store** to the layout of a page is simple. 
@@ -280,27 +301,6 @@ On local development and on testingmachine deploys this Web Component would rend
 ```
 
 On production deploys the url will point to the production script of the Web Component.
-
-## Image Attributions
-
-Adding an Attribution (copyright information) to an image:
-
-1. Locate the file where the image url is set (usually a markdown file under `/src/content`, sometimes a yml file under `/src/data`). It should look something like this:
-
-```yml
-- img_back: "/path/to/image.png" # The path to the image
-  partial: "imgs-text.html" # The partial used to render these fields
-  # Other optional fields like title, description, ...
-```
-
-2. Add a field `img_credit` with the text of the attribution like this:
-   
-```yml
-- img_back: "/path/to/image.png" # The path to the image
-  img_credit: "© Max Mustermann" # The image attribution
-  partial: "imgs-text.html" # The partial used to render these fields
-  # Other optional fields like title, description, ...
-```
 
 ## Information
 
