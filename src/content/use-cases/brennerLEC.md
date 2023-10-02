@@ -16,7 +16,7 @@ short:
   img_back: "/img/use-cases/ODH-usecase-Brennerlec-image-01.jpg"
   bg_darker: false
   partial: text-imgs-icon.html
-  weight: 2
+  weight: 4
 
 start:
   description: "BRENNERLEC"

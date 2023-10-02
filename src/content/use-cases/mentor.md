@@ -15,7 +15,7 @@ short:
   img_back: "/img/use-cases/ODH-usecase-mentor-image-01.jpg"
   bg_darker: true
   partial: imgs-text.html
-  weight: 1
+  weight: 3
 
 start:
   description: "MENTOR"

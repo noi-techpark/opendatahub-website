@@ -16,7 +16,7 @@ short:
   img_back: "/img/use-cases/ODH-usecase-GREENMOBILITY-image-01.jpg"
   bg_darker: false
   partial: text-imgs-icon.html
-  weight: 4
+  weight: 6
 
 start:
   description: "GREEN MOBILITY"
