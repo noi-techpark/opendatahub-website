@@ -334,3 +334,11 @@ team:
       position: Team Leader
       img: "img/experts/PatrickOhnewein.jpg"
       company: NOI Techpark Südtirol - Alto Adige
+
+########################### Get involved ###########################
+get_involved:
+  title: Development partners
+
+  paragraph:
+    title: "test"
+    description: "test1"
