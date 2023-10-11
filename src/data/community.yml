@@ -172,6 +172,10 @@ consumers:
       img: "img/community/consisto-Logo.png"
       link: https://www.consisto.it/
 
+    - name: Consorzio dei Comuni della Provincia di Bolzano - Südtiroler Gemeindeverband
+      img: "img/community/consorzioDeiComuni.png"
+      link: https://www.gvcc.net/
+
     - name: DataVision Italia srl
       img: "img/community/DigitalVisionItalia.png"
       link: https://www.datavision.software/
@@ -267,18 +271,18 @@ partnerships:
   items:
     - name: AlpineBits
       img: "img/community/AlpineBits.png"
-      link: www.alpinebits.org​
+      link: www.alpinebits.org
 
     - name: Big Data Alliance
-      img: "img/community/bda.png"
-      link: https://bda.matrycs.eu/​
+      img: "img/community/bigDataAlliance.png"
+      link: https://bda.matrycs.eu
 
     - name: IDSA
       img: "img/community/idsa.png"
-      link: https://internationaldataspaces.org/​
+      link: https://internationaldataspaces.org
 
     - name: Mobility Data Space
-      img: "img/community/mds.png"
+      img: "img/community/mobilityDataSpaces.png"
       link: https://mobility-dataspace.eu/
 
     - name: Open data platform mobility Switzerland

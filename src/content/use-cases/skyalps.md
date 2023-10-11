@@ -15,7 +15,7 @@ short:
   img_back: "/img/use-cases/ODH-usecase-skyalps-1.jpg"
   bg_darker: true
   img_credit: "© SkyAlps"
-  partial: imgs-text-enlargeable.html
+  partial: text-imgs-enlargeable.html
   
   weight: 1
 

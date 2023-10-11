@@ -15,7 +15,7 @@ short:
   btn_label: Read more
   img_back: "/img/use-cases/ODH-usecase-Arxax-1.jpg"
   bg_darker: true
-  partial: text-imgs.html
+  partial: imgs-text.html
   weight: 2
 
 start:

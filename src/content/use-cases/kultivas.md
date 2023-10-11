@@ -16,7 +16,7 @@ improve the decision making in apple cultivation."
   btn_label: Read more
   video: "https://player.vimeo.com/video/715104372?h=28580f7e63"
   bg_darker: true
-  partial: video-text.html
+  partial: text-video.html
   weight: 5
 
 start:

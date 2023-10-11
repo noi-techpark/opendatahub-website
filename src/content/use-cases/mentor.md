@@ -14,7 +14,7 @@ short:
   btn_label: Read more
   img_back: "/img/use-cases/ODH-usecase-mentor-image-01.jpg"
   bg_darker: true
-  partial: imgs-text.html
+  partial: text-imgs.html
   weight: 3
 
 start:
