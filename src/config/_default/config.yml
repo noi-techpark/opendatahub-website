@@ -184,6 +184,11 @@ menu:
       URL: /community/#sm-tag-partnerships
       weight: 3
 
+    - parent: community
+      name: Get Involved
+      URL: /community/get-involved
+      weight: 4
+
     # --- Events ---
     - identifier: events
       URL: /events
