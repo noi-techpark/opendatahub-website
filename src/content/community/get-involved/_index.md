@@ -64,7 +64,7 @@ rows:
     1. ​Learn how to successfully integrate your code with the existing code-base and how to interact with the Open Data Hub team. In other words, you need to check the [**Developer’s Flight Rules**](https://github.com/noi-techpark/documentation/blob/main/README.md)​
     <br>
     <br>
-    2. Understand the Open Data Hub **_Architecture_** >>>>>> **_[TBC!!]_**
+    2. Understand the Open Data Hub **_Architecture_**
     <br>
     <br>
     3. Install the necessary software on your local workstation (be it a physical workstation, a virtual machine, or a Docker instance), including PostgreSQL with postgis extension, JDK, git.​
@@ -73,7 +73,7 @@ rows:
     4. Set up all the services needed (database, application server, and so on).​
     <br>
     <br>
-    5. Clone our git repositories. To successfully complete these tasks, please read the **_[How to set up your local ](https://opendatahub.readthedocs.io/en/latest/howto/generic/development.html#development)[Development Environment?](https://opendatahub.readthedocs.io/en/latest/howto/generic/development.html#development)_** >>>>>>**_[TBC!!]_** tutorial, which guides you stepwise through all the required set up and configuration, along with some troubleshooting advice.​
+    5. Clone our git repositories. To successfully complete these tasks, please read the **_[How to set up your local ](https://opendatahub.readthedocs.io/en/latest/howto/generic/development.html#development)[Development Environment](https://opendatahub.readthedocs.io/en/latest/howto/generic/development.html#development)_**  tutorial, which guides you stepwise through all the required set up and configuration, along with some troubleshooting advice.​
     <br>
     <br>
     6. Coding. That’s the funniest part, enjoy!​"
