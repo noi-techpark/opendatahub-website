@@ -28,8 +28,9 @@ start:
 
 paragraphs:
   - description: "SkyAlps is a small, regional airline of Bolzano
-    that connects small and medium-sized cities in Europe with direct flights.
-    Discover the actual destination and flight routes at https://www.skyalps.com/en/flights-destinations/all-flights"
+    that connects small and medium-sized cities in Europe with direct flights."
+    btn_link: "https://www.skyalps.com/en/flights-destinations/all-flights"
+    btn_label: DISCOVER DESTINATIONS
     img_back: "/img/use-cases/ODH-usecase-skyalps-2.jpg"
     img_credit: "Slide from the Open Data Hub Day 2023 presentation"
     partial: imgs-text-enlargeable.html
