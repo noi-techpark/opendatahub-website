@@ -17,11 +17,11 @@ datatype: "Mobility"
 
 This dataset contains real-time data on new bicycle parking facilities.
 
-|             |                                                                                |
-| :---------- | ------------------------------------------------------------------------------ |
-| Output      | JSON, mime-type application/json                                               |
-| API version | v2                                                                             |
-| Swagger URL | [https://mobility.api.opendatahub.com/](https://mobility.api.opendatahub.com/) |
-| StationType | [BikeParking](https://mobility.api.opendatahub.com/v2/flat,node/BikeParking)   |
-| Sources     | Bicincittà                                                                     |
-| OpenData    | Open Data                                                                      |
+|               |                                                                                       |
+| :------------ | ------------------------------------------------------------------------------------- |
+| Output        | JSON, mime-type application/json                                                      |
+| API version   | v2                                                                                    |
+| Swagger URL   | [https://mobility.api.opendatahub.com/](https://mobility.api.opendatahub.com/)        |
+| StationType   | [BikeParking](https://mobility.api.opendatahub.com/v2/flat,node/BikeParking/*/latest) |
+| Data Provider | STA                                                                                   |
+| OpenData      | Open Data                                                                             |
