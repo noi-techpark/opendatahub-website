@@ -75,6 +75,10 @@ providers:
       img: "img/community/innovie.png"
       link: http://www.innovie.it/s
 
+    - name: Leitner Energy
+      img: "img/community/leitnerEnergy.png"
+      link: https://www.leitnerenergy.it/
+    
     - name: LTS
       img: "img/community/lts.png"
       link: https://www.lts.it
