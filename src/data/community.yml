@@ -111,6 +111,10 @@ providers:
       img: "img/community/NOI_1_BK_Com.png"
       link: https://noi.bz.it
 
+    - name: Oetzi Strom
+      img: "img/community/oetziStrom.png"
+      link: https://www.oetzi-sev.it/it/
+
     - name: Papin Sport
       img: "img/community/papinSport.png"
       link: https://www.papinsport.com/
