@@ -7,15 +7,16 @@ subtitle: "The Open Data Hub team warmly invites new partners and users to becom
 
 rows:
   - title: "As a User I can…​"
-    description: "​…explore the data in the datasets.​
+    description: " 
+    **​…explore the data in the datasets​**
     <br>
     Choose a dataset from the list of [**Datasets**](https://opendatahub.com/datasets/) and start gathering data from it. You can then provide any kind of feedback on the dataset: reports about any malfunctions, suggestions for improvements or new features, and so on.​ Moreover, if you are interested in datasets that are not yet in our collection, get in touch with the Open Data Hub team to discuss your request.​
     <br>
     <br>
-    ​…browse our collection of pre-built Web Components​
+    **​…browse our collection of pre-built Web Components​**
     <br>
     Enhance your website or app with ease: browse the list of [**available Web Components**](https://opendatahub.com/web-components/), choose one that you are interested in, try it out, then send feedback to their developers if you feel something is wrong or missing.​"
-    bg_darker: true
+    bg_darker: false
     partial: text.html
 
   - title: "​As a Data Provider I can…"
@@ -27,33 +28,33 @@ rows:
     partial: text.html
     
   - title: "As an App Developer I can…​"
-    description: "​…harvest data exposed by the dataset.​
+    description: " **​…harvest data exposed by the dataset.​**
     <br>
     Browse the list of [**Datasets**](https://opendatahub.com/datasets/) to see what types of data are contained in the datasets, and think how they can be used.​ For this purpose, we maintain an updated  list of available [**Datasets** ](https://opendatahub.com/datasets/)with links to the API to access them.​
     <br>
     <br>
-    …build an application with the data.​
+    **…build an application with the data.​**
     <br>
     Write code for an app that combines the data you can harvest from the available datasets in various, novel way.​
     To reach this goal, you need to access the APIs, their documentation, and the datasets. It is then your task to discover how you can reuse the data in your code.​
     <br>
     <br>
-    ​…integrate Open Data Hub data using Web Components.​
+    **​…integrate Open Data Hub data using Web Components.​**
     <br>
     The Open Data Hub team and their partner have developed a [**library of Web Components**](https://webcomponents.opendatahub.com/) that can be integrated in existing websites or used as guidance to develop new Web Components.​
     <br>
     <br>
-    ​…publish my app in Open Data Hub.​
+    **​…publish my app in Open Data Hub.​**
     <br>
     As soon as you have developed a stable version of your app, get in touch with us: We plan to maintain an updated list of apps based on our dataset.​
     <br>
     <br>
     ​No software installation is needed. Develop in a language of your choice an application that uses our data."
-    bg_darker: true
+    bg_darker: false
     partial: text.html
 
   - title: "As an Open Data Hub Core Hacker I can…​"
-    description: "…help shape the future of Open Data Hub.​
+    description: " **…help shape the future of Open Data Hub.​**
     <br>
     Participate in the development of Open Data Hub: Build new data collectors, extend the functionality of the broker, integrate new datasets on the existing infrastructure, develop new stable API versions.​
     <br>
