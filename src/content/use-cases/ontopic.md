@@ -47,8 +47,8 @@ paragraphs:
     btn_label: "CONTACT US"
     partial: text-imgs-enlargeable.html
 
-  - description: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-    title: "Diego Calvanese"
-    subtitle: "Ontopic"
-    partial: quote.html
+#  - description: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+#    title: "Diego Calvanese"
+#    subtitle: "Ontopic"
+#    partial: quote.html
 ---
