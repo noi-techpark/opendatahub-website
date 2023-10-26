@@ -47,7 +47,7 @@ paragraphs:
     btn_label: "CONTACT US"
     partial: text-imgs-enlargeable.html
 
-  - description: "The ODH Virtual Knowledge Graph was a great opportunity to show how data can be integrated into a highly usable source of precise information and knowledge. The solutions developed also thanks to this project allow now the fast and inexpensive creation of semantic layers, which can be used from a large variety of applications, such as PowerBI, Tableau, Metabase, Excel, Pandas and many more, in addition to the native RDF-oriented solutions."
+  - description: "The Open Data Hub Virtual Knowledge Graph was a great opportunity to show how data can be integrated into a highly usable source of precise information and knowledge. The solutions developed also thanks to this project allow now the fast and inexpensive creation of semantic layers, which can be used from a large variety of applications, such as PowerBI, Tableau, Metabase, Excel, Pandas and many more, in addition to the native RDF-oriented solutions."
     title: "Peter Hopfgartner"
     subtitle: "Ontopic"
     partial: quote.html
