@@ -8,12 +8,12 @@
   <div
       data-bs-toggle="modal"
       data-bs-target="#modal-{{ .img_back | sha1 }}"
-      class="enlarge-overlay bg-secondary-subtle position-absolute w-100 h-100 d-none d-lg-flex gap-2 align-items-center justify-content-center text-white"
+      class="enlarge-overlay bg-secondary-subtle position-absolute w-100 h-100 d-none d-lg-flex gap-2 align-items-center justify-content-center text-white z-1"
   >
       <span>Click to enlarge</span>
       <i class="fa fa-search" aria-hidden="true" id="magnifying-glass"></i>
   </div>
-  <img src="{{ .img_back }}" />
+  {{ partial "_img-credited.html" . }}
 </div>
 <div class="modal modal-lg fade" id="modal-{{ .img_back | sha1 }}" tabindex="-1" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
@@ -26,12 +26,7 @@
           >
               <button class="btn-close"></button>
           </div>
-          {{ with .img_credit }}
-          <div class="position-absolute end-0 bottom-0 p-2">
-            <span class="bg-white py-1 px-2 rounded">{{ . }}</span>
-          </div>
-          {{ end }}
-          <img src="{{ .img_back }}" />
+          {{ partial "_img-credited.html" . }}
       </div>
   </div>
 </div>
