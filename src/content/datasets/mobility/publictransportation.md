@@ -40,11 +40,16 @@ This is the current reference API for the Open Data Hub Public Transportation da
                         text="https://gtfs.api.opendatahub.com/v1/dataset/sta-time-tables/raw" >}}<br>This is the GTFS endpoint.                                                                                                                                                                                                                |
 | Swagger URL      | {{< target-blank-link
                         url="https://gtfs.api.opendatahub.com/"
-                        text="https://gtfs.api.opendatahub.com/" >}}  <br>  {{< target-blank-link >}}       |                        
+                        text="https://gtfs.api.opendatahub.com/" >}}  <br>  {{< target-blank-link >}}       |
+| GTFS Endpoint | This is the general GTFS endpoint (Feed link). <br>{{< target-blank-link
+                    url="https://gtfs.api.opendatahub.com/v1/dataset"
+                    text="https://gtfs.api.opendatahub.com/v1/dataset" >}}<br>This is the GTFS RT-link. <br> {{< target-blank-link
+                        url=" https://gtfs.api.opendatahub.com/v1/dataset/sta-time-tables/raw"
+                        text=" https://gtfs.api.opendatahub.com/v1/dataset/sta-time-tables/raw" >}}                          |                        
 | Documentation        | This specification explains how these calls can be configured: <br> {{< target-blank-link
                         url="https://data.civis.bz.it//dataset/575f7455-6447-4626-a474-0f93ff03067b/resource/c4e66cdf-7749-40ad-bcfd-179f18743d84/download/dokumentationxmlschnittstelleapbv32014-08-28.pdf"
                         text="https://data.civis.bz.it//dataset/575f7455-6447-4626-a474-0f93ff03067b/resource/c4e66cdf-7749-40ad-bcfd-179f18743d84/download/dokumentationxmlschnittstelleapbv32014-08-28.pdf" >}}<br><br>Examples of calls are available here: {{< target-blank-link
                         url="https://github.com/noi-techpark/it.bz.opendatahub.api.mobility-ninja/issues/29"
                         text="https://github.com/noi-techpark/it.bz.opendatahub.api.mobility-ninja/issues/29" >}} |
 | Sources     | STA                                                                                                                                                                                            |
-| OpenData    | Open Data                                                                                                                                                                                                                                             |
+| OpenData    | Open Data                                                                                                                                               
