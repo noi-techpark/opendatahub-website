@@ -7,11 +7,13 @@
 start:
   description: "ABOUT US"
   title: "**The evolution of the Open Data Hub Project**"
-  subtitle: Since 2010, Open Data Hub has stood for innovative solutions in the field of Open Data and is now an important partner of companies, research institutes and developers at a European level with the main goal of enabling the development of innovative digital solutions based on real data.
 
 paragraph_2:
-  description: "The Open Data Hub project began in South Tyrol in 2010 with the aim of grouping data collected from a series of European projects in the field of mobility research and development. This data comes from different sources, often with complex APIs. The Open Data Hub translates these APIs into well- documented Open Specification APIs, in order to simplify and improve the work of developers interested in creating apps, websites and other systems. <br> <br>
-  In 2016, tourism data was added to the field of mobility, again by providing easy-to-read, machine-readable, high quality APIs. <br> <br> 
+  description: "Since 2010, Open Data Hub has stood for innovative solutions in the field of Open Data and is now an important partner of companies, research institutes and developers at a European level with the main goal of enabling the development of innovative digital solutions based on real data.
+
+
+  The Open Data Hub project began in South Tyrol in 2010 with the aim of grouping data collected from a series of European projects in the field of mobility research and development. This data comes from different sources, often with complex APIs. The Open Data Hub translates these APIs into well- documented Open Specification APIs, in order to simplify and improve the work of developers interested in creating apps, websites and other systems. <br> <br>
+  In 2016, tourism data was added to the field of mobility, again by providing easy-to-read, machine-readable,  high quality APIs. <br> <br> 
   Today, the main objective of the Open Data Hub is to enable the development of digital solutions based on real data by expanding the collection and exchange of data on a European level working in the Data Spaces: Mobility, Tourism and Agriculture."
 
 paragraph_5:
