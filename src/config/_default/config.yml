@@ -163,15 +163,7 @@ menu:
     # --- Web Components ---
     - identifier: web-components
       name: Web Components
-<<<<<<< HEAD
-<<<<<<< HEAD
       URL: "/web-components"
-=======
-      URL: "/webcomponents"
->>>>>>> c068c09 (added webcomp and removed old files)
-=======
-      URL: "/web-components"
->>>>>>> 918f9fa (fix link to /web-components)
       weight: 4
 
     # --- Quickstart ---
