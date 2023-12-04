@@ -22,7 +22,7 @@ The Open Data Hub mobility data can be accessed with the OpenTripPlanner (OTP) A
 
 |             |                                                                                                                                                                                                                                                       |
 | :---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Output      | JSON, mime-type application/json                                                                                                                                                                                                                      |
+| Output      | JSON, mime-type application/json, GTFS                                                                                                                                                                                                                     |
 | API version | v2                                                                                                                                                                                                                                                    |
 | Endpoint | {{< target-blank-link
                         url="https://otp.opendatahub.com/otp/"

@@ -21,11 +21,17 @@ This dataset contains information on real-time data and scheduled flights. Throu
 
 |             |                                                                                                                                                                                                   |
 | :---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Output      | JSON, mime-type application/json                                                                                                                                                                  |
+| Output      | JSON, mime-type application/json, GTFS                                                                                                                                                                |
 | API version | v2                                                                                                                                                                                                |
+| Endpoint | {{< target-blank-link
+                        url="https://mobility.api.opendatahub.com/v2/flat/Flight"
+                        text="https://mobility.api.opendatahub.com/v2/flat/Flight" >}}                                                                                                                                                                                                                |
 | Swagger URL | {{< target-blank-link
                         url="https://mobility.api.opendatahub.com/"
-                        text="https://mobility.api.opendatahub.com/" >}}                                                                                                                                                          |
+                        text="https://mobility.api.opendatahub.com/" >}} |
+| GTFS Endpoint | This is the general GTFS-Feed link.  <br>{{< target-blank-link
+                        url="https://gtfs.api.opendatahub.com/v1/dataset/skyalps-flight-data/raw"
+                        text="https://gtfs.api.opendatahub.com/v1/dataset/skyalps-flight-data/raw" >}}                      |
 | StationType | [Flight](https://mobility.api.opendatahub.com/v2/flat/Flight) |
 | Wiki | [Flight Data API Wiki](https://github.com/noi-techpark/odh-docs/wiki/Flightdata-API) |
 | Sources     | SkyAlps                                                                                                                 |
