@@ -59,6 +59,10 @@ providers:
       img: "img/community/eurac.png"
       link: https://www.eurac.edu/
 
+    - name: Feratel
+      img: "img/community/feratel.png"
+      link: https://www.feratel.com/
+
     - name: H2 South Tyrol
       img: "img/community/h2st.png"
       link: https://www.h2-suedtirol.com/
