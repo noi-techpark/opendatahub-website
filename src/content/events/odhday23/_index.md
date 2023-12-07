@@ -4,8 +4,8 @@ content_partial: table-program-press-release
 position: "Events"
 url: "/events/odhday23/"
 aliases:
-  #- "/events/odhday"
-  #- "/odhday"
+  - "/events/odhday"
+  - "/odhday"
   - "/odhday23"
 
 title: "Open Data Hub Day 2023"
