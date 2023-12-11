@@ -199,6 +199,10 @@ consumers:
     - name: Eurac Research
       img: "img/community/eurac.png"
       link: https://www.eurac.edu/
+    
+    - name: MFactory
+      img: "img/community/factory.png"
+      link: https://www.factory.it
 
     - name: Konverto
       img: "img/community/konverto.png"
@@ -215,10 +219,6 @@ consumers:
     - name: johnOS
       img: "img/community/johnos.png"
       link: https://www.johnosproject.org/docs/references/jod_dists/jod_aa_odh/
-
-    - name: Marketing Factory
-      img: "img/community/MarketingFactory.png"
-      link: https://www.marketingfactory.it
 
     - name: Merano Tourist Office
       img: "img/community/merano.png"
