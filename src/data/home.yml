@@ -27,23 +27,23 @@ community:
   btn_label: "Join now"
   # logos:
 
-  #   - img: "img/community/alperia.png"
+  #   - img: "https://third-party.opendatahub.com/opendatahub-website/img/community/alperia.png"
   #     name: Alperia SpA
   #     link: https://www.alperia.eu/
 
-  #   - img: "img/community/cisma.png"
+  #   - img: "https://third-party.opendatahub.com/opendatahub-website/img/community/cisma.png"
   #     name: CISMA Srl
   #     link: http://www.cisma.it
 
-  #   - img: "img/community/a22.png"
+  #   - img: "https://third-party.opendatahub.com/opendatahub-website/img/community/a22.png"
   #     name: Autostrada del Brennero SpA
   #     link: https://www.autobrennero.it/
 
-  #   - img: "img/community/MarketingFactory.png"
+  #   - img: "https://third-party.opendatahub.com/opendatahub-website/img/community/MarketingFactory.png"
   #     name: Marketing Factory
   #     link: https://www.marketingfactory.it
 
-  #   - img: "img/community/sta.png"
+  #   - img: "https://third-party.opendatahub.com/opendatahub-website/img/community/sta.png"
   #     name: STA
   #     link: https://sta.bz.it
 

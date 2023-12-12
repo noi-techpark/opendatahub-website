@@ -8,147 +8,147 @@ providers:
   subtitle: These Companies and Organisations are official Data Providers for the Open Data Hub and share data with others, to enable the implementation of innovative digital solutions.
   items:
     - name: Autostrada del Brennero SpA
-      img: "img/community/a22.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/a22.png"
       link: https://www.autobrennero.it/
 
     - name: Alperia SpA
-      img: "img/community/alperia.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/alperia.png"
       link: https://www.alperia.eu/
 
     - name: Autonomous Province of Bolzano/Bozen
-      img: "img/community/pab.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/pab.png"
       link: http://provincia.bz.it
 
     - name: Autonomous Province of Trento
-      img: "img/community/ProvinciaTrento.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/ProvinciaTrento.png"
       link: http://www.provincia.tn.it/
 
     - name: Car Sharing Südtirol Alto Adige
-      img: "img/community/carSharingAA.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/carSharingAA.png"
       link: https://www.carsharing.bz.it/
 
     - name: Comunità Comprensoriale Burgraviato
-      img: "img/community/bzbga.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/bzbga.png"
       link: https://www.bzgbga.it/it
 
     - name: DolomitiSuperski
-      img: "img/community/dolomitisuperski.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/dolomitisuperski.png"
       link: https://www.dolomitisuperski.com/
 
     - name: DRIN
-      img: "img/community/DRIN.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/DRIN.png"
       link: http://www.provincia.bz.it/arte-cultura/giovani/drin.asp
 
     - name: Driwe
-      img: "img/community/driwe.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/driwe.png"
       link: https://www.driwe.eu/
 
     - name: Ecogy
-      img: "img/community/ecogy.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/ecogy.png"
       link: https://ecogy.it/
 
     - name: Ecospazio
-      img: "img/community/ecospazio.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/ecospazio.png"
       link: https://www.ecospazio.it
 
     - name: Officina Elettrica San Virgilio di Marebbe
-      img: "img/community/oesv.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/oesv.png"
       link: https://www.oesv.bz.it/
 
     - name: Eurac Research
-      img: "img/community/eurac.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/eurac.png"
       link: https://www.eurac.edu/
 
     - name: Feratel
-      img: "img/community/feratel.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/feratel.png"
       link: https://www.feratel.com/
 
     - name: H2 South Tyrol
-      img: "img/community/h2st.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/h2st.png"
       link: https://www.h2-suedtirol.com/
 
     - name: HGV
-      img: "img/community/hgv.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/hgv.png"
       link: https://www.hgv.it/
 
     - name: IDM Südtirol/Alto Adige
-      img: "img/community/IDM.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/IDM.png"
       link: http://idm-suedtirol.com
 
     - name: Inno.vie
-      img: "img/community/innovie.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/innovie.png"
       link: http://www.innovie.it/s
 
     - name: Leitner Energy
-      img: "img/community/leitnerEnergy.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/leitnerEnergy.png"
       link: https://www.leitnerenergy.it/
     
     - name: LTS
-      img: "img/community/lts.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/lts.png"
       link: https://www.lts.it
 
     - name: Municipality of Badia
-      img: "img/community/municipalityBadia.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/municipalityBadia.png"
       link: https://www.comune.badia.bz.it/
 
     - name: Municipality of Bolzano/Bozen
-      img: "img/community/municipalityBolzano.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/municipalityBolzano.png"
       link: https://www.comune.bolzano.it/
 
     - name: Nevicam
-      img: "img/community/nevicam.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/nevicam.png"
       link: https://mobility.nevicam.it/
 
     - name: Municipality of Merano/Meran
-      img: "img/community/municipalityMerano.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/municipalityMerano.png"
       link: https://www.comune.merano.bz.it/
 
     - name: Municipality of Rovereto
-      img: "img/community/municipalityRovereto.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/municipalityRovereto.png"
       link: https://www.comune.rovereto.tn.it/
 
     - name: Municipality of Trento
-      img: "img/community/municipalityTrento.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/municipalityTrento.png"
       link: https://www.comune.trento.it/
 
     - name: NOI S.p.A.
-      img: "img/community/NOI_1_BK_Com.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/NOI_1_BK_Com.png"
       link: https://noi.bz.it
 
     - name: Oetzi Strom
-      img: "img/community/oetziStrom.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/oetziStrom.png"
       link: https://www.oetzi-sev.it/it/
 
     - name: Papin Sport
-      img: "img/community/papinSport.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/papinSport.png"
       link: https://www.papinsport.com/
 
     - name: Route 220
-      img: "img/community/route220.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/route220.png"
       link: https://evway.net/
 
     - name: SkyAlps
-      img: "img/community/skyalps.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/skyalps.png"
       link: https://www.skyalps.com/
 
     - name: STA
-      img: "img/community/sta.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/sta.png"
       link: https://sta.bz.it
 
     - name: Südtirol Wein
-      img: "img/community/suedtirolWein.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/suedtirolWein.png"
       link: https://www.vinialtoadige.com/
 
     - name: Systems
-      img: "img/community/systems.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/systems.png"
       link: https://www.systems.bz/
 
     - name: TreviLab
-      img: "img/community/TreviLab.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/TreviLab.png"
       link: http://www.provinz.bz.it/arte-cultura/cultura/centro-trevi.asp
 
     - name: VION
-      img: "img/community/VION.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/VION.png"
       link: https://www.vion.bz.it/
 
 ########################### Data consumers #########################
@@ -157,123 +157,123 @@ consumers:
   subtitle: These Companies and Organizations are the registered Data Consumers of the Open Data Hub and use the data to implement innovative digital solutions for a SMART Green Region.
   items:
     - name: ACS srl
-      img: "img/community/acs.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/acs.png"
       link: https://www.acs.it/
 
     - name: Arxax srl
-      img: "img/community/arxax.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/arxax.png"
       link: https://www.arxax.com/
 
     - name: Brandnamic
-      img: "img/community/brandnamic.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/brandnamic.png"
       link: https://www.brandnamic.com/
 
     - name: Brixen Tourismus Gen
-      img: "img/community/BrixenTourism.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/BrixenTourism.png"
       link: https://www.brixen.org
 
     - name: Catch Solve Srl
-      img: "img/community/CatchSolve.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/CatchSolve.png"
       link: https://www.catch-solve.tech/
 
     - name: CISMA Srl
-      img: "img/community/cisma.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/cisma.png"
       link: http://www.cisma.it/
 
     - name: Consisto GmbH
-      img: "img/community/consisto-Logo.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/consisto-Logo.png"
       link: https://www.consisto.it/
 
     - name: Consorzio dei Comuni della Provincia di Bolzano - Südtiroler Gemeindeverband
-      img: "img/community/consorzioDeiComuni.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/consorzioDeiComuni.png"
       link: https://www.gvcc.net/
 
     - name: DataVision Italia srl
-      img: "img/community/DigitalVisionItalia.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/DigitalVisionItalia.png"
       link: https://www.datavision.software/
 
     - name: Destination Srl
-      img: "img/community/destination.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/destination.png"
       link: http://www.destinationsrl.it/
 
     - name: Eurac Research
-      img: "img/community/eurac.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/eurac.png"
       link: https://www.eurac.edu/
     
     - name: MFactory
-      img: "img/community/factory.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/factory.png"
       link: https://www.factory.it
 
     - name: Konverto
-      img: "img/community/konverto.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/konverto.png"
       link: https://konverto.eu/
 
     - name: IDM Südtirol/Alto Adige
-      img: "img/community/IDM.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/IDM.png"
       link: http://idm-suedtirol.com
 
     - name: ITHEL
-      img: "img/community/ithel.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/ithel.png"
       link: https://www.ithel.it/
 
     - name: johnOS
-      img: "img/community/johnos.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/johnos.png"
       link: https://www.johnosproject.org/docs/references/jod_dists/jod_aa_odh/
 
     - name: Merano Tourist Office
-      img: "img/community/merano.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/merano.png"
       link: https://www.merano-suedtirol.it/
 
     - name: NOI S.p.A.
-      img: "img/community/NOI_1_BK_Com.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/NOI_1_BK_Com.png"
       link: https://noi.bz.it
 
     - name: Ontopic
-      img: "img/community/Ontopic.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/Ontopic.png"
       link: https://ontopic.biz/
 
     - name: Openmove
-      img: "img/community/openmove.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/openmove.png"
       link: https://www.openmove.com/
 
     - name: Peer
-      img: "img/community/peer.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/peer.png"
       link: https://www.peer.biz/
 
     - name: Reactive Software
-      img: "img/community/ReactiveSoftware.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/ReactiveSoftware.png"
       link: https://snowmaps3d.com/snow/index_en.html
 
     - name: STA
-      img: "img/community/sta.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/sta.png"
       link: https://sta.bz.it
 
     - name: Hotel Schwarzenstein
-      img: "img/community/hotelSchwarzenstein.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/hotelSchwarzenstein.png"
       link: https://www.schwarzenstein.com/
 
     - name: Taste of Itlay - confesercenti
-      img: "img/community/confesercenti-TasteOfItaly.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/confesercenti-TasteOfItaly.png"
       link: http://www.tasteofitaly.bz.it/
 
     - name: Trentino Holidays
-      img: "img/community/trentinoHolidays.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/trentinoHolidays.png"
       link: https://www.thol.it/
 
     - name: TT Consulting
-      img: "img/community/ttconsulting.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/ttconsulting.png"
       link: https://www.tt-consulting.com/
 
     - name: XLbit
-      img: "img/community/xlbit.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/xlbit.png"
       link: https://www.xlbit.com/
 
     - name: Yanovis
-      img: "img/community/yanovis.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/yanovis.png"
       link: https://www.yanovis.com/
 
     - name: Wispers.at
-      img: "img/community/whispers.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/whispers.png"
       link: https://www.whispers.at/
 
 ########################### Partnerships and Alliances #########################
@@ -282,23 +282,23 @@ partnerships:
   subtitle: Open Data Hub proudly participates in these alliances, collectively striving to propel innovative digital solutions forward.​
   items:
     - name: AlpineBits
-      img: "img/community/AlpineBits.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/AlpineBits.png"
       link: www.alpinebits.org
 
     - name: Big Data Alliance
-      img: "img/community/bigDataAlliance.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/bigDataAlliance.png"
       link: https://bda.matrycs.eu
 
     - name: IDSA
-      img: "img/community/idsa.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/idsa.png"
       link: https://internationaldataspaces.org
 
     - name: Mobility Data Space
-      img: "img/community/mobilityDataSpaces.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/mobilityDataSpaces.png"
       link: https://mobility-dataspace.eu/
 
     - name: Open data platform mobility Switzerland
-      img: "img/community/otds.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/otds.png"
       link: https://opentransportdata.swiss
 
 ########################### Developers ###########################
@@ -307,19 +307,19 @@ developers:
   subtitle: Open Data Hub supports the implementation of an **innovative platform**, where talents can **use data and create innovative solutions** for a SMART Green Region.
   items:
     - name: Autostrada del Brennero SpA
-      img: "img/community/a22.jpeg"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/a22.jpeg"
       link: https://www.autobrennero.it/
 
     - name: Alperia SpA
-      img: "img/community/alperia.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/alperia.png"
       link: https://www.alperia.eu/
 
     - name: Autonomous Province of Bolzano/Bozen
-      img: "img/community/pab.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/pab.png"
       link: http://provincia.bz.it
 
     - name: Autonomous Province of Trento
-      img: "img/community/ProvinciaTrento.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/ProvinciaTrento.png"
       link: http://www.provincia.tn.it/
 
 ########################### Team #########################
