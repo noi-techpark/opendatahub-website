@@ -28,7 +28,7 @@ params:
   logo: img/NOI_OPENDATAHUB_NEW_BK_nospace-01.svg
   logo_NOI: img/NOI_1_BK.svg
   web_NOI: "https://noi.bz.it"
-  favicon: img/logo-open-data-hub.png
+  favicon: img/OpenDataHub-favicon.png
   author: Open Data Hub
   description: >-
     Open Data Hub is your access point to relevant data. You and your service
