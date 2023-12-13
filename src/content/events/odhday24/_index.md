@@ -17,7 +17,7 @@ program:
 
 content:
   title: Call4Speakers
-  btn_top_link: ""
+  btn_top_link: "https://pretalx.com/open-data-hub-day-2024/cfp"
   btn_top_label: "Call 4 Speakers"
   btn_top_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
@@ -149,7 +149,7 @@ content:
         - content: " "
  
     
-  btn_down_link: "https://pretalx.com/open-data-hub-day-2023/cfp"
+  btn_down_link: "https://pretalx.com/open-data-hub-day-2024/cfp"
   btn_down_label: "More info"
   btn_down_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
