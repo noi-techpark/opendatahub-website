@@ -9,7 +9,7 @@ aliases:
   - "/odhday24"
 
 title: "Open Data Hub Day 2024"
-subtitle: "It will take place on **May 17th** at NOI Techpark in Bolzano/Bozen, Italy. The fourth edition of the Open Data Hub Day will be about best practices to help understand and get the most out of the world of data. Open Data is an increasingly important subject for those who work in business and research. We will dive into it with several **experts** and representatives from **leading companies** along with NOI’s scientific partners."
+subtitle: "It will take place on **May 22nd** at NOI Techpark in Bolzano/Bozen, Italy. The fourth edition of the Open Data Hub Day will be about best practices to help understand and get the most out of the world of data. Open Data is an increasingly important subject for those who work in business and research. We will dive into it with several **experts** and representatives from **leading companies** along with NOI’s scientific partners."
 
 program:
   title: "Open Data Hub Day - Programme"
@@ -30,18 +30,18 @@ content:
       width: 20%
     - title: Title
       width: 65%
-    - title: " "
-      width: 5%
-    - title: " "
-      width: 5%  
+    #- title: " "
+    #  width: 5%
+    #- title: " "
+    #  width: 5%  
   row:
     - cols:
         - content: "8.30"
         - content: " "
         - content: " "
         - content: "Check-in starting at 8.30"
-        - content:
-        - content:
+        #- content:
+        #- content:
     - cols:
         - content: "9.00"
         - content: ""
@@ -145,8 +145,8 @@ content:
         - content: " "
         - content: " "
         - content: "Networking lunch (Foyer NOI Seminar Area)"
-        - content: " "
-        - content: " "
+        #- content: " "
+        #- content: " "
  
     
   btn_down_link: "https://pretalx.com/open-data-hub-day-2024/cfp"
