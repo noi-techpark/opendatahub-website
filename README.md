@@ -61,6 +61,7 @@ To start a local webserver that serves the project, simply run the following com
 ```bash
 hugo server -s src
 ```
+
 The website will be available at [http://127.0.0.1:1313](http://127.0.0.1:1313). It also recompiles automatically if you make any change to the source code.
 
 ## Docker environment
@@ -114,19 +115,19 @@ short: # Information for the list entry under /use-cases
   weight: 2 # Position of the entry in the list (lower number -> higher on list)
   partial: text-imgs-icon.html # The partial this entry will be rendered with
   # Here the necessary fields for the partial like:
-  # title: 
-  # subtitle: 
+  # title:
+  # subtitle:
   # ...
 
 start: # The title of the individual use-case page
   partial: title-cta.html # The partial this entry will be rendered with
   # Here the necessary fields for the partial like:
-  # title: 
-  # subtitle: 
+  # title:
+  # subtitle:
   # ...
 
 paragraphs: # The paragraphs of the individual use-case page
-    # The first paragraph
+  # The first paragraph
   - partial: imgs-text.html # The partial this entry will be rendered with
     # Here the necessary fields for the partial like:
     # description:
@@ -159,13 +160,13 @@ location: "Location name"
 btn_link: link to the event website
 btn_label: label of the button
 ---
-
 Short description of the event with markdown syntax
 ```
 
 #### **Complex events with Programm page:**
 
 To add a new event page that includes more info you have to do the following steps:
+
 - Create the event box as explained in [Simple Events that link outside](#simple-events-that-link-outside)
 - Create a folder with the name of the event in the folder `/src/content/events` (you can use existing event pages such as odhday23 or mentorfinalevent as reference)
 - Create a `_index.md` file within the folder
@@ -230,7 +231,7 @@ sections:
 
 ## Add Web Components
 
-Adding Web Components **from the Web Component store** to the layout of a page is simple. 
+Adding Web Components **from the Web Component store** to the layout of a page is simple.
 
 1. Add the Web Component data to the project configuration under `/src/config`. The `_default/config.yml` file contians general information about the project. It is used during local development. Locate the `web_components` array and add your Web Component:
 
@@ -249,12 +250,13 @@ web_components:
 
 2. Now add the same information to `/src/config/testing/params.yml`. Fields specified in this file overwrite fields of the same name of the `params` object in `_default.yml` on testingmachine deploys.
 
-3. Now add information for the **production version** of the Web Component to `/src/config/production/params.yml`. Fields specified in this file overwrite fields of the same name of the `params` object in `_default.yml` on production deploys. **NOTE: the uuid for a Web Component on the store is diffrent for testingmachine and production deploys.**
+3. Now add information for the **production version** of the Web Component to `/src/config/production/params.yml`. Fields specified in this file overwrite fields of the same name of the `params` object in `_default.yml` on production deploys. **NOTE: the uuid for a Web Component on the store is different for testingmachine and production deploys.**
 
 4. Locate the html file you want to place your Web Component in and call the web-component.html partial:
 
 ```html
-{{ partial "web-component.html" site.Params.web_components.example_web_component }}
+{{ partial "web-component.html" site.Params.web_components.example_web_component
+}}
 ```
 
 5. If you want automatic spacing around the Web Component:
@@ -262,7 +264,8 @@ web_components:
 ```html
 <section>
   <div class="container">
-    {{ partial "web-component.html" site.Params.web_components.example_web_component }}
+    {{ partial "web-component.html"
+    site.Params.web_components.example_web_component }}
   </div>
 </section>
 ```
@@ -272,7 +275,10 @@ On local development and on testingmachine deploys this Web Component would rend
 ```html
 <section>
   <div class="container">
-    <example-web-component example-attribute="example attribute value" boolean-attribute></example-web-component>
+    <example-web-component
+      example-attribute="example attribute value"
+      boolean-attribute
+    ></example-web-component>
     <script src="https://webcomponents.opendatahub.testingmachine.eu/dist/8c81bdea-17d9-4b0a-8d0b-7c760c53169e/example-web-component.min.js"></script>
   </div>
 </section>
@@ -318,10 +324,13 @@ This project is [REUSE](https://reuse.software) compliant, more information abou
 Since the CI for this project checks for REUSE compliance you might find it useful to use a pre-commit hook checking for REUSE compliance locally. The [pre-commit-config](.pre-commit-config.yaml) file in the repository root is already configured to check for REUSE compliance with help of the [pre-commit](https://pre-commit.com) tool.
 
 Install the tool by running:
+
 ```bash
 pip install pre-commit
 ```
+
 Then install the pre-commit hook via the config file by running:
+
 ```bash
 pre-commit install
 ```
