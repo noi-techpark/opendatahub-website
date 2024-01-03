@@ -95,6 +95,9 @@ params:
           - text: Web Components
             URL: https://webcomponents.opendatahub.com/
             target_blank: true
+          - text: Access with R
+            URL: https://github.com/noi-techpark/it.bz.opendatahub.analytics.libs/tree/main/api/R
+            target_blank: true
       - title: Community
         title_URL: /community
         rows:
