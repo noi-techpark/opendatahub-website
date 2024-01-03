@@ -8,7 +8,7 @@ data_access:
   description: "Mobility, Tourism, Traffic or Weather data? We provide all of them. Do you want to build the next car parking app? Or do you prefer to predict when hail will impact plantations? Doesn't matter what you want to build, **we have real data you could use.**"
   btn_link: "/services/data-access"
   btn_label: See details
-  img_back: "/img/ODH-home-data-access.jpg"
+  img_back: "/img/ODH-home-data-access.webp"
   img_front: "/icon/download.svg"
 
 data_sharing:
