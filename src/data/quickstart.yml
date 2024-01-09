@@ -51,8 +51,8 @@ boxes:
     subtitle: A GTFS end-point within the Open Data Hub in some datasets.
     btn_link: https://gtfs.api.opendatahub.com/v1/dataset
 
-  - title: Access with R
-    subtitle: Access BZ Analytics data with the R library bzar.
+  - title: Access Open Data Hub data from R
+    subtitle: bzar provides access to Open Data Hub time-series data from within R.
     btn_link: https://github.com/noi-techpark/it.bz.opendatahub.analytics.libs/tree/main/api/R
 
   # - title: Knowledge Graph
