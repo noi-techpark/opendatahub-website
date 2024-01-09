@@ -48,7 +48,7 @@ content:
         #- videoLink: "https://vimeo.com/showcase/9563553/video/715097586"
     - cols:
         - content: "12.30 - 13.30"
-        - content: "Lunch breake"
+        - content: "Lunch break"
         #- slidesLink: "https://cloud.opendatahub.com/index.php/s/GFMoJJat538WZkd"
         #- videoLink: "https://vimeo.com/showcase/9563553/video/715097586"
     - cols:

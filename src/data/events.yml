@@ -7,7 +7,7 @@ events:
   - title: Open Data Hub Day 2024
     subtitle: A best practice event to help you understand and make the most of the world of data, now in its third edition.
     img: /img/events/odhday-generic.jpg
-    day: "2024-05-17"
+    day: "2024-05-22"
     time: "09:00 - 13:00"
     location: "NOI Techpark"
     btn_link: /events/odhday24
@@ -16,8 +16,8 @@ events:
   - title: Open Data Hub Bootcamp 2024
     subtitle: Explore the unlimited possibilities of Open Data Hub in a cooperative, fun way, sharing knowledge, experience - and inspiration!
     img: /img/events/odhdaybootcamp-generic.png
-    day: "2024-05-17"
-    time: "13:00 - 18:30"
+    day: "2024-04-19"
+    time: "9:00 - 18:00"
     location: "NOI Techpark"
     btn_link: /events/bootcamp24
     btn_label: More info & Registration
