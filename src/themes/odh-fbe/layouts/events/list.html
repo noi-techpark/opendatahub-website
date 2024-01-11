@@ -14,7 +14,7 @@
 	<div class="container mt-2">
 		<div class="row gy-4" id="upcoming-events">
 			{{ range sort site.Data.events.events ".day" "asc" }}
-				{{ if ge (time .day).Unix now.Unix }}
+				{{ if ge ((time .day).AddDate 0 0 1).Unix now.Unix }}
 					{{ partial "event-box.html" (dict "data" . "darker" false )}}
 				{{ end }}
 			{{ end }}
@@ -28,14 +28,12 @@
 	<div class="container mt-2">
 		<div class="row gy-4" id="past-events">
 			{{ range sort site.Data.events.events ".day" "desc"}}
-				{{ if lt (time .day).Unix now.Unix }}
+				{{ if lt ((time .day).AddDate 0 0 1).Unix now.Unix }}
 					{{ partial "event-box.html" (dict "data" . "darker" true )}}
 				{{ end }}
 			{{ end }}
 		</div>
 	</div>
 </section>
-
-<script src="/js/events-sort.js"></script>
 
 {{ end }}
