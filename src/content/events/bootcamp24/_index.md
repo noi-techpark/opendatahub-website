@@ -17,9 +17,9 @@ program:
 
 content:
   title: More info
-  btn_top_link: "https://cloud.opendatahub.com/index.php/s/pntKKm4BwN2BjsX"
-  btn_top_label: "Challenges overview"
-  btn_top_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
+  # btn_top_link: "https://cloud.opendatahub.com/index.php/s/pntKKm4BwN2BjsX"
+  # btn_top_label: "Challenges overview"
+  # btn_top_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
   header:
     - title: 

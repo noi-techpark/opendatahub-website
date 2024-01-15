@@ -17,9 +17,9 @@ program:
 
 content:
   title: Call4Speakers
-  btn_top_link: "https://pretalx.com/open-data-hub-day-2024/cfp"
-  btn_top_label: "Call 4 Speakers"
-  btn_top_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
+  # btn_top_link: "https://pretalx.com/open-data-hub-day-2024/cfp"
+  # btn_top_label: "Call 4 Speakers"
+  # btn_top_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
   header:
     - title: 
@@ -149,9 +149,9 @@ content:
         #- content: " "
  
     
-  btn_down_link: "https://pretalx.com/open-data-hub-day-2024/cfp"
-  btn_down_label: "Call 4 Speakers"
-  btn_down_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
+  # btn_down_link: "https://pretalx.com/open-data-hub-day-2024/cfp"
+  # btn_down_label: "Call 4 Speakers"
+  # btn_down_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
 #  headerPR:
 #    - title: Open Data Hub Press release 2023
