@@ -4,10 +4,14 @@
 	SPDX-License-Identifier: AGPL-3.0-or-later
 */}}
 
+
+
 {{ define "main" }}
 
 {{ partial "title.html" .Params }}
 
+<div class="grid-container" style="display: grid !important; grid-template-columns: 80% 1fr !important; grid-column-gap: 4rem !important;">
+<div>
 <a id="sm-tag-upcoming-events"></a>
 <section class="bg-darker pb-4">
 	{{ partial "title-section.html" .Params.upcoming }}
@@ -37,5 +41,14 @@
 </section>
 
 <script src="/js/events-sort.js"></script>
+</div>
+
+<div>
+	{{ partial "sidebar-event.html" .}}
+</div>
+</div>
 
 {{ end }}
+
+
+
