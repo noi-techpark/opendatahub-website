@@ -46,58 +46,58 @@ content:
         - content: "9.00"
         - content: ""
         - content: ""
-        - content: ""
+        - content: "Talks and sessions"
         #- slidesLink: 
         #- videoLink: 
-    - cols:
-        - content: "9.15"
-        - content: ""
-        - content: ""
-        - content: ""
-        #- slidesLink: 
-        #- videoLink:
-    - cols:
-        - content: "9.30"
-        - content: ""
-        - content: ""
-        - content: ""
-        #- slidesLink: 
-        #- videoLink:
-    - cols:
-        - content: "9.45"
-        - content: ""
-        - content: ""
-        - content: ""
-        #- slidesLink: 
-        #- videoLink:
-    - cols:
-        - content: "10.00"
-        - content: ""
-        - content: ""
-        - content: ""
-        #- slidesLink: 
-        #- videoLink:
-    - cols:
-        - content: "10.15"
-        - content: ""
-        - content: ""
-        - content: ""
-        #- slidesLink: 
-        #- videoLink:
-    - cols:
-        - content: "10.30"
-        - content: ""
-        - content: ""
-        - content: ""
-        #- slidesLink: 
-        #- videoLink:
-    - cols:
-        - content: "10.45"
-        - content: ""
-        - content: ""
-        - content: ""
-        #- slidesLink: 
-        #- videoLink:
+    # - cols:
+    #     - content: "9.15"
+    #     - content: ""
+    #     - content: ""
+    #     - content: ""
+    #     #- slidesLink: 
+    #     #- videoLink:
+    # - cols:
+    #     - content: "9.30"
+    #     - content: ""
+    #     - content: ""
+    #     - content: ""
+    #     #- slidesLink: 
+    #     #- videoLink:
+    # - cols:
+    #     - content: "9.45"
+    #     - content: ""
+    #     - content: ""
+    #     - content: ""
+    #     #- slidesLink: 
+    #     #- videoLink:
+    # - cols:
+    #     - content: "10.00"
+    #     - content: ""
+    #     - content: ""
+    #     - content: ""
+    #     #- slidesLink: 
+    #     #- videoLink:
+    # - cols:
+    #     - content: "10.15"
+    #     - content: ""
+    #     - content: ""
+    #     - content: ""
+    #     #- slidesLink: 
+    #     #- videoLink:
+    # - cols:
+    #     - content: "10.30"
+    #     - content: ""
+    #     - content: ""
+    #     - content: ""
+    #     #- slidesLink: 
+    #     #- videoLink:
+    # - cols:
+    #     - content: "10.45"
+    #     - content: ""
+    #     - content: ""
+    #     - content: ""
+    #     #- slidesLink: 
+    #     #- videoLink:
     - cols:
         - content: "11.00"
         - content: " "
@@ -109,37 +109,37 @@ content:
         - content: "11.30"
         - content: ""
         - content: ""
-        - content: ""
+        - content: "Talk and sessions"
         #- slidesLink: 
         #- videoLink:
-    - cols:
-        - content: "11.45"
-        - content: ""
-        - content: ""
-        - content: ""
-        #- slidesLink: 
-        #- videoLink:
-    - cols:
-        - content: "12.00"
-        - content: ""
-        - content: ""
-        - content: ""
-        #- slidesLink: 
-        #- videoLink:
-    - cols:
-        - content: "12.15"
-        - content: ""
-        - content: ""
-        - content: ""
-        #- slidesLink: 
-        #- videoLink:
-    - cols:
-        - content: "12.30"
-        - content: ""
-        - content: ""
-        - content: ""
-        #- slidesLink: 
-        #- videoLink:
+    # - cols:
+    #     - content: "11.45"
+    #     - content: ""
+    #     - content: ""
+    #     - content: ""
+    #     #- slidesLink: 
+    #     #- videoLink:
+    # - cols:
+    #     - content: "12.00"
+    #     - content: ""
+    #     - content: ""
+    #     - content: ""
+    #     #- slidesLink: 
+    #     #- videoLink:
+    # - cols:
+    #     - content: "12.15"
+    #     - content: ""
+    #     - content: ""
+    #     - content: ""
+    #     #- slidesLink: 
+    #     #- videoLink:
+    # - cols:
+    #     - content: "12.30"
+    #     - content: ""
+    #     - content: ""
+    #     - content: ""
+    #     #- slidesLink: 
+    #     #- videoLink:
     - cols:
         - content: "12.45"
         - content: " "
@@ -149,8 +149,8 @@ content:
         #- content: " "
  
     
-  btn_down_link: "https://pretalx.com/open-data-hub-day-2024/cfp"
-  btn_down_label: "Call 4 Speakers"
+  btn_down_link: "https://pretix.eu/noi-digital/open-data-hub-day-24/"
+  btn_down_label: "Registration"
   btn_down_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
 #  headerPR:
