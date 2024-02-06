@@ -17,9 +17,9 @@ program:
 
 content:
   title: More info
-  # btn_top_link: "https://cloud.opendatahub.com/index.php/s/pntKKm4BwN2BjsX"
-  # btn_top_label: "Challenges overview"
-  # btn_top_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
+  btn_top_link: "https://pretix.eu/noi-digital/bootcamp24/"
+  btn_top_label: "Registration"
+  btn_top_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Bootcamp']);"
 
   header:
     - title: 
@@ -32,12 +32,12 @@ content:
         - content: "8.30 - 9.00"
         - content: "Registration/check-in"
     - cols:
-        - content: "9.00 - 9.15"
+        - content: "9.00 - 9.30"
         - content: Challenge presentation
         - #slidesLink: "https://cloud.opendatahub.com/index.php/s/CgCbK2eGZexxiBA"
         - #videoLink: "https://vimeo.com/showcase/9563553/video/715097183"
     - cols:
-        - content: "9.15 - 9.30"
+        - content: "9.30 - 10.00"
         - content: Presentation round & team building
         #- slidesLink: "https://cloud.opendatahub.com/index.php/s/awHA7adeY7MNRpP"
         #- videoLink: "https://vimeo.com/showcase/9563553/video/715100887"
