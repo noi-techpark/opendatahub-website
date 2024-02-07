@@ -2,7 +2,6 @@
 position: "Use Cases"
 aliases:
   - "/use-cases/ontopic"
-  - "/use-cases-ontopic"
 use_case_tags:
   - "mobility"
   - "traffic"
