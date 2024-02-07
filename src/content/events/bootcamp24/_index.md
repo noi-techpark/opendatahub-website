@@ -42,7 +42,7 @@ content:
         #- slidesLink: "https://cloud.opendatahub.com/index.php/s/awHA7adeY7MNRpP"
         #- videoLink: "https://vimeo.com/showcase/9563553/video/715100887"
     - cols:
-        - content: "9.30 - 12.30"
+        - content: "10.00 - 12.30"
         - content: "Development"
         #- slidesLink: "https://cloud.opendatahub.com/index.php/s/GFMoJJat538WZkd"
         #- videoLink: "https://vimeo.com/showcase/9563553/video/715097586"
