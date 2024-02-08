@@ -476,7 +476,7 @@ footer .w-fit {
 
 .grid-container {
   display: grid !important;
-  grid-template-columns: 80% 1fr !important;
+  grid-template-columns: 80% 1fr;
   grid-column-gap: 1rem !important;
 }
 
@@ -486,10 +486,19 @@ footer .w-fit {
   top: 50%;
   transform: translateY(-50%);
   margin-right: 20px;
+  background: #f5f5f5;
 }
 
 @media (max-width: 760px) {
   .grid-container{
     grid-template-columns: 100%;
   }
+  .sidebar{
+    background: #ffffff;
+    border-radius: 0px;
+    position: static;
+    top: 0;
+    transform: translateY(0);
+  }
+  
 }
