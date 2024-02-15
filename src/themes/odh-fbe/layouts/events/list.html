@@ -1,39 +1,36 @@
 {{/*
-	SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
 
 	SPDX-License-Identifier: AGPL-3.0-or-later
-*/}}
+	*/}}
 
-{{ define "main" }}
+	{{ define "main" }}
 
-{{ partial "title.html" .Params }}
+	{{ partial "title.html" .Params }}
 
-<a id="sm-tag-upcoming-events"></a>
-<section class="bg-darker pb-4">
-	{{ partial "title-section.html" .Params.upcoming }}
-	<div class="container mt-2">
-		<div class="row gy-4" id="upcoming-events">
-			{{ range sort site.Data.events.events ".day" "asc" }}
-				{{ if ge ((time .day).AddDate 0 0 1).Unix now.Unix }}
-					{{ partial "event-box.html" (dict "data" . "darker" false )}}
+	<a id="sm-tag-upcoming-events"></a>
+	<section class="bg-darker pb-4">
+		{{ partial "title-section.html" .Params.upcoming }}
+		<div class="container mt-2">
+			<div class="row gy-4" id="upcoming-events">
+				{{ range sort site.Data.events.events ".day" "asc" }}
+				{{ partial "event-box.html" (dict "data" . "darker" false )}}
 				{{ end }}
-			{{ end }}
+			</div>
 		</div>
-	</div>
-</section>
+	</section>
 
-<a id="sm-tag-past-events"></a>
-<section class="pb-4">
-	{{ partial "title-section.html" .Params.past }}
-	<div class="container mt-2">
-		<div class="row gy-4" id="past-events">
-			{{ range sort site.Data.events.events ".day" "desc"}}
-				{{ if lt ((time .day).AddDate 0 0 1).Unix now.Unix }}
-					{{ partial "event-box.html" (dict "data" . "darker" true )}}
-				{{ end }}
-			{{ end }}
+	<a id="sm-tag-past-events"></a>
+	<section class="pb-4">
+		{{ partial "title-section.html" .Params.past }}
+		<div class="container mt-2">
+			<div class="row gy-4" id="past-events">
+				<!-- Empty container, gets filled by events-filter.js -->
+			</div>
 		</div>
-	</div>
-</section>
+	</section>
 
-{{ end }}
+
+	<script src="/js/events-filter.js"></script>
+
+	{{ end }}
