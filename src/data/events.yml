@@ -37,8 +37,8 @@ events:
     day: "2024-02-08"
     time: "18:30 - 20:00"
     location: "NOI Techpark"
-    btn_link: https://pretix.eu/noi-digital/sdt24/3996195/
-    btn_label: Registration
+    btn_link: /events/sdt20240208
+    btn_label: More info
 
   - title: Software Developers' Thursday 2024 | January
     subtitle: Open Data Hub | Design Challenges in the context of the Open Data Hub
@@ -47,7 +47,7 @@ events:
     time: "18:30 - 20:00"
     location: "NOI Techpark"
     btn_link: https://pretix.eu/noi-digital/sdt24/3996194/
-    btn_label: Registration
+    btn_label: More info
 
   - title: South Tyrol Free Software Conference - 2023
     subtitle: The SFSCON is one of Europe’s most established annual conferences on Free Software in digital infrastructures as a tool to achieve greater innovation and competitiveness.
