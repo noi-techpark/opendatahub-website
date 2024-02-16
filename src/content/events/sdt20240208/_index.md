@@ -7,9 +7,9 @@ aliases:
   - "/sdt20240208"
 
 title: "Software Developers' Thursday"
-subtitle: "Welcome to the february 2024 edition of the **Software Developers' Thursday**! This event is a monthly meetup of the South Tyrolean developers community, to discuss about innovative software solutions and technnologies. 
-<br>
- This time the focus was on the technologies used to develop the new Open Data Hub AI based chatbot, that the Open Data Hub customer care team uses to improve and speedup the ticket elaboration."
+subtitle: "Welcome to the February 2024 edition of Software Developers' Thursday! <br>
+This event is a monthly gathering of the South Tyrolean developer community to discuss innovative software solutions and technologies. <br>
+This time, the focus is on the technologies used to develop the new Open Data Hub AI-based chatbot, which the Open Data Hub Customer Care team is using to improve and speed up ticket processing."
 
 program:
   title: "Open Data Hub Customer Care AI Chatbot"
