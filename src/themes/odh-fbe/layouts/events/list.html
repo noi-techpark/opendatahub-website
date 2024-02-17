@@ -21,7 +21,7 @@
 		aria-expanded="true"
 		aria-controls="upcoming-events-section"
 		class="d-inline video-section-title" >
-		Upcoming events
+		{{ .Params.upcoming.title | markdownify}}
 		<i class="fa fa-caret-up ms-1" aria-hidden="true"></i>
 	</h3>
 </div>
@@ -54,7 +54,7 @@
 		aria-expanded="false"
 		aria-controls="past-events-section" 
 		class="d-inline video-section-title">
-		Past events
+		{{ .Params.past.title | markdownify}}
 		<i class="fa fa-caret-up ms-1" aria-hidden="true"></i>
 	</h3>
 </div>
