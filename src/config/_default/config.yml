@@ -215,6 +215,11 @@ menu:
       weight: 2
 
     - parent: events
+      name: Recurring events
+      URL: /events/#sm-tag-recurring-events
+      weight: 3
+
+    - parent: events
       name: Video Library
       URL: /events/video-library
-      weight: 3
+      weight: 4
