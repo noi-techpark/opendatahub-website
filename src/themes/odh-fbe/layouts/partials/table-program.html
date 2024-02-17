@@ -25,10 +25,12 @@
             {{ if isset . "content" }}
               <td>{{ .content | safeHTML}}</td>
             {{end}} {{ if isset . "slidesLink" }}
-              <td><a href="{{.slidesLink}}" class="btn btn-primary d-flex gap-1 me-3">Slides</a></td>
+            <td><a href="{{.slidesLink}}" class="btn btn-primary d-flex gap-1 ms-3">Slides</a></td>
             {{end}} {{ if isset . "videoLink" }}
               <td><a href="{{.videoLink}}" class="btn btn-primary d-flex gap-1 ms-3">Video</a></td>
-            {{end}}
+            {{end}} {{ if isset . "repositoryLink" }}
+            <td><a href="{{.repositoryLink}}" class="btn btn-primary d-flex gap-1 ms-3">Repository</a></td>
+          {{end}}
           {{ end }}
         </tr>
         {{ end }}

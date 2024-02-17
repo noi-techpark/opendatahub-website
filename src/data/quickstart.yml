@@ -5,7 +5,7 @@
 boxes:
   - title: Data Browser 2.0
     subtitle: Browse and discover the available data.
-    btn_link: https://v2-beta.databrowser.opendatahub.com
+    btn_link: https://databrowser.opendatahub.com
 
   - title: Analytics Tool
     subtitle: Find out information about sensors and their locations and measure (near-real time data).
@@ -50,6 +50,10 @@ boxes:
   - title: GTFS Endpoint
     subtitle: A GTFS end-point within the Open Data Hub in some datasets.
     btn_link: https://gtfs.api.opendatahub.com/v1/dataset
+
+  - title: Access Open Data Hub data from R
+    subtitle: bzar provides access to Open Data Hub time-series data from within R.
+    btn_link: https://github.com/noi-techpark/it.bz.opendatahub.analytics.libs/tree/main/api/R
 
   # - title: Knowledge Graph
   #   subtitle: Access the browseable Knowledge Graph: data is presented as Linked Data.

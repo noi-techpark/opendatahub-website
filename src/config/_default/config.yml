@@ -87,13 +87,16 @@ params:
           - text: Datasets
             URL: /datasets
           - text: Data Browser
-            URL: https://v2-beta.databrowser.opendatahub.com/
+            URL: https://databrowser.opendatahub.com/
             target_blank: true
           - text: Analytics Tool
             URL: https://analytics.opendatahub.com/
             target_blank: true
           - text: Web Components
             URL: https://webcomponents.opendatahub.com/
+            target_blank: true
+          - text: Access Open Data Hub data from R
+            URL: https://github.com/noi-techpark/it.bz.opendatahub.analytics.libs/tree/main/api/R
             target_blank: true
       - title: Community
         title_URL: /community
@@ -120,7 +123,7 @@ params:
           URL: https://www.facebook.com/opendatahub/
 
     # add to copyright once exists: <a class="text-decoration-underline">Imprint</a>
-    copyright: '@Open Data Hub | <a class="text-decoration-underline" href="https://noi.bz.it/en/privacy-cookie-policy" target="_blank">Privacy</a> | <a class="text-decoration-underline" onclick="window.cc.showSettings()">Cookies</a>'
+    copyright: '@Open Data Hub | <a class="text-decoration-underline" href="https://noi.bz.it/en/privacy-cookie-policy" target="_blank">Privacy</a> | <a class="text-decoration-underline" onclick="javascript:window.cc.showSettings()">Cookies</a>'
 
 taxonomies:
   use_case_tag: use_case_tags

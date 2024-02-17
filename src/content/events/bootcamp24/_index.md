@@ -4,22 +4,22 @@ content_partial: table-program
 position: "Events"
 url: "/events/bootcamp24"
 aliases:
-  # - "/events/bootcamp"
-  # - "/bootcamp"
+  - "/events/bootcamp"
+  - "/bootcamp"
   - "/bootcamp24"
 
 title: "Open Data Hub Bootcamp 2024"
-subtitle: "Welcome to the second **Open Data Hub Bootcamp**! This event will be an initiative organized by the Open Data Hub team in collaborazion with the faculty of Computer Science of the Free University of Bolzano, to provide an opportunity for the Open Data Hub **community**, the students and anyone who wants to join, to develop or enhance the Open Data Hub together with the Open Data Hub core team following the latest trend of learning by doing. Whether you are a _developer, creator, designer, data expert, entrepreneur, tech geek or just someone who loves coding_, we encourage you to get involved in the next editions of the event!"
+subtitle: "Welcome to the second edition of the **Open Data Hub Bootcamp**! This event is an initiative of the Open Data Hub team, in collaboration with the Faculty of Computer Science of the Free University of Bozen-Bolzano, to give the Open Data Hub **community**, the students and anyone who wants to join,the opportunity to develop or improve the Open Data Hub together with the Open Data Hub core team following the latest trend of learning by doing. Whether you are a developer, creator, designer, data expert, entrepreneur, tech geek or just someone who loves coding, we encourage you to get involved in the next editions of the event!"
 
 program:
   title: "Open Data Hub Bootcamp 2024 - Schedule"
-  subtitle: " It will take place on **April 19th** at NOI Techpark in Bolzano/Bozen, Italy. Participants will work in teams during one day, collaborating, communicating, learning from each other, and sharing best practice methodologies. The focus will be on solving real-world business challenges, with three teams collaborating throughout the program. The event will be held in English. Participation will be free of charge."
+  subtitle: "The event will take place on **April 19th** at NOI Techpark in Bolzano/Bozen, Italy. Participants will work in teams collaborating, communicating, learning from each other and sharing best practices. The focus will be on solving real business challenges by working together throughout the programme. The event will be held in English. Participation is free of charge."
 
 content:
   title: More info
-  btn_top_link: "https://cloud.opendatahub.com/index.php/s/pntKKm4BwN2BjsX"
-  btn_top_label: "Challenges overview"
-  btn_top_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
+  btn_top_link: "https://pretix.eu/noi-digital/bootcamp24/"
+  btn_top_label: "Registration"
+  btn_top_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Bootcamp']);"
 
   header:
     - title: 
@@ -32,23 +32,23 @@ content:
         - content: "8.30 - 9.00"
         - content: "Registration/check-in"
     - cols:
-        - content: "9.00 - 9.15"
+        - content: "9.00 - 9.30"
         - content: Challenge presentation
         - #slidesLink: "https://cloud.opendatahub.com/index.php/s/CgCbK2eGZexxiBA"
         - #videoLink: "https://vimeo.com/showcase/9563553/video/715097183"
     - cols:
-        - content: "9.15 - 9.30"
+        - content: "9.30 - 10.00"
         - content: Presentation round & team building
         #- slidesLink: "https://cloud.opendatahub.com/index.php/s/awHA7adeY7MNRpP"
         #- videoLink: "https://vimeo.com/showcase/9563553/video/715100887"
     - cols:
-        - content: "9.30 - 12.30"
+        - content: "10.00 - 12.30"
         - content: "Development"
         #- slidesLink: "https://cloud.opendatahub.com/index.php/s/GFMoJJat538WZkd"
         #- videoLink: "https://vimeo.com/showcase/9563553/video/715097586"
     - cols:
         - content: "12.30 - 13.30"
-        - content: "Lunch breake"
+        - content: "Lunch break"
         #- slidesLink: "https://cloud.opendatahub.com/index.php/s/GFMoJJat538WZkd"
         #- videoLink: "https://vimeo.com/showcase/9563553/video/715097586"
     - cols:
