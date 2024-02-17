@@ -10,11 +10,11 @@
 
 {{ partial "title.html" .Params }}
 
-
+<div class="container">
 <div class="grid-container">
 <div>
 <a id="sm-tag-upcoming-events"></a>
-<div class="p-2" >
+<div>
 	<h3 type="button" 
 		data-bs-toggle="collapse"
 		data-bs-target="#upcoming-events-section" 
@@ -46,7 +46,7 @@
 </div>
 
 <a id="sm-tag-past-events"></a>
-<div class="p-2">
+<div>
 	<h3 
 		type="button" 
 		data-bs-toggle="collapse" 
@@ -84,7 +84,7 @@
 	{{ partial "sidebar-event.html" .}}
 </div>
 </div>
-
+</div>
 {{ end }}
 
 
