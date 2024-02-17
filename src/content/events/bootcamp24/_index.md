@@ -22,9 +22,9 @@ content:
   btn_top_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Bootcamp']);"
 
   header:
-    - title: 
+    - title:
       width: 20%
-    - title: 
+    - title:
       width: 80%
 
   row:
@@ -34,8 +34,8 @@ content:
     - cols:
         - content: "9.00 - 9.30"
         - content: Challenge presentation
-        - #slidesLink: "https://cloud.opendatahub.com/index.php/s/CgCbK2eGZexxiBA"
-        - #videoLink: "https://vimeo.com/showcase/9563553/video/715097183"
+        -  #slidesLink: "https://cloud.opendatahub.com/index.php/s/CgCbK2eGZexxiBA"
+        -  #videoLink: "https://vimeo.com/showcase/9563553/video/715097183"
     - cols:
         - content: "9.30 - 10.00"
         - content: Presentation round & team building
