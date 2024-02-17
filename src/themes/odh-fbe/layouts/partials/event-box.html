@@ -5,7 +5,7 @@
 */}}
 <div class="col-lg-6 event-box">
   <a target="_blank" href="{{ .data.btn_link }}">
-    <div class="h-100 d-flex flex-column {{ if .darker }}bg-darker{{ else }}bg-white{{ end }} event-card">
+    <div class="h-100 d-flex flex-column {{ if .border }}bg-border{{ else }}bg-white{{ end }} event-card">
       <div class="ratio ratio-21x9 w-100">
         <img class="p-2 p-md-3 p-lg-4 p-xl-5 object-fit-cover" src="{{ .data.img }}" alt="event-image" />
       </div>
