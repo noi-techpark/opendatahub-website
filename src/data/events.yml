@@ -1,15 +1,6 @@
 # SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
 #
 # SPDX-License-Identifier: CC0-1.0
-recurring_events:
-  - title: Monthly
-    img: /img/Event_Page_Button_SDT.png
-    btn_link: https://pretix.eu/noi-digital/sdt24/3996195/
-
-  - title: May
-    img: /img/Event_Page_Button_ODH DAY.png
-    btn_link: https://noi.bz.it/it/eventi/open-data-hub-day/9ed80d35-e09a-45d9-a18e-910345758ef4
-
 events:
   - title: Open Data Hub Day 2024
     subtitle: A best practice event to help you understand and make the most of the world of data, now in its third edition.
