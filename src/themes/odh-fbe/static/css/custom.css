@@ -233,8 +233,8 @@ footer .w-fit {
 
 .bg-border{
   background-color: #ffffff;
-  border: 2px solid #dad9d9;
-  border-radius: 25px;
+  border: 1px solid #dad9d9;
+  border-radius: 5px;
 }
 
 
@@ -488,7 +488,7 @@ footer .w-fit {
 }
 
 .sidebar {
-  border-radius: 25px;
+  border-radius: 5px;
   position: sticky;
   top: 50%;
   transform: translateY(-25%);
