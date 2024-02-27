@@ -6,7 +6,7 @@ SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
     
 
 <section class=" mt-1 sidebar container">
-    <h2>{{ .Params.recurring.title}}</h2>
+    <h2>{{ .Params.recurring.title | markdownify}}</h2>
         <div class="col-12">
             <p class="fw-semibold fs-5 lh-base">{{ .Params.recurring.subtitle | markdownify}}</p>
         </div>

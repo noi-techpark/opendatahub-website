@@ -14,17 +14,17 @@ SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
 <div class="grid-container">
 <div>
 <a id="sm-tag-upcoming-events"></a>
-<div>
+<section class="py-3">
 	<h3 type="button" 
 		data-bs-toggle="collapse"
 		data-bs-target="#upcoming-events-section" 
 		aria-expanded="true"
 		aria-controls="upcoming-events-section"
-		class="d-inline video-section-title" >
+		class="d-inline video-section-title py-3" >
 		{{ .Params.upcoming.title | markdownify}}
 		<i class="fa fa-caret-up ms-1" aria-hidden="true"></i>
 	</h3>
-</div>
+</section>
 
 <div class="videos collapse show" id="upcoming-events-section">
 <section class="pb-4 mt-0" >
@@ -46,18 +46,18 @@ SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
 </div>
 
 <a id="sm-tag-past-events"></a>
-<div>
+<section class="py-3">
 	<h3 
 		type="button" 
 		data-bs-toggle="collapse" 
 		data-bs-target="#past-events-section" 
 		aria-expanded="false"
 		aria-controls="past-events-section" 
-		class="d-inline video-section-title">
+		class="d-inline video-section-title py-3">
 		{{ .Params.past.title | markdownify}}
 		<i class="fa fa-caret-up ms-1" aria-hidden="true"></i>
 	</h3>
-</div>
+</section>
 <div class="videos collapse show" id="past-events-section">
 <section class="pb-4 mt-0">
 	<div class="container">
