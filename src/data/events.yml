@@ -1,9 +1,7 @@
 # SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
 #
 # SPDX-License-Identifier: CC0-1.0
-
 events:
-
   - title: Software Developers' Thursday 2024 | May
     subtitle: AI image generation, the experience of the Open Data Hub project
     img: /img/events/SDT-Generci.png

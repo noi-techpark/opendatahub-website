@@ -1,0 +1,38 @@
+{{/*
+SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+
+    SPDX-License-Identifier: AGPL-3.0-or-later
+    */}}
+    
+
+<section class=" mt-1 sidebar container">
+    <h2>{{ .Params.recurring.title | markdownify}}</h2>
+        <div class="col-12">
+            <p class="fw-semibold fs-5 lh-base">{{ .Params.recurring.subtitle | markdownify}}</p>
+        </div>
+    <div class="row">
+        <p class="fw-semibold fs-6 lh-base mb-0">Monthly</p>
+        <a href="{{ .Params.recurring.sdt_link}}" target="_blank">
+            <img src="{{ .Params.recurring.sdt_img}}" alt="sdt Event" />
+        </a>
+    
+        <p class="fw-semibold fs-6 lh-base mb-0">May</p>
+        <a href="{{ .Params.recurring.odh_link}}" target="_blank">
+            <img src="{{ .Params.recurring.odh_img}}" alt="May Event" />
+        </a>
+    
+        <p class="fw-semibold fs-6 lh-base mb-0">August</p>
+        <a href="{{ .Params.recurring.hack_link}}" target="_blank">
+            <img src="{{ .Params.recurring.hack_img}}" alt="August Event" />
+        </a>
+    
+        <p class="fw-semibold fs-6 lh-base mb-0">November</p>
+        <a href="{{ .Params.recurring.sfscon_link}}" target="_blank">
+            <img src="{{ .Params.recurring.sfscon_img}}" alt="November Event" />
+        </a>
+    
+        <a href="{{ .Params.recurring.hack_link}}" target="_blank">
+            <img src="{{ .Params.recurring.hack_img}}" alt="Hackathon Event" />
+        </a>
+    </div>
+</section>

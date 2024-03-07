@@ -2,35 +2,91 @@
 SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
 
 	SPDX-License-Identifier: AGPL-3.0-or-later
-	*/}}
+*/}}
+
+
 
 	{{ define "main" }}
 
 	{{ partial "title.html" .Params }}
 
-	<a id="sm-tag-upcoming-events"></a>
-	<section class="bg-darker pb-4">
-		{{ partial "title-section.html" .Params.upcoming }}
-		<div class="container mt-2">
-			<div class="row gy-4" id="upcoming-events">
-				{{ range sort site.Data.events.events ".day" "asc" }}
-				{{ partial "event-box.html" (dict "data" . "darker" false )}}
+<div class="container">
+<div class="grid-container">
+<div>
+<a id="sm-tag-upcoming-events"></a>
+<section class="py-3">
+	<h3 type="button" 
+		data-bs-toggle="collapse"
+		data-bs-target="#upcoming-events-section" 
+		aria-expanded="true"
+		aria-controls="upcoming-events-section"
+		class="d-inline video-section-title py-3" >
+		{{ .Params.upcoming.title | markdownify}}
+		<i class="fa fa-caret-up ms-1" aria-hidden="true"></i>
+	</h3>
+</section>
+
+<div class="videos collapse show" id="upcoming-events-section">
+<section class="pb-4 mt-0" >
+	<div class="container">
+		<div class="col-12">
+			<p class="fw-semibold fs-5 lh-base">{{ .Params.upcoming.subtitle | markdownify}}</p>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row gy-4" id="upcoming-events">
+			{{ range sort site.Data.events.events ".day" "asc" }}
+				{{ if ge (time .day).Unix now.Unix }}
+					{{ partial "event-box.html" (dict "data" . "border" true )}}
 				{{ end }}
-			</div>
+			{{ end }}
 		</div>
-	</section>
+	</div>
+</section>
+</div>
 
-	<a id="sm-tag-past-events"></a>
-	<section class="pb-4">
-		{{ partial "title-section.html" .Params.past }}
-		<div class="container mt-2">
-			<div class="row gy-4" id="past-events">
-				<!-- Empty container, gets filled by events-filter.js -->
-			</div>
+<a id="sm-tag-past-events"></a>
+<section class="py-3">
+	<h3 
+		type="button" 
+		data-bs-toggle="collapse" 
+		data-bs-target="#past-events-section" 
+		aria-expanded="false"
+		aria-controls="past-events-section" 
+		class="d-inline video-section-title py-3">
+		{{ .Params.past.title | markdownify}}
+		<i class="fa fa-caret-up ms-1" aria-hidden="true"></i>
+	</h3>
+</section>
+<div class="videos collapse show" id="past-events-section">
+<section class="pb-4 mt-0">
+	<div class="container">
+		<div class="col-12">
+			<p class="fw-semibold fs-5 lh-base">{{ .Params.past.subtitle | markdownify}}</p>
 		</div>
-	</section>
+	</div>
+	<div class="container">
+		<div class="row gy-4" id="past-events">
+			{{ range sort site.Data.events.events ".day" "desc"}}
+				{{ if lt (time .day).Unix now.Unix }}
+					{{ partial "event-box.html" (dict "data" . "border" true )}}
+				{{ end }}
+			{{ end }}
+		</div>
+	</div>
+</section>
+</div>
+
+<script src="/js/events-sort.js"></script>
+</div>
+
+<div>
+	<a id="sm-tag-recurring-events"></a>
+	{{ partial "sidebar-event.html" .}}
+</div>
+</div>
+</div>
+{{ end }}
 
 
-	<script src="/js/events-filter.js"></script>
 
-	{{ end }}

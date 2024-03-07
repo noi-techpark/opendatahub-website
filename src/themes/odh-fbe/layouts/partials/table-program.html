@@ -5,7 +5,11 @@
 */}}
 
 <div class="container">
-  <a href="{{.btn_top_link}}" class="btn btn-primary" onclick="{{ .btn_top_on_click }}">{{ .btn_top_label | markdownify }}</a>
+  {{ if and (.btn_top_label) (.btn_top_link) }}
+  <a href="{{.btn_top_link}}" class="btn btn-primary" onclick="{{ .btn_top_on_click }}">
+    {{ .btn_top_label | markdownify }}
+  </a>
+  {{ end }}
   <div class="table-responsive">
     <table class="table">
       <thead>
