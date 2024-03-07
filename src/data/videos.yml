@@ -14,7 +14,7 @@ sections:
         btn_label: Open Data Hub Day 2023 - Slides
         video: "https://player.vimeo.com/video/830169508"
         target_blank: true
-      
+
       - subtitle: "SkyAlps"
         title: "**SkyAlps Interview**"
         description: "Maximilian Alber"
@@ -66,9 +66,9 @@ sections:
         title: "**Software Developers Thursday - AlpineBits DestinationData Endpoint**"
         description: "Claudenir Fonseca and Tiago Prince Sales"
         video: https://www.youtube.com/embed/yuNPwC3sxow
-  
+
   ################################# Open Data Hub 2023 #########################
-  - title: "**Open Data Hub Day 2023**" 
+  - title: "**Open Data Hub Day 2023**"
     initially_expanded: false
     videos:
       - subtitle: ""
@@ -94,7 +94,7 @@ sections:
         btn_label: Slides
         video: "https://player.vimeo.com/video/829080830"
         target_blank: true
-      
+
       - subtitle: "International Data Spaces Association (IDSA)"
         title: "**A look into the future of data sharing:​ the new paradigm of Data Spaces**"
         description: "Giulia Giussani"
@@ -124,7 +124,7 @@ sections:
         description: "Gianluca Antonacci"
         btn_link: "https://www.slideshare.net/SFScon/open-data-hub-gianluca-antonacci-cisma-from-raw-traffic-data-to-air-pollutant-emission-an-open-data-approach-and-demonstrator"
         btn_label: Slides
-        video: "https://player.vimeo.com/video/829083213" 
+        video: "https://player.vimeo.com/video/829083213"
         target_blank: true
 
       - subtitle: "Arxax"
@@ -132,7 +132,7 @@ sections:
         description: "Elizabeth Mc Namara"
         btn_link: "https://www.slideshare.net/SFScon/open-data-hub-elizabeth-mc-namara-arxax-the-role-of-open-data-hub-in-decarbonising-brenner-pass"
         btn_label: Slides
-        video: "https://player.vimeo.com/video/829083888" 
+        video: "https://player.vimeo.com/video/829083888"
         target_blank: true
 
       - subtitle: "SkyAlps"
@@ -332,7 +332,7 @@ sections:
         description: "Tiago Prince Sales"
         btn_link: "https://cloud.opendatahub.com/index.php/s/Bm9ELFFYKQNGXnF"
         btn_label: Slides
-        video: "https://vimeo.com/manage/videos/638401562" 
+        video: "https://vimeo.com/638401562"
         target_blank: true
 
       - subtitle: "Alperia"
