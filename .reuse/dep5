@@ -7,7 +7,7 @@ Files: .github/* docker/* .gitignore .pre-commit-config.yaml .mailmap CONTRIBUTO
 Copyright: (c) NOI Techpark <digital@noi.bz.it>
 License: CC0-1.0
 
-Files: src/public src/themes/odh-fbe/static/css/style.css.old src/themes/odh-fbe/static/css/style.css.map.old
+Files: src/public src/themes/odh-fbe/static/css/style.css.old src/themes/odh-fbe/static/css/style.css.map.old src/themes/odh-fbe/layouts/sitemap.xml
 Copyright: (c) NOI Techpark <digital@noi.bz.it>
 License: AGPL-3.0-or-later
 

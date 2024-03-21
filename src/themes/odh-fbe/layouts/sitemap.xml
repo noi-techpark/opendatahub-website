@@ -1,16 +1,7 @@
-{{/*
-	SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
-
-	SPDX-License-Identifier: AGPL-3.0-or-later
-*/}}
-
 {{"<?xml version='1.0' encoding='UTF-8'?>" | safeHTML }}
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {{ range .Data.Pages }}
-	  {{ if not .Params.exclude_from_sitemap }}
-	  <url>
-	    <loc>{{ .Permalink }}</loc>
-	  </url>
-	  {{ end }}
-  {{ end }}
+	{{ range .Data.Pages }} {{ if not .Params.exclude_from_sitemap }}
+	<url>
+		<loc>{{ .Permalink }}</loc>
+	</url>{{ end }} {{ end }}
 </urlset>
