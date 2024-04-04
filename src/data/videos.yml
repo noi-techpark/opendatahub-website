@@ -332,7 +332,7 @@ sections:
         description: "Tiago Prince Sales"
         btn_link: "https://cloud.opendatahub.com/index.php/s/Bm9ELFFYKQNGXnF"
         btn_label: Slides
-        video: "https://vimeo.com/638401562"
+        video: "https://player.vimeo.com/video/638401562"
         target_blank: true
 
       - subtitle: "Alperia"
