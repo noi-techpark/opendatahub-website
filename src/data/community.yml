@@ -289,6 +289,10 @@ partnerships:
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/bigDataAlliance.png"
       link: https://bda.matrycs.eu
 
+    - name: Eclipse Foundation
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/eclipse.png"
+      link: https://www.eclipse.org/
+    
     - name: IDSA
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/idsa.png"
       link: https://internationaldataspaces.org
