@@ -29,6 +29,7 @@ data_visualization:
 
 pricing:
   title: Pricing
+  description: "test"
   header:
     - title: UNREGISTERED
       price: (free)

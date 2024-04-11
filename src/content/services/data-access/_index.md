@@ -61,6 +61,16 @@ rows:
     target_blank: true
     bg_darker: true
     partial: imgs-text.html
+    
+  - title: "We’re here to **support you, to find the best way to access our data!**"
+    description: "You will find the way to access data that fits the need of your application, by identifing the best quota limit that fits your needs."
+    btn_link: "https://github.com/noi-techpark/odh-docs/wiki"
+    btn_label: "Quota limint documentation"
+    img_back: "/img/ODH-data-access-support.jpg"
+    img_front: "/img/access-data-8.jpg"
+    target_blank: true
+    bg_darker: false
+    partial: text-imgs.html
 
   - title: "We’re here to **support you, so become a registered data consumer!**"
     description: "You will receive mailing with regular communications, early communication in case of breaking changes of the datasets and direct contact to data providers upon request."
@@ -68,7 +78,7 @@ rows:
     btn_label: "Join the community "
     img_back: "/img/ODH-data-access-support.jpg"
     img_front: "/img/access-data-8.jpg"
-    bg_darker: false
-    partial: text-imgs.html
+    bg_darker: true
+    partial: imgs-text.html
 ---
 
