@@ -64,7 +64,7 @@ rows:
     
   - title: "We’re here to **support you, to find the best way to access our data!**"
     description: "You will find the way to access data that fits the need of your application, by identifing the best quota limit that fits your needs."
-    btn_link: "https://github.com/noi-techpark/odh-docs/wiki"
+    btn_link: "https://github.com/noi-techpark/odh-docs/wiki/Api-Quota"
     btn_label: "Quota limint documentation"
     img_back: "/img/ODH-data-access-support.jpg"
     img_front: "/img/access-data-8.jpg"

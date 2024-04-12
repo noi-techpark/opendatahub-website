@@ -32,18 +32,34 @@ content:
         - content: "8.30 - 9.00"
         - content: "Registration/check-in"
     - cols:
-        - content: "9.00 - 9.30"
-        - content: Challenge presentation
+        - content: "9.00 - 9.15"
+        - content: Welcome
+        -  #slidesLink: "https://cloud.opendatahub.com/index.php/s/CgCbK2eGZexxiBA"
+        -  #videoLink: "https://vimeo.com/showcase/9563553/video/715097183"
+    - cols:
+        - content: "9.15 - 9.30"
+        - content: Development Tips for your Bootcamp Project (unibz)
         -  #slidesLink: "https://cloud.opendatahub.com/index.php/s/CgCbK2eGZexxiBA"
         -  #videoLink: "https://vimeo.com/showcase/9563553/video/715097183"
     - cols:
         - content: "9.30 - 10.00"
+        - content: Open Data Hub introduction, challenge presentation (NOI)
+        -  #slidesLink: "https://cloud.opendatahub.com/index.php/s/CgCbK2eGZexxiBA"
+        -  #videoLink: "https://vimeo.com/showcase/9563553/video/715097183"
+    
+    - cols:
+        - content: "10.00 - 10.30"
         - content: Presentation round & team building
         #- slidesLink: "https://cloud.opendatahub.com/index.php/s/awHA7adeY7MNRpP"
         #- videoLink: "https://vimeo.com/showcase/9563553/video/715100887"
     - cols:
-        - content: "10.00 - 12.30"
+        - content: "10.30 - 12.00"
         - content: "Development"
+        #- slidesLink: "https://cloud.opendatahub.com/index.php/s/GFMoJJat538WZkd"
+        #- videoLink: "https://vimeo.com/showcase/9563553/video/715097586"
+    - cols:
+        - content: "12.00 - 12.30"
+        - content: "First presentation round"
         #- slidesLink: "https://cloud.opendatahub.com/index.php/s/GFMoJJat538WZkd"
         #- videoLink: "https://vimeo.com/showcase/9563553/video/715097586"
     - cols:
