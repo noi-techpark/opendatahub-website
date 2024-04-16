@@ -82,4 +82,8 @@ content:
         - content: "Aperitivo"
         #- slidesLink: "https://cloud.opendatahub.com/index.php/s/cExYZ5DyW23Fswi"
         #- videoLink: "https://vimeo.com/showcase/9563553/video/715098854"
+
+  btn_down_link: "https://cloud.opendatahub.com/index.php/s/mSrMF5DAmmNeZy9"
+  btn_down_label: "Challenge Description"
+  btn_down_on_click: "_paq.push(['trackEvent', 'Challenge Description', 'Click', 'Open Data Hub Bootcamp']);"
 ---

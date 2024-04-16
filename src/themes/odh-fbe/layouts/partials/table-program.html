@@ -41,4 +41,9 @@
       </tbody> 
     </table>
   </div>
+  {{ if and (.btn_down_link) (.btn_down_link) }}
+  <a href="{{.btn_down_link}}" class="btn btn-primary" onclick="{{ .btn_down_on_click}}">
+    {{ .btn_down_label | markdownify }}
+  </a>
+  {{ end }}
 </div>
