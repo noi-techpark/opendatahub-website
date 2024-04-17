@@ -46,7 +46,7 @@ content:
       - content: "9.00"
       - content: ""
       - content: ""
-      - content: "Opening"
+      - content: "Open Data Hub Day - Opening"
       #- slidesLink:
       #- videoLink:
     - cols:
