@@ -49,113 +49,134 @@ content:
         - content: "Talks and sessions"
         #- slidesLink: 
         #- videoLink: 
-    # - cols:
-    #     - content: "9.15"
-    #     - content: ""
-    #     - content: ""
-    #     - content: ""
-    #     #- slidesLink: 
-    #     #- videoLink:
-    # - cols:
-    #     - content: "9.30"
-    #     - content: ""
-    #     - content: ""
-    #     - content: ""
-    #     #- slidesLink: 
-    #     #- videoLink:
-    # - cols:
-    #     - content: "9.45"
-    #     - content: ""
-    #     - content: ""
-    #     - content: ""
-    #     #- slidesLink: 
-    #     #- videoLink:
-    # - cols:
-    #     - content: "10.00"
-    #     - content: ""
-    #     - content: ""
-    #     - content: ""
-    #     #- slidesLink: 
-    #     #- videoLink:
-    # - cols:
-    #     - content: "10.15"
-    #     - content: ""
-    #     - content: ""
-    #     - content: ""
-    #     #- slidesLink: 
-    #     #- videoLink:
-    # - cols:
-    #     - content: "10.30"
-    #     - content: ""
-    #     - content: ""
-    #     - content: ""
-    #     #- slidesLink: 
-    #     #- videoLink:
-    # - cols:
-    #     - content: "10.45"
-    #     - content: ""
-    #     - content: ""
-    #     - content: ""
-    #     #- slidesLink: 
-    #     #- videoLink:
+   - cols:
+        - content: "9.15"
+        - content: "Patrick Ohnewein"
+        - content: "NOI Techpark"
+        - content: "Open Data Hub - updates"
+        #- slidesLink: 
+        #- videoLink:
+    - cols:
+        - content: "9.30"
+        - content: "Gianluigi Marino & Antonio Racano"
+        - content: "Osborne Clarke Studio Legale"
+        - content: "EU Data Act - new rules for access to data in the IoT world"
+        #- slidesLink: 
+        #- videoLink:
+    - cols:
+        - content: "9.45"
+        - content: "Nadia Scandelli"
+        - content: "CEFRIEL"
+        - content: "Data spaces: state of the art and opportunities"
+        #- slidesLink: 
+        #- videoLink:
+    - cols:
+        - content: "10.00"
+        - content: "Michael Schäfer"
+        - content: "Mobility Data Space"
+        - content: "Mobility Data Space presentation"
+        #- slidesLink: 
+        #- videoLink:
+    - cols:
+        - content: "10.15"
+        - content: "Patrick Dejaco"
+        - content: "STA – Strutture Trasporto Alto Adige SpA"
+        - content: "The future of digital mobility in South Tyrol (thanks to the Open Data Hub)"
+        #- slidesLink: 
+        #- videoLink:
+    - cols:
+        - content: "10.30"
+        - content: ""
+        - content: ""
+        - content: "Community Coffee Break (Foyer NOI Seminar Area)"
+        #- slidesLink: 
+        #- videoLink:
     - cols:
         - content: "11.00"
-        - content: " "
-        - content: " "
-        - content: "Community Coffee Break (Foyer NOI Seminar Area)"
-        - content: " "
-        - content: " "
+        - content: "Brigitte Lutz"
+        - content: "City of Vienna"
+        - content: "Cooperation Open Government Data (OGD) D-A-CH-LI"
+        #- slidesLink: 
+        #- videoLink:
+    - cols:
+        - content: "11.15"
+        - content: "Gregor Eibl"
+        - content: "University of Continuing Education Krems"
+        - content: "Open Data in Vienna: A Survey of Companies, Public Schools and an Internal Workshop"
+        #- slidesLink: 
+        #- videoLink:
     - cols:
         - content: "11.30"
-        - content: ""
-        - content: ""
-        - content: "Talk and sessions"
+        - content: "Elmar Premstaller"
+        - content: "Yanovis"
+        - content: "Yanovis Widget with SkyAlps Data from Open Data Hub"
         #- slidesLink: 
         #- videoLink:
-    # - cols:
-    #     - content: "11.45"
-    #     - content: ""
-    #     - content: ""
-    #     - content: ""
-    #     #- slidesLink: 
-    #     #- videoLink:
-    # - cols:
-    #     - content: "12.00"
-    #     - content: ""
-    #     - content: ""
-    #     - content: ""
-    #     #- slidesLink: 
-    #     #- videoLink:
-    # - cols:
-    #     - content: "12.15"
-    #     - content: ""
-    #     - content: ""
-    #     - content: ""
-    #     #- slidesLink: 
-    #     #- videoLink:
-    # - cols:
-    #     - content: "12.30"
-    #     - content: ""
-    #     - content: ""
-    #     - content: ""
-    #     #- slidesLink: 
-    #     #- videoLink:
+    - cols:
+        - content: "11.45"
+        - content: "Moritz Brunner"
+        - content: "ËRT"
+        - content: "ËRT Interactive Landscape Models"
+        #- slidesLink: 
+        #- videoLink:
+    - cols:
+        - content: "12.00"
+        - content: ""
+        - content: ""
+        - content: "Networking lunch (Foyer NOI Seminar Area)"
+        #- slidesLink: 
+        #- videoLink:
     - cols:
         - content: "13.00"
-        - content: " "
-        - content: " "
-        - content: "Networking lunch (Foyer NOI Seminar Area)"
-        #- content: " "
-        #- content: " "
-    - cols:
-        - content: "14.00"
-        - content: ""
-        - content: ""
-        - content: "Talks and sessions"
+        - content: "Leonardo Venturoso"
+        - content: "Fraunhofer Italia"
+        - content: "Real-time Traffic Prediction in Bolzano Using Bluetooth Sensor Data: A Big Data Approach"
         #- slidesLink: 
         #- videoLink:
     - cols:
-        - content: "17.00"
+        - content: "13.15"
+        - content: "Fritz Fahringer"
+        - content: "Standortagentur Tirol / datahub.tirol"
+        - content: "Unlocking the Potential of Regional Data Spaces: Insights from datahub.tirol"
+        #- slidesLink: 
+        #- videoLink:
+    - cols:
+        - content: "13.30"
+        - content: "Gianluigi Riccio & Angelo Giuliana"
+        - content: "Meditech Competence Center"
+        - content: "One-Health: winning with data sharing"
+        #- content: " "
+        #- content: " "
+    - cols:
+        - content: "13.45"
+        - content: "Felix Gallmetzer & Gabriel Wohlgemuth"
+        - content: "TFO "Max Valier" Bozen"
+        - content: "The activity dating app"
+        #- slidesLink: 
+        #- videoLink:
+    - cols:
+        - content: "14.00"
+        - content: "João Francisco Lino Daniel"
+        - content: "Free University of Bozen-Bolzano"
+        - content: "Building for Change: fostering evolution in open-data"
+        #- slidesLink: 
+        #- videoLink:
+    - cols:
+        - content: "14.15"
+        - content: "Eduardo Martins Guerra"
+        - content: "Free University of Bozen-Bolzano"
+        - content: "Interacting with Open Data Hub in Software Engineering Education at Unibz"
+        #- slidesLink: 
+        #- videoLink:
+    - cols:
+        - content: "14.30"
+        - content: ""
+        - content: ""
+        - content: "Open Data Hub Bootcamp’s results presentation slot"
+        #- slidesLink: 
+        #- videoLink:
+    - cols:
+        - content: "15.45"
         - content: ""
         - content: ""
         - content: "Closing"
