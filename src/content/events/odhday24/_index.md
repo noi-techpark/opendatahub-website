@@ -21,7 +21,7 @@ content:
   btn_top_label: "Registration"
   btn_top_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
- header:
+  header:
     - title: 
       width: 5%
     - title: Speaker
