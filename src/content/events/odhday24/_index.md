@@ -15,7 +15,7 @@ program:
   title: "Open Data Hub Day - Programme"
   subtitle: "The event will be held in English. The slides and video recordings of the Open Data Hub Day will be pudlished online after the event."
 
- content:
+content:
   title: Call4Speakers
   btn_top_link: "https://pretix.eu/noi-digital/open-data-hub-day-24/"
   btn_top_label: "Registration"
