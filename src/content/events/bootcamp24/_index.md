@@ -1,6 +1,6 @@
 ---
 type: events/single
-content_partial: table-program
+content_partial: table-program-press-release
 position: "Events"
 url: "/events/bootcamp24"
 aliases:
@@ -18,7 +18,7 @@ program:
 content:
   title: More info
   btn_top_link: "https://pretix.eu/noi-digital/bootcamp24/"
-  btn_top_label: "Registration"
+  btn_top_label: "Challenge Descritption"
   btn_top_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Bootcamp']);"
 
   header:
@@ -39,12 +39,12 @@ content:
     - cols:
         - content: "9.15 - 9.30"
         - content: Development Tips for your Bootcamp Project (unibz)
-        -  #slidesLink: "https://cloud.opendatahub.com/index.php/s/CgCbK2eGZexxiBA"
+        - # slidesLink: "https://cloud.opendatahub.com/index.php/s/CgCbK2eGZexxiBA"
         -  #videoLink: "https://vimeo.com/showcase/9563553/video/715097183"
     - cols:
         - content: "9.30 - 10.00"
         - content: Open Data Hub introduction, challenge presentation (NOI)
-        -  #slidesLink: "https://cloud.opendatahub.com/index.php/s/CgCbK2eGZexxiBA"
+        - slidesLink: "https://cloud.opendatahub.com/index.php/s/yj6TKjkDgs2fmz8"
         -  #videoLink: "https://vimeo.com/showcase/9563553/video/715097183"
     
     - cols:
@@ -86,4 +86,35 @@ content:
   btn_down_link: "https://cloud.opendatahub.com/index.php/s/mSrMF5DAmmNeZy9"
   btn_down_label: "Challenge Description"
   btn_down_on_click: "_paq.push(['trackEvent', 'Challenge Description', 'Click', 'Open Data Hub Bootcamp']);"
+
+
+#  headerPR:
+#    - title: Open Data Hub Press release 2023
+#      width: 75%
+#    - title: Language
+#      width: 15%
+#    - title: Link
+#      width: 10% 
+#  rowPR:
+#    - colsPR:
+#        - content: "Dalla mobilità sostenibile al turismo Open Data Hub connette l’Europa grazie ai dati"
+#        - content: "Italian"
+#        - pressReleaseLink: "https://cloud.opendatahub.com/index.php/s/HNFT7ikkRRaAAEc"
+#  rowPR:
+#    - colsPR:
+#        - content: "Scambio di dati tra Alto Adige, Tirolo e Baviera"
+#        - content: "Italian"
+#        - pressReleaseLink: "https://cloud.opendatahub.com/index.php/s/H4Q5rz6GJBgKtgx"
+#    - colsPR:
+#        - content: "Datenaustausch zwischen Südtirol, Tirol und Bayern"
+#        - content: "German"
+#        - pressReleaseLink: "https://cloud.opendatahub.com/index.php/s/oeMdAWx7ZHk7Hxx"
+#    - colsPR:
+#        - content: "Data sharing between South Tyrol, Tyrol and Bavaria"
+#        - content: "English"
+#        - pressReleaseLink: "https://cloud.opendatahub.com/index.php/s/Z2FaWqzMmSebA9z"
+#    - colsPR:
+#        - content: "Photo gallery of the event"
+#        - content: ""
+#        - pressReleaseLink: "https://www.flickr.com/photos/free-software-center/albums/72177720308554220"
 ---
