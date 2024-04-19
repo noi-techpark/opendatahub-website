@@ -17,7 +17,7 @@ Array.from(upcomingEvents)
     const dateParts = dateEl.textContent.split(", ");
     const date = new Date([dateParts[1], dateParts[2]].join(", "));
     date.setDate(date.getDate() + 1)
-    return date <= currentDate;
+    return date < currentDate;
   })
   // remove past events from upcoming container and add to past events container
   .forEach((pastEvent) => {
