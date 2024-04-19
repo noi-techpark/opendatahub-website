@@ -79,7 +79,7 @@ content:
       #- videoLink:
     - cols:
       - content: "10.15"
-      - content: "Patrick Dejaco"
+      - content: "Alexander Rammerstorfer"
       - content: "STA – Strutture Trasporto Alto Adige SpA"
       - content: "The future of digital mobility in South Tyrol (thanks to the Open Data Hub)"
       #- slidesLink:
