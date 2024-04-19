@@ -17,9 +17,9 @@ program:
 
 content:
   title: More info
-  btn_top_link: "https://pretix.eu/noi-digital/bootcamp24/"
+  btn_top_link: "https://cloud.opendatahub.com/index.php/s/mSrMF5DAmmNeZy9"
   btn_top_label: "Challenge Descritption"
-  btn_top_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Bootcamp']);"
+  btn_top_on_click: "_paq.push(['trackEvent', 'Challenge Description', 'Click', 'Open Data Hub Bootcamp']);"
 
   header:
     - title:
