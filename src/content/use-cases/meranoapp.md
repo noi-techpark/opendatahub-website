@@ -44,7 +44,7 @@ paragraphs:
     description: "The Open Data Hub plays a crucial role in enhancing the Merano App's functionality and providing added value to tourists and locals. One of the key integrations is the inclusion of real-time parking information within the app, made possible through the Open Data Hub. This integration allows users to access up-to-the-minute information about available parking spaces in Merano. Such information is valuable for both tourists and locals as it simplifies the often challenging task of finding parking in a bustling city, making the overall experience more convenient and stress-free."
     img_back: "/img/use-cases/ODH-usecase-meranoapp-image-04.jpg"
     img_credit: "© Open Data Hub / Tania Marcadella"
-    btn_link: "https://opendatahub.com/datasets/traffic/parking/"
+    btn_link: "https://databrowser.opendatahub.com/dataset-overview/178ea911-cc54-418e-b42e-52cad18f1ec1"
     btn_label: Discover the parking dataset
     partial: imgs-text-enlargeable.html
 
