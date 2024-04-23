@@ -196,6 +196,10 @@ consumers:
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/destination.png"
       link: http://www.destinationsrl.it/
 
+    - name: discover.swiss
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/DiscoverSwiss.png"
+      link: https://discover.swiss/
+
     - name: Eurac Research
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/eurac.png"
       link: https://www.eurac.edu/
