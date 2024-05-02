@@ -66,7 +66,7 @@ content:
     - cols:
       - content: "9.45"
       - content: "Nadia Scandelli"
-      - content: "CEFRIEL"
+      - content: "CEFRIEL (Politecnico di Milano)"
       - content: "Data spaces: state of the art and opportunities"
       #- slidesLink:
       #- videoLink:
@@ -87,89 +87,96 @@ content:
     - cols:
       - content: "10.30"
       - content: ""
+      - content: "Open Data Hub"
+      - content: "Contributor of the year 2024 - Award"
+      #- slidesLink:
+      #- videoLink:
+    - cols:
+      - content: "10.45"
+      - content: ""
       - content: ""
       - content: "Community Coffee Break (Foyer NOI Seminar Area)"
       #- slidesLink:
       #- videoLink:
     - cols:
-      - content: "11.00"
+      - content: "11.15"
       - content: "Brigitte Lutz"
       - content: "City of Vienna"
       - content: "Cooperation Open Government Data (OGD) D-A-CH-LI"
       #- slidesLink:
       #- videoLink:
     - cols:
-      - content: "11.15"
+      - content: "11.30"
       - content: "Gregor Eibl"
       - content: "University of Continuing Education Krems"
       - content: "Open Data in Vienna: A Survey of Companies, Public Schools and an Internal Workshop"
       #- slidesLink:
       #- videoLink:
     - cols:
-      - content: "11.30"
+      - content: "11.45"
       - content: "Elmar Premstaller"
       - content: "Yanovis"
       - content: "Yanovis Widget with SkyAlps Data from Open Data Hub"
       #- slidesLink:
       #- videoLink:
     - cols:
-      - content: "11.45"
+      - content: "12.00"
       - content: "Moritz Brunner"
       - content: "ËRT"
       - content: "ËRT Interactive Landscape Models"
       #- slidesLink:
       #- videoLink:
     - cols:
-      - content: "12.00"
+      - content: "12.15"
       - content: ""
       - content: ""
       - content: "Networking lunch (Foyer NOI Seminar Area)"
       #- slidesLink:
       #- videoLink:
     - cols:
-      - content: "13.00"
+      - content: "13.15"
       - content: "Leonardo Venturoso"
       - content: "Fraunhofer Italia"
       - content: "Real-time Traffic Prediction in Bolzano Using Bluetooth Sensor Data: A Big Data Approach"
       #- slidesLink:
       #- videoLink:
     - cols:
-      - content: "13.15"
+      - content: "13.30"
       - content: "Fritz Fahringer"
       - content: "Standortagentur Tirol / datahub.tirol"
       - content: "Unlocking the Potential of Regional Data Spaces: Insights from datahub.tirol"
       #- slidesLink:
       #- videoLink:
     - cols:
-      - content: "13.30"
+      - content: "13.45"
       - content: "Gianluigi Riccio & Angelo Giuliana"
       - content: "Meditech Competence Center"
       - content: "One-Health: winning with data sharing"
       #- content: " "
       #- content: " "
     - cols:
-      - content: "13.45"
+      - content: "14.00"
       - content: "Felix Gallmetzer & Gabriel Wohlgemuth"
       - content: "TFO Max Valier Bozen"
       - content: "The activity dating app"
       #- slidesLink:
       #- videoLink:
     - cols:
-      - content: "14.00"
+      - content: "14.15"
       - content: "João Francisco Lino Daniel"
       - content: "Free University of Bozen-Bolzano"
       - content: "Building for Change: fostering evolution in open-data"
       #- slidesLink:
       #- videoLink:
     - cols:
-      - content: "14.15"
+      - content: "14.30"
       - content: "Eduardo Martins Guerra"
       - content: "Free University of Bozen-Bolzano"
       - content: "Interacting with Open Data Hub in Software Engineering Education at Unibz"
       #- slidesLink:
       #- videoLink:
     - cols:
-      - content: "14.30"
+      - content: "14.45"
       - content: ""
       - content: ""
       - content: "Open Data Hub Bootcamp’s results presentation slot"
