@@ -100,8 +100,8 @@ content:
       #- videoLink:
     - cols:
       - content: "11.15"
-      - content: "Brigitte Lutz"
-      - content: "City of Vienna"
+      - content: "Brigitte Lutz & Josephine Bernickel & Adina Tellenbach"
+      - content: "D-A-CH-LI"
       - content: "Cooperation Open Government Data (OGD) D-A-CH-LI"
       #- slidesLink:
       #- videoLink:
@@ -142,48 +142,41 @@ content:
       #- videoLink:
     - cols:
       - content: "13.30"
-      - content: "Fritz Fahringer"
+      - content: "Fritz Fahringer & Natascha Totzler & Günther Tschabuschnig"
       - content: "Standortagentur Tirol / datahub.tirol"
       - content: "Unlocking the Potential of Regional Data Spaces: Insights from datahub.tirol"
       #- slidesLink:
       #- videoLink:
     - cols:
       - content: "13.45"
-      - content: "Gianluigi Riccio & Angelo Giuliana"
+      - content: "Gianluigi Riccio"
       - content: "Meditech Competence Center"
       - content: "One-Health: winning with data sharing"
       #- content: " "
       #- content: " "
     - cols:
       - content: "14.00"
-      - content: "Felix Gallmetzer & Gabriel Wohlgemuth"
-      - content: "TFO Max Valier Bozen"
-      - content: "The activity dating app"
-      #- slidesLink:
-      #- videoLink:
-    - cols:
-      - content: "14.15"
       - content: "João Francisco Lino Daniel"
       - content: "Free University of Bozen-Bolzano"
       - content: "Building for Change: fostering evolution in open-data"
       #- slidesLink:
       #- videoLink:
     - cols:
-      - content: "14.30"
+      - content: "14.15"
       - content: "Eduardo Martins Guerra"
       - content: "Free University of Bozen-Bolzano"
       - content: "Interacting with Open Data Hub in Software Engineering Education at Unibz"
       #- slidesLink:
       #- videoLink:
     - cols:
-      - content: "14.45"
+      - content: "14.30"
       - content: ""
       - content: ""
       - content: "Open Data Hub Bootcamp’s results presentation slot"
       #- slidesLink:
       #- videoLink:
     - cols:
-      - content: "15.45"
+      - content: "15.30"
       - content: ""
       - content: ""
       - content: "Closing"
