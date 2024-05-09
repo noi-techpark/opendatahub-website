@@ -14,8 +14,9 @@ short:
   btn_link: "/use-cases/meranoapp"
   btn_label: Read more
   img_back: "/img/use-cases/ODH-usecase-meranoapp-image-01.jpg"
+  img_credit: "© Open Data Hub / Tania Marcadella"
   bg_darker: true
-  partial: text-imgs.html
+  partial: text-imgs-enlargeable.html
   weight: 1
 
 start:
@@ -25,7 +26,7 @@ start:
   img_back: "/img/use-cases/ODH-Merano-App-Pixabay-rain-city-77339.jpg"
   img_credit: "Traffic in the city on rainy days © Pixabay"
 
-  partial: title-cta.html
+  partial: title-cta-enlargeable.html
 
 paragraphs:
   - title: "**The Merano App**"
