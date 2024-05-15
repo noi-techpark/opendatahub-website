@@ -74,7 +74,7 @@ content:
       - content: "10.00"
       - content: "Michael Schäfer"
       - content: "Mobility Data Space"
-      - content: "Mobility Data Space presentation"
+      - content: "Mobility Data Space – Unleash Your Data"
       #- slidesLink:
       #- videoLink:
     - cols:
@@ -142,7 +142,7 @@ content:
       #- videoLink:
     - cols:
       - content: "13.30"
-      - content: "Fritz Fahringer & Natascha Totzler & Günther Tschabuschnig"
+      - content: "Fritz Fahringer & Elias Lanbach & Günther Tschabuschnig"
       - content: "Standortagentur Tirol / datahub.tirol"
       - content: "Unlocking the Potential of Regional Data Spaces: Insights from datahub.tirol"
       #- slidesLink:
@@ -172,7 +172,7 @@ content:
       - content: "14.30"
       - content: ""
       - content: ""
-      - content: "Open Data Hub Bootcamp’s results presentation slot"
+      - content: "Open Data Hub Bootcamp’s projects presentations"
       #- slidesLink:
       #- videoLink:
     - cols:
