@@ -100,7 +100,7 @@ content:
       #- videoLink:
     - cols:
       - content: "11.15"
-      - content: "Brigitte Lutz & Josephine Bernickel & Adina Tellenbach"
+      - content: "Brigitte Lutz & Josephine Bernickel & Adina Tellenbach & Maurine Junod"
       - content: "D-A-CH-LI"
       - content: "Cooperation Open Government Data (OGD) D-A-CH-LI"
       #- slidesLink:
