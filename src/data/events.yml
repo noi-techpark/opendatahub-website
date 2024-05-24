@@ -20,7 +20,7 @@ events:
     time: "08:30 - 17:00"
     location: "NOI Techpark"
     btn_link: /events/odhday24
-    btn_label: More info & Registration
+    btn_label: Slides & Videos
 
   - title: Software Developers' Thursday 2024 | May
     subtitle: AI image generation, the experience of the Open Data Hub project
