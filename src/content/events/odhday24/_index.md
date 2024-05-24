@@ -30,8 +30,8 @@ content:
       width: 20%
     - title: Title
       width: 65%
-    #- title: " "
-    #  width: 5%
+    - title: "Slides"
+      width: 5%
     #- title: " "
     #  width: 5%  
   row:
@@ -40,133 +40,133 @@ content:
       - content: " "
       - content: " "
       - content: "Check-in starting at 8.30"
-      #- content:
+      - content: " "
       #- content:
     - cols:
       - content: "9.00"
       - content: ""
       - content: ""
       - content: "Open Data Hub Day - Opening"
-      #- slidesLink:
+      - slidesLink:
       #- videoLink:
     - cols:
       - content: "9.15"
       - content: "Patrick Ohnewein"
       - content: "NOI Techpark"
       - content: "Open Data Hub - updates"
-      #- slidesLink:
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/qzNaGHo6Q4jroq3
       #- videoLink:
     - cols:
       - content: "9.30"
       - content: "Gianluigi Marino & Antonio Racano"
       - content: "Osborne Clarke Studio Legale"
       - content: "EU Data Act - new rules for access to data in the IoT world"
-      #- slidesLink:
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/nqin5fP74aE6Ljz
       #- videoLink:
     - cols:
       - content: "9.45"
       - content: "Nadia Scandelli"
       - content: "CEFRIEL (Politecnico di Milano)"
       - content: "Data spaces: state of the art and opportunities"
-      #- slidesLink:
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/ALX3iYsi83HMFSG
       #- videoLink:
     - cols:
       - content: "10.00"
       - content: "Michael Schäfer"
       - content: "Mobility Data Space"
       - content: "Mobility Data Space – Unleash Your Data"
-      #- slidesLink:
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/ibw5sNPfo73aBLX
       #- videoLink:
     - cols:
       - content: "10.15"
       - content: "Alexander Rammerstorfer"
       - content: "STA – Strutture Trasporto Alto Adige SpA"
       - content: "The future of digital mobility in South Tyrol (thanks to the Open Data Hub)"
-      #- slidesLink:
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/FBwofW2sCWK8eWN
       #- videoLink:
     - cols:
       - content: "10.30"
       - content: ""
       - content: "Open Data Hub"
       - content: "Contributor of the year 2024 - Award"
-      #- slidesLink:
+      - slidesLink:
       #- videoLink:
     - cols:
       - content: "10.45"
       - content: ""
       - content: ""
       - content: "Community Coffee Break (Foyer NOI Seminar Area)"
-      #- slidesLink:
+      - slidesLink:
       #- videoLink:
     - cols:
       - content: "11.15"
       - content: "Brigitte Lutz & Josephine Bernickel & Adina Tellenbach & Maurine Junod"
       - content: "D-A-CH-LI"
       - content: "Cooperation Open Government Data (OGD) D-A-CH-LI"
-      #- slidesLink:
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/qCC9gA5TK7gTWR5
       #- videoLink:
     - cols:
       - content: "11.30"
       - content: "Gregor Eibl"
       - content: "University of Continuing Education Krems"
       - content: "Open Data in Vienna: A Survey of Companies, Public Schools and an Internal Workshop"
-      #- slidesLink:
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/PLy59WYxmWob5HG
       #- videoLink:
     - cols:
       - content: "11.45"
       - content: "Elmar Premstaller"
       - content: "Yanovis"
       - content: "Yanovis Widget with SkyAlps Data from Open Data Hub"
-      #- slidesLink:
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/Xjm8mfKKokf38sS
       #- videoLink:
     - cols:
       - content: "12.00"
       - content: "Moritz Brunner"
       - content: "ËRT"
       - content: "ËRT Interactive Landscape Models"
-      #- slidesLink:
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/S76yNFicxsKk3W9
       #- videoLink:
     - cols:
       - content: "12.15"
       - content: ""
       - content: ""
       - content: "Networking lunch (Foyer NOI Seminar Area)"
-      #- slidesLink:
+      - slidesLink:
       #- videoLink:
     - cols:
       - content: "13.15"
       - content: "Leonardo Venturoso"
       - content: "Fraunhofer Italia"
       - content: "Real-time Traffic Prediction in Bolzano Using Bluetooth Sensor Data: A Big Data Approach"
-      #- slidesLink:
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/ckbfqN4tKb5zb8f
       #- videoLink:
     - cols:
       - content: "13.30"
       - content: "Fritz Fahringer & Elias Lanbach & Günther Tschabuschnig"
       - content: "Standortagentur Tirol / datahub.tirol"
       - content: "Unlocking the Potential of Regional Data Spaces: Insights from datahub.tirol"
-      #- slidesLink:
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/ymCWTL5rmsYGgLL
       #- videoLink:
     - cols:
       - content: "13.45"
       - content: "Gianluigi Riccio"
       - content: "Meditech Competence Center"
       - content: "One-Health: winning with data sharing"
-      #- content: " "
-      #- content: " "
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/kFkGNiqXy2nFXHf
+      #- videoLink: " "
     - cols:
       - content: "14.00"
       - content: "João Francisco Lino Daniel"
       - content: "Free University of Bozen-Bolzano"
       - content: "Building for Change: fostering evolution in open-data"
-      #- slidesLink:
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/eRk4Q6oprtYyrk8
       #- videoLink:
     - cols:
       - content: "14.15"
       - content: "Eduardo Martins Guerra"
       - content: "Free University of Bozen-Bolzano"
       - content: "Interacting with Open Data Hub in Software Engineering Education at Unibz"
-      #- slidesLink:
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/stk2ZW25bcDLqPd
       #- videoLink:
     - cols:
       - content: "14.30"
@@ -180,7 +180,7 @@ content:
       - content: ""
       - content: ""
       - content: "Closing"
-      #- slidesLink:
+      - slidesLink:
       #- videoLink:
     
   btn_down_link: "https://pretix.eu/noi-digital/open-data-hub-day-24/"
