@@ -47,7 +47,7 @@ content:
       - content: ""
       - content: ""
       - content: "Open Data Hub Day - Opening"
-      - slidesLink:
+      - content: ""
       #- videoLink:
     - cols:
       - content: "9.15"
@@ -89,14 +89,14 @@ content:
       - content: ""
       - content: "Open Data Hub"
       - content: "Contributor of the year 2024 - Award"
-      - slidesLink:
+      - content: ""
       #- videoLink:
     - cols:
       - content: "10.45"
       - content: ""
       - content: ""
       - content: "Community Coffee Break (Foyer NOI Seminar Area)"
-      - slidesLink:
+      - content: ""
       #- videoLink:
     - cols:
       - content: "11.15"
@@ -131,7 +131,7 @@ content:
       - content: ""
       - content: ""
       - content: "Networking lunch (Foyer NOI Seminar Area)"
-      - slidesLink:
+      - content: ""
       #- videoLink:
     - cols:
       - content: "13.15"
@@ -180,7 +180,7 @@ content:
       - content: ""
       - content: ""
       - content: "Closing"
-      - slidesLink:
+      - content: ""
       #- videoLink:
     
   btn_down_link: "https://pretix.eu/noi-digital/open-data-hub-day-24/"
