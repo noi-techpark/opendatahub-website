@@ -22,7 +22,7 @@ content:
   btn_top_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
   header:
-    - title: 
+    - title:
       width: 5%
     - title: Speaker
       width: 15%
@@ -36,12 +36,12 @@ content:
       width: 5%  
   row:
     - cols:
-        - content: "8.30"
-        - content: " "
-        - content: " "
-        - content: "Check-in starting at 8.30"
-        - content:
-        - content:
+      - content: "8.30"
+      - content: " "
+      - content: " "
+      - content: "Check-in starting at 8.30"
+      - content:
+      - content:
     - cols:
         - content: "9.00"
         - content: "Vincent Mauroit"
@@ -181,5 +181,5 @@ content:
     - colsPR:
         - content: "Photo gallery of the event"
         - content: ""
-        - pressReleaseLink: "https://www.flickr.com/photos/free-software-center/albums/72177720308554220"
+        - photoLink: "https://www.flickr.com/photos/free-software-center/albums/72177720308554220"
 ---

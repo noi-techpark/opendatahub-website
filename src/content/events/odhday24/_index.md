@@ -187,14 +187,19 @@ content:
   btn_down_label: "Registration"
   btn_down_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
-#  headerPR:
-#    - title: Open Data Hub Press release 2023
-#      width: 75%
-#    - title: Language
-#      width: 15%
-#    - title: Link
-#      width: 10% 
-#  rowPR:
+  headerPR:
+    - title: Open Data Hub 2024 additional content
+      width: 70%
+    - title: Language
+      width: 15%
+    - title: Link
+      width: 15% 
+  rowPR:
+    - colsPR:
+        - content: "Photo gallery of the event"
+        - content: ""
+        - photoLink: "https://www.flickr.com/photos/free-software-center/albums/72177720317301719/"
+
 #    - colsPR:
 #        - content: "Dalla mobilità sostenibile al turismo Open Data Hub connette l’Europa grazie ai dati"
 #        - content: "Italian"
@@ -212,8 +217,4 @@ content:
 #        - content: "Data sharing between South Tyrol, Tyrol and Bavaria"
 #        - content: "English"
 #        - pressReleaseLink: "https://cloud.opendatahub.com/index.php/s/Z2FaWqzMmSebA9z"
-#    - colsPR:
-#        - content: "Photo gallery of the event"
-#        - content: ""
-#        - pressReleaseLink: "https://www.flickr.com/photos/free-software-center/albums/72177720308554220"
 ---

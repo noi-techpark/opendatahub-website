@@ -58,7 +58,9 @@
               <td>{{ .content | safeHTML}}</td>
             {{end}} {{ if isset . "pressReleaseLink" }}
               <td><a href="{{.pressReleaseLink}}" class="btn btn-primary d-flex gap-1 align-items-center">Press Release</a></td>
-            {{end}}
+            {{end}} {{ if isset . "photoLink" }}
+            <td><a href="{{.photoLink}}" target="_blank" class="btn btn-primary d-flex gap-1 align-items-center">Photo gallery</a></td>
+          {{end}}
           {{ end }}
         </tr>
         {{ end }}
