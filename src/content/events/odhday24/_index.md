@@ -18,7 +18,7 @@ program:
 content:
   title: Call4Speakers
   btn_top_link: "https://pretix.eu/noi-digital/open-data-hub-day-24/"
-  btn_top_label: "Registration"
+  btn_top_label: "More info"
   btn_top_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
   header:
@@ -184,7 +184,7 @@ content:
       #- videoLink:
     
   btn_down_link: "https://pretix.eu/noi-digital/open-data-hub-day-24/"
-  btn_down_label: "Registration"
+  btn_down_label: "More info"
   btn_down_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
   headerPR:
@@ -200,10 +200,10 @@ content:
         - content: ""
         - photoLink: "https://www.flickr.com/photos/free-software-center/albums/72177720317301719/"
 
-#    - colsPR:
-#        - content: "Dalla mobilità sostenibile al turismo Open Data Hub connette l’Europa grazie ai dati"
-#        - content: "Italian"
-#        - pressReleaseLink: "https://cloud.opendatahub.com/index.php/s/HNFT7ikkRRaAAEc"
+    - colsPR:
+        - content: "Video trailer of the Open Data Hub Day 2024"
+        - content: ""
+        - videoLink: "https://vimeo.com/950773091"
 #  rowPR:
 #    - colsPR:
 #        - content: "Scambio di dati tra Alto Adige, Tirolo e Baviera"

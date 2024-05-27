@@ -25,7 +25,7 @@
               {{ if isset . "content" }}
                 <td>{{ .content | safeHTML}}</td>
               {{end}} {{ if isset . "slidesLink" }}
-                <td><a href="{{.slidesLink}}" class="btn btn-primary d-flex gap-1 align-items-center me-3">Slides</a></td>
+                <td><a href="{{.slidesLink}}" class="btn btn-primary d-flex gap-1 align-items-center me-3" target="_blank">Slides</a></td>
               {{end}} {{ if isset . "videoLink" }}
                 <td><a href="{{.videoLink}}" class="btn btn-primary d-flex gap-1 align-items-center ms-3" target="_blank">Video</a></td>
               {{end}}
@@ -57,11 +57,11 @@
             {{ if isset . "content" }}
               <td>{{ .content | safeHTML}}</td>
             {{end}} {{ if isset . "pressReleaseLink" }}
-              <td><a href="{{.pressReleaseLink}}" class="btn btn-primary d-flex gap-1 align-items-center">Press Release</a></td>
+              <td><a href="{{.pressReleaseLink}}" class="btn btn-primary d-flex gap-1 align-items-center" target="_blank">Press Release</a></td>
             {{end}} {{ if isset . "photoLink" }}
-            <td><a href="{{.photoLink}}" target="_blank" class="btn btn-primary d-flex gap-1 align-items-center">Photo gallery</a></td>
+            <td><a href="{{.photoLink}}" class="btn btn-primary d-flex gap-1 align-items-center" target="_blank">Photo gallery</a></td>
           {{end}} {{ if isset . "videoLink" }}
-          <td><a href="{{.videoLink}}" class="btn btn-primary d-flex gap-1 align-items-center ms-3" target="_blank">Video</a></td>
+          <td><a href="{{.videoLink}}" class="btn btn-primary d-flex gap-1 align-items-center" target="_blank">Video</a></td>
         {{end}}
           {{ end }}
         </tr>

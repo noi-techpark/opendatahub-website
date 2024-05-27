@@ -3,8 +3,8 @@
 # SPDX-License-Identifier: CC0-1.0
 
 sections:
-  ################################# Open Data Hub 2023 interviews ################  #########
-  - title: "**Open Data Hub Day 2023 Interviews**"
+  ################################# Open Data Hub interviews ################  #########
+  - title: "**Open Data Hub Day Interviews**"
     initially_expanded: true
     videos:
       - subtitle: "International Data Spaces Association (IDSA)"
@@ -66,6 +66,18 @@ sections:
         title: "**Software Developers Thursday - AlpineBits DestinationData Endpoint**"
         description: "Claudenir Fonseca and Tiago Prince Sales"
         video: https://www.youtube.com/embed/yuNPwC3sxow
+
+  ################################# Open Data Hub 2024 #########################
+  - title: "**Open Data Hub Day 2024**"
+    initially_expanded: false
+    videos:
+      - subtitle: ""
+        title: "**Open Data Hub Day 2024 - Trailer**"
+        description: ""
+        btn_link: "/events/odhday24"
+        btn_label: Go to event page
+        video: "https://player.vimeo.com/video/950773091"
+        target_blank: false
 
   ################################# Open Data Hub 2023 #########################
   - title: "**Open Data Hub Day 2023**"
