@@ -7,6 +7,27 @@ sections:
   - title: "**Open Data Hub Day Interviews**"
     initially_expanded: true
     videos:
+      - subtitle: "Free University of Bolzano/Bozen (UNIBZ)"
+        title: "**Free University of Bolzano/Bozen (UNIBZ) interview**"
+        description: "Eduardo Martins Guerra"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/stk2ZW25bcDLqPd"
+        btn_label: Open Data Hub Day 2024 - Slides
+        video: "https://player.vimeo.com/video/951204259"
+        target_blank: true
+
+      - subtitle: "Open Data Hub contributor of the year 2024"
+        title: "**Open Data Hub contributor of the year 2024 interview**"
+        description: "Henri Egger"
+        video: "https://player.vimeo.com/video/951204510"
+        target_blank: true
+
+      - subtitle: "ËRT"
+        title: "**ËRT interview**"
+        description: "Moritz Brunner"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/S76yNFicxsKk3W9"
+        btn_label: Open Data Hub Day 2024 - Slides
+        video: "https://player.vimeo.com/video/951204749"
+        target_blank: true
       - subtitle: "International Data Spaces Association (IDSA)"
         title: "**International Data Spaces Association (IDSA) interview**"
         description: "Giulia Giussani"
