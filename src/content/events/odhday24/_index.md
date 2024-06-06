@@ -211,6 +211,18 @@ content:
         - content: "Video trailer of the Open Data Hub Day 2024"
         - content: ""
         - videoLink: "https://vimeo.com/950773091"
+    - colsPR:
+        - content: "Interview: Eduardo Martin Guerra (Free University of Bolzano/Bozen)"
+        - content: ""
+        - videoLink: "https://vimeo.com/951204259"
+    - colsPR:
+        - content: "Interview: Henri Egger (Open Data Hub contributor of the year 2024)"
+        - content: ""
+        - videoLink: "https://vimeo.com/951204510"
+    - colsPR:
+        - content: "Interview: Moritz Brunner (ËRT)"
+        - content: ""
+        - videoLink: "https://vimeo.com/951204749"
 #  rowPR:
 #    - colsPR:
 #        - content: "Scambio di dati tra Alto Adige, Tirolo e Baviera"
