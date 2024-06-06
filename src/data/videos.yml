@@ -78,6 +78,123 @@ sections:
         btn_label: Go to event page
         video: "https://player.vimeo.com/video/950773091"
         target_blank: false
+      - subtitle: "NOI Techpark"
+        title: "**Open Data Hub - updates**"
+        description: "Patrick Ohnewein"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/qzNaGHo6Q4jroq3"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/954303668"
+        target_blank: true
+      - subtitle: "Osborne Clarke Studio Legale"
+        title: "**EU Data Act - new rules for access to data in the IoT world**"
+        description: "Gianluigi Marino & Antonio Racano"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/nqin5fP74aE6Ljz"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/954305642"
+        target_blank: true
+      - subtitle: "CEFRIEL (Politecnico di Milano)"
+        title: "**Data spaces: state of the art and opportunities**"
+        description: "Nadia Scandelli"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/ALX3iYsi83HMFSG"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/954313177"
+        target_blank: true
+      - subtitle: "Mobility Data Space"
+        title: "**Mobility Data Space – Unleash Your Data**"
+        description: "Michael Schäfer"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/ibw5sNPfo73aBLX"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/954314726"
+        target_blank: true
+      - subtitle: "STA – Strutture Trasporto Alto Adige SpA"
+        title: "**The future of digital mobility in South Tyrol (thanks to the Open Data Hub)**"
+        description: "Alexander Rammerstorfer"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/FBwofW2sCWK8eWN"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/954315940"
+        target_blank: true
+      - subtitle: "Open Data Hub"
+        title: "**Contributor of the year 2024 - Award**"
+        description: "Henri Egger"
+        btn_link: "/events/odhday24"
+        btn_label: Go to event page
+        video: "https://player.vimeo.com/video/954317562"
+        target_blank: false
+      - subtitle: "D-A-CH-LI"
+        title: "**Cooperation Open Government Data (OGD) D-A-CH-LI**"
+        description: "Brigitte Lutz & Josephine Bernickel & Adina Tellenbach & Maurine Junod"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/qCC9gA5TK7gTWR5"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/954319077"
+        target_blank: true
+      - subtitle: "University of Continuing Education Krems"
+        title: "**Open Data in Vienna: A Survey of Companies, Public Schools and an Internal Workshop**"
+        description: "Gregor Eibl"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/PLy59WYxmWob5HG"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/954321604"
+        target_blank: true
+      - subtitle: "Yanovis"
+        title: "**Yanovis Widget with SkyAlps Data from Open Data Hub**"
+        description: "Elmar Premstaller"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/Xjm8mfKKokf38sS"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/954322505"
+        target_blank: true
+      - subtitle: "ËRT"
+        title: "**ËRT Interactive Landscape Models**"
+        description: "Moritz Brunner"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/S76yNFicxsKk3W9"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/954323720"
+        target_blank: true
+      - subtitle: "Fraunhofer Italia"
+        title: "**Real-time Traffic Prediction in Bolzano Using Bluetooth Sensor Data: A Big Data Approach**"
+        description: "Leonardo Venturoso"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/ckbfqN4tKb5zb8f"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/954324498"
+        target_blank: true
+      - subtitle: "Standortagentur Tirol / datahub.tirol"
+        title: "**Unlocking the Potential of Regional Data Spaces: Insights from datahub.tirol**"
+        description: "Fritz Fahringer & Elias Lanbach & Günther Tschabuschnig"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/ymCWTL5rmsYGgLL"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/954380296"
+        target_blank: true
+      - subtitle: "Meditech Competence Center"
+        title: "**One-Health: winning with data sharing**"
+        description: "Gianluigi Riccio"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/kFkGNiqXy2nFXHf"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/954381370"
+        target_blank: true
+      - subtitle: "Free University of Bozen-Bolzano"
+        title: "**Building for Change: fostering evolution in open-data**"
+        description: "João Francisco Lino Daniel"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/eRk4Q6oprtYyrk8"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/954382481"
+        target_blank: true
+      - subtitle: "Free University of Bozen-Bolzano"
+        title: "**Interacting with Open Data Hub in Software Engineering Education at Unibz**"
+        description: "Eduardo Martins Guerra"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/stk2ZW25bcDLqPd"
+        btn_label: Slides
+        video: "https://player.vimeo.com/video/954394331"
+        target_blank: true
+
+  ################################# Open Data Hub 2023 #########################
+  # - title: "**Open Data Hub Bootcamp 2024**"
+  #   initially_expanded: false
+  #   videos:
+  #     - subtitle: ""
+  #       title: "**Day Trip Planner**"
+  #       description: ""
+  #       btn_link: "/events/odhday23"
+  #       btn_label: Go to event page
+  #       video: "https://player.vimeo.com/video/830468551"
+  #       target_blank: false
 
   ################################# Open Data Hub 2023 #########################
   - title: "**Open Data Hub Day 2023**"
