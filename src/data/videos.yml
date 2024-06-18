@@ -143,7 +143,7 @@ sections:
         target_blank: false
       - subtitle: "D-A-CH-LI"
         title: "**Cooperation Open Government Data (OGD) D-A-CH-LI**"
-        description: "Brigitte Lutz & Josephine Bernickel & Adina Tellenbach & Maurine Junod"
+        description: "Brigitte Lutz, Josephine Bernickel, Adina Tellenbach & Maurine Junod"
         btn_link: "https://cloud.opendatahub.com/index.php/s/qCC9gA5TK7gTWR5"
         btn_label: Slides
         video: "https://player.vimeo.com/video/954319077"
@@ -178,7 +178,7 @@ sections:
         target_blank: true
       - subtitle: "Standortagentur Tirol / datahub.tirol"
         title: "**Unlocking the Potential of Regional Data Spaces: Insights from datahub.tirol**"
-        description: "Fritz Fahringer & Elias Lanbach & Günther Tschabuschnig"
+        description: "Fritz Fahringer, Elias Lanbach & Günther Tschabuschnig"
         btn_link: "https://cloud.opendatahub.com/index.php/s/ymCWTL5rmsYGgLL"
         btn_label: Slides
         video: "https://player.vimeo.com/video/954380296"
@@ -239,7 +239,7 @@ sections:
         target_blank: true
       - subtitle: "Bootcamp 2024"
         title: "**Weather Component**"
-        description: "Jamil Hamza & Michele Magri & Yaroslav Rivny"
+        description: "Jamil Hamza, Michele Magri & Yaroslav Rivny"
         btn_link: ""
         btn_label: ""
         video: "https://player.vimeo.com/video/954678542"
