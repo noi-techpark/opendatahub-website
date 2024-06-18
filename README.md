@@ -298,11 +298,11 @@ If you'd like to contribute, please follow the following instructions:
 
 - Fork the repository.
 
-- Checkout a topic branch from the `master` branch.
+- Checkout a topic branch from the `main` branch.
 
 - Make sure the tests are passing.
 
-- Create a pull request against the `master` branch.
+- Create a pull request against the `main` branch.
 
 ### Documentation
 
