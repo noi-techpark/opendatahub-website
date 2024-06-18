@@ -25,14 +25,14 @@ content:
     - title: 
       width: 5%
     - title: Speaker
-      width: 15%
+      width: 25%
     - title: Company
       width: 20%
     - title: Title
-      width: 65%
+      width: 40%
     - title: "Slides"
       width: 5%
-    - title: " "
+    - title: "Video"
       width: 5%  
   row:
     - cols:
@@ -100,7 +100,7 @@ content:
       - content:
     - cols:
       - content: "11.15"
-      - content: "Brigitte Lutz & Josephine Bernickel & Adina Tellenbach & Maurine Junod"
+      - content: "Brigitte Lutz, Josephine Bernickel, Adina Tellenbach & Maurine Junod"
       - content: "D-A-CH-LI"
       - content: "Cooperation Open Government Data (OGD) D-A-CH-LI"
       - slidesLink: https://cloud.opendatahub.com/index.php/s/qCC9gA5TK7gTWR5
@@ -142,7 +142,7 @@ content:
       - videoLink: https://vimeo.com/954324498
     - cols:
       - content: "13.30"
-      - content: "Fritz Fahringer & Elias Lanbach & Günther Tschabuschnig"
+      - content: "Fritz Fahringer, Elias Lanbach & Günther Tschabuschnig"
       - content: "Standortagentur Tirol / datahub.tirol"
       - content: "Unlocking the Potential of Regional Data Spaces: Insights from datahub.tirol"
       - slidesLink: https://cloud.opendatahub.com/index.php/s/ymCWTL5rmsYGgLL
@@ -173,22 +173,57 @@ content:
       - content: ""
       - content: ""
       - content: "Open Data Hub Bootcamp’s projects presentations"
+      - content: ""
       - content:
-      - content:
-    # - cols:
-    #   - content: "14.30"
-    #   - content: ""
-    #   - content: ""
-    #   - content: "Open Data Hub Bootcamp’s projects presentations"
-    #   - content:
-    #   - videoLink:
+    - cols:
+       - content: "14.30"
+       - content: "Fabio Vitalba & Maximilian Lochmann"
+       - content: ""
+       - content: "Day Trip Planner"
+       - content: ""
+       - videoLink: https://vimeo.com/954677042
+    - cols:
+       - content: "14.40"
+       - content: "Anastasiia Guliaeva & Emanuele Pippa"
+       - content: ""
+       - content: "Tourist Map"
+       - content: ""
+       - videoLink: https://vimeo.com/954677499
+    - cols:
+       - content: "14.50"
+       - content: "Luca Vannuccini & Violetta Fazzi"
+       - content: ""
+       - content: "Accommodation finder"
+       - content: ""
+       - videoLink: https://vimeo.com/954677799
+    - cols:
+       - content: "15.00"
+       - content: "Fabio Schick & Ridvan Plluzhina"
+       - content: ""
+       - content: "Explore Bolzano"
+       - content: ""
+       - videoLink: https://vimeo.com/954678208
+    - cols:
+       - content: "15.10"
+       - content: "Jamil Hamza, Michele Magri & Yaroslav Rivny"
+       - content: ""
+       - content: "Weather Component"
+       - content: ""
+       - videoLink: https://vimeo.com/954678542
+    - cols:
+       - content: "15.20"
+       - content: "Aurelio Buonuomo & Christian Zanotti"
+       - content: ""
+       - content: "APISENSE - Simple API monitoring"
+       - content: ""
+       - videoLink: https://vimeo.com/954678859
     - cols:
       - content: "15.30"
       - content: ""
       - content: ""
       - content: "Closing"
       - content: ""
-      - content:
+      - content: ""
     
   btn_down_link: "https://pretix.eu/noi-digital/open-data-hub-day-24/"
   btn_down_label: "More info"

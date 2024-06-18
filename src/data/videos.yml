@@ -206,16 +206,51 @@ sections:
         target_blank: true
 
   ################################# Open Data Hub 2023 #########################
-  # - title: "**Open Data Hub Bootcamp 2024**"
-  #   initially_expanded: false
-  #   videos:
-  #     - subtitle: ""
-  #       title: "**Day Trip Planner**"
-  #       description: ""
-  #       btn_link: "/events/odhday23"
-  #       btn_label: Go to event page
-  #       video: "https://player.vimeo.com/video/830468551"
-  #       target_blank: false
+  - title: "**Open Data Hub Bootcamp 2024**"
+    initially_expanded: false
+    videos:
+      - subtitle: "Bootcamp 2024"
+        title: "**Day Trip Planner**"
+        description: "Fabio Vitalba & Maximilian Lochmann"
+        btn_link: ""
+        btn_label: ""
+        video: "https://player.vimeo.com/video/954677042"
+        target_blank: true
+      - subtitle: "Bootcamp 2024"
+        title: "**Tourist Map**"
+        description: "Anastasiia Guliaeva & Emanuele Pippa"
+        btn_link: ""
+        btn_label: ""
+        video: "https://player.vimeo.com/video/954677499"
+        target_blank: true
+      - subtitle: "Bootcamp 2024"
+        title: "**Accommodation finder**"
+        description: "Luca Vannuccini & Violetta Fazzi"
+        btn_link: ""
+        btn_label: ""
+        video: "https://player.vimeo.com/video/954677799"
+        target_blank: true
+      - subtitle: "Bootcamp 2024"
+        title: "**Explore Bolzano**"
+        description: "Fabio Schick & Ridvan Plluzhina"
+        btn_link: ""
+        btn_label: ""
+        video: "https://player.vimeo.com/video/954678208"
+        target_blank: true
+      - subtitle: "Bootcamp 2024"
+        title: "**Weather Component**"
+        description: "Jamil Hamza & Michele Magri & Yaroslav Rivny"
+        btn_link: ""
+        btn_label: ""
+        video: "https://player.vimeo.com/video/954678542"
+        target_blank: true
+      - subtitle: "Bootcamp 2024"
+        title: "**APISENSE - Simple API monitor**"
+        description: "Aurelio Buonuomo & Christian Zanotti"
+        btn_link: ""
+        btn_label: ""
+        video: "https://player.vimeo.com/video/954678859"
+        target_blank: true
 
   ################################# Open Data Hub 2023 #########################
   - title: "**Open Data Hub Day 2023**"
