@@ -197,9 +197,14 @@ menu:
       weight: 3
 
     - parent: community
+      name: Contributor of the Year
+      URL: /community/contributor-of-the-year
+      weight: 4
+
+    - parent: community
       name: Get Involved
       URL: /community/get-involved
-      weight: 4
+      weight: 5
 
     # --- Events ---
     - identifier: events
