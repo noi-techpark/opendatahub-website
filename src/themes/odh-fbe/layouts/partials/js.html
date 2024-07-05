@@ -6,4 +6,47 @@
 
 {{ range .Site.Params.plugins.js}}
 	<script src="{{ .URL | absURL }}"></script>
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+			var hash = window.location.hash;
+			if (hash) {
+				var targetElement = document.querySelector(hash);
+				if (targetElement) {
+
+					var allSections = document.querySelectorAll('.collapse');
+					allSections.forEach(function(section) {
+						if (section.classList.contains('show')) {
+							section.classList.remove('show');
+							var button = document.querySelector('[data-bs-target="#' + section.id + '"]');
+							if (button) {
+								button.setAttribute('aria-expanded', 'false');
+								var icon = button.querySelector('i.fa-caret-up');
+								if (icon) {
+									icon.classList.remove('fa-caret-up');
+									icon.classList.add('fa-caret-down');
+								}
+							}
+						}
+					});
+		
+					var section = targetElement.closest('.collapse');
+					if (section && !section.classList.contains('show')) {
+						var button = document.querySelector('[data-bs-target="#' + section.id + '"]');
+						if (button) {
+							button.click();
+							button.setAttribute('aria-expanded', 'true');
+							var icon = button.querySelector('i.fa-caret-down');
+							if (icon) {
+								icon.classList.remove('fa-caret-down');
+								icon.classList.add('fa-caret-up');
+							}
+						}
+					}
+				}
+			}
+		});
+		</script>
+		
+		
+
 {{ end }}
