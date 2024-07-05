@@ -8,18 +8,23 @@
 	<script src="{{ .URL | absURL }}"></script>
 	<script>
 		document.addEventListener('DOMContentLoaded', function() {
+			// Get the current hash from the URL
 			var hash = window.location.hash;
 			if (hash) {
+				// Find the element that matches the hash
 				var targetElement = document.querySelector(hash);
 				if (targetElement) {
-
+					// Close all other sections and update their icons
 					var allSections = document.querySelectorAll('.collapse');
 					allSections.forEach(function(section) {
 						if (section.classList.contains('show')) {
 							section.classList.remove('show');
+							// Find the button that controls this section
 							var button = document.querySelector('[data-bs-target="#' + section.id + '"]');
 							if (button) {
+								// Update the aria-expanded attribute to false
 								button.setAttribute('aria-expanded', 'false');
+								// Change the icon to indicate the section is collapsed
 								var icon = button.querySelector('i.fa-caret-up');
 								if (icon) {
 									icon.classList.remove('fa-caret-up');
@@ -29,11 +34,15 @@
 						}
 					});
 		
+					// Find the closest section to the target element
 					var section = targetElement.closest('.collapse');
 					if (section && !section.classList.contains('show')) {
+						// Find the button that controls this section
 						var button = document.querySelector('[data-bs-target="#' + section.id + '"]');
 						if (button) {
+							// Simulate a click to open the section
 							button.click();
+							// Ensure the icon state is updated for the opened section
 							button.setAttribute('aria-expanded', 'true');
 							var icon = button.querySelector('i.fa-caret-down');
 							if (icon) {
@@ -46,6 +55,7 @@
 			}
 		});
 		</script>
+		
 		
 		
 
