@@ -8,7 +8,6 @@ let hash = window.location.hash;
 
 if (hash) {
     // Find the element that matches the hash
-    console.log("hash " + hash);
     let targetElement = document.querySelector(hash);
     if (targetElement) {
         // Close all other sections and update their icons
