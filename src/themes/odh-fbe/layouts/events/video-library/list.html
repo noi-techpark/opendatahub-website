@@ -9,7 +9,6 @@
 {{ partial "title.html" .Params }}
 
 {{ range site.Data.videos.sections }}
-    <a id="{{ .title }}"></a>
     <section class="py-3">
         <div class="container py-3">
             <h3
@@ -19,8 +18,11 @@
                 aria-expanded="{{ .initially_expanded }}"
                 aria-controls="video-list-{{ sha1 .title }}"
                 class="d-inline video-section-title"
+                id="{{ .title | anchorize }}"
             >
-                {{ .title | markdownify }}
+                <a href="#{{ .title | anchorize }}" class="anchor-link">
+                    {{ .title | markdownify }}
+                </a>
                 <i class="fa fa-caret-up ms-1" aria-hidden="true"></i>
             </h3>
         </div>
