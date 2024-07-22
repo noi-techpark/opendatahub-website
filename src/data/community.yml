@@ -244,6 +244,10 @@ consumers:
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/peer.png"
       link: https://www.peer.biz/
 
+    - name: Photogram
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/photogram.png"
+      link: https://www.photogram.pro/
+
     - name: Reactive Software
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/ReactiveSoftware.png"
       link: https://snowmaps3d.com/snow/index_en.html
