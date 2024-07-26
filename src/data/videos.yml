@@ -88,6 +88,25 @@ sections:
         description: "Claudenir Fonseca and Tiago Prince Sales"
         video: https://www.youtube.com/embed/yuNPwC3sxow
 
+  ################################# Open Data Insights #########################
+  - title: "**Open Data Hub Insights**"
+    initially_expanded: false
+    videos:
+      - subtitle: "NOI Techpark"
+        title: "**Stuart: Implementing a chatbot uscing LLM and RAG - For users**"
+        description: "Chris Mair"
+        btn_link: "https://github.com/noi-techpark/stuart-chatbot"
+        btn_label: "Source code"
+        video: "https://player.vimeo.com/video/990462439"
+        target_blank: true
+      - subtitle: "NOI Techpark"
+        title: "**Stuart: Implementing a chatbot uscing LLM and RAG - For developers**"
+        description: "Chris Mair"
+        btn_link: "https://github.com/noi-techpark/stuart-chatbot"
+        btn_label: "Source code"
+        video: "https://player.vimeo.com/video/990454314"
+        target_blank: true
+
   ################################# Open Data Hub 2024 #########################
   - title: "**Open Data Hub Day 2024**"
     initially_expanded: false
