@@ -93,14 +93,14 @@ sections:
     initially_expanded: false
     videos:
       - subtitle: "NOI Techpark"
-        title: "**Stuart: Implementing a chatbot uscing LLM and RAG - For users**"
+        title: "**Stuart: Implementing a chatbot using LLM and RAG - For users**"
         description: "Chris Mair"
         btn_link: "https://github.com/noi-techpark/stuart-chatbot"
         btn_label: "Source code"
         video: "https://player.vimeo.com/video/990462439"
         target_blank: true
       - subtitle: "NOI Techpark"
-        title: "**Stuart: Implementing a chatbot uscing LLM and RAG - For developers**"
+        title: "**Stuart: Implementing a chatbot using LLM and RAG - For developers**"
         description: "Chris Mair"
         btn_link: "https://github.com/noi-techpark/stuart-chatbot"
         btn_label: "Source code"
