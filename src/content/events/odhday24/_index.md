@@ -258,15 +258,15 @@ content:
         - content: "Interview: Moritz Brunner (ËRT)"
         - content: ""
         - videoLink: "https://vimeo.com/951204749"
-#  rowPR:
-#    - colsPR:
-#        - content: "Scambio di dati tra Alto Adige, Tirolo e Baviera"
-#        - content: "Italian"
-#        - pressReleaseLink: "https://cloud.opendatahub.com/index.php/s/H4Q5rz6GJBgKtgx"
-#    - colsPR:
-#        - content: "Datenaustausch zwischen Südtirol, Tirol und Bayern"
-#        - content: "German"
-#        - pressReleaseLink: "https://cloud.opendatahub.com/index.php/s/oeMdAWx7ZHk7Hxx"
+  rowPR:
+    - colsPR:
+        - content: "La normativa europea sui dati protagonista del 4° Open Data Hub Day"
+        - content: "Italian"
+        - pressReleaseLink: "https://cloud.opendatahub.com/index.php/s/Xq7XZFcrEWSBcmD"
+    - colsPR:
+        - content: "EU-Datengesetz und Best Practices im Fokus des 4. Open Data Hub Day"
+        - content: "German"
+        - pressReleaseLink: "https://cloud.opendatahub.com/index.php/s/Y3AqkqTMLAbcNbs"
 #    - colsPR:
 #        - content: "Data sharing between South Tyrol, Tyrol and Bavaria"
 #        - content: "English"
