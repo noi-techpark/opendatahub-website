@@ -518,3 +518,7 @@ footer .w-fit {
   }
   
 }
+
+:target {
+  scroll-margin-top: 5rem;
+}

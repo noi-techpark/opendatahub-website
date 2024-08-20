@@ -2,7 +2,6 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
-
 // Get the current hash from the URL
 let hash = window.location.hash;
 
@@ -30,8 +29,15 @@ if (hash) {
             }
         });
 
-        // Find the closest section to the target element
         let section = targetElement.closest('.collapse');
+        if (!section) {
+            // If no collapse section is found, check if the targetElement is a section header
+            let sectionHeader = targetElement.closest('.video-section-title');
+            if (sectionHeader) {
+                section = document.querySelector('#' + sectionHeader.getAttribute('aria-controls'));
+            }
+        }
+        
         if (section && !section.classList.contains('show')) {
             // show section
             section.classList.add('show');
