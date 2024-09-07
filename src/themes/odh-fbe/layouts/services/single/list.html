@@ -15,8 +15,13 @@
 {{ end }}
 
 {{ if isset .Params "show_table" }}
-    {{ partial "title.html" site.Data.services.pricing }}
-    {{ partial "table-comparison.html" site.Data.services.pricing}}
+    {{ $anchor := "pricing" }}
+    <h2 id="{{ $anchor }}">
+        <a href="#{{ $anchor }}">
+            {{ partial "title.html" site.Data.services.pricing }}
+        </a>
+    </h2>
+    {{ partial "table-comparison.html" site.Data.services.pricing }}
 {{ end }}
 
 {{ end }}
