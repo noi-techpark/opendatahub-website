@@ -160,6 +160,10 @@ consumers:
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/acs.png"
       link: https://www.acs.it/
 
+    - name: Alperia SpA
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/alperia.png"
+      link: https://www.alperia.eu/
+
     - name: Arxax srl
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/arxax.png"
       link: https://www.arxax.com/
