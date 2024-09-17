@@ -81,6 +81,8 @@ params:
             URL: /services/data-sharing
           - text: Data Visualization
             URL: /services/data-visualization
+          - text: Certification
+            URL: /services/certification
       - title: Quickstart
         title_URL: /quickstart
         rows:
@@ -151,6 +153,11 @@ menu:
       URL: /services/data-visualization
       weight: 3
 
+    - parent: services
+      name: Certification
+      URL: /services/certification
+      weight: 4
+
     # --- Datasets ---
     - identifier: datasets
       URL: /datasets
@@ -179,7 +186,7 @@ menu:
     - identifier: community
       URL: /community
       name: Community
-      weight: 6
+      weight: 7
 
     - parent: community
       name: Data Providers
@@ -191,20 +198,26 @@ menu:
       URL: /community/#sm-tag-data-consumers
       weight: 2
 
+# [CTP] - uncomment below
+    # - parent: community
+    #   name: Certified Technology Provider
+    #   URL: /community/#sm-tag-certified-technology-provider
+    #   weight: 3
+    
     - parent: community
-      name: Partneships
+      name: Partnerships
       URL: /community/#sm-tag-partnerships
-      weight: 3
+      weight: 4
 
     - parent: community
       name: Contributor of the Year
       URL: /community/contributor-of-the-year
-      weight: 4
+      weight: 5
 
     - parent: community
       name: Get Involved
       URL: /community/get-involved
-      weight: 5
+      weight: 6
 
     # --- Events ---
     - identifier: events

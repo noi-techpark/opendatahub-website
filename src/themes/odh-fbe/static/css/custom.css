@@ -271,6 +271,17 @@ footer .w-fit {
   min-width: 100%;
 }
 
+#slideshow-container {
+  max-width: 100%;
+  overflow: hidden;
+  background-color: #fff;
+  display: flex;
+}
+
+#slideshow-container .slide {
+  min-width: 100%;
+}
+
 .shift-left-once {
   transition: all 1.5s cubic-bezier(.53, 0, .41, 1);
   transform: translateX(-100%);
