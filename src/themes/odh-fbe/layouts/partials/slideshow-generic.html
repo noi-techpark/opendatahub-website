@@ -1,0 +1,31 @@
+{{/*
+	SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+
+	SPDX-License-Identifier: AGPL-3.0-or-later
+*/}}
+
+<section class="logo-slideshow">
+  <div class="container">
+    <script defer src="/js/slideshow-generic.js"></script>
+
+    <div class="d-none" id="slideshow-item">
+      {{ range .siteCommunity.items }}
+        <div class="single-provider">
+          <div class="name">{{ .name }}</div>
+          <div class="img">{{ .img }}</div>
+          <div class="link">{{ .link }}</div>
+        </div>
+      {{ end }}
+    </div>
+
+    <div class="col-12 text-center">
+      <h3>{{ .siteHome.title | markdownify }}</h3>
+    </div>
+
+    <div id="slideshow-container" class="my-3"></div>
+
+    <div class="col-12 text-center">
+      <a href="{{ .siteHome.btn_link }}" class="btn btn-primary">{{ .siteHome.btn_label | markdownify }}</a>
+    </div>
+  </div>
+</section>

@@ -5,7 +5,7 @@
 ########################### Data provider #########################
 providers:
   title: Data Providers
-  subtitle: These Companies and Organisations are official Data Providers for the Open Data Hub and share data with others, to enable the implementation of innovative digital solutions.
+  subtitle: These Companies and Organizations are official Data Providers for the Open Data Hub and share data with others, to enable the implementation of innovative digital solutions.
   items:
     - name: Autostrada del Brennero SpA
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/a22.png"
@@ -288,6 +288,15 @@ consumers:
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/whispers.png"
       link: https://www.whispers.at/
 
+########################### Certified Technology Providers #########################
+certified:
+  title: Certified Technology Providers
+  subtitle: These Companies and Organizations are Certified Technology Providers for the Open Data Hub API and share data with others, to enable the implementation of innovative digital solutions.
+  items:
+    - name: (Example) NOI S.p.A.
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/NOI_1_BK_Com.png"
+      link: https://noi.bz.it
+      
 ########################### Partnerships and Alliances #########################
 partnerships:
   title: Partnerships and Alliances

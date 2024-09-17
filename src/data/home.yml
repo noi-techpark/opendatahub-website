@@ -25,6 +25,12 @@ community:
   title: "Join the **community**"
   btn_link: "/community"
   btn_label: "Join now"
+
+certified:
+  title: "Open Data Hub API Certified Technology Provider"
+  btn_link: "/services/certification"
+  btn_label: "Get Certified Now"
+
   # logos:
 
   #   - img: "https://third-party.opendatahub.com/opendatahub-website/img/community/alperia.png"
