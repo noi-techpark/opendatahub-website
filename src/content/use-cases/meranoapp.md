@@ -17,7 +17,7 @@ short:
   img_credit: "© Open Data Hub / Tania Marcadella"
   bg_darker: true
   partial: text-imgs-enlargeable.html
-  weight: 1
+  weight: 2
 
 start:
   description: "MERANO APP"
