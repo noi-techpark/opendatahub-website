@@ -16,7 +16,7 @@ short:
   bg_darker: true
   img_credit: "© SkyAlps"
   partial: text-imgs-enlargeable.html
-  weight: 5
+  weight: 6
 
 start:
   description: "SKYALPS"

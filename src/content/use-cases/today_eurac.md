@@ -16,7 +16,7 @@ short:
   img_credit: "© Open Data Hub / Tania Marcadella"
   bg_darker: true
   partial: text-imgs-enlargeable.html
-  weight: 3
+  weight: 4
 
 start:
   subtitle: "TODAY@EURAC"

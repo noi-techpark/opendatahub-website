@@ -15,7 +15,7 @@ short:
   img_back: "/img/use-cases/ODH-usecase-Ontopic-01.png"
   bg_darker: true
   partial: imgs-text.html
-  weight: 4
+  weight: 5
 
 start:
   description: "ONTOPIC"
