@@ -6,17 +6,13 @@
 	
 {{"<!-- Double Column Text - Imgs -->" | safeHTML }}
 <section>
-	<div class="container">
-		<div class="col-12">
-			<h2>{{ .title | markdownify }}</h2>
-			<p>{{ .description | markdownify }}</p>
-		</div>
-	</div>
-</section>
-<section>
-	<div class="container">
-		<div class="row">
-            {{ partial "contact-mailto.html" . }}
+	<div class="justify-content-between py-4">
+		<div class="container">
+			<div class="col-12">
+				<h2>{{ .title | markdownify }}</h2>
+				<p>{{ .description | markdownify }}</p>
+				{{ partial "contact-mailto.html" . }}
+			</div>
 		</div>
 	</div>
 </section>
