@@ -16,7 +16,7 @@ short:
   img_back: "/img/use-cases/OpenDataHub-Campiglio-Openmove-Tania-Marcadella-2024-9156.jpg"
   img_credit: "© Open Data Hub / Tania Marcadella"
   bg_darker: true
-  partial:  text-imgs.html
+  partial:  imgs-text.html
   weight: 1
 
 start:
