@@ -16,7 +16,7 @@ short:
   img_back: "/img/use-cases/opendatahub_contributor_of_the_year_award.jpg"
   bg_darker: false
   partial: imgs-text.html
-  weight: 1
+  weight: 3
 
 start:
   description: "OPEN DATA HUB"

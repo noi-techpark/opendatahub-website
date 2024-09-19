@@ -16,7 +16,7 @@ short:
   img_credit: "© Open Data Hub / Tania Marcadella"
   bg_darker: true
   partial: imgs-text-enlargeable.html
-  weight: 3
+  weight: 5
 
 start:
   subtitle: "SÜDTIROLMOBIL - ALTOADIGEMOBILITÀ"
