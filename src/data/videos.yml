@@ -139,6 +139,13 @@ sections:
         btn_label: "Web Components"
         video: "https://player.vimeo.com/video/917806135"
         target_blank: true
+      - subtitle: "NOI Techpark"
+        title: "**How to create a webcomponent**"
+        description: "Open Data Hub Customer Care Team"
+        btn_link: "https://webcomponents.opendatahub.com/how-to-create/"
+        btn_label: "Full Tutorial Series"
+        video: "https://player.vimeo.com/video/734001032"
+        target_blank: true
 
   ################################# Open Data Hub 2024 #########################
   - title: "**Open Data Hub Day 2024**"
