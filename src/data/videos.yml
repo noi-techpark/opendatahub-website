@@ -118,6 +118,27 @@ sections:
         btn_label: "Data Browser"
         video: "https://player.vimeo.com/video/1000689710"
         target_blank: true
+      - subtitle: "NOI Techpark"
+        title: "**How to add a webcomponent via HTML**"
+        description: "Open Data Hub Customer Care Team"
+        btn_link: "https://webcomponents.opendatahub.com/"
+        btn_label: "Web Components"
+        video: "https://player.vimeo.com/video/734000845"
+        target_blank: true
+      - subtitle: "NOI Techpark"
+        title: "**How to add a webcomponent to WordPress**"
+        description: "Open Data Hub Customer Care Team"
+        btn_link: "https://webcomponents.opendatahub.com/"
+        btn_label: "Web Components"
+        video: "https://player.vimeo.com/video/917806165"
+        target_blank: true
+      - subtitle: "NOI Techpark"
+        title: "**How to add a webcomponent to TYPO3**"
+        description: "Open Data Hub Customer Care Team"
+        btn_link: "https://webcomponents.opendatahub.com/"
+        btn_label: "Web Components"
+        video: "https://player.vimeo.com/video/917806135"
+        target_blank: true
 
   ################################# Open Data Hub 2024 #########################
   - title: "**Open Data Hub Day 2024**"
