@@ -45,6 +45,19 @@ pricing:
       color_class: bg-pro
   row:
     - cols:
+        - content: "<a href='https://github.com/noi-techpark/odh-docs/wiki/Historical-Data-and-Request-Rate-Limits'><u>Maximum request period for historical data</u></a>"
+        - content: "5 days - 100 days"
+        - content: "1000 days"
+        - content: "unlimited"
+        - content: "unlimited"
+    - cols:
+        - content: "<a href='https://github.com/noi-techpark/odh-docs/wiki/Request-Rate-Limits'><u>Requests per Second</u></a>"
+        - content: "10 - 20"
+        - content: "50"
+        - content: "100"
+        - content: "200"
+
+    - cols:
         - content: Access to all Open Data provided
         - content: "&#10004;"
         - content: "&#10004;"
