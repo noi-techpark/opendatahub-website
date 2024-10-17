@@ -7,6 +7,10 @@ boxes:
     subtitle: Browse and discover the available data.
     btn_link: https://databrowser.opendatahub.com
 
+  - title: Transmodel API - NeTEx Endpoints
+    subtitle: Access standardized planned mobility data including public transport, parking, and sharing services in NeTEx format.
+    btn_link: https://github.com/noi-techpark/odh-docs/wiki/Transmodel-API-%E2%80%90-NeTEx-Endpoints
+
   - title: Analytics Tool
     subtitle: Find out information about sensors and their locations and measure (near-real time data).
     btn_link: https://analytics.opendatahub.com
