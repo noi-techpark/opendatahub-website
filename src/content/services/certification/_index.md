@@ -3,6 +3,7 @@ type: services/single
 position: "Services"
 aliases: /certification
 title: "Open Data Hub API Certified Technology Provider"
+subtitle: "The Open Data Hub API Certified Technology Provider certification recognises IT companies that integrate with the Open Data Hub, enabling data providers to seamlessly share their data through their platforms and systems."
 
 rows:
   - title: "How to be certified?"
