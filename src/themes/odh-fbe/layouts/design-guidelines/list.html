@@ -1,0 +1,249 @@
+{{/*
+	SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+
+	SPDX-License-Identifier: AGPL-3.0-or-later
+*/}}
+
+{{ define "main" }}
+
+{{ partial "title.html" .Params }}
+<div class="container py-3">
+    <h1 type="button" data-bs-toggle="collapse" data-bs-target="#colors-content" aria-expanded="false" aria-controls="" class="d-inline video-section-title" id="colors">
+        <a href="#colors" class="anchor-link fw-semibold">
+            Colors
+        </a>
+        <i class="fa fa-caret-up ms-1" aria-hidden="false"></i>
+    </h1>
+    <div class="video collapse" id="colors-content">
+        <h5> The font color is #212529 </h5>    
+    <div class="col-lg-4 col-md-6 col-12">
+        <div class="bg-primary-subtle border-5 px-4 pt-5 pb-4 h-100 d-flex flex-row align-items-start">
+            <h5 class="fw-bold">Primary color <br> #f3f3f3</h5>
+        </div>
+        <br>
+        <div class="bg-secondary border-5 px-4 pt-5 pb-4 h-100 d-flex flex-row align-items-start">
+            <h5 class="fw-bold">Secondary color <br> rgb(108, 117, 125)</h5>
+        </div>
+        <br>
+        <div class="bg-secondary-subtle border-5 px-4 pt-5 pb-4 h-100 d-flex flex-row align-items-start">
+            <h5 class="fw-bold">Tertiary color <br> rgba(33, 37, 41, 0.5)</h5>
+        </div>
+        <br>
+        <div class="bg-black border-5 px-4 pt-5 pb-4 h-100 d-flex flex-row align-items-start">
+            <h5 class="fw-bold">Quaternary color <br> #000 </h5>
+        </div>
+    </div>
+    </div>
+</div>
+
+<div class="container py-3">
+    <h1 type="button" data-bs-toggle="collapse" data-bs-target="#typography-content" aria-expanded="false" aria-controls="" class="d-inline video-section-title" id="typography">
+        <a href="#typography" class="anchor-link fw-semibold">
+            Typography
+        </a>
+        <i class="fa fa-caret-up ms-1" aria-hidden="true"></i>
+    </h1>
+    <div class="video collapse" id="typography-content">
+        <h5> The font used is Open Sans font </h5>    
+        <br>
+        <div> 
+            <h3 class="fw-semibold">Characters:</h3> 
+        </div> 
+        <br>
+        <div class="row gy-4">
+            <div class="col-lg-8"> 
+				<h5> A​‌B​‌C​‌Ć​‌Č​‌D​‌Đ​‌E​‌F​‌G​‌H​‌I​‌J​‌K​‌L​‌M​‌N​‌O​‌P​‌Q​‌R​‌S​‌Š​‌T​‌U​‌V​‌W​‌X​‌Y​‌Z​‌Ž​‌a​‌b​‌c​‌č​‌ć​‌d​‌đ​‌e​‌f​‌g​‌h​‌i​‌j​‌k​‌l​‌m​‌n​‌o​‌p​‌q​‌r​‌s​‌š​‌t​‌u​‌v​‌w​‌x​‌y​‌z​‌ž​‌
+                    А​‌Б​‌В​‌Г​‌Ґ​‌Д​‌Ђ​‌Е​‌Ё​‌Є​‌Ж​‌З​‌Ѕ​‌И​‌І​‌Ї​‌Й​‌Ј​‌К​‌Л​‌Љ​‌М​‌Н​‌Њ​‌О​‌П​‌Р​‌С​‌Т​‌Ћ​‌У​‌Ў​‌Ф​‌Х​‌Ц​‌Ч​‌Џ​‌Ш​‌Щ​‌Ъ​‌Ы​‌Ь​‌Э​‌Ю​‌Я​‌а​‌б​‌в​‌г​‌ґ
+                    ​‌д​‌ђ​‌е​‌ё​‌є​‌ж​‌з​‌ѕ​‌и​‌і​‌ї​‌й​‌ј​‌к​‌л​‌љ​‌м​‌н​‌њ​‌о​‌п​‌р​‌с​‌т​‌ћ​‌у​‌ў​‌ф​‌х​‌ц​‌ч​‌џ​‌ш​‌щ​‌ъ​‌ы​‌ь​‌э​‌ю​‌я​‌Α​‌Β​‌Γ​‌Δ​‌Ε​‌Ζ​‌Η​‌Θ​‌Ι​‌Κ
+                    ​‌Λ​‌Μ​‌Ν​‌Ξ​‌Ο​‌Π​‌Ρ​‌Σ​‌Τ​‌Υ​‌Φ​‌Χ​‌Ψ​‌Ω​‌α​‌β​‌γ​‌δ​‌ε​‌ζ​‌η​‌θ​‌ι​‌κ​‌λ​‌μ​‌ν​‌ξ​‌ο​‌π​‌ρ​‌σ​‌τ​‌υ​‌φ​‌χ​‌ψ​‌ω​‌ά​‌Ά​‌έ​‌Έ​‌έ​‌Ή​‌ί​‌ϊ​‌ΐ​‌Ί​‌ό​‌Ό​‌ύ​‌ΰ​‌ϋ​‌Ύ​‌Ϋ
+                    ​‌ὰ​‌ά​‌ὲ​‌έ​‌ὴ​‌ή​‌ὶ​‌ί​‌ὸ​‌ό​‌ὺ​‌ύ​‌ὼ​‌ώ​‌Ώ​‌Ă​‌Â​‌Ê​‌Ô​‌Ơ​‌Ư​‌ă​‌â​‌ê​‌ô​‌ơ​‌ư​‌1​‌2​‌3​‌4​‌5​‌6​‌7​‌8​‌9​‌0​‌‘​‌?​‌’​‌“​‌!​‌”​‌(​‌%​‌)​‌[​‌#​‌]​‌{​‌@​‌}​‌/​‌&​‌\​‌<​‌-​‌+​‌÷​‌×​‌=​‌>​‌®​‌©​‌$​‌€​‌£​‌¥​‌¢​‌:​‌;​‌,​‌.​‌*
+
+                </h5>
+            </div>        
+            <div class="col-lg-8">
+                <br>
+                <h1> This is a Title</h1>
+            </div>
+            <div class="col-lg-8"> 
+				<h2> This is a Section Title</h2>
+            </div>
+            <div class="col-lg-8"> 
+                <h5 
+                class="w-fit mb-1 fw-semibold" 
+                style="cursor: pointer; text-decoration: none;" 
+                onmouseover="this.style.textDecoration='underline';" 
+                onmouseout="this.style.textDecoration='none';">
+                This is a Link
+                </h5>
+            </div>
+        </div>
+			{{ partial "quote.html" (dict "title" "quote" "subtitle" "This is a quote") }}
+    </div>
+    </div>
+</div>
+
+<div class="container py-3">
+    <h1 type="button" data-bs-toggle="collapse" data-bs-target="#button-content" aria-expanded="false" aria-controls="" class="d-inline video-section-title" id="button">
+        <a href="#button" class="anchor-link fw-semibold">
+            Buttons
+        </a>
+        <i class="fa fa-caret-up ms-1" aria-hidden="true"></i>
+    </h1>
+    <div class="video collapse" id="button-content">
+        <div class="row gy-4">
+            <div class="col-lg-8">
+                <button class="btn btn-primary">Primary button</button>
+                <button class="btn btn-secondary">Secondary button</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container py-3">
+    <h1 type="button" data-bs-toggle="collapse" data-bs-target="#forms-content" aria-expanded="false" aria-controls="" class="d-inline video-section-title" id="forms">
+        <a href="#forms" class="anchor-link fw-semibold">
+            Forms
+        </a>
+        <i class="fa fa-caret-up ms-1" aria-hidden="true"></i>
+    </h1>
+    <div class="video collapse" id="forms-content">
+        {{ partial "text-contact.html" (dict "title" "This is a contact form")}}
+    </div>
+</div>
+
+<div class="container py-3">
+    <h1 type="button" data-bs-toggle="collapse" data-bs-target="#logos-content" aria-expanded="false" aria-controls="" class="d-inline video-section-title" id="logos">
+        <a href="#logos" class="anchor-link fw-semibold">
+            Logos
+        </a>
+        <i class="fa fa-caret-up ms-1" aria-hidden="true"></i>
+    </h1>
+    <div class="video collapse" id="logos-content">
+    <div class="row gy-4 py-4">
+        <div class="col-lg-4 col-md-6 col-12 flex-column">
+            <img src="https://cloud.opendatahub.com/index.php/apps/files_sharing/publicpreview/dimRZHxYYw8rc6b?file=/NOI_OPENDATAHUB_NEW_BK-01.png&fileId=379818&x=1920&y=1200&a=true" alt=""/>
+            <h5>Black</h5>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 flex-column">
+            <img class="bg-black" src="https://cloud.opendatahub.com/index.php/apps/files_sharing/publicpreview/dimRZHxYYw8rc6b?file=/NOI_OPENDATAHUB_NEW_WH-01.png&fileId=379827&x=1920&y=1200&a=true" alt=""/>
+            <h5>White</h5>
+        </div>
+    </div>
+    </div>
+</div>
+<div class="container py-3">
+    <h1 type="button" data-bs-toggle="collapse" data-bs-target="#header-content" aria-expanded="false" aria-controls="" class="d-inline video-section-title" id="header">
+        <a href="#header" class="anchor-link fw-semibold">
+            Header
+        </a>
+        <i class="fa fa-caret-up ms-1" aria-hidden="true"></i>
+    </h1>
+    <div class="video collapse" id="header-content">
+        <h5> The header is divided into two sections: the left side and the right side.
+            <br>The text links in the navigation bar change to a darker color when hovered over.
+        </h5>    
+        <br>
+        <div> 
+            <h3 class="fw-semibold">Left side</h3> 
+        </div> 
+        <div class="row gy-4">
+            <div class="col-lg-9"> 
+				<h5> The left side contains the Open Data Hub logo followed by a horizontal navigation menu with links to the following sections: Services, Datasets, Use Cases, Web Components, Quickstart, Community, and Events. 
+                    <br>
+                    Dropdown menus are available for Services, Community, and Events, indicated by small downward arrows. These expand to reveal additional sub-options:
+                    <br>
+                    <br>
+                    <b>Services</b>:  
+                    Data Access, 
+                    Data Sharing,  
+                    Data Visualization,  
+                    Certification  
+                    <br>
+                    <br>
+                    <b>Community</b>:  
+                    Data Providers, 
+                    Data Consumers, 
+                    Partnerships, 
+                    Contributor of the Year, 
+                    Get Involved  
+                    <br>
+                    <br>
+                    <b>Events</b>:  
+                    Upcoming Events, 
+                    Past Events, 
+                    Recurring Events, 
+                    Video Library 
+                </h5>
+            </div>        
+        </div>
+        <br>
+        <div> 
+            <h3 class="fw-semibold">Right side</h3> 
+        </div> 
+        <div class="row gy-4">
+            <div class="col-lg-9"> 
+				<h5> The right side displays the About Us link, which also includes a dropdown menu that expands with the suboptions "About us" and "Contact us". To the far right is the NOI Techpark logo, visually connecting the platform to its parent organization.
+                </h5>
+            </div>        
+        </div>
+    </div>
+</div>
+
+<div class="container py-3">
+    <h1 type="button" data-bs-toggle="collapse" data-bs-target="#footer-content" aria-expanded="false" aria-controls="" class="d-inline video-section-title" id="footer">
+        <a href="#footer" class="anchor-link fw-semibold">
+            Footer
+        </a>
+        <i class="fa fa-caret-up ms-1" aria-hidden="true"></i>
+    </h1>
+    <div class="video collapse" id="footer-content">
+        <h5> The footer is structured into two main sections: the upper part and the lower part </h5>    
+        <br>
+        <div> 
+            <h3 class="fw-semibold">Upper part</h3> 
+        </div> 
+        <div class="row gy-4">
+            <div class="col-lg-9"> 
+				<h5> The upper part of the footer is divided into two sections. 
+                    <br>
+                    <br>
+                    On the <b>left</b>, the Open Data Hub logo is displayed with the tagline <b>"Place where data and tech are shared"</b>, underlined on hover and serves as a link to the Open Data Hub main page. 
+
+                    <br> 
+                    <br>
+                    On the <b>right</b>, the NOI Techpark logo is shown with the tagline <b>"Innovation hub in Südtirol/Alto Adige"</b>, underlined on hover and links to the NOI Techpark website.
+
+            
+
+                </h5>
+            </div>        
+        </div>
+        <br>
+        <div> 
+            <h3 class="fw-semibold">Lower part</h3> 
+        </div> 
+        <div class="row gy-4">
+            <div class="col-lg-9"> 
+				<h5> The lower part is divided into four sections: Services, Quickstart, Community, and Social Media.
+                    <br>
+                    <br>
+
+                    The <b>Services</b> section includes links to Data Access, Data Sharing, Data Visualization, and Certification, providing access to core Open Data Hub functionalities.
+                    <br>
+                    <br>
+                    The <b>Quickstart</b> section offers links to Datasets, the Data Browser, Analytics Tool, Web Components, and resources for accessing Open Data Hub data using R.
+                    <br>
+                    <br>
+                    The <b>Community</b> section provides links to community resources and events.
+                    <br>
+                    <br>
+                    The <b>Social Media</b> section links to GitHub, Telegram, element.io, and Facebook.  Each platform is represented by its logo on the left of the link.
+                    <br>
+                    <br>
+                    All links in the lower part should underline on hover to indicate interactivity and improve usability.</h5>
+            </div>        
+        </div>
+    </div>
+</div>
+
+{{ end }}
