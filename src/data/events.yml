@@ -4,6 +4,60 @@
 
 events:
 
+  - title: NOI Hackathon - SFSCON Edition 2025
+    subtitle: 24 hours of hacking, collaborating, co-creating and developing.
+    img: /img/events/20251107-Hackathon-SFSCON.jpg
+    day: "2025-11-07"
+    time: "10:30"
+    location: "NOI Techpark"
+    btn_link: https://hackathon.bz.it
+    btn_label: More info
+  
+  - title: SFSCON 2025
+    subtitle: SFSCON is one of Europe's most established annual conferences on Free Software for Digital Infrastructures as a tool for fostering innovation and competitiveness.
+    img: /img/events/20251107-SFSCON2025.jpg
+    day: "2025-11-07"
+    time: "8:30"
+    location: "NOI Techpark"
+    btn_link: https://www.sfscon.it/
+    btn_label: More info
+
+  - title: NOI Hackathon - Summer Edition 2025
+    subtitle: 24 hours of hacking, collaborating, co-creating and developing.
+    img: /img/events/20250801-Hackathon-Summer2025.jpg
+    day: "2025-08-01"
+    time: "10:30"
+    location: "Lido Schenna"
+    btn_link: https://hackathon.bz.it
+    btn_label: More info
+
+  - title: Open Data Hub Day 2025
+    subtitle: A best practice event to help you understand and maximise the value of data. Now in its fifth edition.
+    img: /img/events/20250530-OpenDataHubDay25.jpg
+    day: "2025-05-30"
+    time: "08:30 - 17:00"
+    location: "NOI Techpark"
+    btn_link: /events/odhday25
+    btn_label: Slides & Videos
+
+  - title: Open Data Hub Bootcamp 2025
+    subtitle: Explore the limitless possibilities of the Open Data Hub in a collaborative, fun environment where you can share knowledge, experiences - and inspiration!
+    img: /img/events/20240419-bootcamp.png
+    day: "2025-04-11"
+    time: "9:00 - 18:00"
+    location: "NOI Techpark"
+    btn_link: /events/bootcamp25
+    btn_label: More info
+
+  - title: Software Developers' Thursday 2024 | February
+    subtitle: Design Challenges in the context of the Open Data Hub
+    img: /img/events/SDT-Generci.png
+    day: "2025-02-06"
+    time: "18:30 - 20:00"
+    location: "NOI Techpark"
+    btn_link: https://pretix.eu/noi-digital/sdt25/4196914/
+    btn_label: Registration
+
   - title: South Tyrol Free Software Conference - 2024
     subtitle: The SFSCON is one of Europe’s most established annual conferences on Free Software in digital infrastructures as a tool to achieve greater innovation and competitiveness.
     img: /img/events/20241108-sfscon24.png

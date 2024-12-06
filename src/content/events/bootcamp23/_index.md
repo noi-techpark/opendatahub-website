@@ -4,8 +4,6 @@ content_partial: table-program
 position: "Events"
 url: "/events/bootcamp23"
 aliases:
-#  - "/events/bootcamp"
-#  - "/bootcamp"
   - "/bootcamp23"
 
 title: "Open Data Hub Bootcamp 2023"
