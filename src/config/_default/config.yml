@@ -219,6 +219,11 @@ menu:
       URL: /community/get-involved
       weight: 6
 
+    - parent: community
+      name: Design Guidelines
+      URL: /community/design-guidelines
+      weight: 7
+
     # --- Events ---
     - identifier: events
       URL: /events
