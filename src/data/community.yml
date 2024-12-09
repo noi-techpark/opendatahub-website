@@ -143,6 +143,10 @@ providers:
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/systems.png"
       link: https://www.systems.bz/
 
+    - name: Taxi Merano
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/taxiMerano.png"
+      link: https://www.smart-taxi-merano.it/
+
     - name: TreviLab
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/TreviLab.png"
       link: http://www.provinz.bz.it/arte-cultura/cultura/centro-trevi.asp
@@ -208,7 +212,7 @@ consumers:
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/eurac.png"
       link: https://www.eurac.edu/
     
-    - name: MFactory
+    - name: Factory
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/factory.png"
       link: https://www.factory.it
 
