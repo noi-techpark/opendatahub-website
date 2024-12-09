@@ -15,7 +15,7 @@ Join us as we explore the topic with experts and representatives from leading co
 
 program:
   title: "Open Data Hub Day - Programme"
-  subtitle: "The event will be held in English. The slides and video recordings of the Open Data Hub Day will be pudlished online after the event."
+  subtitle: "The event will be held in English. Below is the preliminary programme. The final programme will be published one month before the event."
 
 content:
   title: Call4Speakers

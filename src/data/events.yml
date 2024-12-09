@@ -8,7 +8,7 @@ events:
     subtitle: 24 hours of hacking, collaborating, co-creating and developing.
     img: /img/events/20251107-Hackathon-SFSCON.jpg
     day: "2025-11-07"
-    time: "10:30"
+    time: "13:00"
     location: "NOI Techpark"
     btn_link: https://hackathon.bz.it
     btn_label: More info
@@ -38,7 +38,7 @@ events:
     time: "08:30 - 17:00"
     location: "NOI Techpark"
     btn_link: /events/odhday25
-    btn_label: Slides & Videos
+    btn_label: More info
 
   - title: Open Data Hub Bootcamp 2025
     subtitle: Explore the limitless possibilities of the Open Data Hub in a collaborative, fun environment where you can share knowledge, experiences - and inspiration!
