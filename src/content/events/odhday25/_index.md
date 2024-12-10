@@ -108,8 +108,8 @@ content:
       - content: ""
       - content: ""
     
-  btn_down_link: "https://pretalx.com/open-data-hub-day-2025/cfp"
-  btn_down_label: "Call4Speakers"
+  btn_down_link: "https://pretix.eu/noi-digital/open-data-hub-day-25/"
+  btn_down_label: "Register Now"
   btn_down_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
   # headerPR:
