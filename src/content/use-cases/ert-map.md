@@ -32,6 +32,8 @@ paragraphs:
     In the video interview Brunner highlighted the key benefits of using open data: the vast quantity and variety of information available, and the relative ease with which it can be integrated into new projects. By leveraging these open data sources, ËRT can provide richer, more comprehensive models that respond dynamically to real-world information."
     img_back: "/img/use-cases/OpenDataHub-usecase-ert-moritz-brunner-01.jpg"
     img_credit: "© ËRT / Moritz Brunner"
+    btn_link: "https://opendatahub.com/services/data-access/"
+    btn_label: Data Access
     partial: imgs-text-enlargeable.html
 
 
@@ -50,8 +52,6 @@ paragraphs:
     Discover how the Data Access Service can support your vision."
     img_back: "/img/use-cases/OpenDataHub-usecase-ert-moritz-brunner-03.jpg"
     img_credit: "© Open Data Hub / Tania Marcadella"
-    btn_link: "https://opendatahub.com/services/data-access/"
-    btn_label: Data Access
     btn_link: "https://opendatahub.com/contact/"
     btn_label: Contact us
     partial:  imgs-text-enlargeable.html
