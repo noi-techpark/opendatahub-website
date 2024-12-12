@@ -14,7 +14,9 @@
 {{ with .Site.Params.description }}
 <meta name="description" content="{{ . }}" />{{ end }} {{ with .Site.LanguageCode }}
 <meta http-equiv="content-language" content="{{ . }}" />{{ end }}
-
+{{ if .Site.Params.noindex }}
+<meta name="robots" content="noindex,nofollow">
+{{ end }}
 {{ if not .Site.Params.OpenGraph.hide }}
 <meta name="og:site_name" content="{{ .Site.Title }}" />
 <meta name="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}" />
