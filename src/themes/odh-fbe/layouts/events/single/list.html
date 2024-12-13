@@ -7,12 +7,20 @@
 {{ define "main" }}
 
 {{ partial "title.html" .Params }}
+	{{ if (.Params.callForSpeakers) }}
+		<section class="bg-darker pb-1">
+			{{ partial "call-for-speaker-section.html" .Params.callForSpeakers }}
+		</section> 
 
-<section class="bg-darker pb-1">
-
-	{{ partial "title-section.html" .Params.program }}
-	{{ partial .Params.content_partial .Params.content }}
-	
-</section>
+		<section class="bg pb-1">
+			{{ partial "title-section.html" .Params.program }}
+			{{ partial .Params.content_partial .Params.content }}
+		</section>
+	{{else}}
+		<section class="bg-darker pb-1">
+			{{ partial "title-section.html" .Params.program }}
+			{{ partial .Params.content_partial .Params.content }}
+		</section>
+	{{end}}
 
 {{ end }}

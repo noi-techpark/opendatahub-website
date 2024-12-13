@@ -24,3 +24,5 @@ web_components:
         value: https://fonts.testingmachine.eu/open-sans/style.css
       - key: font-name
         value: Open Sans
+
+noindex: false
