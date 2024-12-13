@@ -1,6 +1,7 @@
 
 
 ---
+type: community/design-guidelines
 position: "Community"
 aliases: /design-guidelines
 title: "Design Guidelines"
