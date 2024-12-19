@@ -7,15 +7,16 @@
 {{ define "main" }}
 
 {{ partial "title.html" .Params }}
-<div class="container py-3">
-    <h1 type="button" data-bs-toggle="collapse" data-bs-target="#colors-content" aria-expanded="false" aria-controls="" class="d-inline video-section-title" id="colors">
-        <a href="#colors" class="anchor-link fw-semibold">
-            Colors
+<br>
+<div class="container py-2">
+    <h3 type="button" data-bs-toggle="collapse" data-bs-target="#colors-content" aria-expanded="false" aria-controls="" class="d-inline video-section-title" id="colors">
+        <a href="#colors" class="anchor-link">
+            <strong>Colors</strong>
         </a>
         <i class="fa fa-caret-up ms-1" aria-hidden="false"></i>
-    </h1>
+    </h3>
     <div class="video collapse" id="colors-content">
-        <h5> The font color is #212529 </h5>    
+        <p> The font color is #212529 </p>    
     <div class="col-lg-4 col-md-6 col-12">
         <div class="bg-primary-subtle border-5 px-4 pt-5 pb-4 h-100 d-flex flex-row align-items-start">
             <h5 class="fw-bold">Primary color <br> #f3f3f3</h5>
@@ -37,58 +38,133 @@
 </div>
 
 <div class="container py-3">
-    <h1 type="button" data-bs-toggle="collapse" data-bs-target="#typography-content" aria-expanded="false" aria-controls="" class="d-inline video-section-title" id="typography">
+    <h3 type="button" data-bs-toggle="collapse" data-bs-target="#typography-content" aria-expanded="false" aria-controls="" class="d-inline video-section-title" id="typography">
         <a href="#typography" class="anchor-link fw-semibold">
-            Typography
+            <strong>Typography</strong>
         </a>
         <i class="fa fa-caret-up ms-1" aria-hidden="true"></i>
-    </h1>
+    </h3>
     <div class="video collapse" id="typography-content">
-        <h5> The font used is Open Sans font </h5>    
-        <br>
+        <p> The font used is Open Sans font </p>    
         <div> 
-            <h3 class="fw-semibold">Characters:</h3> 
+            <h4 class="fw-bold ">Characters</h4> 
         </div> 
-        <br>
         <div class="row gy-4">
             <div class="col-lg-8"> 
-				<h5> A​‌B​‌C​‌Ć​‌Č​‌D​‌Đ​‌E​‌F​‌G​‌H​‌I​‌J​‌K​‌L​‌M​‌N​‌O​‌P​‌Q​‌R​‌S​‌Š​‌T​‌U​‌V​‌W​‌X​‌Y​‌Z​‌Ž​‌a​‌b​‌c​‌č​‌ć​‌d​‌đ​‌e​‌f​‌g​‌h​‌i​‌j​‌k​‌l​‌m​‌n​‌o​‌p​‌q​‌r​‌s​‌š​‌t​‌u​‌v​‌w​‌x​‌y​‌z​‌ž​‌
+				<p> A​‌B​‌C​‌Ć​‌Č​‌D​‌Đ​‌E​‌F​‌G​‌H​‌I​‌J​‌K​‌L​‌M​‌N​‌O​‌P​‌Q​‌R​‌S​‌Š​‌T​‌U​‌V​‌W​‌X​‌Y​‌Z​‌Ž​‌a​‌b​‌c​‌č​‌ć​‌d​‌đ​‌e​‌f​‌g​‌h​‌i​‌j​‌k​‌l​‌m​‌n​‌o​‌p​‌q​‌r​‌s​‌š​‌t​‌u​‌v​‌w​‌x​‌y​‌z​‌ž​‌
                     А​‌Б​‌В​‌Г​‌Ґ​‌Д​‌Ђ​‌Е​‌Ё​‌Є​‌Ж​‌З​‌Ѕ​‌И​‌І​‌Ї​‌Й​‌Ј​‌К​‌Л​‌Љ​‌М​‌Н​‌Њ​‌О​‌П​‌Р​‌С​‌Т​‌Ћ​‌У​‌Ў​‌Ф​‌Х​‌Ц​‌Ч​‌Џ​‌Ш​‌Щ​‌Ъ​‌Ы​‌Ь​‌Э​‌Ю​‌Я​‌а​‌б​‌в​‌г​‌ґ
                     ​‌д​‌ђ​‌е​‌ё​‌є​‌ж​‌з​‌ѕ​‌и​‌і​‌ї​‌й​‌ј​‌к​‌л​‌љ​‌м​‌н​‌њ​‌о​‌п​‌р​‌с​‌т​‌ћ​‌у​‌ў​‌ф​‌х​‌ц​‌ч​‌џ​‌ш​‌щ​‌ъ​‌ы​‌ь​‌э​‌ю​‌я​‌Α​‌Β​‌Γ​‌Δ​‌Ε​‌Ζ​‌Η​‌Θ​‌Ι​‌Κ
                     ​‌Λ​‌Μ​‌Ν​‌Ξ​‌Ο​‌Π​‌Ρ​‌Σ​‌Τ​‌Υ​‌Φ​‌Χ​‌Ψ​‌Ω​‌α​‌β​‌γ​‌δ​‌ε​‌ζ​‌η​‌θ​‌ι​‌κ​‌λ​‌μ​‌ν​‌ξ​‌ο​‌π​‌ρ​‌σ​‌τ​‌υ​‌φ​‌χ​‌ψ​‌ω​‌ά​‌Ά​‌έ​‌Έ​‌έ​‌Ή​‌ί​‌ϊ​‌ΐ​‌Ί​‌ό​‌Ό​‌ύ​‌ΰ​‌ϋ​‌Ύ​‌Ϋ
                     ​‌ὰ​‌ά​‌ὲ​‌έ​‌ὴ​‌ή​‌ὶ​‌ί​‌ὸ​‌ό​‌ὺ​‌ύ​‌ὼ​‌ώ​‌Ώ​‌Ă​‌Â​‌Ê​‌Ô​‌Ơ​‌Ư​‌ă​‌â​‌ê​‌ô​‌ơ​‌ư​‌1​‌2​‌3​‌4​‌5​‌6​‌7​‌8​‌9​‌0​‌‘​‌?​‌’​‌“​‌!​‌”​‌(​‌%​‌)​‌[​‌#​‌]​‌{​‌@​‌}​‌/​‌&​‌\​‌<​‌-​‌+​‌÷​‌×​‌=​‌>​‌®​‌©​‌$​‌€​‌£​‌¥​‌¢​‌:​‌;​‌,​‌.​‌*
 
-                </h5>
-            </div>        
-            <div class="col-lg-8">
-                <br>
-                <h1> This is a Title</h1>
+                </p>
             </div>
-            <div class="col-lg-8"> 
-				<h2> This is a Section Title</h2>
+            <!-- Styles Section -->
+        <h4 class="fw-bold">Styles</h4>
+        <br>
+        <div class="row row-cols-lg-2">
+            <!-- Regular -->
+            <div class="col">
+                <h5>Regular</h5>
+                <p>
+                    A​‌B​‌C​‌Ć​‌Č​‌D​‌Đ​‌E​‌F​‌G​‌H​‌I​‌J​‌K​‌L​‌M​‌N​‌O​‌P​‌Q​‌R​‌S​‌Š​‌T​‌U​‌V​‌W​‌X​‌Y​‌Z​‌Ž​‌a​‌b​‌c​‌č​‌ć​‌d​‌đ​‌e​‌f​‌g​‌h​‌i​‌j​‌k​‌l​‌m​‌n​‌o​‌p​‌q​‌r​‌s​‌š​‌t​‌u​‌v​‌w​‌x​‌y​‌z​‌ž​‌
+                    А​‌Б​‌В​‌Г​‌Ґ​‌Д​‌Ђ​‌Е​‌Ё​‌Є​‌Ж​‌З​‌Ѕ​‌И​‌І​‌Ї​‌Й​‌Ј​‌К​‌Л​‌Љ​‌М​‌Н​‌Њ​‌О​‌П​‌Р​‌С​‌Т​‌Ћ​‌У​‌Ў​‌Ф​‌Х​‌Ц​‌Ч​‌Џ​‌Ш​‌Щ​‌Ъ​‌Ы​‌Ь​‌Э​‌Ю​‌Я​‌а​‌б​‌в​‌г​‌ґ
+                    ​‌д​‌ђ​‌е​‌ё​‌є​‌ж​‌з​‌ѕ​‌и​‌і​‌ї​‌й​‌ј​‌к​‌л​‌љ​‌м​‌н​‌њ​‌о​‌п​‌р​‌с​‌т​‌ћ​‌у​‌ў​‌ф​‌х​‌ц​‌ч​‌џ​‌ш​‌щ​‌ъ​‌ы​‌ь​‌э​‌ю​‌я​‌Α​‌Β​‌Γ​‌Δ​‌Ε​‌Ζ​‌Η​‌Θ​‌Ι​‌Κ
+                    ​‌Λ​‌Μ​‌Ν​‌Ξ​‌Ο​‌Π​‌Ρ​‌Σ​‌Τ​‌Υ​‌Φ​‌Χ​‌Ψ​‌Ω​‌α​‌β​‌γ​‌δ​‌ε​‌ζ​‌η​‌θ​‌ι​‌κ​‌λ​‌μ​‌ν​‌ξ​‌ο​‌π​‌ρ​‌σ​‌τ​‌υ​‌φ​‌χ​‌ψ​‌ω​‌ά​‌Ά​‌έ​‌Έ​‌έ​‌Ή​‌ί​‌ϊ​‌ΐ​‌Ί​‌ό​‌Ό​‌ύ​‌ΰ​‌ϋ​‌Ύ​‌Ϋ
+                    ​‌ὰ​‌ά​‌ὲ​‌έ​‌ὴ​‌ή​‌ὶ​‌ί​‌ὸ​‌ό​‌ὺ​‌ύ​‌ὼ​‌ώ​‌Ώ​‌Ă​‌Â​‌Ê​‌Ô​‌Ơ​‌Ư​‌ă​‌â​‌ê​‌ô​‌ơ​‌ư​‌1​‌2​‌3​‌4​‌5​‌6​‌7​‌8​‌9​‌0​‌‘​‌?​‌’​‌“​‌!​‌”​‌(​‌%​‌)​‌[​‌#​‌]​‌{​‌@​‌}​‌/​‌&​‌\​‌<​‌-​‌+​‌÷​‌×​‌=​‌>​‌®​‌©​‌$​‌€​‌£​‌¥​‌¢​‌:​‌;​‌,​‌.​‌*
+                </p>
             </div>
-            <div class="col-lg-8"> 
-                <h5 
+            <!-- Regular Italic -->
+            <div class="col">
+                <h5><i>Regular Italic</i></h5>
+                <p>
+                    <i>A​‌B​‌C​‌Ć​‌Č​‌D​‌Đ​‌E​‌F​‌G​‌H​‌I​‌J​‌K​‌L​‌M​‌N​‌O​‌P​‌Q​‌R​‌S​‌Š​‌T​‌U​‌V​‌W​‌X​‌Y​‌Z​‌Ž​‌a​‌b​‌c​‌č​‌ć​‌d​‌đ​‌e​‌f​‌g​‌h​‌i​‌j​‌k​‌l​‌m​‌n​‌o​‌p​‌q​‌r​‌s​‌š​‌t​‌u​‌v​‌w​‌x​‌y​‌z​‌ž​‌
+                        А​‌Б​‌В​‌Г​‌Ґ​‌Д​‌Ђ​‌Е​‌Ё​‌Є​‌Ж​‌З​‌Ѕ​‌И​‌І​‌Ї​‌Й​‌Ј​‌К​‌Л​‌Љ​‌М​‌Н​‌Њ​‌О​‌П​‌Р​‌С​‌Т​‌Ћ​‌У​‌Ў​‌Ф​‌Х​‌Ц​‌Ч​‌Џ​‌Ш​‌Щ​‌Ъ​‌Ы​‌Ь​‌Э​‌Ю​‌Я​‌а​‌б​‌в​‌г​‌ґ
+                        ​‌д​‌ђ​‌е​‌ё​‌є​‌ж​‌з​‌ѕ​‌и​‌і​‌ї​‌й​‌ј​‌к​‌л​‌љ​‌м​‌н​‌њ​‌о​‌п​‌р​‌с​‌т​‌ћ​‌у​‌ў​‌ф​‌х​‌ц​‌ч​‌џ​‌ш​‌щ​‌ъ​‌ы​‌ь​‌э​‌ю​‌я​‌Α​‌Β​‌Γ​‌Δ​‌Ε​‌Ζ​‌Η​‌Θ​‌Ι​‌Κ
+                        ​‌Λ​‌Μ​‌Ν​‌Ξ​‌Ο​‌Π​‌Ρ​‌Σ​‌Τ​‌Υ​‌Φ​‌Χ​‌Ψ​‌Ω​‌α​‌β​‌γ​‌δ​‌ε​‌ζ​‌η​‌θ​‌ι​‌κ​‌λ​‌μ​‌ν​‌ξ​‌ο​‌π​‌ρ​‌σ​‌τ​‌υ​‌φ​‌χ​‌ψ​‌ω​‌ά​‌Ά​‌έ​‌Έ​‌έ​‌Ή​‌ί​‌ϊ​‌ΐ​‌Ί​‌ό​‌Ό​‌ύ​‌ΰ​‌ϋ​‌Ύ​‌Ϋ
+                        ​‌ὰ​‌ά​‌ὲ​‌έ​‌ὴ​‌ή​‌ὶ​‌ί​‌ὸ​‌ό​‌ὺ​‌ύ​‌ὼ​‌ώ​‌Ώ​‌Ă​‌Â​‌Ê​‌Ô​‌Ơ​‌Ư​‌ă​‌â​‌ê​‌ô​‌ơ​‌ư​‌1​‌2​‌3​‌4​‌5​‌6​‌7​‌8​‌9​‌0​‌‘​‌?​‌’​‌“​‌!​‌”​‌(​‌%​‌)​‌[​‌#​‌]​‌{​‌@​‌}​‌/​‌&​‌\​‌<​‌-​‌+​‌÷​‌×​‌=​‌>​‌®​‌©​‌$​‌€​‌£​‌¥​‌¢​‌:​‌;​‌,​‌.​‌*</i>
+                </p>
+            </div>
+            <!-- Bold -->
+            <div class="col">
+                <h5><b>Bold</b></h5>
+                <p>
+                    <b>A​‌B​‌C​‌Ć​‌Č​‌D​‌Đ​‌E​‌F​‌G​‌H​‌I​‌J​‌K​‌L​‌M​‌N​‌O​‌P​‌Q​‌R​‌S​‌Š​‌T​‌U​‌V​‌W​‌X​‌Y​‌Z​‌Ž​‌a​‌b​‌c​‌č​‌ć​‌d​‌đ​‌e​‌f​‌g​‌h​‌i​‌j​‌k​‌l​‌m​‌n​‌o​‌p​‌q​‌r​‌s​‌š​‌t​‌u​‌v​‌w​‌x​‌y​‌z​‌ž​‌
+                        А​‌Б​‌В​‌Г​‌Ґ​‌Д​‌Ђ​‌Е​‌Ё​‌Є​‌Ж​‌З​‌Ѕ​‌И​‌І​‌Ї​‌Й​‌Ј​‌К​‌Л​‌Љ​‌М​‌Н​‌Њ​‌О​‌П​‌Р​‌С​‌Т​‌Ћ​‌У​‌Ў​‌Ф​‌Х​‌Ц​‌Ч​‌Џ​‌Ш​‌Щ​‌Ъ​‌Ы​‌Ь​‌Э​‌Ю​‌Я​‌а​‌б​‌в​‌г​‌ґ
+                        ​‌д​‌ђ​‌е​‌ё​‌є​‌ж​‌з​‌ѕ​‌и​‌і​‌ї​‌й​‌ј​‌к​‌л​‌љ​‌м​‌н​‌њ​‌о​‌п​‌р​‌с​‌т​‌ћ​‌у​‌ў​‌ф​‌х​‌ц​‌ч​‌џ​‌ш​‌щ​‌ъ​‌ы​‌ь​‌э​‌ю​‌я​‌Α​‌Β​‌Γ​‌Δ​‌Ε​‌Ζ​‌Η​‌Θ​‌Ι​‌Κ
+                        ​‌Λ​‌Μ​‌Ν​‌Ξ​‌Ο​‌Π​‌Ρ​‌Σ​‌Τ​‌Υ​‌Φ​‌Χ​‌Ψ​‌Ω​‌α​‌β​‌γ​‌δ​‌ε​‌ζ​‌η​‌θ​‌ι​‌κ​‌λ​‌μ​‌ν​‌ξ​‌ο​‌π​‌ρ​‌σ​‌τ​‌υ​‌φ​‌χ​‌ψ​‌ω​‌ά​‌Ά​‌έ​‌Έ​‌έ​‌Ή​‌ί​‌ϊ​‌ΐ​‌Ί​‌ό​‌Ό​‌ύ​‌ΰ​‌ϋ​‌Ύ​‌Ϋ
+                        ​‌ὰ​‌ά​‌ὲ​‌έ​‌ὴ​‌ή​‌ὶ​‌ί​‌ὸ​‌ό​‌ὺ​‌ύ​‌ὼ​‌ώ​‌Ώ​‌Ă​‌Â​‌Ê​‌Ô​‌Ơ​‌Ư​‌ă​‌â​‌ê​‌ô​‌ơ​‌ư​‌1​‌2​‌3​‌4​‌5​‌6​‌7​‌8​‌9​‌0​‌‘​‌?​‌’​‌“​‌!​‌”​‌(​‌%​‌)​‌[​‌#​‌]​‌{​‌@​‌}​‌/​‌&​‌\​‌<​‌-​‌+​‌÷​‌×​‌=​‌>​‌®​‌©​‌$​‌€​‌£​‌¥​‌¢​‌:​‌;​‌,​‌.​‌*</b>
+                </p>
+            </div>
+            <!-- Bold Italic -->
+            <div class="col">
+                <h5><b><i>Bold Italic</i></b></h5>
+                <p>
+                    <b><i>A​‌B​‌C​‌Ć​‌Č​‌D​‌Đ​‌E​‌F​‌G​‌H​‌I​‌J​‌K​‌L​‌M​‌N​‌O​‌P​‌Q​‌R​‌S​‌Š​‌T​‌U​‌V​‌W​‌X​‌Y​‌Z​‌Ž​‌a​‌b​‌c​‌č​‌ć​‌d​‌đ​‌e​‌f​‌g​‌h​‌i​‌j​‌k​‌l​‌m​‌n​‌o​‌p​‌q​‌r​‌s​‌š​‌t​‌u​‌v​‌w​‌x​‌y​‌z​‌ž​‌
+                        А​‌Б​‌В​‌Г​‌Ґ​‌Д​‌Ђ​‌Е​‌Ё​‌Є​‌Ж​‌З​‌Ѕ​‌И​‌І​‌Ї​‌Й​‌Ј​‌К​‌Л​‌Љ​‌М​‌Н​‌Њ​‌О​‌П​‌Р​‌С​‌Т​‌Ћ​‌У​‌Ў​‌Ф​‌Х​‌Ц​‌Ч​‌Џ​‌Ш​‌Щ​‌Ъ​‌Ы​‌Ь​‌Э​‌Ю​‌Я​‌а​‌б​‌в​‌г​‌ґ
+                        ​‌д​‌ђ​‌е​‌ё​‌є​‌ж​‌з​‌ѕ​‌и​‌і​‌ї​‌й​‌ј​‌к​‌л​‌љ​‌м​‌н​‌њ​‌о​‌п​‌р​‌с​‌т​‌ћ​‌у​‌ў​‌ф​‌х​‌ц​‌ч​‌џ​‌ш​‌щ​‌ъ​‌ы​‌ь​‌э​‌ю​‌я​‌Α​‌Β​‌Γ​‌Δ​‌Ε​‌Ζ​‌Η​‌Θ​‌Ι​‌Κ
+                        ​‌Λ​‌Μ​‌Ν​‌Ξ​‌Ο​‌Π​‌Ρ​‌Σ​‌Τ​‌Υ​‌Φ​‌Χ​‌Ψ​‌Ω​‌α​‌β​‌γ​‌δ​‌ε​‌ζ​‌η​‌θ​‌ι​‌κ​‌λ​‌μ​‌ν​‌ξ​‌ο​‌π​‌ρ​‌σ​‌τ​‌υ​‌φ​‌χ​‌ψ​‌ω​‌ά​‌Ά​‌έ​‌Έ​‌έ​‌Ή​‌ί​‌ϊ​‌ΐ​‌Ί​‌ό​‌Ό​‌ύ​‌ΰ​‌ϋ​‌Ύ​‌Ϋ
+                        ​‌ὰ​‌ά​‌ὲ​‌έ​‌ὴ​‌ή​‌ὶ​‌ί​‌ὸ​‌ό​‌ὺ​‌ύ​‌ὼ​‌ώ​‌Ώ​‌Ă​‌Â​‌Ê​‌Ô​‌Ơ​‌Ư​‌ă​‌â​‌ê​‌ô​‌ơ​‌ư​‌1​‌2​‌3​‌4​‌5​‌6​‌7​‌8​‌9​‌0​‌‘​‌?​‌’​‌“​‌!​‌”​‌(​‌%​‌)​‌[​‌#​‌]​‌{​‌@​‌}​‌/​‌&​‌\​‌<​‌-​‌+​‌÷​‌×​‌=​‌>​‌®​‌©​‌$​‌€​‌£​‌¥​‌¢​‌:​‌;​‌,​‌.​‌*</i></b>
+                </p>
+            </div>
+        </div>        
+        <div> 
+            <h4 class="fw-bold ">Headings</h4> 
+            <br>
+        </div> 
+        <div class="row">
+            <!-- Headings on the left -->
+            <div class="col-lg-6">
+                <h1>H1 Heading</h1>
+                <h2>H2 Heading</h2>
+                <h3>H3 Heading</h3>
+                <h4>H4 Heading</h4>
+                <h5>H5 Heading</h5>
+            </div>
+            <div class="col-lg-6">
+                <!-- Title -->
+                <div class="mb-4">
+                    <h1>This is a Title</h1>
+                </div>
+                <!-- Section Title -->
+                <div class="mb-4">
+                    <h2 class="fw-bold">This is a Section Title</h2>
+                </div>
+                <!-- Link -->
+                <div class="mb-4">
+                    <p 
                 class="w-fit mb-1 fw-semibold" 
                 style="cursor: pointer; text-decoration: none;" 
                 onmouseover="this.style.textDecoration='underline';" 
                 onmouseout="this.style.textDecoration='none';">
                 This is a Link
-                </h5>
+                </p>
+                </div>
+                <!-- Quote -->
+                <div class="testimonial-quote group" style="padding: 0; margin: 0;">
+                    <div class="quote-container" style="padding: 0; margin: 0;">
+                        <blockquote style="padding: 0; margin: 0;">
+                            <p>This is a Quote</p>
+                        </blockquote>
+                        <cite style="padding: 0; margin: 0;">
+                            <span>Author</span><br>
+                            This is the affiliation<br>
+                        </cite>
+                    </div>
+                </div>
             </div>
         </div>
-			{{ partial "quote.html" (dict "title" "quote" "subtitle" "This is a quote") }}
-    </div>
+        </div>
     </div>
 </div>
 
 <div class="container py-3">
-    <h1 type="button" data-bs-toggle="collapse" data-bs-target="#button-content" aria-expanded="false" aria-controls="" class="d-inline video-section-title" id="button">
+    <h3 type="button" data-bs-toggle="collapse" data-bs-target="#button-content" aria-expanded="false" aria-controls="" class="d-inline video-section-title" id="button">
         <a href="#button" class="anchor-link fw-semibold">
-            Buttons
+            <strong>Buttons</strong>
         </a>
         <i class="fa fa-caret-up ms-1" aria-hidden="true"></i>
-    </h1>
+    </h3>
     <div class="video collapse" id="button-content">
         <div class="row gy-4">
             <div class="col-lg-8">
@@ -100,24 +176,24 @@
 </div>
 
 <div class="container py-3">
-    <h1 type="button" data-bs-toggle="collapse" data-bs-target="#forms-content" aria-expanded="false" aria-controls="" class="d-inline video-section-title" id="forms">
+    <h3 type="button" data-bs-toggle="collapse" data-bs-target="#forms-content" aria-expanded="false" aria-controls="" class="d-inline video-section-title" id="forms">
         <a href="#forms" class="anchor-link fw-semibold">
-            Forms
+            <strong>Forms</strong>
         </a>
         <i class="fa fa-caret-up ms-1" aria-hidden="true"></i>
-    </h1>
+    </h3>
     <div class="video collapse" id="forms-content">
         {{ partial "text-contact.html" (dict "title" "This is a contact form")}}
     </div>
 </div>
 
 <div class="container py-3">
-    <h1 type="button" data-bs-toggle="collapse" data-bs-target="#logos-content" aria-expanded="false" aria-controls="" class="d-inline video-section-title" id="logos">
+    <h3 type="button" data-bs-toggle="collapse" data-bs-target="#logos-content" aria-expanded="false" aria-controls="" class="d-inline video-section-title" id="logos">
         <a href="#logos" class="anchor-link fw-semibold">
-            Logos
+            <strong>Logos</strong>
         </a>
         <i class="fa fa-caret-up ms-1" aria-hidden="true"></i>
-    </h1>
+    </h3>
     <div class="video collapse" id="logos-content">
     <div class="row gy-4 py-4">
         <div class="col-lg-4 col-md-6 col-12 flex-column">
@@ -132,23 +208,23 @@
     </div>
 </div>
 <div class="container py-3">
-    <h1 type="button" data-bs-toggle="collapse" data-bs-target="#header-content" aria-expanded="false" aria-controls="" class="d-inline video-section-title" id="header">
+    <h3 type="button" data-bs-toggle="collapse" data-bs-target="#header-content" aria-expanded="false" aria-controls="" class="d-inline video-section-title" id="header">
         <a href="#header" class="anchor-link fw-semibold">
-            Header
+            <strong>Header</strong>
         </a>
         <i class="fa fa-caret-up ms-1" aria-hidden="true"></i>
-    </h1>
+    </h3>
     <div class="video collapse" id="header-content">
-        <h5> The header is divided into two sections: the left side and the right side.
+        <p> The header is divided into two sections: the left side and the right side.
             <br>The text links in the navigation bar change to a darker color when hovered over.
-        </h5>    
+        </p>    
         <br>
         <div> 
-            <h3 class="fw-semibold">Left side</h3> 
+            <h4 class="fw-bold">Left side</h4> 
         </div> 
         <div class="row gy-4">
             <div class="col-lg-9"> 
-				<h5> The left side contains the Open Data Hub logo followed by a horizontal navigation menu with links to the following sections: Services, Datasets, Use Cases, Web Components, Quickstart, Community, and Events. 
+				<p> The left side contains the Open Data Hub logo followed by a horizontal navigation menu with links to the following sections: Services, Datasets, Use Cases, Web Components, Quickstart, Community, and Events. 
                     <br>
                     Dropdown menus are available for Services, Community, and Events, indicated by small downward arrows. These expand to reveal additional sub-options:
                     <br>
@@ -174,38 +250,38 @@
                     Past Events, 
                     Recurring Events, 
                     Video Library 
-                </h5>
+                </p>
             </div>        
         </div>
         <br>
         <div> 
-            <h3 class="fw-semibold">Right side</h3> 
+            <h4 class="fw-bold">Right side</h4> 
         </div> 
         <div class="row gy-4">
             <div class="col-lg-9"> 
-				<h5> The right side displays the About Us link, which also includes a dropdown menu that expands with the suboptions "About us" and "Contact us". To the far right is the NOI Techpark logo, visually connecting the platform to its parent organization.
-                </h5>
+				<p> The right side displays the About Us link, which also includes a dropdown menu that expands with the suboptions "About us" and "Contact us". To the far right is the NOI Techpark logo, visually connecting the platform to its parent organization.
+                </p>
             </div>        
         </div>
     </div>
 </div>
 
 <div class="container py-3">
-    <h1 type="button" data-bs-toggle="collapse" data-bs-target="#footer-content" aria-expanded="false" aria-controls="" class="d-inline video-section-title" id="footer">
+    <h3 type="button" data-bs-toggle="collapse" data-bs-target="#footer-content" aria-expanded="false" aria-controls="" class="d-inline video-section-title" id="footer">
         <a href="#footer" class="anchor-link fw-semibold">
-            Footer
+            <strong>Footer</strong>
         </a>
         <i class="fa fa-caret-up ms-1" aria-hidden="true"></i>
-    </h1>
+    </h3>
     <div class="video collapse" id="footer-content">
-        <h5> The footer is structured into two main sections: the upper part and the lower part </h5>    
+        <p> The footer is structured into two main sections: the upper part and the lower part </p>    
         <br>
         <div> 
-            <h3 class="fw-semibold">Upper part</h3> 
+            <h4 class="fw-bold">Upper part</h4> 
         </div> 
         <div class="row gy-4">
             <div class="col-lg-9"> 
-				<h5> The upper part of the footer is divided into two sections. 
+				<p> The upper part of the footer is divided into two sections. 
                     <br>
                     <br>
                     On the <b>left</b>, the Open Data Hub logo is displayed with the tagline <b>"Place where data and tech are shared"</b>, underlined on hover and serves as a link to the Open Data Hub main page. 
@@ -216,16 +292,16 @@
 
             
 
-                </h5>
+                </p>
             </div>        
         </div>
         <br>
         <div> 
-            <h3 class="fw-semibold">Lower part</h3> 
+            <h4 class="fw-bold">Lower part</h4> 
         </div> 
         <div class="row gy-4">
             <div class="col-lg-9"> 
-				<h5> The lower part is divided into four sections: Services, Quickstart, Community, and Social Media.
+				<p> The lower part is divided into four sections: Services, Quickstart, Community, and Social Media.
                     <br>
                     <br>
 
@@ -241,7 +317,7 @@
                     The <b>Social Media</b> section links to GitHub, Telegram, element.io, and Facebook.  Each platform is represented by its logo on the left of the link.
                     <br>
                     <br>
-                    All links in the lower part should underline on hover to indicate interactivity and improve usability.</h5>
+                    All links in the lower part should underline on hover to indicate interactivity and improve usability.</p>
             </div>        
         </div>
     </div>
