@@ -6,6 +6,11 @@ aliases:
 use_case_tags:
   - "eurac"
 
+seo:
+  title:
+  description:
+  keywords:
+
 short:
   subtitle: "TODAY@EURAC"
   title: "**Enhancing Event Visibility through Data Visualization at Eurac**"

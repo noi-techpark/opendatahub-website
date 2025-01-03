@@ -6,6 +6,11 @@ aliases:
 use_case_tags:
   - "agriculture"
 
+seo:
+  title:
+  description:
+  keywords:
+
 short:
   subtitle: "KULTIVAS"
   title: "**Big data technologies and apples**"

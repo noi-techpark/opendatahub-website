@@ -6,6 +6,10 @@ aliases:
 use_case_tags:
   - "tourism"
 
+seo:
+  title:
+  description:
+  keywords:
 
 short:
   subtitle: "ËRT - Moritz Brunner"

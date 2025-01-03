@@ -6,6 +6,11 @@ aliases:
 use_case_tags:
   - "mobility"
 
+seo:
+  title:
+  description:
+  keywords:
+
 short:
   subtitle: "SKYALPS"
   title: "**Real-time flight data**"

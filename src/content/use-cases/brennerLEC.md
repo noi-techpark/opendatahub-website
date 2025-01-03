@@ -7,6 +7,11 @@ use_case_tags:
   - "traffic"
   - "mobility"
 
+seo:
+  title:
+  description:
+  keywords:
+
 short:
   subtitle: "BRENNERLEC"
   title: "**Brenner Lower Emissions Corridor**"
