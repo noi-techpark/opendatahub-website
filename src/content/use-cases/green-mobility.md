@@ -7,6 +7,11 @@ use_case_tags:
   - "traffic"
   - "mobility"
 
+seo:
+  title:
+  description:
+  keywords:
+
 short:
   subtitle: "GREENMOBILITY"
   title: "**Real-time e-charging stations**"

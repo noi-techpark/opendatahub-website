@@ -7,6 +7,11 @@ use_case_tags:
   - "traffic"
   - "mobility"
 
+seo:
+  title:
+  description:
+  keywords:
+
 short:
   subtitle: "OPEN DATA HUB"
   title: "**Contributor of the year 2024**"

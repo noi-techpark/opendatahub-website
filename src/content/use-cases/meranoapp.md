@@ -7,6 +7,11 @@ use_case_tags:
   - "mobility"
   - "traffic"
 
+seo:
+  title:
+  description:
+  keywords:
+
 short:
   subtitle: "MERANO APP"
   title: "**Enhancing Tourist and Local Experiences**"

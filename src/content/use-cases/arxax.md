@@ -7,6 +7,12 @@ use_case_tags:
   - "mobility"
   - "traffic"
 
+seo:
+  title:
+  description:
+  keywords:
+
+
 short:
   subtitle: "ARXAX"
   title: "**Re-envisioning transportation & the green fuel supply chain.**"

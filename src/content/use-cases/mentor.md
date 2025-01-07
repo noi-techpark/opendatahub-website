@@ -6,6 +6,11 @@ aliases:
 use_case_tags:
   - "mobility"
 
+seo:
+  title:
+  description:
+  keywords:
+
 short:
   subtitle: "MENTOR"
   title: "**Mobility-as-a-Service: the new mobility of Merano**"

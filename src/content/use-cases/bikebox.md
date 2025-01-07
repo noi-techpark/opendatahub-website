@@ -7,6 +7,11 @@ use_case_tags:
   - "mobility"
   - "traffic"
 
+seo:
+  title: "Südtirolmobil Bikebox"
+  description: "Südtirolmobil Bikeboxes are safe storage spaces for bicycles. The bike boxes service is seamlessly integrated with the Südtirolmobil scheme, further enhancing the Mobility as a Service (MaaS) perspective in the region. Cyclists with a Südtirol Pass can now utilize a single application to access a multitude of mobility services, ranging from public transportation to bike parking facilities, streamlining their travel experience."
+  keywords: "mobility, traffic, Südtirolmobil, Bikebox, MaaS, Südtirol Pass, bike parking facilities, public transportation, Open Data Hub"
+
 short:
   subtitle: "SÜDTIROLMOBIL BIKEBOX"
   title: "**Cyclists' mobility made easy**"
