@@ -326,13 +326,13 @@ partnerships:
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/FondazioneCRT.png"
       link: https://www.fondazionecrt.it/
     
-    - name: IDSA
-      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/idsa.png"
-      link: https://internationaldataspaces.org
-    
     - name: Impact Deal
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/ImpactDeal.png"
       link: https://impactdeal.eu/
+
+    - name: IDSA
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/idsa.png"
+      link: https://internationaldataspaces.org
 
     - name: Mobility Data Space
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/mobilityDataSpaces.png"
