@@ -6,6 +6,11 @@ aliases:
 use_case_tags:
   - "mobility"
 
+seo:
+  title:
+  description:
+  keywords:
+
 short:
   subtitle: "SÜDTIROLMOBIL - ALTOADIGEMOBILITÀ"
   title: "**Public mobility of the future**"

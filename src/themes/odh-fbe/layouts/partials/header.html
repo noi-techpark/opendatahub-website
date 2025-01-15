@@ -6,24 +6,32 @@
 
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<title>{{ .Site.Title }}</title>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <!-- <meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive, hugo, static site" /> -->
 {{ with .Site.Params.author }}
 <meta name="author" content="{{ . }}" />{{ end }}
-{{ with .Site.Params.description }}
-<meta name="description" content="{{ . }}" />{{ end }} {{ with .Site.LanguageCode }}
+
+<!-- SEO fields -->
+{{ with .File }}
+  {{ with site.GetPage .Path }}
+    {{ with .Params.seo.title }}
+      <title>{{ . }}</title>
+    {{ else }}
+      <title>{{ .Site.Title }}</title>
+    {{ end }}
+    {{ with .Params.seo.description }}
+      <meta name="description" content="{{ . }}" />
+    {{ end }}
+    {{ with .Params.seo.keywords }}
+      <meta name="keywords" content="{{ . }}" />
+    {{ end }}
+  {{ end }} 
+{{ end }} 
+
+{{ with .Site.LanguageCode }}
 <meta http-equiv="content-language" content="{{ . }}" />{{ end }}
 {{ if .Site.Params.noindex }}
 <meta name="robots" content="noindex,nofollow">
-{{ end }}
-{{ if not .Site.Params.OpenGraph.hide }}
-<meta name="og:site_name" content="{{ .Site.Title }}" />
-<meta name="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}" />
-<meta name="og:url" content="{{ .Permalink }}" />
-<meta name="twitter:title" content="{{ .Site.Title }}" />
-<meta name="twitter:url" content="{{ .Permalink }}" />
-<meta name="twitter:card" content="" />
 {{ end }}
 
 <!-- Matomo -->

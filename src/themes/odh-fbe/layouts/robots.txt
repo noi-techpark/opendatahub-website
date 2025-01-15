@@ -5,6 +5,5 @@
 User-agent: *
 Disallow: /icon
 Disallow: /images
-Disallow: /img
 
-Sitemap: {{ site.BaseURL }}/sitemap.xml
+Sitemap: {{ site.BaseURL }}sitemap.xml

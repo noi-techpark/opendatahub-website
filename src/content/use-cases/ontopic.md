@@ -6,6 +6,11 @@ use_case_tags:
   - "mobility"
   - "traffic"
 
+seo:
+  title:
+  description:
+  keywords:
+
 short:
   subtitle: "ONTOPIC"
   title: "**Revolutionising Data Access with SPARQL Endpoint and Virtual Knowledge Graph**"
