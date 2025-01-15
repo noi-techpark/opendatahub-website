@@ -7,14 +7,6 @@ boxes:
     subtitle: Browse and discover the available data.
     btn_link: https://databrowser.opendatahub.com
 
-  - title: Transmodel API - NeTEx Endpoints
-    subtitle: Access standardized planned mobility data including public transport, parking, and sharing services in NeTEx format.
-    btn_link: https://github.com/noi-techpark/odh-docs/wiki/Transmodel-API-%E2%80%90-NeTEx-Endpoints
-
-  - title: Transmodel API - SIRI-Lite Endpoints
-    subtitle: Retrieve real-time data for parking and sharing services using the SIRI-Lite protocol.
-    btn_link: https://github.com/noi-techpark/odh-docs/wiki/Transmodel-API-%E2%80%90-SIRI%E2%80%90Lite-Endpoints
-
   - title: Analytics Tool
     subtitle: Find out information about sensors and their locations and measure (near-real time data).
     btn_link: https://analytics.opendatahub.com
@@ -31,9 +23,33 @@ boxes:
     subtitle: Access swagger interface to browse data and learn how to use the Open Data Hub Tourism API.
     btn_link: https://tourism.opendatahub.com/swagger/index.html
 
+  - title: Documentation
+    subtitle: A collection of the technical documentation about the Open Data Hub project.
+    btn_link: https://github.com/noi-techpark/odh-docs/wiki
+
+  - title: List of HOWTOs
+    subtitle: A list of available howtos.
+    btn_link: https://opendatahub.readthedocs.io/en/latest/howto.html
+
+  - title: Source code repositories
+    subtitle: Access the NOI Techpark repositories to contribute or reuse code of the Open Data Hub.
+    btn_link: https://github.com/noi-techpark
+
   - title: OpenTripPlanner (OTP) API
     subtitle: Access the Open Data Hub mobility data through the OTP journey planner API.
     btn_link: http://dev.opentripplanner.org/apidoc/1.0.0/index.html
+
+  - title: Transmodel API - NeTEx Endpoints
+    subtitle: Access standardized planned mobility data including public transport, parking, and sharing services in NeTEx format.
+    btn_link: https://github.com/noi-techpark/odh-docs/wiki/Transmodel-API-%E2%80%90-NeTEx-Endpoints
+
+  - title: Transmodel API - SIRI-Lite Endpoints
+    subtitle: Retrieve real-time data for parking and sharing services using the SIRI-Lite protocol.
+    btn_link: https://github.com/noi-techpark/odh-docs/wiki/Transmodel-API-%E2%80%90-SIRI%E2%80%90Lite-Endpoints
+
+  - title: GTFS Endpoint
+    subtitle: A GTFS end-point within the Open Data Hub in some datasets.
+    btn_link: https://gtfs.api.opendatahub.com/v1/dataset
     
   - title: AlpineBits HotelData API
     subtitle: Access accommodation inventory data.
@@ -42,22 +58,6 @@ boxes:
   - title: AlpineBits DestinationData API
     subtitle: Access destination data such as mountain resorts, ski data and events.
     btn_link: https://destinationdata.alpinebits.opendatahub.com
-    
-  - title: Documentation
-    subtitle: A collection of the technical documentation about the Open Data Hub project.
-    btn_link: https://github.com/noi-techpark/odh-docs/wiki
-
-  - title: Source code repositories
-    subtitle: Access the NOI Techpark repositories to contribute or reuse code of the Open Data Hub.
-    btn_link: https://github.com/noi-techpark
-    
-  - title: List of HOWTOs
-    subtitle: A list of available howtos.
-    btn_link: https://opendatahub.readthedocs.io/en/latest/howto.html
-
-  - title: GTFS Endpoint
-    subtitle: A GTFS end-point within the Open Data Hub in some datasets.
-    btn_link: https://gtfs.api.opendatahub.com/v1/dataset
 
   - title: Access Open Data Hub data from R
     subtitle: bzar provides access to Open Data Hub time-series data from within R.
