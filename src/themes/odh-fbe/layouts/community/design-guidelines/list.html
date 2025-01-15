@@ -16,14 +16,19 @@
         <i class="fa fa-caret-up ms-1" aria-hidden="false"></i>
     </h3>
     <div class="video collapse" id="colors-content">
-        <p style="display: flex; align-items: center; gap: 4px;">
-            The font color is #212529 
-            <span style="width: 16px; height: 16px; background-color: #212529; border: 1px solid #ccc;"></span>
-        </p>
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-12 mb-3">
+                <div class="border border-black text-center py-3" style="background-color: #212529; color: white;">
+                    <h5 class="fw-bold">Font Color</h5>
+                    <p>#212529</p>
+                </div>
+            </div>
+        </div>
+        <br>
     <div class="row">
         <h4 class="fw-bold ">Open Data Hub color palette</h4>
         <div class="col-md-3 col-sm-6 col-12 mb-3">
-            <div class="bg-white border  text-center py-3">
+            <div class="bg-white border border-black  text-center py-3">
                 <h5 class="fw-bold">Primary Color</h5>
                 <p>#FFFFFF</p>
             </div>
@@ -35,9 +40,9 @@
             </div>
         </div>
         <div class="col-md-3 col-sm-6 col-12 mb-3">
-            <div class="bg-primary-subtle  text-center py-3">
+            <div class="bg-primary-subtle border border-black text-center py-3">
                 <h5 class="fw-bold">Tertiary Color</h5>
-                <p>f3f3f3</p>
+                <p>#f3f3f3</p>
             </div>
         </div>
         <div class="col-md-3 col-sm-6 col-12 mb-3">
@@ -50,7 +55,7 @@
     <div class="row">
         <h4 class="fw-bold ">Events color palette</h4>
         <div class="col-md-3 col-sm-6 col-12 mb-3">
-            <div class="bg-white border  text-center py-3">
+            <div class="bg-white border border-black  text-center py-3">
                 <h5 class="fw-bold">Primary Color</h5>
                 <p>#FFFFFF</p>
             </div>
@@ -217,7 +222,13 @@
         <i class="fa fa-caret-up ms-1" aria-hidden="true"></i>
     </h3>
     <div class="video collapse" id="forms-content">
-        {{ partial "text-contact.html" (dict "title" "This is a contact form")}}
+        <div class="btn btn-primary py-3 px-4 no-after d-inline-flex gap-4 align-items-center">
+            <h2><i class="fa fa-envelope" aria-hidden="true"></i></h2>
+            <div class="text-start">
+              <h5 class="d-flex align-items-center gap-2 bold">Send us an E-mail</h5>
+              <span>example@mail.com</span>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -229,14 +240,30 @@
         <i class="fa fa-caret-up ms-1" aria-hidden="true"></i>
     </h3>
     <div class="video collapse" id="logos-content">
-    <div class="row gy-4 py-4">
-        <div class="col-lg-4 col-md-6 col-12 flex-column">
-            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzOS43ODFtbSIgaGVpZ2h0PSIzOS43MjVtbSIgdmlld0JveD0iMCAwIDExMi43NjQgMTEyLjYwNSI+DQogIDxnPg0KICAgIDxwYXRoIGQ9Ik0yNS4yNTYsNDIuNTMxYzAtNy43ODMsNS4yMjktMTQuODg5LDE0LjgwOS0xNC44ODlzMTQuNzY5LDcuMDI2LDE0Ljc2OSwxNC43M2MwLDcuNzgzLTUuMDMsMTUuMDA4LTE0LjY1LDE1LjAwOC05LjU4LS4wNC0xNC45MjgtNy4xMDUtMTQuOTI4LTE0Ljg0OW0yMy4xOTEsMGMwLTUuMzQ5LTIuNDc1LTkuOTc5LTguMjIzLTkuOTc5cy04LjQ2Miw0LjQ3MS04LjQ2Miw5LjgyYzAsNS4zODgsMi42MzQsMTAuMDU5LDguMzQzLDEwLjA1OSw1Ljc0OCwwLDguMzQyLTQuNTUxLDguMzQyLTkuOSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTI1LjI1NiAtMjcuNjQyKSIvPg0KICAgIDxwYXRoIGQ9Ik02MC4yMjMsMjguMTYxaDkuNDJjNi4yMjcsMCwxMC45NzcsMi44NzQsMTAuOTc3LDkuMDYxLDAsNi4yMjctNC41MTEsOS40MjEtMTEuNjU2LDkuNDIxSDY2LjMzVjU2Ljg2MUg2MC4yMjNabTguODIxLDEzLjg1MWMzLjgzMiwwLDUuNDY5LTEuNTU2LDUuNDY5LTQuNzUsMC0yLjg3NC0xLjYtNC40Ny01LjM0OS00LjQ3SDY2LjMzdjkuMjJaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMjUuMjU2IC0yNy42NDIpIi8+DQogICAgPHBvbHlnb24gcG9pbnRzPSI2MC40NzQgMC41MTkgNzcuMDM5IDAuNTE5IDc3LjAzOSA1LjUwOCA2Ni40NjEgNS41MDggNjYuNDYxIDExLjk3NSA3NS43NjIgMTEuOTc1IDc1Ljc2MiAxNi43MjUgNjYuNDYxIDE2LjcyNSA2Ni40NjEgMjQuMTg5IDc3LjMxOSAyNC4xODkgNzcuMzE5IDI5LjE3OSA2MC40NzQgMjkuMTc5IDYwLjQ3NCAwLjUxOSIvPg0KICAgIDxwYXRoIGQ9Ik0xMDguNTIyLDI4LjE2MWg2LjEwN0wxMjQuOTY3LDQzLjAxYTQ3LjA0Myw0Ny4wNDMsMCwwLDEsMi45OTQsNC44M2guMDhjLS4wNC0uNC0uMTYtMi4zMTUtLjE2LTQuNTFWMjguMTYxaDUuNTA5djI4LjdoLTUuNTQ5TDExNi43MDUsNDAuOTM1Yy0xLjU1Ny0yLjE1Ni0yLjM5NS0zLjc1My0yLjc1NS00LjMxMWgtLjA4Yy4wNC40LjE2LDIuMDM1LjE2LDMuODMydjE2LjRoLTUuNTA4WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTI1LjI1NiAtMjcuNjQyKSIvPg0KICAgIDxwYXRoIGQ9Ik0yNi44NTIsNjUuNzYzaDguNjYyYzExLjMsMCwxNi40MDYsNS42NjgsMTYuNDA2LDEzLjk3MSwwLDguMjYyLTUuMjI5LDE0LjcyOS0xNi42MDUsMTQuNzI5SDI2Ljg1MlptOC45LDIzLjgzYzYuNDY2LDAsOS43MzktMy4zMTMsOS43MzktOS43LDAtNi40MjYtMy4xNTMtOS4yNi05LjkzOS05LjI2SDMyLjkydjE4Ljk2WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTI1LjI1NiAtMjcuNjQyKSIvPg0KICAgIDxwYXRoIGQ9Ik02NS41NzEsNjUuNzYzaDUuODY4TDgyLjcsOTQuNDYzSDc2LjA2OWwtMS45NTUtNS4zODlINjIuNjU3bC0xLjkxNiw1LjM4OUg1NC42MzRaTTcyLjM1Nyw4NC4ybC0yLjQ3NS02LjgyNmMtLjkxOC0yLjQ3NC0xLjI3Ny00LjMxMS0xLjU1Ni00Ljk0OWgtLjA4Yy0uMi42NzgtLjY3OSwyLjYzNC0xLjUxNyw0Ljk0OUw2NC4yOTQsODQuMloiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yNS4yNTYgLTI3LjY0MikiLz4NCiAgICA8cG9seWdvbiBwb2ludHM9IjY4LjAxOCA0My4xMSA2MC4wNzUgNDMuMTEgNjAuMDc1IDM4LjEyIDgxLjk4OSAzOC4xMiA4MS45ODkgNDMuMTEgNzQuMTI1IDQzLjExIDc0LjEyNSA2Ni44MiA2OC4wMTggNjYuODIgNjguMDE4IDQzLjExIi8+DQogICAgPHBhdGggZD0iTTEyMC45LDY1Ljc2M2g1Ljg2OGwxMS4yNTYsMjguN2gtNi42MjZsLTEuOTU2LTUuMzg5SDExNy45ODJsLTEuOTE2LDUuMzg5aC02LjEwN1pNMTI3LjY4Miw4NC4ybC0yLjQ3NS02LjgyNmMtLjkxOC0yLjQ3NC0xLjI3OC00LjMxMS0xLjU1Ny00Ljk0OWgtLjA0Yy0uMi42NzgtLjY3OCwyLjYzNC0xLjUxNyw0Ljk0OUwxMTkuNjU4LDg0LjJaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMjUuMjU2IC0yNy42NDIpIi8+DQogICAgPHBvbHlnb24gcG9pbnRzPSIxLjU5NyA3NC41MjQgNy45NDMgNzQuNTI0IDcuOTQzIDg5Ljc3MiAyNi42NjQgODkuNzcyIDI2LjY2NCA3NC41MjQgMzMuMDExIDc0LjUyNCAzMy4wMTEgMTExLjk2NiAyNi42NjQgMTExLjk2NiAyNi42NjQgOTUuMDAyIDcuOTQzIDk1LjAwMiA3Ljk0MyAxMTEuOTY2IDEuNTk3IDExMS45NjYgMS41OTcgNzQuNTI0Ii8+DQogICAgPHBhdGggZD0iTTY5LjA0NCwxMjUuMzE4VjEwMi4xNjdoNi4zNDdWMTI0LjcyYzAsNi45ODUsMi43MTQsMTAuMjU4LDkuMSwxMC4yNTgsNi4wNjcsMCw4Ljc4MS0zLjgzMiw4Ljc4MS05LjY2VjEwMi4xNjdoNS45MDhWMTI0LjhjMCw5LjctNC44MywxNS40NDgtMTQuODQ5LDE1LjQ0OC0xMC41MzguMDQtMTUuMjg4LTUuNTg4LTE1LjI4OC0xNC45MjkiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yNS4yNTYgLTI3LjY0MikiLz4NCiAgICA8cGF0aCBkPSJNMTEwLjc1NywxMDIuMTY3aDExLjNjNi45ODYsMCwxMi42NTQsMi40MzUsMTIuNjU0LDkuMzQsMCw0LjY3LTIuNTk1LDcuMzQ1LTYuNzA2LDguNDIzdi4xMTljNC41NS43MTksOC4yNjMsMy44MzIsOC4yNjMsOS4xLDAsNy42MjQtNS45MDgsMTAuNDU5LTE0LjM3LDEwLjQ1OUgxMTAuNzU3Wk0xMjEuMywxMTcuODU0YzQuOTEsMCw3LjAyNS0xLjc1Niw3LjAyNS01LjUwOSwwLTMuNTkyLTIuMzU1LTUuMTg5LTYuOS01LjE4OWgtNC40MzF2MTAuN1ptLjM1OSwxNi43NjVjNS40MjksMCw4LjE0My0xLjY3Nyw4LjE0My01Ljc4OCwwLTMuOTUyLTIuMTk1LTYuMTg3LTcuODIzLTYuMTg3aC00Ljk5djExLjk3NVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yNS4yNTYgLTI3LjY0MikiLz4NCiAgPC9nPg0KPC9zdmc+DQo=" alt=""/>
-            <h5>Black</h5>
+    <div class="row gy-4">
+        <div class="col-lg-2 col-md-6 col-12 flex-column">
+            <div class="border border-black">
+            <img src="https://cloud.opendatahub.com/index.php/apps/files_sharing/publicpreview/dimRZHxYYw8rc6b?file=/Logo_RBG/Black/OpenDataHub_Logo_BK-RGB.jpg&fileId=428554&x=960&y=600&a=true" alt=""/>
         </div>
-        <div class="col-lg-4 col-md-6 col-12 flex-column">
-            <img class="bg-black" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzOS43ODFtbSIgaGVpZ2h0PSIzOS43MjVtbSIgdmlld0JveD0iMCAwIDExMi43NjQgMTEyLjYwNSI+DQogIDxnPg0KICAgIDxwYXRoIGQ9Ik0yNS4yNTYsNDIuNTMxYzAtNy43ODMsNS4yMjktMTQuODg5LDE0LjgwOS0xNC44ODlzMTQuNzY5LDcuMDI2LDE0Ljc2OSwxNC43M2MwLDcuNzgzLTUuMDMsMTUuMDA4LTE0LjY1LDE1LjAwOC05LjU4LS4wNC0xNC45MjgtNy4xMDUtMTQuOTI4LTE0Ljg0OW0yMy4xOTEsMGMwLTUuMzQ5LTIuNDc1LTkuOTc5LTguMjIzLTkuOTc5cy04LjQ2Miw0LjQ3MS04LjQ2Miw5LjgyYzAsNS4zODgsMi42MzQsMTAuMDU5LDguMzQzLDEwLjA1OSw1Ljc0OCwwLDguMzQyLTQuNTUxLDguMzQyLTkuOSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTI1LjI1NiAtMjcuNjQyKSIgZmlsbD0iI2ZmZiIvPg0KICAgIDxwYXRoIGQ9Ik02MC4yMjMsMjguMTYxaDkuNDJjNi4yMjcsMCwxMC45NzcsMi44NzQsMTAuOTc3LDkuMDYxLDAsNi4yMjctNC41MTEsOS40MjEtMTEuNjU2LDkuNDIxSDY2LjMzVjU2Ljg2MUg2MC4yMjNabTguODIxLDEzLjg1MWMzLjgzMiwwLDUuNDY5LTEuNTU2LDUuNDY5LTQuNzUsMC0yLjg3NC0xLjYtNC40Ny01LjM0OS00LjQ3SDY2LjMzdjkuMjJaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMjUuMjU2IC0yNy42NDIpIiBmaWxsPSIjZmZmIi8+DQogICAgPHBvbHlnb24gcG9pbnRzPSI2MC40NzQgMC41MTkgNzcuMDM5IDAuNTE5IDc3LjAzOSA1LjUwOCA2Ni40NjEgNS41MDggNjYuNDYxIDExLjk3NSA3NS43NjIgMTEuOTc1IDc1Ljc2MiAxNi43MjUgNjYuNDYxIDE2LjcyNSA2Ni40NjEgMjQuMTg5IDc3LjMxOSAyNC4xODkgNzcuMzE5IDI5LjE3OSA2MC40NzQgMjkuMTc5IDYwLjQ3NCAwLjUxOSIgZmlsbD0iI2ZmZiIvPg0KICAgIDxwYXRoIGQ9Ik0xMDguNTIyLDI4LjE2MWg2LjEwN0wxMjQuOTY3LDQzLjAxYTQ3LjA0Myw0Ny4wNDMsMCwwLDEsMi45OTQsNC44M2guMDhjLS4wNC0uNC0uMTYtMi4zMTUtLjE2LTQuNTFWMjguMTYxaDUuNTA5djI4LjdoLTUuNTQ5TDExNi43MDUsNDAuOTM1Yy0xLjU1Ny0yLjE1Ni0yLjM5NS0zLjc1My0yLjc1NS00LjMxMWgtLjA4Yy4wNC40LjE2LDIuMDM1LjE2LDMuODMydjE2LjRoLTUuNTA4WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTI1LjI1NiAtMjcuNjQyKSIgZmlsbD0iI2ZmZiIvPg0KICAgIDxwYXRoIGQ9Ik0yNi44NTIsNjUuNzYzaDguNjYyYzExLjMsMCwxNi40MDYsNS42NjgsMTYuNDA2LDEzLjk3MSwwLDguMjYyLTUuMjI5LDE0LjcyOS0xNi42MDUsMTQuNzI5SDI2Ljg1MlptOC45LDIzLjgzYzYuNDY2LDAsOS43MzktMy4zMTMsOS43MzktOS43LDAtNi40MjYtMy4xNTMtOS4yNi05LjkzOS05LjI2SDMyLjkydjE4Ljk2WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTI1LjI1NiAtMjcuNjQyKSIgZmlsbD0iI2ZmZiIvPg0KICAgIDxwYXRoIGQ9Ik02NS41NzEsNjUuNzYzaDUuODY4TDgyLjcsOTQuNDYzSDc2LjA2OWwtMS45NTUtNS4zODlINjIuNjU3bC0xLjkxNiw1LjM4OUg1NC42MzRaTTcyLjM1Nyw4NC4ybC0yLjQ3NS02LjgyNmMtLjkxOC0yLjQ3NC0xLjI3Ny00LjMxMS0xLjU1Ni00Ljk0OWgtLjA4Yy0uMi42NzgtLjY3OSwyLjYzNC0xLjUxNyw0Ljk0OUw2NC4yOTQsODQuMloiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yNS4yNTYgLTI3LjY0MikiIGZpbGw9IiNmZmYiLz4NCiAgICA8cG9seWdvbiBwb2ludHM9IjY4LjAxOCA0My4xMSA2MC4wNzUgNDMuMTEgNjAuMDc1IDM4LjEyIDgxLjk4OSAzOC4xMiA4MS45ODkgNDMuMTEgNzQuMTI1IDQzLjExIDc0LjEyNSA2Ni44MiA2OC4wMTggNjYuODIgNjguMDE4IDQzLjExIiBmaWxsPSIjZmZmIi8+DQogICAgPHBhdGggZD0iTTEyMC45LDY1Ljc2M2g1Ljg2OGwxMS4yNTYsMjguN2gtNi42MjZsLTEuOTU2LTUuMzg5SDExNy45ODJsLTEuOTE2LDUuMzg5aC02LjEwN1pNMTI3LjY4Miw4NC4ybC0yLjQ3NS02LjgyNmMtLjkxOC0yLjQ3NC0xLjI3OC00LjMxMS0xLjU1Ny00Ljk0OWgtLjA0Yy0uMi42NzgtLjY3OCwyLjYzNC0xLjUxNyw0Ljk0OUwxMTkuNjU4LDg0LjJaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMjUuMjU2IC0yNy42NDIpIiBmaWxsPSIjZmZmIi8+DQogICAgPHBvbHlnb24gcG9pbnRzPSIxLjU5NyA3NC41MjQgNy45NDMgNzQuNTI0IDcuOTQzIDg5Ljc3MiAyNi42NjQgODkuNzcyIDI2LjY2NCA3NC41MjQgMzMuMDExIDc0LjUyNCAzMy4wMTEgMTExLjk2NiAyNi42NjQgMTExLjk2NiAyNi42NjQgOTUuMDAyIDcuOTQzIDk1LjAwMiA3Ljk0MyAxMTEuOTY2IDEuNTk3IDExMS45NjYgMS41OTcgNzQuNTI0IiBmaWxsPSIjZmZmIi8+DQogICAgPHBhdGggZD0iTTY5LjA0NCwxMjUuMzE4VjEwMi4xNjdoNi4zNDdWMTI0LjcyYzAsNi45ODUsMi43MTQsMTAuMjU4LDkuMSwxMC4yNTgsNi4wNjcsMCw4Ljc4MS0zLjgzMiw4Ljc4MS05LjY2VjEwMi4xNjdoNS45MDhWMTI0LjhjMCw5LjctNC44MywxNS40NDgtMTQuODQ5LDE1LjQ0OC0xMC41MzguMDQtMTUuMjg4LTUuNTg4LTE1LjI4OC0xNC45MjkiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yNS4yNTYgLTI3LjY0MikiIGZpbGw9IiNmZmYiLz4NCiAgICA8cGF0aCBkPSJNMTEwLjc1NywxMDIuMTY3aDExLjNjNi45ODYsMCwxMi42NTQsMi40MzUsMTIuNjU0LDkuMzQsMCw0LjY3LTIuNTk1LDcuMzQ1LTYuNzA2LDguNDIzdi4xMTljNC41NS43MTksOC4yNjMsMy44MzIsOC4yNjMsOS4xLDAsNy42MjQtNS45MDgsMTAuNDU5LTE0LjM3LDEwLjQ1OUgxMTAuNzU3Wk0xMjEuMywxMTcuODU0YzQuOTEsMCw3LjAyNS0xLjc1Niw3LjAyNS01LjUwOSwwLTMuNTkyLTIuMzU1LTUuMTg5LTYuOS01LjE4OWgtNC40MzF2MTAuN1ptLjM1OSwxNi43NjVjNS40MjksMCw4LjE0My0xLjY3Nyw4LjE0My01Ljc4OCwwLTMuOTUyLTIuMTk1LTYuMTg3LTcuODIzLTYuMTg3aC00Ljk5djExLjk3NVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yNS4yNTYgLTI3LjY0MikiIGZpbGw9IiNmZmYiLz4NCiAgPC9nPg0KPC9zdmc+DQo=" alt=""/>
-            <h5>White</h5>
+        <a href="https://cloud.opendatahub.com/index.php/s/dimRZHxYYw8rc6b?path=%2FLogo_RBG%2FBlack">
+         <p
+         style="cursor: pointer;" 
+        onmouseover="this.style.textDecoration='underline'; !important;" 
+        onmouseout="this.style.textDecoration='none';">
+        Black</p>
+    </a>        
+    </div>
+
+        <div class="col-lg-2 col-md-6 col-12 d-flex flex-column">
+            <img 
+                src="https://cloud.opendatahub.com/index.php/apps/files_sharing/publicpreview/dimRZHxYYw8rc6b?file=/Logo_RBG/White/OpenDataHub_Logo_WH-RGB.jpg&fileId=428560&x=1920&y=1200&a=true">
+                <a href="https://cloud.opendatahub.com/index.php/s/dimRZHxYYw8rc6b?path=%2FLogo_RBG%2FWhite">
+                    <p
+                    style="cursor: pointer;" 
+                   onmouseover="this.style.textDecoration='underline'; !important;" 
+                   onmouseout="this.style.textDecoration='none';">
+                   White</p>
+               </a>  
         </div>
     </div>
     </div>
