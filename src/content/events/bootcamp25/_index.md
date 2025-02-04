@@ -16,7 +16,7 @@ Whether you are a developer, creator, designer, data expert, entrepreneur, tech 
 
 program:
   title: "Open Data Hub Bootcamp 2025 - Schedule"
-  subtitle: "The event will take place on **11th April** at NOI Techpark in Bolzano/Bozen, Italy. Participants will work in teams to collaborate, communicate, learn from each other and share best practices. The focus will be on solving real business challenges through teamwork.
+  subtitle: "The event will take place on **8th April** at NOI Techpark in Bolzano/Bozen, Italy. Participants will work in teams to collaborate, communicate, learn from each other and share best practices. The focus will be on solving real business challenges through teamwork.
 The event will be held in **English**. Participation is **free of charge**."
 
 content:
