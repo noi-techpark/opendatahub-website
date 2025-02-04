@@ -79,9 +79,13 @@ providers:
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/IDM.png"
       link: http://idm-suedtirol.com
 
+    - name: IndependentL
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/IndependentL.png"
+      link: https://www.independent.it/
+
     - name: Inno.vie
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/innovie.png"
-      link: http://www.innovie.it/s
+      link: http://www.innovie.it/
 
     - name: Leitner Energy
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/leitnerEnergy.png"
