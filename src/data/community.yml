@@ -288,6 +288,10 @@ consumers:
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/ttconsulting.png"
       link: https://www.tt-consulting.com/
 
+    - name: unibz
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/unibz.png"
+      link: https://www.unibz.it/
+
     - name: XLbit
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/xlbit.png"
       link: https://www.xlbit.com/
