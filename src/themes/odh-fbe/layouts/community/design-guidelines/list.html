@@ -278,7 +278,7 @@
             </ul>
             
             <ul><li><b>Open Data Hub logo</b>, which links the platform to its parent organisation.</li></ul>
-            <div class="row" style="width: 50%;">
+            <div class="row" style="width: 50%;" data-bs-toggle="modal" data-bs-target="#modal-{{ .Params.img_footer | sha1 }}">
                 {{ partial "img-enlargeable" (dict "img_back" .Params.img_header) }}
             </div>    
     </div>
@@ -312,8 +312,8 @@
                 <li>Font color #212529</li>
             </ul>
         </ul>
-        <div class="row" style="width: 50%;">
-        {{ partial "img-enlargeable" (dict "img_back" .Params.img_footer) }}
+        <div class="row" style="width: 50%;" data-bs-toggle="modal" data-bs-target="#modal-{{ .Params.img_footer | sha1 }}">
+            {{ partial "img-enlargeable" (dict "img_back" .Params.img_footer) }}
         </div>
     </div>
 </div>
