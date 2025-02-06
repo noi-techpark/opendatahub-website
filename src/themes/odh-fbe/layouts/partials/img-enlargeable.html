@@ -13,7 +13,7 @@
       <span>Click to enlarge</span>
       <i class="fa fa-search" aria-hidden="true" id="magnifying-glass"></i>
   </div>
-  <img src="{{ .img_back }}" />
+  <img src="{{ .img_back }}" alt="{{ .img_back_alt }}" title="{{ .img_back_title }}" />
 </div>
 <div class="modal modal-lg fade" id="modal-{{ .img_back | sha1 }}" tabindex="-1" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
@@ -31,7 +31,7 @@
             <span class="bg-white py-1 px-2 rounded">{{ . }}</span>
           </div>
           {{ end }}
-          <img src="{{ .img_back }}" />
+          <img src="{{ .img_back }}" alt="{{ .img_back_alt }}" title="{{ .img_back_title }}"/>
       </div>
   </div>
 </div>

@@ -19,6 +19,8 @@ short:
   btn_label: Read more
   img_back: "/img/use-cases/OpenDataHub-usecase-ert-moritz-brunner-01.jpg"
   img_credit: "© ËRT / Moritz Brunner"
+  img_back_alt: ""
+  img_back_title: ""
   bg_darker: true
   partial:  imgs-text.html
   weight: 1
@@ -36,6 +38,8 @@ paragraphs:
     In the video interview Brunner highlighted the **key benefits of using open data**: the **vast quantity** and **variety of information** available, and its **easy integration** into new projects. By leveraging these open data sources, ËRT can provide richer, more comprehensive models that respond dynamically to real-world information."
     img_back: "/img/use-cases/OpenDataHub-usecase-ert-moritz-brunner-01.jpg"
     img_credit: "© ËRT / Moritz Brunner"
+    img_back_alt: ""
+    img_back_title: ""
     partial: imgs-text-enlargeable.html
 
 
@@ -43,6 +47,8 @@ paragraphs:
     description: "The **Open Data Hub** provides a **vast array** of **topographical**, **environmental**, and **statistical data** that can be **easily integrated** into creative projects like ËRT. Access to these resources allowed the project to evolve rapidly, enhancing educational and tourism experiences while showcasing the potential of open data in creative industries."
     img_back: "/img/use-cases/OpenDataHub-usecase-ert-moritz-brunner-02.jpg"
     img_credit: "© Open Data Hub / Tania Marcadella"
+    img_back_alt: ""
+    img_back_title: ""
     btn_link: "https://opendatahub.com/datasets/"
     btn_label: Discover Datasets
     partial: text-imgs-enlargeable.html
@@ -54,6 +60,8 @@ paragraphs:
     Discover how the **Data Access Service** can support your vision."
     img_back: "/img/use-cases/OpenDataHub-usecase-ert-moritz-brunner-03.jpg"
     img_credit: "© Open Data Hub / Tania Marcadella"
+    img_back_alt: ""
+    img_back_title: ""
     btn_link: "https://opendatahub.com/services/data-access/"
     btn_label: Data Access Service
     partial:  imgs-text-enlargeable.html

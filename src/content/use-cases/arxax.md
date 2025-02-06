@@ -20,6 +20,8 @@ short:
   btn_link: "/use-cases/arxax"
   btn_label: Read more
   img_back: "/img/use-cases/ODH-usecase-Arxax-1.jpg"
+  img_back_alt: ""
+  img_back_title: ""
   bg_darker: true
   partial: imgs-text.html
   weight: 9

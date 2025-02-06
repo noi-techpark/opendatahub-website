@@ -19,6 +19,8 @@ rows:
     btn_link: "/community"
     btn_label: "Join the community"
     img_back: "/img/ODH-home-data-access.webp"
+    img_back_alt: ""
+    img_back_title: ""
     img_front: "/icon/upload.svg"
     bg_darker: true
     partial: imgs-icon-text.html
@@ -29,6 +31,8 @@ rows:
     btn_label: "Browse the datasets list"
     img_back: "/img/ODH-data-acess-datasets.jpg"
     img_front: "/img/access-data-4.jpg"
+    img_back_alt: ""
+    img_back_title: ""
     bg_darker: false
     partial: text-imgs.html
 
@@ -38,6 +42,8 @@ rows:
     btn_label: "Open the Data Browser"
     img_back: "/img/ODH-data-access-data-browser.jpg"
     img_front: "/img/access-data-6.jpg"
+    img_back_alt: ""
+    img_back_title: ""
     target_blank: true
     bg_darker: true
     partial: imgs-text.html
@@ -48,6 +54,8 @@ rows:
     btn_label: "Open the Analytics Tool"
     img_back: "/img/ODH-data-access-analytics-tool.jpg"
     img_front: "/img/access-data-8.jpg"
+    img_back_alt: ""
+    img_back_title: ""
     target_blank: true
     bg_darker: false
     partial: text-imgs.html
@@ -58,6 +66,8 @@ rows:
     btn_label: "View the web components list"
     img_back: "/img/ODH-data-access-data-web-components.jpg"
     img_front: "/img/access-data-8.jpg"
+    img_back_alt: ""
+    img_back_title: ""
     target_blank: true
     bg_darker: true
     partial: imgs-text.html
@@ -68,6 +78,8 @@ rows:
     btn_label: "Quota limint documentation"
     img_back: "/img/ODH-data-access-support.jpg"
     img_front: "/img/access-data-8.jpg"
+    img_back_alt: ""
+    img_back_title: ""
     target_blank: true
     bg_darker: false
     partial: text-imgs.html
@@ -78,6 +90,8 @@ rows:
     btn_label: "Join the community "
     img_back: "/img/ODH-data-access-support.jpg"
     img_front: "/img/access-data-8.jpg"
+    img_back_alt: ""
+    img_back_title: ""
     bg_darker: true
     partial: imgs-text.html
 ---
