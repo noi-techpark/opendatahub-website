@@ -29,6 +29,8 @@ start:
   title: "**Cyclists' mobility made easy**"
   subtitle: "Südtirolmobil Bikeboxes are safe storage spaces for bicycles. The bike boxes service is seamlessly integrated with the Südtirolmobil scheme, further enhancing the Mobility as a Service (MaaS) perspective in the region. Cyclists with a Südtirol Pass can now utilize a single application to access a multitude of mobility services, ranging from public transportation to bike parking facilities, streamlining their travel experience."
   img_back: "/img/use-cases/OpenDataHub-BikeBox-Tania-Marcadella-2024-8305.jpg"
+  img_back_alt: ""
+  img_back_title: ""
   img_credit: "© Open Data Hub / Tania Marcadella"
   partial:   title-cta.html
 

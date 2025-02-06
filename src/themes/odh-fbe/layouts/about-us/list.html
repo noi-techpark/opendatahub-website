@@ -13,7 +13,7 @@
 </section>
 
 <section id="">
-    {{ partial "img-big.html" site.Data.about_us.paragraph_5 }}
+    {{ partial "img-big.html" (dict "img_back" site.Data.about_us.paragraph_5.img_back "img_back_alt" site.Data.about_us.paragraph_5.img_back_alt "img_back_title" site.Data.about_us.paragraph_5.img_back_title) }}
 </section>
 
 <section id="">

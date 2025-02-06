@@ -12,6 +12,8 @@ rows:
     btn_link: "../contributor-of-2024"
     btn_label: "See details"
     img_back: "/img/contributor-of-the-year-2024.jpg"
+    img_back_alt: ""
+    img_back_title: ""
     bg_darker: true
     partial: imgs-icon-text.html
 ---
