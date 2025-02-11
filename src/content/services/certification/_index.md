@@ -1,5 +1,5 @@
 ---
-type: services/single
+type: services/certification
 position: "Services"
 aliases: /certification
 title: "Open Data Hub API Certified Technology Provider"
@@ -7,20 +7,18 @@ subtitle: "The Open Data Hub API Certified Technology Provider certification rec
 
 rows:
   - title: "How to be certified?"
+    img_back: "/img/certification.jpg"
+    img_alt: "Certification process illustration"
+    img_title: "How to get certified"
     description: >
-      1. Send a request to us to be certified. Do include the following details:
-          
-          a. Endpoint URL and technical description of your output API.
-          
-          b. Contact point for community updates, like the Data Consumer Contract.
+      To get started, submit your certification request including: the URL of your endpoint, a technical description of your output API and a contact point for updates (Data Consumer Contract). ①
       
-      2. The Open Data Hub team develops a Data Collector.
       
-      3. The Open Data Hub team verifies the compatibility and that the data gets collected in out Testing Environment.
+      The Open Data Hub team will develop a Data Collector tailored to your service ② and test its compatibility in our environment to confirm successful data collection. ③
       
-      4. The Open Data Hub team sends a certificate of compatibility and adds your organization to the Certified Technology Provider register on OpenDataHub.com.
-    bg_darker: true
-    partial: text-contact.html
-    contact_email: "help@opendatahub.com"
+      
+      Once verified, you will receive a certificate of compatibility and your organisation will be listed in the Certified Technology Provider register on opendatahub.com. ④
 
+    partial: contact-mailto.html
+    contact_email: "help@opendatahub.com"
 ---
