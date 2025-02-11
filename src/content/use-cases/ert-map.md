@@ -46,7 +46,7 @@ paragraphs:
   - title: ""
     description: "The **Open Data Hub** provides a **vast array** of **topographical**, **environmental**, and **statistical data** that can be **easily integrated** into creative projects like ËRT. Access to these resources allowed the project to evolve rapidly, enhancing educational and tourism experiences while showcasing the potential of open data in creative industries."
     img_back: "/img/use-cases/OpenDataHub-usecase-ert-moritz-brunner-02.jpg"
-    img_credit: "© Open Data Hub / Tania Marcadella"
+    img_credit: "© ËRT / Moritz Brunner"
     img_back_alt: ""
     img_back_title: ""
     btn_link: "https://opendatahub.com/datasets/"
