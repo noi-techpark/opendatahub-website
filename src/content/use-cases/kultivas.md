@@ -7,8 +7,8 @@ use_case_tags:
   - "agriculture"
 
 seo:
-  title:
-  description:
+  title: "KULTIVAS | Big Data Platform for Sustainable Apple Cultivation"
+  description: "Explore KULTIVAS, an innovative Big Data platform enhancing decision-making in South Tyrolean apple farming through data-driven insights and machine learning."
   keywords:
 
 short:

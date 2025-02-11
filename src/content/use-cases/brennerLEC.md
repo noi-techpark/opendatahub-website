@@ -8,8 +8,8 @@ use_case_tags:
   - "mobility"
 
 seo:
-  title:
-  description:
+  title: "BrennerLEC | Lower Emission Corridor for Sustainable Transport"
+  description: "Explore BrennerLEC's initiative to establish a Lower Emission Corridor along the A22 highway, aiming to reduce air pollution and enhance traffic flow in the Alps region."
   keywords:
 
 short:

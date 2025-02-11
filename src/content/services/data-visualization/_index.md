@@ -4,6 +4,10 @@ position: "Services"
 aliases: /data-visualization
 title: "Data Visualization: understand the potential of data"
 subtitle: "We help companies to test, visualise and get inspired by data to make their ideas concrete and valuable."
+seo:
+  title: "Data Visualization  | Open Data Hub for custom visualizations"
+  description: "Visualize the potential of your data with Open Data Hub. We help organizations test, visualize and create custom visualizations using powerful data tools."
+  keywords:
 
 rows:
   - title: "As a data provider, you will get"

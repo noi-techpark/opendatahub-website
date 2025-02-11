@@ -6,6 +6,11 @@ title: "Data Access: understand now how to build on open data."
 subtitle: "If you develop software applications we provide access to open data, through a **machine-readable**, documented and **stable channel**, to updated and **real-time data**, released under an Open Data licence."
 show_table: true
 
+seo:
+  title: "Data Access | Open Data Hub to explore and integrate Data"
+  description: "Discover data access with Open Data Hub. Explore datasets, data hubs, and tools for seamless data visualization, integration, and smarter data-driven solutions."
+  keywords:
+
 rows:
   - title: "Accessing data as a registered data consumer, you will get"
     description: |-

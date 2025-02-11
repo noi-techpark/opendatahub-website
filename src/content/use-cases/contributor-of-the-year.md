@@ -8,8 +8,8 @@ use_case_tags:
   - "mobility"
 
 seo:
-  title:
-  description:
+  title: "Contributor of the Year | Excellence in data collaboration"
+  description: "Celebrate the Contributor of the Year award, honoring exceptional efforts that drive collaboration, innovation, and progress within the data community."
   keywords:
 
 short:

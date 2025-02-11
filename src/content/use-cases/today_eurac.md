@@ -7,8 +7,8 @@ use_case_tags:
   - "eurac"
 
 seo:
-  title:
-  description:
+  title: "Eurac Research events| Data visualisation for event display"
+  description: "Discover how Eurac Research increased the visibility of their events through the Open Data Hub, streamlining displays and improving data accessibility."
   keywords:
 
 short:
