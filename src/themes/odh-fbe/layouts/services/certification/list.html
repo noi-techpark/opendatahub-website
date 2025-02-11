@@ -1,0 +1,16 @@
+{{ define "main" }}
+
+{{ partial "title.html" .Params }}
+<br>
+
+{{ with index .Params.rows 0 }}
+        <div class="container">
+            {{ partial "text-imgs-enlargeable" . }}
+    <br>
+        {{ if .partial }}
+            {{ partial .partial . }}
+        {{ end }}
+    </div>
+{{ end }}
+
+{{ end }}
