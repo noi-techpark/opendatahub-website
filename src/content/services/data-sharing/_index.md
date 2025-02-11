@@ -5,6 +5,11 @@ aliases: /data-sharing
 title: "Data Sharing: share your data online."
 subtitle: "We help you to give visibility to your data, identify suitable formats, processing algorithms and licences and to use technologies known by application developers."
 
+seo:
+  title: "Data Sharing | Open Data Hub for secure data sharing"
+  description: "Share your data with Open Data Hub. We manage and securely distribute your datasets, ensuring seamless access for collaboration and innovative applications."
+  keywords:
+
 rows:
   - title: "By sharing your data, you will get"
     description: |-

@@ -8,8 +8,8 @@ use_case_tags:
   - "mobility"
 
 seo:
-  title:
-  description:
+  title: "Green Mobility | real-time e-charging stations widget"
+  description: "Discover real-time e-charging stations data from Open Data Hub. Access mobility data to build sustainable smart cities and enhance eco-friendly transport."
   keywords:
 
 short:

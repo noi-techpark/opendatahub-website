@@ -7,8 +7,8 @@ use_case_tags:
   - "mobility"
 
 seo:
-  title:
-  description:
+  title: "MENTOR | Mobility-as-a-Service in Merano"
+  description: "Discover MENTOR's Mobility-as-a-Service (MaaS) initiative in Merano. Access integrated mobility services via a single app, enhancing urban transport efficiency."
   keywords:
 
 short:

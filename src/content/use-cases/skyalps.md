@@ -7,8 +7,8 @@ use_case_tags:
   - "mobility"
 
 seo:
-  title:
-  description:
+  title: "SkyAlps | Open Data Hub for tourism and travel insights"
+  description: "Discover how SkyAlps utilizes data-driven insights and tourism datasets from Open Data Hub to enhance passenger experiences and optimize travel operations."
   keywords:
 
 short:

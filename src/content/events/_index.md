@@ -8,6 +8,11 @@ upcoming:
   title: "**Upcoming Events**"
   subtitle: The next events where you can get in touch with **Open Data Hub**. Click the events to get more information and **register**.
 
+seo:
+  title: "Events | Open Data Hub meetings and conferences"
+  description: "Stay updated on Open Data Hub's upcoming events, including workshops, conferences and hackathons. Join our community to learn, collaborate and innovate in open data."
+  keywords:
+
 past:
   title: "**Past Events**"
   subtitle: Some of the past events related to **Open Data Hub**. Click the events to obtain **slides, video and all the materials** produced.
