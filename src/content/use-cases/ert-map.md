@@ -40,6 +40,8 @@ paragraphs:
     img_credit: "© ËRT / Moritz Brunner"
     img_back_alt: ""
     img_back_title: ""
+    btn_link: "https://vimeo.com/manage/videos/954323720"
+    btn_label: More info
     partial: imgs-text-enlargeable.html
 
 
@@ -65,4 +67,10 @@ paragraphs:
     btn_link: "https://opendatahub.com/services/data-access/"
     btn_label: Data Access Service
     partial:  imgs-text-enlargeable.html
+
+
+  - description: "In the beginning, I had to enter the data manually, which was very time-consuming. I wanted to learn how to integrate open data sets to improve scalability and production time. ËRT was later enriched with data from the Open Data Hub."
+    title: "Moritz Brunner"
+    subtitle: "Founder, ËRT"
+    partial: quote.html
 ---
