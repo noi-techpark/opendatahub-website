@@ -1,0 +1,64 @@
+# SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+#
+# SPDX-License-Identifier: CC0-1.0
+
+apis:
+  - title: "Content API"
+    description: "Provides access to diverse datasets from various domains, primarily focused on tourism."
+    category: "general"
+    buttons:
+      - label: "Swagger"
+        url: "https://tourism.api.opendatahub.com/swagger/index.html"
+      - label: "Repository"
+        url: "https://github.com/noi-techpark/odh-api-core"
+      - label: "Documentation"
+        url: "https://github.com/noi-techpark/odh-docs/wiki/Content-API"
+
+  - title: "Time Series API"
+    description: "Enables access to historical and real-time time series data, primarily in the mobility domain."
+    category: "general"
+    buttons:
+      - label: "Swagger"
+        url: "https://swagger.opendatahub.com/?url=https://mobility.api.opendatahub.com/v2/apispec#/"
+      - label: "Repository"
+        url: "https://github.com/noi-techpark/it.bz.opendatahub.api.mobility-ninja"
+      - label: "Documentation"
+        url: "https://github.com/noi-techpark/odh-docs/wiki/Time-series-API"
+
+  - title: "Transmodel API – NeTEx"
+    description: "Provides standardized mobility data in NeTEx format."
+    category: "project_specific"
+    buttons:
+      - label: "Swagger"
+        url: "https://swagger.opendatahub.com/?url=https://transmodel.api.opendatahub.com/apispec#/netex"
+      - label: "Repository"
+        url: "https://github.com/noi-techpark/transmodel-api"
+      - label: "Documentation"
+        url: "https://github.com/noi-techpark/odh-docs/wiki/Transmodel-API-%E2%80%90-NeTEx-Endpoints"
+
+  - title: "Transmodel API – SIRI-Lite"
+    description: "Provides standardized mobility data in SIRI-Lite format."
+    category: "project_specific"
+    buttons:
+      - label: "Swagger"
+        url: "https://swagger.opendatahub.com/?url=https://transmodel.api.opendatahub.com/apispec#/siri-lite"
+      - label: "Repository"
+        url: "https://github.com/noi-techpark/transmodel-api"
+      - label: "Documentation"
+        url: "https://github.com/noi-techpark/odh-docs/wiki/Transmodel-API-%E2%80%90-SIRI%E2%80%90Lite-Endpoints"
+
+  - title: "AlpineBits HotelData"
+    description: "Provides hotel data in XML format."
+    category: "project_specific"
+    buttons:
+      - label: "Repository"
+        url: "https://github.com/noi-techpark/odh-alpinebits-server?tab=readme-ov-file#how-to-request-data"
+
+  - title: "AlpineBits Destination"
+    description: "Provides destination data via a REST API."
+    category: "project_specific"
+    buttons:
+      - label: "Swagger"
+        url: "https://swagger.opendatahub.bz.it/?url=https://destinationdata.alpinebits.opendatahub.bz.it/specification.json"
+      - label: "Repository"
+        url: "https://github.com/noi-techpark/odh-alpinebits-destination-data-server"

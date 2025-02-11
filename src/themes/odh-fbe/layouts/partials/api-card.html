@@ -1,0 +1,16 @@
+{{/*
+    SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+    SPDX-License-Identifier: AGPL-3.0-or-later
+*/}}
+
+<div class="col-lg-4 col-md-6 col-12">
+  <div class="bg-primary-subtle border-bottom border-black border-5 px-4 pt-5 pb-4 h-100 d-flex flex-column">
+    <h5 class="fw-bold mb-2">{{ .title }}</h5>
+    <p class="flex-grow-1 mb-3">{{ .description }}</p>
+    <div>
+      {{ range .buttons }}
+        <a class="btn btn-primary me-2 mb-2" href="{{ .url }}" target="_blank">{{ .label }}</a>
+      {{ end }}
+    </div>
+  </div>
+</div>
