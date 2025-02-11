@@ -7,8 +7,8 @@ use_case_tags:
   - "mobility"
 
 seo:
-  title:
-  description:
+  title: "Südtirolmobil | Mobility Data Spaces and sharing solutions"
+  description: "Discover how the POI data provided by Open Data Hub simplifies public transport in South Tyrol, offering an intuitive experience for both locals and tourists"
   keywords:
 
 short:

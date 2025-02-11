@@ -7,8 +7,8 @@ use_case_tags:
   - "traffic"
 
 seo:
-  title:
-  description:
+  title: "ONTOPIC | Virtual Knowledge Graphs and SPARQL Endpoints"
+  description: "Discover how ONTOPIC utilizes virtual knowledge graphs and SPARQL endpoints to provide seamless access to real-time mobility and tourism data via Open Data Hub."
   keywords:
 
 short:

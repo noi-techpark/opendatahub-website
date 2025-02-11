@@ -8,8 +8,8 @@ use_case_tags:
   - "traffic"
 
 seo:
-  title:
-  description:
+  title: "Merano App | Smart Tourism and Real-Time Mobility Insights"
+  description: "The Merano App delivers smart tourism solutions with real-time mobility updates, helping tourists and locals navigate events, weather and parking."
   keywords:
 
 short:

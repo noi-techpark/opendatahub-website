@@ -7,8 +7,8 @@ use_case_tags:
   - "tourism"
 
 seo:
-  title:
-  description:
+  title: "ËRT | Interactive Landscape Model with open data"
+  description: "Discover ËRT, an interactive landscape model powered by topographical, environmental, and statistical data. Enhance creative projects with diverse data insights"
   keywords:
 
 short:

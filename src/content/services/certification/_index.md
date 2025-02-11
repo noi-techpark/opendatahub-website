@@ -4,6 +4,10 @@ position: "Services"
 aliases: /certification
 title: "Open Data Hub API Certified Technology Provider"
 subtitle: "The Open Data Hub API Certified Technology Provider certification recognises IT companies that integrate with the Open Data Hub, enabling data providers to seamlessly share their data through their platforms and systems."
+seo:
+  title: "Certification | Become an Open Data Hub Certified Technology Provider"
+  description: "Learn how to become an Open Data Hub Certified Technology Provider. Integrate your systems with our platform to enable seamless data sharing for your clients."
+  keywords:
 
 rows:
   - title: "How to be certified?"

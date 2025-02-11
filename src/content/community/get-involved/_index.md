@@ -5,6 +5,11 @@ aliases: /get-involved
 title: "Get Involved and How to Collaborate​"
 subtitle: "The Open Data Hub team warmly invites new partners and users to become part of our journey. We offer a variety of pathways to engage with the project. Depending on your interest on the Open Data Hub, we welcome your participation to the project in one of the roles that we have envisioned:​"
 
+seo:
+  title: "Get Involved | Join the Open Data Hub Community"
+  description: "Become a part of the Open Data Hub community. Explore roles as a user, data provider, app developer, or core hacker to collaborate and innovate in open data."
+  keywords:
+
 rows:
   - title: "As a User I can…​"
     description: " 
