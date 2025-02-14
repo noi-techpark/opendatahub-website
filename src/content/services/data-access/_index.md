@@ -8,7 +8,7 @@ show_table: true
 
 seo:
   title: "Data Access | Open Data Hub to explore and integrate Data"
-  description: "Discover data access with Open Data Hub. Explore datasets, data hubs, and tools for seamless data visualization, integration and smarter data-driven solutions."
+  description: "Discover Data Access with Open Data Hub. Explore available datasets, integrate data into your digital solutions and unlock smarter data-driven insights."
   keywords:
 
 rows:
