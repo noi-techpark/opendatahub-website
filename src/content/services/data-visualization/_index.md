@@ -4,6 +4,10 @@ position: "Services"
 aliases: /data-visualization
 title: "Data Visualization: understand the potential of data"
 subtitle: "We help companies to test, visualise and get inspired by data to make their ideas concrete and valuable."
+seo:
+  title: "Data Visualization  | Open Data Hub for custom visualizations"
+  description: "Visualize the potential of your data with Open Data Hub. We help organizations test, visualize and create custom visualizations using powerful data tools."
+  keywords:
 
 rows:
   - title: "As a data provider, you will get"
@@ -18,6 +22,8 @@ rows:
     btn_label: "See details "
     img_back: "/img/ODH-data-visualization-top-image.jpg"
     img_front: "/icon/box.svg"
+    img_back_alt: ""
+    img_back_title: ""
     target_blank: true
     bg_darker: true
     partial: imgs-icon-text.html

@@ -8,8 +8,8 @@ use_case_tags:
   - "traffic"
 
 seo:
-  title:
-  description:
+  title: "Arxax | Decarbonizing transport with data-driven solutions"
+  description: "Discover how Arxax leverages Open Data Hub to reduce CO₂ emissions in the Brenner corridor. Explore data-driven strategies for sustainable transport and logistics."
   keywords:
 
 
@@ -20,6 +20,8 @@ short:
   btn_link: "/use-cases/arxax"
   btn_label: Read more
   img_back: "/img/use-cases/ODH-usecase-Arxax-1.jpg"
+  img_back_alt: ""
+  img_back_title: ""
   bg_darker: true
   partial: imgs-text.html
   weight: 9

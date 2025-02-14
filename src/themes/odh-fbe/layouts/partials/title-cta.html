@@ -21,7 +21,7 @@
                 {{ if isset . "video"}}
                 {{ partial "video-iframe.html" . }}
                 {{ else }}
-                <img src="{{ .img_back }}" />
+                <img src="{{ .img_back }}" alt="{{ .img_back_alt }}" title="{{ .img_back_title }}" />
                 {{ end }}
             </div>
         </div>

@@ -7,8 +7,8 @@ use_case_tags:
   - "mobility"
 
 seo:
-  title:
-  description:
+  title: "MENTOR | Mobility-as-a-Service in Merano"
+  description: "Discover MENTOR's Mobility-as-a-Service (MaaS) initiative in Merano. Access integrated mobility services via a single app, enhancing urban transport efficiency."
   keywords:
 
 short:
@@ -18,6 +18,8 @@ short:
   btn_link: "/use-cases/mentor"
   btn_label: Read more
   img_back: "/img/use-cases/ODH-usecase-mentor-image-01.jpg"
+  img_back_alt: ""
+  img_back_title: ""
   bg_darker: true
   partial: text-imgs.html
   weight: 10
@@ -27,15 +29,21 @@ start:
   title: "**Mobility-as-a-Service: the new mobility of Merano**"
   subtitle: "A new concept is emerging worldwide: “MaaS - Mobility-as-a-Service”. The idea is to allow people, through a unique APP, to access on demand different mobility services that are integrated with each other and to choose from time to time the most appropriate one." 
   img_back: "/img/use-cases/ODH-usecase-mentor-image-01.jpg"
+  img_back_alt: ""
+  img_back_title: ""
   partial: title-cta.html
 
 paragraphs:
   - description: "The concept of 'Mobility as a Service' (MaaS) has considerable potential for success in highly urbanised areas with a higher concentration of users. However, can it also work in small Alpine communities, and if so, how? These are the questions that the MENTOR project has aimed to address since its launch in late 2018. To evaluate the feasibility of MaaS in the Alpine context, the concept has been put into practice in two Alpine regions: Merano in the Autonomous Province of Bolzano (Italy) and Brig-Glis in the Canton of Valais (Switzerland). For the application of the concept of “mobility as a service” to be possible, the essential requirement, in addition to the digital aspect, is the presence of a set of mobility services strongly integrated around the public transport offer, which is the backbone of the system. Therefore, the MENTOR project's pilot activities concentrated primarily on examining the potential of new services that are strongly integrated with public transportation."
     img_back: "/img/use-cases/ODH-usecase-mentor-image-02.jpg"
+    img_back_alt: ""
+    img_back_title: ""
     partial: imgs-text.html
 
   - description: "All these services have been technologically connected to the Open Data Hub. Through a partnership between NOI Techpark and OpenMove, a cutting-edge digital solution has been developed, enabling the calculation of trip plans by integrating real-time data from all accessible mobility services. This advanced application is available at mobility.meran.eu."
     img_back: "/img/use-cases/ODH-usecase-mentor-image-03.jpg"
+    img_back_alt: ""
+    img_back_title: ""
     partial: text-imgs-enlargeable.html
 
   - description: "The pilot mobility services tested in the MENTOR project are <br><br>
@@ -44,6 +52,8 @@ paragraphs:
     → **Car Pooling** (Municipality of Merano): Shared use of a car by people driving the same route <br>
     → **On-demand** (Municipalities of Merano and Brig-Glis): Demand responsive buses, available in areas and times of day less served by public transport "
     img_back: "/img/use-cases/ODH-usecase-mentor-image-04.jpg"
+    img_back_alt: ""
+    img_back_title: ""
     partial: imgs-text-enlargeable.html
 
   - title: "**Bike Sharing**"
@@ -55,6 +65,8 @@ paragraphs:
     
   - description: "The test phase demonstrated that a bike sharing service can be useful even in a small alpine town with a high rate of cycling. However, the service must meet very specific mobility demands, such as linking the city center to the train station, and must be a complementary mode of transport to public transportation. An intriguing challenge for future expansion could be to promote the service in more outlying areas of the city (or even in nearby municipalities) by using electric bikes to make longer trips easier."
     img_back: "/img/use-cases/ODH-usecase-mentor-image-06.jpg"
+    img_back_alt: ""
+    img_back_title: ""
     partial: imgs-text-enlargeable.html
 
   - title: "**Bike Boxen**"
@@ -67,29 +79,41 @@ paragraphs:
     btn_link: "https://opendatahub.com/datasets/mobility/carpooling/"
     btn_label: See available dataset
     img_back: "/img/use-cases/ODH-usecase-mentor-image-08.jpg"
+    img_back_alt: ""
+    img_back_title: ""
     partial: imgs-text.html
 
   - title: "**On demand**"
     description: "The pilot municipalities Merano and Brig-Glis, tested an on-demand transport service that lies somewhere between a bus and a taxi. The goal was to evaluate the potential of integrating the service with the public transport system in low-demand areas, such as during off-peak hours or in sparsely populated and underserved regions."
     img_back: "/img/use-cases/ODH-usecase-mentor-image-09.jpg"
+    img_back_alt: ""
+    img_back_title: ""
     partial: text-imgs.html
 
   - description: "The pilot phase confirmed how even in a rural alpine context new on-de- mand services can represent an essential integration offer to public transport. These types of services can effectively link the starting/ending points of a trip (homes, tourist attractions) with the public transport network. New and more extensive pilot are nevertheless needed to confirm this approach,
     especially as far as the economic sustainability in relation to the real demand for mobility that the service could satisfy is concerned."
     img_back: "/img/use-cases/ODH-usecase-mentor-image-10.jpg"
+    img_back_alt: ""
+    img_back_title: ""
     partial: imgs-text-enlargeable.html
 
   - title: "**Self-driving shuttle**"
     description: "The advancement of on-demand services in the future will be characterized by an innovative and revolutionary technology: autonomous self-driving shuttles. The project conducted public demonstrations in Brig-Glis and Merano to introduce users to this new technology. In Merano, the demonstration made history: for the first time in Italy, a self-driving vehicle with public access was tested on public roads. The electric vehicle is able to 'read' the route safely by means of intelligent sensors. For an entire week, end of november 2019, the shuttle was available to interested parties from 9 a.m. to 5 p.m., for a roughly 10-minute ride around the city centre. On each run, 12 people were transported, plus two technicians: one to intervene if necessary, the other to explain the vehicle's functionality to passengers."
     img_back: "/img/use-cases/ODH-usecase-mentor-image-11.jpg"
+    img_back_alt: ""
+    img_back_title: ""
     partial: text-imgs.html
 
   - description: "The demonstrations have shown that self-driving shuttles are technologically mature and ready to provide transportation services in specific and controlled contexts. However, more pilot projects are necessary to improve the state-of-the-art and explore the various possibilities of using them in rural and mountainous areas typical of the Alps. Users appear willing to use this type of vehicle, but it is necessary to engage them properly in these projects. Prior to testing the service, 45% of users in Merano expressed a low level of confidence in the technology. This mistrust decreased to 5% after they tried it out."
     img_back: "/img/use-cases/ODH-usecase-mentor-image-12.jpg"
+    img_back_alt: ""
+    img_back_title: ""
     partial: imgs-text-enlargeable.html
 
   - title: "**Recommendations for sustainable MaaS development in a rural/alpine context**"
     description: "Developing sustainable MaaS in a rural/alpine context requires convincing private car drivers to adopt a new mobility paradigm, prioritizing the reliability of services over driving speed."
     img_back: "/img/use-cases/ODH-usecase-mentor-image-13.jpg"
+    img_back_alt: ""
+    img_back_title: ""
     partial: text-imgs-enlargeable.html
 ---
