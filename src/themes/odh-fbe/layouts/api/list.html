@@ -11,14 +11,22 @@
   <section>
     <div class="container">
 
-      <h2>General</h2>
+      <h2 id="general">
+        <a href="#general" style="display: block; text-decoration: none; color: inherit;">
+          General
+        </a>
+      </h2>
       <div class="row gy-4">
         {{ range where site.Data.api.apis "category" "general" }}
           {{ partial "api-card.html" . }}
         {{ end }}
       </div>
 
-      <h2 style="margin-top: 7rem;">Project specific</h2>
+      <h2 id="project-specific" style="margin-top: 7rem;">
+        <a href="#project-specific" style="display: block; text-decoration: none; color: inherit;">
+          Project specific
+        </a>
+      </h2>
       <div class="row gy-4">
         {{ range where site.Data.api.apis "category" "project_specific" }}
           {{ partial "api-card.html" . }}
