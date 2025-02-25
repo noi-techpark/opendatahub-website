@@ -177,11 +177,16 @@ menu:
       URL: "/web-components"
       weight: 4
 
-    # --- Quickstart ---
-    - identifier: quickstart
+    # --- Resources ---
+    - identifier: resources
       URL: /quickstart
-      name: Quickstart
+      name: Resources
       weight: 5
+
+    - parent: resources
+      name: APIs
+      URL: /API
+      weight: 1  
 
     # --- Community ---
     - identifier: community
