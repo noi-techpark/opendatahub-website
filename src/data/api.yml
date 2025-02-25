@@ -23,7 +23,7 @@ apis:
       - label: "Repository"
         url: "https://github.com/noi-techpark/it.bz.opendatahub.api.mobility-ninja"
       - label: "Documentation"
-        url: "https://github.com/noi-techpark/odh-docs/wiki/Time-series-API"
+        url: "https://github.com/noi-techpark/it.bz.opendatahub.api.mobility-ninja#usage-of-the-api"
 
   - title: "Transmodel API – NeTEx"
     description: "Provides standardized mobility data in NeTEx format."
@@ -62,3 +62,22 @@ apis:
         url: "https://swagger.opendatahub.bz.it/?url=https://destinationdata.alpinebits.opendatahub.bz.it/specification.json"
       - label: "Repository"
         url: "https://github.com/noi-techpark/odh-alpinebits-destination-data-server"
+
+  - title: "GTFS"
+    description: "Provides a single access point to GTFS files and metadata."
+    category: "project_specific"
+    buttons:
+    - label: "Swagger"
+      url: "https://swagger.opendatahub.com/?url=https://gtfs.api.opendatahub.com/v1/apispec"
+    - label: "Repository"
+      url: "https://github.com/noi-techpark/com.opendatahub.api.gtfs"
+
+  - title: "GBFS"
+    description: "Provides a single access point to GBFS feeds and metadata."
+    category: "project_specific"
+    buttons:
+      - label: "Swagger"
+        url: "https://swagger.opendatahub.com/?url=https://gbfs.api.opendatahub.com/v1/apispec"
+      - label: "Repository"
+        url: "https://github.com/noi-techpark/com.opendatahub.api.gbfs"
+
