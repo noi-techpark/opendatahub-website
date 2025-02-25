@@ -23,7 +23,7 @@ apis:
       - label: "Repository"
         url: "https://github.com/noi-techpark/it.bz.opendatahub.api.mobility-ninja"
       - label: "Documentation"
-        url: "https://github.com/noi-techpark/odh-docs/wiki/Time-series-API"
+        url: "https://github.com/noi-techpark/it.bz.opendatahub.api.mobility-ninja#usage-of-the-api"
 
   - title: "Transmodel API – NeTEx"
     description: "Provides standardized mobility data in NeTEx format."
