@@ -198,6 +198,11 @@ menu:
       URL: /documentation
       weight: 3
 
+    - parent: resources
+      name: Source code
+      URL: /code
+      weight: 4
+
     # --- Community ---
     - identifier: community
       URL: /community

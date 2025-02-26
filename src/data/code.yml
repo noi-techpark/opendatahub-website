@@ -1,0 +1,11 @@
+# SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+#
+# SPDX-License-Identifier: CC0-1.0
+
+boxes:
+  - title: Source code repositories
+    subtitle: Access the NOI Techpark repositories to contribute or reuse code of the Open Data Hub.
+    btn_link: https://github.com/noi-techpark
+
+  
+    
