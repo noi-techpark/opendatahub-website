@@ -192,6 +192,11 @@ menu:
       name: APIs
       URL: /API
       weight: 2
+    
+    - parent: resources
+      name: Documentation
+      URL: /documentation
+      weight: 3
 
     # --- Community ---
     - identifier: community
