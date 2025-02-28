@@ -203,6 +203,11 @@ menu:
       URL: /code
       weight: 4
 
+    - parent: resources
+      name: Design Guidelines
+      URL: /community/design-guidelines
+      weight: 7
+
     # --- Community ---
     - identifier: community
       URL: /community
@@ -239,10 +244,6 @@ menu:
       URL: /community/get-involved
       weight: 6
 
-    - parent: community
-      name: Design Guidelines
-      URL: /community/design-guidelines
-      weight: 7
 
     # --- Events ---
     - identifier: events
