@@ -292,6 +292,14 @@ consumers:
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/unibz.png"
       link: https://www.unibz.it/
 
+    - name: Wispers.at
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/VION.png"
+      link: https://www.whispers.at/
+    
+    - name: WaveLab
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/wavelab.png"
+      link: https://wavelab.space/
+
     - name: XLbit
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/xlbit.png"
       link: https://www.xlbit.com/
@@ -299,10 +307,6 @@ consumers:
     - name: Yanovis
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/yanovis.png"
       link: https://www.yanovis.com/
-
-    - name: Wispers.at
-      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/whispers.png"
-      link: https://www.whispers.at/
 
 ########################### Certified Technology Providers #########################
 certified:
