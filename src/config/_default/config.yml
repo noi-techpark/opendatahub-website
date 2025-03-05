@@ -199,11 +199,10 @@ menu:
       URL: /community/#sm-tag-data-consumers
       weight: 2
 
-# [CTP] - uncomment below
-    # - parent: community
-    #   name: Certified Technology Provider
-    #   URL: /community/#sm-tag-certified-technology-provider
-    #   weight: 3
+    - parent: community
+      name: Certified Technology Provider
+      URL: /community/#sm-tag-certified-technology-provider
+      weight: 3
     
     - parent: community
       name: Partnerships
