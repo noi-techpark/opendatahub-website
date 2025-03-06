@@ -22,7 +22,7 @@ short:
   img_credit: "© Open Data Hub / Tania Marcadella"
   bg_darker: true
   partial:  text-imgs.html
-  weight: 2
+  weight: 3
 
 start:
   description: "SÜDTIROLMOBIL BIKEBOX"

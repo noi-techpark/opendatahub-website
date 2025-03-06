@@ -24,7 +24,7 @@ short:
   img_back_title: ""
   bg_darker: true
   partial: text-imgs-enlargeable.html
-  weight: 4
+  weight: 5
 
 start:
   description: "MERANO APP"

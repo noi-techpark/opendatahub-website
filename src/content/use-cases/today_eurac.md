@@ -23,7 +23,7 @@ short:
   img_back_title: ""
   bg_darker: true
   partial: text-imgs-enlargeable.html
-  weight: 6
+  weight: 7
 
 start:
   subtitle: "TODAY@EURAC"

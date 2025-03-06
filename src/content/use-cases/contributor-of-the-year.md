@@ -24,7 +24,7 @@ short:
   img_back_title: ""
   bg_darker: false
   partial: imgs-text.html
-  weight: 3
+  weight: 4
 
 start:
   description: "OPEN DATA HUB"
