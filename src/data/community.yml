@@ -216,6 +216,10 @@ consumers:
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/DiscoverSwiss.png"
       link: https://discover.swiss/
 
+    - name: Dolomiti Nordicski
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/DolomitiNosrdicski.png"
+      link: https://www.dolomitinordicski.com/en/home.html
+
     - name: Eurac Research
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/eurac.png"
       link: https://www.eurac.edu/
@@ -238,7 +242,7 @@ consumers:
 
     - name: johnOS
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/johnos.png"
-      link: https://www.johnosproject.org/docs/references/jod_dists/jod_aa_odh/
+      link: https://www.johnosproject.org/
 
     - name: Merano Tourist Office
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/merano.png"
@@ -292,6 +296,14 @@ consumers:
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/unibz.png"
       link: https://www.unibz.it/
 
+    - name: Wispers.at
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/VION.png"
+      link: https://www.whispers.at/
+    
+    - name: WaveLab
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/wavelab.png"
+      link: https://wavelab.space/
+
     - name: XLbit
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/xlbit.png"
       link: https://www.xlbit.com/
@@ -300,18 +312,14 @@ consumers:
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/yanovis.png"
       link: https://www.yanovis.com/
 
-    - name: Wispers.at
-      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/whispers.png"
-      link: https://www.whispers.at/
-
 ########################### Certified Technology Providers #########################
 certified:
   title: Certified Technology Providers
   subtitle: These Companies and Organizations are Certified Technology Providers for the Open Data Hub API and share data with others, to enable the implementation of innovative digital solutions.
   items:
-    - name: (Example) NOI S.p.A.
-      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/NOI_1_BK_Com.png"
-      link: https://noi.bz.it
+    - name: SKIDATA
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/skidata.png"
+      link: https://www.skidata.com/
       
 ########################### Partnerships and Alliances #########################
 partnerships:

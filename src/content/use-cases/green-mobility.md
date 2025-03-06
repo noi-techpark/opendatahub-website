@@ -23,7 +23,7 @@ short:
   img_back_title: ""
   bg_darker: false
   partial: imgs-text.html
-  weight: 13
+  weight: 14
 
 start:
   description: "GREEN MOBILITY"

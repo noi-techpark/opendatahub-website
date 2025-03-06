@@ -1,0 +1,39 @@
+{{/*
+	SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+
+	SPDX-License-Identifier: AGPL-3.0-or-later
+*/}}
+
+{{ define "main" }}
+
+  {{ partial "title.html" .Params }}
+
+  <section>
+    <div class="container">
+
+      <h2 id="general">
+        <a href="#general" style="display: block; text-decoration: none; color: inherit;">
+          Open Data Hub main APIs
+        </a>
+      </h2>
+      <div class="row gy-4">
+        {{ range where site.Data.api.apis "category" "general" }}
+          {{ partial "api-card.html" . }}
+        {{ end }}
+      </div>
+
+      <h2 id="project-specific" style="margin-top: 7rem;">
+        <a href="#project-specific" style="display: block; text-decoration: none; color: inherit;">
+          Other standards APIs
+        </a>
+      </h2>
+      <div class="row gy-4">
+        {{ range where site.Data.api.apis "category" "project_specific" }}
+          {{ partial "api-card.html" . }}
+        {{ end }}
+      </div>
+
+    </div>
+  </section>
+
+{{ end }}
