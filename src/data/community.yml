@@ -320,6 +320,10 @@ certified:
     - name: SKIDATA
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/skidata.png"
       link: https://www.skidata.com/
+
+    - name: SIAG
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/siag.png"
+      link: https://www.siag.it/
       
 ########################### Partnerships and Alliances #########################
 partnerships:
