@@ -47,7 +47,7 @@ content:
         -  #videoLink: "https://vimeo.com/showcase/9563553/video/715097183"
     - cols:
         - content: "9.30 - 10.00"
-        - content: Open Data Hub introduction, challenge presentation
+        - content: Open Data Hub introduction, topic presentation
         - #slidesLink: "https://cloud.opendatahub.com/index.php/s/yj6TKjkDgs2fmz8"
         -  #videoLink: "https://vimeo.com/showcase/9563553/video/715097183"
     
@@ -58,12 +58,12 @@ content:
         #- videoLink: "https://vimeo.com/showcase/9563553/video/715100887"
     - cols:
         - content: "10.30 - 12.00"
-        - content: "Development"
+        - content: "Warm-up development"
         #- slidesLink: "https://cloud.opendatahub.com/index.php/s/GFMoJJat538WZkd"
         #- videoLink: "https://vimeo.com/showcase/9563553/video/715097586"
     - cols:
         - content: "12.00 - 12.30"
-        - content: "First presentation round"
+        - content: "Pitch"
         #- slidesLink: "https://cloud.opendatahub.com/index.php/s/GFMoJJat538WZkd"
         #- videoLink: "https://vimeo.com/showcase/9563553/video/715097586"
     - cols:
@@ -73,12 +73,12 @@ content:
         #- videoLink: "https://vimeo.com/showcase/9563553/video/715097586"
     - cols:
         - content: "13.30 - 17.30"
-        - content: "Development"
+        - content: "Development time"
         #- slidesLink: "https://cloud.opendatahub.com/index.php/s/GFMoJJat538WZkd"
         #- videoLink: "https://vimeo.com/showcase/9563553/video/715097586"
     - cols:
         - content: "17.30 - 18.00"
-        - content: "Final presentation"
+        - content: "Final pitch"
         #- slidesLink: "https://cloud.opendatahub.com/index.php/s/KC4mQy4S3agGSBf"
         #- videoLink: "https://vimeo.com/showcase/9563553/video/715098141"
     - cols:
