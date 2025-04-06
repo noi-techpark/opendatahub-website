@@ -332,7 +332,7 @@ partnerships:
   items:
     - name: AlpineBits
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/AlpineBits.png"
-      link: https://www.alpinebits.org/
+      link: https://alpinebits.org
 
     - name: Big Data Alliance
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/bigDataAlliance.png"
