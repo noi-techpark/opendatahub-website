@@ -21,8 +21,8 @@ The event will be held in **English**. Participation is **free of charge**."
 
 content:
   title: Register here
-  btn_top_link: "https://pretix.eu/noi-digital/bootcamp25/"
-  btn_top_label: "Register here"
+  btn_top_link: "https://cloud.opendatahub.com/index.php/s/rifxJJ9NCxSicyb"
+  btn_top_label: "Challenge Description"
   btn_top_on_click: "_paq.push(['trackEvent', 'Register here', 'Click', 'Open Data Hub Bootcamp']);"
 
   header:
@@ -95,14 +95,12 @@ content:
   btn_down_on_click: "_paq.push(['trackEvent', 'Challenge Description', 'Click', 'Open Data Hub Bootcamp']);"
 
 
-#  headerPR:
-#    - title: Open Data Hub Press release 2023
-#      width: 75%
-#    - title: Language
-#      width: 15%
-#    - title: Link
-#      width: 10% 
-#  rowPR:
+  headerPR:
+    - title: Open Data Hub Bootcamp additional information
+      width: 85%
+    - title: ""
+      width: 15% 
+  rowPR:
 #    - colsPR:
 #        - content: "Dalla mobilità sostenibile al turismo Open Data Hub connette l’Europa grazie ai dati"
 #        - content: "Italian"
@@ -120,8 +118,7 @@ content:
 #        - content: "Data sharing between South Tyrol, Tyrol and Bavaria"
 #        - content: "English"
 #        - pressReleaseLink: "https://cloud.opendatahub.com/index.php/s/Z2FaWqzMmSebA9z"
-#    - colsPR:
-#        - content: "Photo gallery of the event"
-#        - content: ""
-#        - pressReleaseLink: "https://www.flickr.com/photos/free-software-center/albums/72177720308554220"
+    - colsPR:
+        - content: "Photo gallery of the event"
+        - photoLink: "https://www.flickr.com/photos/free-software-center/albums/72177720324968532/"
 ---
