@@ -13,23 +13,23 @@ subtitle: "The fifth edition of the Open Data Hub Day will take place on 30th Ma
 Join us as we explore the topic with experts and representatives from leading companies, as well as NOI's academic partners.
 "
 
-callForSpeakers:
-  title: "Open Data Hub Day - Call4Speakers"
-  subtitle: "The Call4Speakers for Open Data Hub Day 2025 is open until **31st March 2025**. Submit your proposal for a 15-minute lightning talk."
-  btn_cfs_link: "https://pretalx.com/open-data-hub-day-2025/cfp"
-  btn_cfs_label: "Call4Speakers"
-  btn_cfs_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
+# callForSpeakers:
+#   title: "Open Data Hub Day - Call4Speakers"
+#   subtitle: "The Call4Speakers for Open Data Hub Day 2025 is open until **31st March 2025**. Submit your proposal for a 15-minute lightning talk."
+#   btn_cfs_link: "https://pretalx.com/open-data-hub-day-2025/cfp"
+#   btn_cfs_label: "Call4Speakers"
+#   btn_cfs_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
 program:
   title: "Open Data Hub Day - Programme"
   subtitle: "The event will be held in English. Below is the preliminary programme. The final programme will be published one month before the event."
 
 content:
-  title: Call4Speakers
-  btn_top_link: 
-  btn_top_label: 
+  btn_top_link: https://pretix.eu/noi-digital/open-data-hub-day-25/
+  btn_top_label: "Register Now"
   btn_top_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
+  title_main: ""
   header:
     - title: 
       width: 5%
@@ -39,25 +39,27 @@ content:
       width: 20%
     - title: Title
       width: 40%
-    #- title: "Slides"
-    #  width: 5%
-    #- title: "Video"
-    #  width: 5%  
+    # - title: "Slides"
+    #   width: 5%
+    # - title: "Video"
+    #   width: 5%  
   row:
     - cols:
       - content: "8.30"
       - content: " "
       - content: " "
       - content: "Check-in starting at 8.30"
-      #- content: " "
-      #- content:
+      # - content: " "
+      # - content: " "
+      
     - cols:
       - content: "9.00"
       - content: ""
       - content: ""
       - content: "Open Data Hub Day - Opening"
-      #- content: ""
-      #- content:
+      # - slidesLink: https://cloud.opendatahub.com/index.php/s/qzNaGHo6Q4jroq3
+      # - videoLink: https://vimeo.com/954303668
+      
     - cols:
       - content: "9.15"
       - content: ""

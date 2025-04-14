@@ -8,6 +8,10 @@
   {{ if and (.btn_top_label) (.btn_top_link) }}
     <a href="{{.btn_top_link}}" class="btn btn-primary mb-4" onclick="{{ .btn_top_on_click }}">{{ .btn_top_label | markdownify }}</a>
   {{ end }}
+
+  {{ if and (.title_main) }}
+    <h2>{{ .title_main | markdownify }}</h2>
+  {{ end }}
  
   <div class="table-responsive">
     <table class="table">
