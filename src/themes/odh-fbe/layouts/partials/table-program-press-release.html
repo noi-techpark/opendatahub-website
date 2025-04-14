@@ -6,7 +6,7 @@
 
 <div class="container">
   {{ if and (.btn_top_label) (.btn_top_link) }}
-    <a href="{{.btn_top_link}}" class="btn btn-primary mb-4" onclick="{{ .btn_top_on_click }}">{{ .btn_top_label | markdownify }}</a>
+    <a href="{{.btn_top_link}}" class="btn btn-primary mb-4" target="_blank" onclick="{{ .btn_top_on_click }}">{{ .btn_top_label | markdownify }}</a>
   {{ end }}
 
   {{ if and (.title_main) }}
@@ -43,10 +43,51 @@
     </table>
   </div>
 
-  {{ if and (.btn_down_label) (.btn_down_link) }}
-    <a href="{{.btn_down_link}}" class="btn btn-primary mb-4" onclick="{{ .btn_down_on_click }}">{{ .btn_down_label | markdownify }}</a>
+  {{ if and (.btn_middle_label) (.btn_middle_link) }}
+    <a href="{{.btn_middle_link}}" target="_blank" class="btn btn-primary mb-4" onclick="{{ .btn_middle_on_click }}">{{ .btn_middle_label | markdownify }}</a>
   {{ end }}
   
+  {{ if and (.title_developers) }}
+    <h2>{{ .title_developers | markdownify }}</h2>
+  {{ end }}
+
+  <div class="table-responsive">
+    <table class="table">
+      <thead>
+        <tr class="">
+          {{ range .header_developers }}
+            <th width= {{.width}}>
+              {{.title}}
+            </th>
+          {{ end }}
+        </tr>
+      </thead>
+
+      <tbody class="">
+        {{ range .row_developers }}
+          <tr class="">
+            {{ range .cols }}
+              {{ if isset . "content" }}
+                <td>{{ .content | safeHTML}}</td>
+              {{end}} {{ if isset . "slidesLink" }}
+                <td><a href="{{.slidesLink}}" class="btn btn-primary d-flex gap-1 align-items-center me-3" target="_blank">Slides</a></td>
+              {{end}} {{ if isset . "videoLink" }}
+                <td><a href="{{.videoLink}}" class="btn btn-primary d-flex gap-1 align-items-center ms-3" target="_blank">Video</a></td>
+              {{end}}
+            {{ end }}
+          </tr>
+        {{ end }}
+      </tbody> 
+    </table>
+  </div>
+
+  {{ if and (.btn_down_label) (.btn_down_link) }}
+    <a href="{{.btn_down_link}}" target="_blank" class="btn btn-primary mb-4" onclick="{{ .btn_down_on_click }}">{{ .btn_down_label | markdownify }}</a>
+  {{ end }}
+
+  {{ if and (.title_press) }}
+    <h2>{{ .title_press | markdownify }}</h2>
+  {{ end }}
 
   <div class="table-responsive">
     <table class="table">

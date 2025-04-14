@@ -29,7 +29,7 @@ content:
   btn_top_label: "Register Now"
   btn_top_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
-  title_main: ""
+  title_main: "Main room"
   header:
     - title: 
       width: 5%
@@ -117,9 +117,95 @@ content:
       - content: ""
       - content: ""
     
+  btn_middle_link: "https://pretix.eu/noi-digital/open-data-hub-day-25/"
+  btn_middle_label: "Register Now"
+  btn_middle_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
+
+  title_developers: "Developers room"
+
+  header_developers:
+    - title: 
+      width: 5%
+    - title: Speaker
+      width: 25%
+    - title: Company
+      width: 20%
+    - title: Title
+      width: 40%
+    # - title: "Slides"
+    #   width: 5%
+    # - title: "Video"
+    #   width: 5%  
+  row_developers:
+    - cols:
+      - content: "8.30"
+      - content: " "
+      - content: " "
+      - content: "Check-in starting at 8.30"
+      # - content: " "
+      # - content: " "
+    - cols:
+      - content: "9.00"
+      - content: ""
+      - content: ""
+      - content: "Open Data Hub Day - Opening"
+      # - slidesLink: https://cloud.opendatahub.com/index.php/s/qzNaGHo6Q4jroq3
+      # - videoLink: https://vimeo.com/954303668
+    - cols:
+      - content: "9.30"
+      - content: ""
+      - content: ""
+      - content: "Talks"
+      #- slidesLink: 
+      #- videoLink: 
+    - cols:
+      - content: "10.15"
+      - content: ""
+      - content: "Open Data Hub"
+      - content: "Contributor of the year 2025 - Award"
+      #- content: ""
+      #- videoLink: 
+    - cols:
+      - content: "10.30"
+      - content: ""
+      - content: ""
+      - content: "Community Coffee Break (Foyer NOI Seminar Area)"
+      #- content: ""
+      #- content: ""
+    - cols:
+      - content: "11.00"
+      - content: ""
+      - content: ""
+      - content: "Talks"
+      #- slidesLink: 
+      #- videoLink: 
+    - cols:
+      - content: "12.00"
+      - content: ""
+      - content: ""
+      - content: "Networking lunch (Foyer NOI Seminar Area)"
+      - content: ""
+      - content:
+    - cols:
+      - content: "14.30"
+      - content: ""
+      - content: ""
+      - content: "Open Data Hub Bootcamp’s projects presentations"
+      - content: ""
+      - content:
+    - cols:
+      - content: "17.00"
+      - content: ""
+      - content: ""
+      - content: "Closing"
+      - content: ""
+      - content: ""
+
   btn_down_link: "https://pretix.eu/noi-digital/open-data-hub-day-25/"
   btn_down_label: "Register Now"
   btn_down_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
+
+  title_press: ""
 
   # headerPR:
   #   - title: Open Data Hub 2024 additional content
