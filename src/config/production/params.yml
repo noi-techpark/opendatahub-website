@@ -11,9 +11,9 @@ web_components:
     script_name: wcs-list-widget.min.js
     attributes:
       - key: font-url
-        value: https://fonts.testingmachine.eu/open-sans/style.css
+        value: https://fonts.testingmachine.eu/source-sans-pro/style.css
       - key: font-name
-        value: Open Sans
+        value: Source Sans Pro
 
   datasets_list_widget:
     tag_name: datasets-list-widget
@@ -21,8 +21,8 @@ web_components:
     script_name: datasets-list-widget.min.js
     attributes:
       - key: font-url
-        value: https://fonts.testingmachine.eu/open-sans/style.css
+        value: https://fonts.testingmachine.eu/source-sans-pro/style.css
       - key: font-name
-        value: Open Sans
+        value: Source Sans Pro
 
 noindex: false

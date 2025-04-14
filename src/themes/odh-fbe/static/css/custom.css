@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Source Sans Pro", Arial, sans-serif;
 
   padding-top: 5rem;
 }
@@ -137,8 +137,8 @@ ul.no-bullets {
 }
 
 /* Footer */
-footer * {    
-  font-family: "Source Sans Pro", "Open Sans", arial, sans-serif;
+footer * {
+  font-family: "Source Sans Pro", Arial, sans-serif;
   font-size: 20px;
   line-height: 28px;
   color: #3C4043;
@@ -408,7 +408,7 @@ footer .w-fit {
   margin: 0;
   padding: 0;
   background: none;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Source Sans Pro", Arial, sans-serif;
   font-size: 1.5em;
   font-style: italic;
   line-height: 1.4 !important;
