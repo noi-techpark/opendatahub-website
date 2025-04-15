@@ -371,17 +371,4 @@ content:
   #       - content: "Interview: Moritz Brunner (ËRT)"
   #       - content: ""
   #       - videoLink: "https://vimeo.com/951204749"
-  # rowPR:
-  #   - colsPR:
-  #       - content: "La normativa europea sui dati protagonista del 4° Open Data Hub Day"
-  #       - content: "Italian"
-  #       - pressReleaseLink: "https://cloud.opendatahub.com/index.php/s/Xq7XZFcrEWSBcmD"
-  #   - colsPR:
-  #       - content: "EU-Datengesetz und Best Practices im Fokus des 4. Open Data Hub Day"
-  #       - content: "German"
-  #       - pressReleaseLink: "https://cloud.opendatahub.com/index.php/s/Y3AqkqTMLAbcNbs"
-#    - colsPR:
-#        - content: "Data sharing between South Tyrol, Tyrol and Bavaria"
-#        - content: "English"
-#        - pressReleaseLink: "https://cloud.opendatahub.com/index.php/s/Z2FaWqzMmSebA9z"
 ---

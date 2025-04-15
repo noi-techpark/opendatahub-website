@@ -8,13 +8,22 @@
   {{ if and (.btn_top_label) (.btn_top_link) }}
     <a href="{{.btn_top_link}}" class="btn btn-primary mb-4" target="_blank" onclick="{{ .btn_top_on_click }}">{{ .btn_top_label | markdownify }}</a>
   {{ end }}
+  {{ if (.title_main)}}
+    <a href="#main-room" class="btn btn-primary mb-4">Main room programm</a>
+  {{ end }}
+  {{ if (.title_developers)}}
+    <a href="#developers-room" class="btn btn-primary mb-4">Developers room programm</a>
+  {{ end }}
+  {{ if (.title_Press)}}
+    <a href="#press-release" class="btn btn-primary mb-4">Press release and other contents</a>
+  {{ end }}
 
   {{ if and (.title_main) }}
-    <h2>{{ .title_main | markdownify }}</h2>
+    <h2 id="main-room">{{ .title_main | markdownify }}</h2>
   {{ end }}
 
   {{ if and (.description_main) }}
-    <p>{{ .description_main | markdownify }}</p>
+    <p class="fw-semibold fs-5 lh-base">{{ .description_main | markdownify }}</p>
   {{ end }}
  
   <div class="table-responsive">
@@ -50,13 +59,22 @@
   {{ if and (.btn_middle_label) (.btn_middle_link) }}
     <a href="{{.btn_middle_link}}" target="_blank" class="btn btn-primary mb-4" onclick="{{ .btn_middle_on_click }}">{{ .btn_middle_label | markdownify }}</a>
   {{ end }}
+  {{ if (.title_main)}}
+    <a href="#main-room" class="btn btn-primary mb-4">Main room programm</a>
+  {{ end }}
+  {{ if (.title_developers)}}
+    <a href="#developers-room" class="btn btn-primary mb-4">Developers room programm</a>
+  {{ end }}
+  {{ if (.title_Press)}}
+    <a href="#press-release" class="btn btn-primary mb-4">Press release and other contents</a>
+  {{ end }}
   
   {{ if and (.title_developers) }}
-    <h2>{{ .title_developers | markdownify }}</h2>
+    <h2 id="developers-room">{{ .title_developers | markdownify }}</h2>
   {{ end }}
 
   {{ if and (.description_developers) }}
-    <p>{{ .description_developers | markdownify }}</p>
+    <p class="fw-semibold fs-5 lh-base">{{ .description_developers | markdownify }}</p>
   {{ end }}
 
   <div class="table-responsive">
@@ -92,13 +110,22 @@
   {{ if and (.btn_down_label) (.btn_down_link) }}
     <a href="{{.btn_down_link}}" target="_blank" class="btn btn-primary mb-4" onclick="{{ .btn_down_on_click }}">{{ .btn_down_label | markdownify }}</a>
   {{ end }}
+  {{ if (.title_main)}}
+    <a href="#main-room" class="btn btn-primary mb-4">Main room programm</a>
+  {{ end }}
+  {{ if (.title_developers)}}
+    <a href="#developers-room" class="btn btn-primary mb-4">Developers room programm</a>
+  {{ end }}
+  {{ if (.title_Press)}}
+    <a href="#press-release" class="btn btn-primary mb-4">Press release and other contents</a>
+  {{ end }}
 
   {{ if and (.title_press) }}
-    <h2>{{ .title_press | markdownify }}</h2>
+    <h2 id="press-release">{{ .title_press | markdownify }}</h2>
   {{ end }}
 
   {{ if and (.description_press) }}
-    <p>{{ .description_press | markdownify }}</p>
+    <p class="fw-semibold fs-5 lh-base">{{ .description_press | markdownify }}</p>
   {{ end }}
 
   <div class="table-responsive">
