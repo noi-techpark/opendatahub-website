@@ -140,7 +140,7 @@ content:
     - cols:
       - content: "12.15"
       - content: "Guido Amato"
-      - content: "Lucian S.r.l."
+      - content: "Lucian (OpenMove)"
       - content: "Enabling the Digital Layer of A22: the Meridian project"
       #- slidesLink: 
       #- videoLink: 
@@ -225,7 +225,7 @@ content:
     - cols:
       - content: "11.45"
       - content: "Guido Amato, Marco Comerio"
-      - content: "Lucian S.r.l., Cefriel"
+      - content: "Lucian (OpenMove), Cefriel"
       - content: "Facilitating the Transition from GTFS and GTFS-RT to NeTEx and SIRI in OpenTripPlanner"
       #- slidesLink: 
       #- videoLink: 
