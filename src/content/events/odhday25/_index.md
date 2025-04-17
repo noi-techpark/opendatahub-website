@@ -187,14 +187,14 @@ content:
       - #content: ""
       - #content: ""
     
-  btn_middle_link: "https://pretix.eu/noi-digital/open-data-hub-day-25/"
-  btn_middle_label: "Register Now"
-  btn_middle_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
+  btn_room2_link: "https://pretix.eu/noi-digital/open-data-hub-day-25/"
+  btn_room2_label: "Register Now"
+  btn_room2_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
-  title_developers: "Developers room"
-  description_developers: "Developers room"
+  title_room2: "Developers room"
+  description_room2: "Developers room"
 
-  header_developers:
+  header_room2:
     - title: 
       width: 5%
     - title: Speaker
@@ -207,7 +207,7 @@ content:
     #   width: 5%
     # - title: "Video"
     #   width: 5%  
-  row_developers:
+  row_room2:
     - cols:
       - content: "11.00"
       - content: "Open Data Hub"
@@ -335,12 +335,67 @@ content:
       #- content: ""
       #- content: ""
 
-  btn_down_link: "https://pretix.eu/noi-digital/open-data-hub-day-25/"
-  btn_down_label: "Register Now"
-  btn_down_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
+  # btn_room3_link: "https://pretix.eu/noi-digital/open-data-hub-day-25/"
+  # btn_room3_label: "Register Now"
+  # btn_room3_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
-  title_press: ""
-  description_press: ""
+  # title_room3: ""
+  # description_room3: ""
+
+  # header_room3:
+  #   - title: 
+  #     width: 5%
+  #   - title: Speaker
+  #     width: 20%
+  #   - title: Company
+  #     width: 15%
+  #   - title: Title
+  #     width: 50%
+  #   # - title: "Slides"
+  #   #   width: 5%
+  #   # - title: "Video"
+  #   #   width: 5%  
+  # row_room3:
+  #   - cols:
+  #     - content: "hh.mm"
+  #     - content: "Spaker name"
+  #     - content: "Speaker company"
+  #     - content: "Title"
+  #     # - slidesLink: 
+  #     # - videoLink:
+      
+
+  # title_room4: ""
+  # description_room4: ""
+
+  # header_room4:
+  #   - title: 
+  #     width: 5%
+  #   - title: Speaker
+  #     width: 20%
+  #   - title: Company
+  #     width: 15%
+  #   - title: Title
+  #     width: 50%
+  #   # - title: "Slides"
+  #   #   width: 5%
+  #   # - title: "Video"
+  #   #   width: 5%  
+  # row_room4:
+  #   - cols:
+  #     - content: "hh.mm"
+  #     - content: "Spaker name"
+  #     - content: "Speaker company"
+  #     - content: "Title"
+  #     # - slidesLink: 
+  #     # - videoLink:
+
+  # btn_press_link: "https://pretix.eu/noi-digital/open-data-hub-day-25/"
+  # btn_press_label: "Register Now"
+  # btn_press_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
+
+  # title_press: "Press"
+  # description_press: "press"
 
   # headerPR:
   #   - title: Open Data Hub 2024 additional content
@@ -351,24 +406,11 @@ content:
   #     width: 15% 
   # rowPR:
   #   - colsPR:
-  #       - content: "Photo gallery of the event"
   #       - content: ""
-  #       - photoLink: "https://www.flickr.com/photos/free-software-center/albums/72177720317301719/"
+  #       - content: ""
+  #       - photoLink: ""
 
-  #   - colsPR:
-  #       - content: "Video trailer of the Open Data Hub Day 2024"
-  #       - content: ""
-  #       - videoLink: "https://vimeo.com/950773091"
-  #   - colsPR:
-  #       - content: "Interview: Eduardo Martin Guerra (Free University of Bolzano/Bozen)"
-  #       - content: ""
-  #       - videoLink: "https://vimeo.com/951204259"
-  #   - colsPR:
-  #       - content: "Interview: Henri Egger (Open Data Hub contributor of the year 2024)"
-  #       - content: ""
-  #       - videoLink: "https://vimeo.com/951204510"
-  #   - colsPR:
-  #       - content: "Interview: Moritz Brunner (ËRT)"
-  #       - content: ""
-  #       - videoLink: "https://vimeo.com/951204749"
+  btn_down_link: "https://pretix.eu/noi-digital/open-data-hub-day-25/"
+  btn_down_label: "Register Now"
+  btn_down_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 ---
