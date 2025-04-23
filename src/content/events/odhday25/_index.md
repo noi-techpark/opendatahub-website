@@ -197,12 +197,14 @@ content:
   header_room2:
     - title: 
       width: 5%
+    - title: Track
+      width: 15%
     - title: Speaker
-      width: 20%
+      width: 15%
     - title: Company
       width: 15%
     - title: Title
-      width: 50%
+      width: 40%
     # - title: "Slides"
     #   width: 5%
     # - title: "Video"
@@ -210,6 +212,7 @@ content:
   row_room2:
     - cols:
       - content: "11.00"
+      - content: "<b>Bootcamp Track</b>"
       - content: "Open Data Hub"
       - content: "Bootcamp Track"
       - content: "Open Data Hub Bootcamp’s projects presentations"
@@ -217,6 +220,7 @@ content:
       # - content: " "
     - cols:
       - content: "11.30"
+      - content: "<b>OTP & Mobility Track</b>"
       - content: "Clemens Zagler"
       - content: "NOI Techpark"
       - content: "Implementing NeTEx and SIRI on the Open Data Hub"
@@ -224,6 +228,7 @@ content:
       # - videoLink: 
     - cols:
       - content: "11.45"
+      - content: "<b>OTP & Mobility Track</b>"
       - content: "Guido Amato, Marco Comerio"
       - content: "Lucian (OpenMove), Cefriel"
       - content: "Facilitating the Transition from GTFS and GTFS-RT to NeTEx and SIRI in OpenTripPlanner"
@@ -231,6 +236,7 @@ content:
       #- videoLink: 
     - cols:
       - content: "12.00"
+      - content: "<b>OTP & Mobility Track</b>"
       - content: "Roberto Martinelli"
       - content: "Liguria Digitale/Regione Liguria"
       - content: "Public Transportation travel planning in Regione Liguria/Liguria Digitale: from proprietary data/platforms to Open Data/Open Source"
@@ -238,27 +244,31 @@ content:
       #- videoLink: 
     - cols:
       - content: "12.15"
-      - content: "Matteo Biasi"
-      - content: "MetaEsse"
-      - content: "Presentation of the new Open Data Hub Analytics Tool"
+      - content: "<b>OTP & Mobility Track</b>"
+      - content: "Guido Amato"
+      - content: "Lucian (OpenMove)"
+      - content: "Enabling the Digital Layer of A22: the Meridian project"
       #- slidesLink: 
       #- videoLink: 
     - cols:
       - content: "12.30"
       - content: ""
       - content: ""
+      - content: ""
       - content: "Networking lunch (Foyer NOI Seminar Area)"
       - content: ""
-      - content:
+      - content: ""
     - cols:
       - content: "13.30"
+      - content: "<b>Developers Track</b>"
       - content: "Rudi Thöni"
       - content: "NOI Techpark"
-      - content: "Open Data Hub Webcomponent Store"
+      - content: "Open Data Hub Web Component Store"
       #- slidesLink: 
       #- videoLink:
     - cols:
       - content: "13.45"
+      - content: "<b>Developers Track</b>"
       - content: "Clemens Zagler"
       - content: "NOI Techpark"
       - content: "Golang in the Open Data Hub"
@@ -266,6 +276,7 @@ content:
       #- videoLink:
     - cols:
       - content: "14.00"
+      - content: "<b>Developers Track</b>"
       - content: "Matteo Roggia"
       - content: "NOI Techpark"
       - content: "Telemetry in OpenDataHub"
@@ -273,6 +284,7 @@ content:
       #- videoLink: 
     - cols:
       - content: "14.15"
+      - content: "<b>Developers Track</b>"
       - content: "Clemens Zagler"
       - content: "NOI Techpark"
       - content: "Reusable data collectors in the Open Data Hub"
@@ -282,18 +294,21 @@ content:
       - content: "14.30"
       - content: ""
       - content: ""
+      - content: ""
       - content: "Community Coffee Break (Foyer NOI Seminar Area)"
       - #content: ""
       - #content: ""
     - cols:
       - content: "15.00"
-      - content: "João Francisco Lino Daniel"
-      - content: "Free University of Bozen-Bolzano"
-      - content: "Standing up to the Data mess"
+      - content: "<b>Developers Track</b>"
+      - content: "Matteo Biasi"
+      - content: "MetaEsse"
+      - content: "Presentation of the new Open Data Hub Analytics Tool"
       #- slidesLink: 
       #- videoLink:
     - cols:
       - content: "15.15"
+      - content: "<b>Developers Track</b>"
       - content: "Christian Gapp"
       - content: "Freelance"
       - content: "From Open Data Hub to Visual Insights Using the Data Browser"
@@ -301,13 +316,15 @@ content:
       #- videoLink:
     - cols:
       - content: "15.30"
+      - content: "<b>Developers Track</b>"
       - content: "Davide Montesin, Chris Mair"
       - content: "Catch Solve, 1006.org"
-      - content: "Better quality for the Open Data Hub"
+      - content: "Automated Data Quality Testing Tool"
       #- slidesLink: 
       #- videoLink: 
     - cols:
       - content: "15.45"
+      - content: "<b>Developers Track</b>"
       - content: "Giacomo Fabbian"
       - content: "Offline Agency"
       - content: "DCAT and ODPS: Foundations for Effective Data Spaces and AI"
@@ -315,6 +332,7 @@ content:
       #- videoLink: 
     - cols:
       - content: "16.00"
+      - content: "<b>Developers Track</b>"
       - content: "Simone Pandini, Manuela Corte Pause"
       - content: "Ontopic"
       - content: "Using Natural Language For Interacting With The Open Data Hub"
@@ -322,13 +340,23 @@ content:
       #- videoLink:
     - cols:
       - content: "16.15"
+      - content: "<b>Developers Track</b>"
+      - content: "João Francisco Lino Daniel"
+      - content: "Free University of Bozen-Bolzano"
+      - content: "Standing up to the Data mess"
+      #- slidesLink: 
+      #- videoLink:
+    - cols:
+      - content: "16.30"
+      - content: "<b>Developers Track</b>"
       - content: "Martin Rabanser, Marco Dalle Feste"
       - content: "AlpineBits Alliance"
-      - content: "Certifying an Open Standard"
+      - content: "AlpineBits: Certifying an Open Standard"
       #- slidesLink: 
       #- videoLink: 
     - cols:
-      - content: "16.30"
+      - content: "16.45"
+      - content: ""
       - content: ""
       - content: ""
       - content: "Closing"
