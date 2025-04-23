@@ -30,7 +30,7 @@ content:
   btn_top_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
   title_main: "Main room"
-  description_main: "Main room"
+  description_main: "The main track of the Open Data Hub Day provides a comprehensive overview of general macro topics related to Open Data. It aims to cover real use cases from a data provider and data consumer point of view as well as Data Spaces initiatives and also Open Data Hub related projects."
 
   header:
     - title: 
@@ -139,9 +139,9 @@ content:
       #- videoLink: 
     - cols:
       - content: "12.15"
-      - content: "Guido Amato"
-      - content: "Lucian (OpenMove)"
-      - content: "Enabling the Digital Layer of A22: the Meridian project"
+      - content: "Stefano Seppi"
+      - content: "NOI Techpark"
+      - content: "Open Data Hub Web Components"
       #- slidesLink: 
       #- videoLink: 
     - cols:
@@ -192,7 +192,16 @@ content:
   btn_room2_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
   title_room2: "Developers room"
-  description_room2: "Developers room"
+  description_room2: "The developers room of the Open Data Hub Day is addressed to developers and people working with data. This track includes:<br>
+  <br>
+  <b>Open Data Hub Bootcamp 2025 results</b><br>
+  The Open Data Hub Bootcamp 2025 projects will be presented by the participants themselves. Each project focuses on one of three areas: Data   Visualization/Data Quality, AI/LLM data integration and Prediction/ML/Data Analysis.<br>
+  <br>
+  <b>OTP & Mobility</b><br>
+  This session focuses on mobility data, particularly on SIRI-Netex standards and OTP.<br>
+  <br>
+  <b>Core technologies</b><br>
+  Software architects and developers will present the Open Data Hub tool ecosystem."
 
   header_room2:
     - title: 
@@ -214,8 +223,8 @@ content:
       - content: "11.00"
       - content: "<b>Bootcamp Track</b>"
       - content: "Open Data Hub"
-      - content: "Bootcamp Track"
-      - content: "Open Data Hub Bootcamp’s projects presentations"
+      - content: "Open Data Hub"
+      - content: "Open Data Hub Bootcamp 2025 results"
       # - content: " "
       # - content: " "
     - cols:
@@ -260,7 +269,7 @@ content:
       - content: ""
     - cols:
       - content: "13.30"
-      - content: "<b>Developers Track</b>"
+      - content: "<b>Core Technologies Track</b>"
       - content: "Rudi Thöni"
       - content: "NOI Techpark"
       - content: "Open Data Hub Web Component Store"
@@ -268,7 +277,7 @@ content:
       #- videoLink:
     - cols:
       - content: "13.45"
-      - content: "<b>Developers Track</b>"
+      - content: "<b>Core Technologies Track</b>"
       - content: "Clemens Zagler"
       - content: "NOI Techpark"
       - content: "Golang in the Open Data Hub"
@@ -276,7 +285,7 @@ content:
       #- videoLink:
     - cols:
       - content: "14.00"
-      - content: "<b>Developers Track</b>"
+      - content: "<b>Core Technologies Track</b>"
       - content: "Matteo Roggia"
       - content: "NOI Techpark"
       - content: "Telemetry in OpenDataHub"
@@ -284,7 +293,7 @@ content:
       #- videoLink: 
     - cols:
       - content: "14.15"
-      - content: "<b>Developers Track</b>"
+      - content: "<b>Core Technologies Track</b>"
       - content: "Clemens Zagler"
       - content: "NOI Techpark"
       - content: "Reusable data collectors in the Open Data Hub"
@@ -300,7 +309,7 @@ content:
       - #content: ""
     - cols:
       - content: "15.00"
-      - content: "<b>Developers Track</b>"
+      - content: "<b>Core Technologies Track</b>"
       - content: "Matteo Biasi"
       - content: "MetaEsse"
       - content: "Presentation of the new Open Data Hub Analytics Tool"
@@ -308,7 +317,7 @@ content:
       #- videoLink:
     - cols:
       - content: "15.15"
-      - content: "<b>Developers Track</b>"
+      - content: "<b>Core Technologies Track</b>"
       - content: "Christian Gapp"
       - content: "Freelance"
       - content: "From Open Data Hub to Visual Insights Using the Data Browser"
@@ -316,7 +325,7 @@ content:
       #- videoLink:
     - cols:
       - content: "15.30"
-      - content: "<b>Developers Track</b>"
+      - content: "<b>Core Technologies Track</b>"
       - content: "Davide Montesin, Chris Mair"
       - content: "Catch Solve, 1006.org"
       - content: "Automated Data Quality Testing Tool"
@@ -324,7 +333,7 @@ content:
       #- videoLink: 
     - cols:
       - content: "15.45"
-      - content: "<b>Developers Track</b>"
+      - content: "<b>Core Technologies Track</b>"
       - content: "Giacomo Fabbian"
       - content: "Offline Agency"
       - content: "DCAT and ODPS: Foundations for Effective Data Spaces and AI"
@@ -332,7 +341,7 @@ content:
       #- videoLink: 
     - cols:
       - content: "16.00"
-      - content: "<b>Developers Track</b>"
+      - content: "<b>Core Technologies Track</b>"
       - content: "Simone Pandini, Manuela Corte Pause"
       - content: "Ontopic"
       - content: "Using Natural Language For Interacting With The Open Data Hub"
@@ -340,7 +349,7 @@ content:
       #- videoLink:
     - cols:
       - content: "16.15"
-      - content: "<b>Developers Track</b>"
+      - content: "<b>Core Technologies Track</b>"
       - content: "João Francisco Lino Daniel"
       - content: "Free University of Bozen-Bolzano"
       - content: "Standing up to the Data mess"
@@ -348,7 +357,7 @@ content:
       #- videoLink:
     - cols:
       - content: "16.30"
-      - content: "<b>Developers Track</b>"
+      - content: "<b>Core Technologies Track</b>"
       - content: "Martin Rabanser, Marco Dalle Feste"
       - content: "AlpineBits Alliance"
       - content: "AlpineBits: Certifying an Open Standard"
