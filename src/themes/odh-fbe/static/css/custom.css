@@ -100,8 +100,8 @@ ul.no-bullets {
 .btn {
   border: none !important;
   border-radius: var(--border-radius) !important;
-  font-size: 0.8rem;
-  font-weight: 600;
+  font-size: 0.9rem;
+  font-weight: 610;
   padding: 10px 15px;
   letter-spacing: 0;
 }
