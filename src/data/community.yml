@@ -284,6 +284,10 @@ consumers:
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/confesercenti-TasteOfItaly.png"
       link: http://www.tasteofitaly.bz.it/
 
+    - name: Touristinfo.ai - Mediatize - Storyblox
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/touristinfo.png"
+      link:  www.touristinfo.ai
+
     - name: Trentino Holidays
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/trentinoHolidays.png"
       link: https://www.thol.it/
