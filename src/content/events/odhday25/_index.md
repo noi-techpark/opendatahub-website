@@ -174,7 +174,7 @@ content:
       #- videoLink:  
     - cols:
       - content: "14.15"
-      - content: "Gerard van der Hoeven"
+      - content: "Vinith Bhandari"
       - content: "iSHARE Foundation"
       - content: "Orchestrating Trust in Cross-Sector Open Data Ecosystems"
       #- slidesLink: 
@@ -272,7 +272,7 @@ content:
       - content: "<b>Core Technologies Track</b>"
       - content: "Rudi Thöni"
       - content: "NOI Techpark"
-      - content: "Open Data Hub Web Component Store"
+      - content: "Open Data Hub Web Components Store"
       #- slidesLink: 
       #- videoLink:
     - cols:
@@ -288,7 +288,7 @@ content:
       - content: "<b>Core Technologies Track</b>"
       - content: "Matteo Roggia"
       - content: "NOI Techpark"
-      - content: "Telemetry in OpenDataHub"
+      - content: "Telemetry in Open Data Hub"
       #- slidesLink: 
       #- videoLink: 
     - cols:
@@ -312,7 +312,7 @@ content:
       - content: "<b>Core Technologies Track</b>"
       - content: "Matteo Biasi"
       - content: "MetaEsse"
-      - content: "Presentation of the new Open Data Hub Analytics Tool"
+      - content: "The new Open Data Hub Analytics Tool"
       #- slidesLink: 
       #- videoLink:
     - cols:
@@ -360,7 +360,7 @@ content:
       - content: "<b>Core Technologies Track</b>"
       - content: "Martin Rabanser, Marco Dalle Feste"
       - content: "AlpineBits Alliance"
-      - content: "AlpineBits: Certifying an Open Standard"
+      - content: "AlpineBits: certifying an Open Standard"
       #- slidesLink: 
       #- videoLink: 
     - cols:
