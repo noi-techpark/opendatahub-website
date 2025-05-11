@@ -1,3 +1,4 @@
+
 /*
 SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
 
@@ -10,6 +11,8 @@ SPDX-License-Identifier: AGPL-3.0-or-later
   If you do make changes or add new styling make sure everything is responsive and looks as good if not better on mobile
 */
 
+@import url('https://fonts.testingmachine.eu/source-sans-pro/style.css');
+
 :root {
   --border-radius: 4px;
 }
@@ -19,7 +22,8 @@ html {
 }
 
 body {
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1rem;
 
   padding-top: 5rem;
 }
@@ -54,9 +58,17 @@ h2 {
   font-size: 1.5rem;
 }
 
-/* h3 {
-  font-size: 1.5rem;
-} */
+h3 {
+  font-size: 1.25rem;
+}
+
+h4   {
+  font-size: 1.125rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
 
 /* BOOTSTRAP TEXT UTILITIES OVERRIDE */
 .fw-semibold {
@@ -91,23 +103,24 @@ ul.no-bullets {
 .btn {
   border: none !important;
   border-radius: var(--border-radius) !important;
-  font-size: 0.8rem;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 610;
   padding: 10px 15px;
   letter-spacing: 0;
 }
 
 .btn::after {
-  content: " \279E";
+  content: "";
+/*  content: " \279E"; */
   font-weight: bold;
 }
 
 /* Navbar */
 .nav-link,
 .dropdown-item {
-  font-size: 0.8rem;
-  letter-spacing: 2px;
-  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  font-weight: 350;
 }
 
 @media (max-width: 1200px) {
@@ -137,10 +150,10 @@ ul.no-bullets {
 }
 
 /* Footer */
-footer * {    
-  font-family: "Source Sans Pro", "Open Sans", arial, sans-serif;
-  font-size: 20px;
-  line-height: 28px;
+footer * {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
   color: #3C4043;
 }
 
@@ -172,7 +185,7 @@ footer .text-decoration-underline {
 
 footer .text-small,
 footer .text-small * {
-  font-size: 14px;
+  font-size: 0.8rem;
 }
 
 footer .text-semi-bold,
@@ -395,7 +408,7 @@ footer .w-fit {
 
 /* Quote */
 .testimonial-quote {
-  font-size: 16px;
+  font-size: 1rem;
   width: 60%;
   margin: 0 auto;
   padding-top: 40px;
@@ -408,7 +421,7 @@ footer .w-fit {
   margin: 0;
   padding: 0;
   background: none;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 1.5em;
   font-style: italic;
   line-height: 1.4 !important;
@@ -424,7 +437,7 @@ footer .w-fit {
 
 .testimonial-quote blockquote p {
   line-height: 1.4 !important;
-  font-size: 21px;
+  font-size: 1.3rem;
 }
 
 .testimonial-quote blockquote p:first-child:before {
