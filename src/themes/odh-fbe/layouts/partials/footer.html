@@ -12,9 +12,9 @@
         {{ range $f.cards }}
         <div class="col-12 col-xl-6">
           <a href="{{ .URL }}" {{ if .target_blank }}target="_blank"{{ end }}>
-            <div class="card h-100 p-3 d-flex flex-row align-items-center gap-3">
+            <div class="card h-100 p-3 d-flex flex-row align-items-center gap-4">
               <div class="flex-shrink-1">
-                <img src="{{ .icon }}" alt="NOI Techpark" />
+                <img src="{{ .icon }}" alt="{{ .alttext }}" />
               </div>
               <span>{{ markdownify .text }}</span>
             </div>

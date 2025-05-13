@@ -64,9 +64,11 @@ params:
   footer:
     cards:
       - icon: /icon/footer/open-data-hub.svg
+        alttext: Open Data Hub
         text: Place where data and<br />tech are shared
         URL: /
       - icon: /icon/footer/noi.svg
+        alttext: NOI Techpark
         text: Innovation hub in<br />Südtirol/ Alto Adige
         URL: https://noi.bz.it
         target_blank: true
