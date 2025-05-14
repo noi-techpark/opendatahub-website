@@ -55,8 +55,8 @@ content:
       # - content: " "
     - cols:
       - content: "9.00"
-      - content: ""
-      - content: ""
+      - content: "Philipp Achammer"
+      - content: "Autonomous Province of Bozen/Bolzano"
       - content: "Open Data Hub Day - Opening"
       # - slidesLink: 
       # - videoLink: 
