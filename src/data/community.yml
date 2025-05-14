@@ -15,6 +15,10 @@ providers:
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/alperia.png"
       link: https://www.alperia.eu/
 
+    - name: AlpsGo
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/alpsGo.png"
+      link: https://www.alpsgo.it/
+
     - name: Autonomous Province of Bolzano/Bozen
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/pab.png"
       link: http://provincia.bz.it
