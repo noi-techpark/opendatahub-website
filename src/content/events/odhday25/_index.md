@@ -118,7 +118,7 @@ content:
       #- videoLink: 
     - cols:
       - content: "11.30"
-      - content: "Cristian Pozza"
+      - content: "Luca Pasquarelli"
       - content: "EURAC Research"
       - content: "BrickLLM: Democratizing Building Metadata Models with AI for Enhanced Energy Management"
       #- slidesLink: 
