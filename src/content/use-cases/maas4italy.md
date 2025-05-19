@@ -19,6 +19,8 @@ short:
   btn_label: Read more
   img_back: "/img/use-cases/maas4italy/01-Open-Data-Hub-Maas4italy.jpg"
   img_credit: "© sta - Südtiroler Transportstrukturen AG"
+  img_back_alt: ""
+  img_back_title: ""
   bg_darker: true
   partial: imgs-text.html
   weight: 1
@@ -29,12 +31,16 @@ start:
   subtitle: "Integrating transport services is crucial to ensuring more efficient and sustainable urban mobility. Supported by Open Data Hub, the MaaS4Italy project is transforming the way citizens and tourists travel by combining public transport, car sharing, bike sharing and taxis on a single digital platform. Thanks to Open Data Hub, local operators can easily access and share mobility data without worrying about complex technical standards. Find out how this innovation is improving the travel experience and facilitating access to mobility data across Italy."
   img_back: "/img/use-cases/maas4italy/02-Open-Data-Hub-Maas4italy.jpg"
   img_credit: "© sta - Südtiroler Transportstrukturen AG"
+  img_back_alt: ""
+  img_back_title: ""
   partial: title-cta.html
 
 paragraphs:
   - description: "**The challenge:**<br> Urban mobility in Italy is characterised by a wide variety of public and private transport services that often operate in isolation from one another. Users have to use different platforms to plan, book and pay for their journeys, which makes the process fragmented and inefficient. Furthermore, integrating data between local and national operators requires the adoption of complex standards, which hinders the development of integrated mobility solutions."
     img_back: "/img/use-cases/maas4italy/03-Open-Data-Hub-Maas4italy.jpg"
     img_credit: " © Pixabay"
+    img_back_alt: ""
+    img_back_title: ""
     partial: imgs-text.html
 
   - description: "**The solution**:
@@ -43,6 +49,8 @@ paragraphs:
   <br> Thanks to the Open Data Hub, the Province of Bolzano became the first in Italy to provide mobility data in the required standard formats. This simplified the connection process for local operators and encouraged the nationwide adoption of MaaS."
     img_back: "/img/use-cases/maas4italy/04-Open-Data-Hub-Maas4italy.jpg"
     img_credit: "© Open Data Hub / Tania Marcadella"
+    img_back_alt: ""
+    img_back_title: ""
     partial: text-imgs.html
 
   - description: "**The role of the Open Data Hub:**
@@ -52,6 +60,8 @@ paragraphs:
   "
     img_back: "/img/use-cases/maas4italy/05-Open-Data-Hub-Maas4italy.jpg"
     img_credit: "Architettura digitale del sistema di trasporto pubblico integrato della Provincia di Bolzano ed integrazione con l’architettura nazionale MaaS4Italy"
+    img_back_alt: ""
+    img_back_title: ""
     partial: imgs-text-enlargeable.html
 
   - description: "
@@ -70,5 +80,7 @@ paragraphs:
   </ul>"
     img_back: "/img/use-cases/maas4italy/06-Open-Data-Hub-Maas4italy.jpg"
     img_credit: "Architettura digitale del sistema di trasporto pubblico integrato della Provincia di Bolzano ed integrazione con l’architettura nazionale MaaS4Italy"
+    img_back_alt: ""
+    img_back_title: ""
     partial: text-imgs.html
 ---
