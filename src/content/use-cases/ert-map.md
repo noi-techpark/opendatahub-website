@@ -23,7 +23,7 @@ short:
   img_back_title: ""
   bg_darker: true
   partial:  imgs-text.html
-  weight: 2
+  weight: 3
 
 start:
   description: "ËRT - Moritz Brunner"
