@@ -154,7 +154,7 @@ content:
     - cols:
       - content: "13.30"
       - content: "Massimo Caria"
-      - content: "Factory"
+      - content: "Freelance"
       - content: "Use of tourism data for the development of destination strategies and tourism products"
       #- slidesLink: 
       #- videoLink: 
