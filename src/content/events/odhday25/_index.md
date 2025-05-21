@@ -155,7 +155,7 @@ content:
       - content: "13.30"
       - content: "Massimo Caria"
       - content: "Freelance"
-      - content: "The use of tourism data for the development of destination strategies and tourism products"
+      - content: "Dynamic Destination Insights: Data, Scenarios and Sustainability for the Future of Destination Management"
       #- slidesLink: 
       #- videoLink: 
     - cols:
