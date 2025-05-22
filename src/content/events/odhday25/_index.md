@@ -83,7 +83,7 @@ content:
       #- videoLink:
     - cols:
       - content: "10.00"
-      - content: "Alice Bordignon, Paolo Viskanic"
+      - content: "Alice Bordignon"
       - content: "R3GIS"
       - content: "Urban Green Infrastructure: a new data source for the Open Data Hub"
       #- slidesLink: 
