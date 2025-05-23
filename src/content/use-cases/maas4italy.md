@@ -83,4 +83,9 @@ paragraphs:
     img_back_alt: ""
     img_back_title: ""
     partial: text-imgs.html
+
+  - description: "Thanks to the Open Data Hub we were the first territory in Italy to provide mobility services data in the standardized formats requested and we could support other regions in this work."
+    title: "Alexander Alber"
+    subtitle: "Mobility Manager, Province of Bolzano"
+    partial: quote.html
 ---
