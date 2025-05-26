@@ -26,7 +26,7 @@ Congratulations Henri! Your dedication and contributions are an inspiration to u
     btn_link: "/datasets"
     btn_label: "Browse the datasets list"
     img_back: "/img/ODH-data-acess-datasets.jpg"
-    img_front: "/img/access-data-4.jpg"
+    img_front: "/img/services/data_access/access-data-4.jpg"
     bg_darker: false
     partial: text.html
 
