@@ -39,7 +39,7 @@ paragraphs:
     KULTIVAS is a Big Data platform for storing and visualising data and
     helps to develop complex forecasts in the field of agriculture in order to
     continue to guarantee the quality of South Tyrolean apples."
-    img_back: "/img/use-cases/ODH-usecase-Kultivas-01-NEW.jpg"
+    img_back: "/img/use-cases/kultivas/ODH-usecase-Kultivas-01-NEW.jpg"
     img_back_alt: ""
     img_back_title: ""
     partial: imgs-text-enlargeable.html
@@ -49,7 +49,7 @@ paragraphs:
     a location? „The approach is **data driven**, based on three different
     pillars: big data, machine learning and domain experts.“ says solution
     manager and developer Johannes Erschbaumer of the Konverto AG."
-    img_back: "/img/use-cases/ODH-usecase-Kultivas-02-NEW.jpg"
+    img_back: "/img/use-cases/kultivas/ODH-usecase-Kultivas-02-NEW.jpg"
     img_back_alt: ""
     img_back_title: ""
     partial: text-imgs-enlargeable.html
@@ -58,13 +58,13 @@ paragraphs:
     weather data provided by the **Open Data Hub**, they could develop a
     variety-location prediction, map based visualisations and they provide a
     valuable data interface (API)."
-    img_back: "/img/use-cases/ODH-usecase-Kultivas-03-NEW.jpg"
+    img_back: "/img/use-cases/kultivas/ODH-usecase-Kultivas-03-NEW.jpg"
     img_back_alt: ""
     img_back_title: ""
     partial: imgs-text-enlargeable.html
 
   - description: <p> The KULTIVAS project is being carried out by Software and cloud from the private sector of the IT company <a href="https://konverto.eu" target="_blank">KONVERTO AG</a> in cooperation with researchers and agronomists from leading institutes (Laimburg, Eurac Research) who enrich the project with their agronomic knowledge.</p>
-    img_back: "/img/use-cases/ODH-usecase-Kultivas-04-NEW.jpg"
+    img_back: "/img/use-cases/kultivas/ODH-usecase-Kultivas-04-NEW.jpg"
     img_back_alt: ""
     img_back_title: ""
     partial: text-imgs-enlargeable.html
