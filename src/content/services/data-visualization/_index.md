@@ -20,7 +20,7 @@ rows:
 
     btn_link: "https://freesoftwarelab.noi.bz.it/services/prototype/"
     btn_label: "See details "
-    img_back: "/img/ODH-data-visualization-top-image.jpg"
+    img_back: "/img/services/data_visualization/ODH-data-visualization-top-image.jpg"
     img_front: "/icon/box.svg"
     img_back_alt: ""
     img_back_title: ""
@@ -40,8 +40,8 @@ rows:
 
     btn_link: "https://webcomponents.opendatahub.com/"
     btn_label: "View the web components list"
-    img_back: "/img/ODH-data-visualization-web-component-store.jpg"
-    img_front: "/img/share-data-4.jpg"
+    img_back: "/img/services/data_visualization/ODH-data-visualization-web-component-store.jpg"
+    img_front: "/img/services/data_sharing/share-data-4.jpg"
     bg_darker: false
     partial: text-imgs.html
 
@@ -50,8 +50,8 @@ rows:
     description: "To contribute as a Web Component developer, you can use all the resources available in the Open Data Hub to create new Web components. Data is freely accessible and can be used for your own projects. For closer cooperation, do not hesitate to contact us."
     btn_link: "/contact"
     btn_label: "Contact us"
-    img_back: "/img/ODH-data-visualization-web-component-developer.jpg"
-    img_front: "/img/share-data-4.jpg"
+    img_back: "/img/services/data_visualization/ODH-data-visualization-web-component-developer.jpg"
+    img_front: "/img/services/data_sharing/share-data-4.jpg"
     bg_darker: true
     partial: imgs-text.html
 ---

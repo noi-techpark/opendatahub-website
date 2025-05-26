@@ -8,7 +8,7 @@ data_access:
   description: "Mobility, Tourism, Traffic or Weather data? We provide all of them. Do you want to build the next car parking app? Or do you prefer to predict when hail will impact plantations? Doesn't matter what you want to build, **we have real data you could use.**"
   btn_link: "/services/data-access"
   btn_label: See details
-  img_back: "/img/ODH-home-data-access.webp"
+  img_back: "/img/services/data_access/ODH-home-data-access.webp"
   img_front: "/icon/download.svg"
 
 data_sharing:
@@ -16,7 +16,7 @@ data_sharing:
   description: "We provide a platform, services and tools to allow you to quickly and easily share the data your company generates, **gaining visibility** and helping the development of amazing new applications."
   btn_link: "/services/data-sharing"
   btn_label: See details
-  img_back: "/img/OpenDataHub-Data-Sharing-Luisa-by-Tania-Marcadella-3779.jpg"
+  img_back: "/img/services/data_sharing/OpenDataHub-Data-Sharing-Luisa-by-Tania-Marcadella-3779.jpg"
   img_front: "/icon/upload.svg"
 
 data_visualization:
@@ -24,7 +24,7 @@ data_visualization:
   description: "Do you need to test the potential of your data? Or do you need inspiration for your next digital product? **We help you to see data come alive**"
   btn_link: "/services/data-visualization"
   btn_label: See Details
-  img_back: "/img/ODH-services-data-visualization.jpg"
+  img_back: "/img/services/data_visualization/ODH-services-data-visualization.jpg"
   img_front: "/icon/box.svg"
 
 pricing:
