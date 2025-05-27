@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" data-name="Livello 2" xmlns="http://www.w3.org/2000/svg" width="52.028" height="49.225" viewBox="0 0 52.028 49.225">
+  <g id="c" data-name="Livello 1">
+    <g>
+      <path d="M34.317,29.173c0,1.733-.531,3.341-1.438,4.672-1.49,2.186-3.997,3.62-6.84,3.62s-5.356-1.438-6.845-3.629c-.904-1.329-1.433-2.935-1.433-4.664,0-4.58,3.706-8.293,8.278-8.293s8.278,3.713,8.278,8.293Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path d="M31.779,7.23c0,3.165-2.56,5.729-5.72,5.729h-.023c-3.149-.012-5.696-2.571-5.696-5.729s2.56-5.73,5.72-5.73,5.72,2.565,5.72,5.73Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path d="M50.528,41.995c0,3.165-2.56,5.73-5.72,5.73s-5.719-2.565-5.719-5.73c0-1.198.366-2.31.994-3.228,1.029-1.511,2.762-2.501,4.725-2.501,3.159,0,5.72,2.565,5.72,5.729Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path d="M12.938,41.995c0,3.165-2.56,5.73-5.72,5.73s-5.719-2.565-5.719-5.73,2.559-5.729,5.719-5.729c1.967,0,3.702.994,4.73,2.507.626.917.99,2.027.99,3.221Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="26.039" y1="20.881" x2="26.039" y2="12.959" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="40.084" y1="38.767" x2="32.879" y2="33.846" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="19.194" y1="33.837" x2="11.949" y2="38.773" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>
