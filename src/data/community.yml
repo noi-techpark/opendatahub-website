@@ -15,6 +15,10 @@ providers:
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/alperia.png"
       link: https://www.alperia.eu/
 
+    - name: AlpsGo
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/alpsGo.png"
+      link: https://www.alpsgo.it/
+
     - name: Autonomous Province of Bolzano/Bozen
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/pab.png"
       link: http://provincia.bz.it
@@ -248,6 +252,10 @@ consumers:
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/merano.png"
       link: https://www.merano-suedtirol.it/
 
+    - name: Minervas
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/minervas.png"
+      link: https://www.minervas.it/
+
     - name: NOI S.p.A.
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/NOI_1_BK_Com.png"
       link: https://noi.bz.it
@@ -283,6 +291,10 @@ consumers:
     - name: Taste of Itlay - confesercenti
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/confesercenti-TasteOfItaly.png"
       link: http://www.tasteofitaly.bz.it/
+
+    - name: Touristinfo.ai - Mediatize - Storyblox
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/touristinfo.png"
+      link: https://www.touristinfo.ai/
 
     - name: Trentino Holidays
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/trentinoHolidays.png"
@@ -332,7 +344,7 @@ partnerships:
   items:
     - name: AlpineBits
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/AlpineBits.png"
-      link: www.alpinebits.org
+      link: https://alpinebits.org
 
     - name: Big Data Alliance
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/bigDataAlliance.png"

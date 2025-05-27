@@ -22,7 +22,7 @@ short:
   img_credit: "Elmar Premstaller at Open Data Hub Day 2024  © Open Data Hub"
   bg_darker: true
   partial:  text-imgs.html
-  weight: 1
+  weight: 2
 
 start:
   description: "YANOVIS"
