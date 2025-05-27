@@ -98,7 +98,6 @@ ul.no-bullets {
 }
 
 .btn::after {
-  content: " \279E";
   font-weight: bold;
 }
 
