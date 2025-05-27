@@ -533,3 +533,8 @@ footer .w-fit {
 :target {
   scroll-margin-top: 5rem;
 }
+
+/* Home Boxes */
+.bg-tertiary {
+  background-color: #f3f3f3 !important;
+}
