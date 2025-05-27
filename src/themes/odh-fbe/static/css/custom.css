@@ -538,3 +538,7 @@ footer .w-fit {
 .bg-tertiary {
   background-color: #f3f3f3 !important;
 }
+
+h4 {
+  font-weight: bold;
+}

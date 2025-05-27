@@ -23,9 +23,14 @@
                               <div class="mb-3">
                                   <img src="{{ .image }}" alt="{{ .name | markdownify }}" class="img-fluid w-100" />
                               </div>
-                              <div class="mt-auto d-flex justify-content-end">
-                                  <div class="btn btn-dark">{{ .btn_label | markdownify }}</div>
-                              </div>
+                                <div class="row align-items-center">
+                                    <div class="col text-start">
+                                        <p class="mb-0">{{ .description | markdownify }}</p>
+                                    </div>
+                                    <div class="col-auto text-end">
+                                        <div class="btn btn-dark">{{ .btn_label | markdownify }}</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </a>
