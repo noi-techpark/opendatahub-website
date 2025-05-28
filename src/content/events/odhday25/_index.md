@@ -22,7 +22,7 @@ Join us as we explore the topic with experts and representatives from leading co
 
 program:
   title: "Open Data Hub Day - Programme"
-  subtitle: "The event will be held in English. Below is the preliminary programme. The final programme will be published one month before the event."
+  subtitle: "The event will be held in English."
 
 content:
   btn_top_link: https://pretix.eu/noi-digital/open-data-hub-day-25/
@@ -230,9 +230,9 @@ content:
     - cols:
       - content: "11.30"
       - content: "<b>OTP & Mobility Track</b>"
-      - content: "Clemens Zagler"
+      - content: "Roberto Cavaliere"
       - content: "NOI Techpark"
-      - content: "Implementing NeTEx and SIRI on the Open Data Hub"
+      - content: "The national project MaaS4Italy: a deep-dive into EU mobility standards and OTP"
       # - slidesLink: 
       # - videoLink: 
     - cols:
@@ -246,9 +246,9 @@ content:
     - cols:
       - content: "12.00"
       - content: "<b>OTP & Mobility Track</b>"
-      - content: "Roberto Martinelli"
-      - content: "Liguria Digitale/Regione Liguria"
-      - content: "Public Transportation travel planning in Regione Liguria/Liguria Digitale: from proprietary data/platforms to Open Data/Open Source"
+      - content: "Clemens Zagler"
+      - content: "NOI Techpark"
+      - content: "Implementing NeTEx and SIRI on the Open Data Hub"
       #- slidesLink:
       #- videoLink: 
     - cols:
@@ -371,6 +371,14 @@ content:
       - content: "Closing"
       #- content: ""
       #- content: ""
+    - cols:
+      - content: "Cancelled"
+      - content: "<b>OTP & Mobility Track</b>"
+      - content: "Roberto Martinelli"
+      - content: "Liguria Digitale/Regione Liguria"
+      - content: "Public Transportation travel planning in Regione Liguria/Liguria Digitale: from proprietary data/platforms to Open Data/Open Source"
+      #- slidesLink:
+      #- videoLink: 
 
   # btn_room3_link: "https://pretix.eu/noi-digital/open-data-hub-day-25/"
   # btn_room3_label: "Register Now"
