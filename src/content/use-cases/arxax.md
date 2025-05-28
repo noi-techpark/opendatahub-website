@@ -24,7 +24,7 @@ short:
   img_back_title: ""
   bg_darker: true
   partial: imgs-text.html
-  weight: 10
+  weight: 11
 
 start:
   description: "ARXAX"

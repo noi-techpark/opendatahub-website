@@ -23,7 +23,7 @@ short:
   img_back_title: ""
   bg_darker: false
   partial: imgs-text.html
-  weight: 12
+  weight: 13
 
 start:
   description: "BRENNERLEC"
