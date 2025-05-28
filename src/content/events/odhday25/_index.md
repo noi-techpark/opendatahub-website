@@ -222,11 +222,51 @@ content:
     - cols:
       - content: "11.00"
       - content: "<b>Bootcamp Track</b>"
-      - content: "Open Data Hub"
-      - content: "Open Data Hub"
-      - content: "Open Data Hub Bootcamp 2025 results"
-      # - content: " "
-      # - content: " "
+      - content: "Enri Sulejmani, Michele Berlanda, Ridvan Plluzhina, Samuel Tettey-Nartey"
+      - content: "UNIBZ"
+      - content: "TEAM 1 - Not react boys"
+      # - slidesLink: 
+      # - videoLink:
+    - cols:
+      - content: "11.05"
+      - content: "<b>Bootcamp Track</b>"
+      - content: "Hamza Jamil, Michele Magri"
+      - content: ""
+      - content: "TEAM 2 - Atom - Using the Open Data Hub for tomorrows tech"
+      # - slidesLink: 
+      # - videoLink:
+    - cols:
+      - content: "11.10"
+      - content: "<b>Bootcamp Track</b>"
+      - content: "Giacomo Pilotti, Lorenzo Larcher, Lorenzo Marcon, Petr Hejčl"
+      - content: "UNIBZ"
+      - content: "TEAM 3 - IDK - Parking Planes Timeseries Prediction"
+      # - slidesLink: 
+      # - videoLink:
+    - cols:
+      - content: "11.15"
+      - content: "<b>Bootcamp Track</b>"
+      - content: "Elisa Ciardulli, Elisabeth Gruber, Johanna Kümmerer"
+      - content: "UNIBZ"
+      - content: "TEAM 4 - Jewels - ParkingBuddy"
+      # - slidesLink: 
+      # - videoLink:
+    - cols:
+      - content: "11.20"
+      - content: "<b>Bootcamp Track</b>"
+      - content: "Alex Bozzo, Beatrice Ronchi, Gioele Muscolino, Laura Scaramella"
+      - content: "UNIBZ"
+      - content: "TEAM 5 - The null - Weather analyzer"
+      # - slidesLink: 
+      # - videoLink:
+    - cols:
+      - content: "11.25"
+      - content: "<b>Bootcamp Track</b>"
+      - content: "Daniel Danso. Elias Vieider, Ian Vincent Ramos"
+      - content: "UNIBZ"
+      - content: "TEAM 6 - Ninjas - Futuristic AI-Driven Web App"
+      # - slidesLink: 
+      # - videoLink:
     - cols:
       - content: "11.30"
       - content: "<b>OTP & Mobility Track</b>"
