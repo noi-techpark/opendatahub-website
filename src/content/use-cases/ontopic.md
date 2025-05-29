@@ -22,7 +22,7 @@ short:
   img_back_title: ""
   bg_darker: true
   partial: imgs-text.html
-  weight: 9
+  weight: 7
 
 start:
   description: "ONTOPIC"
