@@ -21,9 +21,9 @@ params:
       script_name: datasets-list-widget.min.js
       attributes:
         - key: font-url
-          value: https://fonts.testingmachine.eu/open-sans/style.css
+          value: https://fonts.testingmachine.eu/source-sans-pro/style.css
         - key: font-name
-          value: Open Sans
+          value: Source Sans Pro
 
     wcs_list_widget:
       tag_name: wcs-list-widget
@@ -31,9 +31,9 @@ params:
       script_name: wcs-list-widget.min.js
       attributes:
         - key: font-url
-          value: https://fonts.testingmachine.eu/open-sans/style.css
+          value: https://fonts.testingmachine.eu/source-sans-pro/style.css 
         - key: font-name
-          value: Open Sans
+          value: Source Sans Pro
 
   noindex: false
   logo: img/NOI_OPENDATAHUB_NEW_BK_nospace-01.svg
@@ -54,7 +54,6 @@ params:
       - URL: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
       - URL: https://scripts.opendatahub.com/cookieconsent/opendatahub/cookieconsent.css
       - URL: https://fonts.testingmachine.eu/source-sans-pro/style.css
-      - URL: https://fonts.testingmachine.eu/open-sans/style.css
 
     js:
       - URL: /js/bootstrap-v5.bundle.min.js
@@ -65,9 +64,11 @@ params:
   footer:
     cards:
       - icon: /icon/footer/open-data-hub.svg
+        alttext: Open Data Hub
         text: Place where data and<br />tech are shared
         URL: /
       - icon: /icon/footer/noi.svg
+        alttext: NOI Techpark
         text: Innovation hub in<br />Südtirol/ Alto Adige
         URL: https://noi.bz.it
         target_blank: true
