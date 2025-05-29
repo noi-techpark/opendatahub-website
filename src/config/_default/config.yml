@@ -138,22 +138,22 @@ menu:
     - identifier: services
       URL: /services
       name: Services
-      weight: 7
+      weight: 1
 
     - parent: services
       name: Data access
       URL: /services/data-access
-      weight: 7
+      weight: 1
 
     - parent: services
       name: Data sharing
       URL: /services/data-sharing
-      weight: 6
+      weight: 2
 
     - parent: services
       name: Data visualization
       URL: /services/data-visualization
-      weight: 5
+      weight: 3
 
     - parent: services
       name: Certification
@@ -164,13 +164,13 @@ menu:
     - identifier: datasets
       URL: /datasets
       name: Datasets
-      weight: 6
+      weight: 2
 
     # --- Use Cases ---
     - identifier: use-cases
       name: Use Cases
       URL: /use-cases
-      weight: 5
+      weight: 3
 
     # --- Web Components ---
     - identifier: web-components
@@ -182,28 +182,28 @@ menu:
     - identifier: quickstart
       URL: /quickstart
       name: Quickstart
-      weight: 3
+      weight: 5
 
     # --- Community ---
     - identifier: community
       URL: /community
       name: Community
-      weight: 1
+      weight: 7
 
     - parent: community
       name: Data Providers
       URL: /community/#sm-tag-data-providers
-      weight: 7
+      weight: 1
 
     - parent: community
       name: Data Consumers
       URL: /community/#sm-tag-data-consumers
-      weight: 6
+      weight: 2
 
     - parent: community
       name: Certified Technology Provider
       URL: /community/#sm-tag-certified-technology-provider
-      weight: 5
+      weight: 3
     
     - parent: community
       name: Partnerships
@@ -213,38 +213,38 @@ menu:
     - parent: community
       name: Contributor of the Year
       URL: /community/contributor-of-the-year
-      weight: 3
+      weight: 5
 
     - parent: community
       name: Get Involved
       URL: /community/get-involved
-      weight: 2
+      weight: 6
 
     - parent: community
       name: Design Guidelines
       URL: /community/design-guidelines
-      weight: 1
+      weight: 7
 
     # --- Events ---
     - identifier: events
       URL: /events
       name: Events
-      weight: 1
+      weight: 7
 
     - parent: events
       name: Upcoming events
       URL: /events/#sm-tag-upcoming-events
-      weight: 7
+      weight: 1
 
     - parent: events
       name: Past events
       URL: /events/#sm-tag-past-events
-      weight: 6
+      weight: 2
 
     - parent: events
       name: Recurring events
       URL: /events/#sm-tag-recurring-events
-      weight: 5
+      weight: 3
 
     - parent: events
       name: Video Library
