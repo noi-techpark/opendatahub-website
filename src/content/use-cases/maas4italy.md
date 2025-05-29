@@ -23,7 +23,7 @@ short:
   img_back_title: ""
   bg_darker: true
   partial: imgs-text.html
-  weight: 1
+  weight: 15
 
 start:
   description: "MAAS FOR ITALY"
