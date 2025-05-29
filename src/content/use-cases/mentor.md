@@ -22,7 +22,7 @@ short:
   img_back_title: ""
   bg_darker: true
   partial: text-imgs.html
-  weight: 11
+  weight: 4
 
 start:
   description: "MENTOR"

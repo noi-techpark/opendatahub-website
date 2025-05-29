@@ -112,7 +112,7 @@ use_case_tags: # The categories this use case belongs to (for filtering)
 
 short: # Information for the list entry under /use-cases
   bg_darker: false # If the background for this list entry should be darker
-  weight: 2 # Position of the entry in the list (lower number -> higher on list)
+  weight: 2 # Position of the entry in the list (higher number -> higher on list)
   partial: text-imgs-icon.html # The partial this entry will be rendered with
   # Here the necessary fields for the partial like:
   # title:

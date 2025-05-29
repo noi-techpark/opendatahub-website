@@ -23,7 +23,7 @@ short:
   img_back_title: ""
   bg_darker: true
   partial: imgs-text-enlargeable.html
-  weight: 6
+  weight: 9
 
 start:
   subtitle: "SÜDTIROLMOBIL - ALTOADIGEMOBILITÀ"
