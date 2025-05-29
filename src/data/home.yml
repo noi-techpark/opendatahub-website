@@ -108,7 +108,7 @@ services:
     - name: "Data Access"
       image: "/img/home/01_Data-Access.jpg"
       icon: "/icon/home/01_Data-Access.svg"
-      description: "Understand how to build on"
+      description: "Understand how to build on open data"
       box_link: "/services/data-access/"
       btn_label: "Access data"
 
