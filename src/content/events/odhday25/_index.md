@@ -47,135 +47,160 @@ content:
     #   width: 5%  
   row:
     - cols:
-      - content: "8.30"
-      - content: " "
-      - content: " "
+      - time: "8.30"
+      - speaker: " "
+      - org: " "
       - content: "Check-in starting at 8.30"
       # - content: " "
       # - content: " "
     - cols:
-      - content: "9.00"
-      - content: "Ulrich Stofner"
-      - content: "NOI Techpark"
+      - time: "9.00"
+      - speaker: "Ulrich Stofner"
+      - org: "NOI Techpark"
+      - orgURL: "https://noi.bz.it/"
       - content: "Open Data Hub Day - Opening"
       # - slidesLink: 
       # - videoLink: 
     - cols:
-      - content: "9.15"
-      - content: "Patrick Ohnewein"
-      - content: "NOI Techpark"
+      - time: "9.15"
+      - speaker: "Patrick Ohnewein"
+      - speakerURL: "https://www.linkedin.com/in/ohnewein/"
+      - org: "NOI Techpark"
+      - orgURL: "https://noi.bz.it/"
       - content: "Open Data Hub - updates"
       #- slidesLink: 
       #- videoLink: 
     - cols:
-      - content: "9.30"
-      - content: "Alberto Comini"
-      - content: "Dolomiti NordicSki"
+      - time: "9.30"
+      - speaker: "Alberto Comini"
+      - speakerURL: "https://www.linkedin.com/in/alberto-comini-88b735b/"
+      - org: "Dolomiti NordicSki"
+      - orgURL: "https://www.dolomitinordicski.com"
       - content: "Empowering nordic skiing - Open data for smarter and sustainable winter tourism"
       #- slidesLink: 
       #- videoLink: 
     - cols:
-      - content: "9.45"
-      - content: "Antonietta De Santis"
-      - content: "IDM Südtirol / Alto Adige"
+      - time: "9.45"
+      - speaker: "Antonietta De Santis"
+      - speakerURL: "https://www.linkedin.com/in/antonietta-de-santis/"
+      - org: "IDM Südtirol / Alto Adige"
+      - orgURL: "https://www.idm-suedtirol.com"
       - content: "Open Data Hub for Tourism: two showcases"
       #- slidesLink: 
       #- videoLink:
     - cols:
-      - content: "10.00"
-      - content: "Alice Bordignon"
-      - content: "R3GIS"
+      - time: "10.00"
+      - speaker: "Alice Bordignon"
+      - speakerURL: "https://www.linkedin.com/in/alice-bordignon-ba4b20368/"
+      - org: "R3GIS"
+      - orgURL: "https://www.r3gis.com/"
       - content: "Urban Green Infrastructure: a new data source for the Open Data Hub"
       #- slidesLink: 
       #- videoLink: 
     - cols:
-      - content: "10.15"
-      - content: ""
-      - content: "Open Data Hub"
+      - time: "10.15"
+      - speaker: "Matthias Dieter Wallnöfer"
+      - org: "Open Data Hub"
+      - orgURL: "https://opendatahub.com/" 
       - content: "Contributor of the year 2025 - Award"
-      #- content: ""
+      #- slidesLink: 
       #- videoLink: 
     - cols:
-      - content: "10.30"
-      - content: ""
-      - content: ""
+      - time: "10.30"
+      - speaker: ""
+      - org: ""
       - content: "Community Coffee Break (Foyer NOI Seminar Area)"
-      #- content: ""
-      #- content: ""
     - cols:
-      - content: "11.00"
-      - content: "Renate Marmsoler"
-      - content: "Autonomous Province of Bolzano"
+      - time: "11.00"
+      - speaker: "Renate Marmsoler"
+      - speakerURL: "https://www.linkedin.com/in/renate-marmsoler-1a9978335/"
+      - org: "Autonomous Province of Bolzano"
+      - orgURL: "https://provinz.bz.it/"
       - content: "Open Government Data meet Open Data Hub"
       #- slidesLink: 
       #- videoLink:
     - cols:
-      - content: "11.15"
-      - content: "Valentina Porta"
-      - content: "Youtrend"
+      - time: "11.15"
+      - speaker: "Valentina Porta"
+      - speakerURL: "https://www.linkedin.com/in/valentina-p-a60614171/"
+      - org: "Youtrend"
+      - orgURL: "https://youtrend.it/"
       - content: "Enhancing research accuracy with open data"
       #- slidesLink: 
       #- videoLink: 
     - cols:
-      - content: "11.30"
-      - content: "Luca Pasquarelli"
-      - content: "EURAC Research"
+      - time: "11.30"
+      - speaker: "Luca Pasquarelli"
+      - speakerURL: "https://www.linkedin.com/in/luca-pasquarelli-061910212/"
+      - org: "EURAC Research"
+      - orgURL: "https://www.eurac.edu/"
       - content: "BrickLLM: Democratizing Building Metadata Models with AI for Enhanced Energy Management"
       #- slidesLink: 
       #- videoLink: 
     - cols:
-      - content: "11.45"
-      - content: "Eduardo Martins Guerra"
-      - content: "Free University of Bozen-Bolzano"
+      - time: "11.45"
+      - speaker: "Eduardo Martins Guerra"
+      - speakerURL: "https://www.linkedin.com/in/eduardo-guerra-b4633115b/"
+      - org: "Free University of Bozen-Bolzano"
+      - orgURL: "https://www.unibz.it/"
       - content: "Toward Green Service APIs"
       #- slidesLink: 
       #- videoLink:
     - cols:
-      - content: "12.00"
-      - content: "David Spitaler, Elias Klotz"
-      - content: "TFO Bozen Max Valier"
+      - time: "12.00"
+      - speaker: "David Spitaler, Elias Klotz"
+      - org: "TFO Bozen Max Valier"
+      - orgURL: "https://www.tfobz.it/"
       - content: "Open Quiz Hub"
       #- slidesLink: 
       #- videoLink: 
     - cols:
-      - content: "12.15"
-      - content: "Stefano Seppi"
-      - content: "NOI Techpark"
+      - time: "12.15"
+      - speaker: "Stefano Seppi"
+      - speakerURL: "https://www.linkedin.com/in/stefano-seppi-ab96b935/"
+      - org: "NOI Techpark"
+      - orgURL: "https://noi.bz.it/"
       - content: "Open Data Hub Web Components"
       #- slidesLink: 
       #- videoLink: 
     - cols:
-      - content: "12.30"
-      - content: ""
-      - content: ""
+      - time: "12.30"
+      - speaker: ""
+      - org: ""
       - content: "Networking lunch (Foyer NOI Seminar Area)"
-      - content: ""
-      - content:
+      #- content: ""
+      #- content:
     - cols:
-      - content: "13.45"
-      - content: "Andrea Vianello"
-      - content: "EURAC Research"
+      - time: "13.45"
+      - speaker: "Andrea Vianello"
+      - speakerURL: "https://www.linkedin.com/in/andrea-vianello-77801755/"
+      - org: "EURAC Research"
+      - orgURL: "https://www.eurac.edu/"
       - content: "Implementation of a Minimum Viable Dataspace for Sustainable Agricultural Management in the INSTINCT Project"
       #- slidesLink: 
       #- videoLink:
     - cols:
-      - content: "14.00"
-      - content: "Tharindu Ranathunga"
-      - content: "Nimbus Centre, Munster Technological University"
+      - time: "14.00"
+      - speaker: "Tharindu Ranathunga"
+      - speakerURL: "https://www.linkedin.com/in/tharind/"
+      - org: "Nimbus Centre, Munster Technological University"
+      - orgURL: "https://nimbuscentre.ie/"
       - content: "Beyond Data Sharing: Enabling Federated Learning Services in Data Spaces with IDSA Protocol"
       #- slidesLink: 
       #- videoLink:  
     - cols:
-      - content: "14.15"
-      - content: "Vinith Bhandari"
-      - content: "iSHARE Foundation"
+      - time: "14.15"
+      - speaker: "Vinith Bhandari"
+      - speakerURL: "https://www.linkedin.com/in/vinith-bhandari/"
+      - org: "iSHARE Foundation"
+      - orgURL: "https://ishare.eu/"
       - content: "Orchestrating Trust in Cross-Sector Open Data Ecosystems"
       #- slidesLink: 
       #- videoLink:  
     - cols:
-      - content: "14.30"
-      - content: ""
-      - content: ""
+      - time: "14.30"
+      - speaker: ""
+      - org: ""
       - content: "Community Coffee Break (Foyer NOI Seminar Area)"
       - #content: ""
       - #content: ""
