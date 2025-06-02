@@ -33,34 +33,34 @@ content:
   description_main: "The main track of the Open Data Hub Day provides a comprehensive overview of general macro topics related to Open Data. It aims to cover real use cases from a data provider and data consumer point of view as well as Data Spaces initiatives and also Open Data Hub related projects."
 
   header:
-    - title: 
+    - title: Time
       width: 5%
+    - title: Track
+      width: 10%
     - title: Speaker
-      width: 20%
+      width: 15%
     - title: Organization
       width: 15%
     - title: Title
-      width: 50%
-    # - title: "Slides"
-    #   width: 5%
-    # - title: "Video"
-    #   width: 5%  
+      width: 40%
+    - title: Slides
+      width: 5%
+    - title: Video
+      width: 5%    
   row:
     - cols:
       - time: "8.30"
       - speaker: " "
       - org: " "
       - content: "Check-in starting at 8.30"
-      # - content: " "
-      # - content: " "
     - cols:
       - time: "9.00"
       - speaker: "Ulrich Stofner"
       - org: "NOI Techpark"
       - orgURL: "https://noi.bz.it/"
       - content: "Open Data Hub Day - Opening"
-      # - slidesLink: 
-      # - videoLink: 
+      #- slidesLink: 
+      #- videoLink:
     - cols:
       - time: "9.15"
       - speaker: "Patrick Ohnewein"
@@ -68,8 +68,6 @@ content:
       - org: "NOI Techpark"
       - orgURL: "https://noi.bz.it/"
       - content: "Open Data Hub - updates"
-      #- slidesLink: 
-      #- videoLink: 
     - cols:
       - time: "9.30"
       - speaker: "Alberto Comini"
@@ -77,8 +75,6 @@ content:
       - org: "Dolomiti NordicSki"
       - orgURL: "https://www.dolomitinordicski.com"
       - content: "Empowering nordic skiing - Open data for smarter and sustainable winter tourism"
-      #- slidesLink: 
-      #- videoLink: 
     - cols:
       - time: "9.45"
       - speaker: "Antonietta De Santis"
@@ -86,8 +82,6 @@ content:
       - org: "IDM Südtirol / Alto Adige"
       - orgURL: "https://www.idm-suedtirol.com"
       - content: "Open Data Hub for Tourism: two showcases"
-      #- slidesLink: 
-      #- videoLink:
     - cols:
       - time: "10.00"
       - speaker: "Alice Bordignon"
@@ -95,16 +89,12 @@ content:
       - org: "R3GIS"
       - orgURL: "https://www.r3gis.com/"
       - content: "Urban Green Infrastructure: a new data source for the Open Data Hub"
-      #- slidesLink: 
-      #- videoLink: 
     - cols:
       - time: "10.15"
       - speaker: "Matthias Dieter Wallnöfer"
       - org: "Open Data Hub"
       - orgURL: "https://opendatahub.com/" 
       - content: "Contributor of the year 2025 - Award"
-      #- slidesLink: 
-      #- videoLink: 
     - cols:
       - time: "10.30"
       - speaker: ""
@@ -117,8 +107,6 @@ content:
       - org: "Autonomous Province of Bolzano"
       - orgURL: "https://provinz.bz.it/"
       - content: "Open Government Data meet Open Data Hub"
-      #- slidesLink: 
-      #- videoLink:
     - cols:
       - time: "11.15"
       - speaker: "Valentina Porta"
@@ -126,8 +114,6 @@ content:
       - org: "Youtrend"
       - orgURL: "https://youtrend.it/"
       - content: "Enhancing research accuracy with open data"
-      #- slidesLink: 
-      #- videoLink: 
     - cols:
       - time: "11.30"
       - speaker: "Luca Pasquarelli"
@@ -135,8 +121,6 @@ content:
       - org: "EURAC Research"
       - orgURL: "https://www.eurac.edu/"
       - content: "BrickLLM: Democratizing Building Metadata Models with AI for Enhanced Energy Management"
-      #- slidesLink: 
-      #- videoLink: 
     - cols:
       - time: "11.45"
       - speaker: "Eduardo Martins Guerra"
@@ -144,16 +128,12 @@ content:
       - org: "Free University of Bozen-Bolzano"
       - orgURL: "https://www.unibz.it/"
       - content: "Toward Green Service APIs"
-      #- slidesLink: 
-      #- videoLink:
     - cols:
       - time: "12.00"
       - speaker: "David Spitaler, Elias Klotz"
       - org: "TFO Bozen Max Valier"
       - orgURL: "https://www.tfobz.it/"
       - content: "Open Quiz Hub"
-      #- slidesLink: 
-      #- videoLink: 
     - cols:
       - time: "12.15"
       - speaker: "Stefano Seppi"
@@ -161,15 +141,11 @@ content:
       - org: "NOI Techpark"
       - orgURL: "https://noi.bz.it/"
       - content: "Open Data Hub Web Components"
-      #- slidesLink: 
-      #- videoLink: 
     - cols:
       - time: "12.30"
       - speaker: ""
       - org: ""
       - content: "Networking lunch (Foyer NOI Seminar Area)"
-      #- content: ""
-      #- content:
     - cols:
       - time: "13.45"
       - speaker: "Andrea Vianello"
@@ -177,8 +153,6 @@ content:
       - org: "EURAC Research"
       - orgURL: "https://www.eurac.edu/"
       - content: "Implementation of a Minimum Viable Dataspace for Sustainable Agricultural Management in the INSTINCT Project"
-      #- slidesLink: 
-      #- videoLink:
     - cols:
       - time: "14.00"
       - speaker: "Tharindu Ranathunga"
@@ -186,8 +160,6 @@ content:
       - org: "Nimbus Centre, Munster Technological University"
       - orgURL: "https://nimbuscentre.ie/"
       - content: "Beyond Data Sharing: Enabling Federated Learning Services in Data Spaces with IDSA Protocol"
-      #- slidesLink: 
-      #- videoLink:  
     - cols:
       - time: "14.15"
       - speaker: "Vinith Bhandari"
@@ -195,15 +167,9 @@ content:
       - org: "iSHARE Foundation"
       - orgURL: "https://ishare.eu/"
       - content: "Orchestrating Trust in Cross-Sector Open Data Ecosystems"
-      #- slidesLink: 
-      #- videoLink:  
     - cols:
       - time: "14.30"
-      - speaker: ""
-      - org: ""
       - content: "Community Coffee Break (Foyer NOI Seminar Area)"
-      - #content: ""
-      - #content: ""
     
   btn_room2_link: "https://pretix.eu/noi-digital/open-data-hub-day-25/"
   btn_room2_label: "Register Now"
@@ -222,221 +188,165 @@ content:
   Software architects and developers will present the Open Data Hub tool ecosystem."
 
   header_room2:
-    - title: 
+    - title: Time
       width: 5%
     - title: Track
-      width: 15%
+      width: 10%
+      
     - title: Speaker
       width: 15%
     - title: Organization
       width: 15%
     - title: Title
       width: 40%
-    # - title: "Slides"
-    #   width: 5%
-    # - title: "Video"
-    #   width: 5%  
+    - title: Slides
+      width: 5%
+    - title: Video
+      width: 5%    
   row_room2:
     - cols:
-      - content: "11.00"
-      - content: "<b>Bootcamp Track</b>"
-      - content: "Enri Sulejmani, Michele Berlanda, Ridvan Plluzhina, Samuel Tettey-Nartey"
-      - content: "UNIBZ"
+      - time: "11.00"
+      - track: "Bootcamp"
+      - speaker: "Enri Sulejmani, Michele Berlanda, Ridvan Plluzhina, Samuel Tettey-Nartey"
+      - org: "Free University of Bozen-Bolzano"
       - content: "TEAM 1 - Not react boys"
       # - slidesLink: 
       # - videoLink:
     - cols:
-      - content: "11.05"
-      - content: "<b>Bootcamp Track</b>"
-      - content: "Hamza Jamil, Michele Magri"
-      - content: ""
+      - time: "11.05"
+      - track: "Bootcamp"
+      - speaker: "Hamza Jamil, Michele Magri"
+      - org: ""
       - content: "TEAM 2 - Atom - Using the Open Data Hub for tomorrows tech"
-      # - slidesLink: 
-      # - videoLink:
     - cols:
-      - content: "11.10"
-      - content: "<b>Bootcamp Track</b>"
-      - content: "Giacomo Pilotti, Lorenzo Larcher, Lorenzo Marcon, Petr Hejčl"
-      - content: "UNIBZ"
+      - time: "11.10"
+      - track: "Bootcamp"
+      - speaker: "Giacomo Pilotti, Lorenzo Larcher, Lorenzo Marcon, Petr Hejčl"
+      - org: "Free University of Bozen-Bolzano"
       - content: "TEAM 3 - IDK - Parking Planes Timeseries Prediction"
-      # - slidesLink: 
-      # - videoLink:
     - cols:
-      - content: "11.15"
-      - content: "<b>Bootcamp Track</b>"
-      - content: "Elisa Ciardulli, Elisabeth Gruber, Johanna Kümmerer"
-      - content: "UNIBZ"
+      - time: "11.15"
+      - track: "Bootcamp"
+      - speaker: "Elisa Ciardulli, Elisabeth Gruber, Johanna Kümmerer"
+      - org: "Free University of Bozen-Bolzano"
       - content: "TEAM 4 - Jewels - ParkingBuddy"
-      # - slidesLink: 
-      # - videoLink:
     - cols:
-      - content: "11.20"
-      - content: "<b>Bootcamp Track</b>"
-      - content: "Alex Bozzo, Beatrice Ronchi, Gioele Muscolino, Laura Scaramella"
-      - content: "UNIBZ"
+      - time: "11.20"
+      - track: "Bootcamp"
+      - speaker: "Alex Bozzo, Beatrice Ronchi, Gioele Muscolino, Laura Scaramella"
+      - org: "Free University of Bozen-Bolzano"
       - content: "TEAM 5 - The null - Weather analyzer"
-      # - slidesLink: 
-      # - videoLink:
     - cols:
-      - content: "11.25"
-      - content: "<b>Bootcamp Track</b>"
-      - content: "Daniel Danso. Elias Vieider, Ian Vincent Ramos"
-      - content: "UNIBZ"
+      - time: "11.25"
+      - track: "Bootcamp"
+      - speaker: "Daniel Danso. Elias Vieider, Ian Vincent Ramos"
+      - org: "Free University of Bozen-Bolzano"
       - content: "TEAM 6 - Ninjas - Futuristic AI-Driven Web App"
-      # - slidesLink: 
-      # - videoLink:
     - cols:
-      - content: "11.30"
-      - content: "<b>OTP & Mobility Track</b>"
-      - content: "Roberto Cavaliere"
-      - content: "NOI Techpark"
+      - time: "11.30"
+      - track: "OTP & Mobility"
+      - speaker: "Roberto Cavaliere"
+      - org: "NOI Techpark"
       - content: "The national project MaaS4Italy: a deep-dive into EU mobility standards and OTP"
-      # - slidesLink: 
-      # - videoLink: 
     - cols:
-      - content: "11.45"
-      - content: "<b>OTP & Mobility Track</b>"
-      - content: "Guido Amato, Marco Comerio"
-      - content: "Lucian (OpenMove), Cefriel"
+      - time: "11.45"
+      - track: "OTP & Mobility"
+      - speaker: "Guido Amato, Marco Comerio"
+      - org: "Lucian (OpenMove), Cefriel"
       - content: "Facilitating the Transition from GTFS and GTFS-RT to NeTEx and SIRI in OpenTripPlanner"
-      #- slidesLink: 
-      #- videoLink: 
     - cols:
-      - content: "12.00"
-      - content: "<b>OTP & Mobility Track</b>"
-      - content: "Clemens Zagler"
-      - content: "NOI Techpark"
+      - time: "12.00"
+      - track: "OTP & Mobility"
+      - speaker: "Clemens Zagler"
+      - org: "NOI Techpark"
       - content: "Implementing NeTEx and SIRI on the Open Data Hub"
-      #- slidesLink:
-      #- videoLink: 
     - cols:
-      - content: "12.15"
-      - content: "<b>OTP & Mobility Track</b>"
-      - content: "Guido Amato"
-      - content: "Lucian (OpenMove)"
+      - time: "12.15"
+      - track: "OTP & Mobility"
+      - speaker: "Guido Amato"
+      - org: "Lucian (OpenMove)"
       - content: "Enabling the Digital Layer of A22: the Meridian project"
-      #- slidesLink: 
-      #- videoLink: 
     - cols:
-      - content: "12.30"
-      - content: ""
-      - content: ""
-      - content: ""
+      - time: "12.30"
       - content: "Networking lunch (Foyer NOI Seminar Area)"
-      - content: ""
-      - content: ""
     - cols:
-      - content: "13.30"
-      - content: "<b>Core Technologies Track</b>"
-      - content: "Rudi Thöni"
-      - content: "NOI Techpark"
+      - time: "13.30"
+      - track: "Core Technologies"
+      - speaker: "Rudi Thöni"
+      - org: "NOI Techpark"
       - content: "Open Data Hub Web Components Store"
-      #- slidesLink: 
-      #- videoLink:
     - cols:
-      - content: "13.45"
-      - content: "<b>Core Technologies Track</b>"
-      - content: "Clemens Zagler"
-      - content: "NOI Techpark"
+      - time: "13.45"
+      - track: "Core Technologies"
+      - speaker: "Clemens Zagler"
+      - org: "NOI Techpark"
       - content: "Golang in the Open Data Hub"
-      #- slidesLink: 
-      #- videoLink:
     - cols:
-      - content: "14.00"
-      - content: "<b>Core Technologies Track</b>"
-      - content: "Matteo Roggia"
-      - content: "NOI Techpark"
+      - time: "14.00"
+      - track: "Core Technologies"
+      - speaker: "Matteo Roggia"
+      - org: "NOI Techpark"
       - content: "Telemetry in Open Data Hub"
-      #- slidesLink: 
-      #- videoLink: 
     - cols:
-      - content: "14.15"
-      - content: "<b>Core Technologies Track</b>"
-      - content: "Clemens Zagler"
-      - content: "NOI Techpark"
+      - time: "14.15"
+      - track: "Core Technologies"
+      - speaker: "Clemens Zagler"
+      - org: "NOI Techpark"
       - content: "Reusable data collectors in the Open Data Hub"
-      #- slidesLink: 
-      #- videoLink: 
     - cols:
-      - content: "14.30"
-      - content: ""
-      - content: ""
-      - content: ""
+      - time: "14.30"
       - content: "Community Coffee Break (Foyer NOI Seminar Area)"
-      - #content: ""
-      - #content: ""
     - cols:
-      - content: "15.00"
-      - content: "<b>Core Technologies Track</b>"
-      - content: "Matteo Biasi"
-      - content: "MetaEsse"
+      - time: "15.00"
+      - track: "Core Technologies"
+      - speaker: "Matteo Biasi"
+      - org: "MetaEsse"
       - content: "The new Open Data Hub Analytics Tool"
-      #- slidesLink: 
-      #- videoLink:
     - cols:
-      - content: "15.15"
-      - content: "<b>Core Technologies Track</b>"
-      - content: "Christian Gapp"
-      - content: "Freelance"
+      - time: "15.15"
+      - track: "Core Technologies"
+      - speaker: "Christian Gapp"
+      - org: "Freelance"
       - content: "From Open Data Hub to Visual Insights Using the Data Browser"
-      #- slidesLink: 
-      #- videoLink:
     - cols:
-      - content: "15.30"
-      - content: "<b>Core Technologies Track</b>"
-      - content: "Davide Montesin, Chris Mair"
-      - content: "Catch Solve, 1006.org"
+      - time: "15.30"
+      - track: "Core Technologies"
+      - speaker: "Davide Montesin, Chris Mair"
+      - org: "Catch Solve, 1006.org"
       - content: "Automated Data Quality Testing Tool"
-      #- slidesLink: 
-      #- videoLink: 
     - cols:
-      - content: "15.45"
-      - content: "<b>Core Technologies Track</b>"
-      - content: "Giacomo Fabbian"
-      - content: "Offline Agency"
+      - time: "15.45"
+      - track: "Core Technologies"
+      - speaker: "Giacomo Fabbian"
+      - org: "Offline Agency"
       - content: "DCAT and ODPS: Foundations for Effective Data Spaces and AI"
-      #- slidesLink: 
-      #- videoLink: 
     - cols:
-      - content: "16.00"
-      - content: "<b>Core Technologies Track</b>"
-      - content: "Simone Pandini, Manuela Corte Pause"
-      - content: "Ontopic"
+      - time: "16.00"
+      - track: "Core Technologies"
+      - speaker: "Simone Pandini, Manuela Corte Pause"
+      - org: "Ontopic"
       - content: "Using Natural Language For Interacting With The Open Data Hub"
-      #- slidesLink: 
-      #- videoLink:
     - cols:
-      - content: "16.15"
-      - content: "<b>Core Technologies Track</b>"
-      - content: "João Francisco Lino Daniel"
-      - content: "Free University of Bozen-Bolzano"
+      - time: "16.15"
+      - track: "Core Technologies"
+      - speaker: "João Francisco Lino Daniel"
+      - org: "Free University of Bozen-Bolzano"
       - content: "Standing up to the Data mess"
-      #- slidesLink: 
-      #- videoLink:
     - cols:
-      - content: "16.30"
-      - content: "<b>Core Technologies Track</b>"
-      - content: "Martin Rabanser, Marco Dalle Feste"
-      - content: "AlpineBits Alliance"
+      - time: "16.30"
+      - track: "Core Technologies"
+      - speaker: "Martin Rabanser, Marco Dalle Feste"
+      - org: "AlpineBits Alliance"
       - content: "AlpineBits: certifying an Open Standard"
-      #- slidesLink: 
-      #- videoLink: 
     - cols:
-      - content: "16.45"
-      - content: ""
-      - content: ""
-      - content: ""
+      - time: "16.45"
       - content: "Closing"
-      #- content: ""
-      #- content: ""
-    - cols:
-      - content: "Cancelled"
-      - content: "<b>OTP & Mobility Track</b>"
-      - content: "Roberto Martinelli"
-      - content: "Liguria Digitale/Regione Liguria"
-      - content: "Public Transportation travel planning in Regione Liguria/Liguria Digitale: from proprietary data/platforms to Open Data/Open Source"
-      #- slidesLink:
-      #- videoLink: 
+#    - cols:
+#      - time: "Cancelled"
+#      - track: "OTP & Mobility"
+#      - speaker: "Roberto Martinelli"
+#      - org: "Liguria Digitale/Regione Liguria"
+#      - content: "Public Transportation travel planning in Regione Liguria/Liguria Digitale: from proprietary data/platforms to Open Data/Open Source"
 
   # btn_room3_link: "https://pretix.eu/noi-digital/open-data-hub-day-25/"
   # btn_room3_label: "Register Now"
