@@ -1,0 +1,91 @@
+{{/*
+	SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+
+	SPDX-License-Identifier: AGPL-3.0-or-later
+*/}}
+
+
+          <tr class="">
+
+            {{ $vTime := "" }}
+            {{ $vTrack := "" }}
+            {{ $vSpeaker := "" }}
+            {{ $vSpeakerURL := "" }}
+            {{ $vOrg := "" }}
+            {{ $vOrgURL := "" }}
+            {{ $vContent := "" }}
+            {{ $vSlidesLink := "" }}
+            {{ $vVideoLink := "" }}
+
+            {{ range .cols }}
+
+              {{ if isset . "time" }}
+              {{ $vTime = .time }}
+              {{ end }}
+
+              {{ if isset . "track" }}
+              {{ $vTrack = .track }}
+              {{ end }}
+
+              {{ if isset . "speaker" }}
+              {{ $vSpeaker = .speaker }}
+              {{ end }}
+              
+              {{ if isset . "speakerURL" }}
+              {{ $vSpeakerURL = .speakerURL }}
+              {{ end }}
+
+              {{ if isset . "org" }}
+              {{ $vOrg = .org }}
+              {{ end }}
+
+              {{ if isset . "orgURL" }}
+              {{ $vOrgURL = .orgURL }}
+              {{ end }}
+
+              {{ if isset . "content" }}
+              {{ $vContent = .content }}
+              {{ end }}
+
+              {{ if isset . "slidesLink" }}
+              {{ $vSlidesLink = .slidesLink }}
+              {{ end }}
+
+              {{ if isset . "videoLink" }}
+              {{ $vVideoLink = .videoLink }}
+              {{ end }}
+
+            {{ end }}
+
+            <td>{{ $vTime | safeHTML}}</td>
+ 
+            <td>{{ $vTrack | safeHTML}}</td>
+
+            {{ if ( ne $vSpeakerURL "" ) }}
+              <td><a href="{{$vSpeakerURL}}" target="_blank"><u>{{ $vSpeaker | safeHTML}}</u></a></td>
+            {{else}}
+              <td>{{ $vSpeaker | safeHTML}}</td>
+            {{end}}
+
+            {{ if ( ne $vOrgURL "" ) }}
+              <td><a href="{{$vOrgURL}}" target="_blank"><u>{{ $vOrg | safeHTML}}</u></a></td>
+            {{else}}
+              <td>{{ $vOrg | safeHTML}}</td>
+            {{end}}
+
+            <td>{{ $vContent | safeHTML}}</td>
+
+            {{ if ( ne $vSlidesLink "" ) }}
+              <td><a href="{{$vSlidesLink}}" class="btn btn-primary d-flex gap-1 align-items-center me-3" target="_blank">Slides</a></td>
+            {{else}}
+              <td></td>
+            {{end}} 
+
+            {{ if ( ne $vVideoLink "" ) }}
+              <td><a href="{{$vVideoLink}}" class="btn btn-primary d-flex gap-1 align-items-center ms-3" target="_blank">Video</a></td>
+            {{else}}
+              <td></td>
+            {{end}}
+
+          </tr>
+
