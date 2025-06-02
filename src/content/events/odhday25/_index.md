@@ -153,7 +153,7 @@ content:
       - content:
     - cols:
       - content: "13.45"
-      - content: "Roberto Monsorno"
+      - content: "Andrea Vianello"
       - content: "EURAC Research"
       - content: "Implementation of a Minimum Viable Dataspace for Sustainable Agricultural Management in the INSTINCT Project"
       #- slidesLink: 
