@@ -20,38 +20,28 @@ content:
   btn_top_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
   header:
-    - title: 
+    - title: Time
       width: 20%
-    - title: 
+    - title: Title
       width: 80%
 
   row:
     - cols:
-        - content: "13.00 - 13.30"
+        - content: "13.00"
         - content: "Registration/check-in"
     - cols:
-        - content: "13.30 - 13.45"
+        - content: "13.30"
         - content: Challenge presentation
-        - #slidesLink: "https://cloud.opendatahub.com/index.php/s/CgCbK2eGZexxiBA"
-        - #videoLink: "https://vimeo.com/showcase/9563553/video/715097183"
     - cols:
-        - content: "13.45 - 14.00"
+        - content: "13.45"
         - content: Presentation round & team building
-        #- slidesLink: "https://cloud.opendatahub.com/index.php/s/awHA7adeY7MNRpP"
-        #- videoLink: "https://vimeo.com/showcase/9563553/video/715100887"
     - cols:
-        - content: "14.00 - 17.30"
+        - content: "14.00"
         - content: "Development"
-        #- slidesLink: "https://cloud.opendatahub.com/index.php/s/GFMoJJat538WZkd"
-        #- videoLink: "https://vimeo.com/showcase/9563553/video/715097586"
     - cols:
-        - content: "17.30 - 18.00"
+        - content: "17.30"
         - content: "Final presentation"
-        #- slidesLink: "https://cloud.opendatahub.com/index.php/s/KC4mQy4S3agGSBf"
-        #- videoLink: "https://vimeo.com/showcase/9563553/video/715098141"
     - cols:
-        - content: "18.00 - 18.30"
+        - content: "18.00"
         - content: "Aperitivo"
-        #- slidesLink: "https://cloud.opendatahub.com/index.php/s/cExYZ5DyW23Fswi"
-        #- videoLink: "https://vimeo.com/showcase/9563553/video/715098854"
 ---
