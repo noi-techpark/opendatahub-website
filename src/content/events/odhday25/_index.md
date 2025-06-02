@@ -37,7 +37,7 @@ content:
       width: 5%
     - title: Speaker
       width: 20%
-    - title: Company
+    - title: Organization
       width: 15%
     - title: Title
       width: 50%
@@ -55,8 +55,8 @@ content:
       # - content: " "
     - cols:
       - content: "9.00"
-      - content: "Philipp Achammer"
-      - content: "Autonomous Province of Bozen/Bolzano"
+      - content: "Ulrich Stofner"
+      - content: "NOI Techpark"
       - content: "Open Data Hub Day - Opening"
       # - slidesLink: 
       # - videoLink: 
@@ -152,13 +152,6 @@ content:
       - content: ""
       - content:
     - cols:
-      - content: "13.30"
-      - content: "Massimo Caria"
-      - content: "Freelance"
-      - content: "Dynamic Destination Insights: Data, Scenarios and Sustainability for the Future of Destination Management"
-      #- slidesLink: 
-      #- videoLink: 
-    - cols:
       - content: "13.45"
       - content: "Roberto Monsorno"
       - content: "EURAC Research"
@@ -210,7 +203,7 @@ content:
       width: 15%
     - title: Speaker
       width: 15%
-    - title: Company
+    - title: Organization
       width: 15%
     - title: Title
       width: 40%
