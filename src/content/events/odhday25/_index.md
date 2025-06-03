@@ -41,8 +41,8 @@ content:
       width: 15%
     - title: Title
       width: 50%
-    # - title: "Slides"
-    #   width: 5%
+    - title: "Slides"
+      width: 5%
     # - title: "Video"
     #   width: 5%  
   row:
@@ -51,14 +51,14 @@ content:
       - content: " "
       - content: " "
       - content: "Check-in starting at 8.30"
-      # - content: " "
+      - content: " "
       # - content: " "
     - cols:
       - content: "9.00"
       - content: "Philipp Achammer"
       - content: "Autonomous Province of Bozen/Bolzano"
       - content: "Open Data Hub Day - Opening"
-      # - slidesLink: 
+      - content: 
       # - videoLink: 
     - cols:
       - content: "9.15"
@@ -72,77 +72,77 @@ content:
       - content: "Alberto Comini"
       - content: "Dolomiti NordicSki"
       - content: "Empowering nordic skiing - Open data for smarter and sustainable winter tourism"
-      #- slidesLink: 
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/zSSW9Y8PDMXyZEy
       #- videoLink: 
     - cols:
       - content: "9.45"
       - content: "Antonietta De Santis"
       - content: "IDM Südtirol / Alto Adige"
       - content: "Open Data Hub for Tourism: two showcases"
-      #- slidesLink: 
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/ydgbEBtgBHFFYXg
       #- videoLink:
     - cols:
       - content: "10.00"
       - content: "Alice Bordignon"
       - content: "R3GIS"
       - content: "Urban Green Infrastructure: a new data source for the Open Data Hub"
-      #- slidesLink: 
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/jAjCAtDtjkcjYbC
       #- videoLink: 
     - cols:
       - content: "10.15"
       - content: ""
       - content: "Open Data Hub"
       - content: "Contributor of the year 2025 - Award"
-      #- content: ""
+      - content: ""
       #- videoLink: 
     - cols:
       - content: "10.30"
       - content: ""
       - content: ""
       - content: "Community Coffee Break (Foyer NOI Seminar Area)"
-      #- content: ""
+      - content: ""
       #- content: ""
     - cols:
       - content: "11.00"
       - content: "Renate Marmsoler"
       - content: "Autonomous Province of Bolzano"
       - content: "Open Government Data meet Open Data Hub"
-      #- slidesLink: 
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/SiTYPZF4BGFJG47
       #- videoLink:
     - cols:
       - content: "11.15"
       - content: "Valentina Porta"
       - content: "Youtrend"
       - content: "Enhancing research accuracy with open data"
-      #- slidesLink: 
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/7ZjQqpHQgkAg8iq
       #- videoLink: 
     - cols:
       - content: "11.30"
       - content: "Luca Pasquarelli"
       - content: "EURAC Research"
       - content: "BrickLLM: Democratizing Building Metadata Models with AI for Enhanced Energy Management"
-      #- slidesLink: 
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/CBnsj7dM8kCTXrx
       #- videoLink: 
     - cols:
       - content: "11.45"
       - content: "Eduardo Martins Guerra"
       - content: "Free University of Bozen-Bolzano"
       - content: "Toward Green Service APIs"
-      #- slidesLink: 
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/EdB6QPPNX6FKt22
       #- videoLink:
     - cols:
       - content: "12.00"
       - content: "David Spitaler, Elias Klotz"
       - content: "TFO Bozen Max Valier"
       - content: "Open Quiz Hub"
-      #- slidesLink: 
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/o66CRL2akJ5FzkM
       #- videoLink: 
     - cols:
       - content: "12.15"
       - content: "Stefano Seppi"
       - content: "NOI Techpark"
       - content: "Open Data Hub Web Components"
-      #- slidesLink: 
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/sEonPWw2dZ5wXPs
       #- videoLink: 
     - cols:
       - content: "12.30"
@@ -163,28 +163,28 @@ content:
       - content: "Roberto Monsorno"
       - content: "EURAC Research"
       - content: "Implementation of a Minimum Viable Dataspace for Sustainable Agricultural Management in the INSTINCT Project"
-      #- slidesLink: 
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/yR7TXNnA5sNbPZa
       #- videoLink:
     - cols:
       - content: "14.00"
       - content: "Tharindu Ranathunga"
       - content: "Nimbus Centre, Munster Technological University"
       - content: "Beyond Data Sharing: Enabling Federated Learning Services in Data Spaces with IDSA Protocol"
-      #- slidesLink: 
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/LmeCCXFKFGzqqrc
       #- videoLink:  
     - cols:
       - content: "14.15"
       - content: "Vinith Bhandari"
       - content: "iSHARE Foundation"
       - content: "Orchestrating Trust in Cross-Sector Open Data Ecosystems"
-      #- slidesLink: 
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/4wKEiDNc9Gk9XoQ
       #- videoLink:  
     - cols:
       - content: "14.30"
       - content: ""
       - content: ""
       - content: "Community Coffee Break (Foyer NOI Seminar Area)"
-      - #content: ""
+      - content: ""
       - #content: ""
     
   btn_room2_link: "https://pretix.eu/noi-digital/open-data-hub-day-25/"
@@ -214,8 +214,8 @@ content:
       width: 15%
     - title: Title
       width: 40%
-    # - title: "Slides"
-    #   width: 5%
+    - title: "Slides"
+      width: 5%
     # - title: "Video"
     #   width: 5%  
   row_room2:
@@ -233,7 +233,7 @@ content:
       - content: "Hamza Jamil, Michele Magri"
       - content: ""
       - content: "TEAM 2 - Atom - Using the Open Data Hub for tomorrows tech"
-      # - slidesLink: 
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/5pjASK93cBfd6ik
       # - videoLink:
     - cols:
       - content: "11.10"
@@ -241,7 +241,7 @@ content:
       - content: "Giacomo Pilotti, Lorenzo Larcher, Lorenzo Marcon, Petr Hejčl"
       - content: "UNIBZ"
       - content: "TEAM 3 - IDK - Parking Planes Timeseries Prediction"
-      # - slidesLink: 
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/CgsJ5t5JkZpBB9t
       # - videoLink:
     - cols:
       - content: "11.15"
@@ -249,7 +249,7 @@ content:
       - content: "Elisa Ciardulli, Elisabeth Gruber, Johanna Kümmerer"
       - content: "UNIBZ"
       - content: "TEAM 4 - Jewels - ParkingBuddy"
-      # - slidesLink: 
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/7AgRRZemcywpBqn
       # - videoLink:
     - cols:
       - content: "11.20"
@@ -257,7 +257,7 @@ content:
       - content: "Alex Bozzo, Beatrice Ronchi, Gioele Muscolino, Laura Scaramella"
       - content: "UNIBZ"
       - content: "TEAM 5 - The null - Weather analyzer"
-      # - slidesLink: 
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/zxMjLcJCcmbgDak
       # - videoLink:
     - cols:
       - content: "11.25"
@@ -265,7 +265,7 @@ content:
       - content: "Daniel Danso. Elias Vieider, Ian Vincent Ramos"
       - content: "UNIBZ"
       - content: "TEAM 6 - Ninjas - Futuristic AI-Driven Web App"
-      # - slidesLink: 
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/bDCKs7sAbzfxNrA
       # - videoLink:
     - cols:
       - content: "11.30"
@@ -273,7 +273,7 @@ content:
       - content: "Roberto Cavaliere"
       - content: "NOI Techpark"
       - content: "The national project MaaS4Italy: a deep-dive into EU mobility standards and OTP"
-      # - slidesLink: 
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/ZcLfrTDQTTkeNtM
       # - videoLink: 
     - cols:
       - content: "11.45"
@@ -281,7 +281,7 @@ content:
       - content: "Guido Amato, Marco Comerio"
       - content: "Lucian (OpenMove), Cefriel"
       - content: "Facilitating the Transition from GTFS and GTFS-RT to NeTEx and SIRI in OpenTripPlanner"
-      #- slidesLink: 
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/cFZwsbeNbfkXFXZ
       #- videoLink: 
     - cols:
       - content: "12.00"
@@ -289,7 +289,7 @@ content:
       - content: "Clemens Zagler"
       - content: "NOI Techpark"
       - content: "Implementing NeTEx and SIRI on the Open Data Hub"
-      #- slidesLink:
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/Ns3A2H5iFqDNCeX
       #- videoLink: 
     - cols:
       - content: "12.15"
@@ -297,7 +297,7 @@ content:
       - content: "Guido Amato"
       - content: "Lucian (OpenMove)"
       - content: "Enabling the Digital Layer of A22: the Meridian project"
-      #- slidesLink: 
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/9FigyeyzES4g49Y
       #- videoLink: 
     - cols:
       - content: "12.30"
@@ -306,14 +306,14 @@ content:
       - content: ""
       - content: "Networking lunch (Foyer NOI Seminar Area)"
       - content: ""
-      - content: ""
+      #- content: ""
     - cols:
       - content: "13.30"
       - content: "<b>Core Technologies Track</b>"
       - content: "Rudi Thöni"
       - content: "NOI Techpark"
       - content: "Open Data Hub Web Components Store"
-      #- slidesLink: 
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/iBYwrYjTRZQBZNs
       #- videoLink:
     - cols:
       - content: "13.45"
@@ -321,7 +321,7 @@ content:
       - content: "Clemens Zagler"
       - content: "NOI Techpark"
       - content: "Golang in the Open Data Hub"
-      #- slidesLink: 
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/pWp4irymna9SJqW
       #- videoLink:
     - cols:
       - content: "14.00"
@@ -329,7 +329,7 @@ content:
       - content: "Matteo Roggia"
       - content: "NOI Techpark"
       - content: "Telemetry in Open Data Hub"
-      #- slidesLink: 
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/NsKsxGStFdzrFNo
       #- videoLink: 
     - cols:
       - content: "14.15"
@@ -337,7 +337,7 @@ content:
       - content: "Clemens Zagler"
       - content: "NOI Techpark"
       - content: "Reusable data collectors in the Open Data Hub"
-      #- slidesLink: 
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/ERit6DRZKk2KmEw
       #- videoLink: 
     - cols:
       - content: "14.30"
@@ -345,7 +345,7 @@ content:
       - content: ""
       - content: ""
       - content: "Community Coffee Break (Foyer NOI Seminar Area)"
-      - #content: ""
+      - content: ""
       - #content: ""
     - cols:
       - content: "15.00"
@@ -353,7 +353,7 @@ content:
       - content: "Matteo Biasi"
       - content: "MetaEsse"
       - content: "The new Open Data Hub Analytics Tool"
-      #- slidesLink: 
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/yXJLe22PZ2tDAMF
       #- videoLink:
     - cols:
       - content: "15.15"
@@ -361,7 +361,7 @@ content:
       - content: "Christian Gapp"
       - content: "Freelance"
       - content: "From Open Data Hub to Visual Insights Using the Data Browser"
-      #- slidesLink: 
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/4QwwYKwMLS8TL5F
       #- videoLink:
     - cols:
       - content: "15.30"
@@ -369,7 +369,7 @@ content:
       - content: "Davide Montesin, Chris Mair"
       - content: "Catch Solve, 1006.org"
       - content: "Automated Data Quality Testing Tool"
-      #- slidesLink: 
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/P3697tonnFxMwtK
       #- videoLink: 
     - cols:
       - content: "15.45"
@@ -377,7 +377,7 @@ content:
       - content: "Giacomo Fabbian"
       - content: "Offline Agency"
       - content: "DCAT and ODPS: Foundations for Effective Data Spaces and AI"
-      #- slidesLink: 
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/AqMpw55HSsoybZC
       #- videoLink: 
     - cols:
       - content: "16.00"
@@ -385,7 +385,7 @@ content:
       - content: "Simone Pandini, Manuela Corte Pause"
       - content: "Ontopic"
       - content: "Using Natural Language For Interacting With The Open Data Hub"
-      #- slidesLink: 
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/madow89o5BPzadD
       #- videoLink:
     - cols:
       - content: "16.15"
@@ -393,7 +393,7 @@ content:
       - content: "João Francisco Lino Daniel"
       - content: "Free University of Bozen-Bolzano"
       - content: "Standing up to the Data mess"
-      #- slidesLink: 
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/E7DJY7XFnL32Ca7
       #- videoLink:
     - cols:
       - content: "16.30"
@@ -401,7 +401,7 @@ content:
       - content: "Martin Rabanser, Marco Dalle Feste"
       - content: "AlpineBits Alliance"
       - content: "AlpineBits: certifying an Open Standard"
-      #- slidesLink: 
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/2Kz7LzZbC5xaztE
       #- videoLink: 
     - cols:
       - content: "16.45"
@@ -409,7 +409,7 @@ content:
       - content: ""
       - content: ""
       - content: "Closing"
-      #- content: ""
+      - content: ""
       #- content: ""
     - cols:
       - content: "Cancelled"
