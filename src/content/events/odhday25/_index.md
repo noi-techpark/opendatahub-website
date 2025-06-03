@@ -61,7 +61,7 @@ content:
       - org: "NOI Techpark"
       - orgURL: "https://noi.bz.it/"
       - content: "Open Data Hub Day - Opening"
-      #- slidesLink: 
+      - content: 
       #- videoLink:
       - content: 
       # - videoLink: 
@@ -72,6 +72,8 @@ content:
       - org: "NOI Techpark"
       - orgURL: "https://noi.bz.it/"
       - content: "Open Data Hub - updates"
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/LDgdXqbszJYQ8t6
+      #- videoLink:
     - cols:
       - time: "9.30"
       - speaker: "Alberto Comini"
@@ -97,7 +99,7 @@ content:
       - org: "R3GIS"
       - orgURL: "https://www.r3gis.com/"
       - content: "Urban Green Infrastructure: a new data source for the Open Data Hub"
-      - slidesLink: https://cloud.opendatahub.com/index.php/s/jAjCAtDtjkcjYbC
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/q5fR9CpYaiZWtCB
       #- videoLink: 
     - cols:
       - time: "10.15"
@@ -345,7 +347,7 @@ content:
       - org: "NOI Techpark"
       - orgURL: "https://noi.bz.it/"	
       - content: "Open Data Hub Web Components Store"
-      - slidesLink: https://cloud.opendatahub.com/index.php/s/iBYwrYjTRZQBZNs
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/7cne68ydiHKNtNf
       #- videoLink:
     - cols:
       - time: "13.45"
@@ -457,7 +459,7 @@ content:
       - content: "Roberto Martinelli"
       - content: "Liguria Digitale/Regione Liguria"
       - content: "Public Transportation travel planning in Regione Liguria/Liguria Digitale: from proprietary data/platforms to Open Data/Open Source"
-      #- slidesLink:
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/Gc3bKZFPy9DsKnT
       #- videoLink: 
 
   # btn_room3_link: "https://pretix.eu/noi-digital/open-data-hub-day-25/"
