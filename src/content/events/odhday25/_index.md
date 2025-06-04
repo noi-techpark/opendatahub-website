@@ -238,11 +238,8 @@ content:
     - title: Slides
       width: 5%
     - title: Video
-      width: 5%    
-    - title: "Slides"
       width: 5%
-    # - title: "Video"
-    #   width: 5%  
+        
   row_room2:
     - cols:
       - time: "11.00"
