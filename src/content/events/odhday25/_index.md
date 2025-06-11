@@ -54,7 +54,7 @@ content:
       - org: " "
       - content: "Check-in starting at 8.30"
       - content: " "
-      # - content: " "
+      - content: " "
     - cols:
       - time: "9.00"
       - speaker: "Ulrich Stofner"
@@ -62,9 +62,8 @@ content:
       - orgURL: "https://noi.bz.it/"
       - content: "Open Data Hub Day - Opening"
       - content: 
-      #- videoLink:
-      - content: 
-      # - videoLink: 
+      - videoLink: "https://player.vimeo.com/video/1090568966"
+      
     - cols:
       - time: "9.15"
       - speaker: "Patrick Ohnewein"
@@ -73,7 +72,7 @@ content:
       - orgURL: "https://noi.bz.it/"
       - content: "Open Data Hub - updates"
       - slidesLink: https://cloud.opendatahub.com/index.php/s/LDgdXqbszJYQ8t6
-      #- videoLink:
+      - videoLink: "https://player.vimeo.com/video/1090644022"
     - cols:
       - time: "9.30"
       - speaker: "Alberto Comini"
@@ -82,7 +81,7 @@ content:
       - orgURL: "https://www.dolomitinordicski.com"
       - content: "Empowering nordic skiing - Open data for smarter and sustainable winter tourism"
       - slidesLink: https://cloud.opendatahub.com/index.php/s/zSSW9Y8PDMXyZEy
-      #- videoLink: 
+      - videoLink: "https://player.vimeo.com/video/1090754460"
     - cols:
       - time: "9.45"
       - speaker: "Antonietta De Santis"
@@ -91,7 +90,7 @@ content:
       - orgURL: "https://www.idm-suedtirol.com"
       - content: "Open Data Hub for Tourism: two showcases"
       - slidesLink: https://cloud.opendatahub.com/index.php/s/ydgbEBtgBHFFYXg
-      #- videoLink:
+      - videoLink: "https://player.vimeo.com/video/1090590268"
     - cols:
       - time: "10.00"
       - speaker: "Alice Bordignon"
@@ -100,7 +99,7 @@ content:
       - orgURL: "https://www.r3gis.com/"
       - content: "Urban Green Infrastructure: a new data source for the Open Data Hub"
       - slidesLink: https://cloud.opendatahub.com/index.php/s/q5fR9CpYaiZWtCB
-      #- videoLink: 
+      - videoLink: "https://player.vimeo.com/video/1090753137"
     - cols:
       - time: "10.15"
       - speaker: "Matthias Dieter Wallnöfer"
@@ -108,14 +107,14 @@ content:
       - orgURL: "https://opendatahub.com/" 
       - content: "Contributor of the year 2025 - Award"
       - content: ""
-      #- videoLink: 
+      - videoLink: https://player.vimeo.com/video/1090591285
     - cols:
       - time: "10.30"
       - speaker: ""
       - org: ""
       - content: "Community Coffee Break (Foyer NOI Seminar Area)"
       - content: ""
-      #- content: ""
+      - content: ""
     - cols:
       - time: "11.00"
       - speaker: "Renate Marmsoler"
@@ -124,7 +123,7 @@ content:
       - orgURL: "https://provinz.bz.it/"
       - content: "Open Government Data meet Open Data Hub"
       - slidesLink: https://cloud.opendatahub.com/index.php/s/SiTYPZF4BGFJG47
-      #- videoLink:
+      - videoLink: "https://player.vimeo.com/video/1090630925"
     - cols:
       - time: "11.15"
       - speaker: "Valentina Porta"
@@ -133,7 +132,7 @@ content:
       - orgURL: "https://youtrend.it/"
       - content: "Enhancing research accuracy with open data"
       - slidesLink: https://cloud.opendatahub.com/index.php/s/7ZjQqpHQgkAg8iq
-      #- videoLink: 
+      - videoLink: "https://player.vimeo.com/video/1090578376"
     - cols:
       - time: "11.30"
       - speaker: "Luca Pasquarelli"
@@ -142,7 +141,7 @@ content:
       - orgURL: "https://www.eurac.edu/"
       - content: "BrickLLM: Democratizing Building Metadata Models with AI for Enhanced Energy Management"
       - slidesLink: https://cloud.opendatahub.com/index.php/s/CBnsj7dM8kCTXrx
-      #- videoLink: 
+      - videoLink: "https://player.vimeo.com/video/1090592808"
     - cols:
       - time: "11.45"
       - speaker: "Eduardo Martins Guerra"
@@ -151,7 +150,7 @@ content:
       - orgURL: "https://www.unibz.it/"
       - content: "Toward Green Service APIs"
       - slidesLink: https://cloud.opendatahub.com/index.php/s/EdB6QPPNX6FKt22
-      #- videoLink:
+      - videoLink: "https://player.vimeo.com/video/1090602432"
     - cols:
       - time: "12.00"
       - speaker: "David Spitaler, Elias Klotz"
@@ -159,7 +158,7 @@ content:
       - orgURL: "https://www.tfobz.it/"
       - content: "Open Quiz Hub"
       - slidesLink: https://cloud.opendatahub.com/index.php/s/o66CRL2akJ5FzkM
-      #- videoLink: 
+      - videoLink: "https://player.vimeo.com/video/1090596032"
     - cols:
       - time: "12.15"
       - speaker: "Stefano Seppi"
@@ -168,7 +167,7 @@ content:
       - orgURL: "https://noi.bz.it/"
       - content: "Open Data Hub Web Components"
       - slidesLink: https://cloud.opendatahub.com/index.php/s/sEonPWw2dZ5wXPs
-      #- videoLink: 
+      - videoLink: "https://player.vimeo.com/video/1090597291"
     - cols:
       - time: "12.30"
       - speaker: ""
@@ -182,7 +181,7 @@ content:
       - orgURL: "https://www.eurac.edu/"
       - content: "Implementation of a Minimum Viable Dataspace for Sustainable Agricultural Management in the INSTINCT Project"
       - slidesLink: https://cloud.opendatahub.com/index.php/s/yR7TXNnA5sNbPZa
-      #- videoLink:
+      - videoLink: "https://player.vimeo.com/video/1090606369"
     - cols:
       - time: "14.00"
       - speaker: "Tharindu Ranathunga"
@@ -191,7 +190,7 @@ content:
       - orgURL: "https://nimbuscentre.ie/"
       - content: "Beyond Data Sharing: Enabling Federated Learning Services in Data Spaces with IDSA Protocol"
       - slidesLink: https://cloud.opendatahub.com/index.php/s/LmeCCXFKFGzqqrc
-      #- videoLink:  
+      - videoLink: "https://player.vimeo.com/video/1090594594"
     - cols:
       - time: "14.15"
       - speaker: "Vinith Bhandari"
@@ -200,12 +199,12 @@ content:
       - orgURL: "https://ishare.eu/"
       - content: "Orchestrating Trust in Cross-Sector Open Data Ecosystems"
       - slidesLink: https://cloud.opendatahub.com/index.php/s/4wKEiDNc9Gk9XoQ
-      #- videoLink:  
+      - videoLink: "https://player.vimeo.com/video/1090579985"
     - cols:
       - time: "14.30"
       - content: "Community Coffee Break (Foyer NOI Seminar Area)"
       - content: ""
-      - #content: ""
+      - content: ""
     
   btn_room2_link: "https://pretix.eu/noi-digital/open-data-hub-day-25/"
   btn_room2_label: "Register Now"
@@ -248,8 +247,8 @@ content:
       - org: "Free University of Bozen-Bolzano"
       - orgURL: "https://www.unibz.it/"
       - content: "TEAM 1 - Not react boys"
-      # - slidesLink: 
-      # - videoLink:
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/jRzimzcR2nZCbtp
+      - videoLink: "https://player.vimeo.com/video/1090630194"
     - cols:
       - time: "11.05"
       - track: "Bootcamp"
@@ -257,7 +256,7 @@ content:
       - org: ""
       - content: "TEAM 2 - Atom - Using the Open Data Hub for tomorrows tech"
       - slidesLink: https://cloud.opendatahub.com/index.php/s/5pjASK93cBfd6ik
-      # - videoLink:
+      - videoLink: "https://player.vimeo.com/video/1090632792"
     - cols:
       - time: "11.10"
       - track: "Bootcamp"
@@ -266,7 +265,7 @@ content:
       - orgURL: "https://www.unibz.it/"
       - content: "TEAM 3 - IDK - Parking Planes Timeseries Prediction"
       - slidesLink: https://cloud.opendatahub.com/index.php/s/CgsJ5t5JkZpBB9t
-      # - videoLink:
+      - videoLink: "https://player.vimeo.com/video/1090629125"
     - cols:
       - time: "11.15"
       - track: "Bootcamp"
@@ -275,7 +274,7 @@ content:
       - orgURL: "https://www.unibz.it/"
       - content: "TEAM 4 - Jewels - ParkingBuddy"
       - slidesLink: https://cloud.opendatahub.com/index.php/s/7AgRRZemcywpBqn
-      # - videoLink:
+      - videoLink: "https://player.vimeo.com/video/1090640935"
     - cols:
       - time: "11.20"
       - track: "Bootcamp"
@@ -284,7 +283,7 @@ content:
       - orgURL: "https://www.unibz.it/"
       - content: "TEAM 5 - The null - Weather analyzer"
       - slidesLink: https://cloud.opendatahub.com/index.php/s/zxMjLcJCcmbgDak
-      # - videoLink:
+      - videoLink: "https://player.vimeo.com/video/1090638953"
     - cols:
       - time: "11.25"
       - track: "Bootcamp"
@@ -293,7 +292,7 @@ content:
       - orgURL: "https://www.unibz.it/"
       - content: "TEAM 6 - Ninjas - Futuristic AI-Driven Web App"
       - slidesLink: https://cloud.opendatahub.com/index.php/s/bDCKs7sAbzfxNrA
-      # - videoLink:
+      - videoLink: "https://player.vimeo.com/video/1090642444"
     - cols:
       - time: "11.30"
       - track: "OTP & Mobility"
@@ -303,7 +302,7 @@ content:
       - orgURL: "https://noi.bz.it/"	
       - content: "The national project MaaS4Italy: a deep-dive into EU mobility standards and OTP"
       - slidesLink: https://cloud.opendatahub.com/index.php/s/ZcLfrTDQTTkeNtM
-      # - videoLink: 
+      - videoLink: "https://player.vimeo.com/video/1090645706"
     - cols:
       - time: "11.45"
       - track: "OTP & Mobility"
@@ -311,7 +310,7 @@ content:
       - org: "Lucian (OpenMove), Cefriel"
       - content: "Facilitating the Transition from GTFS and GTFS-RT to NeTEx and SIRI in OpenTripPlanner"
       - slidesLink: https://cloud.opendatahub.com/index.php/s/cFZwsbeNbfkXFXZ
-      #- videoLink: 
+      - videoLink: "https://player.vimeo.com/video/1090650840"
     - cols:
       - time: "12.00"
       - track: "OTP & Mobility"
@@ -321,7 +320,7 @@ content:
       - orgURL: "https://noi.bz.it/"	
       - content: "Implementing NeTEx and SIRI on the Open Data Hub"
       - slidesLink: https://cloud.opendatahub.com/index.php/s/Ns3A2H5iFqDNCeX
-      #- videoLink: 
+      - videoLink: "https://player.vimeo.com/video/1090814330"
     - cols:
       - time: "12.15"
       - track: "OTP & Mobility"
@@ -331,12 +330,12 @@ content:
       - orgURL: "https://www.openmove.com/"
       - content: "Enabling the Digital Layer of A22: the Meridian project"
       - slidesLink: https://cloud.opendatahub.com/index.php/s/9FigyeyzES4g49Y
-      #- videoLink: 
+      - videoLink: "https://player.vimeo.com/video/1090652929"
     - cols:
       - time: "12.30"
       - content: "Networking lunch (Foyer NOI Seminar Area)"
       - content: ""
-      #- content: ""
+      - content: ""
     - cols:
       - time: "13.30"
       - track: "Core Technologies"
@@ -345,7 +344,7 @@ content:
       - orgURL: "https://noi.bz.it/"	
       - content: "Open Data Hub Web Components Store"
       - slidesLink: https://cloud.opendatahub.com/index.php/s/7cne68ydiHKNtNf
-      #- videoLink:
+      - videoLink: "https://player.vimeo.com/video/1090815112"
     - cols:
       - time: "13.45"
       - track: "Core Technologies"
@@ -355,7 +354,7 @@ content:
       - orgURL: "https://noi.bz.it/"	
       - content: "Golang in the Open Data Hub"
       - slidesLink: https://cloud.opendatahub.com/index.php/s/pWp4irymna9SJqW
-      #- videoLink:
+      - videoLink: "https://player.vimeo.com/video/1090660584"
     - cols:
       - time: "14.00"
       - track: "Core Technologies"
@@ -365,7 +364,7 @@ content:
       - orgURL: "https://noi.bz.it/"	
       - content: "Telemetry in Open Data Hub"
       - slidesLink: https://cloud.opendatahub.com/index.php/s/NsKsxGStFdzrFNo
-      #- videoLink: 
+      - videoLink: "https://player.vimeo.com/video/1090660715"
     - cols:
       - time: "14.15"
       - track: "Core Technologies"
@@ -375,12 +374,12 @@ content:
       - orgURL: "https://noi.bz.it/"	
       - content: "Reusable data collectors in the Open Data Hub"
       - slidesLink: https://cloud.opendatahub.com/index.php/s/ERit6DRZKk2KmEw
-      #- videoLink: 
+      - videoLink: "https://player.vimeo.com/video/1090660792"
     - cols:
       - time: "14.30"
       - content: "Community Coffee Break (Foyer NOI Seminar Area)"
       - content: ""
-      - #content: ""
+      - content: ""
     - cols:
       - time: "15.00"
       - track: "Core Technologies"
@@ -390,7 +389,7 @@ content:
       - orgURL: "https://metaesse.com/"
       - content: "The new Open Data Hub Analytics Tool"
       - slidesLink: https://cloud.opendatahub.com/index.php/s/yXJLe22PZ2tDAMF
-      #- videoLink:
+      - videoLink: "https://player.vimeo.com/video/1090727478"
     - cols:
       - time: "15.15"
       - track: "Core Technologies"
@@ -399,7 +398,7 @@ content:
       - org: "Freelance"
       - content: "From Open Data Hub to Visual Insights Using the Data Browser"
       - slidesLink: https://cloud.opendatahub.com/index.php/s/4QwwYKwMLS8TL5F
-      #- videoLink:
+      - videoLink: "https://player.vimeo.com/video/1090727596"
     - cols:
       - time: "15.30"
       - track: "Core Technologies"
@@ -407,7 +406,7 @@ content:
       - org: "Catch Solve, 1006.org"
       - content: "Automated Data Quality Testing Tool"
       - slidesLink: https://cloud.opendatahub.com/index.php/s/P3697tonnFxMwtK
-      #- videoLink: 
+      - videoLink: "https://player.vimeo.com/video/1090752911"
     - cols:
       - time: "15.45"
       - track: "Core Technologies"
@@ -417,7 +416,7 @@ content:
       - orgURL: "https://offlineagency.it/"
       - content: "DCAT and ODPS: Foundations for Effective Data Spaces and AI"
       - slidesLink: https://cloud.opendatahub.com/index.php/s/AqMpw55HSsoybZC
-      #- videoLink: 
+      - videoLink: "https://player.vimeo.com/video/1090744863"
     - cols:
       - time: "16.00"
       - track: "Core Technologies"
@@ -426,7 +425,7 @@ content:
       - orgURL: "https://ontopic.ai/"
       - content: "Using Natural Language For Interacting With The Open Data Hub"
       - slidesLink: https://cloud.opendatahub.com/index.php/s/madow89o5BPzadD
-      #- videoLink:
+      - videoLink: "https://player.vimeo.com/video/1090744904"
     - cols:
       - time: "16.15"
       - track: "Core Technologies"
@@ -435,7 +434,7 @@ content:
       - orgURL: "https://www.unibz.it/"
       - content: "Standing up to the Data mess"
       - slidesLink: https://cloud.opendatahub.com/index.php/s/E7DJY7XFnL32Ca7
-      #- videoLink:
+      - videoLink: "https://player.vimeo.com/video/1090752239"
     - cols:
       - time: "16.30"
       - track: "Core Technologies"
@@ -444,20 +443,21 @@ content:
       - orgURL: "https://www.alpinebits.org/"
       - content: "AlpineBits: certifying an Open Standard"
       - slidesLink: https://cloud.opendatahub.com/index.php/s/2Kz7LzZbC5xaztE
-      #- videoLink: 
+      - videoLink: "https://player.vimeo.com/video/1090752318"
     - cols:
       - time: "16.45"
       - content: "Closing"
       - content: ""
-      #- content: ""
+      - content: ""
     - cols:
-      - content: "Cancelled"
-      - content: "<b>OTP & Mobility Track</b>"
-      - content: "Roberto Martinelli"
-      - content: "Liguria Digitale/Regione Liguria"
+      - time: "Cancelled"
+      - track: "OTP & Mobility Track"
+      - speaker: "Roberto Martinelli"
+      - org: "Liguria Digitale/Regione Liguria"
+      - orgURL: "https://www.liguriadigitale.it/"
       - content: "Public Transportation travel planning in Regione Liguria/Liguria Digitale: from proprietary data/platforms to Open Data/Open Source"
       - slidesLink: https://cloud.opendatahub.com/index.php/s/Gc3bKZFPy9DsKnT
-      #- videoLink: 
+      - videoLink: 
 
   # btn_room3_link: "https://pretix.eu/noi-digital/open-data-hub-day-25/"
   # btn_room3_label: "Register Now"
@@ -518,23 +518,23 @@ content:
   # btn_press_label: "Register Now"
   # btn_press_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
-  # title_press: "Press"
-  # description_press: "press"
+  title_press: "Press"
+  description_press: "press"
 
-  # headerPR:
-  #   - title: Open Data Hub 2024 additional content
-  #     width: 70%
-  #   - title: Language
-  #     width: 15%
-  #   - title: Link
-  #     width: 15% 
-  # rowPR:
-  #   - colsPR:
-  #       - content: ""
-  #       - content: ""
-  #       - photoLink: ""
+  headerPR:
+    - title: Open Data Hub 2024 additional content
+      width: 70%
+    - title: Language
+      width: 15%
+    - title: Link
+      width: 15% 
+  rowPR:
+    - colsPR:
+        - content: "Image Galley of the Open Data Hub Day 2025"
+        - content: ""
+        - photoLink: "https://flic.kr/s/aHBqjCfXTe"
 
-  btn_down_link: "https://pretix.eu/noi-digital/open-data-hub-day-25/"
-  btn_down_label: "Register Now"
-  btn_down_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
+  # btn_down_link: "https://pretix.eu/noi-digital/open-data-hub-day-25/"
+  # btn_down_label: "Register Now"
+  # btn_down_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 ---
