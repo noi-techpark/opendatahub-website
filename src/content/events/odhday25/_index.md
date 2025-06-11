@@ -25,9 +25,9 @@ program:
   subtitle: "The event will be held in English."
 
 content:
-  btn_top_link: https://pretix.eu/noi-digital/open-data-hub-day-25/
-  btn_top_label: "Register Now"
-  btn_top_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
+#  btn_top_link: https://pretix.eu/noi-digital/open-data-hub-day-25/
+#  btn_top_label: "Register Now"
+#  btn_top_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
   title_main: "Main room"
   description_main: "The main track of the Open Data Hub Day provides a comprehensive overview of general macro topics related to Open Data. It aims to cover real use cases from a data provider and data consumer point of view as well as Data Spaces initiatives and also Open Data Hub related projects."
@@ -206,9 +206,9 @@ content:
       - content: ""
       - content: ""
     
-  btn_room2_link: "https://pretix.eu/noi-digital/open-data-hub-day-25/"
-  btn_room2_label: "Register Now"
-  btn_room2_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
+#  btn_room2_link: "https://pretix.eu/noi-digital/open-data-hub-day-25/"
+#  btn_room2_label: "Register Now"
+#  btn_room2_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
   title_room2: "Developers room"
   description_room2: "The developers room of the Open Data Hub Day is addressed to developers and people working with data. This track includes:<br>
