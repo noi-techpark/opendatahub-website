@@ -7,7 +7,7 @@ subtitle: "Winner: Henri Egger"
 # show_table: true
 
 rows:
-  - img_back: "/img/contributor-of-2024.jpg"
+  - img_back: "/img/events/contributor-of-2024.jpg"
     bg_darker: false
     partial: img-full.html
 
