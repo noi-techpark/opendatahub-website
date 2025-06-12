@@ -523,16 +523,32 @@ content:
 
   headerPR:
     - title: Open Data Hub 2024 additional content
-      width: 70%
+      width: 83%
     - title: Language
-      width: 15%
+      width: 5%
     - title: Link
-      width: 15% 
+      width: 12% 
   rowPR:
     - colsPR:
         - content: "Image Galley of the Open Data Hub Day 2025"
         - content: ""
         - photoLink: "https://flic.kr/s/aHBqjCfXTe"
+    - colsPR:
+        - content: "Open Data Hub Day Trailer"
+        - content: ""
+        - videoLink: "https://vimeo.com/1092405317"
+    - colsPR:
+        - content: "Open Data Hub Day - National press release"
+        - content: "IT"
+        - pressReleaseLink: "https://cloud.opendatahub.com/index.php/s/N2ttLkpTw4aw3HH"
+    - colsPR:
+        - content: "Open Data Hub Day - Local press release"
+        - content: "IT"
+        - pressReleaseLink: "https://cloud.opendatahub.com/index.php/s/ByqQMbBC22My6sB"
+    - colsPR:
+        - content: "Open Data Hub Day - Local press release"
+        - content: "DE"
+        - pressReleaseLink: "https://cloud.opendatahub.com/index.php/s/G7pHFmKg92SCdD9"
 
   # btn_down_link: "https://pretix.eu/noi-digital/open-data-hub-day-25/"
   # btn_down_label: "Register Now"

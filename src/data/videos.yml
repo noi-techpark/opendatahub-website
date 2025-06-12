@@ -156,15 +156,15 @@ sections:
         description: ""
         btn_link: "/events/odhday25"
         btn_label: Go to event page
-        video: ""
-        target_blank: true
+        video: "https://player.vimeo.com/video/1092405317"
+        target_blank: false
       - subtitle: ""
         title: "**Open Data Hub Day | Opening**"
         description: "Ulrich Stofner"
         btn_link: "/events/odhday25"
         btn_label: Go to event page
         video: "https://player.vimeo.com/video/1090568966"
-        target_blank: true
+        target_blank: false
       - subtitle: "Main Room"
         title: "**Open Data Hub | Updates**"
         description: "Patrick Ohnewein"
