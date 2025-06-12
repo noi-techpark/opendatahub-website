@@ -193,6 +193,42 @@ content: # Data for the table (look at existing events for refrence)
 ---
 ```
 
+#### Multiple speakers & organizations
+
+Event pages with a table of presentations now also support lists of multiple speakers and organizations, while allowing also the simple single-speaker/org fields.
+
+- **Single speeker:**
+  ```yaml
+  - cols:
+    - time: "HH:MM"
+    - speaker: "Speaker A"
+    - speakerURL: "https://…"
+    - org: "Org A"
+    - orgURL: "https://…"
+    # …
+  ```
+- **Multiple speeker / Organisation:**
+  ```yaml
+  - cols:
+  - time: "HH:MM"
+  - speakers:
+      - name: "Speaker A"
+        url: "https://…"
+      - name: "Speaker B"
+        url: "https://…"
+  - organizations:
+      - name: "Org A"
+        url: "https://…"
+      - name: "Org B"
+        url: "https://…"
+  # …
+  ```
+  
+
+
+
+
+
 ### **Videos:**
 
 The video library is structured as an array with each entry being one of the sections like "Open Data Hub Interviews" or "Open Data Hub Day 2023", each section entry holds another array with the individual videos for that section.
