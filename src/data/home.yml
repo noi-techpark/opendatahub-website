@@ -90,16 +90,20 @@ use_case:
   description: "Using **traffic datasets** from the Open Data Hub you can start today to build your service using real time data."
   btn_link: "/datasets"
   btn_label: "See available datasets"
-  img_back: "/img/ODH-home-data-sharing-use-case.webp"
+  img_back: "/img/services/data_sharing/ODH-home-data-sharing-use-case.webp"
   img_front: "/img/GreenMobility.png"
+  img_back_alt: "Visual representation of Open Data Hub’s data sharing use cases, showing collaboration between providers and consumers."
+  img_back_title: "Open Data Hub – Real-World Data Sharing Use Cases"
 
 dataset_example:
   title: "Real-time **e-charging** stations"
   description: "This dataset provides data about existing **e-charging stations**, about their plugs and **availability status**, including historical usage data. It includes hydrogen station data as well."
   btn_link: "/use-cases/green-mobility/"
   btn_label: "More about e-charging"
-  img_back: "/img/ODH-home-data-access-use-case-e-charging.webp"
+  img_back: "/img/services/data_access/ODH-home-data-access-use-case-e-charging.webp"
   img_front: "/img/datasets/andrew-roberts-2JvEjF0tf50-unsplash.png"
+  img_back_alt: "Interactive map displaying real-time electric vehicle charging stations integrated via Open Data Hub."
+  img_back_title: "Open Data Hub – Real-Time E-Charging Station Data Access"
 
 services:
   title: "Get ready with **our services**"
@@ -111,6 +115,8 @@ services:
       description: "Understand how to build on open data"
       box_link: "/services/data-access/"
       btn_label: "Access data"
+      img_alt: ""
+      img_title: ""
 
     - name: "Data Sharing"
       image: "/img/home/02_Data-Sharing.jpg"
@@ -118,6 +124,8 @@ services:
       description: "Share your data online"
       box_link: "/services/data-sharing/"
       btn_label: "Share data"
+      img_alt: ""
+      img_title: ""
 
     - name: "Data Visualization"
       image: "/img/home/03_Data-Visualisation.jpg"
@@ -125,3 +133,5 @@ services:
       description: "Understand the potential of data"
       box_link: "/services/data-visualization/"
       btn_label: "Create data visualisations"
+      img_alt: ""
+      img_title: ""

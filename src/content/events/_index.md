@@ -22,14 +22,14 @@ recurring:
   subtitle: Explore the Open Data Hub's yearly gatherings
 
   sdt_link: https://noi.bz.it/en/events?filtersb=Digital
-  sdt_img: ../img/Event_Page_Button_SDT.png
+  sdt_img: ../img/events/Event_Page_Button_SDT.png
 
   odh_link: https://opendatahub.com/events/odhday
-  odh_img: ../img/Event_Page_Button_ODH DAY.png
+  odh_img: ../img/events/Event_Page_Button_ODH DAY.png
 
   hack_link: https://hackathon.bz.it/
-  hack_img: ../img/Event_Page_Button_HACKATHON.png
+  hack_img: ../img/events/Event_Page_Button_HACKATHON.png
 
   sfscon_link: https://www.sfscon.it/
-  sfscon_img: ../img/Event_Page_Button_SFSCON.png
+  sfscon_img: ../img/events/Event_Page_Button_SFSCON.png
 ---
