@@ -23,7 +23,7 @@ short:
   img_back_title: "Open Data Hub Collaboration with Eurac Research"
   bg_darker: true
   partial: text-imgs-enlargeable.html
-  weight: 9
+  weight: 8
 
 start:
   subtitle: "TODAY@EURAC"

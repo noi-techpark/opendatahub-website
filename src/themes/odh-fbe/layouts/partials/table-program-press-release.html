@@ -9,16 +9,16 @@
     <a href="{{.btn_top_link}}" class="btn btn-primary mb-4" target="_blank" onclick="{{ .btn_top_on_click }}">{{ .btn_top_label | markdownify }}</a>
   {{ end }}
   {{ if (.title_main)}}
-    <a href="#main-room" class="btn btn-primary mb-4">{{ .title_main | markdownify }} program</a>
+    <a href="#main-room" class="btn btn-primary mb-4">{{ .title_main | markdownify }} programme</a>
   {{ end }}
   {{ if (.title_room2)}}
-    <a href="#room2" class="btn btn-primary mb-4">{{ .title_room2 | markdownify }} program</a>
+    <a href="#room2" class="btn btn-primary mb-4">{{ .title_room2 | markdownify }} programme</a>
   {{ end }}
   {{ if (.title_room3)}}
-    <a href="#room3" class="btn btn-primary mb-4">{{ .title_room3 | markdownify }} program</a>
+    <a href="#room3" class="btn btn-primary mb-4">{{ .title_room3 | markdownify }} programme</a>
   {{ end }}
   {{ if (.title_room4)}}
-    <a href="#room4" class="btn btn-primary mb-4">{{ .title_room4 | markdownify }} program</a>
+    <a href="#room4" class="btn btn-primary mb-4">{{ .title_room4 | markdownify }} programme</a>
   {{ end }}
   {{ if (.title_Press)}}
     <a href="#press-release" class="btn btn-primary mb-4">{{ .title_Press | markdownify }}</a>
@@ -43,20 +43,12 @@
           {{ end }}
         </tr>
       </thead>
-
+      
       <tbody class="">
         {{ range .row }}
-          <tr class="">
-            {{ range .cols }}
-              {{ if isset . "content" }}
-                <td>{{ .content | safeHTML}}</td>
-              {{end}} {{ if isset . "slidesLink" }}
-                <td><a href="{{.slidesLink}}" class="btn btn-primary d-flex gap-1 align-items-center me-3" target="_blank">Slides</a></td>
-              {{end}} {{ if isset . "videoLink" }}
-                <td><a href="{{.videoLink}}" class="btn btn-primary d-flex gap-1 align-items-center ms-3" target="_blank">Video</a></td>
-              {{end}}
-            {{ end }}
-          </tr>
+
+        {{ partial "table-program-rows.html" . }}
+
         {{ end }}
       </tbody> 
     </table>
@@ -66,16 +58,16 @@
     <a href="{{.btn_room2_link}}" target="_blank" class="btn btn-primary mb-4" onclick="{{ .btn_room2_on_click }}">{{ .btn_room2_label | markdownify }}</a>
   {{ end }}
   {{ if and (.title_room2) (.title_main)}}
-    <a href="#main-room" class="btn btn-primary mb-4">{{ .title_main | markdownify }} program</a>
+    <a href="#main-room" class="btn btn-primary mb-4">{{ .title_main | markdownify }} programme</a>
   {{ end }}
   {{ if (.title_room2)}}
-    <a href="#room2" class="btn btn-primary mb-4">{{ .title_room2 | markdownify }} program</a>
+    <a href="#room2" class="btn btn-primary mb-4">{{ .title_room2 | markdownify }} programme</a>
   {{ end }}
   {{ if and (.title_room2) (.title_room3)}}
-    <a href="#room3" class="btn btn-primary mb-4">{{ .title_room3 | markdownify }} program</a>
+    <a href="#room3" class="btn btn-primary mb-4">{{ .title_room3 | markdownify }} programme</a>
   {{ end }}
   {{ if and (.title_room2) (.title_room4)}}
-    <a href="#room4" class="btn btn-primary mb-4">{{ .title_room4 | markdownify }} program</a>
+    <a href="#room4" class="btn btn-primary mb-4">{{ .title_room4 | markdownify }} programme</a>
   {{ end }}
   {{ if and (.title_room2) (.title_Press)}}
     <a href="#press-release" class="btn btn-primary mb-4">{{ .title_Press | markdownify }}</a>
@@ -103,17 +95,9 @@
 
       <tbody class="">
         {{ range .row_room2 }}
-          <tr class="">
-            {{ range .cols }}
-              {{ if isset . "content" }}
-                <td>{{ .content | safeHTML}}</td>
-              {{end}} {{ if isset . "slidesLink" }}
-                <td><a href="{{.slidesLink}}" class="btn btn-primary d-flex gap-1 align-items-center me-3" target="_blank">Slides</a></td>
-              {{end}} {{ if isset . "videoLink" }}
-                <td><a href="{{.videoLink}}" class="btn btn-primary d-flex gap-1 align-items-center ms-3" target="_blank">Video</a></td>
-              {{end}}
-            {{ end }}
-          </tr>
+  
+        {{ partial "table-program-rows.html" . }}
+  
         {{ end }}
       </tbody> 
     </table>
@@ -123,16 +107,16 @@
     <a href="{{.btn_room3_link}}" target="_blank" class="btn btn-primary mb-4" onclick="{{ .btn_room3_on_click }}">{{ .btn_room3_label | markdownify }}</a>
   {{ end }}
   {{ if and (.title_room3) (.title_main)}}
-    <a href="#main-room" class="btn btn-primary mb-4">{{ .title_main | markdownify }} program</a>
+    <a href="#main-room" class="btn btn-primary mb-4">{{ .title_main | markdownify }} programme</a>
   {{ end }}
   {{ if and (.title_room3) (.title_room2)}}
-    <a href="#room2" class="btn btn-primary mb-4">{{ .title_room2 | markdownify }} program</a>
+    <a href="#room2" class="btn btn-primary mb-4">{{ .title_room2 | markdownify }} programme</a>
   {{ end }}
   {{ if (.title_room3)}}
-    <a href="#room3" class="btn btn-primary mb-4">{{ .title_room3 | markdownify }} program</a>
+    <a href="#room3" class="btn btn-primary mb-4">{{ .title_room3 | markdownify }} programme</a>
   {{ end }}
   {{ if and (.title_room3) (.title_room4)}}
-    <a href="#room4" class="btn btn-primary mb-4">{{ .title_room4 | markdownify }} program</a>
+    <a href="#room4" class="btn btn-primary mb-4">{{ .title_room4 | markdownify }} programme</a>
   {{ end }}
   {{ if and (.title_room3) (.title_Press)}}
     <a href="#press-release" class="btn btn-primary mb-4">{{ .title_Press | markdownify }}</a>
@@ -160,17 +144,9 @@
 
       <tbody class="">
         {{ range .row_room3 }}
-          <tr class="">
-            {{ range .cols }}
-              {{ if isset . "content" }}
-                <td>{{ .content | safeHTML}}</td>
-              {{end}} {{ if isset . "slidesLink" }}
-                <td><a href="{{.slidesLink}}" class="btn btn-primary d-flex gap-1 align-items-center me-3" target="_blank">Slides</a></td>
-              {{end}} {{ if isset . "videoLink" }}
-                <td><a href="{{.videoLink}}" class="btn btn-primary d-flex gap-1 align-items-center ms-3" target="_blank">Video</a></td>
-              {{end}}
-            {{ end }}
-          </tr>
+  
+        {{ partial "table-program-rows.html" . }}
+  
         {{ end }}
       </tbody> 
     </table>
@@ -180,16 +156,16 @@
     <a href="{{.btn_room4_link}}" target="_blank" class="btn btn-primary mb-4" onclick="{{ .btn_room4_on_click }}">{{ .btn_room4_label | markdownify }}</a>
   {{ end }}
   {{ if and (.title_room4) (.title_main)}}
-    <a href="#main-room" class="btn btn-primary mb-4">{{ .title_main | markdownify }} program</a>
+    <a href="#main-room" class="btn btn-primary mb-4">{{ .title_main | markdownify }} programme</a>
   {{ end }}
   {{ if and (.title_room4) (.title_room2)}}
-    <a href="#room2" class="btn btn-primary mb-4">{{ .title_room2 | markdownify }} program</a>
+    <a href="#room2" class="btn btn-primary mb-4">{{ .title_room2 | markdownify }} programme</a>
   {{ end }}
   {{ if and (.title_room4) (.title_room3)}}
-    <a href="#room3" class="btn btn-primary mb-4">{{ .title_room3 | markdownify }} program</a>
+    <a href="#room3" class="btn btn-primary mb-4">{{ .title_room3 | markdownify }} programme</a>
   {{ end }}
   {{ if (.title_room4)}}
-    <a href="#room4" class="btn btn-primary mb-4">{{ .title_room4 | markdownify }} program</a>
+    <a href="#room4" class="btn btn-primary mb-4">{{ .title_room4 | markdownify }} programme</a>
   {{ end }}
   {{ if and (.title_room4) (.title_Press)}}
     <a href="#press-release" class="btn btn-primary mb-4">{{ .title_Press | markdownify }}</a>
@@ -217,17 +193,9 @@
 
       <tbody class="">
         {{ range .row_room4 }}
-          <tr class="">
-            {{ range .cols }}
-              {{ if isset . "content" }}
-                <td>{{ .content | safeHTML}}</td>
-              {{end}} {{ if isset . "slidesLink" }}
-                <td><a href="{{.slidesLink}}" class="btn btn-primary d-flex gap-1 align-items-center me-3" target="_blank">Slides</a></td>
-              {{end}} {{ if isset . "videoLink" }}
-                <td><a href="{{.videoLink}}" class="btn btn-primary d-flex gap-1 align-items-center ms-3" target="_blank">Video</a></td>
-              {{end}}
-            {{ end }}
-          </tr>
+  
+        {{ partial "table-program-rows.html" . }}
+  
         {{ end }}
       </tbody> 
     </table>
@@ -237,16 +205,16 @@
     <a href="{{.btn_press_link}}" target="_blank" class="btn btn-primary mb-4" onclick="{{ .btn_press_on_click }}">{{ .btn_press_label | markdownify }}</a>
   {{ end }}
   {{ if and (.title_press)  (.title_main)}}
-    <a href="#main-room" class="btn btn-primary mb-4">{{ .title_main | markdownify }} program</a>
+    <a href="#main-room" class="btn btn-primary mb-4">{{ .title_main | markdownify }} programme</a>
   {{ end }}
   {{ if and (.title_press) (.title_room2)}}
-    <a href="#room2" class="btn btn-primary mb-4">{{ .title_room2 | markdownify }} program</a>
+    <a href="#room2" class="btn btn-primary mb-4">{{ .title_room2 | markdownify }} programme</a>
   {{ end }}
   {{ if and (.title_press) (.title_room3)}}
-    <a href="#room3" class="btn btn-primary mb-4">{{ .title_room3 | markdownify }} program</a>
+    <a href="#room3" class="btn btn-primary mb-4">{{ .title_room3 | markdownify }} programme</a>
   {{ end }}
   {{ if and (.title_press) (.title_room4)}}
-    <a href="#room4" class="btn btn-primary mb-4">{{ .title_room4 | markdownify }} program</a>
+    <a href="#room4" class="btn btn-primary mb-4">{{ .title_room4 | markdownify }} programme</a>
   {{ end }}
   {{ if (.title_Press)}}
     <a href="#press-release" class="btn btn-primary mb-4">{{ .title_Press | markdownify }}</a>
@@ -265,9 +233,9 @@
       <thead>
           <tr>
             {{ range .headerPR }}
-            <th width= {{.width}}>
+              <th width= {{.width}}>
               {{.title}}
-            </th>
+              </th>
             {{ end }}
           </tr>
       </thead>
@@ -281,10 +249,10 @@
             {{end}} {{ if isset . "pressReleaseLink" }}
               <td><a href="{{.pressReleaseLink}}" class="btn btn-primary d-flex gap-1 align-items-center" target="_blank">Press Release</a></td>
             {{end}} {{ if isset . "photoLink" }}
-            <td><a href="{{.photoLink}}" class="btn btn-primary d-flex gap-1 align-items-center" target="_blank">Photo gallery</a></td>
-          {{end}} {{ if isset . "videoLink" }}
-          <td><a href="{{.videoLink}}" class="btn btn-primary d-flex gap-1 align-items-center" target="_blank">Video</a></td>
-        {{end}}
+              <td><a href="{{.photoLink}}" class="btn btn-primary d-flex gap-1 align-items-center" target="_blank">Photo gallery</a></td>
+            {{end}} {{ if isset . "videoLink" }}
+              <td><a href="{{.videoLink}}" class="btn btn-primary d-flex gap-1 align-items-center" target="_blank">Video</a></td>
+            {{end}}
           {{ end }}
         </tr>
         {{ end }}
@@ -296,16 +264,16 @@
     <a href="{{.btn_down_link}}" target="_blank" class="btn btn-primary mb-4" onclick="{{ .btn_down_on_click }}">{{ .btn_down_label | markdownify }}</a>
   {{ end }}
   {{ if (.title_main)}}
-    <a href="#main-room" class="btn btn-primary mb-4">{{ .title_main | markdownify }} program</a>
+    <a href="#main-room" class="btn btn-primary mb-4">{{ .title_main | markdownify }} programme</a>
   {{ end }}
   {{ if (.title_room2)}}
-    <a href="#room2" class="btn btn-primary mb-4">{{ .title_room2 | markdownify }} program</a>
+    <a href="#room2" class="btn btn-primary mb-4">{{ .title_room2 | markdownify }} programme</a>
   {{ end }}
   {{ if (.title_room3)}}
-    <a href="#room3" class="btn btn-primary mb-4">{{ .title_room3 | markdownify }} program</a>
+    <a href="#room3" class="btn btn-primary mb-4">{{ .title_room3 | markdownify }} programme</a>
   {{ end }}
   {{ if (.title_room4)}}
-    <a href="#room4" class="btn btn-primary mb-4">{{ .title_room4 | markdownify }} program</a>
+    <a href="#room4" class="btn btn-primary mb-4">{{ .title_room4 | markdownify }} programme</a>
   {{ end }}
   {{ if (.title_Press)}}
     <a href="#press-release" class="btn btn-primary mb-4">{{ .title_Press | markdownify }}</a>

@@ -23,7 +23,7 @@ short:
   img_back_title: "Südtirolmobil – Integrating Points of Interest in Public Mobility"
   bg_darker: true
   partial: imgs-text-enlargeable.html
-  weight: 7
+  weight: 9
 
 start:
   subtitle: "SÜDTIROLMOBIL - ALTOADIGEMOBILITÀ"

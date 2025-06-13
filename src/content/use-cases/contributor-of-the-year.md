@@ -24,7 +24,7 @@ short:
   img_back_title: "Open Data Hub – Contributor of the Year Award Ceremony"
   bg_darker: false
   partial: imgs-text.html
-  weight: 5
+  weight: 11
 
 start:
   description: "OPEN DATA HUB"

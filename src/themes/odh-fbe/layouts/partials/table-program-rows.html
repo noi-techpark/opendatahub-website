@@ -1,0 +1,138 @@
+{{/*
+	SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+
+	SPDX-License-Identifier: AGPL-3.0-or-later
+*/}}
+
+
+          <tr class="">
+
+            {{ $vTime := "" }}
+            {{ $vTrack := "" }}
+            {{ $vSpeaker := "" }}
+            {{ $vSpeakerURL := "" }}
+            {{ $vOrg := "" }}
+            {{ $vOrgURL := "" }}
+            {{ $vContent := "" }}
+            {{ $vSlidesLink := "" }}
+            {{ $vVideoLink := "" }}
+
+            {{ $vSpeakersList := slice }}
+            {{ $vOrganizationsList := slice }}
+            {{ $hasNewSpeakersFormat := false }}
+            {{ $hasNewOrganizationsFormat := false }}
+
+            {{ range .cols }}
+
+              {{ if isset . "time" }}
+              {{ $vTime = .time }}
+              {{ end }}
+
+              {{ if isset . "track" }}
+              {{ $vTrack = .track }}
+              {{ end }}
+
+              {{/* Check for multiple speeker/organisations */}}
+              {{ if isset . "speakers" }}
+                {{ $vSpeakersList = .speakers }}
+                {{ $hasNewSpeakersFormat = true }}
+              {{ end }}
+              {{ if isset . "organizations" }}
+                {{ $vOrganizationsList = .organizations }}
+                {{ $hasNewOrganizationsFormat = true }}
+              {{ end }}
+              
+
+              {{ if not $hasNewSpeakersFormat }}
+                {{ if isset . "speaker" }}
+                  {{ $vSpeaker = .speaker }}
+                {{ end }}
+              {{ if isset . "speakerURL" }}
+              {{ $vSpeakerURL = .speakerURL }}
+                {{ end }}
+              {{ end }}
+
+              {{ if not $hasNewOrganizationsFormat }}
+              {{ if isset . "org" }}
+              {{ $vOrg = .org }}
+              {{ end }}
+
+              {{ if isset . "orgURL" }}
+              {{ $vOrgURL = .orgURL }}
+              {{ end }}
+              {{ end }}
+
+              {{ if isset . "content" }}
+              {{ $vContent = .content }}
+              {{ end }}
+
+              {{ if isset . "slidesLink" }}
+              {{ $vSlidesLink = .slidesLink }}
+              {{ end }}
+
+              {{ if isset . "videoLink" }}
+              {{ $vVideoLink = .videoLink }}
+              {{ end }}
+
+            {{ end }}
+
+            <td>{{ $vTime | safeHTML}}</td>
+ 
+            <td>{{ $vTrack | safeHTML}}</td>
+
+            {{/* Render Speakers Cell */}}
+            <td>
+              {{ if $hasNewSpeakersFormat }}
+                {{ range $index, $speakerItem := $vSpeakersList }}
+                  {{ if $speakerItem.url }}
+                    <a href="{{ $speakerItem.url }}" target="_blank"><u>{{ $speakerItem.name | safeHTML }}</u></a>
+                  {{ else }}
+                    {{ $speakerItem.name | safeHTML }}
+                  {{ end }}
+                  {{ if lt (add $index 1) (len $vSpeakersList) }}<br>{{ end }}
+                {{ end }}
+              {{ else if $vSpeaker }} {{/* Fallback to single speaker structure */}}
+                {{ if (ne $vSpeakerURL "") }}
+                  <a href="{{ $vSpeakerURL }}" target="_blank"><u>{{ $vSpeaker | safeHTML}}</u></a>
+                {{ else }}
+                  {{ $vSpeaker | safeHTML}}
+                {{ end }}
+              {{ end }}
+            </td>
+
+            {{/* Render Organizations Cell */}}
+            <td>
+              {{ if $hasNewOrganizationsFormat }}
+                {{ range $index, $orgItem := $vOrganizationsList }}
+                  {{ if $orgItem.url }}
+                    <a href="{{ $orgItem.url }}" target="_blank"><u>{{ $orgItem.name | safeHTML }}</u></a>
+                  {{ else }}
+                    {{ $orgItem.name | safeHTML }}
+                  {{ end }}
+                  {{ if lt (add $index 1) (len $vOrganizationsList) }}<br>{{ end }}
+                {{ end }}
+              {{ else if $vOrg }} {{/* Fallback to single organization structure */}}
+                {{ if (ne $vOrgURL "") }}
+                  <a href="{{ $vOrgURL }}" target="_blank"><u>{{ $vOrg | safeHTML}}</u></a>
+                {{ else }}
+                  {{ $vOrg | safeHTML}}
+                {{ end }}
+              {{ end }}
+            </td>
+
+            <td>{{ $vContent | safeHTML}}</td>
+
+            {{ if ( ne $vSlidesLink "" ) }}
+              <td><a href="{{$vSlidesLink}}" class="btn btn-primary d-flex gap-1 align-items-center me-3" target="_blank">Slides</a></td>
+            {{else}}
+              <td></td>
+            {{end}} 
+
+            {{ if ( ne $vVideoLink "" ) }}
+              <td><a href="{{$vVideoLink}}" class="btn btn-primary d-flex gap-1 align-items-center ms-3" target="_blank">Video</a></td>
+            {{else}}
+              <td></td>
+            {{end}}
+
+          </tr>
+

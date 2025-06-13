@@ -112,7 +112,7 @@ use_case_tags: # The categories this use case belongs to (for filtering)
 
 short: # Information for the list entry under /use-cases
   bg_darker: false # If the background for this list entry should be darker
-  weight: 2 # Position of the entry in the list (lower number -> higher on list)
+  weight: 2 # Position of the entry in the list (higher number -> higher on list)
   partial: text-imgs-icon.html # The partial this entry will be rendered with
   # Here the necessary fields for the partial like:
   # title:
@@ -192,6 +192,42 @@ program:
 content: # Data for the table (look at existing events for refrence)
 ---
 ```
+
+#### Multiple speakers & organizations
+
+Event pages with a table of presentations now also support lists of multiple speakers and organizations, while allowing also the simple single-speaker/org fields.
+
+- **Single speeker:**
+  ```yaml
+  - cols:
+    - time: "HH:MM"
+    - speaker: "Speaker A"
+    - speakerURL: "https://…"
+    - org: "Org A"
+    - orgURL: "https://…"
+    # …
+  ```
+- **Multiple speeker / Organisation:**
+  ```yaml
+  - cols:
+  - time: "HH:MM"
+  - speakers:
+      - name: "Speaker A"
+        url: "https://…"
+      - name: "Speaker B"
+        url: "https://…"
+  - organizations:
+      - name: "Org A"
+        url: "https://…"
+      - name: "Org B"
+        url: "https://…"
+  # …
+  ```
+  
+
+
+
+
 
 ### **Videos:**
 

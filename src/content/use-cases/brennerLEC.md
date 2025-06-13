@@ -23,7 +23,7 @@ short:
   img_back_title: "BrennerLEC – Establishing a Lower Emission Corridor on the A22 Highway"
   bg_darker: false
   partial: imgs-text.html
-  weight: 13
+  weight: 3
 
 start:
   description: "BRENNERLEC"

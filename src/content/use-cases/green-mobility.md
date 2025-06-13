@@ -23,7 +23,7 @@ short:
   img_back_title: "Green Mobility – Promoting Sustainable Transportation Solutions"
   bg_darker: false
   partial: imgs-text.html
-  weight: 15
+  weight: 1
 
 start:
   description: "GREEN MOBILITY"

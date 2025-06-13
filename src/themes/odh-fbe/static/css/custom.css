@@ -110,8 +110,6 @@ ul.no-bullets {
 }
 
 .btn::after {
-  content: "";
-/*  content: " \279E"; */
   font-weight: bold;
 }
 
@@ -545,4 +543,13 @@ footer .w-fit {
 
 :target {
   scroll-margin-top: 5rem;
+}
+
+/* Home Boxes */
+.bg-tertiary {
+  background-color: #f3f3f3 !important;
+}
+
+h4 {
+  font-weight: bold;
 }

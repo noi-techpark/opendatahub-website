@@ -24,7 +24,7 @@ short:
   img_back_title: "Merano App – Enhancing Tourist Experiences with Real-Time Data"
   bg_darker: true
   partial: text-imgs-enlargeable.html
-  weight: 6
+  weight: 10
 
 start:
   description: "MERANO APP"

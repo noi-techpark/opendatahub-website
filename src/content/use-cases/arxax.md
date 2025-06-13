@@ -24,7 +24,7 @@ short:
   img_back_title: "Arxax – Optimizing Green Fuel Supply Chains in Transportation"
   bg_darker: true
   partial: imgs-text.html
-  weight: 11
+  weight: 5
 
 start:
   description: "ARXAX"

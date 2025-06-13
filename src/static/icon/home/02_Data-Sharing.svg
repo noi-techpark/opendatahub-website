@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" data-name="Livello 2" xmlns="http://www.w3.org/2000/svg" width="43.547" height="49.225" viewBox="0 0 43.547 49.225">
+  <g id="c" data-name="Livello 1">
+    <g>
+      <path d="M42.047,7.305c0,3.206-2.623,5.805-5.859,5.805-2.061,0-3.873-1.054-4.917-2.648-.595-.909-.942-1.993-.942-3.157,0-3.206,2.623-5.805,5.859-5.805s5.859,2.599,5.859,5.805Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path d="M13.217,24.444c0,.96-.235,1.867-.653,2.665-.974,1.865-2.939,3.14-5.206,3.14-3.236,0-5.859-2.599-5.859-5.805s2.623-5.805,5.859-5.805c2.383,0,4.433,1.409,5.348,3.432.328.724.51,1.527.51,2.373Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path d="M42.047,41.92c0,3.206-2.623,5.805-5.859,5.805s-5.859-2.599-5.859-5.805c0-1.144.334-2.21.911-3.109,1.039-1.62,2.866-2.696,4.948-2.696,3.236,0,5.859,2.599,5.859,5.805Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="31.273" y1="10.465" x2="12.728" y2="22.119" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="31.241" y1="38.811" x2="12.579" y2="27.081" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

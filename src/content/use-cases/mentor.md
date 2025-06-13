@@ -22,7 +22,7 @@ short:
   img_back_title: "MENTOR Project – Implementing Mobility-as-a-Service in Merano"
   bg_darker: true
   partial: text-imgs.html
-  weight: 12
+  weight: 4
 
 start:
   description: "MENTOR"
