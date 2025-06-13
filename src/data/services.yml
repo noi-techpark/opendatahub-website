@@ -10,6 +10,8 @@ data_access:
   btn_label: See details
   img_back: "/img/services/data_access/ODH-home-data-access.webp"
   img_front: "/icon/download.svg"
+  img_back_alt: "Illustration of Open Data Hub's data access services, enabling the integration of mobility, tourism and weather datasets."
+  img_back_title: "Open Data Hub – Comprehensive Data Access Services"
 
 data_sharing:
   title: "**Data Sharing:** by sharing your data, **be ready to receive.**"
@@ -18,6 +20,8 @@ data_sharing:
   btn_label: See details
   img_back: "/img/services/data_sharing/OpenDataHub-Data-Sharing-Luisa-by-Tania-Marcadella-3779.jpg"
   img_front: "/icon/upload.svg"
+  img_back_alt: "Illustration of Open Data Hub's data sharing services, enabling organisations to securely share and access datasets for collaborative innovation."
+  img_back_title: "Open Data Hub – Facilitating Secure Data Sharing Services"
 
 data_visualization:
   title: "**Data Visualization:** together, to **visualise data.**"
@@ -26,6 +30,8 @@ data_visualization:
   btn_label: See Details
   img_back: "/img/services/data_visualization/ODH-services-data-visualization.jpg"
   img_front: "/icon/box.svg"
+  img_back_alt: "A graphical representation of Open Data Hub's interactive data visualisation services, enabling users to transform complex datasets into actionable insights."
+  img_back_title: "Open Data Hub – Interactive Data Visualization Services"
 
 pricing:
   title: Pricing

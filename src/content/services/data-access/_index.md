@@ -24,8 +24,8 @@ rows:
     btn_link: "/community"
     btn_label: "Join the community"
     img_back: "/img/services/data_access/ODH-home-data-access.webp"
-    img_back_alt: ""
-    img_back_title: ""
+    img_back_alt: "Illustration of Open Data Hub services that provide real-time, machine-readable access to open data for application development."
+    img_back_title: "Open Data Hub – Reliable Open Data Access Services"
     img_front: "/icon/upload.svg"
     bg_darker: true
     partial: imgs-icon-text.html
@@ -36,8 +36,8 @@ rows:
     btn_label: "Browse the datasets list"
     img_back: "/img/services/data_access/ODH-data-acess-datasets.jpg"
     img_front: "/img/services/data_access/access-data-4.jpg"
-    img_back_alt: ""
-    img_back_title: ""
+    img_back_alt: "User interface showing the various open datasets available from the Open Data Hub for integration into applications."
+    img_back_title: "Open Data Hub – Access to Diverse Open Datasets"
     bg_darker: false
     partial: text-imgs.html
 
@@ -47,8 +47,8 @@ rows:
     btn_label: "Open the Data Browser"
     img_back: "/img/services/data_access/ODH-data-access-data-browser.jpg"
     img_front: "/img/services/data_access/access-data-6.jpg"
-    img_back_alt: ""
-    img_back_title: ""
+    img_back_alt: "Screenshot of Open Data Hub's Data Browser interface, which allows users to explore and access different datasets."
+    img_back_title: "Open Data Hub – Explore Data with the Data Browser"
     target_blank: true
     bg_darker: true
     partial: imgs-text.html
@@ -59,8 +59,8 @@ rows:
     btn_label: "Open the Analytics Tool"
     img_back: "/img/services/data_access/ODH-data-access-analytics-tool.jpg"
     img_front: "/img/services/data_access/access-data-8.jpg"
-    img_back_alt: ""
-    img_back_title: ""
+    img_back_alt: "Screenshot of real-time sensor data and analytics displayed in the Open Data Hub analytics tool."
+    img_back_title: "Open Data Hub – Analytics Tool for Real-Time Data Insights"
     target_blank: true
     bg_darker: false
     partial: text-imgs.html
@@ -71,8 +71,8 @@ rows:
     btn_label: "View the web components list"
     img_back: "/img/services/data_access/ODH-data-access-data-web-components.jpg"
     img_front: "/img/services/data_access/access-data-8.jpg"
-    img_back_alt: ""
-    img_back_title: ""
+    img_back_alt: "Open Data Hub web component interface for seamless data integration into applications."
+    img_back_title: "Open Data Hub – Integrate Data with Web Components"
     target_blank: true
     bg_darker: true
     partial: imgs-text.html
@@ -83,8 +83,8 @@ rows:
     btn_label: "Quota limits documentation"
     img_back: "/img/services/data_access/ODH-data-access-support.jpg"
     img_front: "/img/services/data_access/access-data-8.jpg"
-    img_back_alt: ""
-    img_back_title: ""
+    img_back_alt: "Open Data Hub team providing support to developers integrating data into their applications."
+    img_back_title: "Open Data Hub – Dedicated Support for Data Access Services"
     target_blank: true
     bg_darker: false
     partial: text-imgs.html
@@ -95,8 +95,8 @@ rows:
     btn_label: "Join the community "
     img_back: "/img/services/data_access/ODH-data-access-support.jpg"
     img_front: "/img/services/data_access/access-data-8.jpg"
-    img_back_alt: ""
-    img_back_title: ""
+    img_back_alt: "Open Data Hub team assisting developers with integrating data into applications."
+    img_back_title: "Open Data Hub – Dedicated Support for Data Integration"
     bg_darker: true
     partial: imgs-text.html
 ---

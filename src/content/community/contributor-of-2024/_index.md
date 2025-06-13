@@ -8,6 +8,8 @@ subtitle: "Winner: Henri Egger"
 
 rows:
   - img_back: "/img/events/contributor-of-2024.jpg"
+    img_back_alt: "Recognition of outstanding contributions in the Open Data Hub community for 2024."
+    img_back_title: "Open Data Hub – Recognizing Top Contributors in 2024"
     bg_darker: false
     partial: img-full.html
 

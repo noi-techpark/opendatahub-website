@@ -14,7 +14,7 @@
                     <a href="{{ .box_link }}">
                         <div class="bg-black h-100 d-flex flex-column">
                             <div class="row">
-                                <img src="{{ .image }}" alt="{{ .name | markdownify}}">
+                                <img src="{{ .image }}" alt="{{ .img_alt | markdownify}}" title="{{ .img_title | markdownify}}">
                             </div>
                             <div class="flex-grow-1 p-3 align-items-center row">
                                 <div class="col-9 col-xs-10 col-lg-9">

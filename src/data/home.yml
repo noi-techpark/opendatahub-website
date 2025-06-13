@@ -92,6 +92,8 @@ use_case:
   btn_label: "See available datasets"
   img_back: "/img/services/data_sharing/ODH-home-data-sharing-use-case.webp"
   img_front: "/img/GreenMobility.png"
+  img_back_alt: "Visual representation of Open Data Hub’s data sharing use cases, showing collaboration between providers and consumers."
+  img_back_title: "Open Data Hub – Real-World Data Sharing Use Cases"
 
 dataset_example:
   title: "Real-time **e-charging** stations"
@@ -100,6 +102,8 @@ dataset_example:
   btn_label: "More about e-charging"
   img_back: "/img/services/data_access/ODH-home-data-access-use-case-e-charging.webp"
   img_front: "/img/datasets/andrew-roberts-2JvEjF0tf50-unsplash.png"
+  img_back_alt: "Interactive map displaying real-time electric vehicle charging stations integrated via Open Data Hub."
+  img_back_title: "Open Data Hub – Real-Time E-Charging Station Data Access"
 
 services:
   title: "Get ready with **our services**"
@@ -110,15 +114,21 @@ services:
       icon: "/icon/download.svg"
       box_link: "/services/data-access/"
       btn_label: "Access data"
+      img_alt: "Graphic representation of Open Data Hub enabling real-time data access for developers and businesses."
+      img_title: "Open Data Hub – Access Real-Time Data for Innovative Solutions"
 
     - name: "Data Sharing"
       image: "/img/services/data_sharing/ODH-home-services-data-sharing-luisa.webp"
       icon: "/icon/upload.svg"
       box_link: "/services/data-sharing/"
       btn_label: "Share data"
+      img_alt: "Open Data Hub platform interface illustrating secure and efficient data sharing capabilities."
+      img_title: "Open Data Hub – Empowering Data Sharing Services"
 
     - name: "Data Visualization"
       image: "/img/services/data_visualization/ODH-home-services-data-visualization.webp"
       icon: "/icon/box.svg"
       box_link: "/services/data-visualization/"
       btn_label: "Create data visualisations"
+      img_alt: "Screenshot of the Open Data Hub interface showing interactive data visualisation tools for businesses and developers."
+      img_title: "Open Data Hub – Interactive Data Visualization Services"

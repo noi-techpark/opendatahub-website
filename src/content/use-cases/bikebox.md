@@ -19,6 +19,8 @@ short:
   btn_link: "/use-cases/bikebox"
   btn_label: Read more
   img_back: "/img/use-cases/bikebox/OpenDataHub-BikeBox-Tania-Marcadella-2024-8402.jpg"
+  img_back_alt: "Image showcasing the BikeBox project, providing secure bicycle storage to promote sustainable mobility."
+  img_back_title: "BikeBox Initiative – Secure Bicycle Storage Solutions"
   img_credit: "© Open Data Hub / Tania Marcadella"
   bg_darker: true
   partial:  text-imgs.html
@@ -29,8 +31,8 @@ start:
   title: "**Cyclists' mobility made easy**"
   subtitle: "Südtirolmobil Bikeboxes are safe storage spaces for bicycles. The bike boxes service is seamlessly integrated with the Südtirolmobil scheme, further enhancing the Mobility as a Service (MaaS) perspective in the region. Cyclists with a Südtirol Pass can now utilize a single application to access a multitude of mobility services, ranging from public transportation to bike parking facilities, streamlining their travel experience."
   img_back: "/img/use-cases/bikebox/OpenDataHub-BikeBox-Tania-Marcadella-2024-8305.jpg"
-  img_back_alt: ""
-  img_back_title: ""
+  img_back_alt: "Photograph of BikeBox facilities offering secure bicycle storage integrated with Südtirolmobil services"
+  img_back_title: "BikeBox – Secure Bicycle Storage Solutions"
   img_credit: "© Open Data Hub / Tania Marcadella"
   partial:   title-cta.html
 
@@ -43,6 +45,8 @@ paragraphs:
     <br>
     To overcome this challenge, STA worked with Open Data Hub to seamlessly integrate the data from bike boxes into the Open Data Hub infrastructure. The API makes this data easily available, which facilitates integration into the Südtirol Pass system and improves user-friendliness for cyclists."
     img_back: "/img/use-cases/bikebox/OpenDataHub-BikeBox-Tania-Marcadella-2024-8354.jpg"
+    img_back_alt: "Image of a cyclist storing their bicycle in a BikeBox, showcasing the convenience of secure storage options."
+    img_back_title: "Cyclist Utilizing BikeBox Storage Facility"
     img_credit: "© Open Data Hub / Tania Marcadella"
     partial: imgs-text-enlargeable.html
     btn_link: "https://databrowser.opendatahub.com/dataset-overview/7507cf75-3311-4440-8ac3-8980dfddcecc"
@@ -54,6 +58,8 @@ paragraphs:
     <br><br>
     Cyclists with a Südtirol Pass can easily access real-time information on available bike parking facilities via the Südtirolmobil app, which simplifies their journey planning and promotes sustainable transport options."
     img_back: "/img/use-cases/bikebox/OpenDataHub-BikeBox-Tania-Marcadella-2024-8389.jpg"
+    img_back_alt: "Visual representation of the seamless integration between BikeBox facilities and Südtirolmobil's Mobility as a Service offerings."
+    img_back_title: "Integration of BikeBox with Südtirolmobil Services"
     img_credit: "© Open Data Hub / Tania Marcadella"
     partial:   text-imgs-enlargeable.html
 ---
