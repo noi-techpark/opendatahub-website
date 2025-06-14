@@ -51,7 +51,7 @@ img, iframe {
 /* Text styling */
 
 h1 {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 h2 {
@@ -72,7 +72,7 @@ h5 {
 
 /* BOOTSTRAP TEXT UTILITIES OVERRIDE */
 .fw-semibold {
-  font-weight: 500 !important;
+  font-weight: 400 !important;
 }
 
 .fs-5 {
@@ -104,13 +104,13 @@ ul.no-bullets {
   border: none !important;
   border-radius: var(--border-radius) !important;
   font-size: 1rem;
-  font-weight: 610;
+  font-weight: 600;
   padding: 10px 15px;
   letter-spacing: 0;
 }
 
 .btn::after {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 /* Navbar */
@@ -118,7 +118,7 @@ ul.no-bullets {
 .dropdown-item {
   font-size: 1rem;
   letter-spacing: 0.1rem;
-  font-weight: 350;
+  font-weight: 400;
 }
 
 @media (max-width: 1200px) {
@@ -129,7 +129,7 @@ ul.no-bullets {
 }
 
 .nav-link.active {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .vertical-separator {
@@ -221,7 +221,7 @@ footer .w-fit {
 }
 
 .dataset-contact-us-text a {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 /* Slide on hover */
@@ -372,7 +372,7 @@ footer .w-fit {
   display: block;
   font-size: 0.8rem;
   color: #555555;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 #contact-form.reason-data-access .data-access {
@@ -551,5 +551,5 @@ footer .w-fit {
 }
 
 h4 {
-  font-weight: bold;
+  font-weight: 600;
 }
