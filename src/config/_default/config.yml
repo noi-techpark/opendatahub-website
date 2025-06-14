@@ -116,6 +116,9 @@ params:
         - icon: /icon/footer/github.svg
           text: GitHub
           URL: https://github.com/noi-techpark
+        - icon: /icon/footer/linkedin.svg
+          text: LinkedIn
+          URL: https://www.linkedin.com/company/opendatahub
         - icon: /icon/footer/telegram.svg
           text: Telegram
           URL: https://t.me/OpenDataHub
