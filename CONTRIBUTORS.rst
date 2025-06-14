@@ -26,7 +26,7 @@
 * Henri Egger <105497721+henri-egger@users.noreply.github.com>
 * emilylouisesimonis <38345889+emilylouisesimonis@users.noreply.github.com>
 * Delia Mennitti <101118017+d3liaa@users.noreply.github.com>
-* Patrick Ohnewein <patrick.ohnewein@noi.bz.it>
+* Patrick Ohnewein <p.ohnewein@noi.bz.it>
 * ila131 <ilrusso@posteo.net>
 * Patrick Bertolla <p.bertolla@noi.bz.it>
 * Simon Dalvai <s.dalvai@noi.bz.it>
