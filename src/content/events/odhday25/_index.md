@@ -362,7 +362,7 @@ content:
       - speakerURL: "https://www.linkedin.com/in/mroggia/"
       - org: "NOI Techpark"
       - orgURL: "https://noi.bz.it/"	
-      - content: "Telemetry in Open Data Hub"
+      - content: "Observability in Open Data Hub "
       - slidesLink: https://cloud.opendatahub.com/index.php/s/NsKsxGStFdzrFNo
       - videoLink: "https://player.vimeo.com/video/1090660715"
     - cols:
@@ -519,10 +519,10 @@ content:
   # btn_press_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
   title_press: "Press"
-  description_press: "press"
+  description_press: "This section includes press releases, video trailers, photos and promotional content to help you share and promote Open Data Hub Day."
 
   headerPR:
-    - title: Open Data Hub 2024 additional content
+    - title: Open Data Hub 2025 additional content
       width: 83%
     - title: Language
       width: 5%
