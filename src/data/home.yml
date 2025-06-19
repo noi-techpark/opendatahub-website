@@ -85,13 +85,25 @@ certified:
 #   img_back: "/img/violet.png"
 #   img_front: "/img/datasets/andrew-roberts-2JvEjF0tf50-unsplash.png"
 
-use_case:
-  title: "Build the next **traffic application**"
-  description: "Using **traffic datasets** from the Open Data Hub you can start today to build your service using real time data."
-  btn_link: "/datasets"
-  btn_label: "See available datasets"
-  img_back: "/img/ODH-home-data-sharing-use-case.webp"
-  img_front: "/img/GreenMobility.png"
+#use_case:
+#  title: "Build the next **traffic application**"
+#  description: "Using **traffic datasets** from the Open Data Hub you can start today to build your service using real time data."
+#  btn_link: "/datasets"
+#  btn_label: "See available datasets"
+#  img_back: "/img/services/data_sharing/ODH-home-data-sharing-use-case.webp"
+#  img_front: "/img/GreenMobility.png"
+#  img_back_alt: "Visual representation of Open Data Hub’s data sharing use cases, showing collaboration between providers and consumers."
+#  img_back_title: "Open Data Hub – Real-World Data Sharing Use Cases"
+
+community_event:
+  title: "Discover the latest Open Data Hub Day"
+  description: "Access insights from the last edition of the Open Data Hub Day. Explore all recorded sessions and expert presentations."
+  btn_link: "/events/odhday25"
+  btn_label: "View event details"
+  btn_link2: "/events/video-library"
+  btn_label2: "Watch full videos"
+  img_back: "/img/home/latest_open_data_hub_day.jpg"
+  img_front: "/img/home/latest_open_data_hub_day.jpg"
 
 dataset_example:
   title: "Real-time **e-charging** stations"
