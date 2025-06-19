@@ -562,6 +562,26 @@ content:
         - content: ""
         - videoLink: "https://vimeo.com/1092405317"
     - colsPR:
+        - content: "Interview Valentina Porta"
+        - content: ""
+        - videoLink: "https://vimeo.com/1094643463"
+    - colsPR:
+        - content: "Interview - Antonietta De Santis"
+        - content: ""
+        - videoLink: "https://vimeo.com/1094643711"
+    - colsPR:
+        - content: "Interview - Renate Marmsoler"
+        - content: ""
+        - videoLink: "https://vimeo.com/1094643672"
+    - colsPR:
+        - content: "Interview - Matthias Dieter Wallnöfer"
+        - content: ""
+        - videoLink: "https://vimeo.com/1094643585"
+    - colsPR:
+        - content: "Interview - Alberto Comini"
+        - content: ""
+        - videoLink: "https://vimeo.com/1092405317"        
+    - colsPR:
         - content: "Open Data Hub Day - National press release"
         - content: "IT"
         - pressReleaseLink: "https://cloud.opendatahub.com/index.php/s/N2ttLkpTw4aw3HH"

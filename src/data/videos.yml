@@ -7,6 +7,44 @@ sections:
   - title: "**Open Data Hub Day Interviews**"
     initially_expanded: true
     videos:
+      - subtitle: "IDM Südtirol / Alto Adige"
+        title: "**IDM Südtirol / Alto Adige interview**"
+        description: "Antonietta De Santis"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/ydgbEBtgBHFFYXg"
+        btn_label: Open Data Hub Day 2025 - Slides
+        video: "https://player.vimeo.com/video/1094643711"
+        target_blank: true
+      
+      - subtitle: "Autonomous Province of Bolzano"
+        title: "**Autonomous Province of Bolzano interview**"
+        description: "Renate Marmsoler"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/SiTYPZF4BGFJG47"
+        btn_label: Open Data Hub Day 2025 - Slides
+        video: "https://player.vimeo.com/video/1094643672"
+        target_blank: true
+
+      - subtitle: "Open Data Hub contributor of the year 2025"
+        title: "**Open Data Hub contributor of the year 2025 interview**"
+        description: "Matthias Dieter Wallnöfer"
+        video: "https://player.vimeo.com/video/951204510"
+        target_blank: true
+
+      - subtitle: "Youtrend"
+        title: "**Youtrend interview**"
+        description: "Valentina Porta"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/7ZjQqpHQgkAg8iq"
+        btn_label: Open Data Hub Day 2025 - Slides
+        video: "https://player.vimeo.com/video/1094643463"
+        target_blank: true
+        
+      - subtitle: "Dolomiti NordicSki"
+        title: "**Dolomiti NordicSki interview**"
+        description: "Alberto Comini"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/zSSW9Y8PDMXyZEy"
+        btn_label: Open Data Hub Day 2025 - Slides
+        video: "https://player.vimeo.com/video/1094643534"
+        target_blank: true
+      
       - subtitle: "Free University of Bolzano/Bozen (UNIBZ)"
         title: "**Free University of Bolzano/Bozen (UNIBZ) interview**"
         description: "Eduardo Martins Guerra"
@@ -28,6 +66,7 @@ sections:
         btn_label: Open Data Hub Day 2024 - Slides
         video: "https://player.vimeo.com/video/951204749"
         target_blank: true
+
       - subtitle: "International Data Spaces Association (IDSA)"
         title: "**International Data Spaces Association (IDSA) interview**"
         description: "Giulia Giussani"
