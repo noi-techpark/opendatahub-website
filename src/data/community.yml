@@ -39,6 +39,10 @@ providers:
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/DiscoverSwiss.png"
       link: https://discover.swiss/
 
+    - name: Dolomites Val Gardena
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/dolomitesValGardena.png"
+      link: https://www.valgardena.it/
+    
     - name: DolomitiSuperski
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/dolomitisuperski.png"
       link: https://www.dolomitisuperski.com/

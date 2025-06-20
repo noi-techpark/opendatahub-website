@@ -25,9 +25,9 @@ rows:
     description: "Winner: Henri Egger"
     btn_link: "../contributor-of-2024"
     btn_label: "See details"
-    img_back: "/img/contributor-of-the-year-2024.jpg"
-    img_back_alt: ""
-    img_back_title: ""
+    img_back: "/img//events/contributor-of-the-year-2024.jpg"
+    img_back_alt: "Celebration event honoring the 2024 Contributor of the Year at Open Data Hub."
+    img_back_title: "Open Data Hub – Contributor of the Year 2024 Award"
     bg_darker: true
     partial: imgs-icon-text.html
 ---

@@ -116,6 +116,9 @@ params:
         - icon: /icon/footer/github.svg
           text: GitHub
           URL: https://github.com/noi-techpark
+        - icon: /icon/footer/linkedin.png
+          text: LinkedIn
+          URL: https://www.linkedin.com/company/opendatahub
         - icon: /icon/footer/telegram.svg
           text: Telegram
           URL: https://t.me/OpenDataHub
@@ -141,17 +144,17 @@ menu:
       weight: 1
 
     - parent: services
-      name: Data access
+      name: Data Access
       URL: /services/data-access
       weight: 1
 
     - parent: services
-      name: Data sharing
+      name: Data Sharing
       URL: /services/data-sharing
       weight: 2
 
     - parent: services
-      name: Data visualization
+      name: Data Visualization
       URL: /services/data-visualization
       weight: 3
 
@@ -232,17 +235,17 @@ menu:
       weight: 7
 
     - parent: events
-      name: Upcoming events
+      name: Upcoming Events
       URL: /events/#sm-tag-upcoming-events
       weight: 1
 
     - parent: events
-      name: Past events
+      name: Past Events
       URL: /events/#sm-tag-past-events
       weight: 2
 
     - parent: events
-      name: Recurring events
+      name: Recurring Events
       URL: /events/#sm-tag-recurring-events
       weight: 3
 

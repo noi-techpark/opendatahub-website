@@ -153,7 +153,9 @@ content:
       - videoLink: "https://player.vimeo.com/video/1090602432"
     - cols:
       - time: "12.00"
-      - speaker: "David Spitaler, Elias Klotz"
+      - speakers:
+        - name: "David Spitaler"
+        - name: "Elias Klotz"
       - org: "TFO Bozen Max Valier"
       - orgURL: "https://www.tfobz.it/"
       - content: "Open Quiz Hub"
@@ -306,8 +308,16 @@ content:
     - cols:
       - time: "11.45"
       - track: "OTP & Mobility"
-      - speaker: "Guido Amato, Marco Comerio"
-      - org: "Lucian (OpenMove), Cefriel"
+      - speakers:
+        - name: "Guido Amato"
+          url: "https://www.linkedin.com/in/guidoamato/"
+        - name: "Marco Comerio"
+          url: "https://www.linkedin.com/in/marcocomerio/"
+      - organizations:
+        - name: "Lucian (OpenMove)"
+          url: "https://www.openmove.com/"
+        - name: "Cefriel"
+          url: "https://www.cefriel.com/"
       - content: "Facilitating the Transition from GTFS and GTFS-RT to NeTEx and SIRI in OpenTripPlanner"
       - slidesLink: https://cloud.opendatahub.com/index.php/s/cFZwsbeNbfkXFXZ
       - videoLink: "https://player.vimeo.com/video/1090650840"
@@ -362,7 +372,7 @@ content:
       - speakerURL: "https://www.linkedin.com/in/mroggia/"
       - org: "NOI Techpark"
       - orgURL: "https://noi.bz.it/"	
-      - content: "Telemetry in Open Data Hub"
+      - content: "Observability in Open Data Hub "
       - slidesLink: https://cloud.opendatahub.com/index.php/s/NsKsxGStFdzrFNo
       - videoLink: "https://player.vimeo.com/video/1090660715"
     - cols:
@@ -402,8 +412,16 @@ content:
     - cols:
       - time: "15.30"
       - track: "Core Technologies"
-      - speaker: "Davide Montesin, Chris Mair"
-      - org: "Catch Solve, 1006.org"
+      - speakers:
+        - name: "Davide Montesin"
+          url: "https://www.linkedin.com/in/davidemontesin"
+        - name: "Chris Mair"
+          url: "https://www.linkedin.com/in/chris-mair/"
+      - organizations:
+        - name: "Catch Solve"
+          url: "https://www.catch-solve.tech/en/home"
+        - name: "1006.org"
+          url: "https://www.1006.org/"
       - content: "Automated Data Quality Testing Tool"
       - slidesLink: https://cloud.opendatahub.com/index.php/s/P3697tonnFxMwtK
       - videoLink: "https://player.vimeo.com/video/1090752911"
@@ -420,7 +438,11 @@ content:
     - cols:
       - time: "16.00"
       - track: "Core Technologies"
-      - speaker: "Simone Pandini, Manuela Corte Pause"
+      - speakers:
+        - name: "Simone Pandini"
+          url: "https://www.linkedin.com/in/simone-pandini-bb5875345"
+        - name: "Manuela Corte Pause"
+          url: "https://www.linkedin.com/in/manuela-corte-pause"
       - org: "Ontopic"
       - orgURL: "https://ontopic.ai/"
       - content: "Using Natural Language For Interacting With The Open Data Hub"
@@ -438,7 +460,9 @@ content:
     - cols:
       - time: "16.30"
       - track: "Core Technologies"
-      - speaker: "Martin Rabanser, Marco Dalle Feste"
+      - speakers:
+        - name: "Martin Rabanser"
+        - name: "Marco Dalle Feste"
       - org: "AlpineBits Alliance"
       - orgURL: "https://www.alpinebits.org/"
       - content: "AlpineBits: certifying an Open Standard"
@@ -519,10 +543,10 @@ content:
   # btn_press_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
   title_press: "Press"
-  description_press: "press"
+  description_press: "This section includes press releases, video trailers, photos and promotional content to help you share and promote Open Data Hub Day."
 
   headerPR:
-    - title: Open Data Hub 2024 additional content
+    - title: Open Data Hub 2025 additional content
       width: 83%
     - title: Language
       width: 5%
@@ -537,6 +561,26 @@ content:
         - content: "Open Data Hub Day Trailer"
         - content: ""
         - videoLink: "https://vimeo.com/1092405317"
+    - colsPR:
+        - content: "Interview - Valentina Porta"
+        - content: ""
+        - videoLink: "https://vimeo.com/1094643463"
+    - colsPR:
+        - content: "Interview - Antonietta De Santis"
+        - content: ""
+        - videoLink: "https://vimeo.com/1094643711"
+    - colsPR:
+        - content: "Interview - Renate Marmsoler"
+        - content: ""
+        - videoLink: "https://vimeo.com/1094643672"
+    - colsPR:
+        - content: "Interview - Matthias Dieter Wallnöfer"
+        - content: ""
+        - videoLink: "https://vimeo.com/1094643585"
+    - colsPR:
+        - content: "Interview - Alberto Comini"
+        - content: ""
+        - videoLink: "https://vimeo.com/1092405317"        
     - colsPR:
         - content: "Open Data Hub Day - National press release"
         - content: "IT"

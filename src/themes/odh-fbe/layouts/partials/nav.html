@@ -52,20 +52,20 @@
                     <div class="flex-xl-fill"></div>
                     <li class="nav-item dropdown">
                         <a
-                            class="nav-link dropdown-toggle {{ if or (eq $currentPage.Params.Position "About Us") (eq $currentPage.Params.Position "Contact Us") }}active{{ end }}"
+                            class="nav-link dropdown-toggle {{ if or (eq $currentPage.Params.Position "About") (eq $currentPage.Params.Position "Contact Us") }}active{{ end }}"
 
                             role="button" data-bs-toggle="dropdown" aria-expanded="false"
 
-                            {{ if or (eq $currentPage.Params.Position "About Us") (eq $currentPage.Params.Position "Contact Us") }}aria-current="page"{{ end }}
+                            {{ if or (eq $currentPage.Params.Position "About") (eq $currentPage.Params.Position "Contact Us") }}aria-current="page"{{ end }}
                             
                             href="{{ "/about-us" | absURL }}"
                         >
                             {{/*  <span class="fa fa-chevron-right me-1" aria-hidden="true"></span>  */}}
-                            About us
+                            About
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="/about-us">About us</a></li>
-                            <li><a class="dropdown-item" href="/contact">Contact us</a></li>
+                            <li><a class="dropdown-item" href="/about-us">About</a></li>
+                            <li><a class="dropdown-item" href="/contact">Contact</a></li>
                         </ul>
                     </li>
                     <div class="vertical-separator d-none d-xl-inline-block"></div>
