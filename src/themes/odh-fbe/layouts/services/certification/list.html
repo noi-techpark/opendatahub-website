@@ -1,29 +1,24 @@
-{{/*
-	SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
-
-	SPDX-License-Identifier: AGPL-3.0-or-later
-*/}}
-
 {{ define "main" }}
 
 {{ partial "title.html" .Params }}
 <br>
 
 {{ with index .Params.rows 0 }}
-        <div class="container">
-            {{ partial "text-imgs-enlargeable" . }}
-    <br>
-        {{ if .partial }}
-            {{ partial .partial . }}
-        {{ end }}
-    </div>
-{{ end }}
+  <div class="container">
+    {{ partial "text-imgs-enlargeable" . }}
 
-<!-- CERTIFIED TECHNOLOGY PROVIDER -->
-<a id="sm-tag-certified-technology-provider"></a>
-	<section class="pb-4">
-		{{ partial "title-section.html" site.Data.community.certified }}
-	{{ partial "logos.html" site.Data.community.certified }}
-	</section>
+    <!-- Certified Technology Providers -->
+    <section>
+      {{ partial "title-section.html" site.Data.community.certified }}
+      {{ partial "logos.html" site.Data.community.certified }}
+    </section>
+
+    <br>
+
+    {{ if .partial }}
+      {{ partial .partial . }}
+    {{ end }}
+  </div>
+{{ end }}
 
 {{ end }}
