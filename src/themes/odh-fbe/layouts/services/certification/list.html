@@ -10,13 +10,21 @@
 <br>
 
 {{ with index .Params.rows 0 }}
-        <div class="container">
-            {{ partial "text-imgs-enlargeable" . }}
+  <div class="container fw-semibold fs-5 lh-base">
+    {{ partial "text-imgs-enlargeable" . }}
+
+    <!-- Certified Technology Providers -->
+    <section>
+      {{ partial "title-section.html" site.Data.community.certified }}
+      {{ partial "logos.html" site.Data.community.certified }}
+    </section>
+
     <br>
-        {{ if .partial }}
-            {{ partial .partial . }}
-        {{ end }}
-    </div>
+
+    {{ if .partial }}
+      {{ partial .partial . }}
+    {{ end }}
+  </div>
 {{ end }}
 
 {{ end }}
