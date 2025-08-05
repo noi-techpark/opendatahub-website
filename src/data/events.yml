@@ -21,6 +21,15 @@ events:
     location: "NOI Techpark"
     btn_link: https://www.sfscon.it/
     btn_label: More info
+  
+  - title: Software Developers' Thursday 2025 | August
+    subtitle: Using the Model Context Protocol to Bridge Local Language Models and Open Data APIs
+    img: /img/events/SDT-Generci.png
+    day: "2025-08-07"
+    time: "18:30 - 20:00"
+    location: "NOI Techpark"
+    btn_link: https://pretix.eu/noi-digital/sdt25/4196920/
+    btn_label: Registration
 
   - title: NOI Hackathon - Summer Edition 2025
     subtitle: 24 hours of hacking, collaborating, co-creating and developing.
@@ -49,7 +58,7 @@ events:
     btn_link: /events/bootcamp25
     btn_label: More info
 
-  - title: Software Developers' Thursday 2024 | February
+  - title: Software Developers' Thursday 2025 | February
     subtitle: Design Challenges in the context of the Open Data Hub
     img: /img/events/SDT-Generci.png
     day: "2025-02-06"
