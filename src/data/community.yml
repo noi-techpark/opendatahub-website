@@ -331,7 +331,7 @@ consumers:
 ########################### Certified Technology Providers #########################
 certified:
   title: Certified Technology Providers
-  subtitle: These Companies and Organizations are Certified Technology Providers for the Open Data Hub API and share data with others, to enable the implementation of innovative digital solutions.
+  subtitle: The companies listed below offer software solutions officially certified to integrate with the Open Data Hub. They provide a simple and reliable way for their clients to become Data Providers and share data with the Open Data Hub.
   items:
     - name: SKIDATA
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/skidata.png"

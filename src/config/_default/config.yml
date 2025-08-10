@@ -204,8 +204,8 @@ menu:
       weight: 2
 
     - parent: community
-      name: Certified Technology Provider
-      URL: /community/#sm-tag-certified-technology-provider
+      name: Certified Technology Providers
+      URL: /community/#sm-tag-certified-technology-providers
       weight: 3
     
     - parent: community
