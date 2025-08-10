@@ -42,59 +42,44 @@ pricing:
       color_class: bg-basic
     - title: BASIC
       price: (free)
-      color_class: bg-pro
-    - title: ADVANCED
-      price: (for a fee)
-      color_class: bg-pro
+      color_class: bg-basic
     - title: PREMIUM
       price: (for a fee)
       color_class: bg-pro
   row:
     - cols:
-        - content: "<a href='https://github.com/noi-techpark/odh-docs/wiki/Historical-Data-and-Request-Rate-Limits'><u>Maximum request period for historical data</u></a>"
-        - content: "5 days - 100 days"
-        - content: "1000 days"
+        - content: "<a href='https://github.com/noi-techpark/odh-docs/wiki/Historical-Data-and-Request-Rate-Limits'><u>Maximum Request Period for <b>Historical Data</b></u></a>"
+        - content: "5 - 100<sup><a href='https://github.com/noi-techpark/opendatahub-docs/wiki/Http-Referer'>(<u>ref</u>)</a></sup> days"
+        - content: "1.000 days"
         - content: "unlimited"
-        - content: "unlimited"
     - cols:
-        - content: "<a href='https://github.com/noi-techpark/odh-docs/wiki/Historical-Data-and-Request-Rate-Limits'><u>Requests per Second</u></a>"
-        - content: "10 - 20"
-        - content: "50"
-        - content: "100"
-        - content: "200"
+        - content: "<a href='https://github.com/noi-techpark/odh-docs/wiki/Historical-Data-and-Request-Rate-Limits'><u>Maximum <b>Requests Per Second</b></u></a>"
+        - content: "10 - 20<sup><a href='https://github.com/noi-techpark/opendatahub-docs/wiki/Http-Referer'>(<u>ref</u>)</a></sup> RPS"
+        - content: "50 RPS"
+        - content: "200 RPS"
     - cols:
-        - content: Access to all Open Data provided
-        - content: "&#10004;"
+        - content: Access to all <b>Open Data</b> provided
         - content: "&#10004;"
         - content: "&#10004;"
         - content: "&#10004;"
     - cols:
-        - content: Notification about API and dataset changes
-        - content: ""
-        - content: "&#10004;"
-        - content: "&#10004;"
-        - content: "&#10004;"
-    - cols:
-        - content: Intermediation with data providers
-        - content: ""
-        - content: "&#10004;"
-        - content: "&#10004;"
-        - content: "&#10004;"
-    - cols:
-        - content: <b>Basic support</b> in the implementation of APIs
-        - content: ""
-        - content: "&#10004;"
-        - content: "&#10004;"
-        - content: "&#10004;"
-    - cols:
-        - content: <b>Advanced support</b> in the implementation of APIs
-        - content: ""
+        - content: <b>Notification</b> about API and Datasets changes
         - content: ""
         - content: "&#10004;"
         - content: "&#10004;"
     - cols:
-        - content: <b>Premium service</b> specific SLA requirements
+        - content: <b>Intermediation</b> with Data Providers
         - content: ""
+        - content: "&#10004;"
+        - content: "&#10004;"
+    - cols:
+        - content: <b>Basic support</b> in API implementation
+        - content: ""
+        - content: "&#10004;"
+        - content: "&#10004;"
+    - cols:
+        - content: <b>Premium service</b> specific to SLA requirements
         - content: ""
         - content: ""
         - content: "&#10004;"
+
