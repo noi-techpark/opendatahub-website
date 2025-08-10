@@ -69,7 +69,7 @@ params:
         URL: /
       - icon: /icon/footer/noi.svg
         alttext: NOI Techpark
-        text: Innovation hub in<br />Südtirol/ Alto Adige
+        text: Innovation hub in<br />Südtirol / Alto Adige
         URL: https://noi.bz.it
         target_blank: true
 
