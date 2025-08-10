@@ -130,7 +130,7 @@ params:
           URL: https://www.facebook.com/opendatahub/
 
     # add to copyright once exists: <a class="text-decoration-underline">Imprint</a>
-    copyright: '@Open Data Hub | <a class="text-decoration-underline" href="https://noi.bz.it/en/privacy-cookie-policy" target="_blank">Privacy</a> | <a class="text-decoration-underline" onclick="javascript:window.cc.showSettings()">Cookies</a>'
+    copyright: '&copy; Open Data Hub&trade; | <a class="text-decoration-underline" href="https://noi.bz.it/en/privacy-cookie-policy" target="_blank">Privacy</a> | <a class="text-decoration-underline" onclick="javascript:window.cc.showSettings()">Cookies</a>'
 
 taxonomies:
   use_case_tag: use_case_tags
