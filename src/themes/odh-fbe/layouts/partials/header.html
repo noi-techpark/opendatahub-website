@@ -19,6 +19,7 @@
     {{ else }}
       <title>{{ .Site.Title }}</title>
     {{ end }}
+    <link rel="canonical" href="{{ .Permalink}}"/>
     {{ with .Params.seo.description }}
       <meta name="description" content="{{ . }}" />
     {{ end }}
