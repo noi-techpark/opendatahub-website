@@ -15,7 +15,7 @@ rows:
     img_alt: "Certification process illustration"
     img_title: "How to get certified"
     description: >
-      ① Submit your certification request including: the URL of your endpoint, a technical description of your output API and a contact for community updates (Data Consumer Contract).
+      ① Submit your certification request including: the URL of your endpoint, a technical description of your output API and a contact for the Open Data Hub community updates.
 
 
       ② The Open Data Hub team will develop a Data Collector tailored to your endpoint. 
