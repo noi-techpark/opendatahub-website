@@ -25,15 +25,15 @@
 * Stefano Seppi <s.seppi@noi.bz.it>
 * Henri Egger <105497721+henri-egger@users.noreply.github.com>
 * emilylouisesimonis <38345889+emilylouisesimonis@users.noreply.github.com>
-* Delia Mennitti <101118017+d3liaa@users.noreply.github.com>
 * Patrick Ohnewein <p.ohnewein@noi.bz.it>
+* Delia Mennitti <101118017+d3liaa@users.noreply.github.com>
 * ila131 <ilrusso@posteo.net>
 * Patrick Bertolla <p.bertolla@noi.bz.it>
 * Simon Dalvai <s.dalvai@noi.bz.it>
 * Luca Miotto <l.miotto@noi.bz.it>
 * Gabriele <gabrieledecandido@flashbeing.com>
 * BresciaIla <bresciailaria.ib01@gmail.com>
-* lukmay <86775313+lukmay@users.noreply.github.com>
+* lukmay <lukas.mayr00@gmail.com>
 * maxglio <massimo.maglio.06@gmail.com>
 * Elisa <ciardulli.elisa@gmail.com>
 * RudiThoeni <30471361+RudiThoeni@users.noreply.github.com>
@@ -46,6 +46,7 @@
 * Gabbo <37242882+lelebus@users.noreply.github.com>
 * DErcoli Chiara (Student Com20) <chiara.dercoli@stud-inf.unibz.it>
 * Clemens Zagler <c.zagler@noi.bz.it>
+* Luscha <matteo.roggia@gmail.com>
 * Luca Pasquarelli <77533674+luhodaan@users.noreply.github.com>
 
 *To update the contributors list just run this file with bash. Prefix a name with % in .mailmap to set a contact as preferred*
