@@ -40,12 +40,12 @@
 * Matteo Biasi <matteobiasi@flashbeing.com>
 * Crystal Kwok <kwokyatingcrystal@gmail.com>
 * Owusua <lilowusuaoduro@gmail.com>
+* Clemens Zagler <c.zagler@noi.bz.it>
 * Russo Ilaria (Student Com20) <ilaria.russo@stud-inf.unibz.it>
 * Alex Lanz <alex@krumer.it>
 * Piiit <pitiz29a@gmail.com>
 * Gabbo <37242882+lelebus@users.noreply.github.com>
 * DErcoli Chiara (Student Com20) <chiara.dercoli@stud-inf.unibz.it>
-* Clemens Zagler <c.zagler@noi.bz.it>
 * Luscha <matteo.roggia@gmail.com>
 * Luca Pasquarelli <77533674+luhodaan@users.noreply.github.com>
 
