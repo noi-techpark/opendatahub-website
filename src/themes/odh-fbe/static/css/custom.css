@@ -43,6 +43,19 @@ img, iframe {
   max-width: 100% !important;
 }
 
+/* Target all elements with the "img-responsive" class */
+.img-responsive {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+  opacity: 0.8; /* Optional: Makes them slightly transparent for a softer look */
+}
+
+/* On hover, restore the color and full opacity */
+.img-responsive:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
 /* Dark sections */
 .bg-darker {
   background: #f5f5f5;
