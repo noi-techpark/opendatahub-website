@@ -104,6 +104,20 @@ sections:
     initially_expanded: false
     videos:
       - subtitle: "NOI Techpark"
+        title: "**Open Data Hub at MERGE-it 2025**"
+        description: "Marta Andreoli"
+        btn_link: "https://pretalx.com/merge-it-2025/talk/XESKLQ/"
+        btn_label: "Abstract"
+        video: https://player.vimeo.com/video/1108378874
+        target_blank: true
+      - subtitle: "NOI Techpark"
+        title: "**Open Data Hub at MERGE-it 2025**"
+        description: "Patrick Ohnewein"
+        btn_link: "https://pretalx.com/merge-it-2025/talk/NLCJDV/"
+        btn_label: "Abstract"
+        video: https://player.vimeo.com/video/1108381775
+        target_blank: true
+      - subtitle: "NOI Techpark"
         title: "**Open Data Hub at OW2con'23**"
         description: "Simon Dalvai"
         btn_link: "https://www.ow2con.org/view/2023/Abstract_Community_Day#14061450"
