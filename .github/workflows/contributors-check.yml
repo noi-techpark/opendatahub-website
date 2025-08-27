@@ -1,0 +1,23 @@
+name: Contributors up-to-date check
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v2
+      - name: Verify CONTRIBUTORS.rst
+        shell: bash
+        run: |
+          git fetch origin +refs/heads/main:refs/remotes/origin/main
+          tmp="$(mktemp)"
+          trap 'rm -f "$tmp"' EXIT
+          cp CONTRIBUTORS.rst "$tmp"
+          bash CONTRIBUTORS.rst
+          if ! cmp --silent CONTRIBUTORS.rst "$tmp"; then
+            echo "Contributors not up to date. please run CONTRIBUTORS.rst before committing"
+            git --no-pager diff --no-index --unified=2 --word-diff -- "$tmp" CONTRIBUTORS.rst || true
+            exit 1
+          fi
