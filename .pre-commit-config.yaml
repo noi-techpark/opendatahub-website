@@ -1,5 +1,25 @@
 repos:
--   repo: https://github.com/fsfe/reuse-tool
-    rev: v5.0.0
-    hooks:
-    - id: reuse
+- repo: https://github.com/fsfe/reuse-tool
+  rev: v5.0.0
+  hooks:
+  - id: reuse
+
+- repo: local
+  hooks:
+  - id: contributors-up-to-date
+    name: contributors-up-to-date
+    language: system
+    entry: bash -lc
+    args:
+      - |
+        tmp="$(mktemp)"
+        trap 'rm -f "$tmp"' EXIT
+        cp CONTRIBUTORS.rst "$tmp"
+        bash CONTRIBUTORS.rst
+        if ! cmp --silent CONTRIBUTORS.rst "$tmp"; then
+            echo "Contributors not up to date. please run CONTRIBUTORS.rst before committing"
+            git --no-pager diff --no-index --unified=2 --word-diff -- "$tmp" CONTRIBUTORS.rst || true
+            exit 1
+        fi
+    pass_filenames: false
+    stages: [pre-commit]
