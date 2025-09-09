@@ -11,7 +11,7 @@ seo:
 
 rows:
   - title: "How to Get Certified?"
-    img_back: "/img/certification.jpg"
+    img_back: "/img/certification.png"
     img_alt: "Certification process illustration"
     img_title: "How to get certified"
     description: >
