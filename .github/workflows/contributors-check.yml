@@ -15,7 +15,6 @@ jobs:
           tmp="$(mktemp)"
           trap 'rm -f "$tmp"' EXIT
           cp CONTRIBUTORS.rst "$tmp"
-          bash CONTRIBUTORS.rst
           if ! cmp --silent CONTRIBUTORS.rst "$tmp"; then
             echo "Contributors not up to date. please run CONTRIBUTORS.rst before committing"
             git --no-pager diff --no-index --unified=2 --word-diff -- "$tmp" CONTRIBUTORS.rst || true
