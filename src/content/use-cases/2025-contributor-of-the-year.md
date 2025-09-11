@@ -6,7 +6,7 @@ aliases:
 use_case_tags:
   - "community"
 images:
-  - "/img/use-cases/contributor_of_the_year_2025/opendatahub-contributor-of-the-year-2025-01.jpg"
+  - "/img/use-cases/contributor_of_the_year_2025/opendatahub-contributor-2025-social.jpg"
 
 seo:
   title: "Contributor of the Year 2025 | Open Data Hub Award"

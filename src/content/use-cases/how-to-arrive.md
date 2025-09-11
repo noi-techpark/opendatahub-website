@@ -8,7 +8,7 @@ use_case_tags:
   - "tourism"
 # Images that are shown as preview as preview in the Social Networks
 images:
-  - "/img/use-cases/How_to_arrive/OpenDataHub-usecase-how-to-arrive-widget-01.jpg"
+  - "/img/use-cases/How_to_arrive/OpenDataHub-usecase-how-to-arrive-widget-social.jpg"
 
 seo:
   title: "How to Arrive in South Tyrol | Open Data Solutions for Tourism"
