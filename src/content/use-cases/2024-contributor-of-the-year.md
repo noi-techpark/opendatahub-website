@@ -2,7 +2,9 @@
 position: "Use Cases"
 aliases:
   - "/use-cases/contributor-of-the-year"
+  - "/use-cases/contributor-of-the-year-2024"
   - "/use-cases-contributor-of-the-year"
+  - "/use-cases-contributor-of-the-year-2024"
 use_case_tags:
   - "traffic"
   - "mobility"
@@ -16,9 +18,9 @@ short:
   subtitle: "OPEN DATA HUB"
   title: "**Contributor of the year 2024**"
   description: "Annually, the Open Data Hub recognizes a standout individual with the Contributor of the Year award, celebrating their outstanding efforts that have greatly enhanced both the community and its influence."
-  btn_link: "/use-cases/contributor-of-the-year"
+  btn_link: "/use-cases/contributor-of-the-year-2024"
   btn_label: Read more
-  img_back: "/img/use-cases/contributor_of_the_year/opendatahub_contributor_of_the_year_award.jpg"
+  img_back: "/img/use-cases/contributor_of_the_year_2024/opendatahub_contributor_of_the_year_award.jpg"
   img_credit: "© Open Data Hub"
   img_back_alt: "Photograph capturing the Contributor of the Year award ceremony at Open Data Hub, recognising outstanding community contributions."
   img_back_title: "Open Data Hub – Contributor of the Year Award Ceremony"
@@ -30,7 +32,7 @@ start:
   description: "OPEN DATA HUB"
   title: "**Contributor of the year 2024**"
   subtitle: "The Open Data Hub annually honors a remarkable individual with the Contributor of the Year award recognizing their exceptional efforts in enhancing the community of The Open Data Hub and its impact. This year, the accolade was presented to **Henri Egger**, whose contributions have profoundly influenced the Open Data Hub’s success" 
-  img_back: "/img/use-cases/contributor_of_the_year/opendatahub_contributor_of_the_year_egger_ohnewein.jpg"
+  img_back: "/img/use-cases/contributor_of_the_year_2024/opendatahub_contributor_of_the_year_egger_ohnewein.jpg"
   img_back_alt: "Henri Egger receiving the Contributor of the Year award from Patrick Ohnewein at the Open Data Hub ceremony."
   img_back_title: "Henri Egger and Patrick Ohnewein at Contributor of the Year Ceremony"
   img_credit: "© Open Data Hub"
@@ -38,7 +40,7 @@ start:
 
 paragraphs:
   - description: "In his acceptance speech, Henri shared his motivation for contributing to the Open Data Hub project at NOI Techpark. “The biggest motivation for my contributions,” he stated, “is the project's ability to facilitate data sharing across various fields. This integration can lead to innovative new products and make these processes more accessible to individuals who might not have a technical background.” Henri emphasized how crucial this is for smaller and emerging companies, particularly start-ups at NOI Techpark. “These companies need immediate access to high-quality data to overcome initial hurdles and accelerate their innovation process. The Open Data Hub provides that barrier-free access, allowing them to start quickly and innovate faster.”"
-    img_back: "/img/use-cases/contributor_of_the_year/opendatahub_contributor_of_the_year_egger_speech.jpg"
+    img_back: "/img/use-cases/contributor_of_the_year_2024/opendatahub_contributor_of_the_year_egger_speech.jpg"
     img_credit: "© Open Data Hub"
     img_back_alt: "Henri Egger addressing the audience during his acceptance speech at the Open Data Hub Contributor of the Year ceremony."
     img_back_title: "Henri Egger Delivering Acceptance Speech at Contributor of the Year Ceremony"
@@ -56,7 +58,7 @@ paragraphs:
   - description: "In recognizing Henri, Patrick emphasized that the award not only celebrates his individual achievements but also the potential within the community. “Henri's story is a testament to the impact one can have regardless of age or background. His contributions exemplify how we can all shape the future of open data and digital innovation.”
   <br><br>
   With this recognition, Henri Egger’s work serves as an inspiration to all, encouraging continued excellence and contribution to the Open Data Hub’s development."
-    img_back: "/img/use-cases/contributor_of_the_year/opendatahub_contributor_of_the_year_henry_egger.jpg"
+    img_back: "/img/use-cases/contributor_of_the_year_2024/opendatahub_contributor_of_the_year_henry_egger.jpg"
     img_credit: "© Open Data Hub"
     img_back_alt: "Portrait of Henri Egger, recognized as the Contributor of the Year by Open Data Hub."
     img_back_title: "Henri Egger Honored as Open Data Hub Contributor of the Year"
