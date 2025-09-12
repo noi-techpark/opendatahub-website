@@ -24,7 +24,7 @@ short:
   img_back_alt: "Photograph capturing the Contributor of the Year award ceremony at Open Data Hub Day 2025, recognising outstanding community contributions."
   img_back_title: "Open Data Hub – Contributor of the Year 2025 Award Ceremony"
   bg_darker: false
-  partial: text-imgs.html
+  partial: text-imgs-enlargeable.html
   weight: 16
 
 start:
@@ -37,7 +37,7 @@ start:
   img_back_alt: "Award plaque of the Open Data Hub Contributor of the Year 2025 presented to Matthias Dieter Wallnöfer for his open source contributions."
   img_back_title: "Open Data Hub – Contributor of the Year 2025 Award"
   img_credit: "© Open Data Hub"
-  partial: title-cta.html
+  partial: title-cta-enlargeable.html
 
 paragraphs:
   - description: "Matthias’s journey began fifteen years ago, when he joined the project as a young student intern during its earliest stages. Under the mentorship of Roberto Cavaliere, Tech Transfer Digital's Subject Matter Expert in AI and Mobility Solutions, Matthias developed his thesis within the European project *Integreen*, with a particular focus on API design. 

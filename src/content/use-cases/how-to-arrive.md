@@ -23,11 +23,11 @@ short:
   btn_link: "/use-cases/howtoarrive"
   btn_label: Read more
   img_back: "/img/use-cases/How_to_arrive/OpenDataHub-usecase-how-to-arrive-widget-01.jpg"
-  img_credit: "© sta - Südtiroler Transportstrukturen AG"
+  img_credit: "© Open Data Hub"
   img_back_title: "How to Arrive in South Tyrol | Web Component Config"
   img_back_alt: "Configuration screen of the “How to Arrive in South Tyrol” web component powered by IDM and Open Data Hub."
   bg_darker: true
-  partial: imgs-text.html
+  partial: imgs-text-enlargeable.html
   weight: 17
 
 
@@ -52,10 +52,10 @@ paragraphs:
     </li>
   </ul>"
     img_back: "/img/use-cases/How_to_arrive/OpenDataHub-usecase-how-to-arrive-widget-02.jpg"
-    img_credit: " © Pixabay"
+    img_credit: " © Open Data Hub"
     img_back_title: "How to Arrive in South Tyrol | Web Component Config"
     img_back_alt: "Configuration screen of the “How to Arrive in South Tyrol” web component powered by IDM and Open Data Hub."
-    partial: imgs-text.html
+    partial: imgs-text-enlargeable.html
 
   - description: "**A tool designed for everyone**:
   <br><br>
@@ -81,7 +81,7 @@ paragraphs:
     img_credit: "© Open Data Hub"
     img_back_title: "Open Data Hub – Intermediator for Data Sharing & Use"
     img_back_alt: "Screenshot showing Open Data Hub Data Browser linked to the Article Endpoint for publishing travel and transport information."
-    partial: text-imgs.html
+    partial: text-imgs-enlargeable.html
 
   - description: "Explore our **Data Visualization Service** and bring innovation to your digital projects with smart, interactive tools built on open data solutions for tourism:"
     btn_link: "/data-visualization"
