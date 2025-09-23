@@ -5,7 +5,7 @@
 ################################# Project #########################
 mission:
   title: "Develop digital solutions based on real data."
-  subtitle: "Open Data Hub is the cross-border digital platform that helps start-ups, companies and research institutes to develop digital solutions based on real data. It connects data from different data providers and makes this data easily available for data consumers."  
+  subtitle: "Open Data Hub is a cross-border digital platform designed to support start-ups, companies and research institutions in developing innovative digital solutions powered by real data. By aggregating data from multiple providers, it makes this information available through a unique access point, providing data consumers - including developers, data analysts and service providers - with high-quality, up-to-date data that is easy to access and use."  
   video: "https://player.vimeo.com/video/731281297?h=97566158a0"
 
 offset_images:

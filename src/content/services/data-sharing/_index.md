@@ -3,7 +3,7 @@ type: services/single
 position: "Services"
 aliases: /data-sharing
 title: "Data Sharing: share your data online."
-subtitle: "We help you to give visibility to your data, identify suitable formats, processing algorithms and licences and to use technologies known by application developers."
+subtitle: "Open Data Hub, through its Data Sharing platform and service, helps organisations make data visible and accessible in a secure and structured way - by identifying the right formats, licences and processing methods, and using technologies known and trusted by developers. Share your datasets securely and in real time through our standardised data sharing API and connect with a broader digital innovation ecosystem."
 
 seo:
   title: "Data Sharing | Open Data Hub for secure data sharing"
@@ -15,7 +15,7 @@ rows:
     description: |-
       - Visibility of your data
       - Visibility as a data provider in the Open Data Hub community
-      - Advanced infrastructure to publish your data in a standardised way
+      - Advanced infrastructure for standardised data sharing
       - Documentation
       - Web Component store for demo apps
       - Regular communication towards data consumers
@@ -33,7 +33,7 @@ rows:
   
   
   - title: "**Let your business grow** by sharing your data."
-    description: "Do you have data in the Tourism, Mobility, Traffic or Weather domains? Or any other data you think may be useful to the Open Data Hub Community?"
+    description: "Do you have data in the Tourism, Mobility or Weather domains - or any other data you believe could benefit the Open Data Hub community? Share it securely through our Data Sharing platform and connect with developers and partners to create new value."
     btn_link: "/contact?contact-reason=data-sharing"
     btn_label: "Contact us now!"
     img_back: "/img/services/data_sharing/ODH-data-sharing-bolzano.jpg"
@@ -74,7 +74,7 @@ rows:
   
   
   - title: "Still in doubt? We help you to see **data come alive!**"
-    description: "Do you need to test the potential of your data? Our experts will help you to test your idea and make it concrete with the Data Visualization service."
+    description: "Do you need to test the potential of your data? Our experts will help you explore your idea and turn it into a prototype using our Data Visualization service - with modular, Open Source tools that make raw data easier to understand and present."
     btn_link: "/services/data-visualization"
     btn_label: "Learn more about Data Visualization"
     img_back: "/img/services/data_sharing/ODH-data-sharing-data-visualization.jpg"

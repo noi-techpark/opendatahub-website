@@ -3,7 +3,7 @@ type: services/single
 position: "Services"
 aliases: /data-access
 title: "Data Access: understand now how to build on open data."
-subtitle: "If you develop software applications we provide access to open data, through a **machine-readable**, documented and **stable channel**, to updated and **real-time data**, released under an Open Data licence."
+subtitle: "If you're developing software applications, the Open Data Hub Data Access platform provides **reliable**, **documented** and **real-time datasets** through a **stable**, **machine-readable channel**. Data released under an Open Data licence supports developers, start-ups and public institutions in building transparent and scalable digital solutions."
 show_table: true
 
 seo:
@@ -31,7 +31,7 @@ rows:
     partial: imgs-icon-text.html
 
   - title: "Access **a growing number of datasets**"
-    description: "The data you need to build your next service. We provide a free and well documented API platform you can use to create new amazing applications."
+    description: "Discover hundreds of datasets to power your next digital service. The Data Access service provides a free, well-documented API platform that enables seamless integration of real-time and historical data - helping developers and organisations build reliable, data-driven applications."
     btn_link: "/datasets"
     btn_label: "Browse the datasets list"
     img_back: "/img/services/data_access/ODH-data-acess-datasets.jpg"
@@ -42,7 +42,7 @@ rows:
     partial: text-imgs.html
 
   - title: "Discover the data in our **Data Browser**"
-    description: "Use the data browser to explore the available Open Data, collected through various Interfaces and updated on a regular basis."
+    description: "Browse hundreds of datasets across sectors like mobility, tourism, environment and more. The Data Browser lets you search, filter and explore regularly updated Open Data - collected via standardised interfaces and made available in machine-readable formats."
     btn_link: "https://databrowser.opendatahub.com/"
     btn_label: "Open the Data Browser"
     img_back: "/img/services/data_access/ODH-data-access-data-browser.jpg"
@@ -54,7 +54,7 @@ rows:
     partial: imgs-text.html
 
   - title: "Check out the data in our **Analytics Tool**"
-    description: "View various types of information about sensors, including their locations, what they measure and the actual data in near-real time."
+    description: "Explore near-real time and historical data from sensors and stations - including what they measure, where they are located and how values evolve over time. The Analytics Tool helps you analyse sensor data in context and track patterns with ease."
     btn_link: "https://analytics.opendatahub.com/"
     btn_label: "Open the Analytics Tool"
     img_back: "/img/services/data_access/ODH-data-access-analytics-tool.jpg"
@@ -78,7 +78,7 @@ rows:
     partial: imgs-text.html
     
   - title: "We’re here to **support you, to find the best way to access our data!**"
-    description: "You will find the way to access data that fits the need of your application, by identifing the best quota limit that fits your needs."
+    description: "You will find the way to access data that fits the needs of your application, by identifying the best quota limit that fits your needs."
     btn_link: "https://github.com/noi-techpark/odh-docs/wiki/Api-Quota"
     btn_label: "Quota limits documentation"
     img_back: "/img/services/data_access/ODH-data-access-support.jpg"
@@ -90,7 +90,8 @@ rows:
     partial: text-imgs.html
 
   - title: "We’re here to **support you, so become a registered data consumer!**"
-    description: "You will receive mailing with regular communications, early communication in case of breaking changes of the datasets and direct contact to data providers upon request."
+    description: "Join our community to receive regular updates, early notifications about changes to datasets or APIs and direct contact with data providers when needed. Registered users may also benefit from tailored support to make the most of both real-time and historical data access.
+"
     btn_link: "/community"
     btn_label: "Join the community "
     img_back: "/img/services/data_access/ODH-data-access-support.jpg"

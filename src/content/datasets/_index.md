@@ -4,7 +4,7 @@
 position: "Datasets"
 
 title: "Datasets"
-subtitle: "Build your next service accessing **a growing number of datasets**. Get a quick overview on the data we provide. Datasets mostly fall in either Mobility and Tourism domains. Some data are available on request only."
+subtitle: "Access a **growing number of datasets** through our **Open Data Catalog** - with a focus on mobility and tourism. Our searchable catalogue includes both real-time and historical data, available in standardised, machine-readable formats that support easy integration into digital services. While many datasets are openly accessible, selected ones are available upon request to meet specific technical or organisational requirements."
 
 seo:
   title: "Datasets | Explore diverse data for smarter solutions"

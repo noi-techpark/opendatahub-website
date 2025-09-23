@@ -5,7 +5,7 @@ position: "Services"
 
 title: "Services"
 subtitle: >-
- Grow your business with data.​ Discover the benefits you can get by joining the ​Open Data Hub services.
+  Grow your business with data. Discover the benefits of Open Data Hub services - a reliable and developer-friendly solution for accessing, sharing and visualising real data. Our data platform supports businesses, public institutions and developers with structured, well-documented and ready-to-use data services that simplify integration, improve visibility and accelerate the development of data-driven digital solutions.
 
 seo:
   title: "Services | Empowering Data Access, Sharing and Visualization"

@@ -3,7 +3,7 @@ type: services/single
 position: "Services"
 aliases: /data-visualization
 title: "Data Visualization: understand the potential of data"
-subtitle: "We help companies to test, visualise and get inspired by data to make their ideas concrete and valuable."
+subtitle: "We help companies test, visualise and explore data to bring their ideas to life. Our Data Visualization service turns complex, real-time and historical datasets into meaningful insights and impactful visuals - supporting the creation of prototypes, dashboards and digital products."
 seo:
   title: "Data Visualization  | Open Data Hub for custom visualizations"
   description: "Visualize the potential of your data with Open Data Hub. We help organizations test, visualize and create custom visualizations using powerful data tools."
@@ -13,10 +13,10 @@ rows:
   - title: "As a data provider, you will get"
     description: |-
         - a proof of concept of the potential of your idea in a short time and at low cost 
-        - a prototype with innovative technologies to make your idea more concrete and valuable
+        - a prototype with innovative data visualisation tools to make your idea more concrete and usable
         - a network of experts at your disposal
 
-        Create a prototype in a short time and at low cost to understand the potential of your idea: through a network of experts, the <a style="text-decoration: underline;" href="https://freesoftwarelab.noi.bz.it/" target="_blank">Free Software Lab</a> helps you to develop a prototype with innovative technologies that makes your idea more concrete and valuable.
+        Create a prototype in a short time and low cost to understand the potential of your idea: through a network of experts, the Free Software Lab helps you develop a prototype with innovative data visualization technologies that make your idea more concrete and valuable.
 
     btn_link: "https://freesoftwarelab.noi.bz.it/services/prototype/"
     btn_label: "See details "
@@ -31,7 +31,7 @@ rows:
 
   - title: "As a data consumer, you will get"
     description: |-
-        - a guideline and inspiration for new digital products
+        - real-time data visualisation guidance and inspiration for new digital products
         - showcases for single or more datasets
         - web components freely available
         - Open source code on github (free to fork)
