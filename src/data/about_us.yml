@@ -32,8 +32,8 @@ paragraphs:
     partial: text-imgs-long.html
   - description: 
     img_back: "/img/Timeline-history-OpenDataHub.png"
-    img_back_alt: "Open Data Hub Timeline – Project Evolution 2010–2023"
-    img_back_title: "Timeline showing the evolution of the Open Data Hub from 2010 to 2023, illustrating its growth as an international data platform."
+    img_back_alt: "Open Data Hub Timeline – Project Evolution 2010–Today"
+    img_back_title: "Timeline showing the evolution of the Open Data Hub from 2010 to today, illustrating its growth as an international data platform."
     partial: img-big.html
   - description: "The main issue we try to address is that people who develop advanced apps, with advanced algorithms, also need data (if possible, simple and of high quality.) Otherwise the algorithms and the related innovative business models do not work. Thanks to the Open Data Hub, we try to provide a large amount of high quality data, reducing the so-called „cold start problem.“"
     title: "Patrick Ohnewein"
