@@ -9,7 +9,7 @@
 {{ partial "title.html" site.Data.about_us.start }}
 
 {{ range site.Data.about_us.paragraphs}}
-    <section>
+    <section {{ if eq .background_dark true}} class="bg-darker"{{ end }}>
         {{ partial .partial . }}
     </section>   
 {{ end }}
