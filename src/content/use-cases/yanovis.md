@@ -18,6 +18,7 @@ short:
   description: "Yanovis, a software company specializing in tourism solutions, has elevated its offerings by incorporating the innovative data visualization capabilities of the Open Data Hub. Recognizing the potential of the Open Data Hub’s web component showcasing real-time flight information from Sky Alps, Yanovis identified it as a valuable enhancement for their clients and seamlessly integrated it into their product, the Yanovis Travel Suite."
   btn_link: "/use-cases/yanovis"
   btn_label: Read more
+  img_link: "/use-cases/yanovis"
   img_back: "/img/use-cases/yanovis/Open-data-hub-yanovis-data-visualization-01.jpg"
   img_back_alt: ""
   img_back_title: ""

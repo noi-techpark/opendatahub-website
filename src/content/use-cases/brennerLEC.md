@@ -18,6 +18,7 @@ short:
   description: "BrennerLEC aims to make transit vehicle traffic on the Brenner axis more respectful of the health of the resident population and more compatible with the characteristics of the area, in order to protect the special Alpine environment it passes through."
   btn_link: "/use-cases/brennerlec"
   btn_label: Read more
+  img_link: "/use-cases/brennerlec"
   img_back: "/img/use-cases/brennerLEC/ODH-usecase-Brennerlec-image-01.jpg"
   img_back_alt: "Infographic illustrating BrennerLEC's strategies for reducing emissions on the A22 highway using Open Data Hub data."
   img_back_title: "BrennerLEC – Establishing a Lower Emission Corridor on the A22 Highway"

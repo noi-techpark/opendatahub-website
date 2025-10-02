@@ -9,9 +9,9 @@
 {{ partial "title.html" site.Data.about_us.start }}
 
 {{ range site.Data.about_us.paragraphs}}
-    <section {{ if eq (3) 0 }}class="bg-darker"{{ end }}>
+    <section>
         {{ partial .partial . }}
-    </section>
+    </section>   
 {{ end }}
 
 {{ end }}

@@ -19,6 +19,7 @@ short:
   description: "Arxax is dedicated to reducing carbon emissions in the Brenner corridor by optimizing and promoting cleaner transportation through a data-driven approach."
   btn_link: "/use-cases/arxax"
   btn_label: Read more
+  img_link: "/use-cases/arxax"
   img_back: "/img/use-cases/arxax/ODH-usecase-Arxax-1.jpg"
   img_back_alt: "Illustration of Arxax's data-driven approach to enhancing green fuel supply chains using Open Data Hub resources."
   img_back_title: "Arxax – Optimizing Green Fuel Supply Chains in Transportation"

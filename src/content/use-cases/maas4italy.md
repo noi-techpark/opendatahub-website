@@ -17,6 +17,7 @@ short:
   description: "Integrating transport services is key to smarter urban mobility. Supported by Open Data Hub, MaaS4Italy unites public transport, car sharing, bikes and taxis on one digital platform. It simplifies Data Access for local operators and enhances travel for citizens and tourists across Italy."
   btn_link: "/use-cases/maas4italy"
   btn_label: Read more
+  img_link: "/use-cases/maas4italy"
   img_back: "/img/use-cases/maas4italy/01-Open-Data-Hub-MaaS4italy.jpg"
   img_credit: "© sta - Südtiroler Transportstrukturen AG"
   img_back_alt: ""

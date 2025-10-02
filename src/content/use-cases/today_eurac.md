@@ -17,12 +17,13 @@ short:
   description: "Data visualization serves as a powerful tool in today's data-driven world, enhancing comprehension and facilitating communication."
   btn_link: "/use-cases/today@eurac"
   btn_label: Read more
+  img_link: "/use-cases/today@eurac"
   img_back: "/img/use-cases/today_eurac/01-OpenDataHub-Eurac-Tania-Marcadella-2023-3199.jpg"
   img_credit: "© Open Data Hub / Tania Marcadella"
   img_back_alt: "Photograph illustrating the collaboration between Open Data Hub and Eurac Research on data-driven projects."
   img_back_title: "Open Data Hub Collaboration with Eurac Research"
   bg_darker: true
-  partial: text-imgs-enlargeable.html
+  partial: text-imgs.html
   weight: 8
 
 start:

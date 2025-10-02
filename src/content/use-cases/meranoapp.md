@@ -18,12 +18,13 @@ short:
   description: "Real-time parking information in the Merano App, provided by the Open Data Hub, enhances the experience for tourists by eliminating uncertainty in finding parking and optimizes daily routines for locals, contributing to reduced traffic congestion and a more efficient use of parking resources for the benefit of both residents and visitors."
   btn_link: "/use-cases/meranoapp"
   btn_label: Read more
+  img_link: "/use-cases/meranoapp"
   img_back: "/img/use-cases/meranoapp/ODH-usecase-meranoapp-image-01.jpg"
   img_credit: "© Open Data Hub / Tania Marcadella"
   img_back_alt: "Screenshot of the Merano App integrating real-time data from Open Data Hub to improve tourist experiences."
   img_back_title: "Merano App – Enhancing Tourist Experiences with Real-Time Data"
   bg_darker: true
-  partial: text-imgs-enlargeable.html
+  partial: text-imgs.html
   weight: 10
 
 start:

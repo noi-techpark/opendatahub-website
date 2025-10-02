@@ -18,7 +18,13 @@
 				{{ end }}
 			</div>
 			<div class="col-12 col-lg-5 m-lg-0 text-center text-lg-end">
-				<img src="{{ .img_back }}" alt="{{ .img_back_alt }}" title="{{ .img_back_title }}"/>
+				{{ if and (isset . "img_link") }}
+					<a href="{{.img_link}}">
+						<img src="{{ .img_back }}" alt="{{ .img_back_alt }}" title="{{ .img_back_title }}"/>
+					</a>
+				{{ else}}
+					<img src="{{ .img_back }}" alt="{{ .img_back_alt }}" title="{{ .img_back_title }}"/>
+				{{end}}
 			</div>
 		</div>
 	</div>

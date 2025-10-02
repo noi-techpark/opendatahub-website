@@ -17,6 +17,7 @@ short:
   description: "In 2019, Open Data Hub and Ontopic embarked on a groundbreaking project to develop a Virtual Knowledge Graph based on real data, specifically focusing on tourism and mobility domains. This partnership aimed to revolutionise data access and provide valuable insights through a SPARQL endpoint."
   btn_link: "/use-cases/ontopic"
   btn_label: Read more
+  img_link: "/use-cases/ontopic"
   img_back: "/img/use-cases/ontopic/ODH-usecase-Ontopic-01.png"
   img_back_alt: "Diagram showcasing Ontopic's implementation of virtual knowledge graphs and SPARQL endpoints using Open Data Hub data."
   img_back_title: "Ontopic – Virtual Knowledge Graphs and SPARQL Endpoints"

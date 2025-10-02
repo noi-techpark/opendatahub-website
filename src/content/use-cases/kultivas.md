@@ -15,10 +15,11 @@ short:
   subtitle: "KULTIVAS"
   title: "**Big data technologies and apples**"
   description: "The innovative pilot project KULTIVAS combines the long-standing
-experience of South Tyrolean agriculture with the latest technologies, to
-improve the decision making in apple cultivation."
+  experience of South Tyrolean agriculture with the latest technologies, to
+  improve the decision making in apple cultivation."
   btn_link: "/use-cases/kultivas"
   btn_label: Read more
+  img_link: "/use-cases/kultivas"
   video: "https://player.vimeo.com/video/715104372?h=28580f7e63"
   bg_darker: true
   partial: text-video.html

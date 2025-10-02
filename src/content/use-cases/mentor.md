@@ -17,6 +17,7 @@ short:
   description: "A new concept is emerging worldwide: “MaaS - Mobility-as-a-Service”. The idea is to allow people, through a unique APP, to access on demand different mobility services that are integrated with each other and to choose from time to time the most appropriate one."
   btn_link: "/use-cases/mentor"
   btn_label: Read more
+  img_link: "/use-cases/mentor"
   img_back: "/img/use-cases/mentor/ODH-usecase-mentor-image-01.jpg"
   img_back_alt: "Graphic depicting the MENTOR project's integration of various mobility services in Merano through Open Data Hub."
   img_back_title: "MENTOR Project – Implementing Mobility-as-a-Service in Merano"

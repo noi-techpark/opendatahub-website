@@ -17,12 +17,13 @@ short:
   description: "The future of public mobility is based on fundamental aspects such as the provision of high-level information to passengers and the integration of a modern ticketing system. However, one important improvement takes centre stage: the new ability to seamlessly integrate points of interest (POIs) provided by the Open Data Hub, into search queries, without the need for precise addresses. The simplification of this process not only transforms the passenger experience, but also broadens the appeal of public transport, marking a significant leap forward in the evolution of transport services."
   btn_link: "/use-cases/suedtirolmobil"
   btn_label: Read more
+  img_link: "/use-cases/suedtirolmobil"
   img_back: "/img/use-cases/suedtirolmobil/ODH-usecase-suedtirolmobil-image-01.jpg"
   img_credit: "© Open Data Hub / Tania Marcadella"
   img_back_alt: "Image depicting Südtirolmobil's application integrating Open Data Hub's POI data for enhanced public mobility services."
   img_back_title: "Südtirolmobil – Integrating Points of Interest in Public Mobility"
   bg_darker: true
-  partial: imgs-text-enlargeable.html
+  partial: imgs-text.html
   weight: 9
 
 start:

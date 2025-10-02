@@ -22,12 +22,13 @@ short:
   It’s one of the most common questions among tourists planning a trip to the region. To provide a clear, multilingual and constantly updated answer, the “**How to Arrive in South Tyrol**” widget was developed — a web component that is easy to integrate, accessible to everyone and designed to make travel information readily available."
   btn_link: "/use-cases/howtoarrive"
   btn_label: Read more
+  img_link: "/use-cases/howtoarrive"
   img_back: "/img/use-cases/How_to_arrive/OpenDataHub-usecase-how-to-arrive-widget-01.jpg"
   img_credit: "© Open Data Hub"
   img_back_title: "How to Arrive in South Tyrol | Web Component Config"
   img_back_alt: "Configuration screen of the “How to Arrive in South Tyrol” web component powered by IDM and Open Data Hub."
   bg_darker: true
-  partial: imgs-text-enlargeable.html
+  partial: imgs-text.html
   weight: 17
 
 

@@ -17,6 +17,7 @@ short:
   description: "The ËRT project demonstrates the power of open data in transforming creative concepts into innovative solutions. By integrating datasets from the Open Data Hub, ËRT replaced time-consuming manual data entry with scalable, efficient processes. This enabled the creation of interactive landscape models that combine physical terrain reliefs with real-time digital projections, offering new ways to engage with geographical information."
   btn_link: "/use-cases/ert-map"
   btn_label: Read more
+  img_link: "/use-cases/ert-map"
   img_back: "/img/use-cases/ert/OpenDataHub-usecase-ert-moritz-brunner-01.jpg"
   img_credit: "© ËRT / Moritz Brunner"
   img_back_alt: "Visualisation of ËRT, an interactive landscape model developed by Moritz Brunner using Open Data Hub resources."

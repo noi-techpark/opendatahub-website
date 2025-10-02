@@ -18,6 +18,7 @@ short:
   description: "An interactive map that shows a large set of e-charging stations, together with important real-time information."
   btn_link: "/use-cases/green-mobility"
   btn_label: Read more
+  img_link: "/use-cases/green-mobility"
   img_back: "/img/use-cases/green_mobility/ODH-usecase-GREENMOBILITY-image-01.jpg"
   img_back_alt: "Image showcasing Green Mobility's initiatives in sustainable transportation, supported by Open Data Hub data."
   img_back_title: "Green Mobility – Promoting Sustainable Transportation Solutions"

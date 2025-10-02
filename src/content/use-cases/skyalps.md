@@ -17,12 +17,13 @@ short:
   description: "Open real-time flight data offers advantages to passengers, airlines, travel industry stakeholders and regulatory authorities alike. It enhances efficiency, improves planning and decision-making, and promotes a more seamless and transparent travel experience for all. It is also a great advantage for Taxi services, Shuttle services, and hotels offering transfers to have access to real-time flight data."
   btn_link: "/use-cases/skyalps"
   btn_label: Read more
+  img_link: "/use-cases/skyalps"
   img_back: "/img/use-cases/skyalps/ODH-usecase-skyalps-1.jpg"
   img_back_alt: "Image of SkyAlps aircraft, highlighting the airline's use of Open Data Hub for real-time flight data integration."
   img_back_title: "SkyAlps – Leveraging Open Data for Real-Time Flight Information"
   bg_darker: true
   img_credit: "© SkyAlps"
-  partial: text-imgs-enlargeable.html
+  partial: text-imgs.html
   weight: 6
 
 start:

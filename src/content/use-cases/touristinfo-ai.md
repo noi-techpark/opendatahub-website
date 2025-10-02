@@ -22,11 +22,12 @@ short:
   btn_link: "/use-cases/touristinfoai"
   btn_label: Read more
   img_back: "/img/use-cases/touristinfo-ai/open-data-hub-tourist-info-ai-landscape.jpg"
+  img_link: "/use-cases/touristinfoai"
   img_credit: "© Open Data Hub"
   img_back_title: "TOURISTINFO.AI – AI-powered Sustainable Tourism"
   img_back_alt: "TOURISTINFO.AI article about AI-powered sustainable destination management with Open Data Hub and tourism datasets."
   bg_darker: true
-  partial: text-imgs-enlargeable.html
+  partial: text-imgs.html
   weight: 18
 
 
