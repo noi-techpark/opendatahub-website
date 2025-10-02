@@ -33,7 +33,7 @@ short:
 
 start:
   description: "TOURISTINFO.AI"
-  title: "**AI-powered sustainable destination managemen**"
+  title: "**AI-powered sustainable destination management**"
   subtitle: "Developed by the South Tyrol-based startup Mediatize (incubated at NOI Techpark, founded by Julian Palmarin and Sebastian Betz), Touristinfo.ai, is an AI-powered virtual assistant designed to support destinations and tourist offices in managing visitor flows sustainably.<br>
   <br>
   The platform aggregates real-time data on traffic, parking, site access, weather and events, guiding visitors toward optimal solutions while reducing overcrowding."
