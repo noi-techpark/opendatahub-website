@@ -31,7 +31,7 @@ short:
 
 
 start:
-  description: "OURISTINFO.AI"
+  description: "TOURISTINFO.AI"
   title: "**AI-powered sustainable destination managemen**"
   subtitle: "Developed by the South Tyrol-based startup Mediatize (incubated at NOI Techpark, founded by Julian Palmarin and Sebastian Betz), Touristinfo.ai, is an AI-powered virtual assistant designed to support destinations and tourist offices in managing visitor flows sustainably.<br>
   <br>
@@ -43,9 +43,8 @@ start:
   partial:   title-cta.html
 
 paragraphs:
-  - description: "**Key features: Smart Travel Assistance** <br>
-    <br>
-    Designed with a multichannel and multilingual approach, the service is available 24/7 and can interact in more than 80 languages. Through real-time, data-driven recommendations, it helps visitors plan their journey by suggesting public transport routes, identifying refill points and pointing to less crowded alternatives to popular attractions. Content is fully customisable, enabling destinations and hotels to update responses in line with their values and sustainability principles. A network of interconnected chatbots further ensures access to verified information across multiple destinations, while instant onboarding makes it effortless to start: a simple QR code opens the chat directly on WhatsApp."
+  - description: "Designed with a multichannel and multilingual approach, the service is available 24/7 and can interact in more than 80 languages. Through real-time, data-driven recommendations, it helps visitors plan their journey by suggesting public transport routes, identifying refill points and pointing to less crowded alternatives to popular attractions. Content is fully customisable, enabling destinations and hotels to update responses in line with their values and sustainability principles. A network of interconnected chatbots further ensures access to verified information across multiple destinations, while instant onboarding makes it effortless to start: a simple QR code opens the chat directly on WhatsApp."
+    title: "**Key features: Smart Travel Assistance**"
     btn_link: "https://www.touristinfo.ai/"
     target_blank: true
     btn_label: More info
@@ -55,9 +54,8 @@ paragraphs:
     img_back_alt: "Screenshot of the TOURISTINFO.AI multilingual chatbot on mobile, providing real-time travel assistance and sustainable tourism info via Open Data Hub."
     partial: imgs-text-enlargeable.html
 
-  - description: "**What is the role of Open Data Hub in Touristinfo.ai?**
-  <br><br>
-  Open Data Hub provides Touristinfo.ai with access to essential mobility and traffic datasets, including public transport schedules and availability, parking information with live traffic conditions, weather and cable cars data, to support service planning and hotspot management. It connects traditionally perceived public stakeholders (such as provincial authorities for weather or public transport) as well as strong consortia and private partners (such as Dolomiti Superski). These integrations allow Touristinfo.ai to deliver accurate, timely and actionable recommendations, enhancing the visitor experience while contributing to sustainable tourism management."
+  - description: "Open Data Hub provides Touristinfo.ai with access to essential mobility and traffic datasets, including public transport  schedules and availability, parking information with live traffic conditions, weather and cable cars data, to support service planning and hotspot management. It connects traditionally perceived public stakeholders (such as provincial authorities for weather or public transport) as well as strong consortia and private partners (such as Dolomiti Superski). These integrations allow Touristinfo.ai to deliver accurate, timely and actionable recommendations, enhancing the visitor experience while contributing to sustainable tourism management."
+    title: "**What is the role of Open Data Hub in Touristinfo.ai?**"
     btn_link: "/datasets"
     btn_label: Explore the Datasets
     img_back: "/img/use-cases/touristinfo-ai/open-data-hub-tourist-info-ai-developer-01.jpg"
@@ -66,13 +64,12 @@ paragraphs:
     img_back_alt: "Developer working with Open Data Hub tools in a modern office, creating digital solutions based on real-world open data and tourism datasets."
     partial: text-imgs-enlargeable.html
 
-  - description: "**From data to experiences: unlocking the potential of data**<br>
-    <br>
-    The implementation in San Vigilio di Marebbe (https://www.sanvigilio.com/it) shows how Touristinfo.ai can be customised to local contexts: the chatbot “Giggo”, inspired by a local symbol, offers real-time guidance on activities, pet-friendly facilities and route planning. Built on reliable datasets, the system helps distribute visitor flows more evenly, easing overtourism, improving the efficiency of tourist offices and strengthening communication between destinations, hotels and guests.<br>
+  - description: "The implementation in San Vigilio di Marebbe (https://www.sanvigilio.com/it) shows how Touristinfo.ai can be customised to local contexts: the chatbot “Giggo”, inspired by a local symbol, offers real-time guidance on activities, pet-friendly facilities and route planning. Built on reliable datasets, the system helps distribute visitor flows more evenly, easing overtourism, improving the efficiency of tourist offices and strengthening communication between destinations, hotels and guests.<br>
     <br>
     This is just one example of how data from the Open Data Hub can be transformed into smarter services and engaging experiences.<br>
     <br>
     **Use Open Data Hub to build your next project.**"
+    title: "**From data to experiences: unlocking the potential of data**"
     btn_link: "/services/data-access/"
     btn_label: Access data
     img_back: "/img/use-cases/touristinfo-ai/open-data-hub-tourist-info-ai-presentation.jpg"

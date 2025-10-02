@@ -8,36 +8,17 @@ start:
   description: "ABOUT US"
   title: "**About Open Data Hub**"
 
-paragraph_2:
-  description: "Since 2010, Open Data Hub has stood for innovative solutions in the field of Open Data and is now an important partner of companies, research institutes and developers at a European level with the main goal of enabling the development of innovative digital solutions based on real data.
-
-
-  The Open Data Hub project began in South Tyrol in 2010 with the aim of grouping data collected from a series of European projects in the field of mobility research and development. This data comes from different sources, often with complex APIs. The Open Data Hub translates these APIs into well- documented Open Specification APIs, in order to simplify and improve the work of developers interested in creating apps, websites and other systems. <br> <br>
-  In 2016, tourism data was added to the field of mobility, again by providing easy-to-read, machine-readable,  high quality APIs. <br> <br> 
-  Today, the main objective of the Open Data Hub is to enable the development of digital solutions based on real data by expanding the collection and exchange of data on a European level working in the Data Spaces: Mobility, Tourism and Agriculture."
-
-paragraph_5:
-  img_back: "/img/Timeline-history-OpenDataHub.png"
-  img_back_alt: "Open Data Hub Timeline – Project Evolution 2010–2023"
-  img_back_title: "Timeline showing the evolution of the Open Data Hub from 2010 to 2023, illustrating its growth as an international data platform."
-
-paragraph_6:
-  description: "The main issue we try to address is that people who develop advanced apps, with advanced algorithms, also need data (if possible, simple and of high quality.) Otherwise the algorithms and the related innovative business models do not work. Thanks to the Open Data Hub, we try to provide a large amount of high quality data, reducing the so-called „cold start problem.“"
-  title: "Patrick Ohnewein"
-  subtitle: "Head of Tech Transfer Digital at NOI Techpark"
-
 paragraphs:
   - description: "Open Data Hub is a platform that provides access to a wide variety of public and private data, developed as an international **Free Open Source Software project**, it makes data from multiple sources available through a single platform. Built on European values, secure high-quality data and global collaborations, it fosters an open community of start-ups, companies and researchers, enabling them to develop digital solutions based on real data."
     partial: text-imgs-long.html
-  - description: "**Open Data Hub and the role of NOI Techpark**<br>
-    <br>
+  - description: "
     NOI Techpark plays a dual role in the Open Data Hub project, balancing governance with operational support to maintain the platform as a reliable, high-quality international Open Source resource.<br>
     As the **official maintainer**, NOI Techpark provides stable governance, strategic direction and resources for the ongoing maintenance of Open Data Hub, securing its long-term quality, reliability and performance. <br>
     As the **service provider**, NOI Techpark delivers the platform as a core service, offering an accessible and robust data infrastructure to an international community of start-ups, companies and researchers.<br>
     This combination of stewardship and service fosters a cooperative ecosystem with external collaborators and ensures continuous evolution of the project."
+    title: "**Open Data Hub and the role of NOI Techpark**"
     partial: text-imgs-long.html
-  - description: "**The evolution of the Open Data Hub Project**<br>
-    <br>
+  - description: "
     Since 2010, Open Data Hub has stood for innovative solutions in the field of Open Data and is now an important partner of companies, research institutes and developers at an international level.
     <br>
     The Open Data Hub project began in 2010 with the aim of grouping data collected from a series of European projects in the field of mobility research and development.
@@ -47,6 +28,7 @@ paragraphs:
     These datasets have come from multiple sources, often via complex APIs and Open Data Hub has translated them into well-documented Open Specification APIs, supporting the work of developers creating apps, websites and other systems.
     <br>
     Today, the main objective is to turn bold ideas into impactful realities by expanding data collection and exchange at an international level, within the **Data Spaces**: Mobility, Tourism, Agriculture and more."
+    title: "**The evolution of the Open Data Hub Project**"
     partial: text-imgs-long.html
   - description: 
     img_back: "/img/Timeline-history-OpenDataHub.png"
