@@ -8,16 +8,10 @@
 
 {{ partial "title.html" site.Data.about_us.start }}
 
-<section id="">
-    {{ partial "text-imgs-long.html" site.Data.about_us.paragraph_2 }}
-</section>
-
-<section id="">
-    {{ partial "img-big.html" (dict "img_back" site.Data.about_us.paragraph_5.img_back "img_back_alt" site.Data.about_us.paragraph_5.img_back_alt "img_back_title" site.Data.about_us.paragraph_5.img_back_title) }}
-</section>
-
-<section id="">
-    {{ partial "quote.html" site.Data.about_us.paragraph_6 }}
-</section>
+{{ range site.Data.about_us.paragraphs }}
+    <section id="">
+        {{ partial .partial . }}
+    </section>
+{{ end }}
 
 {{ end }}
