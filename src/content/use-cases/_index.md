@@ -2,7 +2,7 @@
 position: "Use Cases"
 
 title: "Use Cases "
-subtitle: "TExplore real-world examples of how innovative digital services have been developed using data from the Open Data Hub. These use cases highlight how Open Data can be applied to solve practical challenges - from improving urban mobility to enhancing the tourism experience.
+subtitle: "Explore real-world examples of how innovative digital services have been developed using data from the Open Data Hub. These use cases highlight how Open Data can be applied to solve practical challenges - from improving urban mobility to enhancing the tourism experience.
 Get inspired by concrete solutions that demonstrate the value of data in creating smarter, more connected digital ecosystems."
 
 seo:

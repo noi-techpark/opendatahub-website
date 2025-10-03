@@ -25,7 +25,7 @@ short:
   img_back_alt: "Photograph capturing the Contributor of the Year award ceremony at Open Data Hub Day 2025, recognising outstanding community contributions."
   img_back_title: "Open Data Hub – Contributor of the Year 2025 Award Ceremony"
   bg_darker: false
-  partial: text-imgs-enlargeable.html
+  partial: text-imgs.html
   weight: 16
 
 start:
