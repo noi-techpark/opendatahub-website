@@ -223,8 +223,25 @@ Event pages with a table of presentations now also support lists of multiple spe
         url: "https://…"
   # …
   ```
-  
 
+## Social cards
+
+Social cards define how links to the Open Data Hub website are displayed when shared on social platforms such as LinkedIn, Twitter (X), or Facebook.
+
+A fallback to an optimized Open Data Hub logo is implemented, so every shared link has an image.  
+Example from LinkedIn:  
+
+<img width="406" height="310" alt="Social card example" src="https://github.com/user-attachments/assets/d905ab21-7e7e-44eb-a71c-6e8f98fd87db" />
+
+For each page, you can set an individual image in the front matter. Example:
+
+```yaml
+images:
+- post-cover.png
+```
+
+Images must be placed in the `static` folder of the project.  
+The recommended size is `1200x630`, as this is the format most platforms use for social cards.
 
 
 
