@@ -1,5 +1,5 @@
 ---
-type: services/certification
+type: services/registration
 position: "Services"
 aliases: /register
 title: "Become an Open Data Hub registered user"
@@ -11,11 +11,8 @@ seo:
 
 rows:
   - title: "Why should I register?"
-    img_back: "/img/certification.jpg"
-    img_alt: "Certification process illustration"
-    img_title: "How to get certified"
-    description: >
-      By registering, you will be able to log in to all Open Data Hub tools, such as the **[Data Browser](https://databrowser.opendatahub.com/)** and the **[Analytics Tool](https://analytics.opendatahub.com/)**. More tools will be added soon and your registration will automatically give you access to them.
+    description:
+      By registering, you will be able to log in to all Open Data Hub tools, such as the **[Data Browser](https://databrowser.opendatahub.com/)** and the **[Analytics Tool](https://analytics.opendatahub.com/)**.
 
 
       Once you have registered, you will be given default access rights. If you need additional permissions for specific resources or datasets, please contact us at **[help@opendatahub.com](emailto:help@opendatahub.com).
