@@ -183,11 +183,36 @@ menu:
       URL: "/web-components"
       weight: 4
 
-    # --- Quickstart ---
-    - identifier: quickstart
+    # --- Resources ---
+    - identifier: resources
       URL: /quickstart
-      name: Quickstart
+      name: Resources
       weight: 5
+
+    - parent: resources
+      name: Tools
+      URL: /tools
+      weight: 1  
+
+    - parent: resources
+      name: APIs
+      URL: /API
+      weight: 2
+    
+    - parent: resources
+      name: Documentation
+      URL: /documentation
+      weight: 3
+
+    - parent: resources
+      name: Source code
+      URL: /code
+      weight: 4
+
+    - parent: resources
+      name: Design Guidelines
+      URL: /community/design-guidelines
+      weight: 7
 
     # --- Community ---
     - identifier: community
@@ -225,10 +250,6 @@ menu:
       URL: /community/get-involved
       weight: 6
 
-    - parent: community
-      name: Design Guidelines
-      URL: /community/design-guidelines
-      weight: 7
 
     # --- Events ---
     - identifier: events

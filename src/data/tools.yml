@@ -1,0 +1,26 @@
+# SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+#
+# SPDX-License-Identifier: CC0-1.0
+
+boxes:
+  - title: Data Browser 2.0
+    subtitle: Browse and discover the available data.
+    btn_link: https://databrowser.opendatahub.com
+
+  - title: Analytics Tool
+    subtitle: Find out information about sensors and their locations and measure (near-real time data).
+    btn_link: https://analytics.opendatahub.com
+
+  - title: Web Component Store
+    subtitle: Discover all the already developed Web Components. Freely available and ready to be reused.
+    btn_link: https://webcomponents.opendatahub.com
+
+  # - title: OpenTripPlanner (OTP) API
+  #   subtitle: Access the Open Data Hub mobility data through the OTP journey planner API.
+  #   btn_link: http://dev.opentripplanner.org/apidoc/1.0.0/index.html
+
+  # - title: Access Open Data Hub data from R
+  #   subtitle: bzar provides access to Open Data Hub time-series data from within R.
+  #   btn_link: https://github.com/noi-techpark/it.bz.opendatahub.analytics.libs/tree/main/api/R
+  
+    

@@ -1,0 +1,19 @@
+# SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+#
+# SPDX-License-Identifier: CC0-1.0
+
+boxes:
+  - title: Documentation
+    subtitle: A collection of the technical documentation about the Open Data Hub project.
+    btn_link: https://github.com/noi-techpark/odh-docs/wiki
+
+  - title: List of HOWTOs
+    subtitle: A list of available howtos.
+    btn_link: https://opendatahub.readthedocs.io/en/latest/howto.html
+
+  - title: Read the Docs
+    subtitle: A collection of all technical resources about the Open Data Hub project.
+    btn_link: https://docs.opendatahub.com
+
+  
+    
