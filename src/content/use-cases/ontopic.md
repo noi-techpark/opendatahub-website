@@ -14,7 +14,7 @@ seo:
 short:
   subtitle: "ONTOPIC"
   title: "**Revolutionising Data Access with SPARQL Endpoint and Virtual Knowledge Graph**"
-  description: "In 2019, Open Data Hub and Ontopic embarked on a groundbreaking project to develop a Virtual Knowledge Graph based on real data, specifically focusing on tourism and mobility domains. This partnership aimed to revolutionise data access and provide valuable insights through a SPARQL endpoint."
+  description: "In 2019, Open Data Hub and Ontopic began an ambitious project to develop a Virtual Knowledge Graph leveraging real-world data. The aim was to give developers and data consumers seamless access to real-time mobility and tourism open datasets via a SPARQL endpoint, thereby creating a new open data access platform."
   btn_link: "/use-cases/ontopic"
   btn_label: Read more
   img_link: "/use-cases/ontopic"
@@ -28,14 +28,14 @@ short:
 start:
   description: "ONTOPIC"
   title: "**Revolutionising Data Access with SPARQL Endpoint and Virtual Knowledge Graph**"
-  subtitle: "In 2019, Open Data Hub and [Ontopic](https://ontopic.ai/en/) embarked on an ambitious project to develop a Virtual Knowledge Graph that would leverage real-world data. The goal was to provide seamless access to real-time mobility and tourism data through a SPARQL endpoint."
+  subtitle: "In 2019, Open Data Hub and [Ontopic](https://ontopic.ai/en/) began an ambitious project to develop a Virtual Knowledge Graph leveraging real-world data. The aim was to give developers and data consumers seamless access to real-time mobility and tourism open datasets via a SPARQL endpoint, thereby creating a new open data access platform."
   img_back: "/img/use-cases/ontopic/ODH-usecase-Ontopic-01.png"
   img_back_alt: "Visualization of Ontopic's virtual knowledge graph integrating data from Open Data Hub."
   img_back_title: "Ontopic's Virtual Knowledge Graph for Open Data Hub"
   partial: title-cta.html
 
 paragraphs:
-  - description: "In 2020, the first version of the SPARQL endpoint was unveiled. This groundbreaking tool exposed the data from the two primary Open Data Hub Data Spaces, catering to both the mobility and tourism domains. The SPARQL endpoint became the go-to resource for querying and accessing valuable information."
+  - description: "The first version of the SPARQL endpoint was unveiled in 2020. This innovative tool made data from the primary Open Data Hub data spaces accessible, particularly within the mobility and tourism domains. It quickly became the go-to API for real-time data access, querying and extracting valuable information, offering developers and organisations a reliable open data integration solution."
     img_back: "/img/use-cases/ontopic/ODH-usecase-Ontopic-02.png"
     img_back_alt: "Screenshot of Ontopic's SPARQL endpoint interface, enabling users to query real-time mobility and tourism data."
     img_back_title: "Ontopic's SPARQL Endpoint Interface"
@@ -43,20 +43,20 @@ paragraphs:
     btn_label: "DISCOVER MORE"
     partial: imgs-text-enlargeable.html
 
-  - description: "In acknowledgment of the significance of user experience, Ontopic introduced a user-friendly version of the SPARQL endpoint in 2021. This intuitive interface was designed to facilitate data consumption and the creation of precise SPARQL queries, simplifying the process and empowering users to leverage the SPARQL endpoint's capabilities more effectively. The testing phase has concluded for now. However, it can be reopened in response to genuine and specific needs."
+  - description: "Recognizing the importance of user experience, Ontopic introduced a user-friendly version of the SPARQL endpoint in 2021. This intuitive interface was designed to make it easier to consume data and create precise SPARQL queries, enabling more users to work with real-time datasets for their applications. It simplified complex semantic searches and showcased the interactive data access tools offered by Open Data Hub. Although the testing phase has now concluded, the interface could be reopened based on demand."
     img_back: "/img/use-cases/ontopic/ODH-usecase-Ontopic-03.png"
     img_credit: "Screenshot of the navigable Knowledge Graph proof of concept"
     img_back_alt: "Visual representation of Ontopic's navigable knowledge graph, integrating data from Open Data Hub."
     img_back_title: "Navigable Knowledge Graph by Ontopic"
     partial: text-imgs-enlargeable.html
 
-  - description: "As 2022 drew to a close, Ontopic took a significant step forward by officially publishing a testing version of the SPARQL endpoint. This version was powered by real data sourced from the Open Data Hub, ensuring its reliability and accuracy. With this milestone, Ontopic solidified its commitment to delivering a robust and dependable resource for data consumption."
+  - description: "By the end of 2022, Ontopic had officially published the testing version of the SPARQL endpoint. Powered by real-time open data sourced from the Open Data Hub, this version confirmed both reliability and performance. With this milestone, Ontopic demonstrated its ongoing commitment to open data access, helping to build data-driven solutions for businesses and developers."
     img_back: "/img/use-cases/ODH-website-usecases-contact-us.jpg"
     img_back_alt: "Contact page inviting users to reach out for customized knowledge graph and data integration solutions."
     img_back_title: "Contact for Knowledge Graph Solutions"
     partial: imgs-text-enlargeable.html
 
-  - description: "Whether you’re a data enthusiast, developer, or domain expert, if you have a real use case and wish to explore the power of knowledge graphs and semantics in the Open Data Hub, please don’t hesitate to contact us. While the current testing phase has concluded, we are ready to reopen it in response to genuine and specific needs."
+  - description: "Whether you’re a developer, data scientist, or semantic web enthusiast, if you want to explore public datasets for data analysis and open data access tools, we invite you to get in touch. Even though the current testing phase has concluded, we’re ready to reopen it for meaningful projects and specific requests."
     img_back: "/img/use-cases/ontopic/ODH-usecase-Ontopic-04.png"
     img_back_alt: "Diagram illustrating the development process of Ontopic's virtual knowledge graph in collaboration with Open Data Hub."
     img_back_title: "Ontopic's Virtual Knowledge Graph Development"

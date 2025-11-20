@@ -15,7 +15,7 @@ seo:
 short:
   subtitle: "SÜDTIROLMOBIL BIKEBOX"
   title: "**Cyclists' mobility made easy**"
-  description: "Südtirolmobil Bikeboxes are safe storage spaces for bicycles. The bike boxes service is seamlessly integrated with the Südtirolmobil scheme, further enhancing the Mobility as a Service (MaaS) perspective in the region. Cyclists with a Südtirol Pass can now utilize a single application to access a multitude of mobility services, ranging from public transportation to bike parking facilities, streamlining their travel experience."
+  description: "Südtirolmobil Bikeboxes are safe storage spaces for bicycles. The bike box service is seamlessly integrated into the Südtirolmobil system, enhancing the Mobility as a Service (MaaS) experience from a cyclist’s point of view. Cyclists with a Südtirol Pass can now use a single app to access a multimodal mobility service that includes public transport and smart bike parking, improving the overall travel experience."
   btn_link: "/use-cases/bikebox"
   btn_label: Read more
   img_link: "/use-cases/bikebox"
@@ -30,7 +30,7 @@ short:
 start:
   description: "SÜDTIROLMOBIL BIKEBOX"
   title: "**Cyclists' mobility made easy**"
-  subtitle: "Südtirolmobil Bikeboxes are safe storage spaces for bicycles. The bike boxes service is seamlessly integrated with the Südtirolmobil scheme, further enhancing the Mobility as a Service (MaaS) perspective in the region. Cyclists with a Südtirol Pass can now utilize a single application to access a multitude of mobility services, ranging from public transportation to bike parking facilities, streamlining their travel experience."
+  subtitle: "Südtirolmobil Bikeboxes are safe storage spaces for bicycles. The bike box service is seamlessly integrated into the Südtirolmobil system, enhancing the Mobility as a Service (MaaS) experience from a cyclist’s point of view. Cyclists with a Südtirol Pass can now use a single app to access a multimodal mobility service that includes public transport and smart bike parking, improving the overall travel experience."
   img_back: "/img/use-cases/bikebox/OpenDataHub-BikeBox-Tania-Marcadella-2024-8305.jpg"
   img_back_alt: "Photograph of BikeBox facilities offering secure bicycle storage integrated with Südtirolmobil services"
   img_back_title: "BikeBox – Secure Bicycle Storage Solutions"
@@ -40,11 +40,11 @@ start:
 paragraphs:
   - description: "**The challenge:**
     <br>
-    Südtirolmobil (STA) commissioned Open Data Hub (NOI) to integrate real-time Bikebox data into the Open Data Hub and make it accessible via the API. This integration aims to fully integrate the Bikebox service into the Südtirol Pass system, which corresponds to a Mobility as a Service (MaaS) perspective.
+    Südtirolmobil (STA) commissioned Open Data Hub (NOI) to integrate real-time bike parking data into the platform and make it accessible via API. The aim was to ensure that cyclists could access live availability data on Bikebox spaces and integrate this information into the Südtirol Pass ecosystem — essential for a comprehensive urban mobility data platform.
     <br><br>
     **The solution:**
     <br>
-    To overcome this challenge, STA worked with Open Data Hub to seamlessly integrate the data from bike boxes into the Open Data Hub infrastructure. The API makes this data easily available, which facilitates integration into the Südtirol Pass system and improves user-friendliness for cyclists."
+    To meet this challenge, Open Data Hub has seamlessly connected its real-time data API with Bikebox infrastructure data. This enables live updates on parking space availability, helping cyclists to plan ahead more easily. This integration enhances digital mobility services for cyclists, promoting sustainable and bike-friendly travel."
     img_back: "/img/use-cases/bikebox/OpenDataHub-BikeBox-Tania-Marcadella-2024-8354.jpg"
     img_back_alt: "Image of a cyclist storing their bicycle in a BikeBox, showcasing the convenience of secure storage options."
     img_back_title: "Cyclist Utilizing BikeBox Storage Facility"
@@ -55,9 +55,9 @@ paragraphs:
 
   - description: "**The advantages:**
     <br>
-    The integration of bike box data into the Open Data Hub demonstrates the productivity potential of using open data for mobility solutions, benefiting both users and developers interested in optimizing transport experiences.
+    Integrating bike infrastructure data into the Open Data Hub demonstrates the practical value of urban mobility data and its potential to enhance everyday travel. Both users and developers benefit — cyclists can access real-time information, and digital services can be expanded using a reliable bike parking API.
     <br><br>
-    Cyclists with a Südtirol Pass can easily access real-time information on available bike parking facilities via the Südtirolmobil app, which simplifies their journey planning and promotes sustainable transport options."
+    Cyclists with a Südtirol Pass can now access accurate, real-time updates on available bike boxes. This encourages the use of more sustainable transport and helps to build smarter urban mobility systems."
     img_back: "/img/use-cases/bikebox/OpenDataHub-BikeBox-Tania-Marcadella-2024-8389.jpg"
     img_back_alt: "Visual representation of the seamless integration between BikeBox facilities and Südtirolmobil's Mobility as a Service offerings."
     img_back_title: "Integration of BikeBox with Südtirolmobil Services"

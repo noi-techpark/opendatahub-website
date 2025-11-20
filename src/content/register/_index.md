@@ -24,5 +24,5 @@ rows:
       Start your journey with the Open Data Hub today!
 
     partial: button-linkto.html
-    link: "https://auth.opendatahub.testingmachine.eu/auth/realms/noi/protocol/openid-connect/registrations?client_id=com.opendatahub&response_type=code&scope=openid+email&redirect_uri=https://opendatahub.testingmachine.eu&kc_locale="
+    link: "https://auth.opendatahub.com/auth/realms/noi/protocol/openid-connect/registrations?client_id=com.opendatahub&response_type=code&scope=openid+email&redirect_uri=https://opendatahub.com&kc_locale="
 ---

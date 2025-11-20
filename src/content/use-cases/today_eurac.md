@@ -14,7 +14,7 @@ seo:
 short:
   subtitle: "TODAY@EURAC"
   title: "**Enhancing Event Visibility through Data Visualization at Eurac**"
-  description: "Data visualization serves as a powerful tool in today's data-driven world, enhancing comprehension and facilitating communication."
+  description: "In today’s data-driven world, data visualisation is a powerful tool that enhances comprehension and facilitates communication. Eurac uses the Open Data Hub’s visualisation tools to create customised visual outputs that boost event visibility and audience engagement."
   btn_link: "/use-cases/today@eurac"
   btn_label: Read more
   img_link: "/use-cases/today@eurac"
@@ -29,7 +29,7 @@ short:
 start:
   subtitle: "TODAY@EURAC"
   title: "**Enhancing Event Visibility through Data Visualization at Eurac**"
-  description: Data visualization serves as a powerful tool in today's data-driven world, enhancing comprehension and facilitating communication.
+  description: "In today’s data-driven world, **data visualisation** is a powerful tool that **enhances comprehension** and **facilitates communication**. Eurac uses the Open Data Hub’s visualisation tools to create customised visual outputs that boost event visibility and audience engagement."
   img_back: "/img/use-cases/today_eurac/02-OpenDataHub-Eurac-Tania-Marcadella-2023-3295.jpg"
   img_credit: "© Open Data Hub / Tania Marcadella"
   img_back_alt: "Digital display at Eurac Research Center showing upcoming events, powered by Open Data Hub's data visualization."
@@ -38,7 +38,7 @@ start:
 
 paragraphs:
   - title: "**The need of Eurac and the solution through Open Data Hub**"
-    description: "The research center, Eurac Research, headquartered in Bolzano, sought to improve the visibility and accessibility of events taking place within their facilities. To achieve this, it was decided to use data visualization by extending the Today@NOI web component, which initially displayed events at NOI, to events at Eurac. The Eurac-events are now displayed on a screen in the entrance hall in their own design."
+    description: "Eurac Research, a research centre headquartered in Bolzano, sought to improve the visibility and accessibility of events taking place within its facilities. To this end, they opted for a solution based on open-source data visualisation tools provided by the Open Data Hub. Integrating the Today@NOI web component significantly increased clarity by displaying real-time event information. Eurac events are now displayed on screens using a data visualisation platform for open data that has been tailored to their design and identity."
     img_back: "/img/use-cases/today_eurac/03-OpenDataHub-Eurac-Tania-Marcadella-2023-3410.jpg"
     img_credit: "© Open Data Hub / Tania Marcadella"
     img_back_alt: "Team at Eurac Research collaborating on data visualization projects using Open Data Hub services."
@@ -46,7 +46,7 @@ paragraphs:
     partial: imgs-text-enlargeable.html
 
   - title: "**Efficient Configuration**"
-    description: "Harnessing the capabilities of Open Data Hub and sharing relevant data facilitated the effortless reconfiguration of a web component using standard APIs. This straightforward configuration tweak allowed for the display of events either at NOI or at Eurac. The adaptability showcased not only saved valuable time and resources but also emphasized the potential of Open Data Hub in streamlining configurations and meeting specific requirements with ease."
+    description: "The effortless reconfiguration of a web component using standard APIs was facilitated by harnessing the capabilities of the Open Data Hub and sharing relevant datasets. This straightforward tweak to the setup enabled events to be displayed either on-site or remotely. This custom data visualisation solution for businesses saved time and resources while showcasing the flexibility of the Open Data Hub’s visualisation services in meeting specific organisational requirements efficiently."
     img_back: "/img/use-cases/today_eurac/04-OpenDataHub-Eurac-Tania-Marcadella-2023-3313.jpg"
     img_credit: "© Open Data Hub / Tania Marcadella"
     img_back_alt: "Eurac Research staff managing events with data visualization tools from Open Data Hub."
@@ -54,7 +54,7 @@ paragraphs:
     partial: text-imgs-enlargeable.html
 
   - title: "**Let us visualize your data**"
-    description: "If you need to show your events in a simple way or are generally interested in our Data Visualization service, do not hesitate to contact us."
+    description: "If you need to present your events in a simple and effective way, or if you are generally interested in our data visualisation services, please do not hesitate to contact us. We provide scalable, interactive solutions that can be tailored to your requirements."
     img_back: "/img/use-cases/today_eurac/05-OpenDataHub-Eurac-Tania-Marcadella-2023-3333.jpg"
     img_credit: "© Open Data Hub / Tania Marcadella"
     img_back_alt: "Screens at Eurac Research displaying events, enhanced by Open Data Hub's data visualization services."
