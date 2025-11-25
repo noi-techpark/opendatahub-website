@@ -14,7 +14,7 @@ enableRobotsTXT: true
 
 params:
   images:
-    - /img/NOI_OPENDATAHUB_NEW_BK_nospace-01-social.svg
+    - /img/NOI_OPENDATAHUB_NEW_BK_nospace-01-social.png
   wcs_cdn_base: https://cdn.webcomponents.opendatahub.testingmachine.eu
   web_components:
     datasets_list_widget:
