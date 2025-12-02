@@ -16,6 +16,12 @@
 				{{ if and (isset . "btn_link") (isset . "btn_label") }}
 				<a {{ if .target_blank }}target="_blank"{{ end }} href="{{.btn_link}}" class="btn btn-primary">{{ .btn_label | markdownify }}</a>
 				{{ end }}
+
+				{{ if and (isset . "btn_link2") (isset . "btn_label2") }}
+				<div class="mt-3">
+				<a {{ if .target_blank }}target="_blank" {{ end }} href="{{.btn_link2}}" class="btn btn-primary">{{ .btn_label2 |markdownify }}</a>
+				</div>
+				{{ end }}
 			</div>
 			<div class="col-12 col-lg-5 m-lg-0">
 				{{ partial "img-enlargeable.html" . }}
