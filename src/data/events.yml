@@ -4,6 +4,24 @@
 
 events:
 
+  - title: Open Data Hub Day 2026
+    subtitle: A best practice event to help you understand and maximise the value of data. Now in its fifth edition.
+    img: /img/events/20260515-OpenDataHubDay26.jpg
+    day: "2026-05-15"
+    time: "08:30 - 17:00"
+    location: "NOI Techpark"
+    btn_link: /events/odhday26
+    btn_label: More info
+
+  - title: Open Data Hub Bootcamp 2026
+    subtitle: Explore the limitless possibilities of the Open Data Hub in a collaborative, fun environment where you can share knowledge, experiences - and inspiration!
+    img: /img/events/20260414-bootcamp.png
+    day: "2026-04-14"
+    time: "9:00 - 18:00"
+    location: "NOI Techpark"
+    btn_link: /events/bootcamp26
+    btn_label: More info
+
   - title: NOI Hackathon - SFSCON Edition 2025
     subtitle: 24 hours of hacking, collaborating, co-creating and developing.
     img: /img/events/20251107-Hackathon-SFSCON.jpg

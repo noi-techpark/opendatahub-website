@@ -86,7 +86,6 @@ paragraphs:
     target_blank: true
     btn_link2: "mailto: help@opendatahub.com"
     btn_label2: contact us
-    target_blank2: true
     img_back: "/img/use-cases/independentl/OpenDataHub-parking-measurement-7050.jpg"
     img_credit: "© Open Data Hub / Tania Marcadella"
     img_back_title: "Recording EV Charging Data for Open Data Hub Browser"
