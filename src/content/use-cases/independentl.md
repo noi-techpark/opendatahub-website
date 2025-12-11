@@ -65,8 +65,8 @@ paragraphs:
     btn_link: "https://databrowser.opendatahub.com/dataset/table/tourism/v1/ODHActivityPoi?tagfilter=electric+charging+stations"
     btn_label: Discover the dataset
     target_blank: true
-    btn_link2: "https://databrowser.opendatahub.com/dataset/table/tourism/v1/ODHActivityPoi?tagfilter=electric+charging+stations"
-    btn_label2: View the ​’charging stations for electric vehicles accessibility’ report
+    btn_link2: "https://cloud.opendatahub.com/index.php/s/GPxcXBwMpkpxP74"
+    btn_label2: View the ​’charging stations for electric vehicles accessibility’ report (German)
     target_blank2: true
     img_back: "/img/use-cases/independentl/OpenDataHub-parking-measurement-6984.jpg"
     img_credit: "© Open Data Hub / Tania Marcadella"

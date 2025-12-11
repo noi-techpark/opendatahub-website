@@ -9,7 +9,7 @@ aliases:
   - "/odhday26"
 
 title: "Open Data Hub Day 2026"
-subtitle: "The sixth edition of the Open Data Hub Day will take place on 15th May at NOI Techpark in Bolzano/Bozen, Italy. The event will focus on best practices for understanding and using data to its full potential. Open data is an increasingly important topic for those working in business and research. <br>
+subtitle: "The sixth edition of the Open Data Hub Day will take place on 15th May at NOI Techpark in Bolzano/Bozen, Italy. The event will focus on best practices for understanding and using data to its full potential. Open Data is an increasingly important topic for those working in business and research. <br>
 <br>
 Join us as we explore the topic with experts and representatives from leading companies, as well as NOI's academic partners.
 "
@@ -26,7 +26,7 @@ program:
   subtitle: "The event will be held in English."
 
 content:
-#  btn_top_link: https://pretix.eu/noi-digital/open-data-hub-day-25/
+#  btn_top_link: https://pretix.eu/noi-digital/open-data-hub-day-26/
 #  btn_top_label: "Register Now"
 #  btn_top_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
