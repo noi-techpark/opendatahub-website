@@ -32,7 +32,7 @@ short:
 
 
 start:
-  description: "IDEPENDENT L"
+  description: "INDEPENDENT L"
   title: "**Inclusive e-mobility: when data makes a difference**"
   subtitle: "Independent L. works every day to promote truly **accessible and inclusive mobility** and **public space for people with disabilities**. While electric mobility is an important step forward, it risks excluding certain categories of users if accurate information on the physical accessibility of infrastructure, such as electric vehicle charging stations, is not provided."
   img_back: "/img/use-cases/independentl/OpenDataHub-parking-measurement-7013.jpg"
@@ -59,14 +59,13 @@ paragraphs:
   - description: "A team from Independent L. examined the electric vehicle charging stations in the field, assessing each facility on the basis of 15 technical criteria. These included parking space dimensions, surface type, slopes, signage, cable length and the height of controls.
   <p>
   All the collected data was entered into the Open Data Hub's **Data Browser** in a dataset providing a detailed **overview of charging station accessibility for people with disabilities**. According to the parameters collected and the organisation's technical analysis, each charging station was classified as Accessible (24%), Partially Accessible (22%) or Not Accessible (54%).
-  </p>
-  View the ​’charging stations for electric vehicles accessibility’ report: [link](https://databrowser.opendatahub.com/dataset/table/tourism/v1/ODHActivityPoi?tagfilter=electric+charging+stations)."
+  </p>"
     title: "**Public car parks connected through Skidata**"
     btn_link: "https://databrowser.opendatahub.com/dataset/table/tourism/v1/ODHActivityPoi?tagfilter=electric+charging+stations"
     btn_label: Discover the dataset
     target_blank: true
     btn_link2: "https://cloud.opendatahub.com/index.php/s/GPxcXBwMpkpxP74"
-    btn_label2: View the ​’charging stations for electric vehicles accessibility’ report (German)
+    btn_label2: View the ​"charging stations for electric vehicles accessibility" report (German)
     target_blank2: true
     img_back: "/img/use-cases/independentl/OpenDataHub-parking-measurement-6984.jpg"
     img_credit: "© Open Data Hub / Tania Marcadella"
@@ -85,7 +84,7 @@ paragraphs:
     btn_label: Explore the Data Browser
     target_blank: true
     btn_link2: "mailto: help@opendatahub.com"
-    btn_label2: contact us
+    btn_label2: "Contact us"
     img_back: "/img/use-cases/independentl/OpenDataHub-parking-measurement-7050.jpg"
     img_credit: "© Open Data Hub / Tania Marcadella"
     img_back_title: "Recording EV Charging Data for Open Data Hub Browser"
