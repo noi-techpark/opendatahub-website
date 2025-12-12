@@ -10,7 +10,7 @@ events:
     day: "2026-05-15"
     time: "08:30 - 17:00"
     location: "NOI Techpark"
-    btn_link: /events/odhday26
+    btn_link: /events/day26
     btn_label: More info
 
   - title: Open Data Hub Bootcamp 2026
