@@ -2,10 +2,16 @@
 type: events/single
 content_partial: table-program-press-release
 position: "Events"
-url: "/events/odhday26/"
+url: "/events/day26/"
+
+seo:
+  title: "Open Data Hub Day 2026 – Data, Use Cases & Data Spaces"
+  description: "Join Open Data Hub Day 2026 on 15 May at NOI Techpark in Bolzano to explore best practices, real use cases and data spaces with experts from business and research."
+
 aliases:
   - "/events/odhday"
   - "/odhday"
+  - "/day"
   - "/odhday26"
 
 title: "Open Data Hub Day 2026"
