@@ -15,11 +15,17 @@ aliases:
   - "/day"
   - "/odhday26"
 
-title: "Open Data Hub Day 2026"
-subtitle: "The sixth edition of the Open Data Hub Day will take place on 15th May at NOI Techpark in Bolzano/Bozen, Italy. The event will focus on best practices for understanding and using data to its full potential. Open Data is an increasingly important topic for those working in business and research. <br>
-<br>
-Join us as we explore the topic with experts and representatives from leading companies, as well as NOI's academic partners.
-"
+start:
+  partial: title-cta.html
+  title: "Open Data Hub Day 2026"
+  subtitle: "The sixth edition of the **Open Data Hub Day** will take place on **15th May 2026** at **NOI Techpark** in Bolzano/Bozen, Italy. The event will focus on best practices for understanding and using data to its full potential. Open Data is an increasingly important topic for those working in business and research. <br>
+  <br>
+  Join us as we explore the topic with experts and representatives from leading companies, as well as NOI's academic partners.
+  "
+  img_back: "/img/events/20260515-OpenDataHubDay26-detail-1200-630.png"
+  img_credit: "© Open Data Hub"
+  img_back_title: "Open Data Hub Day 2026"
+  img_back_alt: "Open Data Hub Day - 15th May 2026 - NOI Techpark Bolzano/Bozen, Italy"
 
 callForSpeakers:
   title: "Open Data Hub Day - Call4Speakers"
@@ -45,12 +51,12 @@ content:
       width: 5%
     - title: Track
       width: 10%
-    - title: Speaker
-      width: 15%
-    - title: Organization
-      width: 15%
+    # - title: Speaker
+    #   width: 15%
+    # - title: Organization
+    #   width: 15%
     - title: Title
-      width: 50%
+      width: 85%
 #    - title: Slides
 #      width: 5%
 #    - title: Video
@@ -58,37 +64,37 @@ content:
   row:
     - cols:
       - time: "8.30"
-      - track: ""
+      - track: "Main Track"
       - content: "Check-in starting at 8.30"
     - cols:
       - time: "9.00"
       - track: "Main Track"
-      - speaker: ""
-      - org: ""
-      - orgURL: ""
+#      - speaker: ""
+#      - org: ""
+#      - orgURL: ""
       - content: "Open Data Hub Day - Opening"
-      - slidesLink: ""
-      - videoLink: ""
-    - cols:
-      - time: "9.15"
-      - track: "Main Track"
-      - speaker: "Patrick Ohnewein"
-      - speakerURL: "https://www.linkedin.com/in/ohnewein/"
-      - org: "NOI Techpark"
-      - orgURL: "https://noi.bz.it/"
-      - content: "Open Data Hub - updates"
 #      - slidesLink: ""
 #      - videoLink: ""
+    # - cols:
+    #   - time: "9.15"
+    #   - track: "Main Track"
+    #   - speaker: "Patrick Ohnewein"
+    #   - speakerURL: "https://www.linkedin.com/in/ohnewein/"
+    #   - org: "NOI Techpark"
+    #   - orgURL: "https://noi.bz.it/"
+    #   - content: "Open Data Hub - updates"
+    #   - slidesLink: ""
+    #   - videoLink: ""
     - cols:
       - time: "9.30"
       - track: "Main Track"
-      - speaker: ""
-      - speakerURL: ""
-      - org: ""
-      - orgURL: ""
+#      - speaker: ""
+#      - speakerURL: ""
+#      - org: ""
+#      - orgURL: ""
       - content: "Talks"
-      - slidesLink: "" 
-      - videoLink: ""
+#      - slidesLink: "" 
+#      - videoLink: ""
     # - cols:
     #   - time: "9.45"
     #   - track: "Main Track"
@@ -121,18 +127,18 @@ content:
     #   - videoLink: ""
     - cols:
       - time: "10.30"
-      - track: ""
+      - track: "Main Track"
       - content: "Community Coffee Break (Foyer NOI Seminar Area)"
     - cols:
       - time: "11.00"
       - track: "Main Track"
-      - speaker: ""
-      - speakerURL: ""
-      - org: ""
-      - orgURL: ""
+#      - speaker: ""
+#      - speakerURL: ""
+#      - org: ""
+#      - orgURL: ""
       - content: "Talks"
-      - slidesLink: ""
-      - videoLink: ""
+#      - slidesLink: ""
+#      - videoLink: ""
     # - cols:
     #   - time: "11.15"
     #   - track: "Main Track"
@@ -185,20 +191,20 @@ content:
     #   - videoLink: ""
     - cols:
       - time: "12.30"
-      - track: ""
-      - speaker: ""
-      - org: ""
+      - track: "Main Track"
+#     - speaker: ""
+#     - org: ""
       - content: "Networking lunch (Foyer NOI Seminar Area)"
     - cols:
       - time: "13.45"
       - track: "Main Track"
-      - speaker: ""
-      - speakerURL: ""
-      - org: ""
-      - orgURL: ""
+#      - speaker: ""
+#      - speakerURL: ""
+#      - org: ""
+#      - orgURL: ""
       - content: "Talks"
-      - slidesLink: ""
-      - videoLink: ""
+#      - slidesLink: ""
+#      - videoLink: ""
     # - cols:
     #   - time: "14.00"
     #   - track: "Main Track"
@@ -221,18 +227,18 @@ content:
     #   - videoLink: ""
     - cols:
       - time: "14.30"
-      - track: ""
+      - track: "Main Track"
       - content: "Community Coffee Break (Foyer NOI Seminar Area)"
     - cols:
       - time: "15.00"
       - track: "Main Track"
-      - speaker: ""
-      - speakerURL: ""
-      - org: ""
+#      - speaker: ""
+#      - speakerURL: ""
+#      - org: ""
       - orgURL: ""
       - content: "Talks"
-      - slidesLink: ""
-      - videoLink: ""
+#      - slidesLink: ""
+#      - videoLink: ""
     # - cols:
     #   - time: "15.15"
     #   - track: "Main Track"
@@ -295,7 +301,7 @@ content:
     #   - videoLink: ""
     - cols:
       - time: "16.45"
-      - track: ""
+      - track: "Main Track"
       - content: "Closing"
     
 #  btn_room2_link: "https://pretix.eu/noi-digital/open-data-hub-day-25/"

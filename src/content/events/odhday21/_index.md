@@ -34,14 +34,12 @@ content:
         - content: " "
         - content: " "
         - content: "Check-in starting at 8.30"
-        - content: " "
-        - content:
     - cols:
         - content: "9.00"
         - content: "Vincent Mauroit"
         - content: "NOI Techpark"
         - content: Opening by NOI
-        - content: " "
+        - slidesLink: " "
         - videoLink: "https://www.youtube.com/watch?v=53LDpjXCUyA&list=PLwEFKmmNg7ILIgN_MufUAuW97Moe3bNyr&index=3"
     - cols:
         - content: "9.15"

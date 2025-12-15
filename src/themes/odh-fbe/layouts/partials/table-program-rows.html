@@ -32,6 +32,10 @@
               {{ $vTrack = .track }}
               {{ end }}
 
+              {{ if isset . "speaker" }}
+              {{ $hasSpeakers := true }}
+              {{ end }}
+
               {{/* Check for multiple speeker/organisations */}}
               {{ if isset . "speakers" }}
                 {{ $vSpeakersList = .speakers }}
@@ -76,51 +80,61 @@
 
             {{ end }}
 
-            <td>{{ $vTime | safeHTML}}</td>
+            {{ if ( ne $vTime "") }}
+              <td>{{ $vTime | safeHTML}}</td>
+            {{end}}
  
-            <td>{{ $vTrack | safeHTML}}</td>
+            {{ if ( ne $vTrack "") }}
+              <td>{{ $vTrack | safeHTML}}</td>
+            {{end}}
 
             {{/* Render Speakers Cell */}}
-            <td>
-              {{ if $hasNewSpeakersFormat }}
-                {{ range $index, $speakerItem := $vSpeakersList }}
-                  {{ if $speakerItem.url }}
-                    <a href="{{ $speakerItem.url }}" target="_blank"><u>{{ $speakerItem.name | safeHTML }}</u></a>
-                  {{ else }}
-                    {{ $speakerItem.name | safeHTML }}
+            {{ if or ( ne $vSpeaker "") $hasNewSpeakersFormat}}
+              <td>
+                {{ if $hasNewSpeakersFormat }}
+                  {{ range $index, $speakerItem := $vSpeakersList }}
+                    {{ if $speakerItem.url }}
+                      <a href="{{ $speakerItem.url }}" target="_blank"><u>{{ $speakerItem.name | safeHTML }}</u></a>
+                    {{ else }}
+                      {{ $speakerItem.name | safeHTML }}
+                    {{ end }}
+                    {{ if lt (add $index 1) (len $vSpeakersList) }}<br>{{ end }}
                   {{ end }}
-                  {{ if lt (add $index 1) (len $vSpeakersList) }}<br>{{ end }}
+                {{ else if $vSpeaker }} {{/* Fallback to single speaker structure */}}
+                  {{ if (ne $vSpeakerURL "") }}
+                    <a href="{{ $vSpeakerURL }}" target="_blank"><u>{{ $vSpeaker | safeHTML}}</u></a>
+                  {{ else }}
+                    {{ $vSpeaker | safeHTML}}
+                  {{ end }}
                 {{ end }}
-              {{ else if $vSpeaker }} {{/* Fallback to single speaker structure */}}
-                {{ if (ne $vSpeakerURL "") }}
-                  <a href="{{ $vSpeakerURL }}" target="_blank"><u>{{ $vSpeaker | safeHTML}}</u></a>
-                {{ else }}
-                  {{ $vSpeaker | safeHTML}}
-                {{ end }}
-              {{ end }}
-            </td>
+              </td>
+            {{ end }}  
 
             {{/* Render Organizations Cell */}}
-            <td>
-              {{ if $hasNewOrganizationsFormat }}
-                {{ range $index, $orgItem := $vOrganizationsList }}
-                  {{ if $orgItem.url }}
-                    <a href="{{ $orgItem.url }}" target="_blank"><u>{{ $orgItem.name | safeHTML }}</u></a>
-                  {{ else }}
-                    {{ $orgItem.name | safeHTML }}
+            {{ if or ( ne $vOrg "") $vOrganizationsList }}
+              <td>
+                {{ if $hasNewOrganizationsFormat }}
+                  {{ range $index, $orgItem := $vOrganizationsList }}
+                    {{ if $orgItem.url }}
+                      <a href="{{ $orgItem.url }}" target="_blank"><u>{{ $orgItem.name | safeHTML }}</u></a>
+                    {{ else }}
+                      {{ $orgItem.name | safeHTML }}
+                    {{ end }}
+                    {{ if lt (add $index 1) (len $vOrganizationsList) }}<br>{{ end }}
                   {{ end }}
-                  {{ if lt (add $index 1) (len $vOrganizationsList) }}<br>{{ end }}
+                {{ else if $vOrg }} {{/* Fallback to single organization structure */}}
+                  {{ if (ne $vOrgURL "") }}
+                    <a href="{{ $vOrgURL }}" target="_blank"><u>{{ $vOrg | safeHTML}}</u></a>
+                  {{ else }}
+                    {{ $vOrg | safeHTML}}
+                  {{ end }}
                 {{ end }}
-              {{ else if $vOrg }} {{/* Fallback to single organization structure */}}
-                {{ if (ne $vOrgURL "") }}
-                  <a href="{{ $vOrgURL }}" target="_blank"><u>{{ $vOrg | safeHTML}}</u></a>
-                {{ else }}
-                  {{ $vOrg | safeHTML}}
-                {{ end }}
-              {{ end }}
-            </td>
+              </td>
+            {{ end }}
 
-            <td>{{ $vContent | safeHTML}}</td>
+            {{ if ( ne $vContent "") }}
+              <td>{{ $vContent | safeHTML}}</td>
+            {{ end }}
 
             {{ if ( ne $vSlidesLink "" ) }}
               <td><a href="{{$vSlidesLink}}" class="btn btn-primary d-flex gap-1 align-items-center me-3" target="_blank">Slides</a></td>

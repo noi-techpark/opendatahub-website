@@ -37,6 +37,8 @@ content:
   row:
     - cols:
       - time: "8.30"
+      - speaker: " "
+      - org: " "
       - content: "Check-in starting at 8.30"
     - cols:
         - time: "9.00"
@@ -96,6 +98,8 @@ content:
         - videoLink: "https://vimeo.com/829084460"
     - cols:
         - time: "11.00"
+        - speaker: " "
+        - org: " "
         - content: "Community Coffee Break (Foyer NOI Seminar Area)"
     - cols:
         - time: "11.30"
@@ -134,6 +138,8 @@ content:
         - videoLink: "https://vimeo.com/829087175"
     - cols:
         - time: "12.45"
+        - speaker: " "
+        - org: " "
         - content: "Networking lunch (Foyer NOI Seminar Area)"
  
     

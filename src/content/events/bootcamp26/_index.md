@@ -13,11 +13,18 @@ aliases:
   - "/bootcamp"
   - "/bootcamp26"
 
-title: "Open Data Hub Bootcamp 2026"
-subtitle: |
-  Welcome to the fourth edition of the Open Data Hub Bootcamp! This event is an initiative of the Open Data Hub team in collaboration with the [Faculty of Engineering of the Free University of Bozen‑Bolzano](https://www.unibz.it/it/faculties/engineering/). It offers the Open Data Hub community, students and anyone interested the opportunity to develop or improve the Open Data Hub together with the core team, following the latest trends in learning by doing.<br>
-  <br>
-  Whether you are a developer, creator, designer, data expert, entrepreneur, tech enthusiast or just someone who loves coding, we encourage you to get involved in the next edition of the event!
+start:
+  partial: title-cta.html
+  title: "Open Data Hub Bootcamp 2026"
+  subtitle: "
+    Welcome to the fourth edition of the Open Data Hub Bootcamp! This event is an initiative of the Open Data Hub team in collaboration with the [Faculty of Engineering of the Free University of Bozen‑Bolzano](https://www.unibz.it/it/faculties/engineering/). It offers the Open Data Hub community, students and anyone interested the opportunity to develop or improve the Open Data Hub together with the core team, following the latest trends in learning by doing.<br>
+    <br>
+    Whether you are a developer, creator, designer, data expert, entrepreneur, tech enthusiast or just someone who loves coding, we encourage you to get involved in the next edition of the event!
+  "
+  img_back: "/img/events/20260414-bootcamp-1200-630.png"
+  img_credit: "© Open Data Hub"
+  img_back_title: "Open Data Bootcamp 2026"
+  img_back_alt: "Open Data Hub Bootcamp - 14th April 2026 - NOI Techpark Bolzano/Bozen, Italy"
 
 program:
   title: "Open Data Hub Bootcamp 2026 - Schedule"
@@ -37,8 +44,8 @@ content:
       width: 20%
     - title: Title
       width: 70%
-    - title: Slides
-      width: 10%
+    # - title: Slides
+    #   width: 10%
 
   row:
     - cols:

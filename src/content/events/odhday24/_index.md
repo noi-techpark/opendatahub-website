@@ -35,10 +35,18 @@ content:
   row:
     - cols:
       - time: "8.30"
+      - speaker: " "
+      - org: " "
       - content: "Check-in starting at 8.30"
+      - slidesLink: ""
+      - videoLink: ""
     - cols:
       - time: "9.00"
+      - speaker: " "
+      - org: " "
       - content: "Open Data Hub Day - Opening"
+      - slidesLink: ""
+      - videoLink: ""
     - cols:
       - time: "9.15"
       - speaker: "Patrick Ohnewein"
@@ -82,7 +90,11 @@ content:
       - videoLink: https://vimeo.com/954317562
     - cols:
       - time: "10.45"
+      - speaker: " "
+      - org: " "
       - content: "Community Coffee Break (Foyer NOI Seminar Area)"
+      - slidesLink: ""
+      - videoLink: ""
     - cols:
       - time: "11.15"
       - speaker: "Brigitte Lutz, Josephine Bernickel, Adina Tellenbach & Maurine Junod"
@@ -113,7 +125,11 @@ content:
       - videoLink: https://vimeo.com/954323720
     - cols:
       - time: "12.15"
+      - speaker: " "
+      - org: " "
       - content: "Networking lunch (Foyer NOI Seminar Area)"
+      - slidesLink: ""
+      - videoLink: ""
     - cols:
       - time: "13.15"
       - speaker: "Leonardo Venturoso"
@@ -151,40 +167,60 @@ content:
       - videoLink: https://vimeo.com/954394331
     - cols:
       - time: "14.30"
+      - speaker: " "
+      - org: " "
       - content: "Open Data Hub Bootcamp’s projects presentations"
+      - slidesLink: ""
+      - videoLink: ""
     - cols:
        - time: "14.30"
        - speaker: "Fabio Vitalba & Maximilian Lochmann"
+       - org: " "
        - content: "Day Trip Planner"
+       - slidesLink: ""
        - videoLink: https://vimeo.com/954677042
     - cols:
        - time: "14.40"
        - speaker: "Anastasiia Guliaeva & Emanuele Pippa"
+       - org: " "
        - content: "Tourist Map"
+       - slidesLink: ""
        - videoLink: https://vimeo.com/954677499
     - cols:
        - time: "14.50"
        - speaker: "Luca Vannuccini & Violetta Fazzi"
+       - org: " "
        - content: "Accommodation finder"
+       - slidesLink: ""
        - videoLink: https://vimeo.com/954677799
     - cols:
        - time: "15.00"
        - speaker: "Fabio Schick & Ridvan Plluzhina"
+       - org: " "
        - content: "Explore Bolzano"
+       - slidesLink: ""
        - videoLink: https://vimeo.com/954678208
     - cols:
        - time: "15.10"
        - speaker: "Jamil Hamza, Michele Magri & Yaroslav Rivny"
+       - org: " "
        - content: "Weather Component"
+       - slidesLink: ""
        - videoLink: https://vimeo.com/954678542
     - cols:
        - time: "15.20"
        - speaker: "Aurelio Buonuomo & Christian Zanotti"
+       - org: " "
        - content: "APISENSE - Simple API monitoring"
+       - slidesLink: ""
        - videoLink: https://vimeo.com/954678859
     - cols:
       - time: "15.30"
+      - speaker: " "
+      - org: " "
       - content: "Closing"
+      - slidesLink: ""
+      - videoLink: ""
     
   btn_down_link: "https://pretix.eu/noi-digital/open-data-hub-day-24/"
   btn_down_label: "More info"

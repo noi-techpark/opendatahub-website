@@ -36,7 +36,6 @@ start:
   title: "**Inclusive e-mobility: when data makes a difference**"
   subtitle: "Independent L. works every day to promote truly **accessible and inclusive mobility** and **public space for people with disabilities**. While electric mobility is an important step forward, it risks excluding certain categories of users if accurate information on the physical accessibility of infrastructure, such as electric vehicle charging stations, is not provided."
   img_back: "/img/use-cases/independentl/OpenDataHub-parking-measurement-7013.jpg"
-  img_link: "/use-cases/skidata"
   img_credit: "© Open Data Hub / Tania Marcadella"
   img_back_title: "Surveying EV Charging Station Accessibility"
   img_back_alt: "Independent L staff measuring an EV charging parking bay to assess accessibility for people with disabilities in South Tyrol."

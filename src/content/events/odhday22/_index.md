@@ -35,6 +35,8 @@ content:
   row:
     - cols:
         - time: "8.30"
+        - speaker: " "
+        - org: " "
         - content: "Check-in starting at 8.30"
     - cols:
         - time: "9.00"
@@ -80,6 +82,8 @@ content:
         - videoLink: "https://vimeo.com/showcase/9563553/video/715099775"
     - cols:
         - time: "10.30"
+        - speaker: " "
+        - org: " "
         - content: "Community Coffee Break in the foyer of the NOI Seminar Area"
     - cols:
         - time: "11.15"
@@ -118,6 +122,8 @@ content:
         - videoLink: "https://vimeo.com/showcase/9563553/video/715104372"
     - cols:
         - time: "12.30"
+        - speaker: " "
+        - org: " "
         - content: "Networking lunch in the foyer of the NOI Seminar Area"
 
   btn_down_link: "https://www.youtube.com/watch?v=4lWKCyase3g"

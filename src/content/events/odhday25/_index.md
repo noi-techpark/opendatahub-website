@@ -33,8 +33,6 @@ content:
   header:
     - title: Time
       width: 5%
-    - title: Track
-      width: 10%
     - title: Speaker
       width: 15%
     - title: Organization
@@ -47,19 +45,21 @@ content:
       width: 5%    
   row:
     - cols:
-      - time: "8.30"
+      - time: "8:30"
       - speaker: " "
+      - speakerURL: " "
       - org: " "
-      - content: "Check-in starting at 8.30"
-      - content: " "
-      - content: " "
+      - orgURL: " "
+      - content: "Check in starts at 8.30"
+      - slidesLink: ""
+      - videoLink: ""
     - cols:
       - time: "9.00"
       - speaker: "Ulrich Stofner"
       - org: "NOI Techpark"
       - orgURL: "https://noi.bz.it/"
       - content: "Open Data Hub Day - Opening"
-      - content: 
+      - slidesLink: ""
       - videoLink: "https://player.vimeo.com/video/1090568966"
       
     - cols:
@@ -104,15 +104,15 @@ content:
       - org: "Open Data Hub"
       - orgURL: "https://opendatahub.com/" 
       - content: "Contributor of the year 2025 - Award"
-      - content: ""
+      - slidesLink: ""
       - videoLink: https://player.vimeo.com/video/1090591285
     - cols:
       - time: "10.30"
-      - speaker: ""
-      - org: ""
+      - speaker: " "
+      - org: " "
       - content: "Community Coffee Break (Foyer NOI Seminar Area)"
-      - content: ""
-      - content: ""
+      - slidesLink: ""
+      - videoLink: ""
     - cols:
       - time: "11.00"
       - speaker: "Renate Marmsoler"
@@ -170,9 +170,11 @@ content:
       - videoLink: "https://player.vimeo.com/video/1090597291"
     - cols:
       - time: "12.30"
-      - speaker: ""
-      - org: ""
+      - speaker: " "
+      - org: " "
       - content: "Networking lunch (Foyer NOI Seminar Area)"
+      - slidesLink: ""
+      - videoLink: ""
     - cols:
       - time: "13.45"
       - speaker: "Andrea Vianello"
@@ -202,9 +204,12 @@ content:
       - videoLink: "https://player.vimeo.com/video/1090579985"
     - cols:
       - time: "14.30"
+      - speaker: " "
+      - org: " "
       - content: "Community Coffee Break (Foyer NOI Seminar Area)"
-      - content: ""
-      - content: ""
+      - slidesLink: ""
+      - videoLink: ""
+      
     
 #  btn_room2_link: "https://pretix.eu/noi-digital/open-data-hub-day-25/"
 #  btn_room2_label: "Register Now"
@@ -227,7 +232,6 @@ content:
       width: 5%
     - title: Track
       width: 10%
-      
     - title: Speaker
       width: 15%
     - title: Organization
@@ -253,7 +257,7 @@ content:
       - time: "11.05"
       - track: "Bootcamp"
       - speaker: "Hamza Jamil, Michele Magri"
-      - org: ""
+      - org: " "
       - content: "TEAM 2 - Atom - Using the Open Data Hub for tomorrows tech"
       - slidesLink: https://cloud.opendatahub.com/index.php/s/5pjASK93cBfd6ik
       - videoLink: "https://player.vimeo.com/video/1090632792"
@@ -341,9 +345,12 @@ content:
       - videoLink: "https://player.vimeo.com/video/1090652929"
     - cols:
       - time: "12.30"
+      - track: " "
+      - speaker: " "
+      - org: " "
       - content: "Networking lunch (Foyer NOI Seminar Area)"
-      - content: ""
-      - content: ""
+      - slidesLink: ""
+      - videoLink: ""
     - cols:
       - time: "13.30"
       - track: "Core Technologies"
@@ -385,9 +392,12 @@ content:
       - videoLink: "https://player.vimeo.com/video/1090660792"
     - cols:
       - time: "14.30"
+      - track: " "
+      - speaker: " "
+      - org: " "
       - content: "Community Coffee Break (Foyer NOI Seminar Area)"
-      - content: ""
-      - content: ""
+      - slidesLink: ""
+      - videoLink: ""
     - cols:
       - time: "15.00"
       - track: "Core Technologies"
@@ -468,9 +478,12 @@ content:
       - videoLink: "https://player.vimeo.com/video/1090752318"
     - cols:
       - time: "16.45"
+      - track: " "
+      - speaker: " "
+      - org: " "
       - content: "Closing"
-      - content: ""
-      - content: ""
+      - slidesLink: ""
+      - videoLink: ""
     - cols:
       - time: "Cancelled"
       - track: "OTP & Mobility Track"

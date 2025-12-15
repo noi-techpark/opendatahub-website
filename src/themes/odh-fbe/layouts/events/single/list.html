@@ -6,7 +6,11 @@
 
 {{ define "main" }}
 
-{{ partial "title.html" .Params }}
+{{ if (.Params.start.partial) }}
+	{{ partial .Params.start.partial .Params.start }}
+{{else}}
+ 	{{ partial "title.html" .Params }}
+{{end}}
 	{{ if (.Params.callForSpeakers) }}
 		<section class="bg-darker pb-1">
 			{{ partial "call-for-speaker-section.html" .Params.callForSpeakers }}
