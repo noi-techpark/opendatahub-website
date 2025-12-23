@@ -79,6 +79,10 @@ providers:
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/h2st.png"
       link: https://www.h2-suedtirol.com/
 
+    - name: HDS
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/hds.png"
+      link: https://www.unione-bz.it/
+      
     - name: HGV
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/hgv.png"
       link: https://www.hgv.it/
