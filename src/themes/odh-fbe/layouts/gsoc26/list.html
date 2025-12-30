@@ -1,0 +1,24 @@
+{{/*
+	SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+
+	SPDX-License-Identifier: AGPL-3.0-or-later
+*/}}
+
+{{ define "main" }}
+
+{{ partial "title-use-cases-select.html" .Params }}
+
+{{ range $index, $page := sort .Pages "Params.short.weight" "desc" }}
+  <section {{ if eq (mod $index 2) 0 }}class="bg-darker"{{ end }}
+           id="gsoc-idea"
+           data-tags="{{ range .Params.use_case_tags }} {{ . }} {{ end }}">
+    {{ partial $page.Params.short.partial $page.Params.short }}
+  </section>
+{{ end }}
+
+<a id="sm-tag-gsoc"></a>
+<section id="gsoc-ideas">
+  {{ partial "text-imgs-icon.html" site.Data.usecases.contact_us }}
+</section>
+
+{{ end }}
