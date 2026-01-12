@@ -1,0 +1,27 @@
+{{/*
+SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+SPDX-License-Identifier: AGPL-3.0-or-later
+*/}}
+
+{{ define "main" }}
+
+<section class="container my-5">
+  <h1>{{ .Title }}</h1>
+
+  {{ with .Params.subtitle }}
+    <p class="lead">{{ . }}</p>
+  {{ end }}
+
+  <div class="list-group mt-4">
+    {{ range .Pages.ByWeight }}
+      <a href="{{ .RelPermalink }}" class="list-group-item list-group-item-action">
+        <h5 class="mb-1">{{ .Title }}</h5>
+        {{ with .Params.short.description }}
+          <p class="mb-1">{{ . }}</p>
+        {{ end }}
+      </a>
+    {{ end }}
+  </div>
+</section>
+
+{{ end }}
