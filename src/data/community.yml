@@ -115,6 +115,10 @@ providers:
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/municipalityBolzano.png"
       link: https://www.comune.bolzano.it/
 
+    - name: Municipality of Caldaro/Kaltern
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/caldaro.png"
+      link: https://www.caldaro.eu/
+
     - name: Nevicam
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/nevicam.png"
       link: https://mobility.nevicam.it/
