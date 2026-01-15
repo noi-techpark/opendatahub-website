@@ -35,8 +35,8 @@ program:
 
 content:
   title: Register here
-  btn_top_link: ""
-  btn_top_label: ""
+  btn_top_link: "https://pretix.eu/noi-digital/bootcamp26/"
+  btn_top_label: "Register"
   btn_top_on_click: "_paq.push(['trackEvent', 'Register here', 'Click', 'Open Data Hub Bootcamp']);"
 
   header:
@@ -85,8 +85,8 @@ content:
         - content: "18.00"
         - content: "Aperitivo"
 
-  btn_down_link: ""
-  btn_down_label: ""
+  btn_down_link: "https://pretix.eu/noi-digital/bootcamp26/"
+  btn_down_label: "Register"
   btn_down_on_click: "_paq.push(['trackEvent', 'Challenge Description', 'Click', 'Open Data Hub Bootcamp']);"
 
 

@@ -39,9 +39,9 @@ program:
   subtitle: "The event will be held in English."
 
 content:
-#  btn_top_link: https://pretix.eu/noi-digital/open-data-hub-day-26/
-#  btn_top_label: "Register Now"
-#  btn_top_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
+  btn_top_link: https://pretix.eu/noi-digital/open-data-hub-day-26/
+  btn_top_label: "Register Now"
+  btn_top_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
   title_main: "Main room"
   description_main: "The main track of the Open Data Hub Day provides a comprehensive overview of general macro topics related to Open Data. It aims to cover real use cases from a data provider and data consumer point of view as well as Data Spaces initiatives and also Open Data Hub related projects."
@@ -304,7 +304,7 @@ content:
       - track: "Main Track"
       - content: "Closing"
     
-#  btn_room2_link: "https://pretix.eu/noi-digital/open-data-hub-day-25/"
+#  btn_room2_link: "https://pretix.eu/noi-digital/open-data-hub-day-26/"
 #  btn_room2_label: "Register Now"
 #  btn_room2_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
@@ -540,7 +540,7 @@ content:
   #     - track: ""
   #     - content: "Closing"
 
-  # btn_room3_link: "https://pretix.eu/noi-digital/open-data-hub-day-25/"
+  # btn_room3_link: "https://pretix.eu/noi-digital/open-data-hub-day-26/"
   # btn_room3_label: "Register Now"
   # btn_room3_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
@@ -595,7 +595,7 @@ content:
   #     # - slidesLink: 
   #     # - videoLink:
 
-  # btn_press_link: "https://pretix.eu/noi-digital/open-data-hub-day-25/"
+  # btn_press_link: "https://pretix.eu/noi-digital/open-data-hub-day-26/"
   # btn_press_label: "Register Now"
   # btn_press_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
@@ -651,7 +651,7 @@ content:
   #       - content: "DE"
   #       - pressReleaseLink: "https://cloud.opendatahub.com/index.php/s/G7pHFmKg92SCdD9"
 
-  # btn_down_link: "https://pretix.eu/noi-digital/open-data-hub-day-25/"
-  # btn_down_label: "Register Now"
-  # btn_down_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
+  btn_down_link: "https://pretix.eu/noi-digital/open-data-hub-day-26/"
+  btn_down_label: "Register Now"
+  btn_down_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 ---
