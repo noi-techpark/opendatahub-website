@@ -296,6 +296,10 @@ consumers:
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/sta.png"
       link: https://sta.bz.it
 
+    - name: Stendhapp
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/stendhapp.png"
+      link: https://stendhapp.com/
+
     - name: Hotel Schwarzenstein
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/hotelSchwarzenstein.png"
       link: https://www.schwarzenstein.com/
