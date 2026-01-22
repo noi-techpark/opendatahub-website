@@ -12,6 +12,8 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <p class="lead">{{ . }}</p>
   {{ end }}
 
+  {{ .Content }}
+
   <div class="list-group mt-4">
     {{ range .Pages.ByWeight }}
       <a href="{{ .RelPermalink }}" class="list-group-item list-group-item-action">
