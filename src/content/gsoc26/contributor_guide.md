@@ -1,5 +1,5 @@
 ---
-title: "Google Summer of Code"
+title: "GSoC 2026 Contributor Guidance"
 description: "Open Data Hub GSoC 2026 - Contributor and Mentor Information"
 _build:
   list: never
@@ -15,12 +15,12 @@ This page serves as your starting point for participating in Open Data Hub proje
 - [Mentors](#gsoc-open-data-hub-mentors)
 - [Mentors Information and Guide](#mentors-information-and-guide)
 - [Contributor's Guide](#contributors-guide)
-- [Communication Channels](#communication-channels)
-- [How to Apply](#how-to-apply)
-- [Proposal Template](#proposal-template)
-- [Project Proposals](#project-proposals)
-- [Help](#help)
-- [Useful Links](#useful-links)
+  - [Communication Channels](#communication-channels)
+  - [How to Apply](#how-to-apply)
+  - [Proposal Template](#proposal-template)
+  - [Project Proposals](#project-proposals)
+  - [Help](#help)
+  - [Useful Links](#useful-links)
 
 ## GSoC Open Data Hub Administrators
 
@@ -50,7 +50,7 @@ The list of proposed projects is available at: **[Project idea's page]({{< ref "
 
 Please verify your eligibility by reviewing [https://summerofcode.withgoogle.com/rules/](https://summerofcode.withgoogle.com/rules/), particularly section 7.1 "GSoC Contributors".
 
-We encourage you to familiarise yourself with Open Data Hub's communication tools:
+We encourage you to familiarise yourself with the Open Data Hub's communication channels, shared below.
 
 ## Communication Channels
 
@@ -60,7 +60,7 @@ Join our Element Matrix channel: *[Element's Matrix](https://app.element.io/#/ro
 
 *Note: If you experience difficulty joining the channel, please contact us at [help@opendatahub.com](mailto:help@opendatahub.com)*
 
-Some mentors are on Element, but some prefer not to be. Each mentor is free to choose their preferred communication channel, indicated in each proposal. Only email mentors if explicitly stated in the project proposal. Otherwise, you can find them on Element.
+In case you don't receive a response from the mentors via element, please make sure to contact the mentor via mail.
 
 ### Mailing List
 
@@ -85,7 +85,7 @@ Follow these steps if you are interested in participating in GSoC 2026:
 5. (Optional) Join Element to connect with other contributors, review existing discussions, and ask questions
 6. Set up the development environment, review the project documentation, and attempt to run it locally
 7. Consider how you might approach the mentor's ideas and clarify any questions
-8. Begin drafting your proposal
+8. Begin drafting your proposal, feel free to use the proposal template below.
 9. Submit your draft to the mentors' mailing list for feedback (Google Docs or PDF format)
 10. Submit your final proposal through the Google Summer of Code website
 
@@ -103,7 +103,8 @@ We recommend keeping your application to approximately four pages.
 
 We strongly encourage you to contact the Open Data Hub project through the mentors' mailing list before submitting your proposal via the GSoC website. Discussing details in advance improves your application. Please note that proposals cannot be modified after the submission deadline.
 
-Submit your proposal to: *[help@opendatahub.com](mailto:help@opendatahub.com)*. The deadline is **31 March 2026**.
+Submit your proposal to: *[help@opendatahub.com](mailto:help@opendatahub.com)*. The deadline is **06 March 2026**.  
+*If you wish to submit your proposals after the deadline, please contact us via the email above.* 
 
 ## Proposal Template
 
