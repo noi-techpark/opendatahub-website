@@ -11,7 +11,7 @@ This page serves as your starting point for participating in Open Data Hub proje
 
 ## Contents
 
-- [Organisation Administrators](#gsoc-open-data-hub-administrators)
+- [Organisation Administrators](#gsoc-open-data-hub-administrators) (Org Admin)
 - [Mentors](#gsoc-open-data-hub-mentors)
 - [Mentors Information and Guide](#mentors-information-and-guide)
 - [Contributor's Guide](#contributors-guide)
@@ -22,7 +22,7 @@ This page serves as your starting point for participating in Open Data Hub proje
   - [Help](#help)
   - [Useful Links](#useful-links)
 
-## GSoC Open Data Hub Administrators
+## GSoC Open Data Hub Org Admins
 
 - Patrick Ohnewein
 - Stefano Seppi
@@ -60,7 +60,7 @@ Join our Element Matrix channel: *[Element's Matrix](https://app.element.io/#/ro
 
 *Note: If you experience difficulty joining the channel, please contact us at [help@opendatahub.com](mailto:help@opendatahub.com)*
 
-In case you don't receive a response from the mentors via element, please make sure to contact the mentor via mail.
+Do not use Element matrix to submit your project proposals (see mailing list for that), neither as a one-on-one mean of comunication with your mentors. Please note many mentors are not on Element Matrix.
 
 ### Mailing List
 
