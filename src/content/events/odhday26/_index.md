@@ -10,6 +10,7 @@ seo:
 
 aliases:
   - "/events/odhday"
+  - "/events/day"
   - "/events/odhday26"
   - "/odhday"
   - "/day"
