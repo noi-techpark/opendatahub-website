@@ -22,6 +22,15 @@ events:
     btn_link: /events/bootcamp26
     btn_label: More info
 
+  - title: Software Developers' Thursday 2026 | February
+    subtitle: "Open Data Hub Design Challenges: Patterns, Trade-offs and Student Solutions"
+    img: /img/events/20260205-sdt-unibz.png
+    day: "2026-02-05"
+    time: "18:30 - 20:00"
+    location: "NOI Techpark"
+    btn_link: https://pretix.eu/noi-digital/sdt26/4695249/
+    btn_label: Registration
+
   - title: NOI Hackathon - SFSCON Edition 2025
     subtitle: 24 hours of hacking, collaborating, co-creating and developing.
     img: /img/events/20251107-Hackathon-SFSCON.jpg
