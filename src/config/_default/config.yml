@@ -250,6 +250,10 @@ menu:
       URL: /community/get-involved
       weight: 6
 
+    - parent: community
+      name: GSoC 2026
+      URL: /gsoc26/
+      weight: 7
 
     # --- Events ---
     - identifier: events

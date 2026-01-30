@@ -11,7 +11,7 @@ This page serves as your starting point for participating in Open Data Hub proje
 
 ## Contents
 
-- [Organisation Administrators](#gsoc-open-data-hub-administrators) (Org Admin)
+- [Organisation Administrators](#gsoc-open-data-hub-administrators) (Org Admins)
 - [Mentors](#gsoc-open-data-hub-mentors)
 - [Mentors Information and Guide](#mentors-information-and-guide)
 - [Contributor's Guide](#contributors-guide)
