@@ -232,6 +232,10 @@ consumers:
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/destination.png"
       link: http://www.destinationsrl.it/
 
+    - name: Dexdot Srl
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/dexdot.png"
+      link: https://www.dexdot.it/
+
     - name: discover.swiss
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/DiscoverSwiss.png"
       link: https://discover.swiss/
