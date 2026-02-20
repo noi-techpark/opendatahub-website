@@ -8,7 +8,22 @@
 
 {{ partial "title.html" .Params }}
 <br>
-<div class="container py-2">
+    <div class="container py-2">
+    <style>
+    .color-tag {
+        font-size: 0.8rem;
+        font-weight: 500;
+        display: inline-block;
+        padding: 2px 6px;
+        border-radius: 4px;
+        margin-left: 0; /* ensure no extra space */
+    }
+    #icons-content img {
+        width: 20px;
+        height: 20px;
+        object-fit: contain;
+    }
+    </style>
     <h3 type="button" style="margin-bottom: 16px;" data-bs-toggle="collapse" data-bs-target="#colours-content" aria-expanded="true" aria-controls="#colours-content" class="video-section-title" id="colours">
         <a href="#colours" class="anchor-link">
             <strong>Colours</strong>
@@ -16,62 +31,298 @@
         <i class="fa fa-caret-up ms-1" aria-hidden="false"></i>
     </h3>
     <div class="video collapse show" id="colours-content">
-        <div class="row">
-            <div class="col-md-3 col-sm-6 col-12 mb-3">
-                <div class="border border-black text-center py-3" style="background-color: #212529; color: white;">
-                    <h5 class="fw-bold">Font Colour</h5>
-                    <p style="margin-bottom: 0px;">#212529</p>
+        <p class="text-muted mb-3">Our colour system follows modern design principles with clearly defined roles for accessibility and consistency. Each colour role is paired with its appropriate text/icon colour to ensure proper contrast.</p>
+
+        <!-- Brand Colours -->
+        <h5 class="fw-bold mt-3">Brand Colours</h5>
+        <div class="row g-3 mb-4">
+            <div class="col-md-6 col-12">
+                <div style="border: 1px solid #e9ecef; border-radius: 4px; overflow: hidden;">
+                    <div class="d-flex">
+                        <div class="flex-fill text-center py-3" style="background-color: #000000; color: #ffffff;">
+                            <p class="fw-bold mb-1">primary</p>
+                            <span class="color-tag" style="color: #ffffff; background-color: rgba(255,255,255,0.2)">#000000</span>
+                        </div>
+                        <div class="flex-fill text-center py-3" style="background-color: #ffffff; color: #000000; border-left: 1px solid #e9ecef;">
+                            <p class="fw-bold mb-1">onPrimary</p>
+                            <span class="color-tag" style="color: #000000; background-color: rgba(0,0,0,0.08)">#ffffff</span>
+                        </div>
+                    </div>
+                    <div style="background-color: #f8f9fa; border-top: 1px solid #e9ecef; padding: 8px 16px;">
+                        <p class="mb-0" style="font-size: 0.8rem; color: #6c757d;">Used for headings, key text and call-to-action buttons</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <div style="border: 1px solid #e9ecef; border-radius: 4px; overflow: hidden;">
+                    <div class="d-flex">
+                        <div class="flex-fill text-center py-3" style="background-color: #565e64; color: #ffffff;">
+                            <p class="fw-bold mb-1">primaryContainer</p>
+                            <span class="color-tag" style="color: #ffffff; background-color: rgba(255,255,255,0.2)">#565e64</span>
+                        </div>
+                        <div class="flex-fill text-center py-3" style="background-color: #ffffff; color: #000000; border-left: 1px solid #e9ecef;">
+                            <p class="fw-bold mb-1">onPrimaryContainer</p>
+                            <span class="color-tag" style="color: #000000; background-color: rgba(0,0,0,0.08)">#ffffff</span>
+                        </div>
+                    </div>
+                    <div style="background-color: #f8f9fa; border-top: 1px solid #e9ecef; padding: 8px 16px;">
+                        <p class="mb-0" style="font-size: 0.8rem; color: #6c757d;">Used for active states or hover styles related to the primary colour</p>
+                    </div>
                 </div>
             </div>
         </div>
-    <div class="row">
-        <P class="fw-bold" style="margin-top: 16px;" >OPEN DATA HUB COLOUR PALETTE</P>
-        <div class="col-md-3 col-sm-6 col-12 mb-3">
-            <div class="bg-white border border-black  text-center py-3">
-                <h5 class="fw-bold">Primary Colour</h5>
-                <p style="margin-bottom: 0px;">#FFFFFF</p>
+
+        <!-- Surface Colours -->
+        <h5 class="fw-bold mt-4">Surface Colours</h5>
+        <div class="row g-3 mb-4">
+            <div class="col-md-6 col-12">
+                <div style="border: 1px solid #e9ecef; border-radius: 4px; overflow: hidden;">
+                    <div class="d-flex">
+                        <div class="flex-fill text-center py-3" style="background-color: #ffffff; color: #000000;">
+                            <p class="fw-bold mb-1">background</p>
+                            <span class="color-tag" style="color: #000000; background-color: rgba(0,0,0,0.08)">#ffffff</span>
+                        </div>
+                        <div class="flex-fill text-center py-3" style="background-color: #212529; color: #ffffff; border-left: 1px solid #e9ecef;">
+                            <p class="fw-bold mb-1">onBackground</p>
+                            <span class="color-tag" style="color: #ffffff; background-color: rgba(255,255,255,0.2)">#212529</span>
+                        </div>
+                    </div>
+                    <div style="background-color: #f8f9fa; border-top: 1px solid #e9ecef; padding: 8px 16px;">
+                        <p class="mb-0" style="font-size: 0.8rem; color: #6c757d;">The overall page background and text displayed directly on it</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <div style="border: 1px solid #e9ecef; border-radius: 4px; overflow: hidden;">
+                    <div class="d-flex">
+                        <div class="flex-fill text-center py-3" style="background-color: #f3f3f3; color: #000000;">
+                            <p class="fw-bold mb-1">surface</p>
+                            <span class="color-tag" style="color: #000000; background-color: rgba(0,0,0,0.08)">#f3f3f3</span>
+                        </div>
+                        <div class="flex-fill text-center py-3" style="background-color: #212529; color: #ffffff; border-left: 1px solid #e9ecef;">
+                            <p class="fw-bold mb-1">onSurface</p>
+                            <span class="color-tag" style="color: #ffffff; background-color: rgba(255,255,255,0.2)">#212529</span>
+                        </div>
+                    </div>
+                    <div style="background-color: #f8f9fa; border-top: 1px solid #e9ecef; padding: 8px 16px;">
+                        <p class="mb-0" style="font-size: 0.8rem; color: #6c757d;">Used for cards or elevated sections like content boxes</p>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="col-md-3 col-sm-6 col-12 mb-3">
-            <div class="bg-black  text-center py-3">
-                <h5 class="fw-bold">Secondary Colour</h5>
-                <p style="margin-bottom: 0px;">#000000</p>
+
+        <!-- Accent Colours -->
+        <h5 class="fw-bold mt-4">Accent Colours</h5>
+        <div class="row g-3 mb-4">
+            <div class="col-md-6 col-12">
+                <div style="border: 1px solid #e9ecef; border-radius: 4px; overflow: hidden;">
+                    <div class="d-flex">
+                        <div class="flex-fill text-center py-3" style="background-color: #50742f; color: #ffffff;">
+                            <p class="fw-bold mb-1">tertiary</p>
+                            <span class="color-tag" style="color: #ffffff; background-color: rgba(255,255,255,0.2)">#50742f</span>
+                        </div>
+                        <div class="flex-fill text-center py-3" style="background-color: #ffffff; color: #50742f; border-left: 1px solid #e9ecef;">
+                            <p class="fw-bold mb-1">onTertiary</p>
+                            <span class="color-tag" style="color: #000000; background-color: rgba(0,0,0,0.08)">#ffffff</span>
+                        </div>
+                    </div>
+                    <div style="background-color: #f8f9fa; border-top: 1px solid #e9ecef; padding: 8px 16px;">
+                        <p class="mb-0" style="font-size: 0.8rem; color: #6c757d;">Used for highlights, icons, or accent elements that need special emphasis</p>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="col-md-3 col-sm-6 col-12 mb-3">
-            <div class="bg-primary-subtle border border-black text-center py-3">
-                <h5 class="fw-bold">Tertiary Colour</h5>
-                <p style="margin-bottom: 0px;">#f3f3f3</p>
+
+        <!-- Feedback States -->
+        <h5 class="fw-bold mt-4">Feedback States</h5>
+        <div class="row g-3 mb-4">
+            <div class="col-md-6 col-12">
+                <div style="border: 1px solid #e9ecef; border-radius: 4px; overflow: hidden;">
+                    <div class="d-flex">
+                        <div class="flex-fill text-center py-3" style="background-color: #faf0f3; color: #d12953;">
+                            <p class="fw-bold mb-1">error</p>
+                            <span class="color-tag" style="background-color: rgba(209,41,83,0.1)">#faf0f3</span>
+                        </div>
+                        <div class="flex-fill text-center py-3" style="background-color: #d12953; color: #ffffff; border-left: 1px solid #e9ecef;">
+                            <p class="fw-bold mb-1">onError</p>
+                            <span class="color-tag" style="color: #ffffff; background-color: rgba(255,255,255,0.2)">#d12953</span>
+                        </div>
+                    </div>
+                    <div style="background-color: #f8f9fa; border-top: 1px solid #e9ecef; padding: 8px 16px;">
+                        <p class="mb-0" style="font-size: 0.8rem; color: #6c757d;">Used for error messages, validation feedback and critical alerts</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <div style="border: 1px solid #e9ecef; border-radius: 4px; overflow: hidden;">
+                    <div class="d-flex">
+                        <div class="flex-fill text-center py-3" style="background-color: #d4f2d4; color: #000000;">
+                            <p class="fw-bold mb-1">success</p>
+                            <span class="color-tag" style="color: #000000; background-color: rgba(0,0,0,0.08)">#d4f2d4</span>
+                        </div>
+                        <div class="flex-fill text-center py-3" style="background-color: #5ad65a; color: #000000; border-left: 1px solid #e9ecef;">
+                            <p class="fw-bold mb-1">onSuccess</p>
+                            <span class="color-tag" style="color: #000000; background-color: rgba(0,0,0,0.08)">#5ad65a</span>
+                        </div>
+                    </div>
+                    <div style="background-color: #f8f9fa; border-top: 1px solid #e9ecef; padding: 8px 16px;">
+                        <p class="mb-0" style="font-size: 0.8rem; color: #6c757d;">Used for success messages, confirmations and positive feedback</p>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="col-md-3 col-sm-6 col-12 mb-3">
-            <div class="text-center py-3" style="background-color: #565e64; color: white;">
-                <h5 class="fw-bold">Quaternary Colour</h5>
-                <p style="margin-bottom: 0px;">#565e64</p>
+
+        <!-- Usage Guidelines -->
+        <div class="mt-4">
+            <p class="fw-bold mb-1">Usage Guidelines</p>
+            <ul class="mb-0" style="font-size: 0.8rem;">
+                <li><strong>Always use colour pairs:</strong> When using a background colour, always use its corresponding "on" colour for text and icons to ensure proper contrast.</li>
+                <li><strong>Primary colours:</strong> Reserve for the most important elements like main navigation, call-to-action buttons and key headings.</li>
+                <li><strong>Tertiary accent:</strong> Use sparingly for highlights, badges, or elements that need to stand out without competing with primary actions.</li>
+                <li><strong>Surface colours:</strong> Use for cards, panels and content areas to create visual hierarchy and depth.</li>
+            </ul>
+        </div>
+
+        <!-- Dark Mode Colour Palette -->
+        <div class="p-4 mt-4" style="background-color: #212529; color: #ffffff;">
+            <h5 class="fw-bold mb-1">Dark Mode Colour Palette</h5>
+            <p style="color: #ffffff; font-size: 0.8rem;">The dark mode variant of our colour system, designed for low-light environments and user preference.</p>
+
+            <h6 class="fw-bold mt-3">Brand Colours</h6>
+            <div class="row g-3 mb-4">
+                <div class="col-md-6 col-12">
+                    <div style="border: 1px solid #343a40; border-radius: 4px; overflow: hidden;">
+                        <div class="d-flex">
+                            <div class="flex-fill text-center py-3" style="background-color: #ffffff; color: #000000;">
+                                <p class="fw-bold mb-1">primary</p>
+                                <span class="color-tag" style="color: #000000; background-color: rgba(0,0,0,0.08)">#ffffff</span>
+                            </div>
+                            <div class="flex-fill text-center py-3" style="background-color: #000000; color: #ffffff; border-left: 1px solid #343a40;">
+                                <p class="fw-bold mb-1">onPrimary</p>
+                                <span class="color-tag" style="color: #ffffff; background-color: rgba(255,255,255,0.2)">#000000</span>
+                            </div>
+                        </div>
+                        <div style="background-color: #2a2e32; border-top: 1px solid #343a40; padding: 8px 16px;">
+                            <p class="mb-0" style="font-size: 0.8rem; color: #adb5bd;">Used for headings, key text and call-to-action buttons</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <div style="border: 1px solid #343a40; border-radius: 4px; overflow: hidden;">
+                        <div class="d-flex">
+                            <div class="flex-fill text-center py-3" style="background-color: #404448; color: #e8e8e8;">
+                                <p class="fw-bold mb-1">primaryContainer</p>
+                                <span class="color-tag" style="color: #ffffff; background-color: rgba(255,255,255,0.2)">#404448</span>
+                            </div>
+                            <div class="flex-fill text-center py-3" style="background-color: #e8e8e8; color: #000000; border-left: 1px solid #343a40;">
+                                <p class="fw-bold mb-1">onPrimaryContainer</p>
+                                <span class="color-tag" style="color: #000000; background-color: rgba(0,0,0,0.08)">#e8e8e8</span>
+                            </div>
+                        </div>
+                        <div style="background-color: #2a2e32; border-top: 1px solid #343a40; padding: 8px 16px;">
+                            <p class="mb-0" style="font-size: 0.8rem; color: #adb5bd;">Used for active states or hover styles related to the primary colour</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h6 class="fw-bold mt-3">Surface Colours</h6>
+            <div class="row g-3 mb-4">
+                <div class="col-md-6 col-12">
+                    <div style="border: 1px solid #343a40; border-radius: 4px; overflow: hidden;">
+                        <div class="d-flex">
+                            <div class="flex-fill text-center py-3" style="background-color: #212529; color: #f0f0f0;">
+                                <p class="fw-bold mb-1">background</p>
+                                <span class="color-tag" style="color: #ffffff; background-color: rgba(255,255,255,0.2)">#212529</span>
+                            </div>
+                            <div class="flex-fill text-center py-3" style="background-color: #f0f0f0; color: #212529; border-left: 1px solid #343a40;">
+                                <p class="fw-bold mb-1">onBackground</p>
+                                <span class="color-tag" style="color: #000000; background-color: rgba(0,0,0,0.08)">#F0F0F0</span>
+                            </div>
+                        </div>
+                        <div style="background-color: #2a2e32; border-top: 1px solid #343a40; padding: 8px 16px;">
+                            <p class="mb-0" style="font-size: 0.8rem; color: #adb5bd;">The overall page background and text displayed directly on it</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <div style="border: 1px solid #343a40; border-radius: 4px; overflow: hidden;">
+                        <div class="d-flex">
+                            <div class="flex-fill text-center py-3" style="background-color: #131618; color: #f2f2f2;">
+                                <p class="fw-bold mb-1">surface</p>
+                                <span class="color-tag" style="color: #ffffff; background-color: rgba(255,255,255,0.2)">#131618</span>
+                            </div>
+                            <div class="flex-fill text-center py-3" style="background-color: #f2f2f2; color: #000000; border-left: 1px solid #343a40;">
+                                <p class="fw-bold mb-1">onSurface</p>
+                                <span class="color-tag" style="color: #000000; background-color: rgba(0,0,0,0.08)">#F2F2F2</span>
+                            </div>
+                        </div>
+                        <div style="background-color: #2a2e32; border-top: 1px solid #343a40; padding: 8px 16px;">
+                            <p class="mb-0" style="font-size: 0.8rem; color: #adb5bd;">Used for cards or elevated sections like content boxes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h6 class="fw-bold mt-3">Accent Colours</h6>
+            <div class="row g-3 mb-4">
+                <div class="col-md-6 col-12">
+                    <div style="border: 1px solid #343a40; border-radius: 4px; overflow: hidden;">
+                        <div class="d-flex">
+                            <div class="flex-fill text-center py-3" style="background-color: #9FCF7F; color: #1a2e1a;">
+                                <p class="fw-bold mb-1">tertiary</p>
+                                <span class="color-tag" style="color: #ffffff; background-color: rgba(255,255,255,0.2)">#9FCF7F</span>
+                            </div>
+                            <div class="flex-fill text-center py-3" style="background-color: #1a2e1a; color: #9FCF7F; border-left: 1px solid #343a40;">
+                                <p class="fw-bold mb-1">onTertiary</p>
+                                <span class="color-tag" style="color: #ffffff; background-color: rgba(255,255,255,0.2)">#1a2e1a</span>
+                            </div>
+                        </div>
+                        <div style="background-color: #2a2e32; border-top: 1px solid #343a40; padding: 8px 16px;">
+                            <p class="mb-0" style="font-size: 0.8rem; color: #adb5bd;">Used for highlights, icons, or accent elements that need special emphasis</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h6 class="fw-bold mt-3">Feedback States</h6>
+            <div class="row g-3 mb-4">
+                <div class="col-md-6 col-12">
+                    <div style="border: 1px solid #343a40; border-radius: 4px; overflow: hidden;">
+                        <div class="d-flex">
+                            <div class="flex-fill text-center py-3" style="background-color: #3d1a1a; color: #ffb3ba;">
+                                <p class="fw-bold mb-1">error</p>
+                                <span class="color-tag" style="color: #ffffff; background-color: rgba(255,255,255,0.2)">#3d1a1a</span>
+                            </div>
+                            <div class="flex-fill text-center py-3" style="background-color: #ffb3ba; color: #3d1a1a; border-left: 1px solid #343a40;">
+                                <p class="fw-bold mb-1">onError</p>
+                                <span class="color-tag" style="background-color: rgba(0,0,0,0.1)">#ffb3ba</span>
+                            </div>
+                        </div>
+                        <div style="background-color: #2a2e32; border-top: 1px solid #343a40; padding: 8px 16px;">
+                            <p class="mb-0" style="font-size: 0.8rem; color: #adb5bd;">Used for error messages, validation feedback and critical alerts</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <div style="border: 1px solid #343a40; border-radius: 4px; overflow: hidden;">
+                        <div class="d-flex">
+                            <div class="flex-fill text-center py-3" style="background-color: #3d8a3d; color: #000000;">
+                                <p class="fw-bold mb-1">success</p>
+                                <span class="color-tag" style="color: #000000; background-color: rgba(0,0,0,0.08)">#3d8a3d</span>
+                            </div>
+                            <div class="flex-fill text-center py-3" style="background-color: #b8ffb8; color: #000000; border-left: 1px solid #343a40;">
+                                <p class="fw-bold mb-1">onSuccess</p>
+                                <span class="color-tag" style="color: #000000; background-color: rgba(0,0,0,0.08)">#b8ffb8</span>
+                            </div>
+                        </div>
+                        <div style="background-color: #2a2e32; border-top: 1px solid #343a40; padding: 8px 16px;">
+                            <p class="mb-0" style="font-size: 0.8rem; color: #adb5bd;">Used for success messages, confirmations and positive feedback</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="row">
-        <p class="fw-bold " style="margin-top: 16px;" >EVENTS COLOUR PALETTE</p>
-        <div class="col-md-3 col-sm-6 col-12 mb-3">
-            <div class="bg-white border border-black  text-center py-3">
-                <h5 class="fw-bold">Primary Colour</h5>
-                <p style="margin-bottom: 0px;">#FFFFFF</p>
-            </div>
-        </div>
-        <div class="col-md-3 col-sm-6 col-12 mb-3">
-            <div class="bg-black  text-center py-3">
-                <h5 class="fw-bold">Secondary Colour</h5>
-                <p style="margin-bottom: 0px;">#000000</p>
-            </div>
-        </div>
-        <div class="col-md-3 col-sm-6 col-12 mb-3">
-            <div class="text-center py-3" style="background-color: #50742f; color: white;">
-                <h5 class="fw-bold">Tertiary Colour</h5>
-                <p style="margin-bottom: 0px;">#50742f</p>
-            </div>
-        </div>
-    </div>
     </div>
 </div>
 
@@ -203,7 +454,7 @@
         <div class="row">
             <div class="col-lg-8">
                 <button class="btn btn-primary">Primary button</button>
-                <button class="btn btn-secondary">Secondary button</div>
+                <button class="btn btn-secondary">Secondary button</button>
             </div>
         </div>
     </div>
@@ -290,7 +541,6 @@
         <img src="/icon/Stop.svg" data-bs-toggle="tooltip" title="Stop" alt title/>
         <img src="/icon/Tooltip.svg" data-bs-toggle="tooltip" title="Tooltip" alt title/>
         <img src="/icon/Tooltip2.svg" data-bs-toggle="tooltip" title="Tooltip 2" alt title/>
-        <img src="/icon/drag&drop.svg" data-bs-toggle="tooltip" title="Drag & Drop" alt title/>
         <img src="/icon/upload_copy.svg" data-bs-toggle="tooltip" title="Upload Copy" alt title/>
         <img src="/icon/yes.svg" data-bs-toggle="tooltip" title="Yes" alt title/>
         <img src="/icon/edit.svg" data-bs-toggle="tooltip" title="Edit" alt title/>
@@ -318,6 +568,28 @@
         <img src="/icon/weather.svg" data-bs-toggle="tooltip" title="Weather" alt title/>
         <img src="/icon/wine.svg" data-bs-toggle="tooltip" title="Wine" alt title/>
         <img src="/icon/Webcam.svg" data-bs-toggle="tooltip" title="Webcam" alt title/>
+    </div>
+    <div class="d-flex mb-3 gap-3">
+        <img src="/icon/odh-actions.svg" data-bs-toggle="tooltip" title="Odh Actions" alt title/>
+        <img src="/icon/odh-arrow-trend-up.svg" data-bs-toggle="tooltip" title="Odh Arrow Trend Up" alt title/>
+        <img src="/icon/odh-attributes.svg" data-bs-toggle="tooltip" title="Odh Attributes" alt title/>
+        <img src="/icon/odh-chevron-up.svg" data-bs-toggle="tooltip" title="Odh Chevron Up" alt title/>
+        <img src="/icon/odh-columns.svg" data-bs-toggle="tooltip" title="Odh Columns" alt title/>
+        <img src="/icon/odh-diff.svg" data-bs-toggle="tooltip" title="Odh Diff" alt title/>
+        <img src="/icon/odh-export.svg" data-bs-toggle="tooltip" title="Odh Export" alt title/>
+        <img src="/icon/odh-eye.svg" data-bs-toggle="tooltip" title="Odh Eye" alt title/>
+        <img src="/icon/odh-filter.svg" data-bs-toggle="tooltip" title="Odh Filter" alt title/>
+        <img src="/icon/odh-folder.svg" data-bs-toggle="tooltip" title="Odh Folder" alt title/>
+        <img src="/icon/odh-integer.svg" data-bs-toggle="tooltip" title="Odh Integer" alt title/>
+        <img src="/icon/odh-json-diff-full.svg" data-bs-toggle="tooltip" title="Odh Json Diff Full" alt title/>
+        <img src="/icon/odh-json-diff-horizontal.svg" data-bs-toggle="tooltip" title="Odh Json Diff Horizontal" alt title/>
+        <img src="/icon/odh-json-diff-vertical.svg" data-bs-toggle="tooltip" title="Odh Json Diff Vertical" alt title/>
+        <img src="/icon/odh-json-diff.svg" data-bs-toggle="tooltip" title="Odh Json Diff" alt title/>
+        <img src="/icon/odh-language.svg" data-bs-toggle="tooltip" title="Odh Language" alt title/>
+        <img src="/icon/odh-link.svg" data-bs-toggle="tooltip" title="Odh Link" alt title/>
+        <img src="/icon/odh-plus.svg" data-bs-toggle="tooltip" title="Odh Plus" alt title/>
+        <img src="/icon/odh-string.svg" data-bs-toggle="tooltip" title="Odh String" alt title/>
+        <img src="/icon/odh-view.svg" data-bs-toggle="tooltip" title="Odh View" alt title/>
     </div>
     <div class="d-flex mb-3 gap-3">
         <img src="/icon/Adress.svg" data-bs-toggle="tooltip" title="Address" alt title/>

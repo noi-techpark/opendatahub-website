@@ -126,6 +126,10 @@ ul.no-bullets {
   letter-spacing: 0;
 }
 
+.btn-secondary {
+  border: 1px solid #212529 !important;
+}
+
 .btn::after {
   font-weight: 600;
 }
