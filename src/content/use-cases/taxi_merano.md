@@ -1,8 +1,8 @@
 ---
 position: "Use Cases"
 aliases:
-  - "/use-cases/taxi-merano"
-  - "/taxi-merano"
+  - "/use-cases/taxi_merano"
+  - "/taxi_merano"
 use_case_tags:
   - "mobility"
   - "tourism"
@@ -17,12 +17,12 @@ seo:
 
 short:
   subtitle: "TAXI MERANO"
-  title: "**Data for mobility: Skidata in the Open Data Hub ecosystem**"
-  description: "Skidata, a company that specialises in providing parking management and access control solutions, has chosen to integrate itself into the Open Data Hub ecosystem by becoming an “**API Certified Technology Provider**”."
-  btn_link: "/use-cases/skidata"
+  title: "**Smarter mobility through Data Sharing**"
+  description: "In Merano, taxis are becoming an integral part of the intelligent mobility system thanks to Open Data Hub's Data Sharing service. By securely sharing real-time location and availability data, each driver contributes to a digital ecosystem that reduces waiting times, optimises journeys, and improves the experience for residents and visitors alike. This data can also be integrated into journey planning tools to support more efficient and sustainable multimodal mobility."
+  btn_link: "/use-cases/taxi_merano"
   btn_label: Read more
   img_back: "/img/use-cases/taxi_merano/OpenDataHub-Taxi-Merano-0737-w.jpg"
-  img_link: "/use-cases/skidata"
+  img_link: "/use-cases/taxi_merano"
   img_credit: "© Open Data Hub / Tania Marcadella"
   img_back_title: "SKIDATA Parking Access Device & Open Data Hub"
   img_back_alt: "SKIDATA parking access device used in Open Data Hub’s API Certified integration for sharing real-time parking data."
@@ -32,60 +32,55 @@ short:
 
 
 start:
-  description: "SKIDATA"
-  title: "**Data for mobility: Skidata in the Open Data Hub ecosystem**"
-  subtitle: "Skidata, a leading company in access control and parking management technologies, has joined the Open Data Hub ecosystem by becoming an “**API Certified Technology Provider**”."
-  img_back: "/img/use-cases/skidata/open-data-hub-skidata-8224.jpg"
-  img_link: "/use-cases/skidata"
+  description: "TAXI MERANO"
+  title: "**Smarter mobility through Data Sharing**"
+  subtitle: "In Merano, mobility is an integral part of the city experience. Every day, residents and visitors travel between the historic centre, railway stations, hotels, and the Passer promenades.  In this context, the taxi service is evolving to integrate with a digital system that makes travel more efficient and connected."
+  img_back: "/img/use-cases/taxi_merano/OpenDataHub-Taxi-Merano-0737-ws.jpg"
+  img_link: "/use-cases/taxi_merano"
   img_credit: "© Open Data Hub / Tania Marcadella"
-  img_back_title: "SKIDATA Parking Access Device & Open Data Hub"
-  img_back_alt: "SKIDATA parking access device used in Open Data Hub’s API Certified integration for sharing real-time parking data."
+  img_back_title: ""
+  img_back_alt: "Image 1"
   partial:   title-cta.html
 
 paragraphs:
-  - description: "The API Certified Technology Provider certification enables Skidata to offer its customers, generally car park operators, a **ready-made infrastructure for data sharing**. For car parks managed via Skidata, **activating data delivery** to the Open Data Hub **takes just a few clicks**. There is no need for complex configurations or customised developments: integration is immediate, scalable and conforms to the Open Data Hub's documented standards.<br>
+  - description: "Thanks to Open Data Hub's **Data Sharing** service, taxi drivers in Merano can securely and controllably share their real-time location and availability. This technical integration is being carried out in collaboration with Biesse, the technology provider for the dispatch centre and Smart Taxi platform, which manages the operational infrastructure of the service. This is more than just a technological upgrade; each taxi becomes a reliable source of data, contributing to a more efficient and coordinated system.
   <br>
-  Being an API Certified Technology Provider means:
-  <ul>
-    <li>Providing customers with a system that is ready to share data with Open Data Hub and other third parties.</li>
-    <li>Guarantee quality, security and continuity in data flow.</li>
-    <li>Simplifying the addition of new collection points.</li>
-  </ul>"
-    title: "**Instant sharing thanks to certification**"
-    img_back: "/img/use-cases/skidata/open-data-hub-skidata-8258.jpg"
+  <br>
+  Knowing where a vehicle is and whether it is available enables applications to assign the nearest taxi to a customer, thereby reducing waiting times and optimising routes. The impact is tangible: fewer empty kilometres, less urban traffic and lower emissions. For residents and visitors alike, this means a faster, more transparent service that meets the demands of modern mobility."
+    title: ""
+    img_back: "/img/use-cases/taxi_merano/OpenDataHub-Taxi-Merano-0761-w.jpg"
     img_credit: "© Open Data Hub / Tania Marcadella"
-    img_back_alt: "Hand scanning a SKIDATA parking ticket, part of integration that shares real-time parking data with Open Data Hub."
-    img_back_title: "SKIDATA Ticket Scanner – Parking Data Integration"
+    img_back_alt: ""
+    img_back_title: ""
     partial: imgs-text-enlargeable.html
 
-  - description: "Thanks to this certification, Skidata has activated real-time sharing of parking space availability data for the mobility centres in Brunico and Bressanone, with many other facilities currently being activated.<br>
-  <br>
-  These facilities share their data with the Open Data Hub via Skidata's software infrastructure, making useful information accessible to apps, tourism portals, and mobility services."
-    title: "**Public car parks connected through Skidata**"
-    img_back: "/img/use-cases/skidata/open-data-hub-skidata-8274.jpg"
+  - description: "This shared data can also be integrated into journey planning tools, such as Open Trip Planner, which is accessible via the Open Data Hub platform.
+  This makes taxis part of a broader multimodal system alongside buses and trains, offering combined travel solutions that are updated in real time.
+  "
+    title: ""
+    btn_link: "https://journey.v2.otp.opendatahub.com/#/"
+    btn_label: Explore the Open Trip Planner
+    img_back: "/img/use-cases/taxi_merano/OpenDataHub-Opentripplanner.jpg"
     img_credit: "© Open Data Hub / Tania Marcadella"
-    img_back_title: "SKIDATA Parking Pay Station & Mobility Data"
-    img_back_alt: "SKIDATA parking pay station in an underground car park, sharing real-time occupancy data via Open Data Hub."
+    img_back_title: ""
+    img_back_alt: ""
     partial: text-imgs-enlargeable.html
 
-  - description: "Becoming an **API Certified Technology Provider** means much more than just obtaining a technical certification; it means **entering a digital ecosystem** where technology companies can offer their customers an immediate and tangible service for **intelligent data sharing**.
+  - description: "The Taxi Merano project shows how collaboration between local operators, technology providers, and data platforms can create value for the local area.
   <br>
-  Thanks to integration with the Open Data Hub, technology providers can **quickly activate new data points in a standardised way**, without incurring additional development or reconfiguration costs. This **enhances the value of their software**, transforming it into tools that can generate **innovation**, **visibility**, and **new business opportunities**.<br>
   <br>
-  It's not just about interoperability; it's also about networking with other local and international players and developing new services.<br>
-  <br>
-  Find out how you can get certified and easily and securely share data with the Open Data Hub."
-    title: "**Why become a Certified Technology Provider?**"
-    btn_link: "/services/certification/"
-    btn_label: Discover certification
-    img_back: "/img/use-cases/skidata/OpenDataHub-Technology-Provider-0714.jpg"
+  Would you also like to share data securely and intelligently?"
+    title: ""
+    btn_link: "https://opendatahub.com/services/data-sharing/"
+    btn_label: Discover the Data Sharing service by Open Data Hub
+    img_back: "/img/use-cases/taxi_merano/OpenDataHub-Taxi-Merano-0750-w.jpg"
     img_credit: "© Open Data Hub / Tania Marcadella"
-    img_back_title: "Open Data Hub API Certified Technology Provider Page"
-    img_back_alt: "Screenshot of the Open Data Hub API Certified Technology Provider page explaining how partners integrate their solutions."
+    img_back_title: ""
+    img_back_alt: ""
     partial: imgs-text-enlargeable.html
 
-  - description: "The collaboration model with Open Data Hub is extremely interesting, and we intend to offer it to customers in other regions and countries too. Becoming an API Certified Technology Provider is an important step in developing a true data-driven innovation ecosystem."
-    title: "Giorgio Savi"
-    subtitle: "Head of Sales & Marketing Southern Europe - Skidata Italia"
+  - description: "I decided to take part in the project because I believe it is important to keep up with the times. By sharing my data through the platform, I expect to gain greater visibility, reduce idle time, and receive more local bookings. This system already works very well in large cities, and I am convinced that it will bring significant benefits here in Merano too.”"
+    title: "Mauro Bott"
+    subtitle: "Taxi driver at Smart Taxi Merano"
     partial: quote.html
 ---
