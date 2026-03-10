@@ -11,8 +11,8 @@ images:
   - "/img/use-cases/taxi_merano/OpenDataHub-Taxi-Merano-0737-w.jpg"
 
 seo:
-  title: "SKIDATA & Open Data Hub – API Certified Parking Data"
-  description: "Discover how SKIDATA, an API Certified Technology Provider, shares real-time parking occupancy data with Open Data Hub to power smarter mobility services."
+  title: "Taxi Merano – Real-Time Data Sharing for Smart Mobility"
+  description: "Discover how Taxi Merano uses Open Data Hub’s Data Sharing service to share real-time location and availability data for smarter multimodal mobility."
   keywords:
 
 short:
@@ -24,8 +24,8 @@ short:
   img_back: "/img/use-cases/taxi_merano/OpenDataHub-Taxi-Merano-0737-w.jpg"
   img_link: "/use-cases/taxi_merano"
   img_credit: "© Open Data Hub / Tania Marcadella"
-  img_back_title: "SKIDATA Parking Access Device & Open Data Hub"
-  img_back_alt: "SKIDATA parking access device used in Open Data Hub’s API Certified integration for sharing real-time parking data."
+  img_back_title: "Taxi Merano – Real-Time Mobility Data Use Case"
+  img_back_alt: "Taxi Merano driver next to a taxi vehicle, representing real-time data sharing for smart and multimodal mobility services."
   bg_darker: true
   partial: imgs-text.html
   weight: 21
@@ -38,8 +38,8 @@ start:
   img_back: "/img/use-cases/taxi_merano/OpenDataHub-Taxi-Merano-0737-ws.jpg"
   img_link: "/use-cases/taxi_merano"
   img_credit: "© Open Data Hub / Tania Marcadella"
-  img_back_title: ""
-  img_back_alt: "Image 1"
+  img_back_title: "Taxi Merano – Real-Time Mobility Data Use Case"
+  img_back_alt: "Taxi Merano driver next to a taxi vehicle, representing real-time data sharing for smart and multimodal mobility services."
   partial:   title-cta.html
 
 paragraphs:
@@ -50,8 +50,8 @@ paragraphs:
     title: ""
     img_back: "/img/use-cases/taxi_merano/OpenDataHub-Taxi-Merano-0761-w.jpg"
     img_credit: "© Open Data Hub / Tania Marcadella"
-    img_back_alt: ""
-    img_back_title: ""
+    img_back_alt: "Smartphone used by Taxi Merano driver to share real-time taxi availability and location data for smarter mobility services."
+    img_back_title: "Taxi Merano – Sharing Real-Time Taxi Availability"
     partial: imgs-text-enlargeable.html
 
   - description: "This shared data can also be integrated into journey planning tools, such as Open Trip Planner, which is accessible via the Open Data Hub platform.
@@ -62,8 +62,8 @@ paragraphs:
     btn_label: Explore the Open Trip Planner
     img_back: "/img/use-cases/taxi_merano/OpenDataHub-Opentripplanner.jpg"
     img_credit: "© Open Data Hub / Tania Marcadella"
-    img_back_title: ""
-    img_back_alt: ""
+    img_back_title: "Taxi Merano – Real-Time Taxi Map Integration"
+    img_back_alt: "Map view showing Taxi Merano vehicles as part of real-time taxi data integration in the Open Data Hub mobility ecosystem."
     partial: text-imgs-enlargeable.html
 
   - description: "The Taxi Merano project shows how collaboration between local operators, technology providers, and data platforms can create value for the local area.
@@ -75,8 +75,8 @@ paragraphs:
     btn_label: Discover the Data Sharing service by Open Data Hub
     img_back: "/img/use-cases/taxi_merano/OpenDataHub-Taxi-Merano-0750-w.jpg"
     img_credit: "© Open Data Hub / Tania Marcadella"
-    img_back_title: ""
-    img_back_alt: ""
+    img_back_title: "Smart Taxi Merano Driver – Data Sharing Use Case"
+    img_back_alt: "Taxi driver at Smart Taxi Merano, representing real-time data sharing for smarter and more connected mobility services."
     partial: imgs-text-enlargeable.html
 
   - description: "I decided to take part in the project because I believe it is important to keep up with the times. By sharing my data through the platform, I expect to gain greater visibility, reduce idle time, and receive more local bookings. This system already works very well in large cities, and I am convinced that it will bring significant benefits here in Merano too.”"
