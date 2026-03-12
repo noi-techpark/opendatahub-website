@@ -251,8 +251,8 @@ menu:
       weight: 6
 
     - parent: community
-      name: GSoC 2026
-      URL: /gsoc26/
+      name: Project Ideas
+      URL: /project-ideas/
       weight: 7
 
     # --- Events ---
