@@ -50,7 +50,7 @@ paragraphs:
     img_back_title: "Yanovis Interface - Hotel Booking Data Insights"
     img_credit: "©  Slide from the Open Data Hub Day 2024 presentation"
     partial:   text-imgs-enlargeable.html
-    btn_link: "https://databrowser.opendatahub.com/dataset/table/mobility/v2/flat/Flight"
+    btn_link: "https://databrowser.opendatahub.com/dataset/table/tourism/v1/Trip"
     btn_label: Discover the Flight Data Dataset 
 
   - description: "This use case demonstrates how Open Data Hub can provide custom data visualisation solutions for businesses in the tourism sector and beyond. With its scalable solutions and developer-friendly tools, Open Data Hub supports companies in their digital transformation by offering faster implementation and enabling data-driven decision-making.<br>
