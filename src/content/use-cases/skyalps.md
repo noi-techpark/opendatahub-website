@@ -36,7 +36,7 @@ start:
 paragraphs:
   - description: "SkyAlps is a small, regional airline of Bolzano
     that connects small and medium-sized cities in Europe with direct flights."
-    btn_link: "https://www.skyalps.com/en/flights-destinations/all-flights"
+    btn_link: "https://www.skyalps.com/de/flight-offers/destinations/"
     btn_label: DISCOVER DESTINATIONS
     img_back: "/img/use-cases/skyalps/ODH-usecase-skyalps-2.jpg"
     img_credit: "Slide from the Open Data Hub Day 2023 presentation"
@@ -61,7 +61,7 @@ paragraphs:
     partial: imgs-text-enlargeable.html
 
   - description: "The flight data dataset includes information on both real-time and scheduled flights. Through a public data access API, users can gain an overview of the SkyAlps timetable with live information such as prices, times, destinations, and more."
-    btn_link: "https://opendatahub.com/datasets/mobility/flight/"
+    btn_link: "https://databrowser.opendatahub.com/dataset/table/tourism/v1/Trip"
     btn_label: GO TO THE DATASET
     img_back: "/img/use-cases/skyalps/ODH-usecase-skyalps-5.jpg"
     img_credit: "Photo by Ross Parmly on Unsplash"
