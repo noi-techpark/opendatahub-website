@@ -40,3 +40,19 @@ paragraphs:
     title: "Patrick Ohnewein"
     subtitle: "Head of Tech Transfer Digital at NOI Techpark"
     partial: quote.html
+  - description: "
+    The following certifications have been obtained by Open Data Hub and confirm the platform’s compliance with recognised standards and best practices in data interoperability, quality and technological reliability.
+    <ul>
+      <li>
+        AlpineBits HotelData 2024-10 see the <a target=_blank href='https://www.alpinebits.org/wp-content/uploads/ALPINEBITS_2024-10_AUDITREPORT_NOI_SERVER.pdf' >Audit</a>
+      </li>
+      <li>
+        AlpineBits HotelData 2022-10 see the <a target=_blank href='https://www.alpinebits.org/wp-content/uploads/ALPINEBITS_2022-10_AUDITREPORT_NOI_SERVER.pdf' >Audit</a>
+      </li>
+      <li>
+        AlpineBits HotelData 2020-10
+      </li>
+    </ul>
+    "
+    title: "**Open Data Hub certifications**"
+    partial: text-imgs-long.html
