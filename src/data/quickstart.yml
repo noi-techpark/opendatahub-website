@@ -4,8 +4,12 @@
 
 boxes:
   - title: Data Browser 2.0
-    subtitle: Browse and discover the available data.
+    subtitle: Browse the available data.
     btn_link: https://databrowser.opendatahub.com
+
+  - title: Discovery Tool
+    subtitle: The blueprint for open data. Know the architecture before you build the future.
+    btn_link: https://discovery.opendatahub.com/
 
   - title: Analytics Tool
     subtitle: Find out information about sensors and their locations and measure (near-real time data).
@@ -35,9 +39,9 @@ boxes:
     subtitle: Access the NOI Techpark repositories to contribute or reuse code of the Open Data Hub.
     btn_link: https://github.com/noi-techpark
 
-  - title: OpenTripPlanner (OTP) API
-    subtitle: Access the Open Data Hub mobility data through the OTP journey planner API.
-    btn_link: http://dev.opentripplanner.org/apidoc/1.0.0/index.html
+  - title: OpenTripPlanner (OTP)
+    subtitle: Access the Open Data Hub mobility data through the OTP journey planner.
+    btn_link: https://journey.v2.otp.opendatahub.com/#/
 
   - title: Transmodel API - NeTEx Endpoints
     subtitle: Access standardized planned mobility data including public transport, parking, and sharing services in NeTEx format.
