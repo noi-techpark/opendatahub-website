@@ -72,7 +72,7 @@ paragraphs:
   Would you also like to share data securely and intelligently?"
     title: ""
     btn_link: "https://opendatahub.com/services/data-sharing/"
-    btn_label: Discover the Data Sharing service by Open Data Hub
+    btn_label: "Discover the Data Sharing service"
     img_back: "/img/use-cases/taxi_merano/OpenDataHub-Taxi-Merano-0750-w.jpg"
     img_credit: "© Open Data Hub / Tania Marcadella"
     img_back_title: "Smart Taxi Merano Driver – Data Sharing Use Case"
