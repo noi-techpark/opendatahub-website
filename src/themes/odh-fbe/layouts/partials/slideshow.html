@@ -4,7 +4,7 @@
 	SPDX-License-Identifier: AGPL-3.0-or-later
 */}}
 
-<section class="logo-slideshow">
+<section class="logo-slideshow" {{ if (isset . "identifier") }} id="{{.identifier}}" {{end}}>
   <div class="container">
     <script defer src="/js/slideshow.js"></script>
 

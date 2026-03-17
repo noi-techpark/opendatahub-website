@@ -5,7 +5,7 @@
 */}}
 
 {{" <!-- Title -->" | safeHTML }}
-<section>
+<section {{ if (isset . "identifier") }} id="{{.identifier}}" {{end}}>
     <div class="container">
         <div class="row gy-4">
             <div class="col-lg-8">

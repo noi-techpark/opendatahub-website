@@ -4,6 +4,6 @@
 	SPDX-License-Identifier: AGPL-3.0-or-later
 */}}
 
-<div class="ratio ratio-16x9">
+<div class="ratio ratio-16x9" {{ if (isset . "identifier") }} id="{{.identifier}}" {{end}}>
   <iframe frameborder="0" allow="autoplay; fullscreen;" allowfullscreen src="https://scripts.opendatahub.com/cookieconsent/blocked-iframe.html?onAcceptSrc={{ .video }}" title="Video: {{ .title | markdownify}}"></iframe>
 </div>

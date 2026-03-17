@@ -5,7 +5,7 @@
 */}}
 
 {{"<!-- Single Column Imgs - Text -->" | safeHTML }}
-<section class="single-col-imgs-text">
+<section class="single-col-imgs-text" {{ if (isset . "identifier") }} id="{{.identifier}}" {{end}}>
     <div class="container">
         <div class="row">
             <div class="col-12 text-center">

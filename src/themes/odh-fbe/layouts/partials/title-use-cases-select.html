@@ -5,7 +5,7 @@
 */}}
 
 {{" <!-- Title -->" | safeHTML }}
-<section>
+<section {{ if (isset . "identifier") }} id="{{.identifier}}" {{end}}>
   {{ partial "title.html" . }}
 
   <div class="container py-2">

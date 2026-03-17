@@ -4,7 +4,7 @@
 	SPDX-License-Identifier: AGPL-3.0-or-later
 */}}
 
-<div class="position-relative">
+<div class="position-relative" {{ if (isset . "identifier") }} id="{{.identifier}}" {{end}}>
   <div
       data-bs-toggle="modal"
       data-bs-target="#modal-{{ .img_back | sha1 }}"

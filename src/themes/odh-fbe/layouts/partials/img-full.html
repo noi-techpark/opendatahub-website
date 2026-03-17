@@ -4,7 +4,7 @@
 	SPDX-License-Identifier: AGPL-3.0-or-later
 */}}
 {{"<!-- One Column with only an Image -->" | safeHTML }}
-<section>
+<section {{ if (isset . "identifier") }} id="{{.identifier}}" {{end}}>
     <div class="container">
         <div class="col-12">
             <img src="{{ .img_back }}" alt="{{ .img_back_alt }}" title="{{ .img_back_title }}" class="h-auto rounded mx-auto d-block"/> 

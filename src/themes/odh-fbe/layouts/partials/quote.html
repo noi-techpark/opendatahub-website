@@ -5,7 +5,7 @@
 */}}
 
 {{"<!-- quote -->" | safeHTML }}
-<section>
+<section {{ if (isset . "identifier") }} id="{{.identifier}}" {{end}}>
 	<div class="container">
 		<div class="testimonial-quote group">
 			<div class="quote-container">

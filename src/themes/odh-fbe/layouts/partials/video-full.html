@@ -5,7 +5,7 @@
 */}}
 
 {{"<!-- One Column video -->" | safeHTML }}
-<section class="imgs-icon-text">
+<section class="imgs-icon-text" {{ if (isset . "identifier") }} id="{{.identifier}}" {{end}}>
 	<div class="container">
 		<div class="col-12">
 			{{ partial "video-iframe.html" . }}

@@ -9,7 +9,7 @@
   </div>
 </section> -->
 
-<section style="position: relative; overflow: hidden;">
+<section style="position: relative; overflow: hidden;" {{ if (isset . "identifier") }} id="{{.identifier}}" {{end}}>
   <div style="position: relative; overflow-x: auto; white-space: nowrap;">
     <img src="{{ .img_back }}" alt={{ .img_back_alt }} title={{ .img_back_title }} style="width: 200vw;" />
   </div>

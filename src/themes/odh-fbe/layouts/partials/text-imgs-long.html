@@ -4,8 +4,7 @@
 	SPDX-License-Identifier: AGPL-3.0-or-later
 */}}
 
-{{"<!-- Double Column Text - Imgs -->" | safeHTML }}
-<section>
+<section {{ if (isset . "identifier") }} id="{{.identifier}}" {{end}}>
 	<div class="container">
 			<div class="text-imgs-long-margin col-12 col-lg-20" >
 				<h2>{{ .title | markdownify }}</h2>
