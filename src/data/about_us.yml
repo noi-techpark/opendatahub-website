@@ -42,17 +42,25 @@ paragraphs:
     partial: quote.html
   - description: "
     The following certifications have been obtained by Open Data Hub and confirm the platform’s compliance with recognised standards and best practices in data interoperability, quality and technological reliability.
-    <ul>
-      <li>
-        <img src='https://third-party.opendatahub.com/opendatahub-website/img/AlpineBits_Certified.png' alt='The picture reports the AlpineBits Certified logo' title='AlpineBits Certified logo' style='border: 2px solid white; height: 45px'></img> AlpineBits HotelData 2024-10 see the <u><a target=_blank href='https://www.alpinebits.org/wp-content/uploads/ALPINEBITS_2024-10_AUDITREPORT_NOI_SERVER.pdf' >Audit</a></u>
-      </li>
-      <li>
-        <img src='https://third-party.opendatahub.com/opendatahub-website/img/AlpineBits_Certified.png' alt='The picture reports the AlpineBits Certified logo' title='AlpineBits Certified logo' style='border: 2px solid white; height: 45px'></img> AlpineBits HotelData 2022-10 see the <u><a target=_blank href='https://www.alpinebits.org/wp-content/uploads/ALPINEBITS_2022-10_AUDITREPORT_NOI_SERVER.pdf' >Audit</a></u>
-      </li>
-      <li>
-        <img src='https://third-party.opendatahub.com/opendatahub-website/img/AlpineBits_Certified.png' alt='The picture reports the AlpineBits Certified logo' title='AlpineBits Certified logo' style='border: 2px solid white; height: 45px'></img> AlpineBits HotelData 2020-10
-      </li>
-    </ul>
+    
+    <p>
+      <a target=_blank href='https://www.alpinebits.org/certification/' >
+        <img src='https://third-party.opendatahub.com/opendatahub-website/img/AlpineBits_Certified.png' alt='The picture reports the AlpineBits Certified logo' title='AlpineBits Certified logo' style='border: 2px solid white; height: 45px'></img>
+      </a>
+      AlpineBits HotelData 2024-10 - See the 
+      <u><a target=_blank href='https://www.alpinebits.org/wp-content/uploads/ALPINEBITS_2024-10_AUDITREPORT_NOI_SERVER.pdf' >Audit</a></u>
+      <br>
+      <a target=_blank href='https://www.alpinebits.org/certification/' >
+        <img src='https://third-party.opendatahub.com/opendatahub-website/img/AlpineBits_Certified.png' alt='The picture reports the AlpineBits Certified logo' title='AlpineBits Certified logo' style='border: 2px solid white; height: 45px'></img>
+      </a>
+      AlpineBits HotelData 2022-10 - See the
+      <u><a target=_blank href='https://www.alpinebits.org/wp-content/uploads/ALPINEBITS_2022-10_AUDITREPORT_NOI_SERVER.pdf' >Audit</a></u>
+      <br>
+      <a target=_blank href='https://www.alpinebits.org/certification/' >
+        <img src='https://third-party.opendatahub.com/opendatahub-website/img/AlpineBits_Certified.png' alt='The picture reports the AlpineBits Certified logo' title='AlpineBits Certified logo' style='border: 2px solid white; height: 45px'></img>
+      </a>
+      AlpineBits HotelData 2020-10
+    </p>
     "
     title: "**Open Data Hub certifications**"
     partial: text-imgs-long.html
