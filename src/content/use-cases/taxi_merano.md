@@ -8,7 +8,7 @@ use_case_tags:
   - "tourism"
 # Images that are shown as preview as preview in the Social Networks
 images:
-  - "/img/use-cases/taxi_merano/OpenDataHub-Taxi-Merano-0737-w.jpg"
+  - "/img/use-cases/taxi_merano/OpenDataHub-Taxi-Merano-0737-social.jpg"
 
 seo:
   title: "Taxi Merano – Real-Time Data Sharing for Smart Mobility"
