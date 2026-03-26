@@ -28,4 +28,6 @@ rows:
 
     partial: contact-mailto.html
     contact_email: "help@opendatahub.com"
+    contact_subject: "[Open Data Hub - Certification]"
+
 ---
