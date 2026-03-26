@@ -242,8 +242,7 @@ images:
 
 Images must be placed in the `static` folder of the project.  
 The recommended size is `1200x630`, as this is the format most platforms use for social cards.
-
-
+The recommended size for whatsapp is atleast '300x200' pixel and the maximum file size is 300Kb.
 
 
 ### **Videos:**
