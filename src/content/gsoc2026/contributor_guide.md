@@ -1,5 +1,6 @@
 ---
 title: "GSoC 2026 Contributor Guidance"
+draft: true
 description: "Open Data Hub GSoC 2026 - Contributor and Mentor Information"
 _build:
   list: never

@@ -1,5 +1,6 @@
 ---
 title: "No-Code Training & Integration Toolkit"
+draft: true
 short:
   title: "No-Code Training Toolkit"
   description: "An educational toolkit and templates to integrate Open Data Hub with No-Code platforms."

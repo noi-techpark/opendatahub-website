@@ -1,5 +1,6 @@
 ---
 title: "Open Data Hub Monitoring"
+draft: true
 short:
   title: "Open Data Hub Monitoring"
   description: "Build Grafana dashboards and alerts to monitor Open Data Hub pipelines and infrastructure."

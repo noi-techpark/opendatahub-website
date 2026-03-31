@@ -1,5 +1,6 @@
 ---
 title: "Reusable Map Visualization Web Component"
+draft: true
 short:
   title: "Map Visualization Web Component"
   description: "A reusable web component to visualize Open Data Hub API data on an interactive map."
