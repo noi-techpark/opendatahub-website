@@ -338,6 +338,14 @@ On local development and on testingmachine deploys this Web Component would rend
 
 On production deploys the url will point to the production script of the Web Component.
 
+## Hiding Pages in Hugo
+
+To hide a page from being published, set the following in the page frontmatter:
+
+```yaml
+draft: true
+```
+
 ## Information
 
 ### Support

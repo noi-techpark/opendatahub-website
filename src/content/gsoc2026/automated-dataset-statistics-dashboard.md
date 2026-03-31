@@ -1,5 +1,6 @@
 ---
 title: "Automated Dataset Statistics Dashboard"
+draft: true
 short:
   title: "Automated Dataset Statistics Dashboard"
   description: "Dashboard to collect and visualize statistics for Open Data Hub datasets."
