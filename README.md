@@ -345,6 +345,8 @@ To hide a page from being published, set the following in the page frontmatter:
 ```yaml
 draft: true
 ```
+For more details, refer to the official Hugo documentation:
+[Hugo draft documentation](https://gohugo.io/methods/page/draft/)
 
 ## Information
 
