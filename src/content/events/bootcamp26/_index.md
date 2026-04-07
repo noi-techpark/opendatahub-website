@@ -8,6 +8,9 @@ seo:
   title: "Open Data Hub Bootcamp 2026 – Build with Real Data"
   description: "Join the fourth Open Data Hub Bootcamp on 14 April 2026 at NOI Techpark in Bolzano to code with real data, solve business challenges and learn by doing."
 
+images:
+  - "/img/events/20260414-bootcamp-1200-630.png"
+
 aliases:
   - "/events/bootcamp"
   - "/bootcamp"

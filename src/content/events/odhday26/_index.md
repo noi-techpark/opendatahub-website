@@ -4,6 +4,9 @@ content_partial: table-program-press-release
 position: "Events"
 url: "/events/day26/"
 
+images:
+  - "/img/events/20260515-OpenDataHubDay26-detail.png"
+
 seo:
   title: "Open Data Hub Day 2026 – Data, Use Cases & Data Spaces"
   description: "Join Open Data Hub Day 2026 on 15 May at NOI Techpark in Bolzano to explore best practices, real use cases and data spaces with experts from business and research."
@@ -89,7 +92,7 @@ content:
     #   - videoLink: ""
     - cols:
       - time: "9.30"
-      - track: "Main Track"
+      - track: "Main"
       - speaker: "Christoph Lucas"
       - speakerURL: ""
       - org: " "
@@ -99,7 +102,7 @@ content:
 #      - videoLink: ""
     - cols:
       - time: "9.45"
-      - track: "Main Track"
+      - track: "Main"
       - speaker: " "
       - speakerURL: ""
       - org: "touristinfo.ai"
@@ -109,7 +112,7 @@ content:
     #   - videoLink: ""
     - cols:
       - time: "10.00"
-      - track: "Main Track"
+      - track: "Main"
       - speaker: "Francesca De Finis"
       - speakerURL: ""
       - org: " "
@@ -119,8 +122,8 @@ content:
     #   - videoLink: ""
     - cols:
       - time: "10.15"
-      - track: "Main Track"
-      - speaker: ""
+      - track: "Main"
+      - speaker: " "
       - speakerURL: ""
       - org: "Open Data Hub"
       - orgURL: ""
@@ -168,7 +171,7 @@ content:
   row_room2:
     - cols:
       - time: "11.00"
-      - track: "Open Data Hub Main Track"
+      - track: "Open Data Hub Main"
       - speakers:
         - name: "Lucia Felbauer"
           url: ""
@@ -184,7 +187,7 @@ content:
 #      - videoLink: ""
     - cols:
       - time: "11.15"
-      - track: "Open Data Hub Main Track"
+      - track: "Open Data Hub Main"
       - speakers:
         - name: "Grigory Vodyanov"
           url: ""
@@ -200,7 +203,7 @@ content:
     #   - videoLink: ""
     - cols:
       - time: "11.30"
-      - track: "Open Data Hub Main Track"
+      - track: "Open Data Hub Main"
       - speaker: "Matteo Rosario Moschitta"
       - speakerURL: ""
       - org: "OffLine Agency"
@@ -210,8 +213,8 @@ content:
     #   - videoLink: ""
     - cols:
       - time: "11.45"
-      - track: "Open Data Hub Main Track"
-      - speaker: "Degl’Inncenti Ciro"
+      - track: "Open Data Hub Main"
+      - speaker: "Degl’Innocenti Ciro"
       - speakerURL: ""
       - org: "Municipality of Padova"
       - orgURL: ""
@@ -238,7 +241,7 @@ content:
       - content: "Networking lunch (Foyer NOI Seminar Area)"
     - cols:
       - time: "13.30"
-      - track: "Mobility Track"
+      - track: "Mobility"
       - speakers:
         - name: "Leonard Ehrenfried"
           url: ""
@@ -250,7 +253,7 @@ content:
 #      - videoLink: ""
     - cols:
       - time: "13.45"
-      - track: "Mobility Track"
+      - track: "Mobility"
       - speakers:
         - name: "Matteo Roggia"
           url: ""
@@ -262,7 +265,7 @@ content:
 #      - videoLink: ""
     - cols:
       - time: "14.00"
-      - track: "Mobility Track"
+      - track: "Mobility"
       - speaker: "Giacomo Fabbian"
       - speakerURL: ""
       - org: "OffLine Agency"
@@ -272,7 +275,7 @@ content:
     #   - videoLink: ""
     # - cols:
       - time: "14.15"
-      - track: "Mobility Track"
+      - track: "Mobility"
       - speaker: "Cyprien Huissoud"
       - speakerURL: ""
       - org: " "
@@ -282,7 +285,7 @@ content:
     #   - videoLink: ""
     - cols:
       - time: "14.30"
-      - track: "Mobility Track"
+      - track: "Mobility"
       - speaker: "Giuseppe Cusati"
       - speakerURL: ""
       - org: " "
@@ -292,7 +295,7 @@ content:
 #      - videoLink: ""
     - cols:
       - time: "14.45"
-      - track: "Mobility Track"
+      - track: "Mobility"
       - speaker: "Mattia Caldi"
       - speakerURL: ""
       - org: " "
@@ -308,7 +311,7 @@ content:
       - content: "Community Coffee Break (Foyer NOI Seminar Area)"
     - cols:
       - time: "15.30"
-      - track: "Open Data Hub Core Track"
+      - track: "Open Data Hub Core"
       - speakers:
         - name: "Clemens Zagler"
           url: ""
@@ -320,7 +323,7 @@ content:
     #   - videoLink: ""
     - cols:
       - time: "15.45"
-      - track: "Open Data Hub Core Track"
+      - track: "Open Data Hub Core"
       - speakers:
         - name: "Rudolf Thöni"
           url: ""
@@ -332,7 +335,7 @@ content:
     #   - videoLink: ""
     - cols:
       - time: "16.00"
-      - track: "Open Data Hub Core Track"
+      - track: "Open Data Hub Core"
       - speaker: "Nicola Manica"
       - speakerURL: ""
       - org: "R3GIS"
@@ -342,7 +345,7 @@ content:
     #   - videoLink: ""
     - cols:
       - time: "16.15"
-      - track: "Open Data Hub Core Track"
+      - track: "Open Data Hub Core"
       - speakers:
         - name: "Matteo Roggia"
           url: ""
@@ -354,7 +357,7 @@ content:
     #   - videoLink: ""
     - cols:
       - time: "16.30"
-      - track: "Open Data Hub Core Track"
+      - track: "Open Data Hub Core"
       - speakers:
         - name: "Clemens Zagler"
           url: ""
@@ -366,7 +369,7 @@ content:
     #   - videoLink: ""
     - cols:
       - time: "16.45"
-      - track: "Open Data Hub Core Track"
+      - track: "Open Data Hub Core"
       - speaker: "Abduallah Abuhassan"
       - speakerURL: ""
       - org: " "
@@ -413,11 +416,11 @@ content:
   row_room3:
     - cols:
       - time: "11.00"
-      - track: "Bootcamp Track"
+      - track: "Bootcamp"
       - speakers:
         - name: " "
           url: ""
-        - name: "Emma Giacomelli Boldrini"
+        - name: " "
           url: ""
       - organizations:
         - name: " "
@@ -427,7 +430,7 @@ content:
 #      - videoLink: ""
     - cols:
       - time: "12.00"
-      - track: "Building Track"
+      - track: "Building"
       - speaker: "Anthony Suppa"
       - speakerURL: ""
       - org: " "
@@ -437,8 +440,8 @@ content:
     #   - videoLink: ""
     - cols:
       - time: "12.15"
-      - track: "Marco Dalle Feste"
-      - speaker: " "
+      - track: "Building"
+      - speaker: "Marco Dalle Feste"
       - speakerURL: ""
       - org: " "
       - orgURL: ""
@@ -453,7 +456,7 @@ content:
       - content: "Networking lunch (Foyer NOI Seminar Area)"
     - cols:
       - time: "13.30"
-      - track: "AI Track"
+      - track: "AI"
       - speakers:
         - name: "Eduardo Guerra"
           url: ""
@@ -465,7 +468,7 @@ content:
 #      - videoLink: ""
     - cols:
       - time: "13.45"
-      - track: "AI Track"
+      - track: "AI"
       - speakers:
         - name: "Chris Mair"
           url: ""
@@ -477,7 +480,7 @@ content:
 #      - videoLink: ""
     - cols:
       - time: "14.00"
-      - track: "AI Track"
+      - track: "AI"
       - speaker: "Marco Montanari"
       - speakerURL: ""
       - org: " "
@@ -487,7 +490,7 @@ content:
     #   - videoLink: ""
     - cols:
       - time: "14.15"
-      - track: "AI Track"
+      - track: "AI"
       - speaker: "Davide Montesin"
       - speakerURL: ""
       - org: "Catch Solve "
@@ -497,7 +500,7 @@ content:
     #   - videoLink: ""
     - cols:
       - time: "14.30"
-      - track: "AI Track"
+      - track: "AI"
       - speaker: "Peter Hopfgartner"
       - speakerURL: ""
       - org: "Ontopic"
@@ -507,7 +510,7 @@ content:
 #      - videoLink: ""
     - cols:
       - time: "14.45"
-      - track: "AI Track"
+      - track: "AI"
       - speaker: "Safoura Jolfaei"
       - speakerURL: ""
       - org: " "
@@ -523,7 +526,7 @@ content:
       - content: "Community Coffee Break (Foyer NOI Seminar Area)"
     - cols:
       - time: "15.30"
-      - track: "Data Space Track"
+      - track: "Data Space"
       - speakers:
         - name: "Antonio Jara"
           url: ""
@@ -537,7 +540,7 @@ content:
     #   - videoLink: ""
     - cols:
       - time: "15.45"
-      - track: "Data Space Track"
+      - track: "Data Space"
       - speakers:
         - name: "Lukas Künig"
           url: ""
@@ -551,7 +554,7 @@ content:
     #   - videoLink: ""
     - cols:
       - time: "16.00"
-      - track: "Data Space Track"
+      - track: "Data Space"
       - speaker: "Riccardo Crescini"
       - speakerURL: ""
       - org: " "
@@ -561,7 +564,7 @@ content:
     #   - videoLink: ""
     - cols:
       - time: "16.15"
-      - track: "Data Space Track"
+      - track: "Data Space"
       - speakers:
         - name: "Vittorio Iacovella"
           url: ""
@@ -573,7 +576,7 @@ content:
     #   - videoLink: ""
     - cols:
       - time: "16.30"
-      - track: "Data Space Track"
+      - track: "Data Space"
       - speakers:
         - name: "Ilaria Cimorosi"
           url: ""
@@ -585,7 +588,7 @@ content:
     #   - videoLink: ""
     - cols:
       - time: "16.45"
-      - track: "Data Space Track"
+      - track: "Data Space"
       - speaker: "Andrea Vianello"
       - speakerURL: "https://www.linkedin.com/in/andrea-vianello-77801755/"
       - org: "EURAC Research"
