@@ -85,8 +85,8 @@ content:
         - content: "18.00"
         - content: "Aperitivo"
 
-  btn_down_link: "https://pretix.eu/noi-digital/bootcamp26/"
-  btn_down_label: "Register"
+  btn_down_link: "https://cloud.opendatahub.com/index.php/s/YATAf95CXqe9E6y"
+  btn_down_label: "Challenge Description"
   btn_down_on_click: "_paq.push(['trackEvent', 'Challenge Description', 'Click', 'Open Data Hub Bootcamp']);"
 
 
