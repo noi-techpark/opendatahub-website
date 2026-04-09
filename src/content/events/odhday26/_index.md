@@ -40,7 +40,8 @@ start:
 
 program:
   title: "Open Data Hub Day - Programme"
-  subtitle: "The event will be held in English."
+  subtitle: "The programme is structured across three parallel rooms: the event will open in Seminar Room 1 with the main track and after the morning coffee break it will split into sessions in Seminar Rooms 2 and 3, each dedicated to specific thematic tracks as outlined below.<br>
+  The event will be held in English."
 
 content:
   btn_top_link: https://pretix.eu/noi-digital/open-data-hub-day-26/
@@ -58,7 +59,7 @@ content:
       width: 10%
     - title: Speaker
       width: 15%
-    - title: Organization
+    - title: Organisation
       width: 15%
     - title: Title
       width: 85%
@@ -94,9 +95,9 @@ content:
       - time: "9.30"
       - track: "Main"
       - speaker: "Christoph Lucas"
-      - speakerURL: ""
-      - org: " "
-      - orgURL: ""
+      - speakerURL: "https://www.linkedin.com/in/christoph-lucas-570107213/"
+      - org: "SBB / SKI+"
+      - orgURL: "https://company.sbb.ch/"
       - content: "Open Source Routers - A comprehensive comparative market research"
 #      - slidesLink: "" 
 #      - videoLink: ""
@@ -114,9 +115,9 @@ content:
       - time: "10.00"
       - track: "Main"
       - speaker: "Francesca De Finis"
-      - speakerURL: ""
-      - org: " "
-      - orgURL: ""
+      - speakerURL: "http://www.linkedin.com/in/francescadefinis"
+      - org: "Stendhapp"
+      - orgURL: "www.stendhapp.com"
       - content: "Open data for cultural tourism: are they like oil or like water?"
     #   - slidesLink: ""
     #   - videoLink: ""
@@ -126,7 +127,7 @@ content:
       - speaker: " "
       - speakerURL: ""
       - org: "Open Data Hub"
-      - orgURL: ""
+      - orgURL: "https://opendatahub.com/"
       - content: "Contributor of the Year 2026"
     #   - slidesLink: ""
     #   - videoLink: ""
@@ -159,14 +160,14 @@ content:
       width: 10%
     - title: Speaker
       width: 15%
-    - title: Organization
+    - title: Organisation
       width: 15%
     - title: Title
       width: 40%
-    - title: Slides
-      width: 5%
-    - title: Video
-      width: 5%
+    # - title: Slides
+    #   width: 5%
+    # - title: Video
+    #   width: 5%
         
   row_room2:
     - cols:
@@ -178,9 +179,9 @@ content:
         - name: "Emma Giacomelli Boldrini"
           url: ""
       - organizations:
-        - name: " "
+        - name: "Office of the Tyrolean Provincial Government, Department of Forest Management"
           url: ""
-        - name: " "
+        - name: "Tourism and Sport Department, Autonomous Province of Trento"
           url: ""
       - content: "DIGIWAY in the Open Data Hub – interoperable data for Alpine safety"
 #      - slidesLink: ""
@@ -190,13 +191,13 @@ content:
       - track: "Open Data Hub Main"
       - speakers:
         - name: "Grigory Vodyanov"
-          url: ""
-        - name: "Federico"
+          url: "https://www.linkedin.com/in/grigory-vodyanov-099505241/"
+        - name: " "
           url: ""
       - organizations:
-        - name: " "
-          url: ""
-        - name: " "
+        - name: "PadoVia.it"
+          url: "http://padovia.it/"
+        - name: "Politecnico di Milano"
           url: ""
       - content: "Digital UX and public transport: Looking towards the future"
     #   - slidesLink: ""
@@ -205,8 +206,8 @@ content:
       - time: "11.30"
       - track: "Open Data Hub Main"
       - speaker: "Matteo Rosario Moschitta"
-      - speakerURL: ""
-      - org: "OffLine Agency"
+      - speakerURL: "https://www.linkedin.com/in/matteo-moschitta/"
+      - org: "OFFLINE Agency"
       - orgURL: "https://offlineagency.it/"
       - content: "From Infrastructure to Product: The Challenges Behind Evolving the Open Data Browser"
     #   - slidesLink: ""
@@ -226,8 +227,8 @@ content:
       - track: "City Vision Panel"
       - speaker: " "
       - speakerURL: ""
-      - org: " "
-      - orgURL: ""
+      - org: "City Vision"
+      - orgURL: "https://cityvision.zone/"
       - content: "City Vision Panel"
     #   - slidesLink: ""
     #   - videoLink: ""
@@ -244,9 +245,9 @@ content:
       - track: "Mobility"
       - speakers:
         - name: "Leonard Ehrenfried"
-          url: ""
+          url: "https://www.linkedin.com/in/leonard-ehrenfried-61500b82"
       - organizations:
-        - name: " "
+        - name: "OpenTripPlanner"
           url: ""
       - content: "OpenTripPlanner: European standards in Italy"
 #      - slidesLink: ""
@@ -256,7 +257,7 @@ content:
       - track: "Mobility"
       - speakers:
         - name: "Matteo Roggia"
-          url: ""
+          url: "https://www.linkedin.com/in/mroggia/"
         organizations:
         - name: "NOI Techpark"
           url: "https://noi.bz.it/"
@@ -267,8 +268,8 @@ content:
       - time: "14.00"
       - track: "Mobility"
       - speaker: "Giacomo Fabbian"
-      - speakerURL: ""
-      - org: "OffLine Agency"
+      - speakerURL: "https://www.linkedin.com/in/giacomo-fabbian/"
+      - org: "OFFLINE Agency"
       - orgURL: "https://offlineagency.it/"
       - content: "Scaling Swiss Mobility Data Ingestion in the Open Data Hub"
     #   - slidesLink: ""
@@ -278,8 +279,8 @@ content:
       - track: "Mobility"
       - speaker: "Cyprien Huissoud"
       - speakerURL: ""
-      - org: " "
-      - orgURL: ""
+      - org: "PathWorks Tech LLC"
+      - orgURL: "https://www.pathworkstech.ch/"
       - content: "Towards a Modern Multimodal Journey Planner"
     #   - slidesLink: ""
     #   - videoLink: ""
@@ -287,9 +288,9 @@ content:
       - time: "14.30"
       - track: "Mobility"
       - speaker: "Giuseppe Cusati"
-      - speakerURL: ""
-      - org: " "
-      - orgURL: ""
+      - speakerURL: "https://www.linkedin.com/in/giuseppe-cusati-4b59419a/"
+      - org: "GeniAI"
+      - orgURL: "https://geniai.it/"
       - content: "From Video to Data: Bringing Real-Time Insights into Open Data Hub"
 #      - slidesLink: ""
 #      - videoLink: ""
@@ -297,7 +298,7 @@ content:
       - time: "14.45"
       - track: "Mobility"
       - speaker: "Mattia Caldi"
-      - speakerURL: ""
+      - speakerURL: "https://www.linkedin.com/in/mattia-caldi-456033314/"
       - org: " "
       - orgURL: ""
       - content: "Understanding Traffic Dynamics through Process Mining: An example in South Tyrol"
@@ -314,7 +315,7 @@ content:
       - track: "Open Data Hub Core"
       - speakers:
         - name: "Clemens Zagler"
-          url: ""
+          url: "https://www.linkedin.com/in/clemens-zagler-7b68401b6/"
         organizations:
         - name: "NOI Techpark"
           url: "https://noi.bz.it/"
@@ -337,7 +338,7 @@ content:
       - time: "16.00"
       - track: "Open Data Hub Core"
       - speaker: "Nicola Manica"
-      - speakerURL: ""
+      - speakerURL: "https://www.linkedin.com/in/nicola-manica-2531961a/"
       - org: "R3GIS"
       - orgURL: "https://www.r3gis.com/"
       - content: "Millions of Features, One Smooth Map"
@@ -348,7 +349,7 @@ content:
       - track: "Open Data Hub Core"
       - speakers:
         - name: "Matteo Roggia"
-          url: ""
+          url: "https://www.linkedin.com/in/mroggia/"
         organizations:
         - name: "NOI Techpark"
           url: "https://noi.bz.it/"
@@ -360,7 +361,7 @@ content:
       - track: "Open Data Hub Core"
       - speakers:
         - name: "Clemens Zagler"
-          url: ""
+          url: "https://www.linkedin.com/in/clemens-zagler-7b68401b6/"
       - organizations:
         - name: "NOI Techpark"
           url: "https://noi.bz.it/"
@@ -371,9 +372,9 @@ content:
       - time: "16.45"
       - track: "Open Data Hub Core"
       - speaker: "Abduallah Abuhassan"
-      - speakerURL: ""
-      - org: " "
-      - orgURL: ""
+      - speakerURL: "https://www.linkedin.com/in/kaiozwald/"
+      - org: "NOI Techpark"
+      - orgURL: "https://noi.bz.it/it"
       - content: "Consuming Open Data Hub APIs with n8n: A Low-Code Approach to Data Integration"
     #   - slidesLink: ""
     #   - videoLink: ""
@@ -393,10 +394,10 @@ content:
   Presentation of projects developed during the Open Data Hub Bootcamp by student teams. Projects are presented by the participants themselves and focus on data visualization, AI and LLM integration and data processing and enrichment. This event is an initiative of the Open Data Hub team in collaboration with the Faculty of Engineering of the Free University of Bozen-Bolzano.<br>
   <br>
   <h3>BUILDING</h3>
-  This track explores how open data can be applied in the context of smart buildings and connected environments. It showcases practical approaches to integrating and using data to improv  e efficiency and monitoring.<br>
+  This track explores how Open Data can be applied in the context of smart buildings and connected environments. It showcases practical approaches to integrating and using data to improve efficiency and monitoring.<br>
   <br>
   <h3>AI</h3>
-  This track explores the role of artificial intelligence in unlocking the value of open data. It focuses on how data can be structured, accessed and used to enable intelligent systems and new data-driven applications.<br>
+  This track explores the role of artificial intelligence in unlocking the value of Open Data. It focuses on how data can be structured, accessed and used to enable intelligent systems and new data-driven applications.<br>
   <br>
   <h3>DATA SPACE </h3>
   This track looks at the future of data sharing in Europe. It presents concepts, frameworks and experiences related to Data Spaces and the development of interoperable and sovereign data ecosystems."
@@ -408,14 +409,14 @@ content:
       width: 10%
     - title: Speaker
       width: 15%
-    - title: Organization
+    - title: Organisation
       width: 15%
     - title: Title
       width: 40%
-    - title: Slides
-      width: 5%
-    - title: Video
-      width: 5%
+    # - title: Slides
+    #   width: 5%
+    # - title: Video
+    #   width: 5%
   row_room3:
     - cols:
       - time: "11.00"
@@ -435,9 +436,9 @@ content:
       - time: "12.00"
       - track: "Building"
       - speaker: "Anthony Suppa"
-      - speakerURL: ""
-      - org: " "
-      - orgURL: ""
+      - speakerURL: "https://github.com/asuptor"
+      - org: "Eurac Research"
+      - orgURL: "https://www.eurac.edu/en"
       - content: "Enriching open data with street view imagery and deep learning"
     #   - slidesLink: ""
     #   - videoLink: ""
@@ -445,8 +446,8 @@ content:
       - time: "12.15"
       - track: "Building"
       - speaker: "Marco Dalle Feste"
-      - speakerURL: ""
-      - org: " "
+      - speakerURL: "https://www.linkedin.com/in/marcodallefeste/"
+      - org: "Freelance"
       - orgURL: ""
       - content: "Towards an integrated smart building control dashboard: a proof of concept at NOI Techpark"
     #   - slidesLink: ""
@@ -462,7 +463,7 @@ content:
       - track: "AI"
       - speakers:
         - name: "Eduardo Guerra"
-          url: ""
+          url: "https://www.linkedin.com/in/eduardo-guerra-b4633115b/"
       - organizations:
         - name: "Free University of Bolzano/Bozen"
           url: "https://www.unibz.it/"
@@ -474,7 +475,7 @@ content:
       - track: "AI"
       - speakers:
         - name: "Chris Mair"
-          url: ""
+          url: "https://www.linkedin.com/in/chris-mair/"
         organizations:
         - name: "1006.org"
           url: "https://www.1006.org/"
@@ -485,9 +486,9 @@ content:
       - time: "14.00"
       - track: "AI"
       - speaker: "Marco Montanari"
-      - speakerURL: ""
+      - speakerURL: "https://www.linkedin.com/in/montanarim/"
       - org: " "
-      - orgURL: ""
+      - orgURL: "https://ingmmo.com/"
       - content: "From Open Data to Agent-Queryable Worlds: Building a Hospitality Layer on top of Open Data Hub APIs"
     #   - slidesLink: ""
     #   - videoLink: ""
@@ -495,7 +496,7 @@ content:
       - time: "14.15"
       - track: "AI"
       - speaker: "Davide Montesin"
-      - speakerURL: ""
+      - speakerURL: "https://www.linkedin.com/in/davidemontesin/"
       - org: "Catch Solve "
       - orgURL: "https://www.catch-solve.tech/"
       - content: "Discover the Unexpected in Open Data with LLMs, Schemas, and Data Quality"
@@ -505,7 +506,7 @@ content:
       - time: "14.30"
       - track: "AI"
       - speaker: "Peter Hopfgartner"
-      - speakerURL: ""
+      - speakerURL: "https://www.linkedin.com/in/peter-hopfgartner/"
       - org: "Ontopic"
       - orgURL: "https://ontopic.ai/"
       - content: "Is your Open Data AI-ready?"
@@ -515,9 +516,9 @@ content:
       - time: "14.45"
       - track: "AI"
       - speaker: "Safoura Jolfaei"
-      - speakerURL: ""
-      - org: " "
-      - orgURL: ""
+      - speakerURL: "https://www.linkedin.com/in/safoura-aghadavoud-jolfaei/"
+      - org: "Iranian Research Institute for Information Science and Technology"
+      - orgURL: "https://www.linkedin.com/company/iranian-research-institute-for-information-science-and-technology-irandoc-/"
       - content: "Building Trustworthy Open Datasets for Low-Resource Languages: A Blueprint for Tackling LLM Hallucination"
 #      - slidesLink: ""
 #      - videoLink: ""
@@ -532,7 +533,7 @@ content:
       - track: "Data Space"
       - speakers:
         - name: "Antonio Jara"
-          url: ""
+          url: "https://www.linkedin.com/in/jara-iot/"
         - name: "Francisco Cantero"
           url: ""
         organizations:
@@ -548,12 +549,14 @@ content:
       - track: "Data Space"
       - speakers:
         - name: "Lukas Künig"
-          url: ""
+          url: "https://www.linkedin.com/in/lukas-k%C3%BCnig-b118a4214/"
         - name: "Matthias Repke"
-          url: ""
+          url: "https://www.linkedin.com/in/matthias-repke-b191489b/"
         organizations:
-        - name: " "
-          url: ""
+        - name: "T-Monile Austria GmbH"
+          url: "https://www.magenta.at/"
+        - name: "T-Systems Austria GesmbH"
+          url: "https://www.magenta.at/"
       - content: "From Sensor to Sovereign Dataspace: The End-to-End Data Journey from Intralogistics to the Catena-X Ecosystem"
     #   - slidesLink: ""
     #   - videoLink: ""
@@ -572,10 +575,10 @@ content:
       - track: "Data Space"
       - speakers:
         - name: "Vittorio Iacovella"
-          url: ""
+          url: "https://www.linkedin.com/in/vittorioiacovella/"
         organizations:
-        - name: " "
-          url: ""
+        - name: "CIMeC - Center for Mind / Brain Sciences - The University of Trento"
+          url: "https://www.cimec.unitn.it/"
       - content: "Bridging Rigor and Agility: Building a Research Data Catalog with FastAPI and HTMX"
     #   - slidesLink: ""
     #   - videoLink: ""
@@ -584,10 +587,10 @@ content:
       - track: "Data Space"
       - speakers:
         - name: "Ilaria Cimorosi"
-          url: ""
+          url: "https://www.linkedin.com/in/ilaria-cimorosi-obli-laryea-185311228/"
       - organizations:
-        - name: " "
-          url: ""
+        - name: "Cimorosi Group"
+          url: "https://www.cimorosigroup.com"
       - content: "The Seasonal Workforce Blind Spot: What Open Labour Data Reveals — and What the AI Act Now Requires"
     #   - slidesLink: ""
     #   - videoLink: ""
