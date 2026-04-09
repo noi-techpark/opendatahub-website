@@ -353,6 +353,12 @@ certified:
   title: Certified Technology Providers
   subtitle: The companies listed below offer software solutions officially certified to integrate with the Open Data Hub. They provide a simple and reliable way for their clients to become Data Providers and share data with the Open Data Hub.
   items:
+    
+    
+    - name: FUCHS Technik
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/fuchsTechnik.png"
+      link: https://www.fuchs-technik.com/
+
     - name: SKIDATA
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/skidata.png"
       link: https://www.skidata.com/

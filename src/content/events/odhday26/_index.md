@@ -69,11 +69,11 @@ content:
   row:
     - cols:
       - time: "8.30"
-      - track: "Main Track"
+      - track: "Main"
       - content: "Check-in starting at 8.30"
     - cols:
       - time: "9.00"
-      - track: "Main Track"
+      - track: "Main"
       - speaker: " "
       - org: " "
       - orgURL: ""
@@ -82,7 +82,7 @@ content:
 #      - videoLink: ""
     - cols:
       - time: "9.15"
-      - track: "Main Track"
+      - track: "Main"
       - speaker: "Patrick Ohnewein"
       - speakerURL: "https://www.linkedin.com/in/ohnewein/"
       - org: "NOI Techpark"
@@ -214,7 +214,7 @@ content:
     - cols:
       - time: "11.45"
       - track: "Open Data Hub Main"
-      - speaker: "Degl’Innocenti Ciro"
+      - speaker: "Ciro Degl’Innocenti"
       - speakerURL: ""
       - org: "Municipality of Padova"
       - orgURL: ""
@@ -223,12 +223,12 @@ content:
     #   - videoLink: ""
     - cols:
       - time: "12.00"
-      - track: "CityVision Panel"
+      - track: "City Vision Panel"
       - speaker: " "
       - speakerURL: ""
       - org: " "
       - orgURL: ""
-      - content: "CityVision Panel"
+      - content: "City Vision Panel"
     #   - slidesLink: ""
     #   - videoLink: ""
     - cols:
@@ -390,11 +390,14 @@ content:
 
   title_room3: "Seminar room 3"
   description_room3: "<h3>OPEN DATA HUB BOOTCAMP 2026 RESULTS</h3>
-  Presentation of projects developed during the Open Data Hub Bootcamp by student teams. Projects are presented by the participants themselves and focus on data visualization, AI and LLM integration and data processing and enrichment. This event is an initiative of the Open Data Hub team in collaboration with the Faculty of Engineering of the Free University of Bozen-Bolzano.
+  Presentation of projects developed during the Open Data Hub Bootcamp by student teams. Projects are presented by the participants themselves and focus on data visualization, AI and LLM integration and data processing and enrichment. This event is an initiative of the Open Data Hub team in collaboration with the Faculty of Engineering of the Free University of Bozen-Bolzano.<br>
+  <br>
   <h3>BUILDING</h3>
-  This track explores how open data can be applied in the context of smart buildings and connected environments. It showcases practical approaches to integrating and using data to improv  e efficiency and monitoring.
+  This track explores how open data can be applied in the context of smart buildings and connected environments. It showcases practical approaches to integrating and using data to improv  e efficiency and monitoring.<br>
+  <br>
   <h3>AI</h3>
-  This track explores the role of artificial intelligence in unlocking the value of open data. It focuses on how data can be structured, accessed and used to enable intelligent systems and new data-driven applications.
+  This track explores the role of artificial intelligence in unlocking the value of open data. It focuses on how data can be structured, accessed and used to enable intelligent systems and new data-driven applications.<br>
+  <br>
   <h3>DATA SPACE </h3>
   This track looks at the future of data sharing in Europe. It presents concepts, frameworks and experiences related to Data Spaces and the development of interoperable and sovereign data ecosystems."
 
@@ -533,8 +536,10 @@ content:
         - name: "Francisco Cantero"
           url: ""
         organizations:
-        - name: " "
-          url: ""
+        - name: "Libelium"
+          url: "https://www.libelium.com/"
+        - name: "FIWARE Foundation"
+          url: "https://www.fiware.org/"
       - content: "Data‑Space Ready: turning APIs into governed data sharing for Data Spaces"
     #   - slidesLink: ""
     #   - videoLink: ""
@@ -556,9 +561,9 @@ content:
       - time: "16.00"
       - track: "Data Space"
       - speaker: "Riccardo Crescini"
-      - speakerURL: ""
-      - org: " "
-      - orgURL: ""
+      - speakerURL: "https://www.linkedin.com/in/riccardo-crescini-43813813/"
+      - org: "PwC"
+      - orgURL: "https://www.pwc.com/"
       - content: "The EU Data Act and the Future of Data Sharing in Europe"
     #   - slidesLink: ""
     #   - videoLink: ""
