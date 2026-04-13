@@ -553,7 +553,7 @@ content:
         - name: "Matthias Repke"
           url: "https://www.linkedin.com/in/matthias-repke-b191489b/"
         organizations:
-        - name: "T-Monile Austria GmbH"
+        - name: "T-Mobile Austria GmbH"
           url: "https://www.magenta.at/"
         - name: "T-Systems Austria GesmbH"
           url: "https://www.magenta.at/"
