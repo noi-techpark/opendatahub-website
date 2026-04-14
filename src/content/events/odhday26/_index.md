@@ -468,7 +468,7 @@ content:
       - organizations:
         - name: "Free University of Bolzano/Bozen"
           url: "https://www.unibz.it/"
-      - content: "Is you data ready for AI Agents?"
+      - content: "Is your data ready for AI Agents?"
 #      - slidesLink: ""
 #      - videoLink: ""
     - cols:
