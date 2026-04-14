@@ -40,8 +40,7 @@ start:
 
 program:
   title: "Open Data Hub Day - Programme"
-  subtitle: "The programme is structured across three parallel rooms: the event will open in Seminar Room 1 with the main track and after the morning coffee break it will split into sessions in Seminar Rooms 2 and 3, each dedicated to specific thematic tracks as outlined below.<br>
-  The event will be held in English."
+  subtitle: "The programme is structured across three parallel rooms: the event will open in Seminar Room 1 with the main track and after the morning coffee break it will split into sessions in Seminar Rooms 2 and 3, each dedicated to specific thematic tracks as outlined below. The event will be held in English."
 
 content:
   btn_top_link: https://pretix.eu/noi-digital/open-data-hub-day-26/
@@ -267,14 +266,16 @@ content:
     - cols:
       - time: "14.00"
       - track: "Mobility"
-      - speaker: "Giacomo Fabbian"
-      - speakerURL: "https://www.linkedin.com/in/giacomo-fabbian/"
-      - org: "OFFLINE Agency"
-      - orgURL: "https://offlineagency.it/"
+      - speakers:
+        - name: "Giacomo Fabbian"
+          url: "https://www.linkedin.com/in/giacomo-fabbian/"
+        organizations:
+        - name: "OFFLINE Agency"
+          url: "https://offlineagency.it/"
       - content: "Scaling Swiss Mobility Data Ingestion in the Open Data Hub"
-    #   - slidesLink: ""
-    #   - videoLink: ""
-    # - cols:
+#      - slidesLink: ""
+#      - videoLink: ""
+    - cols:
       - time: "14.15"
       - track: "Mobility"
       - speaker: "Cyprien Huissoud"
