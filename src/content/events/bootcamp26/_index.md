@@ -37,9 +37,9 @@ program:
     The event will be held in **English**. Participation is **free of charge**.
 
 content:
-  title: Register here
-  btn_top_link: "https://pretix.eu/noi-digital/bootcamp26/"
-  btn_top_label: "Register"
+  title: Challenge description
+  btn_top_link: "https://cloud.opendatahub.com/index.php/s/YATAf95CXqe9E6y"
+  btn_top_label: "Challenge description"
   btn_top_on_click: "_paq.push(['trackEvent', 'Register here', 'Click', 'Open Data Hub Bootcamp']);"
 
   header:
@@ -88,18 +88,7 @@ content:
         - content: "18.00"
         - content: "Aperitivo"
 
-  btn_down_link: "https://cloud.opendatahub.com/index.php/s/YATAf95CXqe9E6y"
-  btn_down_label: "Challenge Description"
+  btn_down_link: "https://flic.kr/s/aHBqjCQGRA"
+  btn_down_label: "Photo Galley"
   btn_down_on_click: "_paq.push(['trackEvent', 'Challenge Description', 'Click', 'Open Data Hub Bootcamp']);"
-
-
-  # headerPR:
-  #   - title: Open Data Hub Bootcamp additional information
-  #     width: 85%
-  #   - title: ""
-  #     width: 15% 
-  # rowPR:
-  #   - colsPR:
-  #       - content: "Photo gallery of the event"
-  #       - photoLink: "https://www.flickr.com/photos/free-software-center/albums/72177720324968532/"
 ---
