@@ -244,6 +244,10 @@ consumers:
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/DolomitiNosrdicski.png"
       link: https://www.dolomitinordicski.com/en/home.html
 
+    - name: EcoShade
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/ecoshade.png"
+      link: https://www.ecoshade.org/
+
     - name: Eurac Research
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/eurac.png"
       link: https://www.eurac.edu/
