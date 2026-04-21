@@ -188,17 +188,11 @@ content:
     - cols:
       - time: "11.15"
       - track: "Open Data Hub Main"
-      - speakers:
-        - name: "Grigory Vodyanov"
-          url: "https://www.linkedin.com/in/grigory-vodyanov-099505241/"
-        - name: " "
-          url: ""
-      - organizations:
-        - name: "PadoVia.it"
-          url: "http://padovia.it/"
-        - name: "Politecnico di Milano"
-          url: ""
-      - content: "Digital UX and public transport: Looking towards the future"
+      - speaker: "Ciro Degl’Innocenti"
+      - speakerURL: ""
+      - org: "Municipality of Padova"
+      - orgURL: ""
+      - content: "Unlocking the Public Value of CAM Data: Padua’s Experience with R3GIS and the Open Data Hub"
     #   - slidesLink: ""
     #   - videoLink: ""
     - cols:
@@ -214,11 +208,17 @@ content:
     - cols:
       - time: "11.45"
       - track: "Open Data Hub Main"
-      - speaker: "Ciro Degl’Innocenti"
-      - speakerURL: ""
-      - org: "Municipality of Padova"
-      - orgURL: ""
-      - content: "Unlocking the Public Value of CAM Data: Padua’s Experience with R3GIS and the Open Data Hub"
+      - speakers:
+        - name: "Grigory Vodyanov"
+          url: "https://www.linkedin.com/in/grigory-vodyanov-099505241/"
+        - name: " "
+          url: ""
+      - organizations:
+        - name: "PadoVia.it"
+          url: "http://padovia.it/"
+        - name: "Politecnico di Milano"
+          url: ""
+      - content: "Digital UX and public transport: Looking towards the future"
     #   - slidesLink: ""
     #   - videoLink: ""
     - cols:
