@@ -75,6 +75,10 @@ providers:
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/feratel.png"
       link: https://www.feratel.com/
 
+    - name: General Solutions Software
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/generalSolutions.png"
+      link:  https://www.general-solutions.eu
+
     - name: H2 South Tyrol
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/h2st.png"
       link: https://www.h2-suedtirol.com/
