@@ -99,6 +99,53 @@ sections:
         video: "https://player.vimeo.com/video/830169814"
         target_blank: true
 
+  ################################# Open Data How Sories of Innovation #########################
+  - title: "**Open Data Hub Stories of Innovation**"
+    initially_expanded: false
+    videos:
+      - subtitle: "KIM"
+        title: "**Open Data Hub - Merano's smart app**"
+        description: "Looking for an app that gives you easy access to offers and information in Merano? In collaboration with Keep in Mind, the Merano Tourist Office has developed an app that does exactly that. By utilising our Open Data Hub, a centralised interface was created, allowing parking data to be seamlessly integrated into the app. This integration provides users with consolidated information, all in one place. With 50,000 downloads since 2023, the success speaks for itself – and we can’t wait to see what’s next!"
+        btn_link: "/use-cases/meranoapp/"
+        btn_label: "Use Case"
+        video: "https://player.vimeo.com/video/1036301841"
+        target_blank: false
+      - subtitle: "OpenMove"
+        title: "**Driving innovation in mobility**"
+        description: "High-quality data is the backbone of smart mobility solutions, and OpenMove recognised this from the very start. That’s why they partnered with us, utilising our Open Data Hub. Aligned with the principles of MaaS (Mobility as a Service), through the Open Data Hub we provide access to vast amounts of data from a variety of mobility services. This resource has enabled Open Move to develop a range of innovative projects, from optimising travel plans to implementing the Meridian Project, a data integration layer for the Brennero Highway. Through this collaboration, Open Move is shaping the future of mobility and transforming how we move and interact with transport networks."
+        btn_link: "https://databrowser.opendatahub.com/"
+        btn_label: "Data Browser"
+        video: "https://player.vimeo.com/video/1036295056"
+        target_blank: true
+      - subtitle: "Yanovis"
+        title: "**Enhancing Tourism Services through Open Data Visualization**"
+        description: "Yanovis, a leading provider of tourism-focused software solutions, has expanded its range of products by leveraging the advanced data visualisation tools of the Open Data Hub. Recognising the significant value of the Open Data Hub’s web component, which features real-time flight data from Sky Alps, Yanovis has integrated this functionality into its Yanovis Travel Suite to deliver an enhanced experience for its clients."
+        btn_link: "/use-cases/yanovis/"
+        btn_label: "Use Case"
+        video: "https://player.vimeo.com/video/1185409664"
+        target_blank: false
+      - subtitle: "ËRT"
+        title: "**Bringing Ideas to Life with Open Data**"
+        description: "The ËRT project demonstrates how open data can transform creative concepts into effective solutions. By leveraging datasets from the Open Data Hub, the project transitioned from labour-intensive manual data entry to streamlined, scalable workflows. This innovation has resulted in the creation of interactive landscape models that combine CNC-milled terrain reliefs with dynamic digital projections. These models offer new and engaging ways to explore geographical information using real-world data and data visualisation tools."
+        btn_link: "/use-cases/ert-map/"
+        btn_label: "Use Case"
+        video: "https://player.vimeo.com/video/1185408523"
+        target_blank: false
+      - subtitle: "Südtirolmobil Bikebox / Bikeboxes"
+        title: "**Cyclists' mobility made easy**"
+        description: "Südtirolmobil Bikebox / Bikeboxes are safe storage spaces for bicycles. The Bikebox / Bikeboxes service is seamlessly integrated into the Südtirolmobil system, enhancing the Mobility as a Service (MaaS) experience from a cyclist’s point of view. Cyclists with a Südtirol Pass can now use a single app to access a multimodal mobility service that includes public transport and smart bike parking, improving the overall travel experience."
+        btn_link: "/use-cases/bikebox/"
+        btn_label: "Use Case"
+        video: "https://player.vimeo.com/video/1185798012"
+        target_blank: false
+      - subtitle: "ITHEL / GeniAI"
+        title: "**Predictive data for smarter parking**"
+        description: "Ithel, in collaboration with the Open Data Hub, has developed a predictive model that uses camera-based data to forecast parking occupancy levels. By transforming real-time data into actionable insights, the solution helps municipalities manage parking areas more efficiently and implement targeted measures such as access regulation. Already applied in contexts like Villandro (South Tyrol), the system supports smarter mobility by reducing congestion and improving the overall flow of traffic."
+        btn_link: "https://databrowser.opendatahub.com/"
+        btn_label: "Data Browser"
+        video: "https://player.vimeo.com/video/1185409000"
+        target_blank: true      
+
   ################################# Open Data Hub Presentations #########################
   - title: "**Open Data Hub Presentations**"
     initially_expanded: false
@@ -199,53 +246,6 @@ sections:
         btn_label: "Full Tutorial Series"
         video: "https://player.vimeo.com/video/734001032"
         target_blank: true
-
-  ################################# Open Data How Sories of Innovation #########################
-  - title: "**Open Data Hub Stories of Innovation**"
-    initially_expanded: false
-    videos:
-      - subtitle: "KIM"
-        title: "**Open Data Hub - Merano's smart app**"
-        description: "Looking for an app that gives you easy access to offers and information in Merano? In collaboration with Keep in Mind, the Merano Tourist Office has developed an app that does exactly that. By utilising our Open Data Hub, a centralised interface was created, allowing parking data to be seamlessly integrated into the app. This integration provides users with consolidated information, all in one place. With 50,000 downloads since 2023, the success speaks for itself – and we can’t wait to see what’s next!"
-        btn_link: "/use-cases/meranoapp/"
-        btn_label: "Use Case"
-        video: "https://player.vimeo.com/video/1036301841"
-        target_blank: false
-      - subtitle: "Open Move"
-        title: "**Driving innovation in mobility**"
-        description: "High-quality data is the backbone of smart mobility solutions, and OpenMove recognised this from the very start. That’s why they partnered with us, utilising our Open Data Hub. Aligned with the principles of MaaS (Mobility as a Service), through the Open Data Hub we provide access to vast amounts of data from a variety of mobility services. This resource has enabled Open Move to develop a range of innovative projects, from optimising travel plans to implementing the Meridian Project, a data integration layer for the Brennero Highway. Through this collaboration, Open Move is shaping the future of mobility and transforming how we move and interact with transport networks."
-        btn_link: "https://databrowser.opendatahub.com/"
-        btn_label: "Data Browser"
-        video: "https://player.vimeo.com/video/1036295056"
-        target_blank: true
-      - subtitle: "Yanovis"
-        title: "**Enhancing Tourism Services through Open Data Visualization**"
-        description: "Yanovis, a leading provider of tourism-focused software solutions, has expanded its range of products by leveraging the advanced data visualisation tools of the Open Data Hub. Recognising the significant value of the Open Data Hub’s web component, which features real-time flight data from Sky Alps, Yanovis has integrated this functionality into its Yanovis Travel Suite to deliver an enhanced experience for its clients."
-        btn_link: "/use-cases/yanovis/"
-        btn_label: "Use Case"
-        video: "https://player.vimeo.com/video/1185409664"
-        target_blank: false
-      - subtitle: "ËRT"
-        title: "**Bringing Ideas to Life with Open Data**"
-        description: "The ËRT project demonstrates how open data can transform creative concepts into effective solutions. By leveraging datasets from the Open Data Hub, the project transitioned from labour-intensive manual data entry to streamlined, scalable workflows. This innovation has resulted in the creation of interactive landscape models that combine CNC-milled terrain reliefs with dynamic digital projections. These models offer new and engaging ways to explore geographical information using real-world data and data visualisation tools."
-        btn_link: "/use-cases/ert-map/"
-        btn_label: "Use Case"
-        video: "https://player.vimeo.com/video/1185408523"
-        target_blank: false
-      - subtitle: "Südtirolmobil BikeBox"
-        title: "**Cyclists' mobility made easy**"
-        description: "Südtirolmobil Bikeboxes are safe storage spaces for bicycles. The bike box service is seamlessly integrated into the Südtirolmobil system, enhancing the Mobility as a Service (MaaS) experience from a cyclist’s point of view. Cyclists with a Südtirol Pass can now use a single app to access a multimodal mobility service that includes public transport and smart bike parking, improving the overall travel experience."
-        btn_link: "/use-cases/bikebox/"
-        btn_label: "Use Case"
-        video: "https://player.vimeo.com/video/1185798012"
-        target_blank: false
-      - subtitle: "ITHEL / GeniAI"
-        title: "**ITHEL / GeniAI**"
-        description: ""
-        btn_link: "https://databrowser.opendatahub.com/"
-        btn_label: "Data Browser"
-        video: "https://player.vimeo.com/video/1185409000"
-        target_blank: true      
 
   ################################# Open Data Hub 2025 - Main Room #########################
   - title: "**Open Data Hub Day 2025 - Main Room**"
