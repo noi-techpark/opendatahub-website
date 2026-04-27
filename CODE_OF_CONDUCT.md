@@ -1,6 +1,7 @@
+SPDX-License-Identifier: AGPL-3.0-only
+
 <!--
 SPDX-FileCopyrightText: 2026 Open Data Hub
-SPDX-License-Identifier: AGPL-3.0-only
 -->
 
 # Code of Conduct
