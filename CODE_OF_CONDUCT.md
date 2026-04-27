@@ -1,7 +1,6 @@
-SPDX-License-Identifier: AGPL-3.0-only
-
 <!--
-SPDX-FileCopyrightText: 2026 Open Data Hub
+SPDX-FileCopyrightText: NOI Techpark
+SPDX-License-Identifier: CC0-1.0
 -->
 
 # Code of Conduct
