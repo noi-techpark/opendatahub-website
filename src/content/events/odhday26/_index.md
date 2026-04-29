@@ -116,7 +116,7 @@ content:
       - speaker: "Francesca De Finis"
       - speakerURL: "http://www.linkedin.com/in/francescadefinis"
       - org: "Stendhapp"
-      - orgURL: "www.stendhapp.com"
+      - orgURL: "https://www.stendhapp.com"
       - content: "Open data for cultural tourism: are they like oil or like water?"
     #   - slidesLink: ""
     #   - videoLink: ""
@@ -228,7 +228,7 @@ content:
       - speakerURL: ""
       - org: "City Vision"
       - orgURL: "https://cityvision.zone/"
-      - content: "City Vision Panel"
+      - content: "Panel: How to make best use of data & AI for our smart green regions"
     #   - slidesLink: ""
     #   - videoLink: ""
     - cols:
@@ -300,7 +300,9 @@ content:
       - track: "Mobility"
       - speaker: "Mattia Caldi"
       - speakerURL: "https://www.linkedin.com/in/mattia-caldi-456033314/"
-      - org: " "
+      - organizations:
+        - name: "Free University of Bolzano/Bozen"
+          url: "https://www.unibz.it/"
       - orgURL: ""
       - content: "Understanding Traffic Dynamics through Process Mining: An example in South Tyrol"
 #      - slidesLink: ""
