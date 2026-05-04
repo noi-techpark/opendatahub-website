@@ -103,7 +103,7 @@ content:
     - cols:
       - time: "9.45"
       - track: "Main"
-      - speaker: " "
+      - speaker: "Lukas Mayr"
       - speakerURL: ""
       - org: "touristinfo.ai"
       - orgURL: "https://touristinfo.ai/"
@@ -535,16 +535,16 @@ content:
       - time: "15.30"
       - track: "Data Space"
       - speakers:
-        - name: "Antonio Jara"
-          url: "https://www.linkedin.com/in/jara-iot/"
-        - name: "Francisco Cantero"
+        - name: ""
+          url: ""
+        - name: ""
           url: ""
         organizations:
-        - name: "Libelium"
-          url: "https://www.libelium.com/"
-        - name: "FIWARE Foundation"
-          url: "https://www.fiware.org/"
-      - content: "Data‑Space Ready: turning APIs into governed data sharing for Data Spaces"
+        - name: ""
+          url: ""
+        - name: ""
+          url: ""
+      - content: ""
     #   - slidesLink: ""
     #   - videoLink: ""
     - cols:
@@ -591,6 +591,10 @@ content:
       - speakers:
         - name: "Ilaria Cimorosi"
           url: "https://www.linkedin.com/in/ilaria-cimorosi-obli-laryea-185311228/"
+        - name: "Natasha Valentine"
+          url: "http://linkedin.com/in/natashavalentine"
+        - name: "Rebecca Raible"
+          url: "http://linkedin.com/in/rebecca-raible-99b2b3268"
       - organizations:
         - name: "Cimorosi Group"
           url: "https://www.cimorosigroup.com"
