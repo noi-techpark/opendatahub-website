@@ -40,7 +40,7 @@ start:
 
 program:
   title: "Open Data Hub Day - Programme"
-  subtitle: "The programme is structured across three parallel rooms: the event will open in Seminar Room 1 with the main track and after the morning coffee break it will split into sessions in Seminar Rooms 2 and 3, each dedicated to specific thematic tracks as outlined below. The event will be held in English."
+  subtitle: "The programme is structured across three parallel rooms: the event will open in Seminar Room 1 with the main track and after the morning coffee break it will split into sessions in Seminar Rooms 2 and 3, each dedicated to specific thematic tracks as outlined below. The event will be held in <b>English</b>, but we will also be testing a live translation service accessible via your own smartphone. If you’d like to try it, please bring your earphones."
 
 content:
   btn_top_link: https://pretix.eu/noi-digital/open-data-hub-day-26/
