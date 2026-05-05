@@ -4,6 +4,33 @@
 
 events:
 
+  - title: NOI Hackathon - SFSCON Edition 2026
+    subtitle: 24 hours of hacking, collaborating, co-creating and developing.
+    img: /img/events/2026-hackahon-sfscon.png
+    day: "2026-11-13"
+    time: "13:00"
+    location: "NOI Techpark"
+    btn_link: https://hackathon.bz.it
+    btn_label: More info
+  
+  - title: SFSCON 2026
+    subtitle: SFSCON is one of Europe's most established annual conferences on Free Software for Digital Infrastructures as a tool for fostering innovation and competitiveness.
+    img: /img/events/2026-sfscon.png
+    day: "2026-11-13"
+    time: "8:30"
+    location: "NOI Techpark"
+    btn_link: https://www.sfscon.it/
+    btn_label: More info
+
+  - title: NOI Hackathon - Summer Edition 2026
+    subtitle: 24 hours of hacking, collaborating, co-creating and developing.
+    img: /img/events/2026-Hackahon-summer.png
+    day: "2026-07-31"
+    time: "10:30"
+    location: "Lido Schenna"
+    btn_link: https://hackathon.bz.it
+    btn_label: More info
+  
   - title: Open Data Hub Day 2026
     subtitle: A best practice event to help you understand and maximise the value of data.
     img: /img/events/20260515-OpenDataHubDay26.jpg
