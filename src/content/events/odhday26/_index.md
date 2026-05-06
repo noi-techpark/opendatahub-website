@@ -143,8 +143,12 @@ content:
   btn_room2_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
   title_room2: "Seminar room 2"
-  description_room2: "<h3>OPEN DATA HUB MAIN + PANEL</h3>
-  This track focuses on Open Data Hub projects and applications, showcasing how data is used to build services and generate public value. It includes the panel 'CityVision', part of the Roadshow 2026 – City Vision, an initiative bringing topics, solutions and perspectives on urban innovation closer to local administrations across Italy. The session will be held in Italian.<br>
+  description_room2: "<h3>OPEN DATA HUB MAIN</h3>
+  This track focuses on Open Data Hub projects and applications, showcasing how data is used to build services and generate public value. <br>
+  <br>
+  <h3>'CITY VISION' PANEL</h3>
+  The panel 'City Vision', part of the Roadshow 2026 – City Vision, an initiative bringing topics, solutions and perspectives on urban innovation closer to local administrations across Italy. This panel will be held in Italian, but a live translation service will be available in testing, accessible via your own smartphone. 
+You can connect to the service on your device and listen to the translation through your earphones.<br>
   <br>
   <h3>MOBILITY</h3>
   This track explores how mobility data is used to enable smarter and more integrated transport systems. It presents approaches and experiences around multimodal journey planning, real-time data and data-driven mobility services.<br>
@@ -227,21 +231,21 @@ content:
       - speakers:
         - name: "Claudio Corrarati"
           url: ""
+        - name: "Ivano Marchiol"
+          url: ""
         - name: "Margherita Cera"
           url: ""
-        - name: "Michael Andergassen"
-          url: ""
-        - name: "Roberto Malvezzi"
+        - name: "Roberto Cavaliere"
           url: ""
       - organizations:
         - name: "Municipality of Bolzano/Bozen"
           url: ""
+        - name: "Municipality of Udine"
+          url: ""
         - name: "Municipality of Padova"
           url: ""
-        - name: "Autonomous Province of Bolzano/Bozen"
-          url: ""
-        - name: "Institute for Applied Mathematics and Information Technologies `Enrico Magenes` CNR"
-          url: ""
+        - name: "NOI Techpark"
+          url: "https://noi.bz.it/"
       - orgURL: "https://cityvision.zone/"
       - content: "Panel: Listening Lands. How Data and AI can Make our Green Regions Smarter"
     #   - slidesLink: ""
