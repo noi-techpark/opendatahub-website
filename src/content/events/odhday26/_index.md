@@ -461,7 +461,7 @@ You can connect to the service on your device and listen to the translation thro
       - speakerURL: "https://github.com/asuptor"
       - org: "Eurac Research"
       - orgURL: "https://www.eurac.edu/en"
-      - content: "Enriching open data with street view imagery and deep learning"
+      - content: "MODERATE project: Enriching open data with street view imagery and deep learning"
     #   - slidesLink: ""
     #   - videoLink: ""
     - cols:
