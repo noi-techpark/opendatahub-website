@@ -9,9 +9,10 @@
 {{ partial .Params.start.partial .Params.start }}
 
 {{ range .Params.paragraphs }}
-    <section>
+    <section {{ if .bg_darker }}class="bg-darker"{{ end }}>
         {{ partial .partial . }}
     </section>
 {{ end }}
+
 
 {{ end }}

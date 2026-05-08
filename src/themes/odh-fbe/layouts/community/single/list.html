@@ -9,7 +9,7 @@
 {{ partial "title.html" .Params }}
 
 {{ range .Params.rows }}
-    <div {{ if .bg_darker }}class="bg-darker"{{ end }}>
+    <div {{ if .bg_darker }}{{ end }}>
         {{ partial .partial . }}
     </div>
 {{ end }}

@@ -34,6 +34,12 @@ body {
   }
 }
 
+/* Highlight Color */
+::selection {
+  background-color: #545454;
+  color: #ffffff;
+}
+
 section {
   margin-top: 3rem;
 }
@@ -58,7 +64,18 @@ img, iframe {
 
 /* Dark sections */
 .bg-darker {
-  background: #f5f5f5;
+  background: #000000;
+  color: #ffffff;
+  --bs-heading-color: #ffffff;
+  --bs-body-color: #ffffff;
+}
+
+/* makes the font white, this is used in one specific section of the index only */
+.white-font {
+  color: #ffffff;
+  --bs-heading-color: #ffffff;
+  --bs-link-color-rgb: #ffffff;
+  --bs-link-hover-color-rgb: #ffffff;
 }
 
 /* Text styling */
@@ -122,7 +139,6 @@ ul.no-bullets {
 
 /* Buttons */
 .btn {
-  border: none !important;
   border-radius: var(--border-radius) !important;
   font-size: 1rem;
   font-weight: 600;
@@ -130,12 +146,47 @@ ul.no-bullets {
   letter-spacing: 0;
 }
 
-.btn-secondary {
-  border: 1px solid #212529 !important;
-}
-
 .btn::after {
   font-weight: 600;
+}
+
+/* the next the sections overwrite the original buttons, making them dark and switch colors
+   By removing them, you can restore the original buttons
+ */
+ .btn-primary {
+  --bs-btn-color: #ffffff;
+  --bs-btn-bg: #000000;
+  --bs-btn-border-color: #000000;
+  border: 1px solid #000000 !important;
+
+  --bs-btn-hover-color: #000000;
+  --bs-btn-hover-bg: #ffffff;
+  --bs-btn-hover-border-color: #ffffff;
+}
+
+.bg-darker .btn-primary {
+  --bs-btn-color: #000000;
+  --bs-btn-bg: #ffffff;
+  --bs-btn-border-color: #ffffff;
+  --bs-btn-bg: #ffffff;
+  border: 1px solid #000000 !important;
+
+  --bs-btn-hover-color: #ffffff;
+  --bs-btn-hover-bg: #000000;
+  --bs-btn-hover-border-color: #ffffff;
+  border: 1px solid #ffffff !important;
+}
+
+.btn-dark {
+  --bs-btn-color: #000000;
+  --bs-btn-bg: #ffffff;
+  --bs-btn-border-color: #000000;
+  border: 1px solid #000000 !important;
+  
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #000000;
+  --bs-btn-border-color: #ffffff;
+  border: 1px solid #ffffff !important;
 }
 
 /* Navbar */
@@ -177,7 +228,7 @@ footer * {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1rem;
   line-height: 1.5rem;
-  color: #3C4043;
+  color: #ffffff;
 }
 
 footer a {
@@ -189,7 +240,7 @@ footer a:hover {
 }
 
 footer .bg {
-  background-color: #f3f3f3;
+  background-color: #000000;
 }
 
 footer .text-muted,
@@ -217,7 +268,7 @@ footer .text-semi-bold * {
 }
 
 footer .border-black {
-  border-color: black !important;
+  border-color: #ffffff !important;
 }
 
 footer .w-fit {
@@ -318,6 +369,12 @@ footer .w-fit {
   min-width: 100%;
 }
 
+/* this is here to make the slideshow on the index page smaller forcefully, setting the % of the original size */
+.slideshow-wrapper {
+  width: 60%;
+  margin: 0 auto;
+}
+
 .shift-left-once {
   transition: all 1.5s cubic-bezier(.53, 0, .41, 1);
   transform: translateX(-100%);
@@ -345,13 +402,14 @@ footer .w-fit {
   width: 50px;
   height: 50px;
   display: table;
-  background: rgba(0, 0, 0, 0.5);
+  background: #000000;
   color: #fff;
   text-align: center;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   border-radius: 4px;
+  border: 1px solid #ffffff !important;
 }
 
 .gototop a i {
@@ -572,7 +630,7 @@ footer .w-fit {
 
 /* Home Boxes */
 .bg-tertiary {
-  background-color: #f3f3f3 !important;
+  background-color: #000000 !important;
 }
 
 
