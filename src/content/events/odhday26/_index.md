@@ -670,14 +670,14 @@ You can connect to the service on your device and listen to the translation thro
   title_press: "Press"
   description_press: "This section includes press releases, video trailers, photos and promotional content to help you share and promote Open Data Hub Day."
 
-  # headerPR:
-  #   - title: Open Data Hub 2025 additional content
-  #     width: 83%
-  #   - title: Language
-  #     width: 5%
-  #   - title: Link
-  #     width: 12% 
-  # rowPR:
+  headerPR:
+    - title: Open Data Hub 2026 additional content
+      width: 83%
+    - title: Language
+      width: 5%
+    - title: Link
+      width: 12% 
+  rowPR:
   #   - colsPR:
   #       - content: "Image Galley of the Open Data Hub Day 2025"
   #       - content: ""
@@ -706,18 +706,18 @@ You can connect to the service on your device and listen to the translation thro
   #       - content: "Interview - Alberto Comini"
   #       - content: ""
   #       - videoLink: "https://vimeo.com/1092405317"        
-  #   - colsPR:
-  #       - content: "Open Data Hub Day - National press release"
-  #       - content: "IT"
-  #       - pressReleaseLink: "https://cloud.opendatahub.com/index.php/s/N2ttLkpTw4aw3HH"
-  #   - colsPR:
-  #       - content: "Open Data Hub Day - Local press release"
-  #       - content: "IT"
-  #       - pressReleaseLink: "https://cloud.opendatahub.com/index.php/s/ByqQMbBC22My6sB"
-  #   - colsPR:
-  #       - content: "Open Data Hub Day - Local press release"
-  #       - content: "DE"
-  #       - pressReleaseLink: "https://cloud.opendatahub.com/index.php/s/G7pHFmKg92SCdD9"
+    - colsPR:
+        - content: "Open Data Hub Day - National press release"
+        - content: "IT"
+        - pressReleaseLink: "https://cloud.opendatahub.com/index.php/s/PNq4r9yZbeQWtDQ"
+    - colsPR:
+        - content: "Open Data Hub Day - Local press release"
+        - content: "DE"
+        - pressReleaseLink: "https://cloud.opendatahub.com/index.php/s/K29PreDQft9kmSB"
+    - colsPR:
+        - content: "Open Data Hub Day - International press release"
+        - content: "EN"
+        - pressReleaseLink: "https://cloud.opendatahub.com/index.php/s/xdcdd9jitzoQTmf"
 
   btn_down_link: "https://pretix.eu/noi-digital/open-data-hub-day-26/"
   btn_down_label: "Register Now"
