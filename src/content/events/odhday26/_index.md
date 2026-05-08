@@ -667,8 +667,8 @@ You can connect to the service on your device and listen to the translation thro
   # btn_press_label: "Register Now"
   # btn_press_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
-  # title_press: "Press"
-  # description_press: "This section includes press releases, video trailers, photos and promotional content to help you share and promote Open Data Hub Day."
+  title_press: "Press"
+  description_press: "This section includes press releases, video trailers, photos and promotional content to help you share and promote Open Data Hub Day."
 
   # headerPR:
   #   - title: Open Data Hub 2025 additional content
