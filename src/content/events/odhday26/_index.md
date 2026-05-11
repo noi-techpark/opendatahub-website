@@ -574,10 +574,12 @@ You can connect to the service on your device and listen to the translation thro
           url: "https://www.linkedin.com/in/lukas-k%C3%BCnig-b118a4214/"
         - name: "Matthias Repke"
           url: "https://www.linkedin.com/in/matthias-repke-b191489b/"
+        - name: "Vincent Maholetti"
+          url: "https://www.linkedin.com/in/matthias-repke-b191489b/"
         organizations:
         - name: "T-Mobile Austria GmbH"
           url: "https://www.magenta.at/"
-        - name: "T-Systems Austria GesmbH"
+        - name: "T-Systems Austria GmbH"
           url: "https://www.magenta.at/"
       - content: "From Sensor to Sovereign Dataspace: The End-to-End Data Journey from Intralogistics to the Catena-X Ecosystem"
     #   - slidesLink: ""
