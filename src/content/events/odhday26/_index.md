@@ -74,9 +74,9 @@ content:
     - cols:
       - time: "9.00"
       - track: "Main"
-      - speaker: " "
-      - org: " "
-      - orgURL: ""
+      - speaker: "Vincent Mauroit"
+      - org: "NOI techpark"
+      - orgURL: "https://noi.bz.it/"
       - content: "Open Data Hub Day - Opening"
 #      - slidesLink: ""
 #      - videoLink: ""

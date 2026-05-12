@@ -362,10 +362,29 @@ certified:
   subtitle: The companies listed below offer software solutions officially certified to integrate with the Open Data Hub. They provide a simple and reliable way for their clients to become Data Providers and share data with the Open Data Hub.
   items:
     
+    - name: Algorab
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/algorab.png"
+      link: https://www.algorab.com/
+
+    - name: Axians
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/axians.png"
+      link: https://www.axians.it/
     
+    - name: Eco-counter
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/ecoCounter.png"
+      link: https://www.eco-counter.com/
+    
+    - name: Famas Systems
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/famasSystems.png"
+      link: https://famassystem.it/ 
+
     - name: FUCHS Technik
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/fuchsTechnik.png"
       link: https://www.fuchs-technik.com/
+
+    - name: MOQO
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/moqo.png"
+      link: https://moqo.de/
 
     - name: SKIDATA
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/skidata.png"
@@ -374,6 +393,10 @@ certified:
     - name: SIAG
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/siag.png"
       link: https://www.siag.it/
+    
+    - name: Softech web
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/softech.png"
+      link: https://www.softechweb.it/
       
 ########################### Partnerships and Alliances #########################
 partnerships:
