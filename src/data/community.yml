@@ -75,6 +75,10 @@ providers:
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/feratel.png"
       link: https://www.feratel.com/
 
+    - name: General Solutions Software
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/generalSolutions.png"
+      link:  https://www.general-solutions.eu
+
     - name: H2 South Tyrol
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/h2st.png"
       link: https://www.h2-suedtirol.com/
@@ -244,6 +248,10 @@ consumers:
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/DolomitiNosrdicski.png"
       link: https://www.dolomitinordicski.com/en/home.html
 
+    - name: EcoShade
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/ecoshade.png"
+      link: https://www.ecoshade.org/
+
     - name: Eurac Research
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/eurac.png"
       link: https://www.eurac.edu/
@@ -347,6 +355,10 @@ consumers:
     - name: Yanovis
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/yanovis.png"
       link: https://www.yanovis.com/
+    
+    - name: Zyflow
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/zyflow.png"
+      link: https://www.zyflow.eu/
 
 ########################### Certified Technology Providers #########################
 certified:
@@ -354,11 +366,34 @@ certified:
   subtitle: The companies listed below offer software solutions officially certified to integrate with the Open Data Hub. They provide a simple and reliable way for their clients to become Data Providers and share data with the Open Data Hub.
   items:
     
+    - name: Algorab
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/algorab.png"
+      link: https://www.algorab.com/
+
+    - name: Axians
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/axians.png"
+      link: https://www.axians.it/
     
+    - name: Eco-counter
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/ecoCounter.png"
+      link: https://www.eco-counter.com/
+    
+    - name: Famas Systems
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/famasSystems.png"
+      link: https://famassystem.it/ 
+
     - name: FUCHS Technik
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/fuchsTechnik.png"
       link: https://www.fuchs-technik.com/
 
+    - name: MOQO
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/moqo.png"
+      link: https://moqo.de/
+
+    - name: R3 GIS
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/r3gis.png"
+      link: https://www.r3gis.com/
+    
     - name: SKIDATA
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/skidata.png"
       link: https://www.skidata.com/
@@ -366,6 +401,10 @@ certified:
     - name: SIAG
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/siag.png"
       link: https://www.siag.it/
+    
+    - name: Softech web
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/softech.png"
+      link: https://www.softechweb.it/
       
 ########################### Partnerships and Alliances #########################
 partnerships:

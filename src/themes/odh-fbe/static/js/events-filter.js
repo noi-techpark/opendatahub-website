@@ -23,7 +23,5 @@ Array.from(upcomingEvents)
   .forEach((pastEvent) => {
     upcomingEventsContainer.removeChild(pastEvent);
     const bgDiv = pastEvent.querySelector(".event-card");
-    bgDiv.classList.remove("bg-white");
-    bgDiv.classList.add("bg-darker");
     pastEventsContainer.prepend(pastEvent);
   });

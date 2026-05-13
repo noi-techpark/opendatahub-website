@@ -89,6 +89,6 @@ content:
         - content: "Aperitivo"
 
   btn_down_link: "https://flic.kr/s/aHBqjCQGRA"
-  btn_down_label: "Photo Galley"
+  btn_down_label: "Photo Gallery"
   btn_down_on_click: "_paq.push(['trackEvent', 'Challenge Description', 'Click', 'Open Data Hub Bootcamp']);"
 ---

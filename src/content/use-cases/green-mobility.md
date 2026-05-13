@@ -41,6 +41,7 @@ paragraphs:
     img_back_alt: "Public transport route planning enhanced by data-driven Green Mobility initiatives."
     img_back_title: "Green Mobility – Data-Driven Public Transport Planning"
     partial: imgs-text-enlargeable.html
+    bg_darker: true
 
   - description: "Data from various providers is collected in the Open Data Hub and made available as open data. This means it can be integrated into other platforms and applications without restriction. This gives developers seamless access to data and promotes interoperable, open data platforms for mobility."
     img_back: "/img/use-cases/green_mobility/ODH-usecase-GREENMOBILITY-image-03.jpg"
@@ -57,6 +58,7 @@ paragraphs:
     btn_link: "https://webcomponents.opendatahub.com/webcomponent/98013c75-f27c-414e-aff9-c58ed760e791?from=%2F"
     btn_label: DISCOVER THE WEBCOMPONENT
     partial: imgs-text-enlargeable.html
+    bg_darker: true
 
   - description: "Would you like to develop a new application using this data?"
     img_back: "/img/use-cases/green_mobility/ODH-usecase-GREENMOBILITY-image-05.jpg"
@@ -73,6 +75,7 @@ paragraphs:
     btn_link: "https://opendatahub.com/services/data-sharing/"
     btn_label: DISCOVER HOW TO SHARE YOUR DATA
     partial: imgs-icon-text.html
+    bg_darker: true
 
   - description: "The interactive map is provided by [STA – Strutture Trasporto Alto Adige SpA](https://www.sta.bz.it/) in cooperation with Open Data Hub. The participating operators are [Alperia Smart Mobility](https://www.alperia.eu/e-mobility-casa-e-condomini/), [DRIWE](https://www.driwe.eu/), Nevicam, [Route220](https://route220.it/), and the [Institute for Innovative Technologies (IIT)](https://www.iit.it/)."
     img_back: "/img/use-cases/green_mobility/ODH-usecase-GREENMOBILITY-image-07.jpg"

@@ -16,9 +16,9 @@ content:
   btn_top_link: "https://www.youtube.com/watch?v=SjLVH-40J0o#msdynttrid=ZVh-3Q2GG5sehR9YBAvw4hEF68W1xlFH79Tf-mhL3HU"
   btn_top_label: "Full video"
 
-  title: Pricing
+  section_title: Pricing
   header:
-    - title: 
+    - title: " "
       width: 5%
     - title: Speaker
       width: 15%

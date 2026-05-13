@@ -31,16 +31,16 @@ start:
   img_back_title: "Open Data Hub Day 2026"
   img_back_alt: "Open Data Hub Day - 15th May 2026 - NOI Techpark Bolzano/Bozen, Italy"
 
-#callForSpeakers:
-#  title: "Open Data Hub Day - Call4Speakers"
-#  subtitle: "The Call4Speakers for Open Data Hub Day 2026 is open until **2nd March 2026**. Submit your proposal for a 15-minute lightning talk."
-#  btn_cfs_link: "https://pretalx.com/open-data-hub-day-2026/cfp"
-#  btn_cfs_label: "Call4Speakers"
-#  btn_cfs_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
+# CallForSpeakers:
+#   title: "Open Data Hub Day - Call4Speakers"
+#   subtitle: "The Call4Speakers for Open Data Hub Day 2026 is open until **2nd March 2026**. Submit your proposal for a 15-minute lightning talk."
+#   btn_cfs_link: "https://pretalx.com/open-data-hub-day-2026/cfp"
+#   btn_cfs_label: "Call4Speakers"
+#   btn_cfs_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
 program:
   title: "Open Data Hub Day - Programme"
-  subtitle: "The programme is structured across three parallel rooms: the event will open in Seminar Room 1 with the main track and after the morning coffee break it will split into sessions in Seminar Rooms 2 and 3, each dedicated to specific thematic tracks as outlined below. The event will be held in English."
+  subtitle: "The programme is structured across three parallel rooms: the event will open in Seminar Room 1 with the main track and after the morning coffee break it will split into sessions in Seminar Rooms 2 and 3, each dedicated to specific thematic tracks as outlined below. The event will be held in <b>English</b>, but we will also be testing a live translation service accessible via your own smartphone. If you’d like to try it, please bring your earphones."
 
 content:
   btn_top_link: https://pretix.eu/noi-digital/open-data-hub-day-26/
@@ -74,9 +74,10 @@ content:
     - cols:
       - time: "9.00"
       - track: "Main"
-      - speaker: " "
-      - org: " "
-      - orgURL: ""
+      - speaker: "Vincent Mauroit"
+      - speakerURL: "https://www.linkedin.com/in/vincentmauroit/"
+      - org: "NOI Techpark"
+      - orgURL: "https://noi.bz.it/"
       - content: "Open Data Hub Day - Opening"
 #      - slidesLink: ""
 #      - videoLink: ""
@@ -103,7 +104,7 @@ content:
     - cols:
       - time: "9.45"
       - track: "Main"
-      - speaker: " "
+      - speaker: "Lukas Mayr"
       - speakerURL: ""
       - org: "touristinfo.ai"
       - orgURL: "https://touristinfo.ai/"
@@ -116,7 +117,7 @@ content:
       - speaker: "Francesca De Finis"
       - speakerURL: "http://www.linkedin.com/in/francescadefinis"
       - org: "Stendhapp"
-      - orgURL: "www.stendhapp.com"
+      - orgURL: "https://www.stendhapp.com"
       - content: "Open data for cultural tourism: are they like oil or like water?"
     #   - slidesLink: ""
     #   - videoLink: ""
@@ -131,11 +132,11 @@ content:
     #   - slidesLink: ""
     #   - videoLink: ""
     - cols:
-      - time: "10.30"
+      - time: "<b>10.30</b>"
       - speaker: " "
       - org: " "
-      - track: "Break"
-      - content: "Community Coffee Break (Foyer NOI Seminar Area)"
+      - track: "<b>Break</b>"
+      - content: "<b>Community Coffee Break (Foyer NOI Seminar Area)</b>"
     
     
   btn_room2_link: "https://pretix.eu/noi-digital/open-data-hub-day-26/"
@@ -143,8 +144,12 @@ content:
   btn_room2_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
   title_room2: "Seminar room 2"
-  description_room2: "<h3>OPEN DATA HUB MAIN + PANEL</h3>
-  This track focuses on Open Data Hub projects and applications, showcasing how data is used to build services and generate public value. It includes the panel 'CityVision', part of the Roadshow 2026 – City Vision, an initiative bringing topics, solutions and perspectives on urban innovation closer to local administrations across Italy. The session will be held in Italian.<br>
+  description_room2: "<h3>OPEN DATA HUB MAIN</h3>
+  This track focuses on Open Data Hub projects and applications, showcasing how data is used to build services and generate public value. <br>
+  <br>
+  <h3>'CITY VISION' PANEL</h3>
+  The panel 'City Vision', part of the Roadshow 2026 – City Vision, an initiative bringing topics, solutions and perspectives on urban innovation closer to local administrations across Italy. This panel will be held in Italian, but a live translation service will be available in testing, accessible via your own smartphone. 
+You can connect to the service on your device and listen to the translation through your earphones.<br>
   <br>
   <h3>MOBILITY</h3>
   This track explores how mobility data is used to enable smarter and more integrated transport systems. It presents approaches and experiences around multimodal journey planning, real-time data and data-driven mobility services.<br>
@@ -188,17 +193,11 @@ content:
     - cols:
       - time: "11.15"
       - track: "Open Data Hub Main"
-      - speakers:
-        - name: "Grigory Vodyanov"
-          url: "https://www.linkedin.com/in/grigory-vodyanov-099505241/"
-        - name: " "
-          url: ""
-      - organizations:
-        - name: "PadoVia.it"
-          url: "http://padovia.it/"
-        - name: "Politecnico di Milano"
-          url: ""
-      - content: "Digital UX and public transport: Looking towards the future"
+      - speaker: "Ciro Degl’Innocenti"
+      - speakerURL: ""
+      - org: "Municipality of Padova"
+      - orgURL: ""
+      - content: "Unlocking the Public Value of CAM Data: Padua’s Experience with R3GIS and the Open Data Hub"
     #   - slidesLink: ""
     #   - videoLink: ""
     - cols:
@@ -214,31 +213,52 @@ content:
     - cols:
       - time: "11.45"
       - track: "Open Data Hub Main"
-      - speaker: "Ciro Degl’Innocenti"
-      - speakerURL: ""
-      - org: "Municipality of Padova"
-      - orgURL: ""
-      - content: "Unlocking the Public Value of CAM Data: Padua’s Experience with R3GIS and the Open Data Hub"
+      - speakers:
+        - name: "Grigory Vodyanov"
+          url: "https://www.linkedin.com/in/grigory-vodyanov-099505241/"
+        - name: " "
+          url: ""
+      - organizations:
+        - name: "PadoVia.it"
+          url: "http://padovia.it/"
+        - name: "Politecnico di Milano"
+          url: ""
+      - content: "Digital UX and public transport: Looking towards the future"
     #   - slidesLink: ""
     #   - videoLink: ""
     - cols:
       - time: "12.00"
-      - track: "City Vision Panel"
-      - speaker: " "
-      - speakerURL: ""
-      - org: "City Vision"
+      - track: "City Vision"
+      - speakers:
+        - name: "Claudio Corrarati"
+          url: ""
+        - name: "Ivano Marchiol"
+          url: ""
+        - name: "Margherita Cera"
+          url: ""
+        - name: "Roberto Cavaliere"
+          url: ""
+      - organizations:
+        - name: "Municipality of Bolzano/Bozen"
+          url: ""
+        - name: "Municipality of Udine"
+          url: ""
+        - name: "Municipality of Padova"
+          url: ""
+        - name: "NOI Techpark"
+          url: "https://noi.bz.it/"
       - orgURL: "https://cityvision.zone/"
-      - content: "City Vision Panel"
+      - content: "Panel: Listening Lands. How Data and AI can Make our Green Regions Smarter"
     #   - slidesLink: ""
     #   - videoLink: ""
     - cols:
-      - time: "12.30"
+      - time: "<b>12.30</b>"
       - speaker: " "
       - org: " "
-      - track: "Break"
+      - track: "<b>Break</b>"
 #     - speaker: ""
 #     - org: ""
-      - content: "Networking lunch (Foyer NOI Seminar Area)"
+      - content: "<b>Networking lunch (Foyer NOI Seminar Area)</b>"
     - cols:
       - time: "13.30"
       - track: "Mobility"
@@ -300,17 +320,19 @@ content:
       - track: "Mobility"
       - speaker: "Mattia Caldi"
       - speakerURL: "https://www.linkedin.com/in/mattia-caldi-456033314/"
-      - org: " "
+      - organizations:
+        - name: "Free University of Bolzano/Bozen"
+          url: "https://www.unibz.it/"
       - orgURL: ""
       - content: "Understanding Traffic Dynamics through Process Mining: An example in South Tyrol"
 #      - slidesLink: ""
 #      - videoLink: ""
     - cols:
-      - time: "15.00"
-      - track: "Break"
+      - time: "<b>15.00</b>"
+      - track: "<b>Break</b>"
       - speaker: " "
       - org: " "
-      - content: "Community Coffee Break (Foyer NOI Seminar Area)"
+      - content: "<b>Community Coffee Break (Foyer NOI Seminar Area)</b>"
     - cols:
       - time: "15.30"
       - track: "Open Data Hub Core"
@@ -380,11 +402,11 @@ content:
     #   - slidesLink: ""
     #   - videoLink: ""
     - cols:
-      - time: "17.00"
+      - time: "*<b>17.00</b>"
       - speaker: " "
       - org: " "
-      - track: "Closing"
-      - content: "Closing"
+      - track: "<b>Closing</b>"
+      - content: "<b>Closing</b>"
 
   btn_room3_link: "https://pretix.eu/noi-digital/open-data-hub-day-26/"
   btn_room3_label: "Register Now"
@@ -420,17 +442,85 @@ content:
     #   width: 5%
   row_room3:
     - cols:
-      - time: "11.00"
+      - time: "11.30"
       - track: "Bootcamp"
       - speakers:
-        - name: " "
+        - name: "Amir Ebrahimi"
           url: ""
-        - name: " "
+        - name: "Danial Davoodi"
+          url: ""
+        - name: "Shadi Davoodi"
           url: ""
       - organizations:
         - name: " "
           url: ""
-      - content: "Bootcamp results project presentations"
+      - content: "TEAM 1: eDataWood"
+#      - slidesLink: ""
+#      - videoLink: ""
+    - cols:
+      - time: "11.35"
+      - track: "Bootcamp"
+      - speakers:
+        - name: "Arshad Qureshi"
+          url: ""
+        - name: "Brando Mattivi"
+          url: ""
+        - name: "Roger Feliu"
+          url: ""
+      - organizations:
+        - name: " "
+          url: ""
+      - content: "TEAM 2: 3 musketeers"
+#       - slidesLink: ""
+#       - videoLink: ""
+    - cols:
+        - time: "11.40"
+        - track: "Bootcamp"
+        - speakers:
+          - name: "Everaldo de Avila Gomes Junior"
+            url: ""
+          - name: "Hamza Jamil"
+            url: ""
+          - name: "Michele Magri"
+            url: ""
+        - organizations:
+          - name: " "
+            url: ""
+        - content: "TEAM 3: No_Name"
+  #      - slidesLink: ""
+  #      - videoLink: ""
+    - cols:
+      - time: "11.45"
+      - track: "Bootcamp"
+      - speakers:
+        - name: "Alex Micheli"
+          url: ""
+        - name: "Dario Cavada"
+          url: ""
+        - name: "David Cavada"
+          url: ""
+      - organizations:
+        - name: " "
+          url: ""
+      - content: "TEAM 4: Recipe guesser"
+#      - slidesLink: ""
+#      - videoLink: ""
+    - cols:
+      - time: "11.50"
+      - track: "Bootcamp"
+      - speakers:
+        - name: "Leili E.J. Golzari"
+          url: ""
+        - name: "Leonardo Bovenzi"
+          url: ""
+        - name: "Luca Barbolini"
+          url: ""
+        - name: "Rafid Fallaha"
+          url: ""
+      - organizations:
+        - name: " "
+          url: ""
+      - content: "TEAM 6: TriLLER"
 #      - slidesLink: ""
 #      - videoLink: ""
     - cols:
@@ -440,7 +530,7 @@ content:
       - speakerURL: "https://github.com/asuptor"
       - org: "Eurac Research"
       - orgURL: "https://www.eurac.edu/en"
-      - content: "Enriching open data with street view imagery and deep learning"
+      - content: "MODERATE project: Enriching open data with street view imagery and deep learning"
     #   - slidesLink: ""
     #   - videoLink: ""
     - cols:
@@ -454,11 +544,11 @@ content:
     #   - slidesLink: ""
     #   - videoLink: ""
     - cols:
-      - time: "12.30"
+      - time: "<b>12.30</b>"
       - speaker: " "
       - org: " "
-      - track: "Break"
-      - content: "Networking lunch (Foyer NOI Seminar Area)"
+      - track: "<b>Break</b>"
+      - content: "<b>Networking lunch (Foyer NOI Seminar Area)</b>"
     - cols:
       - time: "13.30"
       - track: "AI"
@@ -468,7 +558,7 @@ content:
       - organizations:
         - name: "Free University of Bolzano/Bozen"
           url: "https://www.unibz.it/"
-      - content: "Is your data ready for AI Agents?"
+      - content: "Are your APIs and data sources suitable for AI Agents?"
 #      - slidesLink: ""
 #      - videoLink: ""
     - cols:
@@ -524,25 +614,25 @@ content:
 #      - slidesLink: ""
 #      - videoLink: ""
     - cols:
-      - time: "15.00"
-      - track: "Break"
+      - time: "<b>15.00</b>"
+      - track: "<b>Break</b>"
       - speaker: " "
       - org: " "
-      - content: "Community Coffee Break (Foyer NOI Seminar Area)"
+      - content: "<b>Community Coffee Break (Foyer NOI Seminar Area)</b>"
     - cols:
       - time: "15.30"
       - track: "Data Space"
       - speakers:
-        - name: "Antonio Jara"
-          url: "https://www.linkedin.com/in/jara-iot/"
-        - name: "Francisco Cantero"
+        - name: ""
+          url: ""
+        - name: ""
           url: ""
         organizations:
-        - name: "Libelium"
-          url: "https://www.libelium.com/"
-        - name: "FIWARE Foundation"
-          url: "https://www.fiware.org/"
-      - content: "Data‑Space Ready: turning APIs into governed data sharing for Data Spaces"
+        - name: ""
+          url: ""
+        - name: ""
+          url: ""
+      - content: ""
     #   - slidesLink: ""
     #   - videoLink: ""
     - cols:
@@ -553,10 +643,12 @@ content:
           url: "https://www.linkedin.com/in/lukas-k%C3%BCnig-b118a4214/"
         - name: "Matthias Repke"
           url: "https://www.linkedin.com/in/matthias-repke-b191489b/"
+        - name: "Vincent Maholetti"
+          url: "https://www.linkedin.com/in/matthias-repke-b191489b/"
         organizations:
         - name: "T-Mobile Austria GmbH"
           url: "https://www.magenta.at/"
-        - name: "T-Systems Austria GesmbH"
+        - name: "T-Systems Austria GmbH"
           url: "https://www.magenta.at/"
       - content: "From Sensor to Sovereign Dataspace: The End-to-End Data Journey from Intralogistics to the Catena-X Ecosystem"
     #   - slidesLink: ""
@@ -589,6 +681,10 @@ content:
       - speakers:
         - name: "Ilaria Cimorosi"
           url: "https://www.linkedin.com/in/ilaria-cimorosi-obli-laryea-185311228/"
+        - name: "Natasha Valentine"
+          url: "http://linkedin.com/in/natashavalentine"
+        - name: "Rebecca Raible"
+          url: "http://linkedin.com/in/rebecca-raible-99b2b3268"
       - organizations:
         - name: "Cimorosi Group"
           url: "https://www.cimorosigroup.com"
@@ -606,11 +702,11 @@ content:
     #   - slidesLink: ""
     #   - videoLink: ""
     - cols:
-      - time: "17.00"
+      - time: "<b>17.00</b>"
       - speaker: " "
       - org: " "
-      - track: "Closing"
-      - content: "Closing"
+      - track: "<b>Closing</b>"
+      - content: "<b>Closing</b>"
       
 
   # title_room4: ""
@@ -642,17 +738,17 @@ content:
   # btn_press_label: "Register Now"
   # btn_press_on_click: "_paq.push(['trackEvent', 'Event Registration', 'Click', 'Open Data Hub Day']);"
 
-  # title_press: "Press"
-  # description_press: "This section includes press releases, video trailers, photos and promotional content to help you share and promote Open Data Hub Day."
+  title_press: "Press"
+  description_press: "This section includes press releases, video trailers, photos and promotional content to help you share and promote Open Data Hub Day."
 
-  # headerPR:
-  #   - title: Open Data Hub 2025 additional content
-  #     width: 83%
-  #   - title: Language
-  #     width: 5%
-  #   - title: Link
-  #     width: 12% 
-  # rowPR:
+  headerPR:
+    - title: Open Data Hub 2026 additional content
+      width: 83%
+    - title: Language
+      width: 5%
+    - title: Link
+      width: 12% 
+  rowPR:
   #   - colsPR:
   #       - content: "Image Galley of the Open Data Hub Day 2025"
   #       - content: ""
@@ -681,18 +777,18 @@ content:
   #       - content: "Interview - Alberto Comini"
   #       - content: ""
   #       - videoLink: "https://vimeo.com/1092405317"        
-  #   - colsPR:
-  #       - content: "Open Data Hub Day - National press release"
-  #       - content: "IT"
-  #       - pressReleaseLink: "https://cloud.opendatahub.com/index.php/s/N2ttLkpTw4aw3HH"
-  #   - colsPR:
-  #       - content: "Open Data Hub Day - Local press release"
-  #       - content: "IT"
-  #       - pressReleaseLink: "https://cloud.opendatahub.com/index.php/s/ByqQMbBC22My6sB"
-  #   - colsPR:
-  #       - content: "Open Data Hub Day - Local press release"
-  #       - content: "DE"
-  #       - pressReleaseLink: "https://cloud.opendatahub.com/index.php/s/G7pHFmKg92SCdD9"
+    - colsPR:
+        - content: "Open Data Hub Day - National press release"
+        - content: "IT"
+        - pressReleaseLink: "https://cloud.opendatahub.com/index.php/s/PNq4r9yZbeQWtDQ"
+    - colsPR:
+        - content: "Open Data Hub Day - Local press release"
+        - content: "DE"
+        - pressReleaseLink: "https://cloud.opendatahub.com/index.php/s/K29PreDQft9kmSB"
+    - colsPR:
+        - content: "Open Data Hub Day - International press release"
+        - content: "EN"
+        - pressReleaseLink: "https://cloud.opendatahub.com/index.php/s/xdcdd9jitzoQTmf"
 
   btn_down_link: "https://pretix.eu/noi-digital/open-data-hub-day-26/"
   btn_down_label: "Register Now"
