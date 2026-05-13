@@ -87,6 +87,10 @@ h5 {
   font-weight: 600;
 }
 
+p {
+  --bs-body-color: #000000;
+}
+
 /* BOOTSTRAP TEXT UTILITIES OVERRIDE */
 .fw-semibold {
   font-weight: 400 !important;

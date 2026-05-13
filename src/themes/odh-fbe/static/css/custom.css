@@ -564,6 +564,21 @@ footer .w-fit {
   position: relative;
 }
 
+/* Fixes quotes on black background */
+.bg-darker .testimonial-quote {
+  blockquote, cite span {
+    text-shadow: none !important;
+    color: #ffffff;
+  }
+
+  blockquote p:first-child::before,
+  cite {
+    color: #ffffff;
+  }
+}
+
+.bg
+
 .no-after::after {
   display: none;
 }
