@@ -405,7 +405,11 @@ certified:
     - name: Softech web
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/softech.png"
       link: https://www.softechweb.it/
-      
+
+    - name: Smart taxi
+      img: "/img/community/smartTaxi.png"
+      link: https://www.smarttaxi.it/
+
 ########################### Partnerships and Alliances #########################
 partnerships:
   title: Partnerships and Alliances
