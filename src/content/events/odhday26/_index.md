@@ -442,17 +442,85 @@ You can connect to the service on your device and listen to the translation thro
     #   width: 5%
   row_room3:
     - cols:
-      - time: "11.00"
+      - time: "11.30"
       - track: "Bootcamp"
       - speakers:
-        - name: " "
+        - name: "Amir Ebrahimi"
           url: ""
-        - name: " "
+        - name: "Danial Davoodi"
+          url: ""
+        - name: "Shadi Davoodi"
           url: ""
       - organizations:
         - name: " "
           url: ""
-      - content: "Bootcamp results project presentations"
+      - content: "TEAM 1: eDataWood"
+#      - slidesLink: ""
+#      - videoLink: ""
+    - cols:
+      - time: "11.35"
+      - track: "Bootcamp"
+      - speakers:
+        - name: "Arshad Qureshi"
+          url: ""
+        - name: "Brando Mattivi"
+          url: ""
+        - name: "Roger Feliu"
+          url: ""
+      - organizations:
+        - name: " "
+          url: ""
+      - content: "TEAM 2: 3 musketeers"
+#       - slidesLink: ""
+#       - videoLink: ""
+    - cols:
+        - time: "11.40"
+        - track: "Bootcamp"
+        - speakers:
+          - name: "Everaldo de Avila Gomes Junior"
+            url: ""
+          - name: "Hamza Jamil"
+            url: ""
+          - name: "Michele Magri"
+            url: ""
+        - organizations:
+          - name: " "
+            url: ""
+        - content: "TEAM 3: No_Name"
+  #      - slidesLink: ""
+  #      - videoLink: ""
+    - cols:
+      - time: "11.45"
+      - track: "Bootcamp"
+      - speakers:
+        - name: "Alex Micheli"
+          url: ""
+        - name: "Dario Cavada"
+          url: ""
+        - name: "David Cavada"
+          url: ""
+      - organizations:
+        - name: " "
+          url: ""
+      - content: "TEAM 4: Recipe guesser"
+#      - slidesLink: ""
+#      - videoLink: ""
+    - cols:
+      - time: "11.50"
+      - track: "Bootcamp"
+      - speakers:
+        - name: "Leili E.J. Golzari"
+          url: ""
+        - name: "Leonardo Bovenzi"
+          url: ""
+        - name: "Luca Barbolini"
+          url: ""
+        - name: "Rafid Fallaha"
+          url: ""
+      - organizations:
+        - name: " "
+          url: ""
+      - content: "TEAM 6: TriLLER"
 #      - slidesLink: ""
 #      - videoLink: ""
     - cols:
