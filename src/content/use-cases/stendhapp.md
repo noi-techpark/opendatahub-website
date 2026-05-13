@@ -58,7 +58,7 @@ paragraphs:
     img_back_alt: "Stendhapp app map using Open Data Hub points of interest and events datasets to enrich personalized tourism itineraries."
     partial: text-imgs-enlargeable.html
 
-  - description: "Those developing solutions in the tourism sector or working with geographical data often face the same question: where can reliable data be found?\n\nIn many cases, the answer is already available. The data exists, is accessible via the Open Data Hub platform, and is ready to be used. The real difference lies in the ability to integrate and transform this data into useful experiences. Stendapp demonstrates this in practice by combining open data, technology and a clear vision to generate real value for users and local areas."
+  - description: "Those developing solutions in the tourism sector or working with geographical data often face the same question: where can reliable data be found?\n\nIn many cases, the answer is already available. The data exists, is accessible via the Open Data Hub platform, and is ready to be used. The real difference lies in the ability to integrate and transform this data into useful experiences. Stendhapp demonstrates this in practice by combining open data, technology and a clear vision to generate real value for users and local areas."
     title: "**Why does this matter for your project?**"
     img_back: "/img/use-cases/stendhapp/stendhapp_5.jpg"
     img_credit: "© Open Data Hub / Tania Marcadella"
