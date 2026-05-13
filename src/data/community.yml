@@ -357,7 +357,7 @@ consumers:
       link: https://www.yanovis.com/
     
     - name: Zyflow
-      img: "/img/community/zyflow.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/zyflow.png"
       link: https://www.zyflow.eu/
 
 ########################### Certified Technology Providers #########################
@@ -391,7 +391,7 @@ certified:
       link: https://moqo.de/
 
     - name: R3 GIS
-      img: "/img/community/r3gis.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/r3gis.png"
       link: https://www.r3gis.com/
     
     - name: SKIDATA
