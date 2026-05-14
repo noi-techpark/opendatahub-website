@@ -139,6 +139,10 @@ providers:
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/municipalityRovereto.png"
       link: https://www.comune.rovereto.tn.it/
 
+    - name: Municipality of Padova
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/municipalityOfPadua.png"
+      link: https://www.comune.padova.it/
+
     - name: Municipality of Trento
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/municipalityTrento.png"
       link: https://www.comune.trento.it/
