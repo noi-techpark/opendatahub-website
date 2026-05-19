@@ -749,10 +749,10 @@ You can connect to the service on your device and listen to the translation thro
     - title: Link
       width: 12% 
   rowPR:
-  #   - colsPR:
-  #       - content: "Image Galley of the Open Data Hub Day 2025"
-  #       - content: ""
-  #       - photoLink: "https://flic.kr/s/aHBqjCfXTe"
+    - colsPR:
+        - content: "Image Galley of the Open Data Hub Day 2026"
+        - content: ""
+        - photoLink: "https://flic.kr/s/aHBqjCUeh2"
   #   - colsPR:
   #       - content: "Open Data Hub Day Trailer"
   #       - content: ""
