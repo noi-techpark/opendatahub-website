@@ -7,6 +7,38 @@ sections:
   - title: "**Open Data Hub Day Interviews**"
     initially_expanded: true
     videos:
+      - subtitle: "SBB/SKI+"
+        title: "**SBB/SKI+ - Interview**"
+        description: "Christoph Lucas"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/6rcCcFzNBwy3bBw"
+        btn_label: Open Data Hub Day 2026 - Slides
+        video: "https://player.vimeo.com/video/1194102216"
+        target_blank: true
+
+      - subtitle: "Stendhapp"
+        title: "**Stendhapp - Interview**"
+        description: "Francesca De Finis"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/bfRdkPYzYH9Fig9"
+        btn_label: Open Data Hub Day 2026 - Slides
+        video: "https://player.vimeo.com/video/1194105892"
+        target_blank: true
+            
+      - subtitle: "OpenTripPlanner"
+        title: "**OpenTripPlanner - Interview**"
+        description: "Leonard Ehrenfried"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/iZFj4qBxodX9N4w"
+        btn_label: Open Data Hub Day 2026 - Slides
+        video: "https://player.vimeo.com/video/1194104830"
+        target_blank: true
+            
+      - subtitle: "touristinfo.ai"
+        title: "**touristinfo.ai - Interview**"
+        description: "Lukas Mayr"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/syPokmJZA4PH7SC"
+        btn_label: Open Data Hub Day 2026 - Slides
+        video: "https://player.vimeo.com/video/1194103832"
+        target_blank: true
+
       - subtitle: "IDM Südtirol / Alto Adige"
         title: "**IDM Südtirol / Alto Adige interview**"
         description: "Antonietta De Santis"
@@ -247,6 +279,300 @@ sections:
         video: "https://player.vimeo.com/video/734001032"
         target_blank: true
 
+  ################################# Open Data Hub 2026 - Main Track #########################
+  - title: "**Open Data Hub Day 2026 - Main Track**"
+    initially_expanded: false
+    videos:
+      - subtitle: ""
+        title: "**Open Data Hub Day 2026 - Trailer**"
+        description: ""
+        btn_link: "/events/day26"
+        btn_label: Go to event page
+        video: "https://player.vimeo.com/video/1194086450"
+        target_blank: false
+      - subtitle: ""
+        title: "**Open Data Hub Day | Opening**"
+        description: "Vincent Mauroit"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/X5TetJkEdDPjgC5"
+        btn_label: "Slides"
+        video: "https://player.vimeo.com/video/1194306643"
+        target_blank: false
+      - subtitle: "Main Room"
+        title: "**Open Data Hub | Updates**"
+        description: "Patrick Ohnewein"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/kce9r65xyiozGFb"
+        btn_label: "Slides"
+        video: "https://player.vimeo.com/video/1194308413"
+        target_blank: true
+      - subtitle: "Main Room"
+        title: "**Open Source Routers - A comprehensive comparative market research**"
+        description: "Christoph Lucas"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/6rcCcFzNBwy3bBw"
+        btn_label: "Slides"
+        video: "https://player.vimeo.com/video/1194313757"
+        target_blank: true
+      - subtitle: "Main Room"
+        title: "**From Static Highlights to Real-Time Flow Management with Open Data**"
+        description: "Lukas Mayr"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/syPokmJZA4PH7SC"
+        btn_label: "Slides"
+        video: "https://player.vimeo.com/video/1194327974"
+        target_blank: true
+      - subtitle: "Main Room"
+        title: "**Open data for cultural tourism: are they like oil or like water?**"
+        description: "Francesca De Finis"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/bfRdkPYzYH9Fig9"
+        btn_label: "Slides"
+        video: "https://player.vimeo.com/video/1194316975"
+        target_blank: true
+      - subtitle: "Main Room"
+        title: "**Contributor of the Year 2026**"
+        description: "Eduardo Guerra"
+        btn_link: "/community/contributor-of-2026/"
+        btn_label: "Go to contributor page"
+        video: "https://player.vimeo.com/video/1194319253"
+        target_blank: true
+
+  ################################# Open Data Hub 2026 - Open Data Hub Main Track #########################
+  - title: "**Open Data Hub Day 2026 - Open Data Hub Main Track**"
+    initially_expanded: false
+    videos:
+      - subtitle: "Open Data Hub Main"
+        title: "**DIGIWAY in the Open Data Hub – interoperable data for Alpine safety**"
+        description: "Lucia Felbauer, Emma Giacomelli Boldrini"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/ooawSmwqsj8xEBy"
+        btn_label: "Slides"
+        video: "https://player.vimeo.com/video/1194455547"
+        target_blank: false
+      - subtitle: "Open Data Hub Main"
+        title: "**Unlocking the Public Value of CAM Data: Padua’s Experience with R3GIS and the Open Data Hub**"
+        description: "Ciro Degl’Innocenti"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/7gS9QRKQRdGb2Fw"
+        btn_label: "Slides"
+        video: "https://player.vimeo.com/video/1194611053"
+        target_blank: false
+      - subtitle: "Open Data Hub Main"
+        title: "**From Infrastructure to Product: The Challenges Behind Evolving the Open Data Browser**"
+        description: "Matteo Rosario Moschitta"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/EScCxxHoMeMwPn3"
+        btn_label: "Slides"
+        video: "https://player.vimeo.com/video/1194612450"
+        target_blank: false
+      - subtitle: "Open Data Hub Main"
+        title: "**Digital UX and public transport: Looking towards the future**"
+        description: "Grigory Vodyanov"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/KEcdHAyCDMKFoZA"
+        btn_label: "Slides"
+        video: "https://player.vimeo.com/video/1194613192"
+        target_blank: false
+      - subtitle: "Open Data Hub Main"
+        title: "**City Vision Panel: Listening Lands. How Data and AI can Make our Green Regions**"
+        description: "Ivano Marchiol, Margherita Cera, Roberto Cavaliere"
+        btn_link: ""
+        btn_label: "Slides"
+        video: "https://player.vimeo.com/video/1194613750"
+        target_blank: false
+
+  ################################# Open Data Hub 2026 - Mobility Track #########################
+  - title: "**Open Data Hub Day 2026 - Mobility Track**"
+    initially_expanded: false
+    videos:
+      - subtitle: "Mobility Main"
+        title: "**OpenTripPlanner: European standards in Italy**"
+        description: "Leonard Ehrenfried"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/iZFj4qBxodX9N4w"
+        btn_label: "Slides"
+        video: "https://player.vimeo.com/video/1194664083"
+        target_blank: false
+      - subtitle: "Mobility Main"
+        title: "**Open Data Hub x Public Transport - How to handle Netex and GTFS formats**"
+        description: "Matteo Roggia"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/WFxi9CgW2mrkPKs"
+        btn_label: "Slides"
+        video: "https://player.vimeo.com/video/1195174994"
+        target_blank: false
+      - subtitle: "Mobility Main"
+        title: "**Scaling Swiss Mobility Data Ingestion in the Open Data Hub**"
+        description: "Giacomo Fabbian"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/jN6PD63rLqdXWKD"
+        btn_label: "Slides"
+        video: "https://player.vimeo.com/video/1195175156"
+        target_blank: false
+      - subtitle: "Mobility Main"
+        title: "**Towards a Modern Multimodal Journey Planner**"
+        description: "Cyprien Huissoud"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/Agap5nRLt6Wjosb"
+        btn_label: "Slides"
+        video: "https://player.vimeo.com/video/1195176229"
+        target_blank: false
+      - subtitle: "Mobility Main"
+        title: "**From Video to Data: Bringing Real-Time Insights into Open Data Hub**"
+        description: "Giuseppe Cusati"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/jcgbCBDGsziwEXP"
+        btn_label: "Slides"
+        video: "https://player.vimeo.com/video/1195177493"
+        target_blank: false
+      - subtitle: "Mobility Main"
+        title: "**Understanding Traffic Dynamics through Process Mining: An example in South Tyrol**"
+        description: "Mattia Caldi"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/y4xccGby9tGceGR"
+        btn_label: "Slides"
+        video: "https://player.vimeo.com/video/1195200028"
+        target_blank: false
+
+  ################################# Open Data Hub 2026 - Open Data Hub Core Track #########################
+  - title: "**Open Data Hub Day 2026 - Open Data Hub Core Track**"
+    initially_expanded: false
+    videos:
+      - subtitle: "Open Data Hub Core"
+        title: "**Optimizing the Open Data Hub Timeseries Database**"
+        description: "Clemens Zagler"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/bB5RmmdHSPQiSaY"
+        btn_label: "Slides"
+        video: "https://player.vimeo.com/video/1195200194"
+        target_blank: false
+      - subtitle: "Open Data Hub Core"
+        title: "**Displaying Large Dataset on a Map by using Vector Tiles**"
+        description: "Rudolf Thöni"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/5rjPn4zqnDtAGdZ"
+        btn_label: "Slides"
+        video: "https://player.vimeo.com/video/1195200241"
+        target_blank: false
+      - subtitle: "Open Data Hub Core"
+        title: "**Millions of Features, One Smooth Map**"
+        description: "Nicola Manica"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/nPW5czcGYKrp8KZ"
+        btn_label: "Slides"
+        video: "https://player.vimeo.com/video/1195250702"
+        target_blank: false
+      - subtitle: "Open Data Hub Core"
+        title: "**Facilitating data adoption with a lightweight Discovery stack**"
+        description: "Matteo Roggia"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/zLDet9rw3SDgcpy"
+        btn_label: "Slides"
+        video: "https://player.vimeo.com/video/1195250889"
+        target_blank: false
+      - subtitle: "Open Data Hub Core"
+        title: "**Open Data Hub on Kubernetes**"
+        description: "Clemens Zagler"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/L5Dztm8BiLKKRzH"
+        btn_label: "Slides"
+        video: "https://player.vimeo.com/video/1195250918"
+        target_blank: false
+      - subtitle: "Open Data Hub Core"
+        title: "**Consuming Open Data Hub APIs with n8n: A Low-Code Approach to Data Integration**"
+        description: "Abduallah Abuhassan"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/oPXtNJmm57TetEQ"
+        btn_label: "Slides"
+        video: "https://player.vimeo.com/video/1195250958"
+        target_blank: false
+
+  ################################# Open Data Hub 2026 - Building Track #########################
+  - title: "**Open Data Hub Day 2026 - Building Track**"
+    initially_expanded: false
+    videos:
+      - subtitle: "Building"
+        title: "**MODERATE project: Enriching open data with street view imagery and deep learning**"
+        description: "Anthony Suppa"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/PBZP2JY3q5W9AYR"
+        btn_label: "Slides"
+        video: "https://player.vimeo.com/video/1194346011"
+        target_blank: false
+      - subtitle: "Building"
+        title: "**Towards an integrated smart building control dashboard: a proof of concept at NOI Techpark**"
+        description: "Marco Dalle Feste"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/fdH39aLJbZM8Rs3"
+        btn_label: "Slides"
+        video: "https://player.vimeo.com/video/1194346012"
+        target_blank: false
+
+  ################################# Open Data Hub 2026 - AI Track #########################
+  - title: "**Open Data Hub Day 2026 - AI Track**"
+    initially_expanded: false
+    videos:
+      - subtitle: "AI"
+        title: "**Are your APIs and data sources suitable for AI Agents?**"
+        description: "Eduardo Guerra"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/Zts5mM8q2c3tXZx"
+        btn_label: "Slides"
+        video: "https://player.vimeo.com/video/1194644988"
+        target_blank: false
+      - subtitle: "AI"
+        title: "**Stuart Chatbot: A Simple Yet Powerful RAG System**"
+        description: "Chris Mair"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/4zY952jwBgwZF2K"
+        btn_label: "Slides"
+        video: "https://player.vimeo.com/video/1194646822"
+        target_blank: false
+      - subtitle: "AI"
+        title: "**From Open Data to Agent-Queryable Worlds: Building a Hospitality Layer on top of Open Data Hub APIs**"
+        description: "Marco Montanari"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/eR7Mb8FoMpbXpj2"
+        btn_label: "Slides"
+        video: "https://player.vimeo.com/video/1194652622"
+        target_blank: false
+      - subtitle: "AI"
+        title: "**Discover the Unexpected in Open Data with LLMs, Schemas, and Data Quality**"
+        description: "Davide Montesin"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/7AyMox8fgmZa778"
+        btn_label: "Slides"
+        video: "https://player.vimeo.com/video/1194654597"
+        target_blank: false
+      - subtitle: "AI"
+        title: "**Is your Open Data AI-ready?**"
+        description: "Peter Hopfgartner"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/JzYbo5NErtJ4SkF"
+        btn_label: "Slides"
+        video: "https://player.vimeo.com/video/1194659331"
+        target_blank: false
+      - subtitle: "AI"
+        title: "**Building Trustworthy Open Datasets for Low-Resource Languages: A Blueprint for Tackling LLM Hallucination**"
+        description: "Safoura Jolfaei"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/SzcRYDKk3GxgQH3"
+        btn_label: "Slides"
+        video: "https://player.vimeo.com/video/1194662043"
+        target_blank: false
+
+  ################################# Open Data Hub 2026 - Data Space Track #########################
+  - title: "**Open Data Hub Day 2026 - Data Space Track**"
+    initially_expanded: false
+    videos:
+      - subtitle: "Data Space"
+        title: "**From Sensor to Sovereign Dataspace: The End-to-End Data Journey from Intralogistics to the Catena-X Ecosystem**"
+        description: "Lukas Künig, Matthias Repke, Vincent Maholetti"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/jHKNBL8TQ6e2zGz"
+        btn_label: "Slides"
+        video: "https://player.vimeo.com/video/1195169226"
+        target_blank: false
+      - subtitle: "Data Space"
+        title: "**The EU Data Act and the Future of Data Sharing in Europe**"
+        description: "Riccardo Crescini"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/LGDTCKiGEprTsFJ"
+        btn_label: "Slides"
+        video: "https://player.vimeo.com/video/1195171019"
+        target_blank: false
+      - subtitle: "Data Space"
+        title: "**Bridging Rigor and Agility: Building a Research Data Catalog with FastAPI and HTMX**"
+        description: "Vittorio Iacovella"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/mTJHq7LpWEcy8sM"
+        btn_label: "Slides"
+        video: "https://player.vimeo.com/video/1195172996"
+        target_blank: false
+      - subtitle: "Data Space"
+        title: "**The Seasonal Workforce Blind Spot: What Open Labour Data Reveals — and What the AI Act Now Requires**"
+        description: "Ilaria Cimorosi, Natasha Valentine, Rebecca Raible"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/XMDCDKdLpoTJ4tx"
+        btn_label: "Slides"
+        video: "https://player.vimeo.com/video/1195174434"
+        target_blank: false
+      - subtitle: "Data Space"
+        title: "**End-to-end pipeline from researcher data processing to the GeoBrowser, implemented through EDP**"
+        description: "Andrea Vianello"
+        btn_link: "https://cloud.opendatahub.com/index.php/s/e2Dt26aj5gPTzgo"
+        btn_label: "Slides"
+        video: "https://player.vimeo.com/video/1195176816"
+        target_blank: false
+
   ################################# Open Data Hub 2025 - Main Room #########################
   - title: "**Open Data Hub Day 2025 - Main Room**"
     initially_expanded: false
@@ -324,7 +650,7 @@ sections:
       - subtitle: "Main Room"
         title: "**Contributor of the year**"
         description: "Matthias Dieter Wallnöfer"
-        btn_link: "community/contributor-of-2025/"
+        btn_link: "/community/contributor-of-2025/"
         btn_label: Go to contributor page
         video: "https://player.vimeo.com/video/1090591285"
         target_blank: false

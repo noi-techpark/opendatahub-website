@@ -62,15 +62,17 @@ content:
       width: 15%
     - title: Title
       width: 85%
-#    - title: Slides
-#      width: 5%
-#    - title: Video
-#      width: 5%    
+    - title: Slides
+      width: 5%
+    - title: Video
+      width: 5%    
   row:
     - cols:
-      - time: "8.30"
-      - track: "Main"
-      - content: "Check-in starting at 8.30"
+      - time: "<b>8.30</b>"
+      - speaker: " "
+      - org: " "
+      - track: "<b>Main</b>"
+      - content: "<b>Check-in starting at 8.30</b>"
     - cols:
       - time: "9.00"
       - track: "Main"
@@ -79,8 +81,8 @@ content:
       - org: "NOI Techpark"
       - orgURL: "https://noi.bz.it/"
       - content: "Open Data Hub Day - Opening"
-#      - slidesLink: ""
-#      - videoLink: ""
+      - slidesLink: "https://cloud.opendatahub.com/index.php/s/X5TetJkEdDPjgC5"
+      - videoLink: "https://vimeo.com/1194306643"
     - cols:
       - time: "9.15"
       - track: "Main"
@@ -89,8 +91,8 @@ content:
       - org: "NOI Techpark"
       - orgURL: "https://noi.bz.it/"
       - content: "Open Data Hub - updates"
-    #   - slidesLink: ""
-    #   - videoLink: ""
+      - slidesLink: "https://cloud.opendatahub.com/index.php/s/kce9r65xyiozGFb"
+      - videoLink: "https://vimeo.com/1194308413"
     - cols:
       - time: "9.30"
       - track: "Main"
@@ -99,8 +101,8 @@ content:
       - org: "SBB / SKI+"
       - orgURL: "https://company.sbb.ch/"
       - content: "Open Source Routers - A comprehensive comparative market research"
-#      - slidesLink: "" 
-#      - videoLink: ""
+      - slidesLink: "https://cloud.opendatahub.com/index.php/s/6rcCcFzNBwy3bBw" 
+      - videoLink: "https://vimeo.com/1194313757"
     - cols:
       - time: "9.45"
       - track: "Main"
@@ -109,8 +111,8 @@ content:
       - org: "touristinfo.ai"
       - orgURL: "https://touristinfo.ai/"
       - content: "From Static Highlights to Real-Time Flow Management with Open Data"
-    #   - slidesLink: ""
-    #   - videoLink: ""
+      - slidesLink: "https://cloud.opendatahub.com/index.php/s/syPokmJZA4PH7SC"
+      - videoLink: "https://vimeo.com/1194327974"
     - cols:
       - time: "10.00"
       - track: "Main"
@@ -119,18 +121,20 @@ content:
       - org: "Stendhapp"
       - orgURL: "https://www.stendhapp.com"
       - content: "Open data for cultural tourism: are they like oil or like water?"
-    #   - slidesLink: ""
-    #   - videoLink: ""
+      - slidesLink: "https://cloud.opendatahub.com/index.php/s/bfRdkPYzYH9Fig9"
+      - videoLink: "https://vimeo.com/1194316975"
     - cols:
       - time: "10.15"
       - track: "Main"
-      - speaker: " "
-      - speakerURL: ""
-      - org: "Open Data Hub"
-      - orgURL: "https://opendatahub.com/"
+      - speakers:
+        - name: "Eduardo Guerra"
+          url: "https://www.linkedin.com/in/eduardo-guerra-b4633115b/"
+      - organizations:
+        - name: "Free University of Bolzano/Bozen"
+          url: "https://www.unibz.it/"
       - content: "Contributor of the Year 2026"
-    #   - slidesLink: ""
-    #   - videoLink: ""
+      - slidesLink: "https://cloud.opendatahub.com/index.php/s/eHxKSaSoHDsNLJW"
+      - videoLink: "https://vimeo.com/1194319253"
     - cols:
       - time: "<b>10.30</b>"
       - speaker: " "
@@ -168,10 +172,10 @@ You can connect to the service on your device and listen to the translation thro
       width: 15%
     - title: Title
       width: 40%
-    # - title: Slides
-    #   width: 5%
-    # - title: Video
-    #   width: 5%
+    - title: Slides
+      width: 5%
+    - title: Video
+      width: 5%
         
   row_room2:
     - cols:
@@ -188,8 +192,8 @@ You can connect to the service on your device and listen to the translation thro
         - name: "Tourism and Sport Department, Autonomous Province of Trento"
           url: ""
       - content: "DIGIWAY in the Open Data Hub – interoperable data for Alpine safety"
-#      - slidesLink: ""
-#      - videoLink: ""
+      - slidesLink: "https://cloud.opendatahub.com/index.php/s/ooawSmwqsj8xEBy"
+      - videoLink: "https://vimeo.com/1194455547"
     - cols:
       - time: "11.15"
       - track: "Open Data Hub Main"
@@ -198,8 +202,8 @@ You can connect to the service on your device and listen to the translation thro
       - org: "Municipality of Padova"
       - orgURL: ""
       - content: "Unlocking the Public Value of CAM Data: Padua’s Experience with R3GIS and the Open Data Hub"
-    #   - slidesLink: ""
-    #   - videoLink: ""
+      - slidesLink: "https://cloud.opendatahub.com/index.php/s/7gS9QRKQRdGb2Fw"
+      - videoLink: "https://vimeo.com/1194611053"
     - cols:
       - time: "11.30"
       - track: "Open Data Hub Main"
@@ -208,8 +212,8 @@ You can connect to the service on your device and listen to the translation thro
       - org: "OFFLINE Agency"
       - orgURL: "https://offlineagency.it/"
       - content: "From Infrastructure to Product: The Challenges Behind Evolving the Open Data Browser"
-    #   - slidesLink: ""
-    #   - videoLink: ""
+      - slidesLink: "https://cloud.opendatahub.com/index.php/s/EScCxxHoMeMwPn3"
+      - videoLink: "https://vimeo.com/1194612450"
     - cols:
       - time: "11.45"
       - track: "Open Data Hub Main"
@@ -224,14 +228,12 @@ You can connect to the service on your device and listen to the translation thro
         - name: "Politecnico di Milano"
           url: ""
       - content: "Digital UX and public transport: Looking towards the future"
-    #   - slidesLink: ""
-    #   - videoLink: ""
+      - slidesLink: "https://cloud.opendatahub.com/index.php/s/KEcdHAyCDMKFoZA"
+      - videoLink: "https://vimeo.com/1194613192"
     - cols:
       - time: "12.00"
       - track: "City Vision"
       - speakers:
-        - name: "Claudio Corrarati"
-          url: ""
         - name: "Ivano Marchiol"
           url: ""
         - name: "Margherita Cera"
@@ -239,8 +241,6 @@ You can connect to the service on your device and listen to the translation thro
         - name: "Roberto Cavaliere"
           url: ""
       - organizations:
-        - name: "Municipality of Bolzano/Bozen"
-          url: ""
         - name: "Municipality of Udine"
           url: ""
         - name: "Municipality of Padova"
@@ -250,7 +250,7 @@ You can connect to the service on your device and listen to the translation thro
       - orgURL: "https://cityvision.zone/"
       - content: "Panel: Listening Lands. How Data and AI can Make our Green Regions Smarter"
     #   - slidesLink: ""
-    #   - videoLink: ""
+      - videoLink: "https://vimeo.com/1194613750"
     - cols:
       - time: "<b>12.30</b>"
       - speaker: " "
@@ -269,8 +269,8 @@ You can connect to the service on your device and listen to the translation thro
         - name: "OpenTripPlanner"
           url: ""
       - content: "OpenTripPlanner: European standards in Italy"
-#      - slidesLink: ""
-#      - videoLink: ""
+      - slidesLink: "https://cloud.opendatahub.com/index.php/s/iZFj4qBxodX9N4w"
+      - videoLink: "https://vimeo.com/1194664083"
     - cols:
       - time: "13.45"
       - track: "Mobility"
@@ -281,8 +281,8 @@ You can connect to the service on your device and listen to the translation thro
         - name: "NOI Techpark"
           url: "https://noi.bz.it/"
       - content: "Open Data Hub x Public Transport - How to handle Netex and GTFS formats"
-#      - slidesLink: ""
-#      - videoLink: ""
+      - slidesLink: "https://cloud.opendatahub.com/index.php/s/WFxi9CgW2mrkPKs"
+      - videoLink: "https://vimeo.com/1195174994"
     - cols:
       - time: "14.00"
       - track: "Mobility"
@@ -293,8 +293,8 @@ You can connect to the service on your device and listen to the translation thro
         - name: "OFFLINE Agency"
           url: "https://offlineagency.it/"
       - content: "Scaling Swiss Mobility Data Ingestion in the Open Data Hub"
-#      - slidesLink: ""
-#      - videoLink: ""
+      - slidesLink: "https://cloud.opendatahub.com/index.php/s/jN6PD63rLqdXWKD"
+      - videoLink: "https://vimeo.com/1195175156"
     - cols:
       - time: "14.15"
       - track: "Mobility"
@@ -303,8 +303,8 @@ You can connect to the service on your device and listen to the translation thro
       - org: "PathWorks Tech LLC"
       - orgURL: "https://www.pathworkstech.ch/"
       - content: "Towards a Modern Multimodal Journey Planner"
-    #   - slidesLink: ""
-    #   - videoLink: ""
+      - slidesLink: "https://cloud.opendatahub.com/index.php/s/Agap5nRLt6Wjosb"
+      - videoLink: "https://vimeo.com/1195176229"
     - cols:
       - time: "14.30"
       - track: "Mobility"
@@ -313,8 +313,8 @@ You can connect to the service on your device and listen to the translation thro
       - org: "GeniAI"
       - orgURL: "https://geniai.it/"
       - content: "From Video to Data: Bringing Real-Time Insights into Open Data Hub"
-#      - slidesLink: ""
-#      - videoLink: ""
+      - slidesLink: "https://cloud.opendatahub.com/index.php/s/jcgbCBDGsziwEXP"
+      - videoLink: "https://vimeo.com/1195177493"
     - cols:
       - time: "14.45"
       - track: "Mobility"
@@ -325,8 +325,8 @@ You can connect to the service on your device and listen to the translation thro
           url: "https://www.unibz.it/"
       - orgURL: ""
       - content: "Understanding Traffic Dynamics through Process Mining: An example in South Tyrol"
-#      - slidesLink: ""
-#      - videoLink: ""
+      - slidesLink: "https://cloud.opendatahub.com/index.php/s/y4xccGby9tGceGR"
+      - videoLink: "https://vimeo.com/1195200028"
     - cols:
       - time: "<b>15.00</b>"
       - track: "<b>Break</b>"
@@ -343,8 +343,8 @@ You can connect to the service on your device and listen to the translation thro
         - name: "NOI Techpark"
           url: "https://noi.bz.it/"
       - content: "Optimizing the Open Data Hub Timeseries Database"
-    #   - slidesLink: ""
-    #   - videoLink: ""
+      - slidesLink: "https://cloud.opendatahub.com/index.php/s/bB5RmmdHSPQiSaY"
+      - videoLink: "https://vimeo.com/1195200194"
     - cols:
       - time: "15.45"
       - track: "Open Data Hub Core"
@@ -355,8 +355,8 @@ You can connect to the service on your device and listen to the translation thro
         - name: "NOI Techpark"
           url: "https://noi.bz.it/"
       - content: "Displaying Large Dataset on a Map by using Vector Tiles"
-    #   - slidesLink: ""
-    #   - videoLink: ""
+      - slidesLink: "https://cloud.opendatahub.com/index.php/s/5rjPn4zqnDtAGdZ"
+      - videoLink: "https://vimeo.com/1195200241"
     - cols:
       - time: "16.00"
       - track: "Open Data Hub Core"
@@ -365,8 +365,8 @@ You can connect to the service on your device and listen to the translation thro
       - org: "R3GIS"
       - orgURL: "https://www.r3gis.com/"
       - content: "Millions of Features, One Smooth Map"
-    #   - slidesLink: ""
-    #   - videoLink: ""
+      - slidesLink: "https://cloud.opendatahub.com/index.php/s/nPW5czcGYKrp8KZ"
+      - videoLink: "https://vimeo.com/1195250702"
     - cols:
       - time: "16.15"
       - track: "Open Data Hub Core"
@@ -377,8 +377,8 @@ You can connect to the service on your device and listen to the translation thro
         - name: "NOI Techpark"
           url: "https://noi.bz.it/"
       - content: "Facilitating data adoption with a lightweight Discovery stack"
-    #   - slidesLink: ""
-    #   - videoLink: ""
+      - slidesLink: "https://cloud.opendatahub.com/index.php/s/zLDet9rw3SDgcpy"
+      - videoLink: "https://vimeo.com/1195250889"
     - cols:
       - time: "16.30"
       - track: "Open Data Hub Core"
@@ -389,8 +389,8 @@ You can connect to the service on your device and listen to the translation thro
         - name: "NOI Techpark"
           url: "https://noi.bz.it/"
       - content: "Open Data Hub on Kubernetes"
-    #   - slidesLink: ""
-    #   - videoLink: ""
+      - slidesLink: "https://cloud.opendatahub.com/index.php/s/L5Dztm8BiLKKRzH"
+      - videoLink: "https://vimeo.com/1195250918"
     - cols:
       - time: "16.45"
       - track: "Open Data Hub Core"
@@ -399,8 +399,8 @@ You can connect to the service on your device and listen to the translation thro
       - org: "NOI Techpark"
       - orgURL: "https://noi.bz.it/it"
       - content: "Consuming Open Data Hub APIs with n8n: A Low-Code Approach to Data Integration"
-    #   - slidesLink: ""
-    #   - videoLink: ""
+      - slidesLink: "https://cloud.opendatahub.com/index.php/s/oPXtNJmm57TetEQ"
+      - videoLink: "https://vimeo.com/1195250958"
     - cols:
       - time: "*<b>17.00</b>"
       - speaker: " "
@@ -436,10 +436,10 @@ You can connect to the service on your device and listen to the translation thro
       width: 15%
     - title: Title
       width: 40%
-    # - title: Slides
-    #   width: 5%
-    # - title: Video
-    #   width: 5%
+    - title: Slides
+      width: 5%
+    - title: Video
+      width: 5%
   row_room3:
     - cols:
       - time: "11.30"
@@ -455,7 +455,7 @@ You can connect to the service on your device and listen to the translation thro
         - name: " "
           url: ""
       - content: "TEAM 1: eDataWood"
-#      - slidesLink: ""
+      - slidesLink: "https://cloud.opendatahub.com/index.php/s/iQ5edRTeZEk9zRz"
 #      - videoLink: ""
     - cols:
       - time: "11.35"
@@ -471,7 +471,7 @@ You can connect to the service on your device and listen to the translation thro
         - name: " "
           url: ""
       - content: "TEAM 2: 3 musketeers"
-#       - slidesLink: ""
+      - slidesLink: "https://cloud.opendatahub.com/index.php/s/2Kj5HQsMAKAsodC"
 #       - videoLink: ""
     - cols:
         - time: "11.40"
@@ -487,7 +487,7 @@ You can connect to the service on your device and listen to the translation thro
           - name: " "
             url: ""
         - content: "TEAM 3: No_Name"
-  #      - slidesLink: ""
+        - slidesLink: "https://cloud.opendatahub.com/index.php/s/fSDDdmcn5ERd5xt"
   #      - videoLink: ""
     - cols:
       - time: "11.45"
@@ -521,7 +521,7 @@ You can connect to the service on your device and listen to the translation thro
         - name: " "
           url: ""
       - content: "TEAM 6: TriLLER"
-#      - slidesLink: ""
+      - slidesLink: https://cloud.opendatahub.com/index.php/s/rxc6CgTpNG5msrr""
 #      - videoLink: ""
     - cols:
       - time: "12.00"
@@ -531,8 +531,8 @@ You can connect to the service on your device and listen to the translation thro
       - org: "Eurac Research"
       - orgURL: "https://www.eurac.edu/en"
       - content: "MODERATE project: Enriching open data with street view imagery and deep learning"
-    #   - slidesLink: ""
-    #   - videoLink: ""
+      - slidesLink: "https://cloud.opendatahub.com/index.php/s/PBZP2JY3q5W9AYR"
+      - videoLink: "https://vimeo.com/1194346011"
     - cols:
       - time: "12.15"
       - track: "Building"
@@ -541,8 +541,8 @@ You can connect to the service on your device and listen to the translation thro
       - org: "Freelance"
       - orgURL: ""
       - content: "Towards an integrated smart building control dashboard: a proof of concept at NOI Techpark"
-    #   - slidesLink: ""
-    #   - videoLink: ""
+      - slidesLink: "https://cloud.opendatahub.com/index.php/s/fdH39aLJbZM8Rs3"
+      - videoLink: "https://vimeo.com/1194346012"
     - cols:
       - time: "<b>12.30</b>"
       - speaker: " "
@@ -559,8 +559,8 @@ You can connect to the service on your device and listen to the translation thro
         - name: "Free University of Bolzano/Bozen"
           url: "https://www.unibz.it/"
       - content: "Are your APIs and data sources suitable for AI Agents?"
-#      - slidesLink: ""
-#      - videoLink: ""
+      - slidesLink: "https://cloud.opendatahub.com/index.php/s/Zts5mM8q2c3tXZx"
+      - videoLink: "https://vimeo.com/1194644988"
     - cols:
       - time: "13.45"
       - track: "AI"
@@ -571,8 +571,8 @@ You can connect to the service on your device and listen to the translation thro
         - name: "1006.org"
           url: "https://www.1006.org/"
       - content: "Stuart Chatbot: A Simple Yet Powerful RAG System"
-#      - slidesLink: ""
-#      - videoLink: ""
+      - slidesLink: "https://cloud.opendatahub.com/index.php/s/4zY952jwBgwZF2K"
+      - videoLink: "https://vimeo.com/1194646822"
     - cols:
       - time: "14.00"
       - track: "AI"
@@ -581,8 +581,8 @@ You can connect to the service on your device and listen to the translation thro
       - org: "OpenHistoryMap"
       - orgURL: "https://ingmmo.com/"
       - content: "From Open Data to Agent-Queryable Worlds: Building a Hospitality Layer on top of Open Data Hub APIs"
-    #   - slidesLink: ""
-    #   - videoLink: ""
+    #   - slidesLink: "https://cloud.opendatahub.com/index.php/s/eR7Mb8FoMpbXpj2"
+    #   - videoLink: "https://vimeo.com/1194652622"
     - cols:
       - time: "14.15"
       - track: "AI"
@@ -591,8 +591,8 @@ You can connect to the service on your device and listen to the translation thro
       - org: "Catch Solve "
       - orgURL: "https://www.catch-solve.tech/"
       - content: "Discover the Unexpected in Open Data with LLMs, Schemas, and Data Quality"
-    #   - slidesLink: ""
-    #   - videoLink: ""
+      - slidesLink: "https://cloud.opendatahub.com/index.php/s/7AyMox8fgmZa778"
+      - videoLink: "https://vimeo.com/1194654597"
     - cols:
       - time: "14.30"
       - track: "AI"
@@ -601,8 +601,8 @@ You can connect to the service on your device and listen to the translation thro
       - org: "Ontopic"
       - orgURL: "https://ontopic.ai/"
       - content: "Is your Open Data AI-ready?"
-#      - slidesLink: ""
-#      - videoLink: ""
+      - slidesLink: "https://cloud.opendatahub.com/index.php/s/JzYbo5NErtJ4SkF"
+      - videoLink: "https://vimeo.com/1194659331"
     - cols:
       - time: "14.45"
       - track: "AI"
@@ -611,30 +611,14 @@ You can connect to the service on your device and listen to the translation thro
       - org: "Iranian Research Institute for Information Science and Technology"
       - orgURL: " "
       - content: "Building Trustworthy Open Datasets for Low-Resource Languages: A Blueprint for Tackling LLM Hallucination"
-#      - slidesLink: ""
-#      - videoLink: ""
+      - slidesLink: "https://cloud.opendatahub.com/index.php/s/SzcRYDKk3GxgQH3"
+      - videoLink: "https://vimeo.com/1194662043"
     - cols:
       - time: "<b>15.00</b>"
       - track: "<b>Break</b>"
       - speaker: " "
       - org: " "
       - content: "<b>Community Coffee Break (Foyer NOI Seminar Area)</b>"
-    - cols:
-      - time: "15.30"
-      - track: "Data Space"
-      - speakers:
-        - name: ""
-          url: ""
-        - name: ""
-          url: ""
-        organizations:
-        - name: ""
-          url: ""
-        - name: ""
-          url: ""
-      - content: ""
-    #   - slidesLink: ""
-    #   - videoLink: ""
     - cols:
       - time: "15.45"
       - track: "Data Space"
@@ -651,8 +635,8 @@ You can connect to the service on your device and listen to the translation thro
         - name: "T-Systems Austria GmbH"
           url: "https://www.magenta.at/"
       - content: "From Sensor to Sovereign Dataspace: The End-to-End Data Journey from Intralogistics to the Catena-X Ecosystem"
-    #   - slidesLink: ""
-    #   - videoLink: ""
+      - slidesLink: "https://cloud.opendatahub.com/index.php/s/jHKNBL8TQ6e2zGz"
+      - videoLink: "https://vimeo.com/1195169226"
     - cols:
       - time: "16.00"
       - track: "Data Space"
@@ -661,8 +645,8 @@ You can connect to the service on your device and listen to the translation thro
       - org: "PwC"
       - orgURL: "https://www.pwc.com/"
       - content: "The EU Data Act and the Future of Data Sharing in Europe"
-    #   - slidesLink: ""
-    #   - videoLink: ""
+      - slidesLink: "https://cloud.opendatahub.com/index.php/s/LGDTCKiGEprTsFJ"
+      - videoLink: "https://vimeo.com/1195171019"
     - cols:
       - time: "16.15"
       - track: "Data Space"
@@ -673,8 +657,8 @@ You can connect to the service on your device and listen to the translation thro
         - name: "CIMeC - Center for Mind / Brain Sciences - The University of Trento"
           url: "https://www.cimec.unitn.it/"
       - content: "Bridging Rigor and Agility: Building a Research Data Catalog with FastAPI and HTMX"
-    #   - slidesLink: ""
-    #   - videoLink: ""
+      - slidesLink: "https://cloud.opendatahub.com/index.php/s/mTJHq7LpWEcy8sM"
+      - videoLink: "https://vimeo.com/1195172996"
     - cols:
       - time: "16.30"
       - track: "Data Space"
@@ -689,8 +673,8 @@ You can connect to the service on your device and listen to the translation thro
         - name: "Cimorosi Group"
           url: "https://www.cimorosigroup.com"
       - content: "The Seasonal Workforce Blind Spot: What Open Labour Data Reveals — and What the AI Act Now Requires"
-    #   - slidesLink: ""
-    #   - videoLink: ""
+      - slidesLink: "https://cloud.opendatahub.com/index.php/s/XMDCDKdLpoTJ4tx"
+      - videoLink: "https://vimeo.com/1195174434"
     - cols:
       - time: "16.45"
       - track: "Data Space"
@@ -699,8 +683,8 @@ You can connect to the service on your device and listen to the translation thro
       - org: "EURAC Research"
       - orgURL: "https://www.eurac.edu/"
       - content: "End-to-end pipeline from researcher data processing to the GeoBrowser, implemented through EDP"
-    #   - slidesLink: ""
-    #   - videoLink: ""
+      - slidesLink: "https://cloud.opendatahub.com/index.php/s/e2Dt26aj5gPTzgo"
+      - videoLink: "https://vimeo.com/1195176816"
     - cols:
       - time: "<b>17.00</b>"
       - speaker: " "
@@ -753,30 +737,26 @@ You can connect to the service on your device and listen to the translation thro
         - content: "Image Galley of the Open Data Hub Day 2026"
         - content: ""
         - photoLink: "https://flic.kr/s/aHBqjCUeh2"
-  #   - colsPR:
-  #       - content: "Open Data Hub Day Trailer"
-  #       - content: ""
-  #       - videoLink: "https://vimeo.com/1092405317"
-  #   - colsPR:
-  #       - content: "Interview - Valentina Porta"
-  #       - content: ""
-  #       - videoLink: "https://vimeo.com/1094643463"
-  #   - colsPR:
-  #       - content: "Interview - Antonietta De Santis"
-  #       - content: ""
-  #       - videoLink: "https://vimeo.com/1094643711"
-  #   - colsPR:
-  #       - content: "Interview - Renate Marmsoler"
-  #       - content: ""
-  #       - videoLink: "https://vimeo.com/1094643672"
-  #   - colsPR:
-  #       - content: "Interview - Matthias Dieter Wallnöfer"
-  #       - content: ""
-  #       - videoLink: "https://vimeo.com/1094643585"
-  #   - colsPR:
-  #       - content: "Interview - Alberto Comini"
-  #       - content: ""
-  #       - videoLink: "https://vimeo.com/1092405317"        
+    - colsPR:
+        - content: "Open Data Hub Day Trailer"
+        - content: ""
+        - videoLink: "https://vimeo.com/1194086450"
+    - colsPR:
+        - content: "Interview - Christoph Lukas"
+        - content: ""
+        - videoLink: "https://vimeo.com/1194102216"
+    - colsPR:
+        - content: "Interview - Francesca De Finis"
+        - content: ""
+        - videoLink: "https://vimeo.com/1194105892"
+    - colsPR:
+        - content: "Interview - Leonard Ehrenfried"
+        - content: ""
+        - videoLink: "https://vimeo.com/1194104830"
+    - colsPR:
+        - content: "Interview - Lukas Mayr"
+        - content: ""
+        - videoLink: "https://vimeo.com/1194103832"
     - colsPR:
         - content: "Open Data Hub Day - National press release"
         - content: "IT"
