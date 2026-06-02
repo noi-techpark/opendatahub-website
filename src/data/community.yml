@@ -264,10 +264,6 @@ consumers:
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/factory.png"
       link: https://www.factory.it
 
-    - name: Konverto
-      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/konverto.png"
-      link: https://konverto.eu/
-
     - name: IDM Südtirol/Alto Adige
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/IDM.png"
       link: http://idm-suedtirol.com
@@ -279,6 +275,10 @@ consumers:
     - name: johnOS
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/johnos.png"
       link: https://www.johnosproject.org/
+
+    - name: Konverto
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/konverto.png"
+      link: https://konverto.eu/
 
     - name: Merano Tourist Office
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/merano.png"
