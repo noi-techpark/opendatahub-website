@@ -456,7 +456,7 @@ You can connect to the service on your device and listen to the translation thro
           url: ""
       - content: "TEAM 1: eDataWood"
       - slidesLink: "https://cloud.opendatahub.com/index.php/s/iQ5edRTeZEk9zRz"
-#      - videoLink: ""
+      - videoLink: "https://vimeo.com/1194346010"
     - cols:
       - time: "11.35"
       - track: "Bootcamp"
@@ -472,7 +472,7 @@ You can connect to the service on your device and listen to the translation thro
           url: ""
       - content: "TEAM 2: 3 musketeers"
       - slidesLink: "https://cloud.opendatahub.com/index.php/s/2Kj5HQsMAKAsodC"
-#       - videoLink: ""
+      - videoLink: "https://vimeo.com/1199530337"
     - cols:
         - time: "11.40"
         - track: "Bootcamp"
@@ -488,7 +488,7 @@ You can connect to the service on your device and listen to the translation thro
             url: ""
         - content: "TEAM 3: No_Name"
         - slidesLink: "https://cloud.opendatahub.com/index.php/s/fSDDdmcn5ERd5xt"
-  #      - videoLink: ""
+        - videoLink: "https://vimeo.com/1199536998"
     - cols:
       - time: "11.45"
       - track: "Bootcamp"
@@ -504,7 +504,7 @@ You can connect to the service on your device and listen to the translation thro
           url: ""
       - content: "TEAM 4: Recipe guesser"
 #      - slidesLink: ""
-#      - videoLink: ""
+      - videoLink: "https://vimeo.com/1194346010"
     - cols:
       - time: "11.50"
       - track: "Bootcamp"
@@ -522,7 +522,7 @@ You can connect to the service on your device and listen to the translation thro
           url: ""
       - content: "TEAM 6: TriLLER"
       - slidesLink: https://cloud.opendatahub.com/index.php/s/rxc6CgTpNG5msrr""
-#      - videoLink: ""
+      - videoLink: "https://vimeo.com/1199545026"
     - cols:
       - time: "12.00"
       - track: "Building"
@@ -581,8 +581,8 @@ You can connect to the service on your device and listen to the translation thro
       - org: "OpenHistoryMap"
       - orgURL: "https://ingmmo.com/"
       - content: "From Open Data to Agent-Queryable Worlds: Building a Hospitality Layer on top of Open Data Hub APIs"
-    #   - slidesLink: "https://cloud.opendatahub.com/index.php/s/eR7Mb8FoMpbXpj2"
-    #   - videoLink: "https://vimeo.com/1194652622"
+      - slidesLink: "https://cloud.opendatahub.com/index.php/s/eR7Mb8FoMpbXpj2"
+      - videoLink: "https://vimeo.com/1194652622"
     - cols:
       - time: "14.15"
       - track: "AI"
