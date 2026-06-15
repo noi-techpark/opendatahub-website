@@ -29,7 +29,7 @@ short:
   img_back_title: "Parking Dashboard"
   img_back_alt: "Real-time parking dashboard showing occupancy levels of city car parks."
   bg_darker: true
-  partial: text-imgs.html
+  partial: imgs-text.html
   weight: 23
 
 start:
