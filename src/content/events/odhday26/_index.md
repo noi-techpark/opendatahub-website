@@ -592,7 +592,7 @@ You can connect to the service on your device and listen to the translation thro
       - orgURL: "https://www.catch-solve.tech/"
       - content: "Discover the Unexpected in Open Data with LLMs, Schemas, and Data Quality"
       - slidesLink: "https://cloud.opendatahub.com/index.php/s/7AyMox8fgmZa778"
-      - videoLink: "https://vimeo.com/1194654597"
+      - videoLink: "https://vimeo.com/1200756373"
     - cols:
       - time: "14.30"
       - track: "AI"
