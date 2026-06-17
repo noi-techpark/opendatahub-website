@@ -65,7 +65,8 @@ paragraphs:
       <li>**improve traffic management** during peak periods</li>
       <li>**reduce congestion** in central areas</li>
       <li>**support the work of the municipal police** with a practical and responsive tool.</li>
-    <ul>
+    </ul>
+
     It is a concrete example of how open data can be transformed into swift and effective urban mobility decisions."
     img_back: "/img/use-cases/bolzano-parking-dashboard/mobility-office-bolzano.jpg"
     img_credit: "© Open Data Hub"
