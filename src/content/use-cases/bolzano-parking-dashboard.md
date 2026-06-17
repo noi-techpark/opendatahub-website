@@ -79,7 +79,7 @@ paragraphs:
     If you are a **mobility operator** looking to **improve urban traffic management** through data and smart visualisation, contact Open Data Hub to explore new opportunities."
     btn_link: "mailto:help@opendatahub.com"
     btn_label: "Contact us"
-    img_back: "/img/use-cases/Open-Data-Hub-parking-dashboard-traffic-management-screen.jpg"
+    img_back: "/img/use-cases/bolzano-parking-dashboard/Open-Data-Hub-parking-dashboard-traffic-management-screen.jpg"
     img_credit: "© Open Data Hub / Tania Marcadella"
     img_back_title: "Parking Availability Dashboard"
     img_back_alt: "Real-time parking availability dashboard supporting urban mobility management."
