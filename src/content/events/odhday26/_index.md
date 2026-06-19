@@ -503,7 +503,7 @@ You can connect to the service on your device and listen to the translation thro
         - name: " "
           url: ""
       - content: "TEAM 4: Recipe guesser"
-#      - slidesLink: ""
+      - slidesLink: "https://cloud.opendatahub.com/index.php/s/ofXgF8y4MXFPFSZ"
       - videoLink: "https://vimeo.com/1194346010"
     - cols:
       - time: "11.50"
