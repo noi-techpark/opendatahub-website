@@ -69,7 +69,7 @@ paragraphs:
     partial: imgs-text.html
 
   - description: "<p>As destinations continue to seek smarter ways to balance visitor demand with available infrastructure, <b>data-driven solutions</b> such as this provide a valuable path towards more efficient and responsive mobility management.<p><p>Whether you're a municipality, mobility operator or destination manager, Open Data Hub can help you transform mobility data into actionable insights. Contact us to discuss your project.<p></p>"
-    btn_link: "mailto:help@opendatahub.com"
+    btn_link: "https://opendatahub.com/contact/"
     btn_label: "Contact us"
     img_back: "/img/use-cases/ithel/NOITechpark_ITHEL_OpenDataHub_Villanders_HQ_NEW-22.jpg"
     img_credit: "© NOI Techpark/Daniele Fiorentino"
