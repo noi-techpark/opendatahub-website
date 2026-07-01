@@ -23,12 +23,13 @@
               data-bs-dismiss="modal"
               aria-label="Close"
               type="button"
+              style="z-index: 10;"
           >
               <button class="btn-close"></button>
           </div>
           {{ with .img_credit }}
-          <div class="position-absolute end-0 bottom-0 p-2">
-            <span class="bg-white py-1 px-2 rounded">{{ . }}</span>
+          <div class="position-absolute end-0 bottom-0 p-2" style="z-index: 10;">
+            <span class="bg-white text-dark py-1 px-2 rounded" style="color: #111; background-color: rgba(255,255,255,0.95);">{{ . }}</span>
           </div>
           {{ end }}
           <img src="{{ .img_back }}" alt="{{ .img_back_alt }}" title="{{ .img_back_title }}"/>
