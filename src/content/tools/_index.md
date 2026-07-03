@@ -2,8 +2,8 @@
 position: "tools"
 
 seo:
-  title: "Tools | Access Open Data Hub tools and APIs"
-  description: "Access Open Data Hub tools and APIs. Use the Data Browser, Transmodel API, and Analytics Tool to seamlessly integrate real-time data into your applications."
+  title: "Tools | Access Open Data Hub tools "
+  description: "Access Open Data Hub tools. Use the Data Browser, Discovery Tool, and Analytics Tool to know the data the project is offering."
   keywords:
 
 title: "Tools"
