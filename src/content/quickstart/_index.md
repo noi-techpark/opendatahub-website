@@ -1,11 +1,11 @@
 ---
-position: "Quickstart"
+position: "Resources"
 
 seo:
-  title: "Quickstart | Access Open Data Hub tools and APIs"
+  title: "Resources | Access Open Data Hub tools and APIs"
   description: "Access Open Data Hub tools and APIs. Use the Data Browser, Transmodel API, and Analytics Tool to seamlessly integrate real-time data into your applications."
   keywords:
 
-title: "Quickstart"
-subtitle: "This section helps you in getting quickly in touch with the most popular tools developed by Open Data Hub to interact with the dataset and the whole ecosystem."
+title: "Resources"
+subtitle: "This section helps you quickly access the Open Data Hub tools to explore and interact with data, APIs and resources across the platform. It provides a central entry point to discover, browse and analyze information through data exploration, analytics, real-time insights and data discovery, helping you understand and navigate the full Open Data Hub ecosystem."
 ---

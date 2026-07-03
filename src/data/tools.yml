@@ -4,11 +4,11 @@
 
 boxes:
   - title: Data Browser 2.0
-    subtitle: Browse and discover the available data.
+    subtitle: Browse all the Open Data Hub available data from different fields and sources.
     btn_link: https://databrowser.opendatahub.com
   
   - title: Discovery Tool
-    subtitle: The blueprint for open data. Know the architecture before you build the future.
+    subtitle: Understand the Open Data Hub architecture for data discovery and how services are connected.
     btn_link: https://discovery.opendatahub.com/
 
   - title: Analytics Tool

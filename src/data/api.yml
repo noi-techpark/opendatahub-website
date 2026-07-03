@@ -4,7 +4,7 @@
 
 apis:
   - title: "Content API"
-    description: "Provides access to diverse datasets from various domains, primarily focused on tourism."
+    description: "Access swagger interface to browse data and learn ow to use the Open Data Hub Tourism API."
     category: "general"
     buttons:
       - label: "Swagger"
@@ -15,7 +15,7 @@ apis:
         url: "https://github.com/noi-techpark/odh-docs/wiki/Content-API"
 
   - title: "Time Series API"
-    description: "Enables access to historical and real-time time series data, primarily in the mobility domain."
+    description: "Access swagger interface to browse data and learn ow to use the Open Data Hub Mobility API."
     category: "general"
     buttons:
       - label: "Swagger"
@@ -26,7 +26,7 @@ apis:
         url: "https://github.com/noi-techpark/it.bz.opendatahub.api.mobility-ninja#usage-of-the-api"
 
   - title: "Transmodel API – NeTEx"
-    description: "Provides standardized mobility data in NeTEx format."
+    description: "Access planned mobility data in the European standard NeTEx format (including public transport)."
     category: "project_specific"
     buttons:
       - label: "Swagger"
@@ -37,7 +37,7 @@ apis:
         url: "https://github.com/noi-techpark/odh-docs/wiki/Transmodel-API-%E2%80%90-NeTEx-Endpoints"
 
   - title: "Transmodel API – SIRI-Lite"
-    description: "Provides standardized mobility data in SIRI-Lite format."
+    description: "Retrive real-time data for parking and sharing services using the SIRI-Lite protocol."
     category: "project_specific"
     buttons:
       - label: "Swagger"
@@ -48,14 +48,14 @@ apis:
         url: "https://github.com/noi-techpark/odh-docs/wiki/Transmodel-API-%E2%80%90-SIRI%E2%80%90Lite-Endpoints"
 
   - title: "AlpineBits HotelData"
-    description: "Provides hotel data in XML format."
+    description: "Access accommodation inventory data via the Open Data Hub AlpineBits HotelData API."
     category: "project_specific"
     buttons:
       - label: "Repository"
         url: "https://github.com/noi-techpark/odh-alpinebits-server?tab=readme-ov-file#how-to-request-data"
 
   - title: "AlpineBits Destination"
-    description: "Provides destination data via a REST API."
+    description: "Discover destination data through the AlpineBits DestinationData REST API."
     category: "project_specific"
     buttons:
       - label: "Swagger"
@@ -64,7 +64,7 @@ apis:
         url: "https://github.com/noi-techpark/odh-alpinebits-destination-data-server"
 
   - title: "GTFS"
-    description: "Provides a single access point to GTFS files and metadata."
+    description: "Access a GTFS end-point within the Open Data Hub in some datasets."
     category: "project_specific"
     buttons:
     - label: "Swagger"
@@ -73,7 +73,7 @@ apis:
       url: "https://github.com/noi-techpark/com.opendatahub.api.gtfs"
 
   - title: "GBFS"
-    description: "Provides a single access point to GBFS feeds and metadata."
+    description: "Retrive a single access point to Open Data Hub GBFS feeds and metadata."
     category: "project_specific"
     buttons:
       - label: "Swagger"

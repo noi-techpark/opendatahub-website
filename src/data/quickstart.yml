@@ -4,11 +4,11 @@
 
 boxes:
   - title: Data Browser 2.0
-    subtitle: Browse the available data.
+    subtitle: Browse all the Open Data Hub available data from different fields and sources.
     btn_link: https://databrowser.opendatahub.com
 
   - title: Discovery Tool
-    subtitle: The blueprint for open data. Know the architecture before you build the future.
+    subtitle: Understand the Open Data Hub architecture for data discovery and how services are connected.
     btn_link: https://discovery.opendatahub.com/
 
   - title: Analytics Tool
@@ -28,14 +28,14 @@ boxes:
     btn_link: https://tourism.opendatahub.com/swagger/index.html
 
   - title: Documentation
-    subtitle: A collection of the technical documentation about the Open Data Hub project.
+    subtitle: Explore the collection of the tecnical documentation about the Open Data Hub project.
     btn_link: https://github.com/noi-techpark/odh-docs/wiki
 
   - title: List of HOWTOs
-    subtitle: A list of available howtos.
+    subtitle: Find the list of practical howtos and implementation guides for developers usage.
     btn_link: https://opendatahub.readthedocs.io/en/latest/howto.html
 
-  - title: Source code repositories
+  - title: Source Code Repositories
     subtitle: Access the NOI Techpark repositories to contribute or reuse code of the Open Data Hub.
     btn_link: https://github.com/noi-techpark
 
@@ -44,7 +44,7 @@ boxes:
     btn_link: https://journey.v2.otp.opendatahub.com/#/
 
   - title: Transmodel API - NeTEx Endpoints
-    subtitle: Access standardized planned mobility data including public transport, parking, and sharing services in NeTEx format.
+    subtitle: Access planned mobility data in the European standard NeTEx format (including public transport).
     btn_link: https://github.com/noi-techpark/odh-docs/wiki/Transmodel-API-%E2%80%90-NeTEx-Endpoints
 
   - title: Transmodel API - SIRI-Lite Endpoints
@@ -52,15 +52,15 @@ boxes:
     btn_link: https://github.com/noi-techpark/odh-docs/wiki/Transmodel-API-%E2%80%90-SIRI%E2%80%90Lite-Endpoints
 
   - title: GTFS Endpoint
-    subtitle: A GTFS end-point within the Open Data Hub in some datasets.
+    subtitle: Access a GTFS end-point within the Open Data Hub in some datasets.
     btn_link: https://gtfs.api.opendatahub.com/v1/dataset
     
   - title: AlpineBits HotelData API
-    subtitle: Access accommodation inventory data.
+    subtitle: Access accommodation inventory data via the Open Data Hub AlpineBits HotelData API.
     btn_link: https://alpinebits.opendatahub.com/AlpineBits
 
   - title: AlpineBits DestinationData API
-    subtitle: Access destination data such as mountain resorts, ski data and events.
+    subtitle: Discover destination data through the AlpineBits DestinationData REST API.
     btn_link: https://destinationdata.alpinebits.opendatahub.com
 
   - title: Access Open Data Hub data from R
@@ -68,7 +68,7 @@ boxes:
     btn_link: https://github.com/noi-techpark/it.bz.opendatahub.analytics.libs/tree/main/api/R
 
   - title: Read the Docs
-    subtitle: A collection of all technical resources about the Open Data Hub project.
+    subtitle: Find the collection of all technical resources about the Open Data Hub project.
     btn_link: https://docs.opendatahub.com
   
     

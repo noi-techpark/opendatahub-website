@@ -742,7 +742,7 @@ You can connect to the service on your device and listen to the translation thro
         - content: ""
         - videoLink: "https://vimeo.com/1194086450"
     - colsPR:
-        - content: "Interview - Christoph Lukas"
+        - content: "Interview - Christoph Lucas"
         - content: ""
         - videoLink: "https://vimeo.com/1194102216"
     - colsPR:
