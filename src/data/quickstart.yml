@@ -36,8 +36,8 @@ boxes:
     btn_link: https://github.com/noi-techpark
 
   - title: OpenTripPlanner (OTP)
-    subtitle: Access the Open Data Hub mobility data through the OTP journey planner.
-    btn_link: https://journey.v2.otp.opendatahub.com/#/
+    subtitle: Explore OpenTripPlanner, its use cases, APIs and documentation.
+    btn_link: /quickstart/opentripplanner/
 
   - title: Transmodel API - NeTEx Endpoints
     subtitle: Access planned mobility data in the European standard NeTEx format (including public transport).
