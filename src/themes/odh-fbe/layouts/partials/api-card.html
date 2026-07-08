@@ -9,7 +9,7 @@
     <p class="flex-grow-1 mb-3">{{ .description }}</p>
     <div>
       {{ range .buttons }}
-        <a class="btn btn-primary me-2 mb-2" href="{{ .url }}" target="_blank">{{ .label }}</a>
+        <a class="btn btn-primary me-2 mb-2" {{ if .target_blank }}target="_blank"{{ end }} href="{{ .url }}">{{ .label }}</a>
       {{ end }}
     </div>
   </div>

@@ -2,7 +2,7 @@
 type: quickstart/single
 position: "Resources"
 title: "**OpenTripPlanner (OTP)**"
-subtitle: "Multimodal trip planning platform"
+subtitle: "Help your customer, to plan their journey effortlessly with integrating the data offereb by the Open Data Hub multi-modal transit planner API in your application. The Open Data Hub OTP API combines data from different surces like for example public transport, cycling, and walking routes etc., to elaborate the best path."
 
 rows:
 
@@ -39,24 +39,25 @@ rows:
     partial: text.html
 
   - title: "OpenTripPlanner API"
-    description: >
-      Access the OpenTripPlanner API to integrate multimodal journey planning into your applications.<br><br>
+    description: "Access the OpenTripPlanner API to integrate multimodal journey planning into your applications."
+    buttons: 
+      - btn_label: API Endpoint
+        btn_link: https://v2.otp.opendatahub.com/
+        target_blank: true
 
-      <strong>API Endpoint</strong><br>
-      https://v2.otp.opendatahub.com/<br><br>
-
-      <strong>Note:</strong><br>
-      The API endpoint will be updated to <strong>https://otp.opendatahub.com/</strong> once the current V1 service has been shut down.
-    partial: text.html
+##      <strong>Note:</strong><br>
+##      The API endpoint will be updated to <strong>https://otp.opendatahub.com/</strong> once the current V1 service has been shut down.
+    partial: text-cta.html
 
   - title: "OpenTripPlanner Documentation"
-    description: >
-      The following documentation provides an overview of the available APIs and their usage.<br><br>
-
-      <strong>API Overview</strong><br>
-      https://docs.opentripplanner.org/en/latest/apis/Apis/<br><br>
-
-      <strong>GTFS GraphQL API</strong><br>
-      https://docs.opentripplanner.org/en/latest/apis/GTFS-GraphQL-API/
-    partial: text.html
+    description: "The following documentation provides an overview of the available APIs and their usage."
+    buttons:
+      - btn_label: API Documentation
+        btn_link: https://docs.opentripplanner.org/en/latest/apis/Apis/
+        target_blank: true
+      - btn_label: GTFS GraphQL API Documentation
+        btn_link: https://docs.opentripplanner.org/en/latest/apis/GTFS-GraphQL-API/
+        target_blank: true
+    partial: text-cta.html
+    
 ---

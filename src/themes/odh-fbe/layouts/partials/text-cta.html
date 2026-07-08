@@ -1,0 +1,33 @@
+{{/*
+	SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+
+	SPDX-License-Identifier: AGPL-3.0-or-later
+*/}}
+	
+{{"<!-- Double Column Text - Imgs -->" | safeHTML }}
+<section {{ if (isset . "identifier") }} id="{{.identifier}}" {{end}}>
+	<div class="container">
+		<div class="row gy-4 justify-content-between align-items-center py-4">
+			<div class="col-12 m-lg-0">
+				<h2>{{ .title | markdownify }}</h2>
+				<p>{{ .description | markdownify }}</p>
+				
+
+				{{ range .buttons }}
+        			<a class="btn btn-primary" {{ if .target_blank }}target="_blank"{{ end }} href="{{ .btn_link }}">{{ .btn_label | markdownify }}</a>
+      			{{ end }}
+<!--				{{ if and (isset . "btn_link") (isset . "btn_label") }}
+				<a {{ if .target_blank }}target="_blank"{{ end }} href="{{.btn_link}}" class="btn btn-primary">{{ .btn_label | markdownify }}</a>
+				{{ end }}
+
+				{{ if and (isset . "btn_link2") (isset . "btn_label2") }}
+					<a {{ if .target_blank2 }}target="_blank"{{ end }} href="{{ .btn_link2 }}" class="btn btn-primary">{{ .btn_label2 | markdownify }}</a>
+				{{ end }}
+-->
+			</div>
+		</div>
+	</div>
+</section>
+{{"<!-- /Double Column Text - Icon -->" | safeHTML }}
+	
+

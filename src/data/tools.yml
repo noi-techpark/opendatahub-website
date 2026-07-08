@@ -6,18 +6,22 @@ boxes:
   - title: Data Browser 2.0
     subtitle: Browse all the Open Data Hub available data from different fields and sources.
     btn_link: https://databrowser.opendatahub.com
+    target_blank: true
   
   - title: Discovery Tool
     subtitle: Understand the Open Data Hub architecture for data discovery and how services are connected.
     btn_link: https://discovery.opendatahub.com/
+    target_blank: true
 
   - title: Analytics Tool
     subtitle: Find out information about sensors and their locations and measure (near-real time data).
     btn_link: https://analytics.opendatahub.com
+    target_blank: true
 
   - title: Web Component Store
     subtitle: Discover all the already developed Web Components. Freely available and ready to be reused.
     btn_link: https://webcomponents.opendatahub.com
+    target_blank: true
 
   # - title: OpenTripPlanner (OTP) API
   #   subtitle: Access the Open Data Hub mobility data through the OTP journey planner API.

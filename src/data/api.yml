@@ -9,10 +9,13 @@ apis:
     buttons:
       - label: "Swagger"
         url: "https://tourism.api.opendatahub.com/swagger/index.html"
+        target_blank: true
       - label: "Repository"
         url: "https://github.com/noi-techpark/odh-api-core"
+        target_blank: true
       - label: "Documentation"
         url: "https://github.com/noi-techpark/odh-docs/wiki/Content-API"
+        target_blank: true
 
   - title: "Time Series API"
     description: "Access swagger interface to browse data and learn ow to use the Open Data Hub Mobility API."
@@ -20,10 +23,13 @@ apis:
     buttons:
       - label: "Swagger"
         url: "https://swagger.opendatahub.com/?url=https://mobility.api.opendatahub.com/v2/apispec#/"
+        target_blank: true
       - label: "Repository"
         url: "https://github.com/noi-techpark/it.bz.opendatahub.api.mobility-ninja"
+        target_blank: true
       - label: "Documentation"
         url: "https://github.com/noi-techpark/it.bz.opendatahub.api.mobility-ninja#usage-of-the-api"
+        target_blank: true
 
   - title: "Transmodel API – NeTEx"
     description: "Access planned mobility data in the European standard NeTEx format (including public transport)."
@@ -31,10 +37,13 @@ apis:
     buttons:
       - label: "Swagger"
         url: "https://swagger.opendatahub.com/?url=https://transmodel.api.opendatahub.com/apispec#/netex"
+        target_blank: true
       - label: "Repository"
         url: "https://github.com/noi-techpark/transmodel-api"
+        target_blank: true
       - label: "Documentation"
         url: "https://github.com/noi-techpark/odh-docs/wiki/Transmodel-API-%E2%80%90-NeTEx-Endpoints"
+        target_blank: true
 
   - title: "Transmodel API – SIRI-Lite"
     description: "Retrive real-time data for parking and sharing services using the SIRI-Lite protocol."
@@ -42,10 +51,13 @@ apis:
     buttons:
       - label: "Swagger"
         url: "https://swagger.opendatahub.com/?url=https://transmodel.api.opendatahub.com/apispec#/siri-lite"
+        target_blank: true
       - label: "Repository"
         url: "https://github.com/noi-techpark/transmodel-api"
+        target_blank: true
       - label: "Documentation"
         url: "https://github.com/noi-techpark/odh-docs/wiki/Transmodel-API-%E2%80%90-SIRI%E2%80%90Lite-Endpoints"
+        target_blank: true
 
   - title: "AlpineBits HotelData"
     description: "Access accommodation inventory data via the Open Data Hub AlpineBits HotelData API."
@@ -53,6 +65,7 @@ apis:
     buttons:
       - label: "Repository"
         url: "https://github.com/noi-techpark/odh-alpinebits-server?tab=readme-ov-file#how-to-request-data"
+        target_blank: true
 
   - title: "AlpineBits Destination"
     description: "Discover destination data through the AlpineBits DestinationData REST API."
@@ -60,8 +73,10 @@ apis:
     buttons:
       - label: "Swagger"
         url: "https://swagger.opendatahub.bz.it/?url=https://destinationdata.alpinebits.opendatahub.bz.it/specification.json"
+        target_blank: true
       - label: "Repository"
         url: "https://github.com/noi-techpark/odh-alpinebits-destination-data-server"
+        target_blank: true
 
   - title: "GTFS"
     description: "Access a GTFS end-point within the Open Data Hub in some datasets."
@@ -69,8 +84,10 @@ apis:
     buttons:
     - label: "Swagger"
       url: "https://swagger.opendatahub.com/?url=https://gtfs.api.opendatahub.com/v1/apispec"
+      target_blank: true
     - label: "Repository"
       url: "https://github.com/noi-techpark/com.opendatahub.api.gtfs"
+      target_blank: true
 
   - title: "GBFS"
     description: "Retrive a single access point to Open Data Hub GBFS feeds and metadata."
@@ -78,8 +95,10 @@ apis:
     buttons:
       - label: "Swagger"
         url: "https://swagger.opendatahub.com/?url=https://gbfs.api.opendatahub.com/v1/apispec"
+        target_blank: true
       - label: "Repository"
         url: "https://github.com/noi-techpark/com.opendatahub.api.gbfs"
+        target_blank: true
 
   - title: "OpenTripPlanner (OTP)"
     description: "Explore OpenTripPlanner, its use cases, APIs and documentation."
@@ -87,3 +106,4 @@ apis:
     buttons:
       - label: "Learn more"
         url: "/quickstart/opentripplanner/"
+        target_blank: false

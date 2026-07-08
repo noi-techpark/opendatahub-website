@@ -6,6 +6,7 @@ boxes:
   - title: Source Code Repositories
     subtitle: Access the NOI Techpark repositories to contribute or reuse code of the Open Data Hub.
     btn_link: https://github.com/noi-techpark
+    target_blank: true
 
   
     

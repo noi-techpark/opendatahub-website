@@ -5,7 +5,7 @@
 */}}
 
 <div class="col-lg-4 col-md-6 col-12">
-    <a target="_blank" href="{{ .btn_link }}" class="detect-hover">
+    <a {{ if .target_blank }}target="_blank"{{ end }} href="{{ .btn_link }}" class="detect-hover">
         <div class="bg-darker border-bottom border-grey border-5 px-4 pt-5 pb-4 h-100 d-flex flex-column align-items-start">
             <h5 class="fw-bold">{{ .title }}</h5>
             <div class="flex-grow-1 my-2">{{ .subtitle }}</div>
