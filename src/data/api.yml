@@ -81,3 +81,9 @@ apis:
       - label: "Repository"
         url: "https://github.com/noi-techpark/com.opendatahub.api.gbfs"
 
+  - title: "OpenTripPlanner (OTP)"
+    description: "Explore OpenTripPlanner, its use cases, APIs and documentation."
+    category: "project_specific"
+    buttons:
+      - label: "Learn more"
+        url: "/quickstart/opentripplanner/"
