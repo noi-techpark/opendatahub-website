@@ -14,7 +14,7 @@ apis:
         url: "https://github.com/noi-techpark/odh-api-core"
         target_blank: true
       - label: "Documentation"
-        url: "https://github.com/noi-techpark/odh-docs/wiki/Content-API"
+        url: "https://docs.opendatahub.com/use-data/content-api/reference"
         target_blank: true
 
   - title: "Time Series API"
@@ -28,7 +28,7 @@ apis:
         url: "https://github.com/noi-techpark/it.bz.opendatahub.api.mobility-ninja"
         target_blank: true
       - label: "Documentation"
-        url: "https://github.com/noi-techpark/it.bz.opendatahub.api.mobility-ninja#usage-of-the-api"
+        url: "https://docs.opendatahub.com/use-data/time-series-api/reference"
         target_blank: true
 
   - title: "Transmodel API – NeTEx"
@@ -42,7 +42,7 @@ apis:
         url: "https://github.com/noi-techpark/transmodel-api"
         target_blank: true
       - label: "Documentation"
-        url: "https://github.com/noi-techpark/odh-docs/wiki/Transmodel-API-%E2%80%90-NeTEx-Endpoints"
+        url: "https://docs.opendatahub.com/use-data/transmodel-api/reference#1-netex-endpoints"
         target_blank: true
 
   - title: "Transmodel API – SIRI-Lite"
@@ -56,7 +56,7 @@ apis:
         url: "https://github.com/noi-techpark/transmodel-api"
         target_blank: true
       - label: "Documentation"
-        url: "https://github.com/noi-techpark/odh-docs/wiki/Transmodel-API-%E2%80%90-SIRI%E2%80%90Lite-Endpoints"
+        url: "https://docs.opendatahub.com/use-data/transmodel-api/reference#2-siri-lite-endpoints"
         target_blank: true
 
   - title: "AlpineBits HotelData"
