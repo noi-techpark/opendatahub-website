@@ -2,7 +2,7 @@
 type: quickstart/single
 position: "Resources"
 title: "**OpenTripPlanner (OTP)**"
-subtitle: "Help your customer, to plan their journey effortlessly with integrating the data offereb by the Open Data Hub multi-modal transit planner API in your application. The Open Data Hub OTP API combines data from different surces like for example public transport, cycling, and walking routes etc., to elaborate the best path."
+subtitle: "Help your customer, to plan their journey effortlessly with integrating the data offered by the Open Data Hub multi-modal transit planner API in your application. The Open Data Hub OTP API combines data from different sources like for example public transport, cycling, and walking routes etc., to elaborate the best path."
 
 rows:
 
