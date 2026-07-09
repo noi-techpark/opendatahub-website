@@ -19,8 +19,9 @@ short:
   subtitle: "SKIDATA"
   title: "**Data for mobility: Skidata in the Open Data Hub ecosystem**"
   description: "Skidata, a company that specialises in providing parking management and access control solutions, has chosen to integrate itself into the Open Data Hub ecosystem by becoming an “**API Certified Technology Provider**”."
-  btn_link: "/use-cases/skidata"
-  btn_label: Read more
+  buttons:
+    - btn_link: "/use-cases/skidata"
+      btn_label: Read more
   img_back: "/img/use-cases/skidata/open-data-hub-skidata-8224.jpg"
   img_link: "/use-cases/skidata"
   img_credit: "© Open Data Hub / Tania Marcadella"
@@ -76,8 +77,9 @@ paragraphs:
   <br>
   Find out how you can get certified and easily and securely share data with the Open Data Hub."
     title: "**Why become a Certified Technology Provider?**"
-    btn_link: "/services/certification/"
-    btn_label: Discover certification
+    buttons:
+      - btn_link: "/services/certification/"
+        btn_label: Discover certification
     img_back: "/img/use-cases/skidata/OpenDataHub-Technology-Provider-0714.jpg"
     img_credit: "© Open Data Hub / Tania Marcadella"
     img_back_title: "Open Data Hub API Certified Technology Provider Page"

@@ -14,8 +14,9 @@ seo:
 rows:
   - title: "Contributor of the Year 2026"
     description: "Winner: Eduardo Martins Guerra"
-    btn_link: "../contributor-of-2026"
-    btn_label: "See details"
+    buttons:
+      - btn_link: "../contributor-of-2026"
+        btn_label: "See details"
     img_back: "/img/contributor-of-the-year-2026.jpg"
     img_back_alt: ""
     img_back_title: ""
@@ -23,8 +24,9 @@ rows:
     partial: imgs-icon-text.html
   - title: "Contributor of the Year 2025"
     description: "Winner: Matthias Dieter Wallnöfer"
-    btn_link: "../contributor-of-2025"
-    btn_label: "See details"
+    buttons:
+      - btn_link: "../contributor-of-2025"
+        btn_label: "See details"
     img_back: "/img/contributor-of-the-year-2025.jpg"
     img_back_alt: ""
     img_back_title: ""
@@ -32,8 +34,9 @@ rows:
     partial: imgs-icon-text.html
   - title: "Contributor of the Year 2024"
     description: "Winner: Henri Egger"
-    btn_link: "../contributor-of-2024"
-    btn_label: "See details"
+    buttons:
+      - btn_link: "../contributor-of-2024"
+        btn_label: "See details"
     img_back: "/img/events/contributor-of-the-year-2024.jpg"
     img_back_alt: "Celebration event honoring the 2024 Contributor of the Year at Open Data Hub."
     img_back_title: "Open Data Hub – Contributor of the Year 2024 Award"

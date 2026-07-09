@@ -16,8 +16,9 @@ short:
   subtitle: "BRENNERLEC"
   title: "**Brenner Lower Emissions Corridor**"
   description: "The BrennerLEC project was carried out in the context of a sensitive area like the Alps with the objective of creating a holistic concept of “Lower Emission Corridor” (LEC) for the A22 highway. The project aimed to implement and validate a set of different dynamic policies that have the goal to provide a clear environmental benefit in terms of air quality, climate protection and noise reduction."
-  btn_link: "/use-cases/brennerlec"
-  btn_label: Read more
+  buttons:
+    - btn_link: "/use-cases/brennerlec"
+      btn_label: Read more
   img_link: "/use-cases/brennerlec"
   img_back: "/img/use-cases/brennerLEC/ODH-usecase-Brennerlec-image-01.jpg"
   img_back_alt: "Infographic illustrating BrennerLEC's strategies for reducing emissions on the A22 highway using Open Data Hub data."

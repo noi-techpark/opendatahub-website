@@ -15,8 +15,9 @@ short:
   subtitle: "SÜDTIROLMOBIL - ALTOADIGEMOBILITÀ"
   title: "**Public mobility of the future**"
   description: "The future of public mobility hinges on key factors such as providing high-quality information via open data and integrating a modern digital ticketing system. However, a significant improvement stems from the ability to seamlessly integrate points of interest (POIs) from the Open Data Hub into search queries without requiring precise addresses. Simplifying this process transforms the passenger experience and broadens the appeal of public transport data platforms, marking a significant leap forward in the evolution of open data mobility solutions."
-  btn_link: "/use-cases/suedtirolmobil"
-  btn_label: Read more
+  buttons:
+    - btn_link: "/use-cases/suedtirolmobil"
+      btn_label: Read more
   img_link: "/use-cases/suedtirolmobil"
   img_back: "/img/use-cases/suedtirolmobil/ODH-usecase-suedtirolmobil-image-01.jpg"
   img_credit: "© Open Data Hub / Tania Marcadella"
@@ -43,10 +44,13 @@ paragraphs:
     img_credit: "© Open Data Hub / Tania Marcadella"
     img_back_alt: "Screenshot of Südtirolmobil app showing various public transportation options available to users."
     img_back_title: "Südtirolmobil App Displaying Public Transport Options"
-    btn_link: "https://www.suedtirolmobil.info/en/"
-    btn_label: Go to the südtirolmobil webportal
-    btn_link2: "https://www.suedtirolmobil.info/en/contact-us/suedtirolmobil-app"
-    btn_label2: Go to the südtirolmobil app
+    buttons:
+      - btn_link: "https://www.suedtirolmobil.info/en/"
+        btn_label: Go to the südtirolmobil webportal
+        target_blank: true
+      - btn_link: "https://www.suedtirolmobil.info/en/contact-us/suedtirolmobil-app"
+        btn_label: Go to the südtirolmobil app
+        target_blank: true
     partial: imgs-text-enlargeable.html
 
   - title: "**Data from the Open Data Hub**"

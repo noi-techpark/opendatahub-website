@@ -34,18 +34,20 @@ certified:
 community_event:
   title: "Discover Open Data Hub Day"
   description: "An event designed to explore best practices, insights and projects related to Open Data. Learn from real-world examples and expert presentations."
-  btn_link: "/day"
-  btn_label: "View event details"
-  btn_link2: "/events/video-library"
-  btn_label2: "Watch full videos"
+  buttons:
+    - btn_link: "/day"
+      btn_label: "View event details"
+    - btn_link: "/events/video-library"
+      btn_label: "Watch full videos"
   img_back: "/img/home/latest_open_data_hub_day.jpg"
   img_front: "/img/home/latest_open_data_hub_day.jpg"
 
 dataset_example:
   title: "Real-time **e-charging** stations"
   description: "This dataset provides data about existing **e-charging stations**, about their plugs and **availability status**, including historical usage data. It includes hydrogen station data as well."
-  btn_link: "/use-cases/green-mobility/"
-  btn_label: "More about e-charging"
+  buttons:
+    - btn_link: "/use-cases/green-mobility/"
+      btn_label: "More about e-charging"
   img_back: "/img/services/data_access/ODH-home-data-access-use-case-e-charging.webp"
   img_front: "/img/datasets/andrew-roberts-2JvEjF0tf50-unsplash.png"
   img_back_alt: "Interactive map displaying real-time electric vehicle charging stations integrated via Open Data Hub."

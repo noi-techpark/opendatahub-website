@@ -17,8 +17,9 @@ short:
   subtitle: "ARXAX"
   title: "**Re-envisioning transportation & the green fuel supply chain.**"
   description: "Arxax is committed to reducing carbon emissions from heavy-duty transport along the Brenner Corridor by promoting cleaner and more sustainable transport solutions using a data-driven approach. The project uses mobility data spaces and real-world data via the Open Data Hub to encourage environmentally friendly decision-making."
-  btn_link: "/use-cases/arxax"
-  btn_label: Read more
+  buttons:
+    - btn_link: "/use-cases/arxax"
+      btn_label: Read more
   img_link: "/use-cases/arxax"
   img_back: "/img/use-cases/arxax/ODH-usecase-Arxax-1.jpg"
   img_back_alt: "Illustration of Arxax's data-driven approach to enhancing green fuel supply chains using Open Data Hub resources."

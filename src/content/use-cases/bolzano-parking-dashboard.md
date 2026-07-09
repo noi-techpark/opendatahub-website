@@ -21,8 +21,9 @@ short:
   subtitle: "MUNICIPALITY OF BOLZANO"
   title: "Dynamic traffic management using real-time data"
   description: "Bolzano attracts large numbers of visitors throughout the year, particularly during the peak tourist season. As traffic volumes rise, parking areas in the city centre can quickly reach capacity, causing congestion and affecting urban mobility. In order to respond more efficiently, the Municipality of Bolzano required a user-friendly solution that could provide real-time information on parking occupancy and **facilitate rapid decision-making regarding traffic management.**"
-  btn_link: "/use-cases/bolzano-parking-dashboard"
-  btn_label: "Read more"
+  buttons:
+    - btn_link: "/use-cases/bolzano-parking-dashboard"
+      btn_label: "Read more"
   img_back: "/img/use-cases/bolzano-parking-dashboard/Open-Data-Hub-parking-dashboard-car-park-availability-screen.jpg"
   img_link: "/use-cases/bolzano-parking-dashboard"
   img_credit: "© Open Data Hub / Tania Marcadella"
@@ -49,13 +50,14 @@ paragraphs:
     The result is an advanced web component developed by Open Data Hub for visualising parking data. It displays real-time parking availability, including the number of free spaces and occupancy percentage for each car park. <br>
     <br>
     Thanks to the clear and intuitive display of data, control centre operators can easily monitor the situation in car parks and implement traffic management measures when capacity is running low."
-    btn_link: "https://webcomponents.opendatahub.com/webcomponent/parking-dashboard"
-    btn_label: "Discover the Parking Dashboard"
-    target_blank: true
     img_back: "/img/use-cases/bolzano-parking-dashboard/Open-Data-Hub-parking-dashboard.jpg"
     img_credit: "© Open Data Hub"
     img_back_title: "Parking Dashboard Web Component"
     img_back_alt: "Parking dashboard showing real-time availability of parking spaces."
+    buttons: 
+      - btn_link: "https://webcomponents.opendatahub.com/webcomponent/parking-dashboard"
+        btn_label: "Discover the Parking Dashboard"
+        target_blank: true
     partial: imgs-text-enlargeable.html
 
   - title: "Tangible results: efficiency and responsiveness"
@@ -78,12 +80,13 @@ paragraphs:
     description: "This project shows how public authorities can collaborate with Open Data Hub to create practical, easily implementable solutions.<br>
     <br>
     If you are a **mobility operator** looking to **improve urban traffic management** through data and smart visualisation, contact Open Data Hub to explore new opportunities."
-    btn_link: "mailto:help@opendatahub.com"
-    btn_label: "Contact us"
     img_back: "/img/use-cases/bolzano-parking-dashboard/Open-Data-Hub-parking-dashboard-traffic-management-screen.jpg"
     img_credit: "© Open Data Hub / Tania Marcadella"
     img_back_title: "Parking Availability Dashboard"
     img_back_alt: "Real-time parking availability dashboard supporting urban mobility management."
+    buttons: 
+      - btn_link: "mailto:help@opendatahub.com?subject=[Use case - Parking Dashboard]"
+        btn_label: "Contact us"
     partial: imgs-text-enlargeable.html
 
   - description: "Thanks to the NOI Techpark we could receive and introduce a very useful tool to manage traffic in the city center when lot of tourists come to the city."

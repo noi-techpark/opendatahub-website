@@ -18,8 +18,10 @@ rows:
 
         Create a prototype in a short time and low cost to understand the potential of your idea: through a network of experts, the Free Software Lab helps you develop a prototype with innovative data visualization technologies that make your idea more concrete and valuable.
 
-    btn_link: "https://freesoftwarelab.noi.bz.it/services/prototype/"
-    btn_label: "See details "
+    buttons:
+      - btn_link: "https://freesoftwarelab.noi.bz.it/services/prototype/"
+        btn_label: "See details "
+        target_blank: true
     img_back: "/img/services/data_visualization/ODH-data-visualization-top-image.jpg"
     img_front: "/icon/box.svg"
     img_back_alt: "Illustration showing Open Data Hub's data visualisation services, which enable organisations to test, visualise and implement data-driven ideas."
@@ -38,8 +40,10 @@ rows:
 
         To help you create data visualisations faster, our community already developed a set of components using data provided by the Open Data Hub. You can find a list of web components ready to be used on the Open Data Hub Web Components Store.
 
-    btn_link: "https://webcomponents.opendatahub.com/"
-    btn_label: "View the web components list"
+    buttons:
+      - btn_link: "https://webcomponents.opendatahub.com/"
+        btn_label: "View the web components list"
+        target_blank: true
     img_back: "/img/services/data_visualization/ODH-data-visualization-web-component-store.jpg"
     img_front: "/img/services/data_sharing/share-data-4.jpg"
     bg_darker: false
@@ -50,8 +54,9 @@ rows:
 
   - title: "**Contribute** as web component developer!"
     description: "To contribute as a Web Component developer, you can use all the resources available in the Open Data Hub to create new Web components. Data is freely accessible and can be used for your own projects. For closer cooperation, do not hesitate to contact us."
-    btn_link: "/contact"
-    btn_label: "Contact us"
+    buttons:
+      - btn_link: "mailto:help@opendatahub.com?subject=[Data Visualization]"
+        btn_label: "Contact us"
     img_back: "/img/services/data_visualization/ODH-data-visualization-web-component-developer.jpg"
     img_front: "/img/services/data_sharing/share-data-4.jpg"
     bg_darker: true

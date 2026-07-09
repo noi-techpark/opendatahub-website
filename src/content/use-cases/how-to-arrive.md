@@ -20,8 +20,9 @@ short:
   title: "**How to Arrive in South Tyrol: collaboration and digital innovation for travellers**"
   description: "*“How do I get to South Tyrol?”* <br> 
   It’s one of the most common questions among tourists planning a trip to the region. To provide a clear, multilingual and constantly updated answer, the “**How to Arrive in South Tyrol**” widget was developed — a web component that is easy to integrate, accessible to everyone and designed to make travel information readily available."
-  btn_link: "/use-cases/howtoarrive"
-  btn_label: Read more
+  buttons:
+    - btn_link: "/use-cases/howtoarrive"
+      btn_label: Read more
   img_link: "/use-cases/howtoarrive"
   img_back: "/img/use-cases/How_to_arrive/OpenDataHub-usecase-how-to-arrive-widget-01.jpg"
   img_credit: "© Open Data Hub"
@@ -76,8 +77,9 @@ paragraphs:
   </ul>
   **Explore the “How to Arrive in South Tyrol” web component:**
 "
-    btn_link: "https://webcomponents.opendatahub.com/webcomponent/how-to-arrive-in-south-tyrol"
-    btn_label: Go to web component
+    buttons:
+      - btn_link: "https://webcomponents.opendatahub.com/webcomponent/how-to-arrive-in-south-tyrol"
+        btn_label: Go to web component
     img_back: "/img/use-cases/How_to_arrive/OpenDataHub-usecase-how-to-arrive-widget-03.jpg"
     img_credit: "© Open Data Hub"
     img_back_title: "Open Data Hub – Intermediator for Data Sharing & Use"
@@ -85,12 +87,13 @@ paragraphs:
     partial: text-imgs-enlargeable.html
 
   - description: "Explore our **Data Visualization Service** and bring innovation to your digital projects with smart, interactive tools built on open data solutions for tourism:"
-    btn_link: "/data-visualization"
-    btn_label: Data Visualization
     img_back: "/img/use-cases/How_to_arrive/OpenDataHub-usecase-how-to-arrive-widget-01.jpg"
     img_credit: "© Open Data Hub"
     img_back_title: "How to Arrive in South Tyrol | Web Component"
     img_back_alt: "Screen of the “How to Arrive in South Tyrol” web component powered by IDM and Open Data Hub."
+    buttons:
+      - btn_link: "/data-visualization"
+        btn_label: Data Visualization
     partial: imgs-text-enlargeable.html
 
   - description: "How to Arrive in South Tyrol is one of the most frequently used components in the Web Component Store. Thanks to the ongoing collaboration with the Open Data Hub team, we’ve continuously improved the widget based on user feedback. A fantastic example of cooperation and innovation."

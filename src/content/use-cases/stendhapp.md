@@ -18,8 +18,9 @@ short:
   subtitle: "STENDHAPP"
   title: "**When data becomes experience**"
   description: "How can an app transform simple data into an experience of discovery?\nStendhapp proves that it is possible. By integrating open data on events and places of interest from the Open Data Hub into its map, the Italian start-up has been able to grow quickly in new areas, creating personalised itineraries for users that are even more up to date and relevant. This is a concrete example of how high-quality data can drive innovation in tourism and cultural promotion."
-  btn_link: "/use-cases/stendhapp"
-  btn_label: Read more
+  buttons:
+    - btn_link: "/use-cases/stendhapp"
+      btn_label: Read more
   img_back: "/img/use-cases/stendhapp/stendhapp_1.jpg"
   img_link: "/use-cases/stendhapp"
   img_credit: "© Open Data Hub / Tania Marcadella"
@@ -67,8 +68,9 @@ paragraphs:
     partial: imgs-text-enlargeable.html
 
   - description: "If you are working on a project related to tourism and culture, such as an app or a service, you can access the data directly via the Open Data Hub’s Data Access service. This will enable you to integrate up-to-date, reliable datasets, thereby speeding up development and improving the quality of your product."
-    btn_link: "https://opendatahub.com/services/data-access"
-    btn_label: Find out how to get started
+    buttons:
+      - btn_link: "https://opendatahub.com/services/data-access"
+        btn_label: Find out how to get started
     img_back: "/img/use-cases/stendhapp/stendhapp_6.jpg"
     img_credit: "© Open Data Hub / Tania Marcadella"
     img_back_title: "Stendhapp – Data Access for Tourism Services"

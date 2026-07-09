@@ -21,8 +21,9 @@ rows:
         - mailing with regular communications
         - early communication in case of breaking changes of the datasets
         - direct contact to data providers upon request
-    btn_link: "/community"
-    btn_label: "Join the community"
+    buttons:
+      - btn_link: "/community"
+        btn_label: "Join the community"
     img_back: "/img/services/data_access/ODH-home-data-access.webp"
     img_back_alt: "Illustration of Open Data Hub services that provide real-time, machine-readable access to open data for application development."
     img_back_title: "Open Data Hub – Reliable Open Data Access Services"
@@ -32,8 +33,9 @@ rows:
 
   - title: "Access **a growing number of datasets**"
     description: "Discover hundreds of datasets to power your next digital service. The Data Access service provides a free, well-documented API platform that enables seamless integration of real-time and historical data - helping developers and organisations build reliable, data-driven applications."
-    btn_link: "/datasets"
-    btn_label: "Browse the datasets list"
+    buttons:
+      - btn_link: "/datasets"
+        btn_label: "Browse the datasets list"
     img_back: "/img/services/data_access/ODH-data-acess-datasets.jpg"
     img_front: "/img/services/data_access/access-data-4.jpg"
     img_back_alt: "User interface showing the various open datasets available from the Open Data Hub for integration into applications."
@@ -43,8 +45,10 @@ rows:
 
   - title: "Discover the data in our **Data Browser**"
     description: "Browse hundreds of datasets across sectors like mobility, tourism, environment and more. The Data Browser lets you search, filter and explore regularly updated Open Data - collected via standardised interfaces and made available in machine-readable formats."
-    btn_link: "https://databrowser.opendatahub.com/"
-    btn_label: "Open the Data Browser"
+    buttons:
+      - btn_link: "https://databrowser.opendatahub.com/"
+        btn_label: "Open the Data Browser"
+        target_blank: true
     img_back: "/img/services/data_access/ODH-data-access-data-browser.jpg"
     img_front: "/img/services/data_access/access-data-6.jpg"
     img_back_alt: "Screenshot of Open Data Hub's Data Browser interface, which allows users to explore and access different datasets."
@@ -55,8 +59,10 @@ rows:
 
   - title: "Check out the data in our **Analytics Tool**"
     description: "Explore near-real time and historical data from sensors and stations - including what they measure, where they are located and how values evolve over time. The Analytics Tool helps you analyse sensor data in context and track patterns with ease."
-    btn_link: "https://analytics.opendatahub.com/"
-    btn_label: "Open the Analytics Tool"
+    buttons:
+      - btn_link: "https://analytics.opendatahub.com/"
+        btn_label: "Open the Analytics Tool"
+        target_blank: true
     img_back: "/img/services/data_access/ODH-data-access-analytics-tool.jpg"
     img_front: "/img/services/data_access/access-data-8.jpg"
     img_back_alt: "Screenshot of real-time sensor data and analytics displayed in the Open Data Hub analytics tool."
@@ -67,8 +73,10 @@ rows:
 
   - title: "Integrate data in your website or app using our **web components**"
     description: "To help you create data visualisations faster, our community has already developed a set of components using data provided by the Open Data Hub. You can find a list of ready-to-use web components on the Open Data Hub Web Components Store."
-    btn_link: "https://webcomponents.opendatahub.com/"
-    btn_label: "View the web components list"
+    buttons:
+      - btn_link: "https://webcomponents.opendatahub.com/"
+        btn_label: "View the web components list"
+        target_blank: true
     img_back: "/img/services/data_access/ODH-data-access-data-web-components.jpg"
     img_front: "/img/services/data_access/access-data-8.jpg"
     img_back_alt: "Open Data Hub web component interface for seamless data integration into applications."
@@ -79,8 +87,10 @@ rows:
     
   - title: "We’re here to **support you, to find the best way to access our data!**"
     description: "You will find the way to access data that fits the needs of your application, by identifying the best quota limit that fits your needs."
-    btn_link: "https://github.com/noi-techpark/odh-docs/wiki/Api-Quota"
-    btn_label: "Quota limits documentation"
+    buttons:
+      - btn_link: "https://github.com/noi-techpark/odh-docs/wiki/Api-Quota"
+        btn_label: "Quota limits documentation"
+        target_blank: true
     img_back: "/img/services/data_access/ODH-data-access-support.jpg"
     img_front: "/img/services/data_access/access-data-8.jpg"
     img_back_alt: "Open Data Hub team providing support to developers integrating data into their applications."
@@ -92,8 +102,9 @@ rows:
   - title: "We’re here to **support you, so become a registered data consumer!**"
     description: "Join our community to receive regular updates, early notifications about changes to datasets or APIs and direct contact with data providers when needed. Registered users may also benefit from tailored support to make the most of both real-time and historical data access.
 "
-    btn_link: "/community"
-    btn_label: "Join the community "
+    buttons:
+      - btn_link: "/community"
+        btn_label: "Join the community "
     img_back: "/img/services/data_access/ODH-data-access-support.jpg"
     img_front: "/img/services/data_access/access-data-8.jpg"
     img_back_alt: "Open Data Hub team assisting developers with integrating data into applications."

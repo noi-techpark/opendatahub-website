@@ -19,8 +19,9 @@ short:
   subtitle: "INDEPENDENT L"
   title: "**Inclusive e-mobility: when data makes a difference**"
   description: "Independent L. is an organisation that works daily to make public spaces and **mobility more inclusive** and **accessible for people with disabilities**. While electric mobility offers great potential, it risks becoming inaccessible to some if there is a lack of clear information on the accessibility of infrastructure, such as electric vehicle charging stations."
-  btn_link: "/use-cases/independentl"
-  btn_label: Read more
+  buttons:
+    - btn_link: "/use-cases/independentl"
+      btn_label: Read more
   img_back: "/img/use-cases/independentl/IndependentL-parking.jpg"
   img_link: "/use-cases/independentl"
   img_credit: "© Open Data Hub / Tania Marcadella"
@@ -60,12 +61,13 @@ paragraphs:
   All the collected data was entered into the Open Data Hub's **Data Browser** in a dataset providing a detailed **overview of charging station accessibility for people with disabilities**. According to the parameters collected and the organisation's technical analysis, each charging station was classified as Accessible (24%), Partially Accessible (22%) or Not Accessible (54%).
   </p>"
     title: "**Public car parks connected through Skidata**"
-    btn_link: "https://databrowser.opendatahub.com/dataset/table/tourism/v1/ODHActivityPoi?tagfilter=electric+charging+stations"
-    btn_label: Discover the dataset
-    target_blank: true
-    btn_link2: "https://cloud.opendatahub.com/index.php/s/GPxcXBwMpkpxP74"
-    btn_label2: View the ​"charging stations for electric vehicles accessibility" report (German)
-    target_blank2: true
+    buttons:
+      - btn_link: "https://databrowser.opendatahub.com/dataset/table/tourism/v1/ODHActivityPoi?tagfilter=electric+charging+stations"
+        btn_label: Discover the dataset
+        target_blank: true
+      - btn_link: "https://cloud.opendatahub.com/index.php/s/GPxcXBwMpkpxP74"
+        btn_label: View the ​"charging stations for electric vehicles accessibility" report (German)
+        target_blank: true
     img_back: "/img/use-cases/independentl/OpenDataHub-parking-measurement-6984.jpg"
     img_credit: "© Open Data Hub / Tania Marcadella"
     img_back_title: "Measuring EV Charging Station Control Heigh"
@@ -79,14 +81,15 @@ paragraphs:
   Find out how to use the Data Browser to explore, update and share meaningful data.<br>
   Explore the Data Browser or email us to find out more.<br>"
     title: "**The Data Browser: transparency, participation and impact**"
-    btn_link: "https://databrowser.opendatahub.com/"
-    btn_label: Explore the Data Browser
-    target_blank: true
-    btn_link2: "mailto: help@opendatahub.com"
-    btn_label2: "Contact us"
     img_back: "/img/use-cases/independentl/OpenDataHub-parking-measurement-7050.jpg"
     img_credit: "© Open Data Hub / Tania Marcadella"
     img_back_title: "Recording EV Charging Data for Open Data Hub Browser"
     img_back_alt: "Independent L staff recording EV charging accessibility data, later published via the Open Data Hub Data Browser."
+    buttons:
+      - btn_link: "https://databrowser.opendatahub.com/"
+        btn_label: Explore the Data Browser
+        target_blank: true
+      - btn_link2: "mailto: help@opendatahub.com?subject=[Use case - IndependentL]"
+        btn_label2: "Contact us"
     partial: imgs-text-enlargeable.html
 ---

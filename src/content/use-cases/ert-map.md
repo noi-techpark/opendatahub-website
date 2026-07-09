@@ -15,8 +15,9 @@ short:
   subtitle: "ËRT - Moritz Brunner"
   title: "**Bringing Ideas to Life with Open Data**"
   description: "The ËRT project demonstrates how open data can transform creative concepts into effective solutions. By leveraging datasets from the Open Data Hub, the project transitioned from labour-intensive manual data entry to streamlined, scalable workflows. This innovation has resulted in the creation of interactive landscape models that combine CNC-milled terrain reliefs with dynamic digital projections. These models offer new and engaging ways to explore geographical information using real-world data and data visualisation tools"
-  btn_link: "/use-cases/ert-map"
-  btn_label: Read more
+  buttons:
+    - btn_link: "/use-cases/ert-map"
+      btn_label: Read more
   img_link: "/use-cases/ert-map"
   img_back: "/img/use-cases/ert/OpenDataHub-usecase-ert-moritz-brunner-01.jpg"
   img_credit: "© ËRT / Moritz Brunner"
@@ -40,8 +41,10 @@ paragraphs:
     img_credit: "© ËRT / Moritz Brunner"
     img_back_alt: "High-resolution CNC-milled terrain relief integrated with dynamic digital projection in the ËRT interactive landscape model"
     img_back_title: "ËRT – CNC-Milled Terrain Relief with Digital Projection"
-    btn_link: "https://vimeo.com/manage/videos/954323720"
-    btn_label: More info
+    buttons:
+      - btn_link: "https://vimeo.com/manage/videos/954323720"
+        btn_label: More info
+        target_blank: true
     partial: imgs-text-enlargeable.html
 
 
@@ -51,8 +54,9 @@ paragraphs:
     img_credit: "© ËRT / Moritz Brunner"
     img_back_alt: "Founder Moritz Brunner demonstrating the interactive features of the ËRT landscape model, showcasing real-time data integration"
     img_back_title: "ËRT – Interactive Landscape Model Demonstration"
-    btn_link: "https://opendatahub.com/datasets/"
-    btn_label: Discover Datasets
+    buttons:
+      - btn_link: "https://opendatahub.com/datasets/"
+        btn_label: Discover Datasets
     partial: text-imgs-enlargeable.html
 
 
@@ -64,8 +68,9 @@ paragraphs:
     img_credit: "© Open Data Hub / Tania Marcadella"
     img_back_alt: "ËRT's interactive landscape model utilising Open Data Hub's datasets to provide dynamic geographical visualisations"
     img_back_title: "ËRT – Enhancing Geographical Understanding through Open Data"
-    btn_link: "https://opendatahub.com/services/data-access/"
-    btn_label: Data Access Service
+    buttons:
+      - btn_link: "https://opendatahub.com/services/data-access/"
+        btn_label: Data Access Service
     partial:  imgs-text-enlargeable.html
 
 

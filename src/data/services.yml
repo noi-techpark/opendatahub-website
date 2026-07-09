@@ -6,8 +6,9 @@
 data_access:
   title: "**Data Access:** access a **growing number of datasets.**"
   description: "From mobility and tourism to environment and weather, Open Data Hub provides **reliable access** to **structured, real-time and historical data** - all available via APIs and tools that support your business and research. Use our **Data Access** service to build smart digital products and services - **based on real data**, ready to scale."
-  btn_link: "/services/data-access"
-  btn_label: See details
+  buttons:
+    - btn_link: "/services/data-access"
+      btn_label: See details
   img_back: "/img/services/data_access/ODH-home-data-access.webp"
   img_front: "/icon/download.svg"
   img_back_alt: "Illustration of Open Data Hub's data access services, enabling the integration of mobility, tourism and weather datasets."
@@ -17,8 +18,9 @@ data_sharing:
   title: "**Data Sharing:** by sharing your data, **be ready to receive.**"
   description: "Open Data Hub provides a **data sharing platform** and offers tools and infrastructure that help public and private organisations **share their data securely, transparently and in standardised formats**.
 **Gain visibility**, **support interoperability** and contribute to the development of new applications, digital services and a broader innovation ecosystem."
-  btn_link: "/services/data-sharing"
-  btn_label: See details
+  buttons:
+    - btn_link: "/services/data-sharing"
+      btn_label: See details
   img_back: "/img/services/data_sharing/OpenDataHub-Data-Sharing-Luisa-by-Tania-Marcadella-3779.jpg"
   img_front: "/icon/upload.svg"
   img_back_alt: "Illustration of Open Data Hub's data sharing services, enabling organisations to securely share and access datasets for collaborative innovation."
@@ -27,8 +29,9 @@ data_sharing:
 data_visualization:
   title: "**Data Visualization:** together, to **visualise data.**"
   description: "Use our Data Visualization service to **explore the full potential of your data** - whether you’re testing an idea, building a prototype or creating a dashboard. We help you transform complex datasets into interactive visual outputs with modular Open Source tools and widgets designed to **support collaboration** and **rapid innovation**."
-  btn_link: "/services/data-visualization"
-  btn_label: See Details
+  buttons:
+    - btn_link: "/services/data-visualization"
+      btn_label: See Details
   img_back: "/img/services/data_visualization/ODH-services-data-visualization.jpg"
   img_front: "/icon/box.svg"
   img_back_alt: "A graphical representation of Open Data Hub's interactive data visualisation services, enabling users to transform complex datasets into actionable insights."

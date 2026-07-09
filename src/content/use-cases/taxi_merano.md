@@ -19,8 +19,9 @@ short:
   subtitle: "TAXI MERANO"
   title: "**Smarter mobility through Data Sharing**"
   description: "In Merano, taxis are becoming an integral part of the intelligent mobility system thanks to Open Data Hub's Data Sharing service. By securely sharing real-time location and availability data, each driver contributes to a digital ecosystem that reduces waiting times, optimises journeys, and improves the experience for residents and visitors alike. This data can also be integrated into journey planning tools to support more efficient and sustainable multimodal mobility."
-  btn_link: "/use-cases/taxi_merano"
-  btn_label: Read more
+  buttons:
+    - btn_link: "/use-cases/taxi_merano"
+      btn_label: Read more
   img_back: "/img/use-cases/taxi_merano/OpenDataHub-Taxi-Merano-0737-w.jpg"
   img_link: "/use-cases/taxi_merano"
   img_credit: "© Open Data Hub / Tania Marcadella"
@@ -58,8 +59,10 @@ paragraphs:
   This makes taxis part of a broader multimodal system alongside buses and trains, offering combined travel solutions that are updated in real time.
   "
     title: ""
-    btn_link: "https://journey.v2.otp.opendatahub.com/#/"
-    btn_label: Explore the Open Trip Planner
+    buttons:
+      - btn_link: "https://journey.v2.otp.opendatahub.com/#/"
+        btn_label: Explore the Open Trip Planner
+        target_blank: true
     img_back: "/img/use-cases/taxi_merano/OpenDataHub-Opentripplanner.jpg"
     img_credit: "© Open Data Hub / Tania Marcadella"
     img_back_title: "Taxi Merano – Real-Time Taxi Map Integration"
@@ -71,8 +74,9 @@ paragraphs:
   <br>
   Would you also like to share data securely and intelligently?"
     title: ""
-    btn_link: "https://opendatahub.com/services/data-sharing/"
-    btn_label: "Discover the Data Sharing service"
+    buttons:
+      - btn_link: "https://opendatahub.com/services/data-sharing/"
+        btn_label: "Discover the Data Sharing service"
     img_back: "/img/use-cases/taxi_merano/OpenDataHub-Taxi-Merano-0750-w.jpg"
     img_credit: "© Open Data Hub / Tania Marcadella"
     img_back_title: "Smart Taxi Merano Driver – Data Sharing Use Case"

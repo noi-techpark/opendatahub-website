@@ -16,8 +16,9 @@ short:
   subtitle: "GREENMOBILITY"
   title: "**Real-time e-charging stations**"
   description: "An interactive map that shows a large set of e-charging stations together with important real-time information, based on real-time open data provided by the Open Data Hub."
-  btn_link: "/use-cases/green-mobility"
-  btn_label: Read more
+  buttons:
+    - btn_link: "/use-cases/green-mobility"
+      btn_label: Read more
   img_link: "/use-cases/green-mobility"
   img_back: "/img/use-cases/green_mobility/ODH-usecase-GREENMOBILITY-image-01.jpg"
   img_back_alt: "Image showcasing Green Mobility's initiatives in sustainable transportation, supported by Open Data Hub data."
@@ -47,16 +48,19 @@ paragraphs:
     img_back: "/img/use-cases/green_mobility/ODH-usecase-GREENMOBILITY-image-03.jpg"
     img_back_alt: "Bike and car-sharing services integrated into Green Mobility's sustainable transport network."
     img_back_title: "Green Mobility – Sustainable Bike and Car Sharing Services"
-    btn_link: "https://opendatahub.com/datasets/mobility/echargingstation/"
-    btn_label: DISCOVER MORE ON THIS DATASET
+    buttons:
+      - btn_link: "https://opendatahub.com/datasets/mobility/echargingstation/"
+        btn_label: DISCOVER MORE ON THIS DATASET
     partial: text-imgs.html
 
   - description: "Would you like to integrate the interactive map directly into your website with minimal effort? We have already created a web component for this purpose!"
     img_back: "/img/use-cases/green_mobility/ODH-usecase-GREENMOBILITY-image-04.jpg"
     img_back_alt: "Green Mobility’s real-time data monitoring system for optimizing traffic and reducing emissions."
     img_back_title: "Green Mobility – Real-Time Traffic Monitoring"
-    btn_link: "https://webcomponents.opendatahub.com/webcomponent/98013c75-f27c-414e-aff9-c58ed760e791?from=%2F"
-    btn_label: DISCOVER THE WEBCOMPONENT
+    buttons:
+      - btn_link: "https://webcomponents.opendatahub.com/webcomponent/98013c75-f27c-414e-aff9-c58ed760e791?from=%2F"
+        btn_label: DISCOVER THE WEBCOMPONENT
+        target_blank: true
     partial: imgs-text-enlargeable.html
     bg_darker: true
 
@@ -64,16 +68,19 @@ paragraphs:
     img_back: "/img/use-cases/green_mobility/ODH-usecase-GREENMOBILITY-image-05.jpg"
     img_back_alt: "Data-supported expansion of electric vehicle charging stations for sustainable urban mobility."
     img_back_title: "Green Mobility – E-Charging Infrastructure Development"
-    btn_link: "https://swagger.opendatahub.com/?url=https://mobility.api.opendatahub.com/v2/apispec"
-    btn_label: ACCESS THE API DIRECTLY
+    buttons:
+      - btn_link: "https://swagger.opendatahub.com/?url=https://mobility.api.opendatahub.com/v2/apispec"
+        btn_label: ACCESS THE API DIRECTLY
+        target_blank: true
     partial: text-imgs-icon.html
 
   - description: "This initiative is open to all operators willing to share their data according to the technical specifications defined by the Green Mobility working group."
     img_back: "/img/use-cases/green_mobility/ODH-usecase-GREENMOBILITY-image-06.jpg"
     img_back_alt: "Campaigns and policies driving the adoption of sustainable mobility solutions under Green Mobility."
     img_back_title: "Green Mobility – Public Awareness and Policy Support"
-    btn_link: "https://opendatahub.com/services/data-sharing/"
-    btn_label: DISCOVER HOW TO SHARE YOUR DATA
+    buttons: 
+      - btn_link: "https://opendatahub.com/services/data-sharing/"
+        btn_label: DISCOVER HOW TO SHARE YOUR DATA
     partial: imgs-icon-text.html
     bg_darker: true
 

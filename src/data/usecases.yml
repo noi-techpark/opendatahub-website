@@ -5,8 +5,9 @@
 contact_us:
   title: "**Share your use case!**"
   description: "Have you realised an innovative project with data from the Open Data Hub? <br> Send us your project! </br>"
-  btn_link: "/contact"
-  btn_label: Contact us
+  buttons:
+    - btn_link: "mailto:help@opendatahub.com?subject=[Use Cases]"
+      btn_label: Contact us
   img_back: "/img/use-cases/ODH-website-usecases-contact-us.jpg"
   img_back_alt: "Graphic inviting users to contact Open Data Hub for potential collaborations and use case developments."
   img_back_title: "Open Data Hub – Contact Us for Collaboration Opportunities"

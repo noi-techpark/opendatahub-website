@@ -15,8 +15,9 @@ short:
   subtitle: "MENTOR"
   title: "**Mobility-as-a-Service: the new mobility of Merano**"
   description: "A new concept is emerging worldwide: 'MaaS' (Mobility as a Service). The idea is to allow people to access different integrated mobility services on demand through a unique app, and to choose the most appropriate one from time to time. This approach is based on open data integration and supports the development of data-driven mobility solutions."
-  btn_link: "/use-cases/mentor"
-  btn_label: Read more
+  buttons:
+    - btn_link: "/use-cases/mentor"
+      btn_label: Read more
   img_link: "/use-cases/mentor"
   img_back: "/img/use-cases/mentor/ODH-usecase-mentor-image-01.jpg"
   img_back_alt: "Graphic depicting the MENTOR project's integration of various mobility services in Merano through Open Data Hub."
@@ -59,8 +60,9 @@ paragraphs:
 
   - title: "**Bike Sharing**"
     description: "The bike-sharing system can now be provided in innovative ways through digitization and the utilization of electric bikes. In Merano, a new service has been tested since September 2019, which serves mainly to link the city center with the two train stations. As part of the Mentor project, the city of Merano provides 60 bicycles for short term rental free of charge at seven locations using real-time open data and mobility APIs." 
-    btn_link: "https://opendatahub.com/datasets/mobility/bikesharing/"
-    btn_label: See available dataset
+    buttons:
+      - btn_link: "https://opendatahub.com/datasets/mobility/bikesharing/"
+        btn_label: See available dataset
     video: "https://www.youtube.com/embed/a0qofa58SyM"
     partial: text-video.html
     
@@ -78,8 +80,9 @@ paragraphs:
   - title: "**Car pooling**"
     description: "Carpooling is the concept of sharing private cars, connecting people who need a ride with those who can offer one. Although it has the potential to reduce individual car use, organising it effectively can be complex. Thanks to the project, a technologically advanced solution has been developed in collaboration with the company Ummadum that aims to promote local commerce through a system of incentives. Supported by mobility APIs and open data integration, the system promotes smarter, more sustainable urban mobility. Due to the pandemic, a full trial of the new system was not possible and it could only be launched in the final months of the project.<br>
     Although the pandemic severely limited the scope of the project, local companies have shown strong interest in testing effective solutions for promoting carpooling in the post-Covid era. This bodes well for the future expansion of the service. The challenge will be to encourage people who usually drive to rely more on public transport and other mobility options, particularly by using mobility solutions powered by open data to combine various services for a single trip."
-    btn_link: "https://opendatahub.com/datasets/mobility/carpooling/"
-    btn_label: See available dataset
+    buttons:
+      - btn_link: "https://opendatahub.com/datasets/mobility/carpooling/"
+        btn_label: See available dataset
     img_back: "/img/use-cases/mentor/ODH-usecase-mentor-image-08.jpg"
     img_back_alt: "Diagram illustrating how various mobility services in Merano are integrated through the Open Data Hub platform, enhancing data accessibility."
     img_back_title: "Integration of Mobility Services via Open Data Hub"

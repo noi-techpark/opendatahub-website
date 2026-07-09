@@ -17,8 +17,9 @@ short:
   subtitle: "OPEN DATA HUB"
   title: "**Contributor of the year 2025**"
   description: "Each year, Open Data Hub honours an individual whose exceptional contributions have significantly advanced the community and its impact, awarding them the prestigious Contributor of the Year title."
-  btn_link: "/use-cases/contributor-of-the-year-2025"
-  btn_label: Read more
+  buttons:
+    - btn_link: "/use-cases/contributor-of-the-year-2025"
+      btn_label: Read more
   img_link: "/use-cases/contributor-of-the-year-2025"
   img_back: "/img/use-cases/contributor_of_the_year_2025/opendatahub-contributor-of-the-year-2025-01.jpg"
   img_credit: "© Open Data Hub"

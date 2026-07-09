@@ -19,8 +19,10 @@
 				<h2 class="mt-2">{{ .title | markdownify }}</h2>
 				<p>{{ .description | markdownify }}</p>
 
-				{{ if and (isset . "btn_link") (isset . "btn_label") }}
-				<a {{ if .target_blank }}target="_blank"{{ end }} href="{{.btn_link}}" class="btn btn-primary">{{ .btn_label | markdownify }}</a>
+				{{ range .buttons }}
+					{{ if and (isset . "btn_link") (isset . "btn_label") }}
+						<a {{ if .target_blank }}target="_blank"{{ end }} href="{{.btn_link}}" class="btn btn-primary">{{ .btn_label | markdownify }}</a>
+					{{ end }}
 				{{ end }}
 			</div>
 		</div>

@@ -12,18 +12,10 @@
 				<h2>{{ .title | markdownify }}</h2>
 				<p>{{ .description | markdownify }}</p>
 				
-
 				{{ range .buttons }}
         			<a class="btn btn-primary" {{ if .target_blank }}target="_blank"{{ end }} href="{{ .btn_link }}">{{ .btn_label | markdownify }}</a>
       			{{ end }}
-<!--				{{ if and (isset . "btn_link") (isset . "btn_label") }}
-				<a {{ if .target_blank }}target="_blank"{{ end }} href="{{.btn_link}}" class="btn btn-primary">{{ .btn_label | markdownify }}</a>
-				{{ end }}
 
-				{{ if and (isset . "btn_link2") (isset . "btn_label2") }}
-					<a {{ if .target_blank2 }}target="_blank"{{ end }} href="{{ .btn_link2 }}" class="btn btn-primary">{{ .btn_label2 | markdownify }}</a>
-				{{ end }}
--->
 			</div>
 		</div>
 	</div>

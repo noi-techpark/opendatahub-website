@@ -16,8 +16,9 @@ short:
   subtitle: "MERANO APP"
   title: "**Enhancing Tourist and Local Experiences**"
   description: "The Merano App provides **real-time parking information**, which is supplied by the **Open Data Hub**. This **enhances the experience for tourists** by eliminating the uncertainty of finding a parking space, while optimising the daily routines of locals. The result is reduced traffic congestion and more efficient use of parking resources, which benefits both residents and visitors."
-  btn_link: "/use-cases/meranoapp"
-  btn_label: Read more
+  buttons:
+    - btn_link: "/use-cases/meranoapp"
+      btn_label: Read more
   img_link: "/use-cases/meranoapp"
   img_back: "/img/use-cases/meranoapp/ODH-usecase-meranoapp-image-01.jpg"
   img_credit: "© Open Data Hub / Tania Marcadella"
@@ -52,8 +53,10 @@ paragraphs:
     img_credit: "© Open Data Hub / Tania Marcadella"
     img_back_alt: "Merano App feature showing real-time parking availability to assist users in finding parking spaces."
     img_back_title: "Real-Time Parking Availability on Merano App"
-    btn_link: "https://databrowser.opendatahub.com/dataset-overview/178ea911-cc54-418e-b42e-52cad18f1ec1"
-    btn_label: Discover the parking dataset
+    buttons:
+      - btn_link: "https://databrowser.opendatahub.com/dataset-overview/178ea911-cc54-418e-b42e-52cad18f1ec1"
+        btn_label: Discover the parking dataset
+        target_blank: true
     partial: text-imgs-enlargeable.html
 
   - description: "Using data from the **Open Data Hub** in productive applications such as the Merano App has several advantages. It enables apps to provide users with **real-time**, **accurate** and **valuable information**, thereby enhancing their overall experience. Using real-time datasets from the Open Data Hub ensures that applications stay current and relevant, providing users with access to the most recent and pertinent data. This data-driven approach improves user satisfaction, helps utilise resources efficiently, and contributes to a more **seamless and user-friendly experience**."
@@ -61,7 +64,8 @@ paragraphs:
     img_credit: "© Open Data Hub / Tania Marcadella"
     img_back_alt: "Merano App interface displaying current weather conditions and forecasts for users."
     img_back_title: "Merano App Providing Weather Updates"
-    btn_link: "https://opendatahub.com/datasets/"
-    btn_label: Discover our datasets
+    buttons:
+      - btn_link: "https://opendatahub.com/datasets/"
+        btn_label: Discover our datasets
     partial: imgs-text-enlargeable.html
 ---

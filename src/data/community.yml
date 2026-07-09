@@ -302,7 +302,7 @@ consumers:
 
     - name: Peer
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/peer.png"
-      link: https://www.peer.biz/
+      link: https://www.peer.media/
 
     - name: Photogram
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/photogram.png"

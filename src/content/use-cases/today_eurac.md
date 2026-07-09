@@ -15,8 +15,9 @@ short:
   subtitle: "TODAY@EURAC"
   title: "**Enhancing Event Visibility through Data Visualization at Eurac**"
   description: "In today’s data-driven world, data visualisation is a powerful tool that enhances comprehension and facilitates communication. Eurac uses the Open Data Hub’s visualisation tools to create customised visual outputs that boost event visibility and audience engagement."
-  btn_link: "/use-cases/today@eurac"
-  btn_label: Read more
+  buttons:
+    - btn_link: "/use-cases/today@eurac"
+      btn_label: Read more
   img_link: "/use-cases/today@eurac"
   img_back: "/img/use-cases/today_eurac/01-OpenDataHub-Eurac-Tania-Marcadella-2023-3199.jpg"
   img_credit: "© Open Data Hub / Tania Marcadella"
@@ -60,8 +61,9 @@ paragraphs:
     img_back_alt: "Screens at Eurac Research displaying events, enhanced by Open Data Hub's data visualization services."
     img_back_title: "Data Visualization Enhancing Event Accessibility at Eurac"
     partial: imgs-text-enlargeable.html
-    btn_link: "https://opendatahub.com/services/data-visualization/"
-    btn_label: Data visualization
-    btn_link2: "https://opendatahub.com/contact/"
-    btn_label2: Contact us
+    buttons:
+      - btn_link: "https://opendatahub.com/services/data-visualization/"
+        btn_label: Data visualization
+      - btn_link: "mailto:help@opendatahub.com?subject=[Use Case: Today Eurac]"
+        btn_label: Contact us
 ---

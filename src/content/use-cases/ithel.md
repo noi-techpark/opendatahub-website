@@ -20,8 +20,9 @@ short:
   subtitle: "ITHEL"
   title: "**Better Mobility Management for Busy Destinations**"
   description: "The collaboration between Ithel and Open Data Hub shows how Artificial Intelligence and Open Data can work together to solve practical mobility challenges. By making parking information accessible, interoperable and actionable, the project helps local communities manage visitor flows more effectively while laying the foundation for future digital mobility services."
-  btn_link: "/use-cases/ithel"
-  btn_label: Read more
+  buttons:
+    - btn_link: "/use-cases/ithel"
+      btn_label: Read more
   img_back: "/img/use-cases/ithel/NOITechpark_ITHEL_OpenDataHub_Villanders_HQ_NEW-46.jpg"
   img_link: "/use-cases/ithel"
   img_credit: "© NOI Techpark/Daniele Fiorentino"
@@ -69,8 +70,9 @@ paragraphs:
     partial: imgs-text.html
 
   - description: "<p>As destinations continue to seek smarter ways to balance visitor demand with available infrastructure, <b>data-driven solutions</b> such as this provide a valuable path towards more efficient and responsive mobility management.<p><p>Whether you're a municipality, mobility operator or destination manager, Open Data Hub can help you transform mobility data into actionable insights. Contact us to discuss your project.<p></p>"
-    btn_link: "https://opendatahub.com/contact/"
-    btn_label: "Contact us"
+    buttons:
+      - btn_link: "mailto:help@opendatahub.com?subject=[Use Case - Ithel]"
+        btn_label: "Contact us"
     img_back: "/img/use-cases/ithel/NOITechpark_ITHEL_OpenDataHub_Villanders_HQ_NEW-22.jpg"
     img_credit: "© NOI Techpark/Daniele Fiorentino"
     img_back_title: "AI-powered monitoring camera"

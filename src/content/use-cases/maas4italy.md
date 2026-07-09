@@ -15,8 +15,9 @@ short:
   subtitle: "MAAS FOR ITALY"
   title: "**The mobility of the future**"
   description: "Integrating transport services is crucial to ensuring more efficient and sustainable urban mobility. Supported by Open Data Hub,the MaaS4Italy project is changing the way citizens and tourists travel by bringing together public transport, car sharing, bike sharing and taxis on a single digital platform offering Mobility as a Service (MaaS). Thanks to Open Data Hub, local operators can easily access and share mobility data without worrying about complex technical standards. Find out how this innovation is improving the travel experience and facilitating access to real-time mobility data across Italy."
-  btn_link: "/use-cases/maas4italy"
-  btn_label: Read more
+  buttons:
+    - btn_link: "/use-cases/maas4italy"
+      btn_label: Read more
   img_link: "/use-cases/maas4italy"
   img_back: "/img/use-cases/maas4italy/01-Open-Data-Hub-MaaS4italy.jpg"
   img_credit: "© sta - Südtiroler Transportstrukturen AG"

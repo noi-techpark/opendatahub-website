@@ -16,8 +16,9 @@ short:
   subtitle: "YANOVIS"
   title: "**Enhancing Tourism Services through Open Data Visualization**"
   description: "Yanovis, a leading provider of tourism-focused software solutions, has expanded its range of products by leveraging the advanced data visualisation tools of the Open Data Hub. Recognising the significant value of the Open Data Hub’s web component, which features real-time flight data from Sky Alps, Yanovis has integrated this functionality into its Yanovis Travel Suite to deliver an enhanced experience for its clients."
-  btn_link: "/use-cases/yanovis"
-  btn_label: Read more
+  buttons:
+    - btn_link: "/use-cases/yanovis"
+      btn_label: Read more
   img_link: "/use-cases/yanovis"
   img_back: "/img/use-cases/yanovis/Open-data-hub-yanovis-data-visualization-01.jpg"
   img_back_alt: ""
@@ -41,8 +42,9 @@ paragraphs:
     img_back_title: "Yanovis Dashboard - Real-Time Flight Data Visualization"
     img_credit: "©  Slide from the Open Data Hub Day 2024 presentation"
     partial: imgs-text-enlargeable.html
-    btn_link: "https://webcomponents.opendatahub.com/webcomponent/flightdata-realtime"
-    btn_label: Discover the Flight Data Web Component  
+    buttons:
+      - btn_link: "https://webcomponents.opendatahub.com/webcomponent/flightdata-realtime"
+        btn_label: Discover the Flight Data Web Component  
 
   - description: "By utilizing the Open Data Hub’s reliable and constantly updated datasets, Yanovis ensures that hotels can offer accurate and dynamic flight information, adding value to their services and improving guest satisfaction. This innovative approach to data visualisation transforms complex, real-time datasets into intuitive, user-friendly interfaces that empower both businesses and their customers."
     img_back: "/img/use-cases/yanovis/Open-data-hub-yanovis-data-visualization-03.jpg"
@@ -50,8 +52,10 @@ paragraphs:
     img_back_title: "Yanovis Interface - Hotel Booking Data Insights"
     img_credit: "©  Slide from the Open Data Hub Day 2024 presentation"
     partial:   text-imgs-enlargeable.html
-    btn_link: "https://databrowser.opendatahub.com/dataset/table/tourism/v1/Trip"
-    btn_label: Discover the Flight Data Dataset 
+    buttons:
+      - btn_link: "https://databrowser.opendatahub.com/dataset/table/tourism/v1/Trip"
+        btn_label: Discover the Flight Data Dataset 
+        target_blank: true
 
   - description: "This use case demonstrates how Open Data Hub can provide custom data visualisation solutions for businesses in the tourism sector and beyond. With its scalable solutions and developer-friendly tools, Open Data Hub supports companies in their digital transformation by offering faster implementation and enabling data-driven decision-making.<br>
   <br>
@@ -63,6 +67,7 @@ paragraphs:
     img_back_title: "Yanovis Analytics - Tourism Data Overview"
     img_credit: "© Open Data Hub"
     partial: imgs-text-enlargeable.html
-    btn_link: "mailto:help@opendatahub.com"
-    btn_label: Contact us  
+    buttons:
+      - btn_link: "mailto:help@opendatahub.com?subject=[Use Case: Yanovis]"
+        btn_label: Contact us  
 ---

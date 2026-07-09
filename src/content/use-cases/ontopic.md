@@ -15,8 +15,9 @@ short:
   subtitle: "ONTOPIC"
   title: "**Revolutionising Data Access with SPARQL Endpoint and Virtual Knowledge Graph**"
   description: "In 2019, Open Data Hub and Ontopic began an ambitious project to develop a Virtual Knowledge Graph leveraging real-world data. The aim was to give developers and data consumers seamless access to real-time mobility and tourism open datasets via a SPARQL endpoint, thereby creating a new open data access platform."
-  btn_link: "/use-cases/ontopic"
-  btn_label: Read more
+  buttons:
+    - btn_link: "/use-cases/ontopic"
+      btn_label: Read more
   img_link: "/use-cases/ontopic"
   img_back: "/img/use-cases/ontopic/ODH-usecase-Ontopic-01.png"
   img_back_alt: "Diagram showcasing Ontopic's implementation of virtual knowledge graphs and SPARQL endpoints using Open Data Hub data."
@@ -39,8 +40,10 @@ paragraphs:
     img_back: "/img/use-cases/ontopic/ODH-usecase-Ontopic-02.png"
     img_back_alt: "Screenshot of Ontopic's SPARQL endpoint interface, enabling users to query real-time mobility and tourism data."
     img_back_title: "Ontopic's SPARQL Endpoint Interface"
-    btn_link: "https://opendatahub.ontopic.dev/"
-    btn_label: "DISCOVER MORE"
+    button:
+      - btn_link: "https://opendatahub.ontopic.dev/"
+        btn_label: "DISCOVER MORE"
+        target_blank: true
     partial: imgs-text-enlargeable.html
 
   - description: "Recognizing the importance of user experience, Ontopic introduced a user-friendly version of the SPARQL endpoint in 2021. This intuitive interface was designed to make it easier to consume data and create precise SPARQL queries, enabling more users to work with real-time datasets for their applications. It simplified complex semantic searches and showcased the interactive data access tools offered by Open Data Hub. Although the testing phase has now concluded, the interface could be reopened based on demand."
@@ -60,8 +63,9 @@ paragraphs:
     img_back: "/img/use-cases/ontopic/ODH-usecase-Ontopic-04.png"
     img_back_alt: "Diagram illustrating the development process of Ontopic's virtual knowledge graph in collaboration with Open Data Hub."
     img_back_title: "Ontopic's Virtual Knowledge Graph Development"
-    btn_link: "https://opendatahub.com/contact/"
-    btn_label: "CONTACT US"
+    buttons:
+      - btn_link: "mailto:help@opendatahub.com?subject=[Use Case - Ontopic]"
+        btn_label: "CONTACT US"
     partial: text-imgs-enlargeable.html
 
   - description: "The Open Data Hub Virtual Knowledge Graph was a great opportunity to show how data can be integrated into a highly usable source of precise information and knowledge. The solutions developed also thanks to this project allow now the fast and inexpensive creation of semantic layers, which can be used from a large variety of applications, such as PowerBI, Tableau, Metabase, Excel, Pandas and many more, in addition to the native RDF-oriented solutions."

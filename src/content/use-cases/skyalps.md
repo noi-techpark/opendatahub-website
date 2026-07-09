@@ -15,8 +15,9 @@ short:
   subtitle: "SKYALPS"
   title: "**Real-time flight data**"
   description: "Open, real-time flight data offers distinct advantages to passengers, airlines, travel industry stakeholders and regulatory authorities. It enhances efficiency and improves planning and decision-making, promoting a more seamless and transparent travel experience for everyone. Taxi and shuttle services, as well as hotels offering transfers, also benefit from the Open Data Hub's real-time data access."
-  btn_link: "/use-cases/skyalps"
-  btn_label: Read more
+  buttons:
+    - btn_link: "/use-cases/skyalps"
+      btn_label: Read more
   img_link: "/use-cases/skyalps"
   img_back: "/img/use-cases/skyalps/ODH-usecase-skyalps-1.jpg"
   img_back_alt: "Image of SkyAlps aircraft, highlighting the airline's use of Open Data Hub for real-time flight data integration."
@@ -36,12 +37,13 @@ start:
 paragraphs:
   - description: "SkyAlps is a small, regional airline of Bolzano
     that connects small and medium-sized cities in Europe with direct flights."
-    btn_link: "https://www.skyalps.com/de/flight-offers/destinations/"
-    btn_label: DISCOVER DESTINATIONS
     img_back: "/img/use-cases/skyalps/ODH-usecase-skyalps-2.jpg"
     img_credit: "Slide from the Open Data Hub Day 2023 presentation"
     img_back_alt: "SkyAlps airplane stationed at Bolzano Airport, representing the airline's regional connectivity."
     img_back_title: "SkyAlps Aircraft at Bolzano Airport"
+    buttons:
+      - btn_link: "https://www.skyalps.com/de/flight-offers/destinations/"
+        btn_label: DISCOVER DESTINATIONS
     partial: imgs-text-enlargeable.html
 
   - title: "**Open real-time flight data for stakeholders**"
@@ -61,8 +63,10 @@ paragraphs:
     partial: imgs-text-enlargeable.html
 
   - description: "The flight data dataset includes information on both real-time and scheduled flights. Through a public data access API, users can gain an overview of the SkyAlps timetable with live information such as prices, times, destinations, and more."
-    btn_link: "https://databrowser.opendatahub.com/dataset/table/tourism/v1/Trip"
-    btn_label: GO TO THE DATASET
+    buttons:
+      - btn_link: "https://databrowser.opendatahub.com/dataset/table/tourism/v1/Trip"
+        btn_label: GO TO THE DATASET
+        target_blank: true
     img_back: "/img/use-cases/skyalps/ODH-usecase-skyalps-5.jpg"
     img_credit: "Photo by Ross Parmly on Unsplash"
     img_back_alt: "Representatives from SkyAlps and Open Data Hub discussing data integration strategies."
@@ -70,11 +74,13 @@ paragraphs:
     partial: text-imgs-enlargeable.html
 
   - description: "Are you looking for a seamless way to integrate live, interactive data visualisation into your website? The Open Data Hub web component is ready to use and includes an interactive map designed to work perfectly with real-time datasets such as SkyAlps' flight data."
-    btn_link: "https://webcomponents.opendatahub.com/webcomponent/flightmap"
-    btn_label: DISCOVER THE WEBCOMPONENT
     img_back: "/img/use-cases/skyalps/ODH-usecase-skyalps-6.jpg"
     img_credit: "Screenshot of the Flightmap Web Component of the Open Data Hub on 19.06.2023"
     img_back_alt: "SkyAlps' online booking platform enriched with real-time data from Open Data Hub."
     img_back_title: "SkyAlps' Enhanced Booking System"
+    buttons:
+      - btn_link: "https://webcomponents.opendatahub.com/webcomponent/flightmap"
+        btn_label: DISCOVER THE WEBCOMPONENT
+        target_blank: true
     partial: imgs-text-enlargeable.html
 ---
