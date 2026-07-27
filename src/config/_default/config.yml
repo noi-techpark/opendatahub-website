@@ -210,6 +210,11 @@ menu:
       weight: 4
 
     - parent: resources
+      name: Lifecycle Management
+      URL: /lifecycle-management
+      weight: 5
+
+    - parent: resources
       name: Design Guidelines
       URL: /community/design-guidelines
       weight: 7

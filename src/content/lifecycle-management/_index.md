@@ -1,5 +1,5 @@
 ---
-position: "Documentation"
+position: "Lifecycle Management"
 
 seo:
   title: "Documentation | Access Open Data Hub tools and APIs"
