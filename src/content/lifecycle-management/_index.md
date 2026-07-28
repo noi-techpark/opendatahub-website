@@ -2,10 +2,10 @@
 position: "Lifecycle Management"
 
 seo:
-  title: "Documentation | Access Open Data Hub tools and APIs"
-  description: "Know more about how use the Open Data Hub tools and APIs to seamlessly integrate real-time data into your applications."
+  title: "Open Data Hub Lifecycle Management | APIs, Tools & Datasets"
+  description: "Understand the Development/Beta, Core/Production and Deprecated lifecycle states for Open Data Hub APIs, tools, features and datasets."
   keywords:
 
-title: "Documentation"
-subtitle: "This section helps you access the documentation, guides and technical resources of the Open Data Hub project, including wiki pages, how-to materials, frequently asked questions and practical examples, providing support for learning, implementation and integration across different use cases and development scenarios."
+title: "Lifecycle Management"
+subtitle: "Understand the development status, support level and future evolution of Open Data Hub APIs, tools, features and datasets. Our **lifecycle model** helps developers and organisations choose the right components, **plan integrations** and **prepare for changes**."
 ---

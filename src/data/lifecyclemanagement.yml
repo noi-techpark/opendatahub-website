@@ -1,0 +1,20 @@
+---
+title: "Lifecycle Management"
+subtitle: "Understand the development status, support level and future evolution of Open Data Hub APIs, tools, features and datasets. Our **lifecycle model** helps developers and organisations choose the right components, **plan integrations** and **prepare for changes**."
+
+why_section:
+  title: "Why Lifecycle Management"
+  subtitle: "Open Data Hub evolves continuously through research projects, community contributions and production services. Lifecycle Management makes this evolution transparent. Each component and dataset is assigned a clear status, so users can understand its stability, documentation level, support model and expected future. <ul><li>Choose components that match your production and innovation needs.</li><li>Identify experimental services before building critical integrations.</li><li>Receive clear notice when a component or dataset is being deprecated.</li><li>Plan migrations before a scheduled shutdown or removal.</li><li>Find the official replacement, documentation and related updates.</li></ul>"
+
+technical_section:
+  title: "Technical components lifecycle"
+  subtitle: "<table><thead><tr><th>State</th><th>Public description</th><th>Operational meaning</th></tr></thead><tbody><tr><td>R&D / Beta</td><td>Experimental components being tested and evaluated before a decision is made about production adoption.</td><td>Changes and downtime may occur; breaking changes are possible; documentation and customer-care knowledge may be limited; the component may be discontinued if it is not used or no longer strategic.</td></tr><tr><td>Core / Production</td><td>Stable components that form part of the Open Data Hub production environment.</td><td>Actively maintained; documented; known by customer care; stability is prioritised; breaking changes and downtime are avoided and communicated in advance whenever possible.</td></tr><tr><td>Deprecated</td><td>Components that are no longer part of the supported core and are planned for shutdown.</td><td>No active support or further development; availability is not guaranteed; the standard shutdown target is 12 months after the official announcement unless another date is stated.</td></tr></tbody></table>"
+
+dataset_section:
+  title: "Dataset lifecycle"
+  subtitle: "Datasets use the three main lifecycle labels, with an additional Archive badge for historical data. The criteria focus on data reliability, continuity, relevance and intended use."
+
+deprecation_section:
+  title: "Deprecation policy"
+  subtitle: "When a component or dataset enters Deprecated status, Open Data Hub publishes an official notice with the reason, affected users, replacement where available and a planned shutdown or removal date. The standard deprecation period is 12 months from the official announcement unless the Open Data Hub core team publishes a different timeframe. <ul><li>Announcements are published on the Updates page and lifecycle directory.</li><li>High-impact changes are communicated directly to registered users and through the Community Update email.</li><li>Relevant changes are presented at Open Data Hub events where appropriate.</li><li>Technical migration instructions belong in the documentation/changelog and are linked from the public notice.</li><li>A deprecated service retained for a specific customer may require a paid premium service agreement.</li></ul>"
+---
