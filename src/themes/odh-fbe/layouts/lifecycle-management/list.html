@@ -5,11 +5,36 @@
 
 {{ define "main" }}
 
-{{ partial "title.html" .Params }}
+  {{ partial "title.html" .Params }}
 
-{{ partial "title-section.html" site.Data.lifecyclemanagement.why_section }}
-{{ partial "title-section.html" site.Data.lifecyclemanagement.technical_section }}
-{{ partial "title-section.html" site.Data.lifecyclemanagement.dataset_section }}
-{{ partial "title-section.html" site.Data.lifecyclemanagement.deprecation_section }}
+  {{/* 1. Why Section */}}
+  {{ partial "title-section.html" site.Data.lifecyclemanagement.why_section }}
+
+  {{/* 2. Technical Components Lifecycle Section */}}
+  {{ partial "title-section.html" site.Data.lifecyclemanagement.technical_components_section }}
+  <div class="container">
+    {{ with site.Data.lifecyclemanagement.technical_components_section.technical_components_table }}
+      {{ partial "table.html" . }}
+    {{ end }}
+  </div>
+
+  {{/* Dataset Lifecycle Section */}}
+  {{ partial "title-section.html" site.Data.lifecyclemanagement.dataset_section }}
+  <div class="container">
+    {{ with site.Data.lifecyclemanagement.dataset_section.dataset_table }}
+      {{ partial "table.html" . }}
+    {{ end }}
+  </div>
+
+  {{/* Deprecation Section */}}
+  {{ partial "title-section.html" site.Data.lifecyclemanagement.deprecation_section }}
+
+  {{/* FAQ Section */}}
+  {{ partial "title-section.html" site.Data.lifecyclemanagement.faq_section }}
+  <div class="container">
+    {{ with site.Data.lifecyclemanagement.faq_section.faq_table }}
+      {{ partial "table.html" . }}
+    {{ end }}
+  </div>
 
 {{ end }}
