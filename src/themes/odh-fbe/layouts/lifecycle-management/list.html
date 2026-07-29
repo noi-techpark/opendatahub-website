@@ -7,10 +7,10 @@
 
   {{ partial "title.html" .Params }}
 
-  {{/* 1. Why Section */}}
+  {{/* Why Section */}}
   {{ partial "title-section.html" site.Data.lifecyclemanagement.why_section }}
 
-  {{/* 2. Technical Components Lifecycle Section */}}
+  {{/* Technical Components Lifecycle Section */}}
   {{ partial "title-section.html" site.Data.lifecyclemanagement.technical_components_section }}
   <div class="container">
     {{ with site.Data.lifecyclemanagement.technical_components_section.technical_components_table }}

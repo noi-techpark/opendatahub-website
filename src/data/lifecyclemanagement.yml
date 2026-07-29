@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+#
+# SPDX-License-Identifier: CC0-1.0
+
 ---
 title: "Lifecycle Management"
 subtitle: "Understand the development status, support level and future evolution of Open Data Hub APIs, tools, features and datasets. Our **lifecycle model** helps developers and organisations choose the right components, **plan integrations** and **prepare for changes**."
