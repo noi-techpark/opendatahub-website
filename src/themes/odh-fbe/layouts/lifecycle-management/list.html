@@ -1,0 +1,40 @@
+{{/*
+  SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+  SPDX-License-Identifier: AGPL-3.0-or-later
+*/}}
+
+{{ define "main" }}
+
+  {{ partial "title.html" .Params }}
+
+  {{/* Why Section */}}
+  {{ partial "title-section.html" site.Data.lifecyclemanagement.why_section }}
+
+  {{/* Technical Components Lifecycle Section */}}
+  {{ partial "title-section.html" site.Data.lifecyclemanagement.technical_components_section }}
+  <div class="container">
+    {{ with site.Data.lifecyclemanagement.technical_components_section.technical_components_table }}
+      {{ partial "table.html" . }}
+    {{ end }}
+  </div>
+
+  {{/* Dataset Lifecycle Section */}}
+  {{ partial "title-section.html" site.Data.lifecyclemanagement.dataset_section }}
+  <div class="container">
+    {{ with site.Data.lifecyclemanagement.dataset_section.dataset_table }}
+      {{ partial "table.html" . }}
+    {{ end }}
+  </div>
+
+  {{/* Deprecation Section */}}
+  {{ partial "title-section.html" site.Data.lifecyclemanagement.deprecation_section }}
+
+  {{/* FAQ Section */}}
+  {{ partial "title-section.html" site.Data.lifecyclemanagement.faq_section }}
+  <div class="container">
+    {{ with site.Data.lifecyclemanagement.faq_section.faq_table }}
+      {{ partial "table.html" . }}
+    {{ end }}
+  </div>
+
+{{ end }}

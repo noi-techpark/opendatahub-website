@@ -1,8 +1,8 @@
 ---
-position: "Documantation"
+position: "Documentation"
 
 seo:
-  title: "Documenation | Access Open Data Hub tools and APIs"
+  title: "Documentation | Access Open Data Hub tools and APIs"
   description: "Know more about how use the Open Data Hub tools and APIs to seamlessly integrate real-time data into your applications."
   keywords:
 

@@ -1,0 +1,76 @@
+{{/*
+  SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+  SPDX-License-Identifier: AGPL-3.0-or-later
+*/}}
+
+<div class="table-responsive my-3">
+  <table class="table table-bordered table-striped text-start custom-status-table mb-0">
+    {{ if .headers }}
+      <thead class="table-dark">
+        <tr>
+          {{ range .headers }}
+            <th scope="col" style="vertical-align: middle; text-align: left;">
+              {{ . | safeHTML }}
+            </th>
+          {{ end }}
+        </tr>
+      </thead>
+    {{ end }}
+    <tbody>
+      {{ range .rows }}
+        <tr style="vertical-align: middle;">
+          {{ range $index, $cell := . }}
+            <td style="vertical-align: middle; text-align: left;" {{ if eq $index 0 }}class="fw-bold"{{ end }}>
+              {{ $cell | safeHTML }}
+            </td>
+          {{ end }}
+        </tr>
+      {{ end }}
+    </tbody>
+  </table>
+</div>
+
+<style>
+  .table-container {
+    width: 100%;
+    margin: 1.5rem 0;
+    overflow-x: auto;
+  }
+
+  .custom-status-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: inherit;
+    border: 1px solid #222;
+    font-size: 0.95rem;
+  }
+
+  .custom-status-table th {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    text-align: left;
+    padding: 10px 14px;
+    font-weight: 700;
+    border: 1px solid #222;
+  }
+
+  .custom-status-table td {
+    padding: 14px;
+    border: 1px solid black;
+    vertical-align: top;
+    line-height: 1.45;
+  }
+
+  .custom-status-table tbody tr:nth-child(odd) {
+    background-color: #f3f3f3;
+  }
+
+  .custom-status-table tbody tr:nth-child(even) {
+    background-color: #ffffff;
+  }
+
+  .custom-status-table td:first-child {
+    font-weight: 700;
+    min-width: 140px;
+  }
+</style>
