@@ -59,6 +59,21 @@ apis:
         url: "https://docs.opendatahub.com/use-data/transmodel-api/reference#2-siri-lite-endpoints"
         target_blank: true
 
+  - title: "GEO API"
+    description: "Access Open Data Hub geospatial data through the GEO API."
+    category: "project_specific"
+    buttons:
+      - label: "Swagger"
+        url: "https://geo.api.opendatahub.com/swagger/index.html"
+        target_blank: true
+      - label: "Repository"
+        url: "https://github.com/noi-techpark/opendatahub-geo-api"
+        target_blank: true
+      - label: "Documentation"
+        url: ""
+        target_blank: true
+        
+
   - title: "AlpineBits HotelData"
     description: "Access accommodation inventory data via the Open Data Hub AlpineBits HotelData API."
     category: "project_specific"
