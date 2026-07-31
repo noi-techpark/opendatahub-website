@@ -77,5 +77,10 @@ boxes:
     btn_link: https://github.com/noi-techpark/it.bz.opendatahub.analytics.libs/tree/main/api/R
     target_blank: true
 
+  - title: GEO API
+    subtitle: Access Open Data Hub geospatial data through the GEO API.
+    btn_link: https://geo.api.opendatahub.com/swagger/index.html
+    target_blank: true
+
   
     
