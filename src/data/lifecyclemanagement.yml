@@ -47,7 +47,7 @@ dataset_section:
       - - "Deprecated"
         - "Data that is no longer reliable, relevant or maintained, or whose source/project has changed or ended."
         - "Do not start new integrations. Existing users should migrate to the indicated replacement before the removal date."
-      - - "Archive"
+      - - "Archived"
         - "Historical data retained for reference, research or reproducibility, but no longer actively updated."
         - "Suitable for historical analysis. Do not expect new records, current coverage or ongoing provider updates."
 
