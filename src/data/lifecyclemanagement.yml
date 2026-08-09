@@ -31,7 +31,7 @@ technical_components_section:
 
 dataset_section:
   title: "Dataset lifecycle"
-  subtitle: "Datasets use the three main lifecycle labels, with an additional Archive badge for historical data. The criteria focus on data reliability, continuity, relevance and intended use."
+  subtitle: "Datasets use the three main lifecycle labels, with an additional Archived badge for historical data. The criteria focus on data reliability, continuity, relevance and intended use."
   dataset_table:
     headers:
       - "State"
@@ -47,7 +47,7 @@ dataset_section:
       - - "Deprecated"
         - "Data that is no longer reliable, relevant or maintained, or whose source/project has changed or ended."
         - "Do not start new integrations. Existing users should migrate to the indicated replacement before the removal date."
-      - - "Archive"
+      - - "Archived"
         - "Historical data retained for reference, research or reproducibility, but no longer actively updated."
         - "Suitable for historical analysis. Do not expect new records, current coverage or ongoing provider updates."
 
@@ -71,5 +71,5 @@ faq_section:
       - - "Where do I find breaking technical changes?"
         - "Use the technical changelog, filtered by component, endpoint and version."
       - - "What happens to deprecated datasets?"
-        - "They remain visible during the migration period with an explanation and removal date. Historical data that remains useful may then be retained with an Archive badge; otherwise the dataset moves to deprecation history."
+        - "They remain visible during the migration period with an explanation and removal date. Historical data that remains useful may then be retained with an Archived badge; otherwise the dataset moves to deprecation history."
 ---
