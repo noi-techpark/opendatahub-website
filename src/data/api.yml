@@ -70,7 +70,7 @@ apis:
         url: "https://github.com/noi-techpark/opendatahub-geo-api"
         target_blank: true
       - label: "Documentation"
-        url: ""
+        url: "https://docs.opendatahub.com/use-data/geo-api/reference/"
         target_blank: true
         
 
