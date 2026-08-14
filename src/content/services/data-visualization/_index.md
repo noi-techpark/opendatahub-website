@@ -19,7 +19,7 @@ rows:
         Create a prototype in a short time and low cost to understand the potential of your idea: through a network of experts, the Free Software Lab helps you develop a prototype with innovative data visualization technologies that make your idea more concrete and valuable.
 
     buttons:
-      - btn_link: "https://freesoftwarelab.noi.bz.it/services/prototype/"
+      - btn_link: "https://freesoftwarelab.noi.bz.it/services/testbeforeinvest/"
         btn_label: "See details "
         target_blank: true
     img_back: "/img/services/data_visualization/ODH-data-visualization-top-image.jpg"

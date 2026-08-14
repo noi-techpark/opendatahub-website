@@ -67,11 +67,6 @@ boxes:
     btn_link: https://alpinebits.opendatahub.com/AlpineBits
     target_blank: true
 
-  - title: AlpineBits DestinationData API
-    subtitle: Discover destination data through the AlpineBits DestinationData REST API.
-    btn_link: https://destinationdata.alpinebits.opendatahub.com
-    target_blank: true
-
   - title: Access Open Data Hub data from R
     subtitle: bzar provides access to Open Data Hub time-series data from within R.
     btn_link: https://github.com/noi-techpark/it.bz.opendatahub.analytics.libs/tree/main/api/R
