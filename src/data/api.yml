@@ -105,7 +105,7 @@ apis:
       target_blank: true
 
   - title: "GBFS"
-    description: "Retrive a single access point to Open Data Hub GBFS feeds and metadata."
+    description: "Retrieve a single access point to Open Data Hub GBFS feeds and metadata."
     category: "project_specific"
     buttons:
       - label: "Swagger"
@@ -122,3 +122,14 @@ apis:
       - label: "Learn more"
         url: "/quickstart/opentripplanner/"
         target_blank: false
+
+  - title: "DATEX II API"
+    description: "Access traffic event data in the European standard DATEX II XML format."
+    category: "project_specific"
+    buttons:
+      - label: "Swagger"
+        url: "https://datex.api.opendatahub.com/"
+        target_blank: true
+      - label: "Repository"
+        url: " https://github.com/noi-techpark/opendatahub-datex2"
+        target_blank: true
