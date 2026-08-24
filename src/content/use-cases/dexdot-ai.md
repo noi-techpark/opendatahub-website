@@ -28,7 +28,7 @@ short:
   img_credit: 
   img_back_alt: "Dexdot AI website illustrating how tourism datasets from Open Data Hub can support practical AI solutions for businesses."
   bg_darker: false
-  partial: text-imgs-enlargeable.html
+  partial: imgs-text.html
   weight: 24
 
 start:
