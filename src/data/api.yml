@@ -82,7 +82,7 @@ apis:
         url: "https://github.com/noi-techpark/odh-alpinebits-server?tab=readme-ov-file#how-to-request-data"
         target_blank: true
 
-    - title: "GTFS"
+  - title: "GTFS"
     description: "Access a GTFS end-point within the Open Data Hub in some datasets."
     category: "project_specific"
     buttons:
