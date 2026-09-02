@@ -4,6 +4,7 @@ position: "Services"
 aliases: /register
 title: "Become an Open Data Hub registered user"
 subtitle: "Are you interested in exploring and using the Open Data Hub tools and resources? Registering will give you access to a range of powerful tools to help you analyse and visualise data efficiently."
+
 seo:
   title: "Registration | Become an Open Data Hub registered user"
   description: ""
@@ -14,11 +15,14 @@ rows:
     description:
       By registering, you will be able to log in to all Open Data Hub tools, such as the **[Data Browser](https://databrowser.opendatahub.com/)** and the **[Analytics Tool](https://analytics.opendatahub.com/)**.
 
+      
+      Once you have registered as a private user, you will automatically receive **[Basic Data Access rights](https://opendatahub.com/services/data-access/#pricing)**. 
+      
+      Companies and organisations wishing to become official Open Data Hub Data Consumers need to sign the free **[Basic Data Access contract](https://opendatahub.com/services/data-access/#pricing)**.   
+      If you need additional permissions for specific resources or datasets, please contact us at **[help@opendatahub.com](mailto:help@opendatahub.com)**.
 
-      Once you have registered, you will be given default access rights. If you need additional permissions for specific resources or datasets, please contact us at **[help@opendatahub.com](mailto:help@opendatahub.com)**.
 
-
-      If you're looking for even more options, you can also choose to access our **[Data Access](https://opendatahub.com/services/data-access/)** service, which offers additional features and enhanced capabilities.  Learn more about our pricing and plans **[here](https://opendatahub.com/services/data-access/#pricing)**.
+      If you're looking for even more options, you can also choose to access our **[Data Access](https://opendatahub.com/services/data-access/)** service, which offers higher request limits and additional services. Learn more about our pricing and plans **[here](https://opendatahub.com/services/data-access/#pricing)**.
 
 
       Start your journey with the Open Data Hub today!
