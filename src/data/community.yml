@@ -417,6 +417,10 @@ certified:
     - name: Smart taxi
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/smartTaxi.png"
       link: https://www.smarttaxi.it/
+    
+    - name: Swarco
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/swarco.png"
+      link: https://www.swarco.com/
 
 ########################### Partnerships and Alliances #########################
 partnerships:
