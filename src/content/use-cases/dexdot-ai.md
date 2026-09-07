@@ -34,7 +34,7 @@ short:
 start:
   description: "DEXDOT AI"
   title: "**When artificial intelligence meets the right data**"
-  subtitle: "Dexdot AI is a South Tyrolean startup that helps businesses unlock the potential of artificial intelligence. Since 2024, it has been supporting SMEs with process automation, AI-powered chatbots, custom AI models, and strategic consulting. By combining enterprise-grade AI with GDPR compliance and seamless software integration, Dexdot AI makes advanced technologies accessible to local businesses."
+  subtitle: "<b><a href='https://www.dexdot.it/it/'>Dexdot AI</a></b> is a South Tyrolean startup that helps businesses unlock the potential of artificial intelligence. Since 2024, it has been supporting SMEs with process automation, AI-powered chatbots, custom AI models, and strategic consulting. By combining enterprise-grade AI with GDPR compliance and seamless software integration, <b>Dexdot AI makes advanced technologies accessible to local businesses</b>."
   img_back: "/img/use-cases/dexdot_ai/open-data-hub-stratgeic-partner-dexdot.jpg"
   img_credit:
   img_back_title: "Dexdot AI – Tourism Data for AI Solutions"
@@ -43,24 +43,31 @@ start:
 
 paragraphs:
 
-  - description: "<p>For AI solutions to deliver meaningful results, they need access to accurate and up-to-date data. Many tourism businesses and SMEs, however, lack the resources to collect, manage, and maintain such datasets themselves. Building dedicated data infrastructures requires significant time, expertise, and investment.<p>To provide scalable AI solutions without developing its own data pipelines, Dexdot AI needed a reliable source of structured tourism data.<p>"
-    title: "**The Missing Ingredient: Reliable Data**"
+  - description: "<p>For AI solutions to deliver meaningful results, they need <b>access to accurate and up-to-date data</b>. Many tourism businesses and SMEs, however, lack the resources to collect, manage, and maintain such datasets themselves. Building dedicated data infrastructures requires significant time, expertise, and investment.<p>To provide scalable AI solutions without developing its own data pipelines, Dexdot AI needed a reliable source of structured tourism data.<p>"
+    buttons:
+      - btn_link: "https://opendatahub.com/datasets/"
+        btn_label: "Explore the datasets"
+    title: "**The missing ingredient: reliable data**"
     img_back: "/img/use-cases/dexdot_ai/open-data-hub-datasets.jpg"
     img_credit: 
     img_back_title: "Open Data Hub – Tourism Datasets for AI"
     img_back_alt: "Open Data Hub dataset catalogue showing tourism datasets that can provide structured data for AI applications and digital services"
     partial: imgs-text-enlargeable.html
 
-  - description: <p>Through the <b><a href="https://opendatahub.com/services/data-access/">Data Access</a></b> service of the Open Data Hub, Dexdot AI uses tourism datasets provided by Open Data Hub via its Data Access service. These datasets form the foundation for AI-powered analytics, automation, and business intelligence applications developed for tourism-related businesses in South Tyrol.<p>By relying on Open Data Hub's continuously maintained data infrastructure, Dexdot AI can focus on creating value for its clients rather than managing data collection processes. The data supports a wide range of applications, including tourist information chatbots, demand forecasting, personalised guest experiences, review analysis and seasonal workforce planning.</p>
-    title: "**Turning Open Data into Business Intelligence**"
+
+  - description: <p>Through the <b><a href="https://opendatahub.com/services/data-access/">Data Access</a></b> service of the Open Data Hub, Dexdot AI uses tourism datasets provided by Open Data Hub via its Data Access service. These datasets form the foundation for AI-powered analytics, automation, and business intelligence applications developed for tourism-related businesses in South Tyrol.<p>By relying on <b>Open Data Hub's continuously maintained data infrastructure</b>, Dexdot AI can focus on creating value for its clients rather than managing data collection processes. The data supports a wide range of applications, including tourist information chatbots, demand forecasting, personalised guest experiences, review analysis and seasonal workforce planning.</p>
+    buttons:
+      - btn_link: "https://opendatahub.com/services/data-access/"
+        btn_label: "Discover the Data Access service"
+    title: "**Turning open data into business intelligence**"
     img_back: "/img/use-cases/dexdot_ai/open-data-hub-data-access.jpg"
     img_credit: 
     img_back_title: "Open Data Hub Data Access for AI Applications"
     img_back_alt: "Open Data Hub Data Access service providing reliable tourism datasets for AI analytics, automation and business applications."
     partial: text-imgs-enlargeable.html
 
-  - description: "<p>The collaboration with Open Data Hub enables Dexdot AI to develop and deploy solutions more quickly while reducing technical complexity and operational costs. Ready-to-use datasets eliminate the need for custom data infrastructures and provide a reliable basis for data-driven decision-making.<p>As a result, businesses gain access to AI-powered tools that improve efficiency, support better decisions, and enhance customer experiences without having to invest in their own data management systems.<p>"
-    title: "**Faster Innovation, Lower Complexity**"
+  - description: "<p>The collaboration with Open Data Hub enables Dexdot AI to <b>develop and deploy solutions more quickly</b> while reducing technical complexity and operational costs. <b>Ready-to-use datasets</b> eliminate the need for custom data infrastructures and provide a reliable basis for data-driven decision-making.<p>As a result, businesses gain access to AI-powered tools that <b>improve efficiency, support better decisions</b>, and enhance customer experiences without having to invest in their own data management systems.<p>"
+    title: "**Faster innovation, lower complexity**"
     img_back: "/img/use-cases/dexdot_ai/open-data-hub-agora-dexdot.jpg"
     img_credit: 
     img_back_title: "AI Tourism Chatbot Powered by Reliable Data"
@@ -68,7 +75,7 @@ paragraphs:
     partial: imgs-text-enlargeable.html
     
 
-  - description: "<p>If you are looking to develop data-driven services, automate processes, or build new digital solutions, explore the possibilities offered by Open Data Hub. Access reliable datasets, reduce development effort and turn data into meaningful applications for your organisation.</p>"
+  - description: "<p>If you are looking to develop data-driven services, automate processes, or build new digital solutions, explore the <b>possibilities offered by Open Data Hub</b>. Access reliable datasets, reduce development effort and turn data into meaningful applications for your organisation.</p>"
     buttons:
       - btn_link: "mailto:help@opendatahub.com?subject=[Use Case - Dexdot AI]"
         btn_label: "Contact us"
