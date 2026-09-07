@@ -29,7 +29,7 @@ short:
   img_credit: 
   img_back_alt: "PadoVia app showing real-time bus information powered by GTFS and GTFS-RT public transport data from Open Data Hub."
   bg_darker: false
-  partial: imgs-text.html
+  partial: text-imgs.html
   weight: 25
 
 start:
@@ -48,6 +48,9 @@ paragraphs:
     img_back_title: "PadoVia Team – Public Transport Data Use Case"
     img_back_alt: "PadoVia team with Open Data Hub staff, representing collaboration on real-time public transport data and mobility services."
     partial: imgs-text-enlargeable.html
+    buttons:
+      - btn_link: "https://opendatahub.com/api/"
+        btn_label: Discover the Open Data Hub APIs
 
     
 
@@ -59,7 +62,7 @@ paragraphs:
     img_back_alt: "PadoVia mobile map displaying live vehicle positions, public transport stops and timetable information using Open Data Hub data."
     partial: text-imgs-enlargeable.html
 
-  - description: "PadoVia demonstrates how standardised access to official public transport data can become the basis for practical, user-focused mobility services. Through Open Data Hub, developers and mobility providers can access GTFS and GTFS-RT data and integrate scheduled and real-time transport information into their own applications.<p>Explore the available public transport data and discover how the same approach can support your next mobility project.<p>**Find out how to get started with Data Access:** <p><a href=\"https://opendatahub.com/services/data-access/\" target=\"_blank\" style=\"text-decoration: underline;\">Open Data Hub - Data Access</a></p>"
+  - description: "PadoVia demonstrates how standardised access to official public transport data can become the basis for practical, user-focused mobility services. Through Open Data Hub, developers and mobility providers can access GTFS and GTFS-RT data and integrate scheduled and real-time transport information into their own applications.<p>Explore the available public transport data and discover how the same approach can support your next mobility project.<p>**Find out how to get started with Data Access:**"
 
     title: "**Build new mobility services with Open Data Hub**"
     img_back: "/img/use-cases/padovia/open-data-hup-developers-8173.jpg"
@@ -67,6 +70,9 @@ paragraphs:
     img_back_title: "Open Data Hub – Data Access for Mobility Apps"
     img_back_alt: "Developer working with Open Data Hub, illustrating Data Access for GTFS and GTFS-RT public transport applications."
     partial: imgs-text-enlargeable.html
+    buttons:
+      - btn_link: "https://opendatahub.com/services/data-access/"
+        btn_label: Open Data Hub - Data Access
     
 
 
