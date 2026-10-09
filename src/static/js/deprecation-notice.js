@@ -70,6 +70,10 @@
     return true;
   }
 
+  // The widget loads asynchronously and fetches its data from an API, so the
+  // <datasets-list-widget> element may not exist yet when this script runs.
+  // This polls every 100 ms until the script can attach to it, and stops
+  // polling once it succeeds or after (about 10 seconds)
   var tries = 0;
   var timer = setInterval(function () {
     if (init() || ++tries > 100) clearInterval(timer);
