@@ -12,11 +12,7 @@ seo:
   description: "Join Open Data Hub Day 2026 on 15 May at NOI Techpark in Bolzano to explore best practices, real use cases and data spaces with experts from business and research."
 
 aliases:
-  - "/events/odhday"
-  - "/events/day"
   - "/events/odhday26"
-  - "/odhday"
-  - "/day"
   - "/odhday26"
 
 start:

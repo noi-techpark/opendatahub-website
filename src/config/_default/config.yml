@@ -90,8 +90,9 @@ params:
       - title: Quickstart
         title_URL: /quickstart
         rows:
-          - text: Datasets
-            URL: /datasets
+          - text: Discovery Tool
+            URL: https://discovery.opendatahub.com/
+            target_blank: true
           - text: Data Browser
             URL: https://databrowser.opendatahub.com/
             target_blank: true

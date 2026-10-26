@@ -15,12 +15,8 @@
 		<section class="bg-darker pb-1">
 			{{ partial "call-for-speaker-section.html" .Params.callForSpeakers }}
 		</section> 
-
-		<section class="bg pb-1">
-			{{ partial "title-section.html" .Params.program }}
-			{{ partial .Params.content_partial .Params.content }}
-		</section>
-	{{else}}
+	{{end}}
+	{{ if (.Params.program) }}
 		<section class="bg pb-1">
 			{{ partial "title-section.html" .Params.program }}
 			{{ partial .Params.content_partial .Params.content }}

@@ -12,8 +12,6 @@ images:
   - "/img/events/20260414-bootcamp-1200-630.png"
 
 aliases:
-  - "/events/bootcamp"
-  - "/bootcamp"
   - "/bootcamp26"
 
 start:
