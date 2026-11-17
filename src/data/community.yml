@@ -264,6 +264,10 @@ consumers:
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/factory.png"
       link: https://www.factory.it
 
+    - name: Grewp
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/grewp.png"
+      link: https://grewp.org/en
+
     - name: IDM Südtirol/Alto Adige
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/IDM.png"
       link: http://idm-suedtirol.com
@@ -295,6 +299,10 @@ consumers:
     - name: Ontopic
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/Ontopic.png"
       link: https://ontopic.biz/
+
+    - name: Offbeat Works
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/offbeat-works.png"
+      link: https://offbeatworks.studio/
 
     - name: Openmove
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/openmove.png"
