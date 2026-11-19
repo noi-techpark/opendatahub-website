@@ -11,6 +11,10 @@ providers:
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/a22.png"
       link: https://www.autobrennero.it/
 
+    - name: ABD Airport
+      img: "img/community/ABD.png"
+      link: https://www.bolzanoairport.it/
+
     - name: Alperia SpA
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/alperia.png"
       link: https://www.alperia.eu/
@@ -26,6 +30,14 @@ providers:
     - name: Autonomous Province of Trento
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/ProvinciaTrento.png"
       link: http://www.provincia.tn.it/
+
+    - name: Azienda di Soggiorno e Turismo Bolzano
+      img: "img/community/AziendaSoggiornoBZ.png"
+      link: https://www.bolzano-bozen.it/
+
+    - name: Berger Hotel
+      img: "img/community/BergerHotel.png"
+      link: https://www.hotel-post-gries.com/
 
     - name: Car Sharing Südtirol Alto Adige
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/carSharingAA.png"
@@ -111,6 +123,10 @@ providers:
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/lts.png"
       link: https://www.lts.it
 
+    - name: Meranarena
+      img: "img/community/Meranarena.png"
+      link: https://www.meranarena.it/
+
     - name: Municipality of Badia
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/municipalityBadia.png"
       link: https://www.comune.badia.bz.it/
@@ -155,13 +171,29 @@ providers:
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/oetziStrom.png"
       link: https://www.oetzi-sev.it/it/
 
+    - name: Park Urtijëi
+      img: "img/community/Park_Urtijei.png"
+      link: https://www.parkurtijei.it
+
     - name: Papin Sport
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/papinSport.png"
       link: https://www.papinsport.com/
 
+    - name: Racines-Giovo
+      img: "img/community/RacinesGiovo.png"
+      link: https://www.ratschings-jaufen.it/
+
     - name: Route 220
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/route220.png"
       link: https://evway.net/
+
+    - name: Schöneben
+      img: "img/community/Schoeneben.png"
+      link: https://www.schoeneben.it/
+
+    - name: Silbernagl
+      img: "img/community/Silbernagl.png"
+      link: https://www.silbernagl.it/
 
     - name: SkyAlps
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/skyalps.png"
