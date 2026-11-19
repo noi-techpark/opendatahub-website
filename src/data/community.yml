@@ -12,7 +12,7 @@ providers:
       link: https://www.autobrennero.it/
 
     - name: ABD Airport
-      img: "img/community/ABD.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/ABD.png"
       link: https://www.bolzanoairport.it/
 
     - name: Alperia SpA
@@ -32,11 +32,11 @@ providers:
       link: http://www.provincia.tn.it/
 
     - name: Azienda di Soggiorno e Turismo Bolzano
-      img: "img/community/AziendaSoggiornoBZ.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/AziendaSoggiornoBZ.png"
       link: https://www.bolzano-bozen.it/
 
     - name: Berger Hotel
-      img: "img/community/BergerHotel.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/BergerHotel.png"
       link: https://www.hotel-post-gries.com/
 
     - name: Car Sharing Südtirol Alto Adige
@@ -124,7 +124,7 @@ providers:
       link: https://www.lts.it
 
     - name: Meranarena
-      img: "img/community/Meranarena.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/Meranarena.png"
       link: https://www.meranarena.it/
 
     - name: Municipality of Badia
@@ -172,7 +172,7 @@ providers:
       link: https://www.oetzi-sev.it/it/
 
     - name: Park Urtijëi
-      img: "img/community/Park_Urtijei.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/Park_Urtijei.png"
       link: https://www.parkurtijei.it
 
     - name: Papin Sport
@@ -180,7 +180,7 @@ providers:
       link: https://www.papinsport.com/
 
     - name: Racines-Giovo
-      img: "img/community/RacinesGiovo.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/RacinesGiovo.png"
       link: https://www.ratschings-jaufen.it/
 
     - name: Route 220
@@ -188,11 +188,11 @@ providers:
       link: https://evway.net/
 
     - name: Schöneben
-      img: "img/community/Schoeneben.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/Schoeneben.png"
       link: https://www.schoeneben.it/
 
     - name: Silbernagl
-      img: "img/community/Silbernagl.png"
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/Silbernagl.png"
       link: https://www.silbernagl.it/
 
     - name: SkyAlps
