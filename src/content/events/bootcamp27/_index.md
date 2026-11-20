@@ -9,7 +9,7 @@ seo:
   description: "Join the fifth Open Data Hub Bootcamp on 13 April 2027 at NOI Techpark in Bolzano to code with real data, solve business challenges and learn by doing."
 
 images:
-  - "/img/events/bootcamp-generic.png"
+  - "/img/events/bootcamp-generic-red.png"
 
 aliases:
   - "/events/bootcamp"
@@ -24,7 +24,7 @@ start:
     <br>
     Whether you are a developer, creator, designer, data expert, entrepreneur, tech enthusiast or just someone who loves coding, we encourage you to get involved in the next edition of the event!
   "
-  img_back: "/img/events/bootcamp-generic.png"
+  img_back: "/img/events/bootcamp-generic-red.png"
   img_credit: "© Open Data Hub"
   img_back_title: "Open Data Hub Bootcamp 2027"
   img_back_alt: "Open Data Hub Bootcamp - 13th April 2027 - NOI Techpark Bolzano/Bozen, Italy"
