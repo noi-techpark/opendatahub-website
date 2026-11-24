@@ -264,6 +264,10 @@ consumers:
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/factory.png"
       link: https://www.factory.it
 
+    - name: FlipNext
+      img: "https://third-party.opendatahub.com/opendatahub-website/img/community/flipnext.png"
+      link: https://www.flipnext.it
+
     - name: Grewp
       img: "https://third-party.opendatahub.com/opendatahub-website/img/community/grewp.png"
       link: https://grewp.org/en
