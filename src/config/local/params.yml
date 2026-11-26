@@ -1,0 +1,21 @@
+# SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+#
+# SPDX-License-Identifier: CC0-1.0
+
+# The local ecosystem of opendatahub-platform (deploy/local): the apps at *.localhost:8800. Only the
+# search element comes from the local webcomponent store, at the URL in HUGO_SEARCH_ELEMENT_URL;
+# without it the home page keeps its mission section. The other widgets stay on the testing store.
+
+web_components:
+  search_box:
+    tag_name: odh-search
+    module: true
+    attributes:
+      - key: discovery-url
+        value: http://discovery.localhost:8800
+      - key: api-url
+        value: http://catalog.localhost:8800
+      - key: links
+        value: '[{"label":"Datasets","href":"http://discovery.localhost:8800/"}]'
+
+noindex: true

@@ -338,6 +338,12 @@ On local development and on testingmachine deploys this Web Component would rend
 
 On production deploys the url will point to the production script of the Web Component.
 
+The partial also takes `module: true`, which loads the script with `type="module"`, and `script_url`, the full address of the script, which replaces `<wcs_cdn_base>/dist/<uuid>/<script_name>`, and `integrity`, a subresource hash that also sets `crossorigin="anonymous"`.
+
+### Catalog search on the home page
+
+When `params.web_components.search_box` is set and its script address is known, the top of the home page is the catalog search element `<odh-search>` instead of the mission section. The address is `script_url` of the entry or, when that is missing, the environment variable `HUGO_SEARCH_ELEMENT_URL`; `HUGO_SEARCH_ELEMENT_INTEGRITY` gives its hash. Only the `local` environment (`src/config/local/`) sets the entry; the testing and production builds keep the mission section until the element is in their stores. The `local` environment is the one of the [local ecosystem](https://github.com/noi-techpark/opendatahub-platform/tree/main/deploy/local), which builds this site, publishes the element to its webcomponent store and serves the result at `http://website.localhost:8800`; to use it elsewhere, run `HUGO_SEARCH_ELEMENT_URL=<address> hugo server -s src --environment local`.
+
 ## Hiding Pages in Hugo
 
 To hide a page from being published, set the following in the page frontmatter:

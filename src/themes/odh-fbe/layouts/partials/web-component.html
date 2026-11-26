@@ -10,4 +10,5 @@
   {{ end }}
 {{ ">" | safeHTML }}
 {{ print "</" .tag_name ">" | safeHTML }}
-<script src="{{ site.Params.wcs_cdn_base }}/dist/{{ .uuid }}/{{ .script_name }}"></script>
+{{ $src := .script_url | default (printf "%s/dist/%s/%s" site.Params.wcs_cdn_base .uuid .script_name) -}}
+<script {{ if .module }}type="module" {{ end }}src="{{ $src }}"{{ with .integrity }} integrity="{{ . }}" crossorigin="anonymous"{{ end }}></script>

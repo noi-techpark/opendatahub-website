@@ -6,7 +6,16 @@
 
 {{ define "main" }}
 
-{{ partial "title-cta.html" site.Data.home.mission }}
+{{ $box := site.Params.web_components.search_box -}}
+{{ $boxSrc := "" -}}
+{{ with $box }}{{ $boxSrc = .script_url | default (getenv "HUGO_SEARCH_ELEMENT_URL") }}{{ end -}}
+{{ if $boxSrc -}}
+<section class="search-box">
+	{{ partial "web-component.html" (dict "tag_name" $box.tag_name "attributes" $box.attributes "module" $box.module "script_url" $boxSrc "integrity" (getenv "HUGO_SEARCH_ELEMENT_INTEGRITY")) }}
+</section>
+<style>.search-box { margin-top: 0; } .search-box > odh-search { display: block; }</style>
+{{ else -}}
+{{ partial "title-cta.html" site.Data.home.mission }}{{ end }}
 
 
 <div class="white-font">
